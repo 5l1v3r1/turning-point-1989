@@ -1,0 +1,22 @@
+MEX;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+170001;Head of State;Miguel de la Madrid;1985;2012;2012;SL;Autocratic Charmer;Very High;MEX1;X
+170002;Head of Government;Miguel de la Madrid;1985;2012;2012;SL;Corporate Suit;Very High;MEX1;X
+170003;Foreign Minister;Bernardo Sepúlveda Amor;1985;2012;2012;SL;Great Compromiser;Very High;MEX2;X
+170004;Minister of Armament;Jesús Silva Herzog Flores;1985;2012;2012;SL;Laissez-Faire Capitalist;Very High;MEX3;X
+170005;Minister of Security;Manuel Bartlett Díaz;1985;2012;2012;SL;Back Stabber;Very High;MEX4;X
+170006;Head of Military Intelligence;Manuel Bartlett Díaz;1985;2012;2012;SL;Political Specialist;Very High;MEX4;X
+170007;Chief of Staff;Juan Arévalo Gardoqui;1985;2012;2012;SC;School of Defence;Very High;MEX5;X
+170008;Chief of Army;Juan Arévalo Gardoqui;1985;2012;2012;SC;Static Defence Doctrine;Very High;MEX5;X
+170009;Chief of Navy;Miguel Angel Gómez Ortega;1985;2012;2012;ML;Power Projection Doctrine;Very High;MEX6;X
+170010;Chief of Air Force;Juan Arévalo Gardoqui;1985;2012;2012;SC;Army Aviation Doctrine;Very High;MEX5;X
+;Replacements;;;;;;;;;X
+170011;Head of State;Carlos Salinas;1985;2012;2012;SL;Autocratic Charmer;Very High;MEX7;X
+170012;Head of Government;Carlos Salinas;1985;2012;2012;SL;Corporate Suit;Very High;MEX7;X
+170013;Head of State;Cuauhtémoc Cárdenas;1985;2012;2012;SL;Pig-headed Isolationist;Very High;MEX8;X
+170014;Head of Government;Cuauhtémoc Cárdenas;1985;2012;2012;SL;Ambitious Union Boss;Very High;MEX8;X
+170015;Minister of Armament;Rosario Robles;1985;2012;2012;SL;Administrative Genius;Very High;MEX9;X
+170016;Minister of Security;Amalia García;1985;2012;2012;SL;Man of the People;Very High;MEX10;X
+170017;Head of Military Intelligence;Amalia García;1985;2012;2012;SL;Political Specialist;Very High;MEX10;X
+170018;Chief of Staff;Miguel Angel Gómez Ortega;1985;2012;2012;SC;School of Defence;Very High;MEX6;X
+170019;Chief of Army;Gerardo Vega Garcia;1985;2012;2012;SC;Static Defence Doctrine;Very High;MEX11;X
+170020;Chief of Air Force;Miguel Angel Gómez Ortega;1985;2012;2012;SC;Naval Aviation Doctrine;Very High;MEX6;X

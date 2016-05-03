@@ -1,0 +1,15 @@
+1.9.x
+	- Space Race (1956) scenario
+	- Caribbean Crisis (1959) scenario
+	- Setting up nuclear advantage and crude balancing of WW3
+	- Warsaw Uprising
+	- Tito Uprising
+	- Free City of Trieste
+2.0.x
+	- fine-tuning demobilization
+	- events keeping Eastern Bloc together
+	- AI
+	- European integration
+2.1.x
+	- additional leaders
+	- additional tech teams

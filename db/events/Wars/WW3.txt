@@ -1,0 +1,339 @@
+#########################################################################
+#  France joins NATO
+#########################################################################
+event = {
+	id = 2133001
+	random = no
+	country = FRA
+	
+	trigger = {
+		war = { country = DFR  country = SOV }
+		war = { country = USA  country = SOV }
+		NOT = {
+			alliance = { country = FRA country = DFR }
+			alliance = { country = FRA country = USA }
+		}
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "france_nato"
+	desc = "france_nato_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = ACTION_NAME_WAR
+		trigger = { flag = tpstandard }
+		ai_chance = 90
+		command = { type = alliance where = 2 when = 2 }
+	}
+	action = {
+		name = ACTION_NAME_WAR
+		trigger = { ai = yes flag = historical }
+		ai_chance = 90
+		command = { type = alliance where = 2 when = 2 }
+	}
+	action = {
+		name = ACTION_NAME_WAR
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 10
+		command = { type = alliance where = 2 when = 2 }
+	}
+	action = {
+		name = ACTION_NAME_WAR
+		trigger = { ai = yes flag = wic }
+		ai_chance = 99
+		command = { type = alliance where = 2 when = 2 }
+	}
+	action = {
+		name = ACTION_NAME_NEUTRAL
+		trigger = { flag = tpstandard }
+		ai_chance = 60
+		command = { type = dissent value = 10 }
+		command = { type = end_guarantee which = FRA where = DFR }
+		command = { type = end_guarantee which = FRA where = USA }
+		command = { type = end_guarantee which = FRA where = ENG }
+		command = { type = end_guarantee which = FRA where = POR }
+		command = { type = end_guarantee which = FRA where = SPA }
+		command = { type = end_guarantee which = FRA where = BEL }
+		command = { type = end_guarantee which = FRA where = HOL }
+		command = { type = end_guarantee which = FRA where = LUX }
+		command = { type = end_guarantee which = FRA where = ITA }
+		command = { type = end_guarantee which = FRA where = GRE }
+		command = { type = end_guarantee which = FRA where = NOR }
+		command = { type = end_guarantee which = FRA where = TUR }
+		command = { type = end_guarantee which = FRA where = CAN }
+		command = { type = relation where = DFR value = -200 }
+		command = { type = relation where = USA value = -200 }
+		command = { type = relation where = ENG value = -200 }
+		command = { type = relation where = POR value = -200 }
+		command = { type = relation where = SPA value = -200 }
+		command = { type = relation where = BEL value = -200 }
+		command = { type = relation where = HOL value = -200 }
+		command = { type = relation where = LUX value = -200 }
+		command = { type = relation where = ITA value = -200 }
+		command = { type = relation where = GRE value = -200 }
+		command = { type = relation where = NOR value = -200 }
+		command = { type = relation where = TUR value = -200 }
+		command = { type = relation where = CAN value = -200 }
+	}
+	action = {
+		name = ACTION_NAME_NEUTRAL
+		trigger = { ai = yes flag = historical }
+		ai_chance = 10
+		command = { type = dissent value = 10 }
+		command = { type = end_guarantee which = FRA where = DFR }
+		command = { type = end_guarantee which = FRA where = USA }
+		command = { type = end_guarantee which = FRA where = ENG }
+		command = { type = end_guarantee which = FRA where = POR }
+		command = { type = end_guarantee which = FRA where = SPA }
+		command = { type = end_guarantee which = FRA where = BEL }
+		command = { type = end_guarantee which = FRA where = HOL }
+		command = { type = end_guarantee which = FRA where = LUX }
+		command = { type = end_guarantee which = FRA where = ITA }
+		command = { type = end_guarantee which = FRA where = GRE }
+		command = { type = end_guarantee which = FRA where = NOR }
+		command = { type = end_guarantee which = FRA where = TUR }
+		command = { type = end_guarantee which = FRA where = CAN }
+		command = { type = relation where = DFR value = -200 }
+		command = { type = relation where = USA value = -200 }
+		command = { type = relation where = ENG value = -200 }
+		command = { type = relation where = POR value = -200 }
+		command = { type = relation where = SPA value = -200 }
+		command = { type = relation where = BEL value = -200 }
+		command = { type = relation where = HOL value = -200 }
+		command = { type = relation where = LUX value = -200 }
+		command = { type = relation where = ITA value = -200 }
+		command = { type = relation where = GRE value = -200 }
+		command = { type = relation where = NOR value = -200 }
+		command = { type = relation where = TUR value = -200 }
+		command = { type = relation where = CAN value = -200 }
+	}
+	action = {
+		name = ACTION_NAME_NEUTRAL
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 50
+		command = { type = dissent value = 10 }
+		command = { type = end_guarantee which = FRA where = DFR }
+		command = { type = end_guarantee which = FRA where = USA }
+		command = { type = end_guarantee which = FRA where = ENG }
+		command = { type = end_guarantee which = FRA where = POR }
+		command = { type = end_guarantee which = FRA where = SPA }
+		command = { type = end_guarantee which = FRA where = BEL }
+		command = { type = end_guarantee which = FRA where = HOL }
+		command = { type = end_guarantee which = FRA where = LUX }
+		command = { type = end_guarantee which = FRA where = ITA }
+		command = { type = end_guarantee which = FRA where = GRE }
+		command = { type = end_guarantee which = FRA where = NOR }
+		command = { type = end_guarantee which = FRA where = TUR }
+		command = { type = end_guarantee which = FRA where = CAN }
+		command = { type = relation where = DFR value = -200 }
+		command = { type = relation where = USA value = -200 }
+		command = { type = relation where = ENG value = -200 }
+		command = { type = relation where = POR value = -200 }
+		command = { type = relation where = SPA value = -200 }
+		command = { type = relation where = BEL value = -200 }
+		command = { type = relation where = HOL value = -200 }
+		command = { type = relation where = LUX value = -200 }
+		command = { type = relation where = ITA value = -200 }
+		command = { type = relation where = GRE value = -200 }
+		command = { type = relation where = NOR value = -200 }
+		command = { type = relation where = TUR value = -200 }
+		command = { type = relation where = CAN value = -200 }
+	}
+	action = {
+		name = ACTION_NAME_NAP
+		trigger = { flag = tpstandard }
+		ai_chance = 30
+		command = { type = dissent value = 20 }
+		command = { type = end_guarantee which = FRA where = DFR }
+		command = { type = end_guarantee which = FRA where = USA }
+		command = { type = end_guarantee which = FRA where = ENG }
+		command = { type = end_guarantee which = FRA where = POR }
+		command = { type = end_guarantee which = FRA where = SPA }
+		command = { type = end_guarantee which = FRA where = BEL }
+		command = { type = end_guarantee which = FRA where = HOL }
+		command = { type = end_guarantee which = FRA where = LUX }
+		command = { type = end_guarantee which = FRA where = ITA }
+		command = { type = end_guarantee which = FRA where = GRE }
+		command = { type = end_guarantee which = FRA where = NOR }
+		command = { type = end_guarantee which = FRA where = TUR }
+		command = { type = end_guarantee which = FRA where = CAN }
+		command = { type = set_relation where = DFR value = -200 }
+		command = { type = set_relation where = USA value = -200 }
+		command = { type = set_relation where = ENG value = -200 }
+		command = { type = set_relation where = POR value = -200 }
+		command = { type = set_relation where = SPA value = -200 }
+		command = { type = set_relation where = BEL value = -200 }
+		command = { type = set_relation where = HOL value = -200 }
+		command = { type = set_relation where = LUX value = -200 }
+		command = { type = set_relation where = ITA value = -200 }
+		command = { type = set_relation where = GRE value = -200 }
+		command = { type = set_relation where = NOR value = -200 }
+		command = { type = set_relation where = TUR value = -200 }
+		command = { type = set_relation where = CAN value = -200 }
+		command = { type = trigger which = 2133002 }
+	}
+	action = {
+		name = ACTION_NAME_NAP
+		trigger = { ai = yes flag = historical }
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = end_guarantee which = FRA where = DFR }
+		command = { type = end_guarantee which = FRA where = USA }
+		command = { type = end_guarantee which = FRA where = ENG }
+		command = { type = end_guarantee which = FRA where = POR }
+		command = { type = end_guarantee which = FRA where = SPA }
+		command = { type = end_guarantee which = FRA where = BEL }
+		command = { type = end_guarantee which = FRA where = HOL }
+		command = { type = end_guarantee which = FRA where = LUX }
+		command = { type = end_guarantee which = FRA where = ITA }
+		command = { type = end_guarantee which = FRA where = GRE }
+		command = { type = end_guarantee which = FRA where = NOR }
+		command = { type = end_guarantee which = FRA where = TUR }
+		command = { type = end_guarantee which = FRA where = CAN }
+		command = { type = set_relation where = DFR value = -200 }
+		command = { type = set_relation where = USA value = -200 }
+		command = { type = set_relation where = ENG value = -200 }
+		command = { type = set_relation where = POR value = -200 }
+		command = { type = set_relation where = SPA value = -200 }
+		command = { type = set_relation where = BEL value = -200 }
+		command = { type = set_relation where = HOL value = -200 }
+		command = { type = set_relation where = LUX value = -200 }
+		command = { type = set_relation where = ITA value = -200 }
+		command = { type = set_relation where = GRE value = -200 }
+		command = { type = set_relation where = NOR value = -200 }
+		command = { type = set_relation where = TUR value = -200 }
+		command = { type = set_relation where = CAN value = -200 }
+		command = { type = trigger which = 2133002 }
+	}
+	action = {
+		name = ACTION_NAME_NAP
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 50
+		command = { type = dissent value = 20 }
+		command = { type = end_guarantee which = FRA where = DFR }
+		command = { type = end_guarantee which = FRA where = USA }
+		command = { type = end_guarantee which = FRA where = ENG }
+		command = { type = end_guarantee which = FRA where = POR }
+		command = { type = end_guarantee which = FRA where = SPA }
+		command = { type = end_guarantee which = FRA where = BEL }
+		command = { type = end_guarantee which = FRA where = HOL }
+		command = { type = end_guarantee which = FRA where = LUX }
+		command = { type = end_guarantee which = FRA where = ITA }
+		command = { type = end_guarantee which = FRA where = GRE }
+		command = { type = end_guarantee which = FRA where = NOR }
+		command = { type = end_guarantee which = FRA where = TUR }
+		command = { type = end_guarantee which = FRA where = CAN }
+		command = { type = set_relation where = DFR value = -200 }
+		command = { type = set_relation where = USA value = -200 }
+		command = { type = set_relation where = ENG value = -200 }
+		command = { type = set_relation where = POR value = -200 }
+		command = { type = set_relation where = SPA value = -200 }
+		command = { type = set_relation where = BEL value = -200 }
+		command = { type = set_relation where = HOL value = -200 }
+		command = { type = set_relation where = LUX value = -200 }
+		command = { type = set_relation where = ITA value = -200 }
+		command = { type = set_relation where = GRE value = -200 }
+		command = { type = set_relation where = NOR value = -200 }
+		command = { type = set_relation where = TUR value = -200 }
+		command = { type = set_relation where = CAN value = -200 }
+		command = { type = trigger which = 2133002 }
+	}
+}
+#Soviets receive the offer
+event = {
+	id = 2133002
+	random = no
+	country = SOV
+	
+	name = "france_nato_2"
+	desc = "france_nato_2_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = ACTION_NAME_ACCEPT
+		ai_chance = 90
+		command = { type = non_aggression which = SOV where = FRA }
+		command = { type = set_relation where = FRA value = 100 }
+		command = { type = setflag which = fra_nap_sov }
+		command = { type = trigger which = 2133003 }
+	}
+	action = {
+		name = ACTION_NAME_REFUSE
+		ai_chance = 10
+		command = { type = belligerence value = 5 }
+		command = { type = relation where = FRA value = -200 }
+		command = { type = trigger which = 2133003 }
+	}
+}
+#France receive the answer
+event = {
+	id = 2133003
+	random = no
+	country = FRA
+	one_action = yes
+	
+	name = "france_nato_3"
+	desc = "france_nato_3_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		trigger = { flag = fra_nap_sov }
+		name = ACTION_NAME_THEY_ACCEPT
+		command = { type = dissent value = -10 }
+		command = { type = clrflag which = fra_nap_sov }
+	}
+	action = {
+		trigger = { NOT = { flag = fra_nap_sov } }
+		name = ACTION_NAME_THEY_REFUSE
+		command = { type = dissent value = 20 }
+	}
+}
+#########################################################################
+#  Resume Korean War
+#########################################################################
+event = {
+	id = 2133004
+	random = no
+	country = PRK
+	
+	decision = {
+		OR = {
+			war = { country = USA country = SOV }
+			war = { country = USA country = CHC }
+			alliance = { country = PRK country = SOV }
+			alliance = { country = PRK country = CHC }
+		}
+	}
+	decision_trigger = {}
+	trigger = {
+		OR = {
+			war = { country = USA country = SOV }
+			war = { country = USA country = CHC }
+			alliance = { country = PRK country = SOV }
+			alliance = { country = PRK country = CHC }
+		}
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "prk_invades_kor"
+	desc = "prk_invades_kor_desc"
+	style = 1
+	picture = "prk_war"
+	decision_picture = "decision_prk_war"
+	
+	action = {
+		name = ACTION_NAME_WAR
+		command = { type = war which = KOR }
+	}
+}
+	

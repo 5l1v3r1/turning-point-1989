@@ -1,0 +1,626 @@
+#########################################################################
+#  Poland's Events and Decisions by Hans Nery.							#
+#########################################################################
+##
+#########################################################################
+#  Solidarity Trade Union
+#########################################################################
+event = { 
+	id = 2023003
+	random = no
+	country = POL
+
+	trigger = {}	
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 7
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland"
+	desc = "rev_poland_desc"
+	style = 1
+	picture = "solidarity"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Referendum on Political and Economic Reforms
+#########################################################################
+event = { 
+	id = 2023004
+	random = no
+	country = POL
+	
+	date = { day = 27 month = november year = 1987 }
+	offset = 1
+	deathdate = { day = 1 month = january year = 1989 }
+	
+	name = "poland_referendum"
+	desc = "poland_referendum_desc"
+	style = 1
+	picture = "unemployment_rate"
+	#decision_picture = "decision_ballot"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { trigger = { ai = no } type = money value = -100 }
+		command = { type = trigger which = 2023005 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		command = { type = dissent value = 20 }
+		command = { type = sleepevent which = 2023015 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 100
+		command = { type = dissent value = 20 }
+		command = { type = sleepevent which = 2023015 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 99
+		command = { type = dissent value = 20 }
+		command = { type = sleepevent which = 2023015 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = sleepevent which = 2023015 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 99
+		command = { type = dissent value = 20 }
+		command = { type = sleepevent which = 2023015 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = sleepevent which = 2023015 }
+	}
+}
+#Referendum Results
+event = { 
+	id = 2023005
+	random = no
+	country = POL
+	
+	name = "poland_referendum_2"
+	desc = "poland_referendum_2_desc"
+	style = 1
+	picture = "ballot"
+	
+	action = {
+		name = "ACTION_NAME_RAISE_PRICES"
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -5 }
+	}
+}
+#Inflation Rises
+event = { 
+	id = 2023006
+	random = no
+	country = POL
+
+	trigger = {	event = 2023005	} #Referendum Results	 
+	
+	date = { day = 29 month = january year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "poland_referendum_3"
+	desc = "poland_referendum_3_desc"
+	style = 1
+	picture = "unemployment_rate"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 5 }
+		command = { type = money value = 5000 }
+		command = { type = industrial_modifier which = total value = -5 }
+	}
+}
+#########################################################################
+#  The Gdansk Agreement Anniversary
+#########################################################################
+event = { 
+	id = 2023007
+	random = no
+	country = POL
+
+	trigger = {}
+	
+	date = { day = 29 month = august year = 1987 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_2"
+	desc = "rev_poland_2_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = 3 }
+	}
+}
+#########################################################################
+#  The March 1968 Events Anniversary
+#########################################################################
+event = { 
+	id = 2023008
+	random = no
+	country = POL
+
+	trigger = {}
+	
+	date = { day = 7 month = march year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_3"
+	desc = "rev_poland_3_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_SUPPRESS"
+		command = { type = dissent value = 6 }
+		#command = { type = domestic which = freedom value = -1 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -3 }
+		command = { type = domestic which = freedom value = 1 }
+	}
+}
+#########################################################################
+#  Strikes of Spring 1988 (1)
+#########################################################################
+event = { 
+	id = 2023009
+	random = no
+	country = POL
+
+	trigger = {}
+	
+	date = { day = 20 month = april year = 1988 }
+	offset = 15
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_4"
+	desc = "rev_poland_4_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_SUPPRESS"
+		command = { type = dissent value = 6 }
+		#command = { type = domestic which = freedom value = -1 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -3 }
+		command = { type = domestic which = freedom value = 1 }
+	}
+}
+#########################################################################
+#  Strikes of Spring 1988 (2)
+#########################################################################
+event = { 
+	id = 2023010
+	random = no
+	country = POL
+
+	trigger = {}
+	
+	date = { day = 29 month = april year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_4"
+	desc = "rev_poland_5_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_SUPPRESS"
+		command = { type = dissent value = 6 }
+		#command = { type = domestic which = freedom value = -1 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -3 }
+		command = { type = domestic which = freedom value = 1 }
+	}
+}
+#########################################################################
+#  Strikes of Summer 1988 (1)
+#########################################################################
+event = { 
+	id = 2023011
+	random = no
+	country = POL
+
+	trigger = {}
+	
+	date = { day = 14 month = august year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_6"
+	desc = "rev_poland_6_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_SUPPRESS"
+		command = { type = dissent value = 6 }
+		#command = { type = domestic which = freedom value = -1 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -3 }
+		command = { type = domestic which = freedom value = 1 }
+	}
+}
+#########################################################################
+#  Strikes of Summer 1988 (2)
+#########################################################################
+event = { 
+	id = 2023012
+	random = no
+	country = POL
+
+	trigger = {}
+	
+	date = { day = 16 month = august year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_6"
+	desc = "rev_poland_7_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 1 }
+	}
+}
+#########################################################################
+#  Strikes of Summer 1988 (3)
+#########################################################################
+event = { 
+	id = 2023013
+	random = no
+	country = POL
+
+	trigger = {}
+	
+	date = { day = 20 month = august year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_6"
+	desc = "rev_poland_8_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 3 }
+	}
+}
+#########################################################################
+#  Strikes of Summer 1988 (4)
+#########################################################################
+event = { 
+	id = 2023014
+	random = no
+	country = POL
+
+	trigger = {}
+	
+	date = { day = 21 month = august year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_6"
+	desc = "rev_poland_9_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 9 }
+	}
+}
+#########################################################################
+#  The Polish Round Table Agreement
+#########################################################################
+event = { 
+	id = 2023015
+	random = no
+	country = POL
+	
+	date = { day = 5 month = february year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_10"
+	desc = "rev_poland_10_desc"
+	style = 1
+	picture = "polish_round_table_agreement"
+	
+	action = {
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = dissent value = -10 }
+	}
+}
+#Results
+event = { 
+	id = 2023016
+	random = no
+	country = POL
+
+	trigger = {
+		event = 2023015 #The Polish Round Table Agreement
+	}
+	
+	date = { day = 3 month = april year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_11"
+	desc = "rev_poland_11_desc"
+	style = 1
+	picture = "polish_round_table_agreement"
+	
+	action = {
+		name = "ACTION_NAME_AGREE"
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = freedom value = 2 }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		command = { type = dissent value = 20 }
+		command = { type = domestic which = democratic value = -2 }
+		command = { type = domestic which = freedom value = -2 }
+		command = { type = sleepevent which = 2023017 }
+	}
+}
+#Polish Legislative_elections
+event = { 
+	id = 2023017
+	random = no
+	country = POL
+
+	trigger = {	
+		event = 2023016 #The Polish Round Table Agreement Results
+	}
+	
+	date = { day = 3 month = june year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_12"
+	desc = "rev_poland_12_desc"
+	style = 1
+	picture = "solidarity_wins"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = domestic which = political_left value = -2 }
+	}
+}
+#A New Prime Minister
+event = { 
+	id = 2023018
+	random = no
+	country = POL
+
+	trigger = {	
+		event = 2023017 #Polish Legislative_elections
+	}
+	
+	date = { day = 1 month = august year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_13"
+	desc = "rev_poland_13_desc"
+	style = 1
+	picture = "czeslaw"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = headofgovernment which = 60021 }
+	}
+}
+#The Contract Sejm
+event = { 
+	id = 2023019
+	random = no
+	country = POL
+
+	trigger = {	
+		event = 2023018 #A New Prime Minister
+	}
+	
+	date = { day = 23 month = august year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_14"
+	desc = "rev_poland_14_desc"
+	style = 1
+	picture = "tadeusz"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = domestic which = political_left value = -2 }
+		command = { type = headofgovernment which = 60012 }
+	}
+}
+#A New Cabinet
+event = { 
+	id = 2023020
+	random = no
+	country = POL
+
+	trigger = {	
+		event = 2023019 #The Contract Sejm
+	}
+	
+	date = { day = 12 month = september year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_15"
+	desc = "rev_poland_15_desc"
+	style = 1
+	picture = "tadeusz"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = domestic which = political_left value = -2 }
+		command = { type = foreignminister which = 60013 }
+		command = { type = armamentminister which = 60014 }
+		command = { type = ministerofsecurity which = 60015 }
+		command = { type = ministerofintelligence which = 60016 }
+		command = { type = chiefofstaff which = 60017 }
+		command = { type = chiefofarmy which = 60018 }
+		command = { type = chiefofnavy which = 60019 }
+		command = { type = chiefofair which = 60020 }
+	}
+}
+#Felix Dzerzhinsky's statue is torn down!
+event = { 
+	id = 2023021
+	random = no
+	country = POL
+
+	trigger = {	
+		event = 2023020 #A New Cabinet
+	}
+	
+	date = { day = 16 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_16"
+	desc = "rev_poland_16_desc"
+	style = 1
+	picture = "felix_statue"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -3 }
+	}
+}
+#########################################################################
+#  Rename Poland
+#########################################################################
+event = { 
+	id = 2023022
+	random = no
+	country = POL
+
+	trigger = {
+		event = 2023019 #The Contract Sejm
+	}
+	
+	date = { day = 28 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_17"
+	desc = "rev_poland_17"
+	style = 1
+	picture = "law"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = political_left value = -2 }
+		command = { type = name where = -1 which = TAG_POL }
+	}
+}
+#########################################################################
+#  Polish Presidential Election (1990)
+#########################################################################
+event = { 
+	id = 2023023
+	random = no
+	country = POL
+
+	trigger = {	
+		event = 2023020 #A New Cabinet
+		government = democratic
+	}
+	
+	date = { day = 24 month = november year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "rev_poland_18"
+	desc = "rev_poland_18_desc"
+	style = 1
+	picture = "ballot"
+	
+	action = {
+		name = "ACTION_ELECT_WALESA"
+		ai_chance = 90
+		command = { type = dissent value = -10 }
+		command = { type = wakeminister which = 60011 }
+		command = { type = wakeminister which = 60022 }
+		command = { type = headofstate which = 60011 }
+		command = { type = headofgovernment which = 60022 }
+		command = { type = leave_alliance }
+	}
+	action = {
+		name = "ACTION_ELECT_STANISLAW"
+		ai_chance = 10
+		command = { type = dissent value = -5 }
+		command = { type = wakeminister which = 60023 }
+		command = { type = headofstate which = 60023 }
+		command = { type = leave_alliance }
+	}
+	action = {
+		name = "ACTION_ELECT_TADEUSZ"
+		ai_chance = 5
+		command = { type = wakeminister which = 60024 }
+		command = { type = wakeminister which = 60022 }
+		command = { type = headofstate which = 60024 }
+		command = { type = headofgovernment which = 60022 }
+		command = { type = leave_alliance }
+	}
+}

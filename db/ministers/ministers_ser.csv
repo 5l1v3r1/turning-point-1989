@@ -1,0 +1,28 @@
+SER;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+415001;Head of State;Slobodan Milosevic;1985;2012;2012;SD;Ambitious;Very High;SER4;X
+415002;Head of Government;Stanko Radmilovic;1985;2012;2012;SD;Flamboyant Tough Guy;Very High;unknown;X
+415003;Foreign Minister;Zoran Djindjic;1984;1984;1984;SL;Great Compromiser;Very High;SER2;X
+415004;Minister of Armament;Mirko Cvetkovic;1984;1984;1984;ML;Laissez-Faire Capitalist;Very High;SER3;X
+415005;Minister of Security;Vuk Obradovic;1984;1984;1984;ML;Crime Fighter;Very High;YUG15;X
+415006;Head of Military Intelligence;Vuk Obradovic;1984;1984;1984;ML;Logistics Specialist;Very High;YUG15;X
+415007;Chief of Staff;Dragan Paskas;1984;1984;1984;ML;School of Fire Support;Very High;YUG17;X
+415008;Chief of Army;Dragan Paskas;1984;1984;1984;ML;Decisive Battle Doctrine;Very High;YUG17;X
+415009;Chief of Navy;Dragan Paskas;1984;1984;1984;ML;open seas doctrine;Very High;YUG17;X
+415010;Chief of Air Force;Dragan Paskas;1984;1984;1984;ML;Army Aviation Doctrine;Very High;YUG17;X
+;Replacements;;;;;;;;;X
+415011;Head of State;HM Aleksandar Karadjordjevic;1985;2012;2012;ML;Popular Figurehead;Very High;SER1;X
+415012;Head of Government;Vuk Draskovic;1985;2012;2012;SC;Flamboyant Tough Guy;Very High;YUG15;X
+415013;Foreign Minister;Zoran Djindjic;1985;2012;2012;SL;Great Compromiser;Very High;SER2;X
+415014;Minister of Armament;Mirko Cvetkovic;1985;2012;2012;ML;Laissez-Faire Capitalist;Very High;SER3;X
+415015;Minister of Security;Vuk Obradovic;1985;2012;2012;ML;Crime Fighter;Very High;YUG15;X
+415016;Head of Military Intelligence;Vuk Obradovic;1985;2012;2012;ML;Logistics Specialist;Very High;YUG15;X
+415017;Chief of Staff;Dragan Paskas;1985;2012;2012;ML;School of Fire Support;Very High;YUG17;X
+415018;Chief of Army;Dragan Paskas;1985;2012;2012;ML;Decisive Battle Doctrine;Very High;YUG17;X
+415019;Chief of Navy;Dragan Paskas;1985;2012;2012;ML;open seas doctrine;Very High;YUG17;X
+415020;Chief of Air Force;Dragan Paskas;1985;2012;2012;ML;Army Aviation Doctrine;Very High;YUG17;X
+415021;Head of Government;Dragutin Zelenovic;1985;2012;2012;SD;Generic;Very High;unknown;X
+415022;Head of Government;Radoman Bozovic;1985;2012;2012;SD;Generic;Very High;unknown;X
+415023;Head of Government;Nikola Sainovic;1985;2012;2012;SD;Generic;Very High;unknown;X
+415024;Head of Government;Mirko Marjanovic;1985;2012;2012;SD;Generic;Very High;unknown;X
+415025;Head of State;Vuk Draskovic;1985;2012;2012;SC;Popular Figurehead;Very High;YUG15;X
+415026;Head of Government;Dragoljub Micunovic;1985;2012;2012;SD;Silent Workhorse;Very High;unknown;X

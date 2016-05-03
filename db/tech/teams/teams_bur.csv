@@ -1,0 +1,11 @@
+BUR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;X
+10000;National Military Academy;buracademy;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10001;Defence Industries;burdefind;4;1000;2999;general_equipment;rocketry;industrial_engineering;technical_efficiency;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10002;National Intelligence Agency;team_noimage;6;1000;2999;mathematics;technical_efficiency;training;centralized_execution;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10003;Heavy Industries;burhevind;4;1000;2999;industrial_engineering;rocketry;technical_efficiency;management;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10004;Myanmar Army;burarmy;5;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10005;General Staff;myanstaff;5;1000;2999;training;management;artillery;infantry_focus;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10006;Logistics Corps;myanlog;5;1000;2999;centralized_execution;management;small_unit_tactics;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10007;Myanmar Air Force;burairforce;5;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10008;Myanmar Navy;myanmarnavy;3;1000;2999;naval_training;management;mathematics;combined_arms_focus;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10009;Myanmar Dockyard;myandock;2;1000;2999;naval_artillery;naval_engineering;small_taskforce_tactics;seamanship;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

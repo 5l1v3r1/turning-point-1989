@@ -1,0 +1,11 @@
+SIK;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+420001;Karamay Oil Co.;T_SIK_Karamay_Oil;4;2000;2030;industrial_engineering;rocketry;technical_efficiency;management;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420002;National Armory;Generic_armory;3;2000;2030;general_equipment;mechanics;artillery;bomber_design;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420003;Lop Nur Nuclear Test Site;T_SIK_Lop_Nur;6;2000;2030;chemistry;electronics;management;rocketry;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420004;National Air Force;planairforce;3;2000;2030;fighter_tactics;fighter_design;bomber_tactics;piloting;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420005;Urumqi Military Academy;SIK_Army;5;2000;2030;training;large_unit_tactics;small_unit_tactics;large_unit_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420006;Shihezi University;T_SIK_Shihezi;5;2000;2030;management;training;technical_efficiency;munitions;maneuver_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420007;National Navy;chcnavlog;2;2000;2030;naval_training;management;mathematics;combined_arms_focus;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420008;Xinjiang University;T_SIK_Univ;7;2000;2030;aeronautics;technical_efficiency;industrial_engineering;electronics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420009;Production and Construction Corps;T_SIK_PCC;7;2000;2030;industrial_engineering;technical_efficiency;management;centralized_execution;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;X
+420010;Army HQ;chc logistics;6;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

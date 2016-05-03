@@ -1,0 +1,29 @@
+POL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+60001;Head of State;Wojciech Jaruzelski;1985;2012;2012;ST;Stern Imperialist;Very High;POL1;X
+60002;Head of Government;Wojciech Jaruzelski;1985;2012;2012;ST;Flamboyant Tough Guy;Very High;POL1;X
+60003;Foreign Minister;Stefan Olszowski;1985;2012;2012;ST;General Staffer;Very High;POL2;X
+60004;Minister of Armament;Florian Siwicki;1985;2012;2012;ST;Military Entrepreneur;Very High;POL3;X
+60005;Minister of Security;Czeslaw Kiszczak;1985;2012;2012;ST;Crime Fighter;Very High;POL4;X
+60006;Head of Military Intelligence;Józef Beim;1985;2012;2012;ST;Logistics Specialist;Very High;POL5;X
+60007;Chief of Staff;Józef Uzycki;1985;2012;2012;ST;School of Defence;Very High;POL6;X
+60008;Chief of Army;Michal Rola-Zymierski;1985;2012;2012;ST;Decisive battle doctrine;Very High;POL7;X
+60009;Chief of Navy;Piotr Kolodziejczyk;1985;2012;2012;ST;Open Seas Doctrine;Very High;POL8;X
+60010;Chief of Air Force;Miroslaw Hermaszewski;1985;2012;2012;ST;Air Superiority Doctrine;Very High;POL9;X
+;Replacements;;;;;;;;;X
+60011;Head of State;Lech Walesa;1985;2012;2012;SC;Barking Buffoon;Very High;POL10;X
+60012;Head of Government;Tadeusz Mazowiecki;1985;2012;2012;SL;Silent Workhorse;Very High;POL11;X
+60013;Foreign Minister;Krzysztof Skubiszewski;1985;2012;2012;SC;Great Compromiser;Very High;POL12;X
+60014;Minister of Armament;Leszek Balcerowicz;1985;2012;2012;ML;Laissez-Faire Capitalist;Very High;POL13;X
+60015;Minister of Security;Krzysztof Kozlowski;1985;2012;2012;ML;Crime Fighter;Very High;POL14;X
+60016;Head of Military Intelligence;Krzysztof Kozlowski;1985;2012;2012;ML;Political Specialist;Very High;POL14;X
+60017;Chief of Staff;Józef Uzycki;1985;2012;2012;SD;School of Manoeuvre;Very High;POL6;X
+60018;Chief of Army;Józef Uzycki;1985;2012;2012;SD;Armoured Spearhead Doctrine;Very High;POL6;X
+60019;Chief of Navy;Ryszard Lukasik;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;POL15;X
+60020;Chief of Air Force;Jerzy Gotowala;1985;2012;2012;ML;Air Superiority Doctrine;Very High;POL16;X
+60021;Head of Government;Czeslaw Kiszczak;1985;2012;2012;ST;Old General;Very High;POL4;X
+60022;Head of Government;Jan Krzysztof Bielecki;1985;2012;2012;SC;Happy Amateur;Very High;POL17;X
+60023;Head of State;Stanislaw Tymi?ski;1985;2012;2012;ML;Benevolent Gentleman;Very High;POL18;X
+60024;Head of State;Tadeusz Mazowiecki;1985;2012;2012;SL;Insignificant Layman;Very High;POL11;X
+60025;Head of State;Jan Olszewski;1995;2012;2012;SC;Weary Stiffneck;Very High;POL19;X
+60026;Head of Government;Jan Olszewski;1991;2012;2012;SC;Flamboyant Tough Guy;Very High;POL19;X
+60027;Head of Government;Bronislaw Geremek;1991;2012;2012;SL;Silent Workhorse;Very High;POL20;X

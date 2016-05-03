@@ -1,0 +1,83 @@
+1945
+========
+
+ENG: Oxford (28) level 1 reactor (Dido Reactor)
+USA: Albuquerque (1904) level 6 reactor (Los Alamos)
+SOV: Arzamas (683) level 1 reactor ( Arzamas-16 soviet: equivalent of Los Alamos)
+
+Rocket test Sites
+USA: Albuquerque (1904) level 3 rocket test site (White Sands Proving Grounds)
+SOV: Nelidovo (577) level 3 rocket test site (Gorodomlya Island)
+
+1950
+========
+
+FRA: Paris (55) level 2 reactor (Zoé reactor)
+ENG: Oxford (28) level 4 reactor (Dido Reactor)
+USA: Albuquerque (1904) level 7 reactor (Los Alamos)
+SOV: Arzamas (683) level 6 reactor (Arzamas-16 soviet: equivalent of Los Alamos)
+
+Rocket test Sites
+USA: Albuquerque (1904) level 3 rocket test site (White Sands Proving Grounds)
+SOV: Nelidovo (577) level 5 rocket test site (Gorodomlya Island)
+FRA: Colom-Bechar (739) level 2 rocket test site (Hammaguir rocket test site)
+
+1953
+========
+
+FRA: Paris (55) level 3 reactor (Zoé reactor)
+ITA: Milan (407) level 1 reactor (CeSNEF L-54 (50 kW) : Milano Technical University)
+ENG: Oxford (28) level 6 reactor (Dido Reactor)
+USA: Albuquerque (1904) level 8 reactor (Los Alamos)
+SOV: Arzamas (683) level 7 reactor (Arzamas-16 soviet: equivalent of Los Alamos)
+
+Rocket test Sites
+USA: Jacksonville (1949) level 7 rocket test site (Joint Long Range Proving Grounds at Cape Canaveral)
+SOV: Nelidovo (577) level 8 rocket test site (Gorodomlya Island)
+FRA: Colom-Bechar (739) level 4 rocket test site (Hammaguir rocket test site)
+
+1956
+========
+
+DFR: Hamburg (154) level 1 reactor (helmholtz-zentrum Geesthacht)
+IND: Bombay (1517) level 1 reactor (CIRUS Reactor at Bhabha Atomic Research Center)
+FRA: Paris (55) level 4 reactor (Zoé reactor)
+ITA: Milan (407) level 1 reactor (CeSNEF L-54 (50 kW) : Milano Technical University)
+JAP: Sendai (1549) level 1 reactor (Tokai JRR-1 Japan Research Reactor No. 1)
+SWE: Stockholm (2159) level 1 reactor (R1)
+ENG: Oxford (28) level 7 reactor (Dido Reactor)
+USA: Albuquerque (1904) level 9 reactor (Los Alamos)
+SOV: Arzamas (683) level 9 reactor (Arzamas-16 soviet: equivalent of Los Alamos)
+CHC: Lanzhou (1264) level 2 reactor (Lanzhou diffusion enrichment facility)
+
+Rocket test Sites
+USA: Jacksonville (1949) level 10 rocket test site (Cape Canaveral)
+SOV: Kyzl-orda (1110) level 10 rocket test site (Baikonur cosmodrome)
+ENG: Carlisle (14) level 2 Rocket Test Site (RAF Spadeadam)
+DFR: Stuttgart (134) level 1 Rocket Test Site (Lampoldshausen)
+IND: Madurai (1504) level 1 Rocket Test Site (Liquid Propulsion Systems Centre)
+FRA: Colom-Bechar (739) level 5 rocket test site (Hammaguir rocket test site)
+CHC: Bayan Hot (1272) level 1 rocket test facility (Base 20)
+
+1959
+========
+
+DFR: Hamburg (154) level 2 reactor (helmholtz-zentrum Geesthacht)
+IND: Bombay (1517) level 3 reactor (CIRUS Reactor at Bhabha Atomic Research Center)
+FRA: Paris (55) level 7 reactor (Zoé reactor)
+ITA: Milan (407) level 3 reactor (CeSNEF L-54 (50 kW) : Milano Technical University)
+JAP: Sendai (1549) level 3 reactor (Tokai JRR-1 Japan Research Reactor No. 1)
+SWE: Stockholm (2159) level 3 reactor (R1)
+ENG: Oxford (28) level 8 reactor (Dido Reactor)
+USA: Albuquerque (1904) level 10 reactor (Los Alamos)
+SOV: Arzamas (683) level 10 reactor ( Arzamas-16 soviet: equivalent of Los Alamos)
+CHC: Lanzhou (1264) level 4 reactor (Lanzhou diffusion enrichment facility)
+
+Rocket test Sites
+USA: Jacksonville (1949) level 10 rocket test site (Cape Canaveral)
+SOV: Kyzl-orda (1110) level 10 rocket test site (Baikonur cosmodrome)
+ENG: Carlisle (14) level 3 Rocket Test Site (RAF Spadeadam)
+DFR: Stuttgart (134)level 2 Rocket Test Site (Lampoldshausen)
+IND: Madurai (1504) level 2 Rocket Test Site (Liquid Propulsion Systems Centre)
+FRA: Colom-Bechar (739) level 6 rocket test site (Hammaguir rocket test site)
+CHC: Bayan Hot (1272) level 2 rocket test facility (Base 20)

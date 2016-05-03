@@ -1,0 +1,279 @@
+allowed_brigades = artillery
+allowed_brigades = medium_armor
+allowed_brigades = anti_air
+allowed_brigades = sp_artillery
+allowed_brigades = sp_anti_air
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = amph_armor
+allowed_brigades = heavy_armor
+allowed_brigades = super_heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = b_01
+
+upgrade = { type = d_01 upgrade_time_factor = 0.4 upgrade_cost_factor = 0.49 }
+upgrade = { type = d_06 upgrade_time_factor = 0.8 upgrade_cost_factor = 0.49 }
+upgrade = { type = d_08 upgrade_time_factor = 3 upgrade_cost_factor = 1 }
+upgrade = { type = d_09 upgrade_time_factor = 3 upgrade_cost_factor = 1 }
+upgrade = { type = d_04 upgrade_time_factor = 2 upgrade_cost_factor = 2 }
+upgrade = { type = d_03 upgrade_time_factor = 4 upgrade_cost_factor = 2 }
+
+# 0 - Motorized Brigade 1945
+model = {
+	cost 					= 6
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 29
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 5
+	airdefence				= 7
+	softattack				= 4
+	hardattack				= 1.5
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 0.7
+	fuelconsumption			= 3.25
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 1 - Motorized Brigade 1965
+model = {
+	cost 					= 8
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 4.5
+	hardattack				= 3
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 0.8
+	fuelconsumption			= 3.25
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 2 - Motorized Brigade 1970
+model = {
+	cost 					= 8
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 5
+	hardattack				= 3
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 0.9
+	fuelconsumption			= 3.25
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	upgrade_time_boost 	= no
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 3 - Motorized Brigade 1975
+model = {
+	cost 					= 9
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 5.5
+	hardattack				= 3
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 1
+	fuelconsumption			= 3.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	upgrade_time_boost 	= no
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 4 - Motorized Brigade 1980
+model = {
+	cost 					= 9
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 6
+	hardattack				= 3.5
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 1.1
+	fuelconsumption			= 3.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	upgrade_time_boost 	= no
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 5 - Motorized Brigade 1985
+model = {
+	cost 					= 10
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 6.5
+	hardattack				= 3.5
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 1.2
+	fuelconsumption			= 3.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	upgrade_time_boost 	= no
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 6 - Motorized Brigade 1990
+model = {
+	cost 					= 10
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 7
+	hardattack				= 3.5
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 1.3
+	fuelconsumption			= 3.75
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	upgrade_time_boost 	= no
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 7 - Motorized Brigade 1995
+model = {
+	cost 					= 11
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 7.5
+	hardattack				= 4
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 1.4
+	fuelconsumption			= 3.75
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	upgrade_time_boost 	= no
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 8 - Motorized Brigade 2000
+model = {
+	cost 					= 11
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 8
+	hardattack				= 4
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 1.5
+	fuelconsumption			= 3.75
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	upgrade_time_boost 	= no
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}
+# 9 - Motorized Brigade 2005
+model = {
+	cost 					= 12
+	buildtime	 			= 157
+	manpower 				= 6.5
+	maxspeed 				= 31
+	defaultorganisation 	= 40
+	morale					= 45
+	defensiveness 			= 22
+	toughness				= 28
+	softness				= 75
+	suppression				= 6
+	airdefence				= 7
+	softattack				= 8.5
+	hardattack				= 4
+	airattack				= 3
+	transportweight			= 15
+	supplyconsumption 		= 1.6
+	fuelconsumption			= 4
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.72
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.45
+	upgrade_time_boost 	= no
+	equipment = { manpower = 6500 trucks = 1430 artillery = 53 heavy_artillery = 8 anti_tank = 19 anti_air = 32 armored_car = 16 }
+}

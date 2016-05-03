@@ -1,0 +1,650 @@
+#########################################################################
+#  The Pan-European Picnic
+#########################################################################
+event = {
+	id = 2012006
+	random = no
+	country = DDR
+	
+	name = "hungary_pan-european_picnic"
+	desc = "hungary_pan-european_picnic_desc"
+	style = 1
+	picture = "pan-european_picnic"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 10 }
+		command = { type = manpowerpool value = -0.9 }
+		command = { type = trigger which = 2003005 } #Fire for West Germany
+	}
+}
+#########################################################################
+#  A Hole in The Iron Curtain
+#########################################################################
+event = {
+	id = 2012007
+	random = no
+	country = DDR
+	
+	name = "hungary_hole_iron_curtain"
+	desc = "hungary_hole_iron_curtain_2_desc"
+	style = 1
+	picture = "hole_iron_curtain"
+
+	action = {
+		name = ACTION_NAME_CLOSE_THE_BORDERS
+		command = { type = dissent value = 10 }
+		command = { type = domestic which = democratic value = -2 }
+		command = { type = domestic which = freedom value = -2 }
+		command = { type = relation which = AUS value = -100 }
+		command = { type = relation which = HUN value = -100 }
+		command = { type = relation which = SOV value = -50 }
+		command = { type = manpowerpool value = -13 }
+		command = { type = industrial_modifier which = total value = -5 }
+		command = { type = setflag which = hole_iron_curtain }
+		command = { type = free_manpower value = -0.01 }
+		command = { type = trigger which = 2003006 } #Fire for West Germany
+	}
+	action = {
+		name = ACTION_NAME_NO_NEED
+		command = { type = dissent value = -5 }
+		command = { type = relation which = HUN value = 100 }
+		command = { type = relation which = CZE value = 100 }
+		command = { type = free_manpower value = -0.05 }
+		command = { type = trigger which = 2003006 } #Fire for West Germany
+	}
+}
+#########################################################################
+#  The Monday Demonstrations (September 4th)
+#########################################################################
+event = {
+	id = 2012008
+	random = no
+	country = DDR
+	
+	trigger = { event = 2007016 } #Perestroika
+	
+	date = { day = 3 month = september year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_monday_demonstrations"
+	desc = "ddr_monday_demonstrations_desc"
+	style = 1
+	picture = "monday_demonstrations"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Monday Demonstrations (October 2nd)
+#########################################################################
+event = {
+	id = 2012009
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012008 #The Monday Demonstrations (September 4th)
+	}
+	
+	date = { day = 1 month = october year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_monday_demonstrations"
+	desc = "ddr_monday_demonstrations_2_desc"
+	style = 1
+	picture = "monday_demonstrations"
+
+	action = {
+		name = ACTION_NAME_SHOOT
+		command = { type = dissent value = 10 }
+		command = { type = local_setflag which = shoot_people }
+	}
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 2 }
+	}
+}
+#########################################################################
+#  40th Anniversary of the German Democratic Republic
+#########################################################################
+event = {
+	id = 2012010
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012009 #The Monday Demonstrations (October 2nd)
+	}
+	
+	date = { day = 6 month = october year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_anniversary"
+	desc = "ddr_anniversary_desc"
+	style = 1
+	picture = "ddr_anniversary"
+
+	action = {
+		ai_chance = 99
+		name = ACTION_NAME_NEVER
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		ai_chance = 1
+		name = ACTION_NAME_REFORM
+		command = { type = dissent value = -10 }
+	}
+}
+#########################################################################
+#  Wir sind das Volk!
+#########################################################################
+event = {
+	id = 2012011
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012010 #40th Anniversary of the German Democratic Republic
+	}
+	
+	date = { day = 8 month = october year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_we_are_the_people"
+	desc = "ddr_we_are_the_people_desc"
+	style = 1
+	picture = "we_are_the_people"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = local_clrflag which = shoot_people }
+	}
+	action = {
+		name = ACTION_NAME_FOR_REAL
+		trigger = { local_flag = shoot_people }
+		command = { type = dissent value = 30 }
+		command = { type = belligerence value = 30 }
+		command = { type = sleepevent which = 2012012 } #The Fall of Honecker
+		#command = { type = local_clrflag which = shoot_people }
+	}
+	action = {
+		name = ACTION_NAME_FOR_REAL
+		trigger = { ai = yes flag = wic local_flag = shoot_people }
+		ai_chance = 100
+		command = { type = dissent value = 30 }
+		command = { type = belligerence value = 30 }
+		command = { type = sleepevent which = 2012012 } #The Fall of Honecker
+		#command = { type = local_clrflag which = shoot_people }
+	}
+	action = {
+		name = ACTION_NAME_FOR_REAL
+		trigger = { ai = yes flag = historical local_flag = shoot_people }
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = belligerence value = 30 }
+		command = { type = sleepevent which = 2012012 } #The Fall of Honecker
+		#command = { type = local_clrflag which = shoot_people }
+	}
+	action = {
+		name = ACTION_NAME_FOR_REAL
+		trigger = { ai = yes flag = ahistorical local_flag = shoot_people }
+		ai_chance = 90
+		command = { type = dissent value = 30 }
+		command = { type = belligerence value = 30 }
+		command = { type = sleepevent which = 2012012 } #The Fall of Honecker
+		#command = { type = local_clrflag which = shoot_people }
+	}
+}
+#########################################################################
+#  The Fall of Honecker
+#########################################################################
+event = {
+	id = 2012012
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012011 #Wir sind das Volk!
+	}
+	
+	date = { day = 17 month = october year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_fall_of_honecker"
+	desc = "ddr_fall_of_honecker_desc"
+	style = 1
+	picture = "fall_of_honecker"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -10 }
+		command = { type = headofstate which = 625011 } #Egon Krenz
+		command = { type = domestic which = democratic value = 3 }
+		command = { type = domestic which = freedom value = 3 }
+		command = { type = trigger which = 2012013 } #Egon Krenz
+		command = { type = trigger which = 2003007 } #Fire for West Germany
+	}
+}
+#########################################################################
+#  Egon Krenz
+#########################################################################
+event = {
+	id = 2012013
+	random = no
+	country = DDR
+	
+	name = "ddr_egon_krenz"
+	desc = "ddr_egon_krenz_desc"
+	style = 1
+	picture = "egon_krenz"
+
+	action = {
+		name = ACTION_NAME_OK
+		#command = { type = dissent value = 10 }
+		command = { type = manpowerpool value = -13 }
+		command = { type = industrial_modifier which = total value = -15 }
+	}
+}
+#########################################################################
+#  The Iron Curtain is Falling Apart
+#########################################################################
+event = {
+	id = 2012014
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012007 #A Hole in The Iron Curtain
+	}
+	
+	date = { day = 2 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_iron_curtain_falling"
+	desc = "ddr_iron_curtain_falling_desc"
+	style = 1
+	picture = "hole_iron_curtain"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = 10 }
+		command = { type = manpowerpool value = -13 }
+		command = { type = industrial_modifier which = total value = -15 }
+		command = { type = trigger which = 2003008 } #Fire for West Germany
+	}
+}
+#########################################################################
+#  The Alexanderplatz Demonstration
+#########################################################################
+event = {
+	id = 2012015
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012011 #Wir sind das Volk
+		NOT = { local_flag = shoot_people }
+	}
+	
+	date = { day = 3 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_alexanderplatz_demonstration"
+	desc = "ddr_alexanderplatz_demonstration_desc"
+	style = 1
+	picture = "alexanderplatz"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = 20 }
+		command = { type = manpowerpool value = -13 }
+	}
+}
+#########################################################################
+#  The Turning Point
+#########################################################################
+event = {
+	id = 2012016
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012015 #The Alexanderplatz Demonstration
+	}
+	
+	date = { day = 8 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_turning_point"
+	desc = "ddr_turning_point_desc"
+	style = 1
+	picture = "turning_point"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -10 }
+		command = { type = trigger which = 2012017 } #The Fall of The Berlin Wall
+		command = { type = trigger which = 2003009 } #Fire for West Germany
+	}
+}
+#########################################################################
+#  The Fall of The Berlin Wall
+#########################################################################
+event = {
+	id = 2012017
+	random = no
+	country = DDR
+	
+	name = "ddr_berlin_wall"
+	desc = "ddr_berlin_wall_desc"
+	style = 1
+	picture = "berlin_wall"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = freedom value = 3 }
+		command = { type = trigger which = 2003010 } #Fire for West Germany and the Soviet Union
+	}
+}
+#########################################################################
+#  Die Wende
+#########################################################################
+event = {
+	id = 2012018
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012017 #The Fall of The Berlin Wall
+	}
+	
+	date = { day = 12 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_die_wende"
+	desc = "ddr_die_wende_desc"
+	style = 1
+	picture = "ddr"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = headofgovernment which = 625012 } #Hans Modrow
+		command = { type = domestic which = democratic value = 3 }
+		command = { type = domestic which = freedom value = 3 }
+		command = { type = trigger which = 2003011 } #Fire for West Germany
+	}
+}
+#########################################################################
+#  Die Wende II
+#########################################################################
+event = {
+	id = 2012019
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012018 #Die Wende
+	}
+	
+	date = { day = 5 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_die_wende"
+	desc = "ddr_die_wende_2_desc"
+	style = 1
+	picture = "ddr"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = headofstate which = 625013 } #Manfred Gerlach
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = political_left value = -2 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = trigger which = 2003012 } #Fire for West Germany
+	}
+}
+#########################################################################
+#  The General Election of 1990
+#########################################################################
+event = {
+	id = 2012020
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012019 #Die Wende II
+	}
+	
+	date = { day = 17 month = march year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_general_election"
+	desc = "ddr_general_election_desc"
+	style = 1
+	picture = "volkskammer"
+
+	action = {
+		name = DDR_ACTION_ELECT_CDU											#Christian Democratic Union (Center-Right)
+		command = { type = dissent value = -10 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = set_domestic which = political_left value = 1 }
+		command = { type = set_domestic which = freedom value = 10 }
+		command = { type = set_domestic which = free_market value = 10 }
+		command = { type = sleepevent which = 2012022 } #SDP Wins
+		command = { type = sleepevent which = 2012023 } #PDS Wins
+	}
+	action = {
+		name = DDR_ACTION_ELECT_SDP											#Social Democratic Party of Germany (Social Democrat)
+		command = { type = dissent value = -5 }
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = set_domestic which = political_left value = 7 }
+		command = { type = set_domestic which = freedom value = 8 }
+		command = { type = set_domestic which = free_market value = 7 }
+		command = { type = sleepevent which = 2012021 } #CDU Wins
+		command = { type = sleepevent which = 2012023 } #PDS Wins
+	}
+	action = {
+		name = DDR_ACTION_ELECT_PDS											#Party of Democratic Socialism  (Left-Wing Radical)
+		command = { type = set_domestic which = democratic value = 10 }
+		command = { type = set_domestic which = political_left value = 10 }
+		command = { type = set_domestic which = freedom value = 6 }
+		command = { type = set_domestic which = free_market value = 5 }
+		command = { type = sleepevent which = 2012021 } #CDU Wins
+		command = { type = sleepevent which = 2012022 } #SDP Wins
+	}
+}
+#########################################################################
+#  Results of The General Election of 1990
+#########################################################################
+#CDU Wins
+event = {
+	id = 2012021
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012020 #The General Election of 1990
+	}
+	
+	date = { day = 4 month = april year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_general_election_2"
+	desc = "ddr_general_election_2_desc"
+	style = 1
+	picture = "volkskammer"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = headofstate which = 625014 } #Sabine Bergmann-Pohl
+		command = { type = headofgovernment which = 625015 } #Lothar de Maizière
+		command = { type = foreignminister which = 625019 } #Markus Meckel
+	}
+}
+#SDP Wins
+event = {
+	id = 2012022
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012020 #The General Election of 1990
+	}
+	
+	date = { day = 4 month = april year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_general_election_2"
+	desc = "ddr_general_election_2-1_desc"
+	style = 1
+	picture = "volkskammer"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = headofstate which = 625016 } #Markus Meckel
+		command = { type = headofgovernment which = 625017 } #Ibrahim Böhme
+	}
+}
+#PDS Wins
+event = {
+	id = 2012023
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012020 #The General Election of 1990
+	}
+	
+	date = { day = 4 month = april year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "ddr_general_election_2"
+	desc = "ddr_general_election_2-1_desc"
+	style = 1
+	picture = "volkskammer"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = headofstate which = 625021 } #Manfred Gerlach
+		command = { type = headofgovernment which = 625018 } #Hans Modrow
+	}
+}
+#########################################################################
+#  Reunification Process
+#########################################################################
+event = {
+	id = 2012024
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012020 #The General Election of 1990
+	}
+	
+	date = { day = 17 month = may year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "reunification_process"
+	desc = "reunification_process_desc"
+	style = 1
+	picture = "deutsche_mark"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		ai_chance = 99
+		command = { type = dissent value = -20 }
+		command = { type = set_domestic which = free_market value = 10 }
+		command = { type = relation which = DFR value = 100 }
+		command = { type = industrial_modifier which = total value = 30 }
+		command = { type = trigger which = 2003013 } #Fire for West Germany
+	}
+	action = { trigger = { headofgovernment = 625018 } #Hans Modrow
+		name = ACTION_NAME_NO_NEED
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = relation which = DFR value = -100 }
+		command = { type = industrial_modifier which = total value = -30 }
+		command = { type = sleepevent which = 2003013 } #Sleep Event for West Germany
+	}
+}
+#########################################################################
+#  The German Reunification Treaty
+#########################################################################
+event = {
+	id = 2012025
+	random = no
+	country = DDR
+	
+	trigger = { 
+		event = 2012024 #Reunification Process
+	}
+	
+	date = { day = 29 month = august year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "reunification_treaty"
+	desc = "reunification_treaty_desc"
+	style = 1
+	picture = "law"
+
+	action = {
+		name = ACTION_NAME_SIGN
+		command = { type = dissent value = -10 }
+		command = { type = relation which = DFR value = 100 }
+		command = { type = trigger which = 2003014 } #Fire for West Germany
+	}
+}
+#########################################################################
+#  State of Defence
+#########################################################################
+event = {
+	id = 2012026
+	random = no
+	country = DDR
+	
+	trigger = { atWar = yes }
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	name = "DFR_State_of_Defence"
+	desc = "DDR_State_of_Defence_desc"
+	style = 1
+	picture = "world_in_conflict"
+
+	action = {
+		name = DFR_ACTION_NAME_ACTIVATE_RESERVS
+		command = { type = add_corps which = "Armeereserve" value = land where = 7266 }
+		command = { type = add_division which = "6. Mot.-Schützendivision" value = motorized when = 5 }
+		command = { type = add_division which = "10. Mot.-Schützendivision" value = motorized when = 5 }
+		command = { type = add_division which = "17. Mot.-Schützendivision" value = motorized when = 5 }
+		command = { type = add_division which = "19. Mot.-Schützendivision" value = motorized when = 5 }
+		command = { type = add_division which = "20. Mot.-Schützendivision" value = motorized when = 5 }		
+	}
+}

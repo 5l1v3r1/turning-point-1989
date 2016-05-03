@@ -1,0 +1,6 @@
+technology =
+{ id          = 6
+  category    = land_doctrines
+  name        = TECH_LD_NAME # Localized name
+  desc        = TECH_LD_DESC # Localized description
+}

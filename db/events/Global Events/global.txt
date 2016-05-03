@@ -1,0 +1,868 @@
+##################################################################
+#  _______               _               _____      _       _    #
+# |__   __|             (_)             |  __ \    (_)     | |   #
+#    | |_   _ _ __ _ __  _ _ __   __ _  | |__) |__  _ _ __ | |_  #
+#    | | | | | '__| '_ \| | '_ \ / _` | |  ___/ _ \| | '_ \| __| #
+#    | | |_| | |  | | | | | | | | (_| | | |  | (_) | | | | | |_  #
+#    |_|\__,_|_| _|_| |_|_|_|_|_|\__, | |_|   \___/|_|_| |_|\__| #
+#       | |     | |         | |   __/ |              | |         #
+#   __ _| | ___ | |__   __ _| |  |___/_   _____ _ __ | |_ ___    #
+#  / _` | |/ _ \| '_ \ / _` | |  / _ \ \ / / _ \ '_ \| __/ __|   #
+# | (_| | | (_) | |_) | (_| | | |  __/\ V /  __/ | | | |_\__ \   #
+#  \__, |_|\___/|_.__/ \__,_|_|  \___| \_/ \___|_| |_|\__|___/   #
+#   __/ |                                                        #
+#  |___/                                                         #
+##################################################################
+
+##################################################
+# Last edited by HansNery, 21/04/2014			 #
+# Edited Uruguay elections						 #
+# Added all names and descs into event_text.csv  #
+# Edited all events ids	and reorganized the file #
+##################################################
+
+##################################################
+# Global Historical Events for Turning Point Mod #
+# Written by KaiserMuffin, 10-XII-2013			 #
+# Last updated by KaiserMuffin, 10-XII-2013		 #
+# Edit: As far as march 1985 					 #
+##################################################
+
+##################################################
+# Event Ranges as follows with room for more	 #
+# 1985 - 100000-111000							 #
+##################################################
+
+# January 1st, Internet Domain Name System created
+# This is a generic event for the player
+# We should consider a generic offset 1 event that creates a 'credits' event at some point too
+event = {
+	id = 100000
+	TAG = { AFG ALB ALG ANG ARG AST AUS BEL BEN BOL BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL CON COS CRO CUB CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA ETH FIN FRA GAB GEO GLD GRE GUA GUI GUY HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KOR LAO LBY LEB LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN PAK PAL PAN PAR PER PHI POL POR PRK PRU QUE RHO ROM SAF SAL SAR SAU	SCH SIA SIE SLO SOM SOV SPA SUD SWE SYR TAN TRK TUN TUR UKR URU VEN YEM YUG U00 U01 U02 U03 U04 U18 U40 U41 U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U67 U69 U70 U72 U74 U75 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA UES }
+	trigger = { ai = no }
+	
+	date = { day = 0 month = january year = 1985 }
+	
+	name = "KM_1"
+	desc = "KM_1_desc"
+	style = 2
+		
+	action_a = {
+	name = "Why are you bothering me with this?"
+
+	command = { type = event which = 100001 where = DEN when = 0 }
+	}
+}
+
+# Event triggered is also occurring on Jan 1st, thus saves a bit of work and avoids putting in a random dissent demote/buff
+
+event = {
+	id = 100001
+	country = DEN
+		
+	name = "KM_2"
+	desc = "KM_2_desc"
+	style = 2
+		
+	action_a = {
+	name = "It shouldn't cause any problems"
+
+	command = { type = dissent value = -1 }
+	}
+}
+
+# I figure the Greenlandish ice-fishermen will be glad they don't have to submit to EU quotas etcetc.
+# Next one is interesting. 10th of January 1985, Kenya recognises the Sahrawi Arab Democratic Republic.
+
+event = {
+	id = 100002
+	country = U90
+	
+	date = { day = 9 month = january year = 1985 }
+	
+	name = "KM_3"
+	desc = "KM_3_desc"
+	style = 2
+		
+	action_a = {
+	name = "This is a good idea!"
+	ai_chance = 100
+	
+	command = { type = relation which = MOR value = -25 }
+	command = { type = event which = 100003 where = MOR when = 1 }
+	}
+	
+	action_b = {
+	name = "Perhaps we should not."
+	ai_chance = 0
+	
+	command = { type = relation which = MOR value = 15 }
+	command = { type = dissent value = 1 }
+	}	
+}
+
+# Moroccan response event
+
+event = {
+	id = 100003
+	country = MOR
+		
+	name = "KM_4"
+	desc = "KM_4_desc"
+	style = 2
+		
+	action_a = {
+	name = "How dare they!"
+	
+	command = { type = relation which = U90 value = -25 }
+	command = { type = dissent value = 1 }
+	}
+}
+
+# British Telecom
+
+event = {
+	id = 100004
+	country = ENG
+	
+	date = { day = 16 month = january year = 1985 }
+	
+	name = "KM_5"
+	desc = "KM_5_desc"
+	style = 2
+		
+	action_a = {
+	name = "Aww, no!"
+	
+	 command = { type = dissent value = 1 }
+	 }
+}
+
+# this one is importantish. Kinda flavoury. Whatever. Reagan's second term commences.
+
+event = { 
+	id = 100005
+	country = USA
+	
+	date = { day = 20 month = january year = 1985 }
+	
+	name = "KM_6"
+	desc = "KM_6_desc"
+	style = 2
+		
+	action_a = {
+	name = "USA! USA! USA!"
+	
+	 command = { type = dissent value = -1 }
+	 }
+}
+
+#founding of ECO
+
+event = {
+	id = 100006
+	country = PER
+	
+	date = { day = 26 month = january year = 1985 }
+	
+	name = "KM_7"
+	desc = "KM_7_desc"
+	style = 2
+		
+	action_a = {
+	name = "We can be optimists."
+	
+	 command = { type = dissent value = -1 }
+	 command = { type = relation which = PAK value = 15 }
+	 command = { type = relation which = TUR value = 15 }
+	 command = { type = event which = 100008 where = PAK when = 0 }
+	 command = { type = event which = 100009 where = TUR when = 0 }
+	 
+	 }
+}
+
+event = {
+	id = 100007
+	country = PAK
+	
+	name = "KM_7"
+	desc = "KM_7_desc"
+	style = 2
+		
+	action_a = {
+	name = "Hurrah!"
+	
+	 command = { type = dissent value = -1 }
+	 command = { type = relation which = PER value = 15 }
+	 command = { type = relation which = TUR value = 15 }
+	 }
+}
+
+event = {
+	id = 100008
+	country = TUR
+	
+	name = "KM_7"
+	desc = "KM_7_desc"
+	style = 2
+		
+	action_a = {
+	name = "Cooperation is good."
+	
+	 command = { type = dissent value = -1 }
+	 command = { type = relation which = PER value = 15 }
+	 command = { type = relation which = PAK value = 15 }
+	 }
+}
+# more flavour. We love flavour!
+
+event = {
+	id = 100009
+	country = USA
+	
+		date = { day = 27 month = january year = 1985 }
+		
+	name = "KM_8"
+	desc = "KM_8_desc"
+	style = 2
+		
+	action_a = {
+	name = "I hope this will help the poor children."
+	
+	 command = { type = dissent value = -1 }
+	 }
+}
+
+#African and Malagasy Union
+event = {
+	id = 100010
+	random = no
+#	TAG = { BEN U81 U94 U78 U96 U88 U99 U95 MAN }
+	country = BEN
+
+	name = AMU_NAME
+	desc = AMU_DESC
+	style = 2
+	picture = "news_paper"
+
+	trigger = {
+	random = 80
+	}
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 30
+	deathdate = { day = 29 month = december year = 1986 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 1 }
+	}
+}
+
+# Current End of January. (10-XII-2013)
+# Hopefully the current events will be expanded upon as time goes by 
+# there are surely plenty of things that just didn't make the wiki list
+# Begin February
+
+event = {
+	id = 100101
+	country = SPA
+	
+		date = { day = 3 month = february year = 1985 }
+		
+	name = "KM_9"
+	desc = "KM_9_desc"
+	style = 2
+		
+	action_a = {
+	ai_chance = 100
+	name = "This can only be a good thing."
+		
+	 command = { type = relation which = ENG value = 15 }
+	 command = { type = event which = 101001 where = ENG when = 1 }
+	}
+
+	action_b = {
+	ai_chance = 0
+	name = "We are better off as we are."
+	
+	 command = { type = relation which = ENG value = -25 }
+	}
+}
+
+event = {
+	id = 100102
+	country = ENG
+	
+	name = "KM_9"
+	desc = "KM_9-1_desc"
+	style = 2
+		
+	action_a = {
+	name = "Jolly good."
+	
+	 command = { type = relation which = SPA value = 15 }
+	}
+}
+
+#I couldn't find any details on the wiki, it's just in the timeline so I spun something based on my knowledge from elsewhere.
+#The South East Pacific Nuke Free zone may be something from the 1990's though so this could stand to be revised.
+
+event = {
+	id = 100103
+	country = AST
+	
+	date = { day = 4 month = february year = 1985 }
+		
+	name = "KM_10"
+	desc = "KM_10_desc"
+	style = 2
+		
+	action_a = {
+	name = "For a greener future."
+		
+	 command = { type = relation which = USA value = -5 }
+	 command = { type = event which = 100104 where = USA when = 1 }
+	}
+}
+
+event = {
+	id = 100104
+	country = USA
+	
+	name = "KM_11"
+	desc = "KM_11_desc"
+	style = 2
+		
+	action_a = {
+	name = "Their loss."
+		
+	 command = { type = relation which = AST value = -5 }
+	}
+}
+
+#I thought it would be cool to include this one since the motif here is very familiar to modern viewers
+
+event = {
+	id = 100105
+	country = USA
+	
+	date = { day = 8 month = february year = 1985 }
+	
+	name = "KM_12"
+	desc = "KM_12_desc"
+	style = 2
+		
+	action_a = {
+	name = "Uh oh..."
+		
+	 command = { type = dissent value = 1 }
+	}
+}
+
+#Added in 2 ministers, Alvarez and Addiego since the setup on current version doesn't have them.
+#Edited by HansNery on 20/01/2014.
+
+event = {
+	id = 100106
+	country = URU
+
+	date = { day = 11 month = february year = 1985 }	
+		
+	name = "KM_13"
+	desc = "KM_13_desc"
+	style = 2
+		
+	action_a = {
+	name = "We are a democratic nation!"
+	
+	 command = { type = dissent value = -10 }
+	 command = { type = headofstate which = 195011 }
+	 command = { type = headofgovernment which = 195012 }
+	 command = { type = domestic which = democratic value = 3 }
+	 command = { type = domestic which = political_left value = -3 }
+	 command = { type = domestic which = freedom value = 4 }
+	 }
+}
+
+#Sanguinetti is elected.
+
+event = {
+	id = 100107
+	country = URU
+
+	date = { day = 0 month = march year = 1985 }	
+		
+	name = "KM_14"
+	desc = "KM_14_desc"
+	style = 2
+		
+	action_a = {
+	name = "We are a democratic nation!"
+	
+	 command = { type = dissent value = -10 }
+	 command = { type = headofstate which = 195015 }
+	 command = { type = headofgovernment which = 195016 }
+	 command = { type = domestic which = democratic value = 2 }
+	 command = { type = domestic which = political_left value = -2 }
+	 command = { type = domestic which = freedom value = 2 }
+	 }
+}
+
+# This will likely need redoing down the line since looking at the files, Israel is currently not at war with Lebanon. 
+# I hope that the country tag being that way means it will fire for ALL countries. If it doesn't I'll write duplicates after testing.
+
+event = { 
+	id = 100108
+	country = ISR
+	
+	date = { day = 13 month = february year = 1985 }
+	
+	name = "KM_15"
+	desc = "KM_15_desc"
+	style = 2
+	
+	action_a = {
+	name = "This is good news."
+	
+	 command = { type = dissent value = -1 }
+	 command = { type = trigger which = 100109 }
+	 }
+}
+#Created on 29/11/2014 to fire for all countries (Hans).
+event = { 
+	id = 100109
+	TAG = { USA LEB SYR }
+	
+	date = { day = 13 month = february year = 1985 }
+	
+	name = "KM_15"
+	desc = "KM_15_desc"
+	style = 2
+	
+	action_a = {
+	name = "This is good news."
+	
+	command = { type = dissent value = -1 }
+	command = { type = trigger which = 100110 }
+	}
+}
+#Edited on 29/11/2014 (Hans).
+event = { 
+	id = 100110
+	TAG = { USA LEB SYR ISR }
+	
+	date = { day = 15 month = february year = 1985 }
+	
+	name = "KM_16"
+	desc = "KM_16_desc"
+	style = 2
+	
+	action_a = {
+	name = "We will get you one day!"
+	trigger = { NOT = { OR = { country = ISR country = USA } } }
+	
+	command = { type = dissent value = -1 }
+	}
+	action_b = {
+	name = "Hopefully we won't have to come back"
+	trigger = { country = ISR }
+	command = { type = dissent value = -1 }
+	}
+	action_c = {
+	name = "Hurrah, Peace in the Middle East!"
+	trigger = { country = USA }
+	command = { type = dissent value = -1 }
+	}
+}
+
+event = { 
+	id = 100111
+	country = USA 
+	
+	date = { day = 18 month = february year = 1985 }
+	
+	name = "KM_17"
+	desc = "KM_17_desc"
+	style = 2
+	
+	action_a = {
+	name = "We are living in the future!"
+		
+	 command = { type = dissent value = -1 }
+	 }
+}
+
+#Unsure whether there should be a +1 dissent event 16 days later when the guy has a stroke and falls into a vegetative state...
+#Leaving it out for now.
+
+event = { 
+	id = 100112
+	country = JAP
+	
+	date = { day = 19 month = february year = 1985 }
+	
+	name = "KM_18"
+	desc = "KM_18_desc"
+	style = 2
+		
+	action_a = {
+	name = "Truly we are great innovators."
+		command = { type = dissent value = -1 }
+	}
+}
+
+event = {
+	id = 100113
+	country = ENG
+	
+	date = { day = 27 month = february year = 1985 }
+	
+	name = "KM_19"
+	desc = "KM_19_desc"
+	style = 2
+		
+	action_a = {
+	name = "Damn those terrorists!"
+		command = { type = dissent value = 2 }
+		command = { type = relation which = IRE value = -10 }
+	}
+}
+
+# Current End of February. (10-XII-2013)
+# I'm unsure as to when things are supposed to 'turn' 
+# The historical events list can arguably cancelled/reduced or expanded depending on potential alternate courses of History
+# That will require more flags and government type checks, but I figure it's important to first have history happen as it's supposed to
+# Before we let the butterflies loose!
+# Begin March
+
+event = {
+	id = 100201
+	country = URU
+	
+	date = { day = 0 month = march year = 1985 }
+	
+	name = "KM_20"
+	desc = "KM_20_desc"
+	style = 2
+	
+	action_a = {
+	name = "Freedom is so nice!"
+	
+	 command = { type = dissent value = -1 }
+	 command = { type = headofstate which = 195001 }
+	 }
+}
+
+event = {
+	id = 100202
+	country = USA
+	
+	date = { day = 3 month = march year = 1985 }
+	
+	name = "KM_21"
+	desc = "KM_21_desc"
+	style = 2
+		
+	action_a = {
+	name = "Excellent!"
+	
+	 command = { type = dissent value = -1 }
+	 command = { type = relative_manpower value = 1 }
+	 }
+}
+
+event = {
+	id = 100203
+	country = USA
+	
+	date = { day = 4 month = march year = 1985 }
+
+	name = "KM_22"
+	desc = "KM_22_desc"
+	style = 2
+		
+	action_a = {
+	name = "Damn those Narco-thugs!"
+		
+	 command = { type = dissent value = 3 }
+	 command = { type = relation which = MEX value = -10}
+	}
+}
+
+event = {
+	id = 100204
+	country = LEB
+	
+	date = { day = 7 month = march year = 1985 }
+	
+	name = "KM_23"
+	desc = "KM_23_desc"
+	style = 2
+		
+	action_a = {
+	name = "Will we ever get peace?"
+	
+	 command = { type = dissent value = 2 }
+	 }
+}
+
+event = {
+	id = 100205
+	country = ENG
+	
+	date = { day = 10 month = march year = 1985 }
+	
+	name = "KM_24"
+	desc = "KM_24_desc"
+	style = 2
+		
+	action_a = {
+	name = "This government is selling off England by the pound!"
+	
+	 command = { type = dissent value = 2 }
+	 }
+}
+
+event = {
+	id = 100206
+	country = U75
+		
+	date = { day = 13 month = march year = 1985 }
+	
+	name = "KM_25"
+	desc = "KM_25_desc"
+	style = 2
+	
+	action_a = {
+	name = "We're not a charity here!"
+	
+	 command = { type = dissent value = 1 }
+	 }
+}
+
+event = {
+	id = 100207
+	TAG = { LEB USA }
+	
+	date = { day = 15 month = march year = 1985 }
+	
+	name = "KM_26"
+	desc = "KM_26_desc"
+	style = 2
+		
+	action_a = {
+	name = "Oh this is dreadful!"
+	
+	 command = { type = dissent value = 2 }
+	 }
+}
+
+event = {
+	id = 100208
+	country = CAN
+	
+	date = { day = 20 month = march year = 1985 }
+	
+	name = "KM_27"
+	desc = "KM_27_desc"
+	style = 2
+		
+	action_a = {
+	name = "Good luck!"
+	
+	 command = { type = dissent value = -1 }
+	 }
+}
+
+#I should do an event about OCAM dissolving here but it's late (3 am) and too many tags.
+#I suppose it can be done later.
+
+event = {
+	id = 100209
+	country = USA
+	
+	date = { day = 25 month = march year = 1985 }
+	
+	name = "KM_28"
+	desc = "KM_28_desc"
+	style = 2
+		
+	action_a = {
+	name = "Isn't that the film about Beethoven?"
+	
+	 command = { type = dissent value = -1 }
+	 }
+}
+
+#1985 Algarrobo Earthquake
+event = {
+	id = 100210
+	random = no
+	country = CHL
+	
+	name = "CHILE_1"
+	desc = "CHILE_1_DESC"
+	style = 2
+	picture = "news_paper"
+	date = { day = 2 month = march year = 1985 }
+	
+	action_a = {
+		name = ACTION_NAME_DAMN # Tragedy!
+		command = { type = dissent value = 5 }
+		command = { type = construct which = infrastructure where = 856 value = -10 }
+	}
+}
+#April Events
+#100301
+#May Events
+#Bangladesh is hit by a tropical cyclone and storm surge - May 25th
+event = {
+	id = 100401
+	random = no
+	country = U42
+
+	name = BANGLADESH_STORM_NAME
+	desc = BANGLADESH_STORM_DESC
+	style = 2
+	picture = "news_paper"
+
+    date = { day = 24 month = may year = 1985 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 5 }
+		command = { type = manpowerpool value = -10 }
+	}
+}
+#June Events
+#100501
+#July Events
+#Uganda Military Coup of 27 July 1985
+event = {
+	id = 100601
+	random = no
+	country = U70
+
+	name = uganda_july_coup
+	desc = uganda_july_coup_desc
+	style = 2
+	picture = "news_paper"
+
+    date = { day = 26 month = july year = 1985 }
+
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 99
+		command = { type = headofstate which = 1165003 }
+		command = { type = headofgovernment which = 1165004 }
+		command = { type = dissent value = -1 }
+	}
+	action = {
+		name = "ACTION_NAME_THE_COUP_HAS_FAILED"
+		ai_chance = 1
+		command = { type = domestic which = democratic value = -1 }
+		command = { type = domestic which = freedom value = -1 }
+		command = { trigger = { ai = yes } type = dissent value = 5 }
+		command = { trigger = { ai = no } type = dissent value = 10 }
+	}
+}
+#August Events
+#100601
+#September Events
+#100701
+#October Events
+#100801
+#November Events
+#100901
+#################################
+#		December Events
+#################################
+#The Strangler of Vitebsk
+event = {
+	id = 101001
+	random = no
+	country = SOV
+	
+	date = { day = 15 month = december year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = vitebsk_killer
+	desc = vitebsk_killer_desc
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_BOZHE_MOI"
+		command = { type = dissent value = 2 }	
+	}
+}
+#The push for Kampala
+#event = {
+#	id = 2022022
+#	random = no
+#	country = U70
+#
+#	name = uganda_july_coup
+#	desc = uganda_july_coup_desc
+#	style = 2
+#	picture = "news_paper"
+#
+#    trigger = { 
+#		control = { province = 845 data = REB }
+#		control = { province = 844 data = REB } 
+#	}
+#
+#	action = {
+#		name = ACTION_NAME_OK
+#		command = { type = headofstate which = 1165005 }
+#		command = { type = headofgovernment which = 1165006 }
+#		command = { type = dissent value = -5 }
+#	}
+#}
+### End of 1985 events.
+
+#1987
+#Tear down this wall!
+event = {
+	id = 102000
+	random = no
+	country = USA
+	
+	trigger = { 
+		event = 2007016 #Perestroika
+		event = 2007021 #Glasnost
+	} 
+	
+	name = "global_1987_1"
+	desc = "global_1987_1_desc"
+	style = 1
+	picture = "tear_down_this_wall"
+	
+	date = { day = 11 month = june year = 1987 }
+	
+	action = {
+		name = ACTION_NAME_OK # Tragedy!
+		command = { type = dissent value = -1 }
+		command = { type = trigger which = 102001 }
+		command = { type = songs which = "tear_down_this_wall.txt" }
+	}
+}
+event = {
+	id = 102001
+	random = no
+	country = SOV
+
+	
+	name = "global_1987_1"
+	desc = "global_1987_1_desc"
+	style = 1
+	picture = "tear_down_this_wall"
+	
+	action = {
+		name = ACTION_NAME_OK # Tragedy!
+		command = { type = dissent value = 1 }
+		command = { type = songs which = "tear_down_this_wall.txt" }
+	}
+}

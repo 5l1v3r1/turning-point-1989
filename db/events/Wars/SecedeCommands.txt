@@ -1,0 +1,47 @@
+{
+		name = "ACTION_NAME_OK"
+		trigger = { flag = divide_usa }
+		command = { type = secederegion which = SOV value = "Northwest US" when = 1 }
+		command = { type = secederegion which = SOV value = "Southwest US" when = 1 }
+		command = { type = secederegion which = SOV value = "Southcentral US" when = 1 }
+		command = { type = secederegion which = SOV value = "Midwest US" when = 1 }
+		command = { type = secederegion which = SOV value = "Alaska" when = 1 }
+		command = { type = secedearea which = SOV value = "Ohio" when = 1 }
+		command = { type = secedearea which = SOV value = "Indiana" when = 1 }
+		command = { type = secedearea which = SOV value = "Kentucky" when = 1 }
+		command = { type = secedearea which = SOV value = "Indiana" when = 1 }
+		command = { type = secedearea which = SOV value = "Tennessee" when = 1 }
+		command = { type = secedearea which = SOV value = "Alabama" when = 1 }
+		command = { type = secedearea which = SOV value = "Mississippi" when = 1 }
+		command = { type = secedearea which = SOV value = "Florida" when = 1 }
+		#Parts of Appalachia
+		command = { type = secedeprovince which = SOV value = 6468 when = 1 }
+		command = { type = secedeprovince which = SOV value = 6474 when = 1 }
+		command = { type = secedeprovince which = SOV value = 630 when = 1 }
+		#Pacific Islands
+		command = { type = secedeprovince which = SOV value = 7202 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1603 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7199 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7201 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1608 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1602 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7198 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1600 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7200 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1617 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1601 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1604 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7197 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1618 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7196 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1619 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1620 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1621 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7195 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1625 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1626 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1627 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7194 when = 1 }
+		command = { type = country which = USN }
+		#command = { type = clrflag which = divide_usa }
+	}

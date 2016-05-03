@@ -1,0 +1,609 @@
+#########################################################################
+#  The Pan-European Picnic
+#########################################################################
+event = {
+	id = 2003005
+	random = no
+	country = DFR
+	
+	name = "hungary_pan-european_picnic"
+	desc = "hungary_pan-european_picnic_desc"
+	style = 1
+	picture = "pan-european_picnic"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = 1 }
+		command = { type = manpowerpool value = 0.9 }
+		command = { type = relation which = DDR value = -50 }
+	}
+}
+#########################################################################
+#  A Hole in The Iron Curtain
+#########################################################################
+event = {
+	id = 2003006
+	random = no
+	country = DFR
+	
+	name = "hungary_hole_iron_curtain"
+	desc = "hungary_hole_iron_curtain_2_desc"
+	style = 1
+	picture = "hole_iron_curtain"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = 3 }
+		command = { type = relation which = AUS value = 100 }
+		command = { type = relation which = HUN value = 100 }
+		command = { type = relation which = CZE value = 100 }
+		command = { type = relation which = DDR value = -100 }
+		command = { type = manpowerpool value = 13 }
+		command = { trigger = { flag = hole_iron_curtain } type = free_manpower value = 0.01 }
+		command = { trigger = { NOT = { flag = hole_iron_curtain } } type = free_manpower value = 0.05 }
+	}
+}
+#########################################################################
+#  The Fall of Honecker
+#########################################################################
+event = {
+	id = 2003007
+	random = no
+	country = DFR
+	
+	name = "ddr_fall_of_honecker"
+	desc = "ddr_fall_of_honecker_desc"
+	style = 1
+	picture = "fall_of_honecker"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  The Iron Curtain is Falling Apart
+#########################################################################
+event = {
+	id = 2003008
+	random = no
+	country = DFR
+	
+	name = "ddr_iron_curtain_falling"
+	desc = "ddr_iron_curtain_falling_desc"
+	style = 1
+	picture = "hole_iron_curtain"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -5 }
+		#command = { type = manpowerpool value = -13 }
+		command = { type = industrial_modifier which = total value = -5 }
+	}
+}
+#########################################################################
+#  The Turning Point
+#########################################################################
+event = {
+	id = 2003009
+	random = no
+	all = yes
+	persistent = yes
+	TAG = { DFR SOV }
+	
+	name = "ddr_turning_point"
+	desc = "ddr_turning_point_desc"
+	style = 1
+	picture = "turning_point"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -10 }
+	}
+}
+#########################################################################
+#  The Fall of The Berlin Wall
+#########################################################################
+event = {
+	id = 2003010
+	random = no
+	country = DFR
+	
+	name = "ddr_berlin_wall"
+	desc = "ddr_berlin_wall_desc"
+	style = 1
+	picture = "berlin_wall"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -10 }
+	}
+}
+#########################################################################
+#  Die Wende
+#########################################################################
+event = {
+	id = 2003011
+	random = no
+	country = DFR
+	
+	name = "ddr_die_wende"
+	desc = "ddr_die_wende_desc"
+	style = 1
+	picture = "ddr"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  Die Wende II
+#########################################################################
+event = {
+	id = 2003012
+	random = no
+	country = DFR
+	
+	name = "ddr_die_wende"
+	desc = "ddr_die_wende_2_desc"
+	style = 1
+	picture = "ddr"
+
+	action = {
+		name = "DFR_ACTION_REUNIFICATION"
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  Reunification Process
+#########################################################################
+event = {
+	id = 2003013
+	random = no
+	country = DFR
+	
+	name = "reunification_process"
+	desc = "reunification_process_desc"
+	style = 1
+	picture = "deutsche_mark"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -10 }
+		command = { type = industrial_modifier which = total value = -30 }
+	}
+}
+#########################################################################
+#  The German Reunification Treaty
+#########################################################################
+event = {
+	id = 2003014
+	random = no
+	country = DFR
+	
+	name = "reunification_treaty"
+	desc = "reunification_treaty_desc"
+	style = 1
+	picture = "law"
+
+	action = {
+		name = "ACTION_NAME_SIGN"
+		command = { type = dissent value = -10 }
+		#command = { type = make_puppet which = DDR }
+		command = { type = trigger which = 2003015 } #The German Dread
+	}
+}
+#########################################################################
+#  The German Dread
+#########################################################################
+event = {
+	id = 2003015
+	random = no
+	all = yes
+	TAG = { DFR DDR ENG FRA USA SOV ITA POL }
+	
+	name = "reunification_fear"
+	desc = "reunification_fear_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = "ACTION_NAME_PROCEED"
+		command = { type = trigger which = 2003016 }
+	}
+}
+#Continuation
+event = {
+	id = 2003016
+	random = no
+	all = yes
+	TAG = { DFR DDR ENG FRA USA SOV ITA POL }
+	
+	name = "reunification_fear"
+	desc = "reunification_fear_1_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = "ACTION_NAME_PROCEED"
+		command = { type = trigger which = 2003017 }
+	}
+}
+event = {
+	id = 2003017
+	random = no
+	all = yes
+	TAG = { DFR DDR ENG FRA USA SOV ITA POL }
+	
+	name = "reunification_fear"
+	desc = "reunification_fear_2_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = { trigger = { NOT = { country = DFR } }
+		name = "ACTION_NAME_COMPROMISE"
+		command = {}
+	}
+	action = { trigger = { country = DFR }
+		name = "ACTION_NAME_APPEASE"
+		ai_chance = 99
+		command = {}
+	}
+	action = { trigger = { country = DFR }
+		name = "ACTION_NAME_FEAR_US"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = relation which = ENG value = -200 }
+		command = { type = relation which = FRA value = -200 }
+		command = { type = relation which = ISR value = -200 }
+		command = { type = relation which = ITA value = -200 }
+		command = { type = relation which = USA value = -200 }
+		command = { type = relation which = POL value = -200 }
+		command = { type = relation which = SOV value = -200 }
+		command = { type = belligerence value = 15 }
+		command = { type = sleepevent which = 2003018 }
+	}
+}
+#########################################################################
+#  The Two Plus Four Agreement
+#########################################################################
+event = {
+	id = 2003018
+	random = no
+	country = DFR
+	
+	trigger = { 
+		event = 2003017 #The German Dread
+	}
+	
+	date = { day = 11 month = september year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "2+4_agreement"
+	desc = "2+4_agreement_desc"
+	style = 1
+	picture = "law"
+
+	action = {
+		name = "ACTION_NAME_SIGN"
+		command = { type = belligerence value = -15 }
+		command = { type = dissent value = -5 }
+		command = { type = money value = -700 }
+		command = { type = non_aggression which = DFR where = POL }
+		command = { type = trigger which = 2003019 }
+	}
+}
+#Other signatories
+event = {
+	id = 2003019
+	random = no
+	all = yes
+	TAG = { DDR USA ENG FRA SOV }
+	
+	name = "2+4_agreement"
+	desc = "2+4_agreement_desc"
+	style = 1
+	picture = "law"
+
+	action = { 
+		name = "ACTION_NAME_SIGN"
+		ai_chance = 99
+		command = { trigger = { country = DDR } type = belligerence value = -15 }
+		command = { type = dissent value = -5 }
+		command = { type = guarantee which = DFR where = -1 }
+		command = { type = non_aggression which = -1 where = DFR }
+	}
+	action = { 
+		name = "ACTION_NAME_REFUSE"
+		trigger = { NOT = { country = DDR } }
+		ai_chance = 1
+		command = { type = belligerence value = 15 }
+		command = { type = relation which = DFR value = -200 }
+	}
+}
+#########################################################################
+#  The German Reunification
+#########################################################################
+event = {
+	id = 2003020
+	random = no
+	country = DFR
+	
+	trigger = { 
+		event = 2012025 #The German Reunification Treaty
+	}
+	
+	date = { day = 2 month = october year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "german_reunification"
+	desc = "german_reunification_desc"
+	style = 1
+	picture = "german_reunification"
+
+	action = {
+		name = "ACTION_NAME_GREAT_DAY"
+		command = { type = dissent value = -30 }
+		command = { type = inherit which = DDR value = 0 }
+		command = { type = name where = -1 which = TAG_GER }
+		command = { type = capital which = 300 }
+		command = { type = add_corps which = "Bundeswehrkommando Ost" value = land where = 299 }
+ 		command = { type = add_division which = "Bundeswehrkommando Ost" value = HQ when = 6 }
+		command = { type = add_division which = "13. Panzergrenadierdivision" value = mechanized when = 5 }
+		command = { type = add_division which = "14. Panzergrenadierdivision" value = mechanized when = 5 }
+		command = { type = add_corps which = "5. Luftwaffendivision" value = air where = 296 }
+		command = { type = add_division which = "3. Jagdgeschwader" value = interceptor when = 4 }
+		command = { type = add_division which = "Lufttransportgeschwader 65" value = transport_plane when = 3 }
+		command = { type = add_corps which = "Marinekommando Rostock" value = naval where = 296 }
+		command = { type = add_division which = "4. Küstenschutzschiffsbrigade" value = light_cruiser when = 4 }
+		command = { type = add_division which = "1. Sicherungsbrigade" value = light_cruiser when = 5 }
+		command = { type = add_division which = "1. Landungsschiffbrigade" value = transport when = 5 }
+		#command = { type = industrial_modifier which = total value = -20 }
+	}
+}
+#########################################################################
+#  State of Defence
+#########################################################################
+event = {
+	id = 2003039
+	random = no
+	country = DFR
+	
+	trigger = { atwar = yes	}
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	name = "DFR_State_of_Defence"
+	desc = "DFR_State_of_Defence_desc"
+	style = 1
+	picture = "world_in_conflict"
+
+	action = {
+		name = DFR_ACTION_NAME_ACTIVATE_RESERVS
+		command = { type = add_corps which = "TerrKdo Schleswig-Holstein" value = land where = 90 }
+ 		command = { type = add_division which = "TerrKdo Schleswig-Holstein" value = HQ when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 61" value = d_06 when = 5 }
+		command = { type = add_division which = "VBK 10" value = d_02 when = 5  }
+		command = { type = add_corps which = "TerrKdo Nord" value = land where = 66 }
+ 		command = { type = add_division which = "WBK II" value = HQ when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 52" value = d_06 when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 62" value = d_06 when = 5 }
+		command = { type = add_division which = "VBK 20" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 24" value = d_02 when = 5  }
+		command = { type = add_corps which = "TerrKdo Nord" value = land where = 76 }
+ 		command = { type = add_division which = "WBK III" value = HQ when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 53" value = d_06 when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 63" value = d_06 when = 5 }
+		command = { type = add_division which = "VBK 31" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 32" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 33" value = d_02 when = 5  }
+		command = { type = add_corps which = "TerrKdo Süd" value = land where = 1015 }
+ 		command = { type = add_division which = "WBK IV" value = HQ when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 54" value = d_06 when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 64" value = d_06 when = 5 }
+		command = { type = add_division which = "VBK 41" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 42" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 43" value = d_02 when = 5  }	
+		command = { type = add_division which = "VBK 45" value = d_02 when = 5  }
+		command = { type = add_corps which = "TerrKdo Süd" value = land where = 314 }
+ 		command = { type = add_division which = "WBK V" value = HQ when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 55" value = d_06 when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 65" value = d_06 when = 5 }
+		command = { type = add_division which = "VBK 51" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 52" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 43" value = d_02 when = 5  }	
+		command = { type = add_division which = "VBK 55" value = d_02 when = 5  }
+		command = { type = add_corps which = "TerrKdo Süd" value = land where = 376 }
+ 		command = { type = add_division which = "WBK VI" value = HQ when = 5 }
+		command = { type = add_division which = "Heimatschutzbrigade 66" value = d_06 when = 5 }
+		command = { type = add_division which = "VBK 61" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 62" value = d_02 when = 5  }
+		command = { type = add_division which = "VBK 63" value = d_02 when = 5  }	
+		command = { type = add_division which = "VBK 65" value = d_02 when = 5  }
+	}
+}
+#########################################################################
+#  The DFR Election 1987
+#########################################################################
+event = {
+	id = 2003040
+	random = no
+	country = DFR
+	
+	trigger = { government = democratic }
+
+	name = DFR_election_1987
+	desc = DFR_election_1987_desc
+	style = 1
+	picture = "ballot"
+
+   	date = { day = 25 month = January year = 1987 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		ai_chance = 85
+		name = "DDR_ACTION_ELECT_CDU"
+		command = { type = dissent value = -6 }
+		command = { type = headofgovernment which = 630002 } #Helmut Kohl
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = -8 }
+	}
+	action = {
+		name = "DDR_ACTION_ELECT_SDP"
+		ai_chance = 15
+		command = { type = dissent value = -3 }
+		command = { type = headofgovernment which = 630044 } #Johannes Rau
+		command = { type = armamentminister which = 630046 } #Hans Apel
+		command = { type = ministerofsecurity which = 630047 } #Hans-Jochen Vogel
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+}
+#########################################################################
+#  Reunited German Election 1990
+#########################################################################
+event = {
+	id = 2003041
+	random = no
+	country = DFR
+	
+	trigger = { government = democratic }
+
+	name = DFR_election_1990
+	desc = DFR_election_1990_desc
+	style = 1
+	picture = "ballot"
+
+   	date = { day = 2 month = december year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		ai_chance = 90
+		name = "DDR_ACTION_ELECT_CDU"
+		command = { type = dissent value = -6 }
+		command = { type = headofgovernment which = 630002 } #Helmut Kohl
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = -8 }
+		}
+	action = {
+		name = "DDR_ACTION_ELECT_SDP"
+		ai_chance = 10
+		command = { type = dissent value = -1 }
+		command = { type = headofgovernment which = 630048 } #Oskar Lafontaine
+		command = { type = foreignminister which = 630049 } #Joschka Fischer
+		command = { type = armamentminister which = 630050 } #Rudolf Schaping
+		command = { type = ministerofsecurity which = 630051 } #Gerd Wartenberg
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+}
+#########################################################################
+#  Presidential Election 1989
+#########################################################################
+event = {
+	id = 2003042
+	random = no
+	country = DFR
+	
+	trigger = { government = democratic }
+
+	name = DFR_presidential_election_1989
+	desc = DFR_presidential_election_1989_desc
+	style = 1
+	picture = "ballot"
+
+   	date = { day = 23 month = may year = 1989 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -6 }
+		command = { type = headofstate which = 630001 } #Weizäcker
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		}
+}
+#########################################################################
+#  Presidential Election 1994
+#########################################################################
+event = {
+	id = 2003043
+	random = no
+	country = DFR
+	
+	trigger = { government = democratic }
+
+	name = DFR_presidential_election_1994
+	desc = DFR_presidential_election_1994_desc
+	style = 1
+	picture = "ballot"
+
+   	date = { day = 23 month = may year = 1994 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		ai_chance = 90
+		name = "DDR_ACTION_ELECT_CDU"
+		command = { type = dissent value = -6 }
+		command = { type = headofstate which = 630053 } #Roman Herzog
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		}
+	action = {
+		name = "DDR_ACTION_ELECT_SDP"
+		ai_chance = 10
+		command = { type = dissent value = -3 }
+		command = { type = headofstate which = 630052 } #Johannes Rau
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		}
+}
+#########################################################################
+#  Presidential Election 1999
+#########################################################################
+event = {
+	id = 2003044
+	random = no
+	country = DFR
+	
+	trigger = { government = democratic }
+
+	name = DFR_presidential_election_1999
+	desc = DFR_presidential_election_1999_desc
+	style = 1
+	picture = "ballot"
+
+   	date = { day = 23 month = may year = 1999 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		ai_chance = 10
+		name = "DDR_ACTION_ELECT_CDU"
+		command = { type = dissent value = -6 }
+		command = { type = headofstate which = 630054 } #Dagmar Schipanski
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		}
+	action = {
+		name = "DDR_ACTION_ELECT_SDP"
+		ai_chance = 90
+		command = { type = dissent value = -3 }
+		command = { type = headofstate which = 630052 } #Johannes Rau
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		}
+}

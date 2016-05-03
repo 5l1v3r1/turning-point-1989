@@ -1,0 +1,22 @@
+LUX;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+385001;Head of State;HRH Jean;1985;2012;2012;SC;Popular Figurehead;Very High;LUX1;X
+385002;Head of Government;Jacques Santer;1985;2012;2012;SC;Silent Workhorse;Very High;LUX2;X
+385003;Foreign Minister;Jacques Poos;1985;2012;2012;SD;Great Compromiser;Very High;LUX3;X
+385004;Minister of Armament;Jacques Santer;1985;2012;2012;SC;Laissez-Faire Capitalist;Very High;LUX2;X
+385005;Minister of Security;Marc Fischbach;1985;2012;2012;SC;Silent Lawyer;Very High;LUX4;X
+385006;Head of Military Intelligence;Marc Fischbach;1985;2012;2012;SC;Political Specialist;Very High;LUX4;X
+385007;Chief of Staff;Nicolas Ley;1985;2012;2012;ML;School of Psychology;Very High;unknown;X
+385008;Chief of Army;Nicolas Ley;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;unknown;X
+385009;Chief of Navy;Blue Shadow;1985;2012;2012;SC;Generic;Very High;unknown;X
+385010;Chief of Air Force;Blue Shadow;1985;2012;2012;SC;Generic;Very High;unknown;X
+;Replacements;;;;;;;;;X
+385011;Head of State;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385012;Head of Government;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385013;Foreign Minister;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385014;Minister of Armament;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385015;Minister of Security;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385016;Head of Military Intelligence;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385017;Chief of Staff;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385018;Chief of Army;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385019;Chief of Navy;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+385020;Chief of Air Force;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X

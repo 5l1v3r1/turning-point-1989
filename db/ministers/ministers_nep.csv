@@ -1,0 +1,32 @@
+NEP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+395001;Head of State;HM Birendra;1985;2012;2012;SC;Pig-headed Isolationist;High;NEP1;X
+395002;Head of Government;Lokendra Bahadur Chand;1985;2012;2012;SC;Silent Workhorse;High;NEP2;X
+395003;Foreign Minister;Lokendra Bahadur Chand;1985;2012;2012;SC;Generic;High;NEP2;X
+395004;Minister of Armament;Lokendra Bahadur Chand;1985;2012;2012;SC;Generic;High;NEP2;X
+395005;Minister of Security;Chand Bahadur Rai;1985;2012;2012;SC;Generic;High;unknown;X
+395006;Head of Military Intelligence;Chand Bahadur Rai;1985;2012;2012;SC;Generic;High;unknown;X
+395007;Chief of Staff;Arjun Narsing Rana;1985;2012;2012;SC;Generic;High;unknown;X
+395008;Chief of Army;Arjun Narsing Rana;1985;2012;2012;SC;Generic;High;unknown;X
+395009;Chief of Navy;Black Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+395010;Chief of Air Force;Arjun Narsing Rana;1985;2012;2012;SC;Generic;High;unknown;X
+;Replacements;;;;;;;;;X
+395011;Head of State;Black Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+395012;Head of Government;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+395013;Foreign Minister;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+395014;Minister of Armament;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+395015;Minister of Security;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;
+395016;Head of Military Intelligence;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;
+395017;Chief of Staff;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+395018;Chief of Army;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+395019;Chief of Navy;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+395020;Chief of Air Force;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+395021;Head of State;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395022;Head of Government;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395023;Foreign Minister;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395024;Minister of Armament;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395025;Minister of Security;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395026;Head of Military Intelligence;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395027;Chief of Staff;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395028;Chief of Army;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395029;Chief of Navy;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+395030;Chief of Air Force;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X

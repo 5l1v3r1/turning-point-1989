@@ -1,0 +1,40 @@
+KaiserMuffin
+
+So I read Rommelstein's fun little AAR. Decide to load up and do a bit more of a plausible game, thinking to myself "Hmm, this will be fun, Israel has a few interesting wars in our time period." 
+
+So I load up as Medinat Yisra'el (Israel) in 1950 scenario. 
+
+Where do I start..
+Why no 1948 scenario for Israel release? Or at least an event chain through 1945-46 with Haganah, Stern Gang, Irgun could be implemented...
+Jordan and Israel have -50 relations whilst Lebanon, Syria and Egypt have relations of 0. This is completely backwards. Israel had the most positive relationship with Jordan to the point that Jordan nearly got kicked out of the Arab League due to H.M. Abdullah's willingness to do business with Israel, whilst Egypt in particular supported infiltration and terror acts against Israel. (more on this later)
+Why are there 4 divisions of UK troops spawning in Tel Aviv at the start of the game?
+Why is Israel's sliders so poor? David Ben Gurion is Head of Government, Moshe Dayan is Chief of the Army and they only have a slider of 4 on Intervention and 8 on Hawk Lobby?! This is completely inaccurate due to failing to model Israel's Iron Wall strategy (to always negotiate from a position of strength with the Arabs. Hawk Lobby and Interventionism should be very high - Israel will get enough pain from the fact they're a democracy when they declare war.
+Starting with 15.0 manpower - this is the nation that managed to swell the ranks of the IDF from 35k to 96k within months during 1948, I would at start Israel with a higher base mobilisation and greater manpower
+Completely Generic unit and division names - really kills the mood of playing one of the most interesting countries of this period.
+Stupid 'Independence Struggle' dissent event fires on Jan 15th 1950 2 YEARS AFTER INDEPENDENCE - this crap is for AI's! I have an IC of 3 (by the way... what?) and I get this crap! I can't even supply my armies and gain a resource surplus via trade.
+No events with regards to border infiltrations and Israeli responses.
+On Jordan: Arab Legion is absent just yet more generic divisions - could we give the one force that kicked Israeli ass in the 1948 war some damn credit?! and Glubb Pasha seem absent from events (what events?!) and Jordan starts the game as JOR49.
+Why is Israel brown? Swap colour with Lebanon please, so I can tell myself apart from my neighbours at a glance on political mode.
+Just a generally stunning lack of events...
+Option for the IDF to lead a Coup against Moshe Sharatt and put either David Ben-Gurion back into power or Moshe Dayan taking the reins in Israel and prompting a new round of wars...
+Israel doesn't have 'Practical Turbojet Engine'. What, the fu... (never mind, the tech trees for minors are just a sodding mess)
+Moshe Dayan and Ariel Sharon are both Lt. Generals. This is crap. Dayan should be a General whilst Sharon should be a Mj. General (if he MUST be in the game from 1950 onward... - he was actually only a colonel at the time).
+Oh and here's some quote straight from Wikipedia... emphasis mine, primarily to back up some of my points above and suggest events - would it have killed to check it when you made the scenario?
+the population of Israel rose from 800,000 to two million between 1948 and 1958.[87] During this period, food, clothes and furniture had to be rationed in what became known as the Austerity Period. Between 1948–1970, approximately 1,151,029 Jewish refugees relocated to Israel.[88] Some arrived as refugees with no possessions and were housed in temporary camps known as ma'abarot; by 1952, over 200,000 immigrants were living in these tent cities.[89] The need to solve the crisis led Ben-Gurion to sign a reparations agreement with West Germany that triggered mass protests by Jews angered at the idea that Israel could accept monetary compensation for the Holocaust.[90] In the 1950s, Israel was frequently attacked by Palestinian fedayeen, mainly from the Egyptian-occupied Gaza Strip,[91] leading to several Israeli counter-raids. In 1950 Egypt closed the Suez Canal to Israeli shipping and tensions mounted as armed clashes took place along Israel's borders. In 1956, Israel joined a secret alliance with Great Britain and France aimed at regaining control of the Suez Canal, which the Egyptians had nationalized (see the Suez Crisis). Israel overran the Sinai Peninsula but was pressured to withdraw by the United Nations in return for guarantees of Israeli shipping rights in the Red Sea and the Canal.[92][93]
+In the early 1960s, Israel captured Nazi war criminal Adolf Eichmann in Argentina and brought him to Israel for trial.[94] The trial had a major impact on public awareness of the Holocaust.[95] Eichmann remains the only person ever to be executed by an Israeli court.[96]
+General Spotted errors
+Libya... still ran by two Italian Fascists... Somalia, same.
+Nat Spain, Jugoslavia, Bulgaria, Romania, Hungary, Czech, Austria, Burma, South Vietnam, Uruguay, Paraguay, Bolivia all just deploy troops to the capital
+All the minors (Israel included) seem to be stuck researching 1916's hot new war doctrine 'Separated Arms'
+
+I know I'm from Kaiserreich and used to everyone and his dog having event's but okay, I get it... USSR blowing the crap out of the US is amazeballs fun, but could we get some love for the minors?
+
+Oh and Korea unified itself in about 6 seconds... so much for one of the interesting superpower proxy conflicts... Are there even events regards the UN force? The DPRK just declared and nothing happened at all... :P
+
+I'm gonna stop playing before I burst a blood vessel...
+
+And no, I don't have the time fix all this for myself and maybe even send it to you. I'm studying at University for Finals right now... (and I've spent my revision break complaining about the game instead of playing it...)
+
+
+Just a thought btw, could we get events with offmap IC to symbolise superpower support? + events for Soviets/France/US/Britain to supply arms (divisions) to both Egypt and Israel? Israel has 3 IC, yet this was the country that publically announced it's already underway nuclear program to the world in 1960... 
+I think there's a lot of room for improvement, and I'm glad that you responded to my post with such a sanguine response - I wrote that a bit late at night so it came off snappy. I would be willing to do some work on the region at some point.

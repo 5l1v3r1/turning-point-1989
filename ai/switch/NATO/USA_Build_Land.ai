@@ -1,0 +1,59 @@
+# USA Land Prio Build by HansNery
+
+###################################
+# Construction and Tech Research
+###################################
+
+military = { 
+	relative_build_scheme 	= no
+
+	#### Divisions etc...
+   	infantry   			= 0
+	cavalry 			= 0
+	motorized 			= 0
+	mechanized 			= 0
+	light_armor 		= 0
+	armor 				= 0
+   	paratrooper     	= 0
+	marine 				= 0
+	bergsjaeger 		= 0
+	garrison			= 2
+    hq	 				= 3
+	militia 			= 0
+	d_01				= 5 #Infantry Brigade
+	d_02				= 20 #Motorized Brigade
+	d_03				= 2 #Special Forces Brigade
+	d_04				= 3 #Air Cavalry
+	d_05				= 20 #Marine Brigade
+	d_06				= 20 #Mechanized Brigade
+	d_07				= 0 #Missile Boat
+	d_08				= 3 #Paratrooper Brigade
+	d_09				= 5 #Mountain Brigade
+#				80 %
+   	interceptor   		= 5
+   	multi_role   		= 5 
+	cas 				= 3
+	strategic_bomber 	= 1
+	tactical_bomber 	= 3
+	naval_bomber 		= 1
+   	transport_plane   	= 1
+	flying_bomb 		= 0
+	flying_rocket 		= 0
+#				19 %
+	battleship 			= 0
+   	carrier     		= 0
+   	light_carrier  		= 0 
+	escort_carrier		= 0
+   	destroyer   		= 0 
+	light_cruiser 		= 0
+	heavy_cruiser 		= 0
+	battlecruiser 		= 0
+	submarine 			= 0
+	nuclear_submarine 	= 0
+	transports 			= 1
+	#d_07				= 0	#Missile Boats
+	d_10				= 0	#Nuclear Carrier
+	d_11				= 0	#Nuclear Ballistic Submarine
+	d_12				= 0	#Nuclear Heavy Cruiser
+#				1 %
+}

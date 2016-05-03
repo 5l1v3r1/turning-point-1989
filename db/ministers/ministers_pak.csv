@@ -1,0 +1,17 @@
+PAK;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+725001;Head of State;Muhammad Zia-ul-Haq;1985;2012;2012;PA;Stern Imperialist;Very High;PAK1;X
+725002;Head of Government;Muhammad Zia-ul-Haq;1985;2012;2012;PA;Old General;Very High;PAK1;X
+725003;Foreign Minister;Yaqub Ali Khan;1985;2012;2012;SC;Great Compromiser;Very High;PAK2;X
+725004;Minister of Armament;Ghulam Ishaq Khan;1985;2012;2012;SC;Administrative Genius;Very High;PAK3;X
+725005;Minister of Security;Sardar Farooq Khan;1985;2012;2012;PA;Crooked Kleptocrat;Very High;unknown;X
+725006;Head of Military Intelligence;Akhtar Abdur Rahman;1985;2012;2012;PA;Logistics Specialist;Very High;PAK4;X
+725007;Chief of Staff;Rahimuddin Khan;1985;2012;2012;SC;School of Fire Support;Very High;PAK5;X
+725008;Chief of Army;Mirza Aslam Beg;1985;2012;2012;PA;Armoured Spearhead Doctrine;Very High;PAK6;X
+725009;Chief of Navy;Tariq Kamal Khan;1985;2012;2012;ML;Power Projection Doctrine;Very High;unknown;X
+725010;Chief of Air Force;Muhammad Anwar Shamim;1985;2012;2012;ML;Air Superiority Doctrine;Very High;PAK7;X
+;Replacements;;;;;;;;;X
+725011;Head of State;Aitzaz Ahsan;1985;2012;2012;SD;Benevolent Gentleman;Very High;PAK8;X
+725012;Head of Government;Benazir Bhutto;1985;2012;2012;SD;Ambitious Union Boss;Very High;PAK9;X
+725013;Foreign Minister;Benazir Bhutto;1985;2012;2012;SD;Great Compromiser;Very High;PAK9;X
+725014;Minister of Security;Agha Nek Mohammad;1985;2012;2012;ML;Crime Fighter;Very High;unknown;X
+725015;Head of Military Intelligence;Agha Nek Mohammad;1985;2012;2012;ML;Political Specialist;Very High;unknown;X

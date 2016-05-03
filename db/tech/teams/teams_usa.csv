@@ -1,0 +1,32 @@
+USA;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+17500;Combined Arms Center;cac;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;maneuver_tactics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17501;General Dynamics;T17513;9;1000;2999;mechanics;electronics;general_equipment;vehicle_engineering;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17502;United Defense;united defence;8;1000;2999;mechanics;artillery;general_equipment;electronics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17503;Textron Marine & Land Systems;T17522;7;1000;2999;mechanics;electronics;management;training;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17504;Colt;Colt;7;1000;2999;general_equipment;rocketry;munitions;infantry_focus;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17505;Northrop Grumman;T17505;9;1000;2999;aeronautics;avionics;piloting;industrial_engineering;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17506;Lockheed Martin;T17503;9;1000;2999;aeronautics;avionics;bomber_tactics;combined_arms_focus;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17507;Boeing;T17504;9;1000;2999;aeronautics;technical_efficiency;industrial_engineering;avionics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17508;Bell Helicopter Textron;bell;8;1000;2999;technical_efficiency;infantry_focus;avionics;cavalry_tactics;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17509;General Electric;T17502;8;1000;2999;industrial_engineering;electronics;management;mathematics;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17510;Defence Intelligence Agency;dia;9;1000;2999;mathematics;rocketry;management;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17511;Raytheon;T17524;9;1000;2999;management;chemistry;industrial_engineering;mathematics;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17512;L-3 Communications;L-3;7;1000;2999;chemistry;electronics;mathematics;general_equipment;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17513;Argonne National Labs;argonne;8;1000;2999;electronics;rocketry;management;mathematics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17514;Los Alamos National Laboratory;T17514;9;1000;2999;nuclear_physics;nuclear_engineering;management;mathematics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17515;NASA;T17515;9;1000;2999;electronics;rocketry;aeronautics;avionics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17516;United Technologies;T17523;8;1000;2999;industrial_engineering;rocketry;management;vehicle_engineering;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17517;Consolidated Robotics;Consolidated Robotics;7;1000;2999;management;rocketry;electronics;mathematics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17518;US Army;T17520;9;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17519;US Marine Corps;T17519;9;1000;2999;decentralized_execution;small_taskforce_tactics;large_unit_focus;artillery;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17520;Joint Chiefs of Staff;us joint chiefs;9;1000;2999;training;management;large_unit_focus;small_unit_tactics;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17521;US Air Force;T17516;9;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17522;US Navy SFTI (Top Gun);topgun;9;1000;2999;aircraft_testing;piloting;aeronautics;avionics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17523;Ingalls Shipbuilding;Ingalls;8;1000;2999;naval_artillery;small_taskforce_tactics;naval_engineering;naval_training;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17524;Northrop Grumman Shipbuilding;Newport News;9;1000;2999;naval_artillery;naval_engineering;small_taskforce_tactics;submarine_tactics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17525;Bath Iron Works;Arleigh;7;1000;2999;small_taskforce_tactics;naval_artillery;technical_efficiency;mechanics;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17526;US Navy;T17525;9;1000;2999;carrier_tactics;large_taskforce_tactics;naval_engineering;naval_training;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17527;General Dynamics Electric Boat;gdelboat;9;1000;2999;submarine_tactics;management;technical_efficiency;munitions;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17528;Submarine Command;subcommand;8;1000;2999;seamanship;submarine_design;general_equipment;munitions;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+17528;Fleet Logistics Command;fleetlogistics;8;1000;2999;naval_training;seamanship;combined_arms_focus;technical_efficiency;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+17529;Assoc. of American Universities;AAU;9;1000;2999;training;chemistry;mechanics;aeronautics;avionics;;;;;;;;;;;;;;;;;;;;;;;;;;;;

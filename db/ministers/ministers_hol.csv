@@ -1,0 +1,22 @@
+HOL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyality;Picture Name;X
+15001;Head of State;HM Beatrix;1985;2012;2012;SC;Popular Figurehead;Very High;HOL1;X
+15002;Head of Government;Ruud Lubbers;1985;2012;2012;SC;Flamboyant Tough Guy;Very High;HOL2;X
+15003;Foreign Minister;Hans van den Broek;1985;2012;2012;SC;Great Compromiser;Very High;HOL3;X
+15004;Minister of Armament;Onno Ruding;1985;2012;2012;SC;Laissez-Faire Capitalist;Very High;HOL4;X
+15005;Minister of Security;Koos Rietkerk;1985;2012;2012;ML;Silent Lawyer;Very High;HOL5;X
+15006;Head of Military Intelligence;Job de Ruiter;1985;2012;2012;SC;Political Specialist;Very High;HOL6;X
+15007;Chief of Staff;Govert Huyser;1985;2012;2012;ML;School of Manoeuvre;Very High;unknown;X
+15008;Chief of Army;Johannes Gerhard Roos;1985;2012;2012;ML;Elastic Defence Doctrine;Very High;HOL7;X
+15009;Chief of Navy;J.H.B. Hulshof;1985;2012;2012;ML;Power Projection Doctrine;Very High;HOL8;X
+15010;Chief of Air Force;Casper Baas;1985;2012;2012;ML;Air Superiority Doctrine;Very High;unknown;X
+;Replacements;;;;;;;;;X
+15011;Head of State;Marcus Bakker;1985;2012;2012;LE;Die-hard Reformer;High;HOL9;X
+15012;Head of Government;Frederik Meis;1985;2012;2012;LE;Ambitious Union Boss;High;HOL10;X
+15013;Foreign Minister;Job Pruijser;1985;2012;2012;LE;Ideological Crusader;High;HOL11;X
+15014;Minister of Armament;Frederik Meis;1985;2012;2012;LE;Administrative Genius;High;HOL10;X
+15015;Minister of Security;Rinze Visser;1985;2012;2012;LE;Man of the People;High;HOL12;X
+15016;Head of Military Intelligence;Rinze Visser;1985;2012;2012;LE;Political Specialist;High;HOL12;X
+15017;Chief of Staff;Council of National Defence;1985;2012;2012;LE;School of Mass Combat;High;unknown;X
+15018;Chief of Army;Council of National Defence;1985;2012;2012;LE;Guns and Butter Doctrine;High;unknown;X
+15019;Chief of Navy;Council of National Defence;1985;2012;2012;LE;Indirect Approach Doctrine;High;unknown;X
+15020;Chief of Air Force;Council of National Defence;1985;2012;2012;LE;Army Aviation Doctrine;High;unknown;X

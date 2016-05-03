@@ -1,0 +1,24 @@
+PRK;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+735001;Head of State;Kim Il-sung;1985;2012;2012;ST;Supreme Leader;Undying;NKOR1;X
+735011;Head of State;Kim Jong-il;1990;2012;2012;ST;Powerhungry Demagogue;Undying;Kim Jong-il;X
+735012;Head of Government;Kim Jong-il;1990;2012;2012;ST;Flamboyant Tough Guy;Undying;Kim Jong-il;X
+735002;Head of Government;Kim Il-sung;1985;2012;2012;ST;Autocrat2;Undying;NKOR1;X
+735003;Foreign Minister;Kim Il-sung;1985;2012;2012;ST;Iron Fisted Brute;Very High;NKOR1;X
+735013;Foreign Minister;Paek Nam-sun;1990;2012;2012;ST;Ideological Crusader;Undying;Paek Nam-sun;X
+735022;Foreign Minister;Kim Ki-nam;1985;2012;2012;ST;Biased Intellectual;Undying;Kim Ki-nam;X
+735024;Minister of Armament;Jon Pyong-ho;1985;2012;2012;ST;Administrative Genius;Very High;Jon Pyong-ho;X
+735004;Minister of Armament;Kim Il-sung;1985;2012;2012;ST;Military Entrepreneur;Very High;NKOR2;X
+735014;Minister of Armament;Il Bong-mun;1995;2012;2012;ST;Resource Industrialist;Undying;Il Bong-mun;X
+735005;Minister of Security;Ri Chun-su;1985;2012;2012;ST;Efficient Sociopath;Very High;unknown;X
+735015;Minister of Security;Sang Song-ju;1990;2012;2012;ST;Man of the People;Undying;Sang Song-ju;X
+735006;Head of Military Intelligence;Kim Il-sung;1985;2012;2012;ST;Political Specialist;Very High;NKOR2;X
+735016;Head of Military Intelligence;Yong Rip-pyon;1990;2012;2012;ST;Industrial Specialist;Undying;Yong Rip-pyon;X
+735007;Chief of Army;O Kuk-ryol;1985;2012;2012;ST;Armoured Spearhead Doctrine;Very High;NKOR3;X
+735018;Chief of Army;Kim Il-chol;1990;2012;2012;ST;Decisive Battle Doctrine;Undying;Il Chol-kim;X
+735019;Chief of Army;Kim Kyok-sik;1995;2012;2012;ST;Static Defence Doctrine;Undying;Kim Kyok-sik;X
+735008;Chief of Staff;Kim Il-sung;1985;2012;2012;ST;School of Fire Support;Very High;NKOR2;X
+735017;Chief of Staff;Kim Jong-il;1990;2012;2012;ST;School of Mass Combat;Undying;Kim Jong-il;X
+735020;Chief of Navy;Kim Il-chol;1990;2012;2012;ST;Indirect Approach Doctrine;Undying;Il Chol-kim;X
+735021;Chief of Navy;O Kuk-ryol;1985;2012;2012;ST;Power Projection Doctrine;Undying;NKOR3;X
+735023;Chief of Air Force;Jo Myong-rok;1985;2012;2012;ST;Army Aviation Doctrine;Undying;Jo Myong-rok;X
+;Replacements;;;;;;;;;X

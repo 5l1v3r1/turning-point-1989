@@ -1,0 +1,386 @@
+########################################################
+# Iran
+########################################################
+# Economic Cooperation Organization (ECO)
+event = {
+	id = 9000240
+	random = no
+	country = PER
+	
+	decision = {
+		money = 100
+		atwar = no
+	}
+	decision_trigger = { 
+		money = 200
+		atwar = no
+	}	
+#	trigger = {
+#		money = 200
+#		atwar = no
+#	}
+	
+	name = "persia_decision_1"
+	desc = "persia_decision_1_desc"
+	style = 2
+	picture = "eco"
+	decision_picture = "decision_eco"
+	offset = 20
+	
+	date = { day = 1 month = january year = 1985 }
+	deathdate = { day = 29 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_INVITE_TUR_PAK"
+		command = { type = money value = -200 }
+		command = { type = trigger which = 9000241 }
+	}
+}
+########################################################
+# Inviting Turkey to Economic Cooperation Organization
+########################################################
+event = {
+	id = 9000241
+	random = no
+	country = TUR
+	
+	#Triggered by PER 9000240
+	
+	name = "persia_decision_2"
+	desc = "persia_decision_2_desc"
+	style = 2
+	picture = "eco"
+
+	action = {
+		name = "ACTION_NAME_THEY_ACCEPTED"
+		ai_chance = 99	
+		command = { type = trigger which = 9000242 }
+	}
+	action = {
+		ai_chance = 1
+		name = "ACTION_NAME_THEY_REFUSED"
+		command = { type = trigger which = 9000243 }
+	}
+}
+# Turkey Accepted
+event = {
+	id = 9000242
+	random = no
+	country = PER
+	#	save_date = yes
+	
+	#Triggered by PER 9000241
+	
+	name = "persia_decision_3"
+	desc = "persia_decision_3_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_great"
+		command = { type = relation which = TUR value = 50 }
+		command = { type = trigger which = 9000244 }
+	}
+}
+# Turkey Refuses
+event = {
+	id = 9000243
+	random = no
+	country = PER
+	#	save_date = yes
+	
+	#Triggered by PER 9000241
+	
+	name = "persia_decision_4"
+	desc = "persia_decision_4_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_econotformed"
+		ai_chance = 50
+		command = { type = relation which = TUR value = -50 }
+	}
+	action_b = {
+		name = "action_name_iranpakistancoop"
+		ai_chance = 50
+		command = { type = trigger which = 9000250 }
+	}
+}
+########################################################
+# Inviting Pakistan to Economic Cooperation Organization
+########################################################
+event = {
+	id = 9000244
+	random = no
+	country = PAK
+#	save_date = yes
+	
+	#Triggered by PER 9000240
+	
+	name = "persia_decision_2"
+	desc = "persia_decision_2_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_accept"
+		ai_chance = 99
+		command = { type = trigger which = 9000245 }
+	}
+		action_b = {
+		ai_chance = 1
+		name = "action_name_refuse"
+		command = { type = trigger which = 9000246 }
+	}
+}
+# Pakistan Accepted
+event = {
+	id = 9000245
+	random = no
+	country = PER
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_5"
+	desc = "persia_decision_5_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_great"
+		command = { type = relation which = PAK value = 50 }
+		command = { type = trigger which = 9000253 }
+		command = { type = trigger which = 9000254 }
+		command = { type = trigger which = 9000255 }
+	}
+}
+# Pakistan Refuses
+event = {
+	id = 9000246
+	random = no
+	country = PER
+	#	save_date = yes
+	
+	#Triggered by PER 9000241
+	
+	name = "persia_decision_4"
+	desc = "persia_decision_4_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_econotformed"
+		ai_chance = 50
+		command = { type = relation which = TUR value = -50 }
+	}
+	action_b = {
+		ai_chance = 50
+		name = "action_name_iranturkeycoop"
+		command = { type = trigger which = 9000247 }
+	}
+}
+########################################################
+# Iran-Turkey Cooperation
+########################################################
+event = {
+	id = 9000247
+	random = no
+	country = TUR
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_7"
+	desc = "persia_decision_7_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_great"
+		ai_chance = 50
+		command = { type = relation which = PER value = 50 }
+		command = { type = domestic which = free_market value = 3 }
+		command = { type = non_aggression which = TUR where = PER }
+		command = { type = trigger which = 9000248 }
+	}
+	action_b = {
+		ai_chance = 50
+		name = "action_name_refused"
+		command = { type = relation which = PER value = -50 }
+		command = { type = trigger which = 9000249 }
+	}
+}
+# Iran-Turkey Cooperation Accepted
+event = {
+	id = 9000248
+	random = no
+	country = TUR
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_7"
+	desc = "persia_decision_7_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_great"
+		command = { type = relation which = PER value = 50 }
+		command = { type = domestic which = free_market value = 3 }
+		command = { type = non_aggression which = TUR where = PER }
+	}
+}
+# Iran-Turkey Cooperation Refused
+event = {
+	id = 9000249
+	random = no
+	country = PER
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_7"
+	desc = "persia_decision_7_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_damn"
+		command = { type = relation which = TUR value = -100 }
+	}
+}
+########################################################
+# Iran-Pakistan Cooperation
+########################################################
+event = {
+	id = 9000250
+	random = no
+	country = PAK
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_8"
+	desc = "persia_decision_8_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		ai_chance = 50
+		name = "action_name_accept"
+		command = { type = relation which = PER value = 50 }
+		command = { type = domestic which = free_market value = 3 }
+		command = { type = non_aggression which = PAK where = PER }
+		command = { type = trigger which = 9000251 }
+	}
+	action_b = {
+		ai_chance = 50
+		name = "action_name_refuse"
+		command = { type = relation which = PER value = -50 }
+		command = { type = trigger which = 9000252 }
+	}
+}
+########################################################
+# Iran-Pakistan Cooperation Accepted
+########################################################
+event = {
+	id = 9000251
+	random = no
+	country = PER
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_8"
+	desc = "persia_decision_8_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_great"
+		command = { type = relation which = PAK value = 50 }
+		command = { type = domestic which = free_market value = 3 }
+	}
+}
+# Iran-Pakistan Cooperation Refused
+event = {
+	id = 9000252
+	random = no
+	country = PER
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_8"
+	desc = "persia_decision_8_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_damn"
+		command = { type = relation which = PAK value = -100 }
+	}
+}
+# ECO Formed (Persia)
+event = {
+	id = 9000253
+	random = no
+	country = PER
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_9"
+	desc = "persia_decision_9_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_great"
+		command = { type = domestic which = free_market value = 4 }
+		command = { type = 	non_aggression which = PER where = PAK }
+		command = { type = 	non_aggression which = PER where = TUR }
+	}
+}
+# ECO Formed (Turkey)
+event = {
+	id = 9000254
+	random = no
+	country = TUR
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_9"
+	desc = "persia_decision_9_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_great"
+		command = { type = domestic which = free_market value = 4 }
+		command = { type = 	non_aggression which = TUR where = PAK }
+	}
+}
+# ECO Formed (Pakistan)
+event = {
+	id = 9000255
+	random = no
+	country = PAK
+	#	save_date = yes
+	
+	#Triggered by PER 9000242
+	
+	name = "persia_decision_9"
+	desc = "persia_decision_9_desc"
+	style = 2
+	picture = "eco"
+
+	action_a = {
+		name = "action_name_great"
+		command = { type = domestic which = free_market value = 4 }
+	}
+}

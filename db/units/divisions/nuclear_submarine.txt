@@ -1,0 +1,232 @@
+allowed_brigades = naval_radar_l
+allowed_brigades = naval_fire_controll_l
+allowed_brigades = naval_improved_hull_l
+allowed_brigades = naval_torpedoes_l
+allowed_brigades = naval_asw
+max_allowed_brigades = 5
+
+# 0 - SSN 1956
+model = {
+	cost						= 20
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.5
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 9
+	airattack					= 1
+	subattack					= 9
+	convoyattack					= 13
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 1 - SSN 1958
+model = {
+	cost						= 22
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 10
+	airattack					= 1
+	subattack					= 10
+	convoyattack					= 13
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 2 - SSN 1960
+model = {
+	cost						= 25
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 10
+	airattack					= 1
+	subattack					= 11
+	convoyattack					= 13
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 3 - SSN 1963
+model = {
+	cost						= 27
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 11
+	airattack					= 1
+	subattack					= 13
+	convoyattack					= 14
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 4 - SSN 1972
+model = {
+	cost						= 30
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 13
+	airattack					= 1
+	subattack					= 15
+	convoyattack					= 15
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 5 - SSN 1979
+model = {
+	cost						= 33
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 17
+	airattack					= 1
+	subattack					= 16
+	convoyattack					= 16
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	upgrade_time_boost 	= no
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 6 - SSN 1992
+model = {
+	cost						= 37
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 28
+	airdefence					= 16
+	seaattack					= 15
+	airattack					= 1
+	subattack					= 17
+	convoyattack					= 17
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 7 - SSN 2000
+model = {
+	cost						= 40
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 26
+	airdefence					= 14
+	seaattack					= 20
+	airattack					= 1
+	subattack					= 20
+	convoyattack					= 20
+	shorebombardment			= 0
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}

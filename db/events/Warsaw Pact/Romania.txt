@@ -1,0 +1,384 @@
+#########################################################################
+#  Ceausescu and The Systematization
+#########################################################################
+event = {
+	id = 2031000
+	random = no
+	country = ROM
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania"
+	desc = "romania_desc"
+	style = 1
+	picture = "the_systematization"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = 10 }
+		command = { type = industrial_modifier which = total value = -30 }
+		command = { type = free_money value = 10 }
+	}
+}
+#########################################################################
+#  The Brasov Rebellion
+#########################################################################
+event = {
+	id = 2031001
+	random = no
+	country = ROM
+	
+	date = { day = 14 month = november year = 1987 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_1"
+	desc = "romania_1_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 20 }
+	}
+}
+#########################################################################
+#  The Letter of Six
+#########################################################################
+event = {
+	id = 2031002
+	random = no
+	country = ROM
+	
+	date = { day = 1 month = march year = 1989 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_2"
+	desc = "romania_2_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  Paying Off The External Debt
+#########################################################################
+event = {
+	id = 2031003
+	random = no
+	country = ROM
+	
+	date = { day = 1 month = april year = 1989 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_3"
+	desc = "romania_3_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = money value = -13000 }
+	}
+	action = {
+		name = ACTION_NAME_LIFT_AUSTERITY
+		command = { type = dissent value = -10 }
+		command = { type = free_money value = -10 }
+		command = { type = money value = -13000 }
+	}
+	action = {
+		name = ACTION_NAME_NO
+		command = { type = dissent value = 20 }
+		command = { type = industrial_modifier which = total value = -30 }
+		command = { type = belligerence value = 5 }
+	}
+}
+#########################################################################
+#  The Party Congress Protest
+#########################################################################
+event = {
+	id = 2031004
+	random = no
+	country = ROM
+	
+	trigger = { event = 2007016 } #Perestroika
+	
+	date = { day = 10 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_4"
+	desc = "romania_4_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  The Timisoara Uprising
+#########################################################################
+event = {
+	id = 2031005
+	random = no
+	country = ROM
+	
+	trigger = { event = 2031004 } #The Party Congress Protest
+	
+	date = { day = 15 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_5"
+	desc = "romania_5_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  The Crackdown
+#########################################################################
+event = {
+	id = 2031006
+	random = no
+	country = ROM
+	
+	trigger = { event = 2031005 } #The Timisoara Uprising
+	
+	date = { day = 16 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_6"
+	desc = "romania_6_desc"
+	style = 1
+	picture = "timisoara"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 5 }
+	}
+}
+#18 December
+event = {
+	id = 2031007
+	random = no
+	country = ROM
+	
+	trigger = { event = 2031006 } #The Crackdown
+	
+	date = { day = 17 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_6"
+	desc = "romania_6-1_desc"
+	style = 1
+	picture = "romania_1989"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 5 }
+	}
+}
+#19-20 December
+event = {
+	id = 2031008
+	random = no
+	country = ROM
+	
+	trigger = { event = 2031007 } #18 December
+	
+	date = { day = 19 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_6"
+	desc = "romania_6-2_desc"
+	style = 1
+	picture = "timisoara_2"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Ceausescu's Speech
+#########################################################################
+event = {
+	id = 2031009
+	random = no
+	country = ROM
+	
+	trigger = { event = 2031008 } #19-20 December
+	
+	date = { day = 20 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_7"
+	desc = "romania_7_desc"
+	style = 1
+	picture = "ceausescu_final_speech"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = 5 }
+		command = { type = trigger which = 2031010 }
+		command = { type = songs which = "Nicolae Ceausescu LAST SPEECH.txt" }
+	}
+}
+#########################################################################
+#  The Romanian Revolution
+#########################################################################
+event = {
+	id = 2031010
+	random = no
+	country = ROM
+	
+	name = "romania_8"
+	desc = "romania_8_desc"
+	style = 1
+	picture = "romanian_revolution"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = 5 }
+		command = { type = trigger which = 2031011 }
+		command = { type = flag_ext where = ROM which = "_cut" }
+	}
+}
+#The Romanian Revolution Part 2
+event = {
+	id = 2031011
+	random = no
+	country = ROM
+	
+	name = "romania_8"
+	desc = "romania_8-1_desc"
+	style = 1
+	picture = "romanian_revolution_2"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Stanculescu's Choice
+#########################################################################
+event = {
+	id = 2031012
+	random = no
+	country = ROM
+	
+	trigger = { event = 2031011 } #The Romanian Revolution Part 2
+	
+	date = { day = 21 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_9"
+	desc = "romania_9_desc"
+	style = 1
+	picture = "stanculescu"
+
+	action = {
+		name = ACTION_NAME_CEAUSESCU
+		ai_chance = 99
+		command = { type = trigger which = 2031013 }
+		command = { type = dissent value = -10 }
+		command = { type = headofstate which = 110011 }
+		command = { type = headofgovernment which = 110012 }
+		command = { type = chiefofarmy which = 110015 }
+		command = { type = domestic which = democratic value = 8 }
+		#command = { type = domestic which = political_left value = -2 }
+		command = { type = domestic which = freedom value = 7 }
+	}
+	action = {
+		name = ACTION_NAME_LOYAL
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+	}
+}
+#########################################################################
+#  Ceausescu Flees
+#########################################################################
+event = {
+	id = 2031013
+	random = no
+	country = ROM
+	
+	name = "romania_10"
+	desc = "romania_10_desc"
+	style = 1
+	picture = "romanian_revolution_3"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 2031014 }
+		command = { type = songs which = "Ole Ole Ole Ceasescu Nu Ma E.txt" }
+	}
+}
+#########################################################################
+#  Ceausescu is Captured!
+#########################################################################
+event = {
+	id = 2031014
+	random = no
+	country = ROM
+	
+	name = "romania_11"
+	desc = "romania_11_desc"
+	style = 1
+	picture = "romanian_revolution_4"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = dissent value = -5 }
+		command = { type = manpowerpool value = -1 }
+	}
+}
+#########################################################################
+#  The Ceausescus Trial and Execution
+#########################################################################
+event = {
+	id = 2031015
+	random = no
+	country = ROM
+	
+	trigger = { event = 2031014 } #Ceausescu is Captured!
+	
+	date = { day = 24 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "romania_12"
+	desc = "romania_12_desc"
+	style = 1
+	picture = "romanian_revolution_5"
+
+	action = {
+		name = ACTION_NAME_GREAT_DAY
+		command = { type = dissent value = -10 }
+		command = { type = sleepminister which = 110001 }
+		command = { type = country which = U30 }
+		command = { trigger = { ai = yes } type = name where = U30 which = TAG_ROM }
+	}
+}

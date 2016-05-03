@@ -1,0 +1,283 @@
+allowed_brigades = anti_air
+allowed_brigades = sp_artillery
+allowed_brigades = sp_anti_air
+allowed_brigades = b_01
+allowed_brigades = artillery
+allowed_brigades = rocket_artillery
+allowed_brigades = sp_rct_artillery
+allowed_brigades = engineer
+
+upgrade = { type = infantry upgrade_time_factor = 0.19 upgrade_cost_factor = 1.16 }
+upgrade = { type = d_01 upgrade_time_factor = 0.4 upgrade_cost_factor = 0.29 }
+upgrade = { type = motorized upgrade_time_factor = 0.23 upgrade_cost_factor = 0.96 }
+upgrade = { type = mechanized upgrade_time_factor = 0.56 upgrade_cost_factor = 0.39 }
+upgrade = { type = armor upgrade_time_factor = 1.2 upgrade_cost_factor = 2 }
+
+# 0 - Tank Brigade 1945
+model = {
+	cost 					= 12
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 20
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 35
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 6
+	hardattack				= 3
+	airattack				= 4
+	transportweight			= 22.5
+	supplyconsumption 		= 3
+	fuelconsumption			= 13.5
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 1 - MBT Brigade 1952
+model = {
+	cost 					= 14
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 7.5
+	hardattack				= 4
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 3
+	fuelconsumption			= 15
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 2 - MBT Brigade 1961
+model = {
+	cost 					= 14
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 8
+	hardattack				= 4.5
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 3.5
+	fuelconsumption			= 15
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 3 - MBT Brigade 1965
+model = {
+	cost 					= 15
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 8.5
+	hardattack				= 5
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 3.5
+	fuelconsumption			= 15
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 4 - MBT Brigade 1973
+model = {
+	cost 					= 15
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 9
+	hardattack				= 5.5
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 4
+	fuelconsumption			= 16
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 5 - MBT Brigade 1976
+model = {
+	cost 					= 16
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 9.5
+	hardattack				= 6
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 4
+	fuelconsumption			= 16
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 6 - MBT Brigade 1981
+model = {
+	cost 					= 16
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 10
+	hardattack				= 6.5
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 4.5
+	fuelconsumption			= 16
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 7 - MBT Brigade 1985
+model = {
+	cost 					= 17
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 10.5
+	hardattack				= 7
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 4.5
+	fuelconsumption			= 17
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 8 - MBT Brigade 1992
+model = {
+	cost 					= 17
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 11
+	hardattack				= 7.5
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 5
+	fuelconsumption			= 17
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}
+# 9 - MBT Brigade 1999
+model = {
+	cost 					= 18
+	buildtime	 			= 173
+	manpower 				= 4
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 11.5
+	hardattack				= 8
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 5
+	fuelconsumption			= 17
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 4000 trucks = 229 artillery = 52 heavy_artillery = 12 anti_tank = 18 anti_air = 30 armored_car = 26 halftracks = 225 medium_armor = 149 }
+}

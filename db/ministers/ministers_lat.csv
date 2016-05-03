@@ -1,0 +1,22 @@
+LAT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+135001;Head of State;Anatolijs Gorbunovs;1985;2012;2012;LE;Popular Figurehead;Very High;LAT6;X
+135002;Head of Government;Anatolijs Gorbunovs;1985;2012;2012;LE;Silent Workhorse;Very High;LAT6;X
+135003;Foreign Minister;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+135004;Minister of Armament;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+135005;Minister of Security;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+135006;Head of Military Intelligence;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+135007;Chief of Staff;Latvian National Guard HQ;1985;2012;2012;LE;School of Mass Combat;Very High;LAT5;X
+135008;Chief of Army;Latvian National Guard HQ;1985;2012;2012;LE;Static Defence Doctrine;Very High;LAT5;X
+135009;Chief of Navy;Latvian National Guard HQ;1985;2012;2012;LE;Indirect Approach Doctrine;Very High;LAT5;X
+135010;Chief of Air Force;Latvian National Guard HQ;1985;2012;2012;LE;Army Aviation Doctrine;Very High;LAT5;X
+;Replacements;;;;;;;;;X
+135011;Head of State;Guntis Ulmanis;1985;2012;2012;SC;Popular Figurehead;Very High;LAT1;X
+135012;Head of Government;Ivars Godmanis;1985;2012;2012;ML;Naive Optimist;Very High;LAT2;X
+135013;Foreign Minister;GeorgsAndrejevs;1985;2012;2012;ML;Great Compromiser;Very High;LAT3;X
+135014;Minister of Armament;Talavs Jundzis;1985;2012;2012;ML;Infantry Proponent;Very High;LAT4;X
+135015;Minister of Security;Talavs Jundzis;1985;2012;2012;ML;Crime Fighter;Very High;LAT4;X
+135016;Head of Military Intelligence;Talavs Jundzis;1985;2012;2012;ML;Political Specialist;Very High;LAT4;X
+135017;Chief of Staff;Latvian National Guard HQ;1985;2012;2012;ML;School of Mass Combat;Very High;LAT5;X
+135018;Chief of Army;Latvian National Guard HQ;1985;2012;2012;ML;Static Defence Doctrine;Very High;LAT5;X
+135019;Chief of Navy;Latvian National Guard HQ;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;LAT5;X
+135020;Chief of Air Force;Latvian National Guard HQ;1985;2012;2012;ML;Army Aviation Doctrine;Very High;LAT5;X

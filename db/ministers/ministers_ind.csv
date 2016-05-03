@@ -1,0 +1,13 @@
+IND;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+250001;Head of State;Zail Singh;1985;2012;2012;SD;Popular Figurehead;Very High;IND1;X
+250002;Head of Government;Rajiv Gandhi;1985;2012;2012;SL;Flamboyant Tough Guy;Very High;IND2;X
+250003;Foreign Minister;Rajiv Gandhi;1985;2012;2012;SL;Great Compromiser;Very High;IND2;X
+250004;Minister of Armament;P. V. Narasimha Rao;1985;2012;2012;SL;Laissez-Faire Capitalist;Very High;IND3;X
+250005;Minister of Security;Shankarrao Chavan;1985;2012;2012;SD;Silent Lawyer;Very High;unknown;X
+250006;Head of Military Intelligence;Radhakrishna Hariram Tahiliani;1985;2012;2012;ML;Naval Intelligence Specialist;Very High;IND4;X
+250007;Chief of Staff;Arun Shridhar Vaidya;1985;2012;2012;ML;School of Fire Support;Very High;IND5;X
+250008;Chief of Army;Arun Shridhar Vaidya;1985;2012;2012;ML;Decisive Battle Doctrine;Very High;IND5;X
+250009;Chief of Navy;Radhakrishna Hariram Tahiliani;1985;2012;2012;ML;Decisive Naval Battle Doctrine;Very High;IND4;X
+250010;Chief of Air Force;Lakshman Mohan Katre;1985;2012;2012;ML;Air Superiority Doctrine;Very High;IND6;X
+;Replacements;;;;;;;;;X
+250011;Chief of Air Force;Denis La Fontaine;1985;2012;2012;ML;Air Superiority Doctrine;Very High;IND7;X

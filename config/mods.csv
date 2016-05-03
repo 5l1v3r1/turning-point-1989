@@ -1,0 +1,141 @@
+##;;;;;;;;;;;X
+##### Open this document in Excel, version 5 or later.;;;;;;;;;;;X
+##### To convert the semicolon-separated list to a normal Excel table, first click on the 'A' above to select the entire 'A' column.;;;;;;;;;;;X
+##### Select 'Data' -> 'Text to Columns' -> 'Delimited' -> 'Next';;;;;;;;;;;X
+##### Check 'Semicolon' (ONLY!) -> 'Finish';;;;;;;;;;;X
+##### Select column 'A' through 'K' (click + drag on letters above columns);;;;;;;;;;;X
+##### Right-click anywhere on the sheet (inside the selection) and select 'Column width' and set it so that only THREE columns are visible ('45' with 1024 x 768 screen resolution);;;;;;;;;;;X
+##### Right-click anywhere on the sheet again (still inside the selection) and select 'Format Cells' -> 'Alignment' -> check 'Wrap Text' + select 'Vertical: Top' -> 'OK';;;;;;;;;;;X
+##### Place the cursor in cell C1 and select 'Window' -> 'Freeze Panes' (allows you to scroll horizontally to see any language in the rightmost coulmn while still having the string names/comments and the english original text in the left and middle column;;;;;;;;;;;X
+##### CAREFULLY read the instructions in cells B18 ? B36;;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;NOTES TO TRANSLATORS:;;;;;;;;;;X
+##;=====================;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;1) '%s' is for indicating where another string is inserted, and MAY NEVER BE REMOVED! If there are more than one '%s' in a string, they may NOT CHANGE PLACES.;;;;;;;;;;X
+##;###############################################################################################################################################################################################################################################################;;;;;;;;;;X
+##;3) '%t' is for indicating where the player's 'title' is inserted, however only in game message boxes.';;;;;;;;;;X
+##;###############################################################################################################################################################################################################################################################;;;;;;;;;;X
+##;5) A dollar sign, '$' will always automatically be replaced by the 'ducats' icon.;;;;;;;;;;X
+##;6) Any row with a '#' in the first column (column 'A') will be ignored. However, you cannot use any paragraph characters in these rows!!!;;;;;;;;;;X
+##;7) To insert a carriage return, insert a '\n' (backslash + n);;;;;;;;;;X
+##;8) No formatting can be done in this file. To change the color of a text, insert the following codes in front of the word:;;;;;;;;;;X
+##;TEXT COLORS:;;;;;;;;;;X
+##;§A = 0,64,0;;;;;;;;;;X
+##;§B = 0,0,192;;;;;;;;;;X
+##;§C = 128,0,0;;;;;;;;;;X
+##;§D = 255,255,0;;;;;;;;;;X
+##;§E = 255,0,255;;;;;;;;;;X
+##;§F = 255,128,0;;;;;;;;;;X
+##;§G = 0,100,0;;;;;;;;;;X
+##;§H = 128,128, 128;;;;;;;;;;X
+##;§I = 0,0,255;;;;;;;;;;X
+##;§J = 0,192,0;;;;;;;;;;X
+##;§M = 100,255,100;;;;;;;;;;X
+##;§N = 255,100,100;;;;;;;;;;X
+##;§R = 240,0,0;;;;;;;;;;X
+##;§W = 255,255,255;;;;;;;;;;X
+##;§Y = 208,232,248;;;;;;;;;;X
+##;§Z = 0,0,0;;;;;;;;;;X
+##;§§ - restores old color;;;;;;;;;;X
+##;###############################################################################################################################################################################################################################################################;;;;;;;;;;X
+##;###############################################################################################################################################################################################################################################################;;;;;;;;;;X
+##;10) ALL CELLS in column 'L' in this document MUST contain a character!;;;;;;;;;;X
+##;11) The LAST CELL in the 'A' column MUST contain the string '#EOF';;;;;;;;;;X
+##;12) If you want to begin a string with a ' (citation mark), you will need to type it twice (Excel will read the first one as a commentary which is not  exported into the actual text database file);;;;;;;;;;X
+##;;;;;;;;;;;X
+##;WHEN DONE: save as 'Semicolon Separated (.csv)' format, and make sure the file is called 'Text.csv'.;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;NOTE: If Excel complains about an 'Error in formula' when the cell content begins with a '+' or '-' sign, type a ' (citation mark) in front of the plus or minus.;;;;;;;;;;X
+##;;;;;;;;;;;X
+##;;;;;;;;;;;X
+#  STRING NAME (do not change!);English;French;Italian;Spanish;German;Polish;Portuguese;Russian;;Extra2;X
+#  ========================;==========;==========;==========;========;==========;==========;==========;==========;;==========;X
+NAME_JAGER;Jäger;;Jäger;;Jäger;;;;;;X
+SNAME_JAGER;Jg Div;;Jg Div;;Jg Div;;;;;;X
+SDESC_JAGER;Jägerdivision;Jägerdivision;;;Jägerdivision;;;;;;X
+LDESC_JAGER;"Jäger is a German military term adopted during the Age of Enlightenment in German-speaking states to describe elite light infantry,The military usage of Jäger, which literally means ""hunter"" in German, is similar to that of Schütze, which literally means ""shooter"". After the First World War, the Jäger units of the Imperial German Army were disbanded, but their traditions were carried by infantry regiments of the 100,000-man Reichswehr of the Weimar Republic. After the Nazis came to power in 1933 and the rearmament of Germany began, the new Wehrmacht revived the name Jäger for various types of units.";;;;;;;;;;X
+NAME_HILFSKREUZER;Hilfskreuzer;;Hilfskreuzer;;Hilfskreuzer;;;;;;X
+SNAME_HILFSKREUZER;HSK;;HSK;;HSK;;;;;;X
+SDESC_HILFSKREUZER;Armed merchant cruisers;Armed merchant cruisers;;;Armed merchant cruisers;;;;;;X
+LDESC_HILFSKREUZER;The Armed merchant cruisers were made by requisitioning large ships and providing them with guns and other equipment. They ranged from 6,000–22,000 long tons (6,100–22,000 t). The armament varied but six 6 in (150 mm) guns with 3 in (76 mm) guns as secondary was usual. From 1941, many served as troopships.;;;;;;;;;;X
+MODEL_65_0;Hilfskreuzer;Hilfskreuzer;;;Hilfskreuzer;;;;;;X
+NAME_SAS;Special Air Service;;Special Air Service;;Special Air Service;;;;;;X
+SNAME_SAS;SAS Reg;;SAS Reg;;SAS Reg;;;;;;X
+SDESC_SAS;Special Air Service Regiment;Special Air Service Regiment;;;Special Air Service Regiment;;;;;;X
+LDESC_SAS;The Special Air Service was a unit of the British Army during the Second World War, formed in July 1941 by David Stirling. It was conceived as a commando force to operate behind enemy lines in the North African Campaign and initially consisted of five officers and 60 other ranks. Its first mission, in November 1941, was a parachute drop in support of the Operation Crusader offensive. Due to German resistance and adverse weather conditions, the mission was a disaster: 22 men, a third of the unit, were killed or captured. Its second mission was a success: transported by the Long Range Desert Group, it attacked three airfields in Libya, destroying 60 aircraft without loss.;;;;;;;;;;X
+NAME_CAPTURED;Captured Equipment;;Captured Equipment;;Captured Equipment;;;;;;X
+SNAME_CAPTURED;Cap Equ;;Cap Equ;;Cap Equ;;;;;;X
+SDESC_CAPTURED;Captured Equipment;Captured Equipment;;;Captured Equipment;;;;;;X
+LDESC_CAPTURED;Captured Equipment;;;;;;;;;;X
+MODEL_62_0;Captured Equipment;Captured Equipment;;;Captured Equipment;;;;;;X
+NAME_SOVIETARM;Guards-Tank-Division;;Guards-Tank-Division;;Guards-Tank-Division;;;;;;X
+SNAME_SOVIETARM;Guard ARM;;Guard ARM;;Guard ARM;;;;;;X
+SDESC_SOVIETARM;Guards-Tank-Division;Guards-Tank-Division;;;Guards-Tank-Division;;;;;;X
+LDESC_SOVIETARM;The Guards units were again awarded to units and formations which distinguishing themselves during the second world war by the order of People's Commissar for Defence of USSR No.303 on the 18 September 1941, and were considered to have elite status. However, the Guards badge was not introduced until 21 May 1943. There were total 11 Guard Armies and 6 Guard Tank Armies.;;;;;;;;;;X
+NAME_SOVIETGUARD;Soviet-Guard-Division;;Soviet-Guard-Division;;Soviet-Guard-Division;;;;;;X
+SNAME_SOVIETGUARD;Guard Inf;;Guard Inf;;Guard Inf;;;;;;X
+SDESC_SOVIETGUARD;Soviet-Guard-Division;Soviet-Guard-Division;;;Soviet-Guard-Division;;;;;;X
+LDESC_SOVIETGUARD;The Guards units were again awarded to units and formations which distinguishing themselves during the second world war by the order of People's Commissar for Defence of USSR No.303 on the 18 September 1941, and were considered to have elite status. However, the Guards badge was not introduced until 21 May 1943. There were total 11 Guard Armies and 6 Guard Tank Armies.;;;;;;;;;;X
+NAME_FROGMEN;Frogmen;Frogmen;;;Frogmen;;;;;;X
+SNAME_FROGMEN;FG Inf;FG Inf;;;FG Inf;;;;;;X
+SDESC_FROGMEN;Frogmen Company;Frogmen Company;;;Frogmen Company;;;;;;X
+LDESC_FROGMEN;"The first well-known frogmen were the navy diver members of World War II Italian commando frogmen, now ComSubIn, nicknamed ""Uomini Rana"", Italian for ""frog men"", because of an underwater swimming frog kick style, similar to that of frogs, or because their fins looked like frog's feet. This was a revolutionary alternative way and the start of self-contained divers, free of being tethered by an air line and rope connection.";"The first well-known frogmen were the navy diver members of World War II Italian commando frogmen, now ComSubIn, nicknamed ""Uomini Rana"", Italian for ""frog men"", because of an underwater swimming frog kick style, similar to that of frogs, or because their fins looked like frog's feet. This was a revolutionary alternative way and the start of self-contained divers, free of being tethered by an air line and rope connection";;;"The first well-known frogmen were the navy diver members of World War II Italian commando frogmen, now ComSubIn, nicknamed ""Uomini Rana"", Italian for ""frog men"", because of an underwater swimming frog kick style, similar to that of frogs, or because their fins looked like frog's feet. This was a revolutionary alternative way and the start of self-contained divers, free of being tethered by an air line and rope connection";;;;;;X
+NAME_ARMOR_ELITE;Waffen-SS Armored;Waffen-SS Blindé;;;Waffen-SS Panzer;;;;;;X
+SNAME_ARMOR_ELITE;SS Arm;SS Blindé;;;SS Pz;;;;;;X
+SDESC_ARMOR_ELITE;Waffen-SS Armored Division;Waffen-SS division Blindée;;;Waffen-SS Panzer Division;;;;;;X
+NAME_BRANDENBURGER;Brandenburger;Brandenburger;;;Brandenburger;;;;;;X
+SNAME_BRANDENBURGER;BRB Inf;BRB Inf;;;BRB Inf;;;;;;X
+SDESC_BRANDENBURGER;BRB Spezialeinheit;BRB Spezialeinheit;;;BRB Spezialeinheit;;;;;;X
+LDESC_BRANDENBURGER;Units of Brandenburgers operated in almost all fronts - the invasion of Poland, Denmark and Norway, in the Battle of France, in Operation Barbarossa, in Finland, Greece and the invasion of Crete, Romania, Bulgaria and Yugoslavia. The unit had stunning successes early in the war acting as advance units that captured strategic bridges, tunnels and rail yards in Poland and the Netherlands. The Brandenburgers was used as a commando unit during the first years of the war. Initially the unit consisted mainly of former German expatriates fluent in other languages.;Units of Brandenburgers operated in almost all fronts - the invasion of Poland, Denmark and Norway, in the Battle of France, in Operation Barbarossa, in Finland, Greece and the invasion of Crete, Romania, Bulgaria and Yugoslavia. The unit had stunning successes early in the war acting as advance units that captured strategic bridges, tunnels and rail yards in Poland and the Netherlands. The Brandenburgers was used as a commando unit during the first years of the war. Initially the unit consisted mainly of former German expatriates fluent in other languages.;;;Units of Brandenburgers operated in almost all fronts - the invasion of Poland, Denmark and Norway, in the Battle of France, in Operation Barbarossa, in Finland, Greece and the invasion of Crete, Romania, Bulgaria and Yugoslavia. The unit had stunning successes early in the war acting as advance units that captured strategic bridges, tunnels and rail yards in Poland and the Netherlands. The Brandenburgers was used as a commando unit during the first years of the war. Initially the unit consisted mainly of former German expatriates fluent in other languages.;;;;;;X
+NAME_ARM_SUPHEAVYART;Superheavy Artillery;Superheavy Artillery;;;Superheavy Artillery;;;;;;X
+SNAME_ARM_SUPHEAVYART;SH Art;SH Art;;;SH Art;;;;;;X
+SDESC_ARM_SUPHEAVYART;Ultra-heavy railway guns;Ultra-heavy railway guns;;;Ultra-heavy railway guns;;;;;;X
+LDESC_ARM_SUPHEAVYART;Schwerer Gustav and Dora were the names of two German 80 cm K (E) ultra-heavy railway guns. The twin guns weighed nearly 1,350 tonnes, and could fire shells weighing seven tonnes to a range of 47 kilometers (29 mi). The guns were designed in preparation for the Battle of France, but were not ready for action when the battle began, and in any case the Wehrmacht's Blitzkrieg offensive through Belgium rapidly outflanked and isolated the Maginot Line's World War I-era static defenses, forcing them to surrender uneventfully and making their destruction unnecessary. Gustav was later used in the Soviet Union at the siege of Sevastopol during Operation Barbarossa, with good effect, including destroying a munitions depot buried in the bedrock under a bay. Gustav was later captured by US troops and cut up, whilst Dora was destroyed near the end of the war to avoid capture by the Red Army.;;;;;;X;;;;X
+MODEL_54_0;Ultra-heavy railway gun;Ultra-heavy railway gun;;;Ultra-heavy railway gun;;;;;;X
+NAME_GDR;Panzer-Grenadier-Division Großdeutschland;Panzer-Grenadier-Division Großdeutschland;;;Panzer-Grenadier-Division Großdeutschland;;;;;;X
+SNAME_GDR;GD Inf;GD Inf;;;GD Inf;;;;;;X
+SDESC_GDR;Panzer-Grenadier-Division Großdeutschland;Panzer-Grenadier-Division Großdeutschland;;;Panzer-Grenadier-Division Großdeutschland;;;;;;X
+LDESC_GDR;The Grossdeutschland Division was an elite Heer combat unit of the German Wehrmacht that fought on the Eastern Front in World War II. The Grossdeutschland was considered to be the premier unit of the German Army and as such it was one of best-equipped unit of the German Armed Forces, receiving equipment before all other units.;;;;;;;;;;X
+NAME_FOREIGN;Foreign volunteer units of the Wehrmacht;Foreign volunteer units of the Wehrmacht;;;Foreign volunteer units of the Wehrmacht;;;;;;X
+SNAME_FOREIGN;foreign Inf;foreign Inf;;;foreign Inf;;;;;;X
+SDESC_FOREIGN;Foreign volunteer units of the Wehrmacht;Foreign volunteer units of the Wehrmacht;;;Foreign volunteer units of the Wehrmacht;;;;;;X
+LDESC_FOREIGN;During World War II, the German Wehrmacht accepted many different types and formations of foreign volunteers. Some were motivated by anti-communism others were encouraged by Germany to dream of local nationalist movements. Other examples ranged from captured soldiers offered an alternative to incarceration in a POW camp conscripts or even criminals given the power to pacify occupied terrorities.;;;;;;;;;;X
+NAME_LEHR;Panzer-Lehr-Division;;Panzer-Lehr-Division;;Panzer-Lehr-Division;;;;;;X
+SNAME_LEHR;Lehr Arm;;Lehr Arm;;Lehr Arm;;;;;;X
+SDESC_LEHR;Panzer-Lehr-Division;Panzer-Lehr-Division;;;Panzer-Lehr-Division;;;;;;X
+LDESC_LEHR;"The Panzer-Lehr-Division, commonly known as Panzer Lehr, was a German armored division during World War II, one of the most elite units in the entire German Wehrmacht. It was formed in 1943 from various units of elite training and demonstration troops (Lehr = ""teach"") stationed in Germany, to provide additional armored strength for resisting the anticipated Allied invasion of western Europe. Its great weakness was that it concentrated the cream of Germany's tank commanders/instructors in a single unit. Due to its elite status it was lavishly equipped in comparison to the ordinary Panzer divisions, though on several occasions it fought almost to destruction, in particular during Operation Cobra.";;;;;;;;;;X
+NAME_BERSAGLIERI;Bergsaglieri battalion;;;;Bergsaglieri battalion;;;;;;X
+SNAME_BERSAGLIERI;Bergsaglieri Btl;;Bergsaglieri Btl;;Bergsaglieri Btl;;;;;;X
+SDESC_BERSAGLIERI;Bergsaglieri Battalion;;Bergsaglieri Battalion;;Bergsaglieri Battalion;;;;;;X
+LDESC_BERSAGLIERI;The Bersaglieri are a corps of the Italian Army originally created by General Alessandro La Marmora on 18 June 1836 to serve in the Piedmontese Army, later to become the Royal Italian Army. They have always been a high-mobility light infantry unit, and can still be recognized by the distinctive wide brimmed hat that they wear, decorated with black capercaillie feathers. The feathers are usually applied to their combat helmets. Another distinctive trait of the Bersaglieri is the fast jog pace they keep on parades, instead of marching.;;;;;;;;;;X
+NAME_SS_INFANTRY;Waffen-SS Infantry;Waffen-SS Infanterie;;;Waffen-SS Infanterie;;;;;;X
+SNAME_SS_INFANTRY;SS Inf;SS Inf;;;SS Inf;;;;;;X
+SDESC_SS_INFANTRY;Waffen-SS Infantry Division;Waffen-SS Division Infanterie;;;Waffen-SS Infanterie Division;;;;;;X
+LDESC_SS_INFANTRY;The Waffen-SS was created as the armed wing of the Nazi Party's Schutzstaffel. Waffen-SS infantry divisions fight better than regular Heer units in urban combats and against partisans.;La Waffen-SS a été créé comme la branche armée du Parti Schutzstaffel nazi.La Waffen-SS division d'infanterie se bat mieux que les unités régulières de l'armée dans les combats urbains et contre les partisans.;;;Die Waffen-SS war der militärische Verband der nationalsozialistischen Parteitruppe Schutzstaffel ( SS ). Die Infanterie der Waffen-SS sind im Stadt- und Partisanenkampf kampfstärker als die regulären Heerestruppen.;;;;;;X
+NAME_SS_MOTORIZED;Waffen-SS Motorized Infantry;Waffen-SS Infanterie Motorisée;;;Waffen-SS Motorisierte Infanterie;;;;;;X
+SNAME_SS_MOTORIZED;SS Mot;SS Mot;;;SS Mot;;;;;;X
+SDESC_SS_MOTORIZED;Waffen-SS Motorized Infantry Division;Waffen-SS Division Motorisée d'Infanterie;;;Waffen-SS Motorisierte Infanterie Division;;;;;;X
+LDESC_SS_MOTORIZED;The Waffen-SS was created as the armed wing of the Nazi Party's Schutzstaffel. Waffen-SS motorized infantry divisions fight better than regular Heer units in urban combats and against partisans.;La Waffen-SS a été créé comme la branche armée du Parti Schutzstaffel nazi.La Waffen-SS division Motorisée d'infanterie se bat mieux que les unités régulières de l'armée dans les combats urbains et contre les partisans.;;;Die Waffen-SS war der militärische Verband der nationalsozialistischen Parteitruppe Schutzstaffel ( SS ). Die Infanterie der Waffen-SS sind im Stadt- und Partisanenkampf kampfstärker als die regulären Heerestruppen.;;;;;;X
+NAME_SS_MECHANIZED;Mechanized Infantry;Infanterie Mécanisée;;;Mechanisierte Infanterie;;;;;;X
+SNAME_SS_MECHANIZED;SS Mech;SS Méc;;;SS Mech;;;;;;X
+SDESC_SS_MECHANIZED;Waffen-SS Mechanized Infantry Division;Waffen-SS Division d'Infanterie Mécanisée;;;Waffen-SS Mechanisierte Infanterie Division;;;;;;X
+LDESC_SS_MECHANIZED;The Waffen-SS was created as the armed wing of the Nazi Party's Schutzstaffel. Waffen-SS mechanized infantry divisions fight better than regular Heer units in urban combats and against partisans.;La Waffen-SS a été créé comme la branche armée du Parti Schutzstaffel nazi.La Waffen-SS division Mécanisée d'infanterie se bat mieux que les unités régulières de l'armée dans les combats urbains et contre les partisans.;;;Die Waffen-SS war der militärische Verband der nationalsozialistischen Parteitruppe Schutzstaffel ( SS ). Die Infanterie der Waffen-SS sind im Stadt- und Partisanenkampf kampfstärker als die regulären Heerestruppen.;;;;;;X
+NAME_SS_ARMOR;Waffen-SS Armored;Waffen-SS Blindé;;;Waffen-SS Panzer;;;;;;X
+SNAME_SS_ARMOR;SS Arm;SS Blindé;;;SS Pz;;;;;;X
+SDESC_SS_ARMOR;Waffen-SS Armored Division;Waffen-SS division Blindée;;;Waffen-SS Panzer Division;;;;;;X
+LDESC_SS_ARMOR;The Waffen-SS was created as the armed wing of the Nazi Party's Schutzstaffel. Waffen-SS armored divisions fight better than regular Heer units in urban combats and against partisans.;La Waffen-SS a été créé comme la branche armée du Parti Schutzstaffel nazi.La Waffen-SS division Blindée d'infanterie se bat mieux que les unités régulières de l'armée dans les combats urbains et contre les partisans.;;;Die Waffen-SS war der militärische Verband der nationalsozialistischen Parteitruppe Schutzstaffel ( SS ). Die Infanterie der Waffen-SS sind im Stadt- und Partisanenkampf kampfstärker als die regulären Heerestruppen.;;;;;;X
+NAME_GURKHAS;Gurkha Rifles;Gurkhas Infanterie;;;Ghurka Infanterie;;;;;;X
+SNAME_GURKHAS;Gur;Gur;;;Gur;;;;;;X
+SDESC_GURKHAS;Gurkha Rifles;Gurkhas Division D'infanterie;;;Ghurka Infanterie Division;;;;;;X
+LDESC_GURKHAS;The Gurkhas are military units in the British army enlisted in Nepal. They excel in fighting in rough terrains, such as hills, mountains and jungle.;Les Gurkhas sont des unités militaires de l'armée britannique ils sont enrôlés au Népal. Ils excellent dans les combats en terrains accidentés, comme les collines, les montagnes et la jungle.;;;Die Gurkhas sind Nepali Söldner im Dienste Großbritanniens. Sie sind hervorragend im Gebirgs- und Hügelkampf, sowie im Dschungel und auf unwegsamem Gelände.;;;;;;X
+NAME_RANGERS;Rangers Battalion;Rangers Infanterie;;;Ranger Infanterie;;;;;;X
+SNAME_RANGERS;Ran;Ran;;;Ran;;;;;;X
+SDESC_RANGERS;Rangers Battalion;Rangers Division d'Infanterie;;;Ranger Infanterie Division;;;;;;X
+LDESC_RANGERS;United States Army Rangers are elite members of the United States Army. They excel in fighting in rough terrains, such as woods or hills, and at night.;Les Rangers sont des membres d'élite de l'armée des États-Unis. Ils excellent dans les combats en terrains accidentés, comme les bois, les collines et la nuit.;;;Die United States Army Rangers sind die Elite des Amerikanischen Heers . Sie eignen sich hervorragend für den Kampf in unwegsamem Gelände, sowie in Wäldern, auf hügelgiem Gelände und bei Nacht.;;;;;;X
+NAME_SKI_INFANTRY;Ski Infantry;Infanterie à Ski;;;Skijäger Infanterie;;;;;;X
+SNAME_SKI_INFANTRY;Ski;Ski;;;Ski;;;;;;X
+SDESC_SKI_INFANTRY;Ski Infantry Division;Division d'infanterie à Ski;;;Skijäger Division;;;;;;X
+LDESC_SKI_INFANTRY;Ski infantry divisions are military units in the Red Army carrying arctic equipment. They excel in winter conditions.;Les Divisions d'Infanterie de ski sont des unités militaires dans l'Armée rouge portant l'équipements Arctique. Ils excellent dans les conditions hivernales.;;;Skijäger Divisionen sind militärische Verbände der roten Armee mit spezieller Winterausrüstung. Sie eignen sich für den Kampf im Winter bei Eis und Schnee.;;;;;;X
+#EOF;;;;;;;;;;;X

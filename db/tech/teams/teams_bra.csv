@@ -1,0 +1,17 @@
+BRA;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+22000;AMAN;amanbra;8;1000;2999;mechanics;electronics;chemistry;general_equipment;technical_efficiency;artillery;management;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22001;Avibras;T22000;7;1000;2999;artillery;munitions;vehicle_engineering;general_equipment;electronics;chemistry;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22002;IMBEL;T22002;5;1000;2999;general_equipment;electronics;mechanics;technical_efficiency;chemistry;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22003;Helibras;helibras;5;1000;2999;rt_user_3;avionics;technical_efficiency;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22004;Embraer;T22003;8;1000;2999;aeronautics;avionics;electronics;fighter_design;aircraft_testing;mechanics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22005;Semco;semcobra;9;1000;2999;industrial_engineering;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22006;WEG Industries;wegindustries;4;1000;2999;industrial_engineering;technical_efficiency;management;general_equipment;vehicle_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22007;Brazilian Army;T22007;8;1000;2999;training;small_unit_tactics;decentralized_execution;individual_courage;infantry_focus;maneuver_tactics;static_defense_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22008;Joint Chiefs of Staff;brachiefs;5;1000;2999;training;centralized_execution;large_unit_tactics;blitzkrieg_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22009;Brazilian Air Force;T22009;5;1000;2999;fighter_tactics;bomber_tactics;combined_arms_focus;avionics;aeronautics;piloting;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22010;Brazilian Naval Aviation;branavair;5;1000;2999;aircraft_testing;piloting;bomber_tactics;naval_training;fighter_tactics;carrier_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22011;CNEN;cnenbra;4;1000;2999;nuclear_engineering;nuclear_physics;mathematics;chemistry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22012;DCTA;T22005;5;1000;2999;rocketry;aeronautics;aircraft_testing;avionics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22013;Brazilian Navy;T22010;6;1000;2999;carrier_tactics;small_taskforce_tactics;naval_training;seamanship;centralized_execution;submarine_tactics;marine_training;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22014;Arsenal de Marinha;arsdemarinha;5;1000;2999;naval_artillery;naval_engineering;mechanics;technical_efficiency;submarine_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22015;Brazilian Intelligence Agency;braintel;4;1000;2999;rt_user_4;individual_courage;centralized_execution;small_unit_tactics;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

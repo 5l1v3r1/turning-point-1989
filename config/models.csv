@@ -1,0 +1,1762 @@
+#######################;;;;;;;;;;;X
+# muster;;;;;;;;;;;X
+#######################;;;;;;;;;;;X
+# Majors;;;;;;;;;;;X
+# England;;;;;;;;;;;X
+# England land brigades;;;;;;;;;;;X
+BRIG_MODEL_ENG_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_2_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_2_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_6_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_6_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_7_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_8_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_10_8;;.;.;.;.;.;.;.;.;;X
+# England air brigades;;;;;;;;;;;X
+BRIG_MODEL_ENG_14_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_14_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_14_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_14_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_14_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_14_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_14_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_15_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_15_6;;.;.;.;.;.;.;.;.;;X
+# England land units;;;;;;;;;;;X
+MODEL_ENG_5_0;FV4030/4 Challenger 1;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_5_1;FV4034 Challenger 2;.;.;.;.;.;.;.;.;;X
+# England air units;;;;;;;;;;;X
+MODEL_ENG_32_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_32_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_16_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_16_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_16_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_17_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_17_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_17_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_17_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_17_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_17_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_18_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_18_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_18_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_20_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_20_1;;.;.;.;.;.;.;.;.;;X
+# England naval units;;;;;;;;;;;X
+MODEL_ENG_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_21_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_21_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_21_6;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_21_7;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_21_8;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_22_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_22_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_23_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_24_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_24_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_24_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_26_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_26_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_26_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_26_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_26_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_26_6;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_27_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_27_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_27_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_27_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_28_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_28_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_28_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_28_7;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_28_9;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_29_0;SSN 1956;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_31_0;;.;.;.;.;.;.;.;.;;X
+#;;;;;;;;;;;X
+# France;;;;;;;;;;;X
+# France land brigade;;;;;;;;;;;X
+BRIG_MODEL_FRA_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_2_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_2_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_6_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_7_2;;.;.;.;.;.;.;.;.;;X
+#BRIG_MODEL_FRA_7_5;;;;;;;;;;;X
+#BRIG_MODEL_FRA_7_9;;;;;;;;;;;X
+BRIG_MODEL_FRA_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_8_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_10_4;;.;.;.;.;.;.;.;.;;X
+# France air brigade;;;;;;;;;;;X
+BRIG_MODEL_FRA_14_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_14_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_14_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_14_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_14_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_14_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_14_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_15_6;;.;.;.;.;.;.;.;.;;X
+# France Land Units;;;;;;;;;;;X
+MODEL_FRA_5_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_5_1;AMX-30;.;.;.;.;.;.;.;.;;X
+# France air units;;;;;;;;;;;X
+MODEL_FRA_32_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_32_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_16_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_16_2;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_17_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_17_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_17_2;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_17_3;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_17_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_17_5;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_18_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_18_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_18_2;;.;.;.;.;.;.;.;.;;X
+# France naval units;;;;;;;;;;;X
+MODEL_FRA_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_21_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_21_5;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_21_7;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_21_8;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_22_3;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_23_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_23_2;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_23_3;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_23_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_23_5;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_26_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_26_7;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_27_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_27_2;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_28_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_28_3;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_28_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_28_7;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_28_8;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_28_9;;.;.;.;.;.;.;.;.;;X
+#;;;;;;;;;;;X
+# Germany;;;;;;;;;;;X
+# Germany land brigades;;;;;;;;;;;X
+BRIG_MODEL_GER_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_2_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_6_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_7_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_10_4;;.;.;.;.;.;.;.;.;;X
+# Germany air brigades;;;;;;;;;;;X
+BRIG_MODEL_GER_14_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_14_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_14_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_14_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_14_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_14_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_15_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_15_6;;.;.;.;.;.;.;.;.;;X
+# Germany;;;;;;;;;;;X
+# Germany land units;;;;;;;;;;;X
+MODEL_GER_5_0;Leopard 2A5;.;.;.;.;.;.;.;.;;X
+MODEL_GER_5_1;Leopard 2A7+;.;.;.;.;.;.;.;.;;X
+# Germany air units;;;;;;;;;;;X
+MODEL_GER_32_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_32_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_16_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_16_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_17_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_17_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_17_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_17_3;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_17_4;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_17_5;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_18_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_18_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_18_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_19_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_20_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_20_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_20_2;;.;.;.;.;.;.;.;.;;X
+# Germany naval units;;;;;;;;;;;X
+MODEL_GER_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_21_4;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_21_5;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_21_7;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_21_8;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_22_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_22_3;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_23_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_23_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_23_4;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_23_5;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_23_6;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_24_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_24_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_24_3;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_24_4;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_25_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_26_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_28_4;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_28_7;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_28_8;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_28_9;;.;.;.;.;.;.;.;.;;X
+#;;;;;;;;;;;X
+# Italy;;;;;;;;;;;X
+# Italy land brigades;;;;;;;;;;;X
+BRIG_MODEL_ITA_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_2_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_6_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_7_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_10_4;;.;.;.;.;.;.;.;.;;X
+# Italy air brigades;;;;;;;;;;;X
+BRIG_MODEL_ITA_14_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_14_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_14_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_15_6;;.;.;.;.;.;.;.;.;;X
+# Italy land units;;;;;;;;;;;X
+MODEL_ITA_5_0;OF-40 tank;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_5_1;C1 Ariete;.;.;.;.;.;.;.;.;;X
+# Italy air units;;;;;;;;;;;X
+MODEL_ITA_32_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_32_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_16_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_16_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_16_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_17_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_17_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_17_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_17_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_17_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_17_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_18_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_18_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_18_2;;.;.;.;.;.;.;.;.;;X
+# Italy naval units;;;;;;;;;;;X
+MODEL_ITA_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_21_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_21_7;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_22_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_22_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_25_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_26_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_27_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_27_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_28_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_28_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_28_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_28_7;;.;.;.;.;.;.;.;.;;X
+#MODEL_ITA_28_8;;;;;;;;;;;X
+MODEL_ITA_28_9;;.;.;.;.;.;.;.;.;;X
+# Japan;;;;;;;;;;;X
+# land brigade;;;;;;;;;;;X
+BRIG_MODEL_JAP_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_2_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_6_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_7_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_8_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_10_4;;.;.;.;.;.;.;.;.;;X
+# Japan air brigades;;;;;;;;;;;X
+BRIG_MODEL_JAP_14_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_14_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_14_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_14_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_14_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_14_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_15_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_15_6;;.;.;.;.;.;.;.;.;;X
+## Japan land units;;;;;;;;;;;X
+MODEL_JAP_5_0;Type 4 Chi-To;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_5_1;Type 61;.;.;.;.;.;.;.;.;;X
+# Japan air units;;;;;;;;;;;X
+MODEL_JAP_32_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_32_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_16_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_16_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_17_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_17_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_17_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_17_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_17_4;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_18_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_18_2;;.;.;.;.;.;.;.;.;;X
+# # Japan naval units;;;;;;;;;;;X
+MODEL_JAP_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_21_4;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_21_5;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_21_6;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_21_7;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_21_11;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_21_12;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_22_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_22_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_23_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_23_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_23_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_23_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_23_4;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_23_5;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_24_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_24_1;;.;.;.;.;.;.;.;.;;X
+#MODEL_JAP_24_3;;;;;;;;;;;X
+MODEL_JAP_25_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_26_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_26_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_26_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_26_4;;.;.;.;.;.;.;.;.;;X
+#MODEL_JAP_26_5;;;;;;;;;;;X
+MODEL_JAP_27_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_27_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_27_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_28_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_28_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_28_4;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_28_7;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_28_8;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_29_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_29_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_29_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_31_0;;.;.;.;.;.;.;.;.;;X
+# USSR;;;;;;;;;;;X
+# land brigades;;;;;;;;;;;X
+BRIG_MODEL_SOV_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_2_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_6_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_6_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_7_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_8_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_10_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_10_8;;.;.;.;.;.;.;.;.;;X
+# USSR air brigades;;;;;;;;;;;X
+BRIG_MODEL_SOV_14_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_15_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_15_8;;.;.;.;.;.;.;.;.;;X
+# USSR;;;;;;;;;;;X
+# land units;;;;;;;;;;;X
+MODEL_SOV_5_0;T-44;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_5_1;T-54/55;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_5_2;T-62;;;;;;;;;;X
+MODEL_SOV_5_3;T-64A;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_5_4;T-72 Ural;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_5_5;T-72A/T-80;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_5_6;T-72B;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_5_7;T-80U;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_5_8;T-90 Vladimir;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_5_9;T-14 Armata;.;.;.;.;.;.;.;.;;X
+# air units;;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_12_0;Lavochkin La-9;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_12_1;Mikoyan-Gurevich MiG-9;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_12_2;Mikoyan-Gurevich MiG-15/17;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_12_3;Mikoyan-Gurevich MiG-19;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_12_4;Mikoyan-Gurevich MiG-21;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_12_5;Mikoyan-Gurevich MiG-23;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_12_6;Mikoyan-Gurevich MiG-29;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_12_7;Mikoyan-Gurevich MiG-33;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_13_0;Yakovlev Yak-50;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_13_1;Sukhoi Su-9;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_13_2;Sukhoi Su-11;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_13_3;Mikoyan-Gurevich MiG-25;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_13_4;Mikoyan-Gurevich MiG-31;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_13_5;Sukhoi Su-30;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_16_0;Beriev Be-12 Chayka;;;;;;;;;;X
+MODEL_SOV_16_1;Ilyushin Il-38;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_16_2;Tupolev Tu-22M2;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_17_0;Ilyushin Il-10;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_17_1;Ilyushin Il-40;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_17_10;Sukhoi Su-35;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_17_2;Ilyushin Il-28Sh;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_17_3;Sukhoi Su-17;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_17_4;Sukhoi Su-24;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_17_5;Sukhoi Su-25;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_17_6;Sukhoi Su-39;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_18_0;Ilyushin Il-14;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_18_1;Antonov An-12;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_18_2;Antonov An-22;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_18_3;Ilyushin Il-76;.;.;.;.;.;.;.;.;;X
+# naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_21_0;Project 1123 Kondor;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_21_1;Project 1143 Krechet;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_21_2;Project 1143.5 Kuznetsov;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_21_3;Project 1143.7 Ulyanovsk;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_0;Project 159 SKR-1;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_1;Project 35 SKR-7;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_2;Project 1159 Delfin;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_3;Project 1135 Burevestnik;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_4;Project 1135M Burevestnik;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_5;Project 11540 Yastreb;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_6;Project 11356 Burevestnik;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_7;Project 12441 Grom;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_8;Project 22350 Admiral Gorshkov;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_0;Project 68-bis Sverdlov;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_1;Project 58 Grozny;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_2;Poject 61 Komsomolets Ukrainy;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_3;Project 1134 Berkut;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_4;Project 1134A Berkut-A;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_5;Project 1134B Berkut-B;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_6;Project 1164 Atlant;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_7;Missile Cruiser 2000;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_8;Missile Cruiser 2005;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_24_1;18,474t LPH 1961;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_24_2;Project 1123.2 Kiev;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_24_3;Project 10200 Khalzan;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_24_4;Project 11780 Ivan Tarawa;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_24_6;UDK tip Lavina;;;;;;;;;;X
+MODEL_SOV_25_0;World War II Destroyer;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_1;Project 41 Neustrashimy;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_2;Project 56 Spokojny;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_3;Project 56-M Bedovy;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_4;Project 57-bis Gnevny;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_5;Project 956 Sarych;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_6;Project 1155 Fregat;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_7;Project 1156;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_8;Project 11560;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_9;Project 21956;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_10;Project 23560 Lider;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_26_0;Project 69AV;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_26_7;Project 23000 Shtorm;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_28_0;Project 611;;;;;;;;;;X
+MODEL_SOV_28_1;Project 613;;;;;;;;;;X
+MODEL_SOV_28_2;Project 633;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_28_3;Project 641;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_28_4;Project 641B Som;;;;;;;;;;X
+MODEL_SOV_28_5;Project 877 Paltus;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_28_6;Project 677 Lada;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_28_7;Project 637 Amur;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_29_0;Project 627 Kit;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_29_1;Project 671 Yorsh/659;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_29_2;Project 671RT Syomga/675;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_29_3;Project 671RTMK Shchuka/670 Skat;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_29_4;Project 971 Shchuka-B/670M;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_29_5;Project 945 Barrakuda;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_29_6;Project 949 Granit/949A Antey;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_29_7;Project 885 Yasen;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_31_1;Project 1124 Albatros;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_31_2;Project 12412;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_31_3;Project 1331;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_31_4;Project 11661 Gepard;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_31_5;Project 20380 Steregushchy;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_31_6;Project 21631 Buyan-M;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_31_7;Project 22160;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_30_1;Project 1171 Tapir;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_30_2;Project 1174 Ivan Rogov;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_30_3;Project 775;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_30_4;Project 775-II;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_30_5;Project 775-III;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_30_6;Project 778;;;;;;;;;;X
+MODEL_SOV_30_7;Project 11711 Ivan Gren;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_32_0;Ilyushin Il-28;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_32_1;Tupolev Tu-22;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_32_2;Tupolev Tu-22M;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_32_3;Sukhoi Su-24M2;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_50_0;Project 1160 Oryol;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_50_1;Project 1153 Oryol;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_51_0;Project 658;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_51_1;Project 667A Navaga/667B Murena;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_51_2;Project 667BD Murena-M/667BDR;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_51_3;Project 667BDRM Delfin/941 Akula;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_51_4;Project 955 Borey;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_52_3;Project 1144 Orlan;.;.;.;.;.;.;.;.;;X
+#Other Models;;;;;;;;;;;X
+BRIG_MODEL_SOV_41_0;Mil Mi-4;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_41_1;Mil Mi-24;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_41_2;Mil Mi-24V;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_41_3;Mil Mi-28;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_41_4;Kamov Ka-50 ''Black Shark'';.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_41_5;Kamov Ka-52 ''Alligator'';.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_42_0;Tupolev Tu-16R;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_42_1;Tupolev Tu-22R;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_44_1;Beriev A-50;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_44_0;Tupolev Tu-126;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_44_2;Beriev A-50EI;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_45_2;Beriev A-50EI;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_45_1;Beriev A-50;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_45_0;Tupolev Tu-126;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_48_0;Yakovlev Yak-38;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_48_1;Yakovlev Yak-141;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_48_2;Yakovlev Yak-201;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_47_0;Mikoyan-Gurevich MiG-15;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_47_1;Mikoyan-Gurevich MiG-17;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_47_2;Mikoyan-Gurevich MiG-21;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_47_3;Mikoyan-Gurevich MiG-23K;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_47_4;Sukhoi Su-33;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_47_5;Sukhoi Su-33KUB;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_47_6;Sukhoi Su-50K;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_14_0;Mikoyan-Gurevich MiG-15SV;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_14_1;Mikoyan-Gurevich MiG-17AS;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_14_2;Sukhoi Su-7;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_14_3;Sukhoi Su-17;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_14_4;Mikoyan MiG-27;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_14_5;Mikoyan MiG-29K;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_46_0;Ilyushin Il-20;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_46_1;Sukhoi Su-7B;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_46_2;Yakovlev Yak-36;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_46_3;Sukhoi Su-24;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_46_4;Sukhoi Su-25K;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_46_5;Sukhoi Su-32FN;.;.;.;.;.;.;.;.;;X
+# USA;;.;.;.;.;.;.;.;.;;X
+# land brigades;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_2_2;;;;;;;;;;;X
+BRIG_MODEL_USA_2_3;;;;;;;;;;;X
+BRIG_MODEL_USA_2_4;;;;;;;;;;;X
+BRIG_MODEL_USA_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_2_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_6_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_7_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_8_0;;;;;;;;;;;X
+BRIG_MODEL_USA_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_8_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_10_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_10_8;;;;;;;;;;;X
+# USA air brigades;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_14_0;McDonnell F2H Banshee;;;;;;;;;;X
+BRIG_MODEL_USA_14_1;Vought F7U Cutlass;;;;;;;;;;X
+BRIG_MODEL_USA_14_2;Vought F-8 Crusader;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_14_3;McDonnell Douglas F-4 Phantom II;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_14_4;Grumman F-14A Tomcat;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_14_5;Grumman F-14B Tomcat;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_15_8;;;;;;;;;;;X
+# USA;;;;;;;;;;;X
+# land units;;;;;;;;;;;X
+MODEL_USA_5_0;M1 Abrams;.;.;.;.;.;.;.;.;;X
+MODEL_USA_5_1;M1A2;.;.;.;.;.;.;.;.;;X
+# air units;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_12_1;General Dynamics F-16 Fighting Falcon;.;.;.;.;.;.;.;.;;X
+MODEL_USA_12_3;Lockheed Martin F-35 Lightning II;.;.;.;.;.;.;.;.;;X
+MODEL_USA_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_13_1;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_13_2;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_13_3;;;;;;;;;;;X
+MODEL_USA_32_0;B-47 Stratojet;;;;;;;;;;X
+MODEL_USA_32_1;B-58 Hustler;;;;;;;;;;X
+MODEL_USA_16_0;P5M Marlin;.;.;.;.;.;.;.;.;;X
+MODEL_USA_16_1;P-3A Orion;.;.;.;.;.;.;.;.;;X
+MODEL_USA_16_2;P-3C Orion;.;.;.;.;.;.;.;.;;X
+MODEL_USA_17_0;F-84 Thunderjet;.;.;.;.;.;.;.;.;;X
+MODEL_USA_17_1;F-84F Thunderstreak;.;.;.;.;.;.;.;.;;X
+MODEL_USA_17_2;F-105 Thunderchief;.;.;.;.;.;.;.;.;;X
+MODEL_USA_17_3;A-7 Corsair II;.;.;.;.;.;.;.;.;;X
+MODEL_USA_17_4;AV-8A Harrier;.;.;.;.;.;.;.;.;;X
+MODEL_USA_17_5;A-10 Thunderbolt II;.;.;.;.;.;.;.;.;;X
+MODEL_USA_18_0;C-119 Flying Boxcar;.;.;.;.;.;.;.;.;;X
+MODEL_USA_18_1;"C-130 Hercules	";.;.;.;.;.;.;.;.;;X
+MODEL_USA_18_2;C-5A Galaxy;.;.;.;.;.;.;.;.;;X
+MODEL_USA_20_0;;;;;;;;;;;X
+MODEL_USA_20_1;;;;;;;;;;;X
+MODEL_USA_20_2;;;;;;;;;;;X
+# naval units;;;;;;;;;;;X
+MODEL_USA_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_21_4;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_21_5;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_21_6;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_21_7;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_21_8;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_21_11;;;;;;;;;;;X
+MODEL_USA_22_0;;;;;;;;;;;X
+MODEL_USA_22_1;;;;;;;;;;;X
+MODEL_USA_22_3;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_23_1;Boston-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_23_2;Galveston-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_23_3;Providence-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_23_4;Leahy-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_23_5;Belknap-class;;;;;;;;;;X
+MODEL_USA_23_6;Ticonderoga-class;;;;;;;;;;X
+MODEL_USA_23_7;;;;;;;;;;;X
+MODEL_USA_23_8;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_24_4;Wasp-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_1;Mitscher-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_2;Forrest Sherman-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_3;Farragut-class;.;.;.;.;.;.;.;.;;X
+#MODEL_USA_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_5;Spruance-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_6;Kidd-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_7;Arleigh Burke-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_0;Essex-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_1;Midway-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_2;Forrestal-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_4;Enterprise-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_5;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_6;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_7;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_8;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_27_0;Independence-class;;;;;;;;;;X
+MODEL_USA_27_1;Saipan-class;;;;;;;;;;X
+MODEL_USA_27_3;;;;;;;;;;;X
+MODEL_USA_27_4;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_28_0;Tench-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_28_1;Tang-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_28_2;Grayback-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_28_3;Barbel-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_28_4;SSG 1973;.;.;.;.;.;.;.;.;;X
+MODEL_USA_28_7;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_28_8;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_28_9;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_29_0;Skate-class;;;;;;;;;;X
+#;;.;.;.;.;.;.;.;.;;X
+# Canada;;.;.;.;.;.;.;.;.;;X
+# Canada land brigades;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_6_1;;;;;;;;;;;X
+BRIG_MODEL_CAN_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_9_0;;;;;;;;;;;X
+BRIG_MODEL_CAN_10_0;;;;;;;;;;;X
+BRIG_MODEL_CAN_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_10_2;;.;.;.;.;.;.;.;.;;X
+# Canada air brigades;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_14_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_14_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_14_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_14_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_14_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_14_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_14_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_15_4;;;;;;;;;;;X
+BRIG_MODEL_CAN_15_5;;;;;;;;;;;X
+# Canada land units;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_5_0;;.;.;.;.;.;.;.;.;;X
+# Canada air units;;.;.;.;.;.;.;.;.;;X
+# Canada naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_22_2;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_28_2;;.;.;.;.;.;.;.;.;;X
+#;;.;.;.;.;.;.;.;.;;X
+# Argentina;;.;.;.;.;.;.;.;.;;X
+# Argentina naval units;;;;;;;;;;;X
+MODEL_ARG_21_0;;;;;;;;;;;X
+MODEL_ARG_22_0;;;;;;;;;;;X
+MODEL_ARG_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ARG_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ARG_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ARG_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ARG_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ARG_28_3;;.;.;.;.;.;.;.;.;;X
+#;;.;.;.;.;.;.;.;.;;X
+# Australia;;.;.;.;.;.;.;.;.;;X
+# Australia naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_22_2;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_24_0;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_27_0;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_28_3;;.;.;.;.;.;.;.;.;;X
+# Australia land units;;.;.;.;.;.;.;.;.;;X
+#;;.;.;.;.;.;.;.;.;;X
+# Brazil;;.;.;.;.;.;.;.;.;;X
+# Brazil naval units;;;;;;;;;;;X
+MODEL_BRA_21_0;;;;;;;;;;;X
+MODEL_BRA_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_BRA_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_BRA_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_BRA_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_BRA_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_BRA_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_BRA_28_3;;.;.;.;.;.;.;.;.;;X
+#;;.;.;.;.;.;.;.;.;;X
+# Chile;;.;.;.;.;.;.;.;.;;X
+# Chile naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_CHL_21_0;;;;;;;;;;;X
+MODEL_CHL_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_CHL_23_0;;.;.;.;.;.;.;.;.;;X
+MODEL_CHL_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_CHL_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_CHL_28_3;;.;.;.;.;.;.;.;.;;X
+#;;.;.;.;.;.;.;.;.;;X
+# Sweden;;.;.;.;.;.;.;.;.;;X
+# Sweden naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_23_0;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_25_0;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_25_2;;;;;;;;;;;X
+MODEL_SWE_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_25_4;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_25_5;;;;;;;;;;;X
+MODEL_SWE_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_27_0;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_28_3;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_28_4;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_28_7;;.;.;.;.;.;.;.;.;;X
+#MODEL_SWE_28_8;;.;.;.;.;.;.;.;.;;X
+# Poland;;.;.;.;.;.;.;.;.;;X
+# Poland land units;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_POL_7_1;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_5_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_POL_10_3;;;;;;;;;;;X
+BRIG_MODEL_POL_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_POL_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_POL_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_POL_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_POL_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_POL_29_6;;.;.;.;.;.;.;.;.;;X
+# Poland air units;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_16_1;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_16_2;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_17_0;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_17_1;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_18_1;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_18_2;;.;.;.;.;.;.;.;.;;X
+# Poland naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_28_4;;.;.;.;.;.;.;.;.;;X
+# Russia;;.;.;.;.;.;.;.;.;;X
+# Russian land brigades;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_10_2;;.;.;.;.;.;.;.;.;;X
+# Russian air units;;.;.;.;.;.;.;.;.;;X
+# naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_21_4;;;;;;;;;;;X
+MODEL_RUS_22_0;;;;;;;;;;;X
+MODEL_RUS_22_1;;;;;;;;;;;X
+MODEL_RUS_22_2;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_23_0;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_24_1;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_25_0;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_27_0;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_27_1;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_28_0;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_RUS_28_2;;.;.;.;.;.;.;.;.;;X
+# Temp models as duplicates;;.;.;.;.;.;.;.;.;;X
+# France;;.;.;.;.;.;.;.;.;;X
+# France land brigade;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_2_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_2_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_6_3;;;;;;;;;;;X
+BRIG_MODEL_U01_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_7_2;;.;.;.;.;.;.;.;.;;X
+#BRIG_MODEL_U01_7_5;;.;.;.;.;.;.;.;.;;X
+#BRIG_MODEL_U01_7_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_8_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_10_0;;;;;;;;;;;X
+BRIG_MODEL_U01_10_1;;;;;;;;;;;X
+BRIG_MODEL_U01_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_10_4;;;;;;;;;;;X
+# France air brigade;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_14_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_14_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_14_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_14_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_14_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_14_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_14_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_15_6;;.;.;.;.;.;.;.;.;;X
+# France Land Units;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_5_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_5_1;;.;.;.;.;.;.;.;.;;X
+# France air units;;;;;;;;;;;X
+MODEL_U01_32_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_32_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_16_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_16_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_17_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_17_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_17_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_17_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_17_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_17_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_18_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_18_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_18_2;;.;.;.;.;.;.;.;.;;X
+# France naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_21_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_21_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_21_7;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_21_8;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_22_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_23_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_23_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_23_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_23_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_23_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_25_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_25_4;;;;;;;;;;;X
+MODEL_U01_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_26_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_26_7;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_27_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_27_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_28_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_28_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_28_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_28_7;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_28_8;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_28_9;;.;.;.;.;.;.;.;.;;X
+#;;.;.;.;.;.;.;.;.;;X
+# Germany;;.;.;.;.;.;.;.;.;;X
+# Germany land brigades;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_1_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_1_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_1_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_1_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_1_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_1_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_1_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_2_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_2_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_2_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_2_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_2_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_2_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_6_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_6_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_6_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_6_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_6_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_6_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_6_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_7_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_7_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_8_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_8_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_9_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_9_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_10_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_10_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_10_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_10_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_10_4;;.;.;.;.;.;.;.;.;;X
+# Germany air brigades;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_14_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_14_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_14_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_14_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_14_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_14_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_15_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_15_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_15_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_15_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_15_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_15_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_15_6;;.;.;.;.;.;.;.;.;;X
+# Germany;;.;.;.;.;.;.;.;.;;X
+# Germany land units;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_5_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_5_1;;.;.;.;.;.;.;.;.;;X
+# Germany air units;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_32_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_32_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_16_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_16_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_17_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_17_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_17_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_17_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_17_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_17_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_18_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_18_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_18_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_19_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_20_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_20_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_20_2;;.;.;.;.;.;.;.;.;;X
+# Germany naval units;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_21_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_21_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_21_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_21_7;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_21_8;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_22_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_22_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_22_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_22_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_22_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_22_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_23_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_23_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_23_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_23_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_23_6;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_24_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_24_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_24_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_24_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_25_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_25_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_25_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_25_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_25_6;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_25_7;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_26_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_28_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_28_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_28_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_28_7;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_28_8;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_28_9;;.;.;.;.;.;.;.;.;;X
+#new with 1.3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_30_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_30_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_30_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_30_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_30_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_30_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_29_11;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_30_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_30_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_30_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_30_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_FRA_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_29_11;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_30_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_30_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_30_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_GER_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_30_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_30_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_30_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_30_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_30_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_29_11;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_30_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_30_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_30_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_30_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_30_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_30_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_JAP_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_SOV_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_RUS_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_AST_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_29_11;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_30_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_30_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_30_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_30_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_29_11;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_30_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_30_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_30_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_30_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U01_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_8;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_9;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_10;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_29_11;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_30_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_30_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_30_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_30_6;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_30_7;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_32_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_32_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_33_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_33_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_34_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_34_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_34_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_34_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_34_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_35_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_35_2;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_35_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_35_4;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U08_35_5;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U09_35_0;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_U09_35_1;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_31_9;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_31_9;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_31_9;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_31_9;;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_31_9;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_31_9;;.;.;.;.;.;.;.;.;;X
+MODEL_CAN_4_-1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_4_-1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_4_-1;Hotchkiss H-35;.;.;.;.;.;.;.;.;;X
+MODEL_GER_4_-1;Leopard 1;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_4_-1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_4_-1;Type 97 Te-Ke;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_4_-1;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_4_-1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_4_-1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_4_-1;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_26_3;Kitty Hawk-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_50_0;John F. Kennedy-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_50_1;Nimitz-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_29_1;Skipjack-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_29_3;Sturgeon-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_29_4;Los Angeles-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_29_6;Seawolf-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_51_0;George Washington-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_51_1;Lafayette-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_51_2;Benjamin Franklin-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_51_3;Ohio-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_51_4;Ohio-class (Trident II);.;.;.;.;.;.;.;.;;X
+MODEL_USA_24_0;Converted CVL 1956;.;.;.;.;.;.;.;.;;X
+MODEL_USA_24_1;Iwo Jima-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_24_3;Tarawa-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_0;Fletcher-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_4;Charles F. Adams-class;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_23_4;Kara-class;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_2;Neustrashimy-class;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_4;Kildin-class;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_25_5;Kanin-class;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_1;Mirka-class;.;.;.;.;.;.;.;.;;X
+MODEL_SOV_22_4;Koni-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_23_0;Baltimore-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_52_0;Long Beach-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_52_1;Bainbridge-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_52_2;Truxtun-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_52_3;California-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_52_4;Virginia-class;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_24_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_24_4;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_24_5;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_24_5;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_24_3;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_24_5;America-class;.;.;.;.;.;.;.;.;;X
+MODEL_U01_24_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_24_5;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_29_7;Virginia-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_22_10;;.;.;.;.;.;.;.;.;;X
+MODEL_AST_25_10;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_25_10;;.;.;.;.;.;.;.;.;;X
+MODEL_SWE_25_10;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_25_10;Zumwalt-class;.;.;.;.;.;.;.;.;;X
+MODEL_ARG_21_2;;.;.;.;.;.;.;.;.;;X
+MODEL_CHC_21_2;Liaoning-class;.;.;.;.;.;.;.;.;;X
+MODEL_CHL_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_21_3;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_50_3;Gerald R. Ford-class;.;.;.;.;.;.;.;.;;X
+MODEL_POL_28_7;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_29_2;Permit-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_29_5;Modified Los Angeles-class;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_29_2;Dreadnought-class;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_29_3;Valiant-class;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_29_4;Swiftsure-class;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_29_5;Trafalgar-class;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_29_7;Astute-class;.;.;.;.;.;.;.;.;;X
+MODEL_USA_12_4;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_12_5;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_12_6;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_12_7;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_12_2;F-16C/D Block 50/52;.;.;.;.;.;.;.;.;;X
+MODEL_USA_12_0;McDonnell Douglas F-4 Phantom II;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ITA_7_1;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_CAN_7_2;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_13_4;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_13_5;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_17_6;AV-8B Harrier II;.;.;.;.;.;.;.;.;;X
+MODEL_USA_32_2;F-111 Aardvark;.;.;.;.;.;.;.;.;;X
+MODEL_USA_32_3;F-117 Nighthawk;.;.;.;.;.;.;.;.;;X
+MODEL_USA_18_3;C-5B Galaxy;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_48_2;Lockheed Martin F-35B Lightning II;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_14_6;McDonnell Douglas F/A-18 Hornet;.;.;.;.;.;.;.;.;;X
+MODEL_USA_16_3;;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_48_0;Hawker Siddeley Harrier AV-8A Harrier;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_48_1;McDonnell Douglas AV-8B Harrier II;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_41_0;AH-1 Cobra;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_41_1;AH-1 SuperCobra;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_41_2;OH-58C Kiowa;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_41_3;AH-64 Apache;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_41_4;AH-64D Longbow;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_41_5;AH-64E Block III;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_42_0;U-2;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_42_1;SR-71;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_45_0;Northrop Grumman E-2 Hawkeye;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_45_1;Boeing E-3 Sentry;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_45_2;Boeing E-767;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_44_0;Northrop Grumman E-2 Hawkeye;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_44_1;Boeing E-3 Sentry;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_44_2;Boeing E-767;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_47_0;McDonnell FH Phantom;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_47_1;North American FJ-2/-3 Fury;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_47_2;Grumman F-11 Tiger;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_47_3;Grumman F-14 Tomcat;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_47_4;McDonnell Douglas F/A-18 Hornet;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_47_5;Grumman F-14D Super Tomcat;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_47_6;Lockheed Martin F-22 Raptor;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_46_0;North American AJ-1 Savage;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_46_1;Douglas A-4 Skyhawk;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_46_2;Grumman A-6 Intruder;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_46_3;LTV A-7 Corsair II;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_46_4;McDonnell Douglas F/A-18B Hornet;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_46_5;Boeing F/A-18E/F Super Hornet;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_USA_46_6;Lockheed Martin F-35C Lightning II;.;.;.;.;.;.;.;.;;X
+BRIG_MODEL_ENG_10_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_12_7;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_12_7;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_12_7;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_12_7;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_12_6;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_12_6;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_12_6;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_12_6;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_12_5;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_12_5;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_12_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_12_5;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_12_7;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_12_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_12_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_12_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_12_4;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_12_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_12_4;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_12_4;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_12_6;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_12_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_12_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_13_5;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_13_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_13_5;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_13_5;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_13_5;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_13_4;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_13_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_13_4;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_13_4;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_13_4;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_13_3;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_13_3;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_13_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_13_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_13_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_13_3;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_13_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_13_2;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_13_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_13_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_13_2;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_13_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_13_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_13_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_13_1;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_13_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_13_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_13_1;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_13_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_13_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_13_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_POL_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U01_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_13_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_14_2;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_14_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_14_2;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_14_1;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_14_1;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_14_2;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_14_1;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_14_0;;.;.;.;.;.;.;.;.;;X
+MODEL_GER_14_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_14_0;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_14_0;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_14_1;;.;.;.;.;.;.;.;.;;X
+MODEL_U08_14_0;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_14_0;;.;.;.;.;.;.;.;.;;X
+MODEL_ENG_16_3;;.;.;.;.;.;.;.;.;;X
+MODEL_FRA_16_3;;.;.;.;.;.;.;.;.;;X
+MODEL_ITA_16_3;;.;.;.;.;.;.;.;.;;X
+MODEL_JAP_16_3;;.;.;.;.;.;.;.;.;;X
+MODEL_USA_17_10;F-18 Super Hornet;.;.;.;.;.;.;.;.;;X
+#EOF;;.;.;.;.;.;.;.;.;;X
+#EOF;;.;.;.;.;.;.;.;.;;X

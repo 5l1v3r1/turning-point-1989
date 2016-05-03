@@ -1,0 +1,259 @@
+allowed_brigades = artillery
+allowed_brigades = anti_air
+allowed_brigades = rocket_artillery
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = b_01
+allowed_brigades = b_09
+
+# 0 - Special Forces 1945
+model = {
+	cost 					= 7
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 95
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 7
+	hardattack				= 3
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.45
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 heavy_artillery = 34 anti_air = 18 }
+}
+# 1 - Special Forces 1965
+model = {
+	cost 					= 10
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 9
+	hardattack				= 5
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}
+# 2 - Special Forces 1970
+model = {
+	cost 					= 10
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 10
+	hardattack				= 6
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}
+# 3 - Special Forces 1975
+model = {
+	cost 					= 10
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 11
+	hardattack				= 7
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}
+# 4 - Special Forces 1980
+model = {
+	cost 					= 10
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 12
+	hardattack				= 8
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}
+# 5 - Special Forces 1985
+model = {
+	cost 					= 13
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 13
+	hardattack				= 9
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}
+# 6 - Special Forces 1990
+model = {
+	cost 					= 13
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 14
+	hardattack				= 10
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}
+# 7 - Special Forces 1995
+model = {
+	cost 					= 13
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 15
+	hardattack				= 11
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}
+# 8 - Special Forces 2000
+model = {
+	cost 					= 13
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 16
+	hardattack				= 12
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}
+# 9 - Special Forces 2005
+model = {
+	cost 					= 15
+	buildtime	 			= 1095
+	manpower 				= 5
+	maxspeed 				= 9
+	defaultorganisation 	= 50
+	morale					= 70
+	defensiveness 			= 15
+	toughness				= 20
+	softness				= 90
+	suppression				= 3
+	airdefence				= 1
+	softattack				= 17
+	hardattack				= 13
+	airattack				= 5
+	transportweight			= 4
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2326 artillery = 128 heavy_artillery = 48 anti_tank = 36 anti_air = 30 }
+}

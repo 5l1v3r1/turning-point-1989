@@ -1,0 +1,22 @@
+DEN;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+75001;Head of State;HM Margrethe II;1985;2012;2012;ML;Popular Figurehead;Very High;DEN1;X
+75002;Head of Government;Poul Schlüter;1985;2012;2012;SC;Silent Workhorse;Very High;DEN2;X
+75003;Foreign Minister;Uffe Ellemann-Jensen;1985;2012;2012;ML;Ideological Crusader;Very High;DEN3;X
+75004;Minister of Armament;Palle Simonsen;1985;2012;2012;SC;Laissez-Faire Capitalist;Very High;DEN4;X
+75005;Minister of Security;Erik Ninn-Hansen;1985;2012;2012;SC;Compassionate Gentleman;Very High;DEN5;X
+75006;Head of Military Intelligence;Hans Engell;1985;2012;2012;SC;Political Specialist;Very High;DEN6;X
+75007;Chief of Staff;Otto Katharus;1985;2012;2012;ML;School of Defence;Very High;unknown;X
+75008;Chief of Army;Jørgen Lyng;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;unknown;X
+75009;Chief of Navy;Sven Eigil Thiede;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;unknown;X
+75010;Chief of Air Force;Christian Hvidt;1985;2012;2012;ML;Air Superiority Doctrine;Very High;unknown;X
+;Replacements;;;;;;;;;X
+75011;Head of State;Jørgen Jensen;1985;2012;2012;LE;Barking Buffoon;Very High;DEN7;X
+75012;Head of Government;Ole Sohn;1985;2012;2012;LE;Happy Amateur;Very High;DEN8;X
+75013;Foreign Minister;Herluf Bidstrup;1985;2012;2012;LE;biased intellectual;Very High;unknown;X
+75014;Minister of Armament;Jørgen Jensen;1985;2012;2012;LE;Resource Industrialist;Very High;DEN7;X
+75015;Minister of Security;Jens-Peter Bonde;1985;2012;2012;LE;Man of the People;Very High;unknown;X
+75016;Head of Military Intelligence;Jens-Peter Bonde;1985;2012;2012;LE;Political Specialist;Very High;unknown;X
+75017;Chief of Staff;Commission for Popular Defence;1985;2012;2012;LE;School of Mass Combat;Very High;unknown;X
+75018;Chief of Army;Commission for Popular Defence;1985;2012;2012;LE;Guns and Butter Doctrine;Very High;unknown;X
+75019;Chief of Navy;Commission for Popular Defence;1985;2012;2012;LE;Indirect Approach Doctrine;Very High;unknown;X
+75020;Chief of Air Force;Commission for Popular Defence;1985;2012;2012;LE;Air Superiority Doctrine;Very High;unknown;X

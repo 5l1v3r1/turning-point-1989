@@ -1,0 +1,25 @@
+RUS;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+515001;Head of State;Boris Yeltsin;1985;2012;2012;SL;Popular Figurehead;Very High;SOV16;X
+515002;Head of Government;Boris Yeltsin;1985;2012;2012;SL;Flamboyant Tough Guy;Very High;SOV16;X
+515003;Foreign Minister;Andrey Kozyrev;1990;2012;2012;SL;Great Compromiser;Very High;RUS_Andrey_Kozyrev;X
+515004;Minister of Armament;Boris Fedorov;1990;2012;2012;SL;Theoretical Scientist;Very High;RUS_Boris_Fedorov;X
+515005;Minister of Security;Viktor Barannikov;1990;2012;2012;SD;Back Stabber;Very High;RUS_Viktor_Barannikov;X
+515006;Head of Military Intelligence;Evgeny Primakov;1990;2012;2012;SD;Political Specialist;Very High;RUS_Evgeny_Primakov;X
+515007;Chief of Staff;Vasily Dubynin;1990;2012;2012;SL;School of Defence;Very High;RUS_Vasily_Dubynin;X
+515008;Chief of Army;Konstantin Kobets;1990;2012;2012;SL;Guns and Butter Doctrine;Very High;RUS_Konstantin_Kobets;X
+515009;Chief of Navy;Felix Gromov;1990;2012;2012;SL;Indirect Approach Doctrine;Very High;RUS_Felix_Gromov;X
+515010;Chief of Air Force;Petr Deinekin;1990;2012;2012;SL;Carpet Bombing Doctrine;Very High;RUS_Petr_Deinekin;X
+;Replacements;;;;;;;;;X
+515011;Head of State;Alexander Rutskoy;1990;2012;2012;SC;Barking Buffoon;Low;RUS_Alexander_Rutskoy;X
+515012;Head of Government;Alexander Rutskoy;1990;2012;2012;SC;Flamboyant Tough Guy;Low;RUS_Alexander_Rutskoy;X
+515013;Head of Government;Egor Gaidar;1990;2009;2009;ML;Naive Optimist;Very High;RUS_Egor_Gaidar;X
+515014;Minister of Armament;Egor Gaidar;1990;2009;2009;ML;Theoretical Scientist;Very High;RUS_Egor_Gaidar;X
+515015;Minister of Armament;Vasily Barchuk;1990;2012;2012;SC;Laissez-Faire Capitalist;Very High;RUS_Vasily_Barchuk;X
+515016;Head of Government;Viktor Chernomyrdin;1990;2010;2010;SD;Happy Amateur;Very High;RUS_Viktor_Chernomyrdin;X
+515017;Head of Government;Sergey Kirienko;1990;2012;2012;ML;Corporate Suit;Very High;RUS_Sergey_Kirienko;X
+515018;Head of Government;Evgeny Primakov;1990;2012;2012;SD;Ambitious Union Boss;Medium;RUS_Evgeny_Primakov;X
+515019;Head of Government;Sergey Stepashin;1990;2012;2012;SL;Silent Workhorse;Very High;RUS_Sergey_Stepashin;X
+515020;Head of Government;Vladimir Putin;1999;2001;2015;SC;Flamboyant Tough Guy;Very High;Vladimir_Putin;X
+515021;Minister of Security;Vladimir Putin;1998;2001;2015;SC;Secret Police Chief;Very High;Vladimir_Putin_2;X
+515022;Head of Military Intelligence;Vladimir Putin;1998;2001;2015;SC;Political Specialist;Very High;Vladimir_Putin_2;X
+515023;Head of State;Vladimir Putin;1999;2015;2015;SC;Courageous;Very High;Vladimir_Putin;X

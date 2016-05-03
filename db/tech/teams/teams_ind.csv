@@ -1,0 +1,25 @@
+IND;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+400;National Defence Academy;ndacademy;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;training;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+401;CVRDE;Avadi;5;1000;2999;mechanics;industrial_engineering;electronics;training;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+402;Larsen & Toubro;Larsen;6;1000;2999;artillery;technical_efficiency;munitions;large_unit_focus;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+403;Ishapore Rifle Factory;Ishapore;5;1000;2999;general_equipment;artillery;technical_efficiency;munitions;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+404;HAL;T3707;7;1000;2999;aeronautics;avionics;technical_efficiency;electronics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+405;National Aerospace Labs;Saras;6;1000;2999;aeronautics;technical_efficiency;industrial_engineering;electronics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+406;Joint Intelligence Committee;jintelcom;7;1000;2999;mathematics;technical_efficiency;training;centralized_execution;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+407;Eicher Group;Eicher;6;1000;2999;industrial_engineering;technical_efficiency;management;centralized_execution;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+408;Tata Group;Tata;8;1000;2999;industrial_engineering;rocketry;technical_efficiency;management;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+409;Bharat Electronics;T3700;7;1000;2999;management;training;technical_efficiency;munitions;maneuver_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+410;DRDO;T3709;7;1000;2999;electronics;rocketry;management;technical_efficiency;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+411;Indian Space Research Organisation;isroind;7;1000;2999;electronics;rocketry;aeronautics;avionics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+412;Nuclear Power Corp;Nuclear Power Corp;7;1000;2999;nuclear_engineering;nuclear_physics;mathematics;general_equipment;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+413;Indian Army;Indian Army;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+414;Integrated Defence Staff;intdefstaff;6;1000;2999;centralized_execution;management;small_unit_tactics;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+415;Indian Air Force;T3711;7;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+416;Indian Naval Air Arm;indnavalairarm;6;1000;2999;aircraft_testing;naval_training;carrier_design;piloting;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+417;Cochin Shipyard;Cochin;7;1000;2999;naval_artillery;naval_engineering;small_taskforce_tactics;seamanship;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+418;Mazagon Dockyards;T3702;6;1000;2999;naval_artillery;small_taskforce_tactics;naval_engineering;naval_training;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+419;Garden Reach Shipbuilders and Engineers;T3703;4;1000;2999;naval_artillery;naval_engineering;small_taskforce_tactics;seamanship;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+420;Goa Shipyard;T3704;6;1000;2999;naval_artillery;small_taskforce_tactics;naval_engineering;naval_training;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+421;Indian Navy;T3712;7;1000;2999;small_taskforce_tactics;naval_artillery;technical_efficiency;mechanics;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+422;Naval Logistics and Material;indnavlog;7;1000;2999;naval_training;seamanship;combined_arms_focus;technical_efficiency;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+423;Submarine Arm;indsubmarine;7;1000;2999;seamanship;management;large_taskforce_tactics;naval_engineering;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

@@ -1,0 +1,40 @@
+PER;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+150001;Head of State;Ayatollah Sayyid Ruhollah Khomeini;1980;2012;2012;NS;Die-hard Reformer;Very High;PER1;X
+150002;Head of Government;Ali Khamenei;1980;2012;2012;NS;Silent Workhorse;Very High;PER2;X
+150003;Foreign Minister;Ali Akbar Velayati;1980;2012;2012;NS;Ideological Crusader;Very High;PER3;X
+150004;Minister of Armament;Akbar Torkan;1980;2012;2012;FA;Resource Industrialist;Very High;PER4;X
+150005;Minister of Security;Ali-Akbar Nateq-Nouri;1980;2012;2012;NS;Prince of Terror;Very High;PER5;X
+150006;Head of Military Intelligence;Mohammad Reyshahri;1980;2012;2012;NS;Dismal Enigma;Very High;PER6;X
+150007;Chief of Staff;Ali Sayad Shirazi;1980;2012;2012;NS;School of Mass Combat;Very High;PER7;X
+150008;Chief of Army;Mohsen Rezaee;1980;2012;2012;NS;Decisive Battle Doctrine;Very High;PER8;X
+150009;Chief of Navy;Akbar Hashemi Rafsanjani;1980;2012;2012;FA;Power Projection Doctrine;Very High;PER9;X
+150010;Chief of Air Force;Ali Sayad Shirazi;1980;2012;2012;NS;Air Superiority Doctrine;Very High;PER7;X
+;Replacements;;;;;;;;;X
+150011;Head of State;Ayatollah Sayyid Ali Khamenei;1980;2012;2012;NS;Die-hard Reformer;Very High;PER2;X
+150012;Head of Government;Akbar Hashemi Rafsanjani;1980;2012;2012;NS;Silent Workhorse;Very High;PER9;X
+150013;Foreign Minister;Mir-Hossein Mousavi;1980;2012;2012;FA;Great Compromiser;Very High;PER10;X
+150014;Minister of Armament;Mir-Hossein Mousavi;1980;2012;2012;FA;Administrative Genius;Very High;PER10;X
+150015;Minister of Armament;Ali Khamenei;1980;2012;2012;NS;Infantry Proponent;Very High;PER2;X
+150016;Head of State;Ehsan Tabari;1980;2012;2012;LE;Popular Figurehead;Very High;PER11;X
+150017;Head of Government;Masoud Rajavi;1980;2012;2012;LWR;Flamboyant Tough Guy;Very High;PER12;X
+150018;Foreign Minister;Abdul Rahman Ghassemlou;1980;2012;2012;SD;Great Compromiser;Very High;PER13;X
+150019;Minister of Armament;Sadegh Sharafkandi;1980;2012;2012;SD;Theoretical Scientist;Very High;PER14;X
+150020;Minister of Security;Kazem Rajavi;1980;2012;2012;SD;Silent Lawyer;Very High;PER15;X
+150021;Head of Military Intelligence;Sadegh Sharafkandi;1980;2012;2012;SD;Industrial Specialist;Very High;PER14;X
+150022;Chief of Staff;Ahmad Madani;1980;2012;2012;SD;School of Fire Support;Very High;PER15;X
+150023;Chief of Army;Masoud Rajavi;1980;2012;2012;LWR;Decisive Battle Doctrine;Very High;PER12;X
+150024;Chief of Navy;Ahmad Madani;1980;2012;2012;SD;Power Projection Doctrine;Very High;PER16;X
+150025;Chief of Air Force;Behzad Moezzi;1980;2012;2012;SD;Air Superiority Doctrine;Very High;PER17;X
+150026;Minister of Armament;Ahmad Madani;1980;2012;2012;SD;Military Entrepreneur;Very High;PER16;X
+150027;Head of Military Intelligence;Ahmad Madani;1980;2012;2012;SD;Naval Intelligence Specialist;Very High;PER16;X
+150028;Head of State;Shapour Bakhtiar;1980;2012;2012;SL;Benevolent Gentleman;Very High;PER18;X
+150029;Head of Government;Hushang Ansary;1980;2012;2012;ML;Smiling Oilman;Very High;PER19;X
+150030;Foreign Minister;Ardeshir Zahedi;1980;2012;2012;ML;Great Compromiser;Very High;PER20;X
+150031;Minister of Armament;Hushang Ansary;1980;2012;2012;ML;Resource Industrialist;Very High;PER19;X
+150032;Minister of Security;Ali Amini;1980;2012;2012;ML;Silent Lawyer;Very High;PER21;X
+150033;Head of Military Intelligence;Kamal Habibollahi;1980;2012;2012;ML;Naval Intelligence Specialist;Very High;PER23;X
+150034;Chief of Staff;Gholam-Reza Azhari;1980;2012;2012;ML;School of Fire Support;Very High;PER22;X
+150035;Chief of Army;Gholam-Reza Azhari;1980;2012;2012;ML;Armoured Spearhead Doctrine;Very High;PER22;X
+150036;Chief of Navy;Kamal Habibollahi;1980;2012;2012;ML;Power Projection Doctrine;Very High;PER23;X
+150037;Chief of Air Force;Kamal Habibollahi;1980;2012;2012;ML;Naval Aviation Doctrine;Very High;PER23;X
+150038;Head of State;HIM Reza II Shah Pahlavi;1980;2012;2012;ML;Popular Figurehead;Very High;PER24;X

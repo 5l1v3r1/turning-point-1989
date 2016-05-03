@@ -1,0 +1,25 @@
+#############################################
+### TURNING POINT DEATH AND RESIGN EVENTS ###
+#############################################
+#Vatican
+event = {
+	id = 2001079
+	random = no
+	country = U20
+	style = 1
+
+	trigger = {
+		incabinet = 915002	# Paolo Bertoli
+	}
+
+	date = { day = 24 month = march year = 1985 }
+
+	name = "vatican"
+	desc = "vatican_desc"
+	picture = "minister_resign"
+
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = sleepminister which = 915002 }
+	}
+}

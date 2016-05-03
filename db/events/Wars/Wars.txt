@@ -1,0 +1,127 @@
+#########################################################################
+#  The Peshawar Accord
+#########################################################################
+event = {
+	id = 800200
+	random = no
+	country = U23
+	
+	decision = {
+		exists = U23
+		NOT = { exists = AFG }
+		NOT = { war = { country = SOV country = U23 } }
+	}
+	decision_trigger = {
+		exists = U23
+		NOT = { exists = AFG }
+		NOT = { war = { country = SOV country = U23 } }
+	}
+	trigger = {
+		exists = U23
+		NOT = { exists = AFG }
+		NOT = { war = { country = SOV country = U23 } }
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "the_peshawar_accord"
+	desc = "the_peshawar_accord_desc"
+	style = 1
+	picture = "soviet_afghan_war_2"
+	decision_picture = "decision_soviet_afghan_war"
+
+	action = {
+		name = "ACTION_NAME_AGREE"
+		command = { type = dissent value = -10 }
+		command = { type = country which = AFG }
+		command = { type = flag_ext where = AFG which = _ISL }
+	}
+}
+#########################################################################
+#  Mujahideen Volunteers
+#########################################################################
+event = {
+	id = 800201
+	random = no
+	country = U23
+	persistent = yes
+	
+	name = "Mujahideen for the Jihad!"
+	desc = "As the number of dead infidels grows, so does the hope of our brothers who can now see that Allah is on our side."
+	style = 1
+	picture = "mujahideen_stinger"
+
+	action = {
+		name = "Alahu Akbar!"
+		command = { type = dissent value = -2 }
+		command = { type = supplies value = 500 }
+		command = { type = add_division which = Mujahideen value = militia when = 4 where = b_09 }
+		command = { trigger = { event = 2007109 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007109 } type = supplies value = 500 }
+		command = { trigger = { event = 2007110 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007110 } type = supplies value = 500 }
+		command = { trigger = { event = 2007111 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007111 } type = supplies value = 500 }
+		command = { trigger = { event = 2007112 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007112 } type = supplies value = 500 }
+		command = { trigger = { event = 2007113 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007113 } type = supplies value = 500 }
+		command = { trigger = { event = 2007114 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007114 } type = supplies value = 500 }
+		command = { trigger = { event = 2007115 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007115 } type = supplies value = 500 }
+		command = { trigger = { event = 2007116 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007116 } type = supplies value = 500 }
+		command = { trigger = { event = 2007117 } type = add_division which = Mujahideen value = militia when = 4 }
+		command = { trigger = { event = 2007117 } type = supplies value = 500 }
+		command = { trigger = { event = 2007117 } type = sleepevent which = 800201 }
+	}
+}
+#########################################################################
+#  Desertions
+#########################################################################
+event = {
+	id = 800202
+	random = yes
+	country = AFG
+	persistent = yes
+	
+	trigger = { 
+		war = { country = AFG  country = U23 }
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "Desertions"
+	desc = "Our soldiers are deserting to the Mujahideen!"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 2 }
+		command = { type = damage_division which = -1 where = 10 }
+		command = { type = trigger which = 800203 }
+	}
+}
+event = {
+	id = 800203
+	random = no
+	country = U23
+	persistent = yes
+	
+	name = "Soldiers join our cause!"
+	desc = "Soldiers from the puppet communist government are joining our ranks!"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -2 }
+		command = { type = damage_division which = -1 where = -10 }
+	}
+}

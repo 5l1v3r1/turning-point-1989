@@ -1,0 +1,412 @@
+name       = "1989_SCENARIO"
+panel      = "scenarios/data/scenario_1989.bmp"
+header =
+{ name       = "1989_SCENARIO"
+  startdate  = { year = 1989 }
+  selectable = { AFG ALB ALG ANG ARG AST AUS BEL BEN BOL BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL CON COS CUB CYP CZE DDR 
+	DEN DFR ECU EGY ENG EQA ETH FIN FRA GAB GLD GRE GUA GUI GUY HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KOR LAO LBY LEB LUX 
+	MAD MAL MAN MEN MEX MLY MON MOR MOZ NIC NIG NOR NZL OMN PAK PAN PAR PER PHI POL POR PRK PRU RHO ROM SAF 
+	SAL SAR SAU	SCH SIA SIE SLO SOM SOV SPA SUD SWE SYR TUN TUR URU VEN YEM YUG U01 U02 U03 U04 U20 U40 U41 
+	U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U67 U69 U70 U75 U80 U81 U82 U83 U84 U85 U86 U88 U89 U90 U91 U92 U93 
+	U94 U95 U96 U97 U98 U99 USA VIE EST
+	U23 #Mujahideen
+	U00 #United Nations
+	U71 #European Community
+	PAL #Palestine
+	}
+
+  DFR        = { }
+  DDR        = { }
+  POL        = { }
+  CZE        = { }
+  HUN        = { }
+  ROM        = { }
+  BUL        = { }
+  YUG        = { }
+  CHC        = { }
+  SOV	     = { } 
+}
+globaldata =
+{ startdate = { year = 1989 month = january day = 0 }
+  enddate   = { year = 2012 month = december day = 21 }
+
+  allies =
+  { id          = { type = 15000 id = 1 }
+	participant = { USA BEL CAN DEN ITA LUX HOL NOR POR ENG GRE TUR DFR SPA ICL }
+  }
+  comintern =
+  { id          = { type = 15000 id = 2 }
+    participant = { SOV CZE POL ROM HUN BUL DDR }
+  }
+  axis =
+  { id          = { type = 15000 id = 3 }
+    participant = { U00 U71 }
+  }
+  #alliance =
+  #{ id          = { type = 15000 id = 4 }
+  #  participant = { EGY SYR JOR } #Arab League
+  #}
+  # TRADE
+  # Soviet economic help to Warsaw Pact's allies
+  treaty =
+  { id         = { type = 16300 id = 1 }					#Germany
+    type       = trade
+    country    = "SOV"
+    country    = "DDR"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -100
+    supplies   = -50
+	money	   = -10
+    cancel     = no
+  }
+  treaty =													#Poland
+  { id         = { type = 16300 id = 2 }
+    type       = trade
+    country    = "SOV"
+    country    = "POL"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -80
+    supplies   = -40
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#Czechslovakia
+  { id         = { type = 16300 id = 3 }
+    type       = trade
+    country    = "SOV"
+    country    = "CZE"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -60
+    supplies   = -30
+	money	   = -5
+    cancel     = no
+  }
+  treaty =
+  { id         = { type = 16300 id = 4 }					#Romania
+    type       = trade
+    country    = "SOV"
+    country    = "ROM"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -40
+    supplies   = -20
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#Bulgaria
+  { id         = { type = 16300 id = 5 }
+    type       = trade
+    country    = "SOV"
+    country    = "BUL"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -20
+    supplies   = -10
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#Afghanistan
+  { id         = { type = 16300 id = 6 }
+    type       = trade
+    country    = "SOV"
+    country    = "AFG"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -20
+    supplies   = -10
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#Cuba
+  { id         = { type = 16300 id = 7 }
+    type       = trade
+    country    = "SOV"
+    country    = "CUB"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -20
+    supplies   = -10
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#North Korea
+  { id         = { type = 16300 id = 8 }
+    type       = trade
+    country    = "SOV"
+    country    = "PRK"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -20
+    supplies   = -10
+	money	   = -5
+    cancel     = no
+  }
+  # WARS
+  # IRAN-IRAQ WAR
+  war =
+  { id        = { type = 9000 id = 1 }
+    date      = { year = 1985 month = january day = 1 }
+    enddate   = { year = 2012 month = january day = 1 } 
+    attackers =
+    { id          = { type = 9000 id = 2 }
+      participant = { PER }
+    }
+    defenders =
+    { id          = { type = 9000 id = 3 }
+      participant = { IRQ }
+    }
+  }
+  # LYBYA-CHAD CONFLICT (TOYOTA WAR)
+  war =
+  { id        = { type = 9001 id = 1 }
+    date      = { year = 1985 month = january day = 1 }
+    enddate   = { year = 2012 month = january day = 1 } 
+    attackers =
+    { id          = { type = 9001 id = 2 }
+      participant = { LBY }
+    }
+    defenders =
+    { id          = { type = 9001 id = 3 }
+      participant = { U84 }
+    }
+  }
+  # SOVIET-AFGHAN WAR
+  war =
+  { id        = { type = 9002 id = 1 }
+    date      = { year = 1985 month = january day = 1 }
+    enddate   = { year = 1989 month = february day = 14 } 
+    attackers =
+    { id          = { type = 9002 id = 2 }
+      participant = { SOV AFG }
+    }
+    defenders =
+    { id          = { type = 9002 id = 3 }
+      participant = { U23 }
+    }
+  }
+  # NON-AGRESSION PACTS
+  treaty =
+  { id         = { type = 9003 id = 1 }
+    type       = non_aggression
+    country    = "CHC"
+    country    = "U23"
+    startdate  = { year = 1985 month = january day = 0 }
+    expirydate = { year = 2012 month = december day = 29 }
+  }
+  treaty =
+  { id         = { type = 9004 id = 1 }
+    type       = non_aggression
+    country    = "PAK"
+    country    = "U23"
+    startdate  = { year = 1985 month = january day = 0 }
+    expirydate = { year = 2012 month = december day = 29 }
+  }
+}
+
+history = { 
+	#Soviet Union's Events
+	2007015 2007016 2007017 2007018 2007019 2007020 2007021 2007022 2007023 2007024 2007025 2007030 2007031 2007032 2007036 2007037
+	2007042 2007088 2007096 2007119 2007120 2007121 2007122 2007123 2007124 2007125 2007126 2007127 2007128 2007129 2007130 2007131
+	2007132 2007133 2007134 2007135 2007137 2007139 2007140 2007141 2007142 2007143 2007144 2007145 2007146 2007147 2007148 2007029
+} 
+# ###################
+sleepevent = { 
+	#Soviet Union's Events
+	2007033 2007034 2007035 2007107 2007108 2007109 2007110 2007111 2007112 2007113 2007114 2007115 2007116 2007117 2007028
+}
+
+# ###################
+
+# Includes for global data
+include = "db\events.txt"
+
+# Victory points distribution
+include = "scenarios\1989\VP.inc"
+
+# Others
+include = "scenarios\1989\Installations.inc"
+include = "scenarios\1989\Depots.inc"
+
+# International Organizations
+include = "scenarios\1989\United Nations.inc"
+include = "scenarios\1989\European Community.inc"
+
+# Include files for each country tag used in the scenario
+###############################################
+include = "scenarios\1989\Algeria.inc"
+include = "scenarios\1989\Andorra.inc"
+include = "scenarios\1989\Angola.inc"
+include = "scenarios\1989\Antigua and Barbuda.inc"
+include = "scenarios\1989\Afghanistan.inc"
+include = "scenarios\1989\Albania.inc"
+include = "scenarios\1989\Argentina.inc"
+include = "scenarios\1989\Australia.inc"
+include = "scenarios\1989\Austria.inc"
+include = "scenarios\1989\Bahrain.inc"
+include = "scenarios\1989\Bahamas.inc"
+include = "scenarios\1989\Barbados.inc"
+include = "scenarios\1989\Bangladesh.inc"
+include = "scenarios\1989\Belgium.inc"
+include = "scenarios\1989\Belize.inc"
+include = "scenarios\1989\Benin.inc"
+include = "scenarios\1989\Bhutan.inc"
+include = "scenarios\1989\Burma.inc"
+include = "scenarios\1989\Botswana.inc"
+include = "scenarios\1989\Bolivia.inc"
+include = "scenarios\1989\Brazil.inc"
+include = "scenarios\1989\Brunei.inc"
+include = "scenarios\1989\Burkina Faso.inc"
+include = "scenarios\1989\Burundi.inc"
+include = "scenarios\1989\Bulgaria.inc"
+include = "scenarios\1989\Canada.inc"
+include = "scenarios\1989\Cambodia.inc"
+include = "scenarios\1989\Cameroon.inc"
+include = "scenarios\1989\Cape Verde.inc"
+include = "scenarios\1989\Central Africa.inc"
+include = "scenarios\1989\Cyprus.inc"
+include = "scenarios\1989\Chad.inc"
+include = "scenarios\1989\Comoros.inc"
+include = "scenarios\1989\Communist China.inc"
+include = "scenarios\1989\Congo.inc"
+include = "scenarios\1989\Chile.inc"
+include = "scenarios\1989\Colombia.inc"
+include = "scenarios\1989\Costa Rica.inc"
+include = "scenarios\1989\Cuba.inc"
+include = "scenarios\1989\Czechoslovakia.inc"
+include = "scenarios\1989\Denmark.inc"
+include = "scenarios\1989\Djibouti.inc"
+include = "scenarios\1989\Dominicana.inc"
+include = "scenarios\1989\Dominica.inc"
+include = "scenarios\1989\East Germany.inc"
+include = "scenarios\1989\Egypt.inc"
+include = "scenarios\1989\Ecuador.inc"
+include = "scenarios\1989\El Salvador.inc"
+include = "scenarios\1989\Estonia.inc"
+include = "scenarios\1989\Ethiopia.inc"
+include = "scenarios\1989\Finland.inc"
+include = "scenarios\1989\Fiji.inc"
+include = "scenarios\1989\France.inc"
+include = "scenarios\1989\Gambia.inc"
+include = "scenarios\1989\Gabon.inc"
+include = "scenarios\1989\Ghana.inc"
+include = "scenarios\1989\Guyana.inc"
+include = "scenarios\1989\Guinea.inc"
+include = "scenarios\1989\Guinea-Bissau.inc"
+include = "scenarios\1989\Guinea Equatorial.inc"
+include = "scenarios\1989\Greece.inc"
+include = "scenarios\1989\Grenada.inc"
+include = "scenarios\1989\Guatemala.inc"
+include = "scenarios\1989\Haiti.inc"
+include = "scenarios\1989\Netherlands.inc"
+include = "scenarios\1989\Honduras.inc"
+include = "scenarios\1989\Hungary.inc"
+include = "scenarios\1989\Ivory Coast.inc"
+include = "scenarios\1989\India.inc"
+include = "scenarios\1989\Indonesia.inc"
+include = "scenarios\1989\Ireland.inc"
+include = "scenarios\1989\Iceland.inc"
+include = "scenarios\1989\Iran.inc"
+include = "scenarios\1989\Iraq.inc"
+include = "scenarios\1989\Israel.inc"
+include = "scenarios\1989\Italy.inc"
+include = "scenarios\1989\Japan.inc"
+include = "scenarios\1989\Jamaica.inc"
+include = "scenarios\1989\Jordan.inc"
+include = "scenarios\1989\Kenya.inc"
+include = "scenarios\1989\Kuwait.inc"
+include = "scenarios\1989\Kiribati.inc"
+include = "scenarios\1989\Laos.inc"
+include = "scenarios\1989\Liechtenstein.inc"
+include = "scenarios\1989\Libya.inc"
+include = "scenarios\1989\Liberia.inc"
+include = "scenarios\1989\Lesotho.inc"
+include = "scenarios\1989\Luxembourg.inc"
+include = "scenarios\1989\Lebanon.inc"
+include = "scenarios\1989\Malaysia.inc"
+include = "scenarios\1989\Mali.inc"
+include = "scenarios\1989\Malawi.inc"
+include = "scenarios\1989\Malta.inc"
+include = "scenarios\1989\Maldives.inc"
+include = "scenarios\1989\Mauritania.inc"
+include = "scenarios\1989\Mauritius.inc"
+include = "scenarios\1989\Madagascar.inc"
+include = "scenarios\1989\Mexico.inc"
+include = "scenarios\1989\Monaco.inc"
+include = "scenarios\1989\Morocco.inc"
+include = "scenarios\1989\Mozambique.inc"
+include = "scenarios\1989\Mongolia.inc"
+include = "scenarios\1989\Mujahideen.inc"
+include = "scenarios\1989\Nauru.inc"
+include = "scenarios\1989\Nepal.inc"
+include = "scenarios\1989\Niger.inc"
+include = "scenarios\1989\Nigeria.inc"
+include = "scenarios\1989\Nicaragua.inc"
+include = "scenarios\1989\Norway.inc"
+include = "scenarios\1989\North Yemen.inc"
+include = "scenarios\1989\North Korea.inc"
+include = "scenarios\1989\Northern Cyprus.inc"
+include = "scenarios\1989\New Zealand.inc"
+include = "scenarios\1989\Oman.inc"
+include = "scenarios\1989\Panama.inc"
+include = "scenarios\1989\Papua New Guinea.inc"
+include = "scenarios\1989\Pakistan.inc"
+include = "scenarios\1989\Paraguay.inc"
+include = "scenarios\1989\Philippines.inc"
+include = "scenarios\1989\Poland.inc"
+include = "scenarios\1989\Portugal.inc"
+include = "scenarios\1989\Peru.inc"
+include = "scenarios\1989\Qatar.inc"
+include = "scenarios\1989\Romania.inc"
+include = "scenarios\1989\Rwanda.inc"
+include = "scenarios\1989\Samoa.inc"
+include = "scenarios\1989\Sao Tome e Principe.inc"
+include = "scenarios\1989\Senegal.inc"
+include = "scenarios\1989\Seychelles.inc"
+include = "scenarios\1989\South Africa.inc"
+include = "scenarios\1989\Solomon Islands.inc"
+include = "scenarios\1989\Saudi Arabia.inc"
+include = "scenarios\1989\Soviet Union.inc"
+include = "scenarios\1989\South Yemen.inc"
+include = "scenarios\1989\South Korea.inc"
+include = "scenarios\1989\Somalia.inc"
+include = "scenarios\1989\Sudan.inc"
+include = "scenarios\1989\Suriname.inc"
+include = "scenarios\1989\Switzerland.inc"
+include = "scenarios\1989\Siam.inc"
+include = "scenarios\1989\Singapore.inc"
+include = "scenarios\1989\Sierra Leone.inc"
+include = "scenarios\1989\Sri Lanka.inc"
+include = "scenarios\1989\Syria.inc"
+include = "scenarios\1989\Spain.inc"
+include = "scenarios\1989\Sweden.inc"
+include = "scenarios\1989\Swaziland.inc"
+include = "scenarios\1989\St. Kitts and Nevis.inc"
+include = "scenarios\1989\St. Lucia.inc"
+include = "scenarios\1989\St. Vincent and the Grenadines.inc"
+include = "scenarios\1989\Taiwan.inc"
+include = "scenarios\1989\Togo.inc"
+include = "scenarios\1989\Tonga.inc"
+include = "scenarios\1989\Tanzania.inc"
+include = "scenarios\1989\Tunisia.inc"
+include = "scenarios\1989\Turkey.inc"
+include = "scenarios\1989\Tuvalu.inc"
+include = "scenarios\1989\Trinidad and Tobago.inc"
+include = "scenarios\1989\United Arab Emirates.inc"
+include = "scenarios\1989\United Kingdom.inc"
+include = "scenarios\1989\Uganda.inc"
+include = "scenarios\1989\Uruguay.inc"
+include = "scenarios\1989\USA.inc"
+include = "scenarios\1989\Vanuatu.inc"
+include = "scenarios\1989\Venezuela.inc"
+include = "scenarios\1989\Vietnam.inc"
+include = "scenarios\1989\Yugoslavia.inc"
+include = "scenarios\1989\San Marino.inc"
+include = "scenarios\1989\Vatican.inc"
+include = "scenarios\1989\Zaire.inc"
+include = "scenarios\1989\Zambia.inc"
+include = "scenarios\1989\Zimbabwe.inc"
+include = "scenarios\1989\West Germany.inc"
+#Others

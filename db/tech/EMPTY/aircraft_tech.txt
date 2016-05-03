@@ -1,0 +1,6 @@
+technology =
+{ id          = 4
+  category    = aircraft
+  name        = TECH_AIRCRAFT_NAME # Localized name
+  desc        = TECH_AIRCRAFT_DESC # Localized description
+}

@@ -1,0 +1,6 @@
+technology =
+{ id          = 9
+  category    = air_doctrines
+  name        = TECH_AD_NAME # Localized name
+  desc        = TECH_AD_DESC # Localized description
+}

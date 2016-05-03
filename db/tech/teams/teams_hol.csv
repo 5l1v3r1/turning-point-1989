@@ -1,0 +1,22 @@
+HOL;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+11600;Koninklijk Militaire Academie;T11600;7;1000;2999;management;large_unit_tactics;small_unit_tactics;training;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11601;RDM Technology;T11601;7;1000;2999;artillery;industrial_engineering;munitions;technical_efficiency;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11602;Dutch Defense Vehicle Systems;T11602;7;1000;2999;mechanics;vehicle_engineering;mechanics;electronics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11603;Stork Aerospace;T11603;7;1000;2999;aeronautics;technical_efficiency;avionics;fighter_design;bomber_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11604;AIVD;T11604;7;1000;2999;mathematics;individual_courage;munitions;small_unit_tactics;maneuver_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11605;Philips;T11605;9;1000;2999;industrial_engineering;rocketry;electronics;chemistry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11606;EADS Netherlands;T11606;7;1000;2999;management;electronics;chemistry;technical_efficiency;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11607;Thales Nederland;T11607;7;1000;2999;management;chemistry;industrial_engineering;vehicle_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11608;Koninklijke Landmacht;T11608;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;small_unit_tactics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11609;Koninklijke Luchtmacht;T11609;7;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11610;Damen Shipyards Group;T11610;7;1000;2999;naval_artillery;seamanship;small_taskforce_tactics;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11611;Koninklijke Marine;T11611;7;1000;2999;naval_training;submarine_tactics;large_taskforce_tactics;marine_training;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11612;Royal Dutch Shell;T11612;9;1970;2999;industrial_engineering;chemistry;industrial_engineering;management;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11613;DAF;T11613;8;1970;2999;mechanics;vehicle_engineering;electronics;training;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11614;TNO Defence;T11614;7;1970;2999;artillery;general_equipment;vehicle_engineering;technical_efficiency;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11615;Korps Mariniers;T11615;7;1970;2999;decentralized_execution;marine_training;small_taskforce_tactics;small_unit_tactics;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11616;DSM;T11616;6;1970;2999;chemistry;industrial_engineering;technical_efficiency;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11617;Spyker Cars;T11617;6;1970;2999;mechanics;electronics;vehicle_engineering;general_equipment;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11618;KLM;T11618;7;1970;2999;aeronautics;avionics;piloting;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11619;Vlissingen Shipyards;T11619;6;1970;2999;naval_artillery;naval_training;naval_engineering;seamanship;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11620;Essent;T11620;7;1970;2999;electronics;technical_efficiency;management;training;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

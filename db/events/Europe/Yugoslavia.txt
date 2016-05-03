@@ -1,0 +1,3886 @@
+#########################################################################
+#  A New Prime Minister
+#########################################################################
+event = {
+	id = 6001000
+	random = no
+	country = YUG
+	
+	name = "yug_hog_1"
+	desc = "yug_hog_1_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 14 month = may year = 1986 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = 3 }
+		command = { type = headofgovernment which = 100032 }
+		command = { type = sleepminister which = 100002 }
+	}
+}
+#########################################################################
+#  Workers Strike!
+#########################################################################
+event = {
+	id = 6001001
+	random = no
+	country = YUG
+	
+	name = "branko_1"
+	desc = "branko_1_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = march year = 1987 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 6 }
+	}
+}
+#########################################################################
+#  Calls for resignation!
+#########################################################################
+event = {
+	id = 6001002
+	random = no
+	country = YUG
+	
+	name = "branko_2"
+	desc = "branko_2_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 1 month = june year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 9 }
+	}
+}
+#########################################################################
+#  Mikulic resigns!
+#########################################################################
+event = {
+	id = 6001003
+	random = no
+	country = YUG
+	
+	name = "branko_3"
+	desc = "branko_3_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 29 month = december year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -3 }
+		command = { type = headofgovernment which = 100033 }
+		command = { type = sleepminister which = 100032 }
+	}
+}
+#########################################################################
+#  North-South Differences
+#########################################################################
+event = {
+	id = 6000001
+	random = no
+	country = YUG
+	
+	name = "yug_1"
+	desc = "yug_1_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  Divided We Stand, United We Fall?
+#########################################################################
+event = {
+	id = 6000002
+	random = no
+	country = YUG
+	
+	trigger = { event = 6000001 } #North-South Differences
+	
+	name = "yug_2"
+	desc = "yug_2_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 180
+	
+	action = {
+		name = "ACTION_NAME_YUG_CENTRALIZE"
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = free_money value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_DECENTRALIZE"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = sleepevent which = 6000003 }
+	}
+}
+#########################################################################
+#  The North Republics Suffers
+#########################################################################
+event = {
+	id = 6000003
+	random = no
+	country = YUG
+	
+	trigger = { event = 6000002 } #Divided We Stand, United We Fall?
+	
+	name = "yug_3"
+	desc = "yug_3_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 360
+	
+	action = {
+		name = "ACTION_NAME_YUG_CENTRALIZE"
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = industrial_modifier which = total value = -5 }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_DECENTRALIZE"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = free_money value = -5 }
+	}
+}
+#########################################################################
+#  Memorandum of the Serbian Academy of Sciences and Arts
+#########################################################################
+event = {
+	id = 6000004
+	random = no
+	country = YUG
+	
+	name = "sanu_memorandum"
+	desc = "sanu_memorandum_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = september year = 1986 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_DENOUNCE"
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_SUPPORT"
+		command = { type = dissent value = 10 }
+		command = { type = domestic which = democratic value = -1 }
+	}
+}
+#########################################################################
+#  Rise of Milosevic
+#########################################################################
+event = {
+	id = 6000005
+	random = no
+	country = YUG
+	
+	name = "rise_of_milosevic"
+	desc = "rise_of_milosevic_desc"
+	style = 1
+	picture = "milosevic"
+	
+	date = { day = 23 month = april year = 1987 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_YUG_PROTECT_SERBIANS"
+		command = { type = dissent value = 10 }
+		#Remove cores temporarily
+		#Slovenia
+		command = { type = removecore which = 380 where = -1 }
+		command = { type = removecore which = 459 where = -1 }
+		command = { type = removecore which = 2326 where = -1 }
+		command = { type = removecore which = 2289 where = -1 }
+		command = { type = removecore which = 6560 where = -1 }
+		command = { type = removecore which = 7124 where = -1 }
+		command = { type = removecore which = 7122 where = -1 }
+		command = { type = removecore which = 3357 where = -1 }
+		command = { type = removecore which = 2325 where = -1 } #Claim
+		command = { type = removecore which = 3359 where = -1 } #Claim
+		command = { type = removecore which = 3375 where = -1 } #Claim
+		command = { type = removecore which = 7125 where = -1 } #Claim
+		#Croatia
+		command = { type = removecore which = 6561 where = -1 }
+		command = { type = removecore which = 382 where = -1 }
+		command = { type = removecore which = 455 where = -1 }
+		command = { type = removecore which = 291 where = -1 }
+		command = { type = removecore which = 3360 where = -1 }
+		command = { type = removecore which = 3362 where = -1 }
+		command = { type = removecore which = 454 where = -1 }
+		command = { type = removecore which = 3365 where = -1 }
+		command = { type = removecore which = 3364 where = -1 }
+		command = { type = removecore which = 3363 where = -1 }
+		command = { type = removecore which = 381 where = -1 }
+		command = { type = removecore which = 7937 where = -1 }
+		command = { type = removecore which = 6559 where = -1 }
+		command = { type = removecore which = 3366 where = -1 }
+		command = { type = removecore which = 384 where = -1 }
+		command = { type = removecore which = 6558 where = -1 }
+		command = { type = removecore which = 3358 where = -1 }
+		command = { type = removecore which = 388 where = -1 }
+		command = { type = removecore which = 3361 where = -1 } #Claim
+		command = { type = removecore which = 1893 where = -1 } #Claim
+		#Bosnia
+		command = { type = removecore which = 1891 where = -1 }
+		command = { type = removecore which = 383 where = -1 }
+		command = { type = removecore which = 3367 where = -1 }
+		command = { type = removecore which = 386 where = -1 }
+		command = { type = removecore which = 1892 where = -1 }
+		command = { type = removecore which = 6534 where = -1 }
+		command = { type = removecore which = 7267 where = -1 }
+		command = { type = removecore which = 385 where = -1 }
+		command = { type = removecore which = 6535 where = -1 }
+		command = { type = removecore which = 3368 where = -1 } #Claim
+		command = { type = removecore which = 6536 where = -1 } #Claim        
+		command = { type = removecore which = 387 where = -1 }  #Claim
+		command = { type = removecore which = 6538 where = -1 } #Claim
+		command = { type = removecore which = 2607 where = -1 } #Claim
+		command = { type = removecore which = 6537 where = -1 } #Claim
+		#Montenegro
+		command = { type = removecore which = 3373 where = -1 }
+		command = { type = removecore which = 7315 where = -1 }
+		command = { type = removecore which = 389 where = -1 }
+		command = { type = removecore which = 5464 where = -1 }
+		command = { type = removecore which = 2608 where = -1 }
+		command = { type = removecore which = 7269 where = -1 }
+		#Kosovo
+		command = { type = removecore which = 6562 where = -1 }
+		command = { type = removecore which = 415 where = -1 }         
+		command = { type = removecore which = 3372 where = -1 }
+		command = { type = removecore which = 2609 where = -1 }
+		#Vojvodina
+		command = { type = removecore which = 1897 where = -1 }
+		command = { type = removecore which = 3370 where = -1 }
+		command = { type = removecore which = 494 where = -1 }
+		command = { type = removecore which = 3369 where = -1 }
+		command = { type = removecore which = 493 where = -1 }
+		#Macedonia
+		command = { type = removecore which = 1169 where = -1 }
+		command = { type = removecore which = 3374 where = -1 }
+		command = { type = removecore which = 6505 where = -1 }
+		command = { type = removecore which = 414 where = -1 }
+		command = { type = removecore which = 3397 where = -1 }         
+		command = { type = removecore which = 413 where = -1 }
+		#Grant independences while keeping in the "federation"
+		command = { type = independence which = SLV value = 1 } #Slovenia
+		command = { type = make_puppet which = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -3 where = SLV }
+		command = { type = switch_allegiance which = -3 where = SLV }
+		command = { type = independence which = BOS value = 1 } #Bosnia
+		command = { type = make_puppet which = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = independence which = CRO value = 1 } #Croatia
+		command = { type = make_puppet which = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		#command = { type = switch_allegiance which = -3 where = CRO }
+		#command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = independence which = SIB value = 1 } #Kosovo
+		command = { type = make_puppet which = SIB }
+		command = { type = switch_allegiance which = -1 where = SIB }
+		command = { type = switch_allegiance which = -1 where = SIB }
+		command = { type = independence which = SIK value = 1 } #Vojvodina
+		command = { type = make_puppet which = SIK } 
+		command = { type = switch_allegiance which = -1 where = SIK }
+		command = { type = switch_allegiance which = -1 where = SIK }
+		command = { type = switch_allegiance which = -1 where = SIK }
+		command = { type = independence which = OTT value = 1 } #Macedonia
+		command = { type = make_puppet which = OTT } 
+		command = { type = switch_allegiance which = -1 where = OTT }
+		command = { type = switch_allegiance which = -1 where = OTT }
+		command = { type = independence which = MTN value = 1 } #Montenegro
+		command = { type = make_puppet which = MTN } 	
+		command = { type = switch_allegiance which = -1 where = MTN }
+		command = { type = switch_allegiance which = -1 where = MTN }
+		command = { type = switch_allegiance which = -2 where = MTN }
+		command = { type = switch_allegiance which = -2 where = MTN }
+		command = { type = setflag which = milosevic }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_BROTHERHOOD"
+		command = { type = dissent value = 5 }
+		command = { type = capital which = 380 }
+		command = { type = removecore which = 1895 where = -1 }
+		command = { type = removecore which = 453 where = -1 }
+		command = { type = removecore which = 7268 where = -1 }
+		command = { type = removecore which = 6557 where = -1 }
+		command = { type = removecore which = 1057 where = -1 }
+		command = { type = removecore which = 452 where = -1 }
+		command = { type = removecore which = 3371 where = -1 }
+		command = { type = removecore which = 451 where = -1 }
+		command = { type = removecore which = 7271 where = -1 }
+		command = { type = removecore which = 1896 where = -1 }
+		command = { type = removecore which = 1168 where = -1 }
+		command = { type = removecore which = 6564 where = -1 }
+		command = { type = removecore which = 3393 where = -1 }
+		command = { type = removecore which = 6563 where = -1 }
+		command = { type = removecore which = 1894 where = -1 }
+		command = { type = removecore which = 7270 where = -1 }
+		command = { type = independence which = SER value = 1 }
+		command = { type = make_puppet which = SER }
+		command = { type = switch_allegiance which = -1 where = SER }
+		command = { type = switch_allegiance which = -1 where = SER }
+		command = { type = switch_allegiance which = -1 where = SER }
+		command = { type = switch_allegiance which = -1 where = SER }
+		command = { type = switch_allegiance which = -1 where = SER }
+		command = { type = switch_allegiance which = -1 where = SER }
+		command = { type = switch_allegiance which = -3 where = SER }
+		command = { type = switch_allegiance which = -3 where = SER }
+		command = { type = switch_allegiance which = -3 where = SER }
+		command = { type = switch_allegiance which = -3 where = SER }
+		command = { type = switch_allegiance which = -3 where = SER }
+		command = { type = switch_allegiance which = -3 where = SER }
+		command = { type = switch_allegiance which = -3 where = SER }
+		command = { type = switch_allegiance which = -3 where = SER }
+		command = { type = trigger which = 6000006 }
+		command = { type = setflag which = brotherhood_unity }
+	}
+}
+#Secede capital
+event = {
+	id = 6000006
+	random = no
+	TAG = { YUG SER }
+	
+	name = "rise_of_milosevic"
+	desc = "rise_of_milosevic_desc"
+	style = 1
+	picture = "milosevic"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { country = YUG }
+		command = { type = secedeprovince which = SER value = 453 when = 0 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { country = SER }
+		command = { type = capital value = 453 }
+	}
+}
+#########################################################################
+#  The Anti-Bureaucratic Revolution
+#########################################################################
+event = {
+	id = 6000007
+	random = no
+	country = YUG
+	
+	name = "anti-bureaucratic_revolution"
+	desc = "anti-bureaucratic_revolution_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = october year = 1987 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 90
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 6000008 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 10 }
+		command = { type = trigger which = 6000008 }
+	}
+}
+event = {
+	id = 6000008
+	random = no
+	TAG = { MTN SIK SIB SER }
+	persistent = yes
+	all = yes
+	
+	name = "anti-bureaucratic_revolution"
+	desc = "anti-bureaucratic_revolution_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { NOT = { country = SER } }
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { country = SER }
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  The Yogurt Revolution
+#########################################################################
+#Vojvodina is human
+event = {
+	id = 6000009
+	random = no
+	country = SIK
+	
+	trigger = { ai = no }
+	
+	name = "yogurt_revolution"
+	desc = "yogurt_revolution_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 4 month = october year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		command = { type = dissent value = 10 }
+		command = { type = trigger which = 6000010 }
+	}
+}
+#Vojvodina is not the player
+event = {
+	id = 6000010
+	random = no
+	country = YUG
+	
+	trigger = { NOT = { event = 6000009 } }
+	
+	name = "yogurt_revolution"
+	desc = "yogurt_revolution_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 4 month = october year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = -5 }
+		command = { type = inherit which = SIK value = 1 }
+		command = { type = sleepevent which = 6000009 }
+		command = { type = sleepevent which = 6000011 }
+		command = { type = sleepevent which = 6100006 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 10 }
+		command = { type = sleepevent which = 6000009 }
+		command = { type = trigger which = 6000011 }
+		command = { type = secedeprovince which = SER value = 1897 when = 0 }    
+		command = { type = secedeprovince which = SER value = 3370 when = 0 }
+		command = { type = secedeprovince which = SER value = 494 when = 0 }
+		command = { type = secedeprovince which = SER value = 3369 when = 0 }
+		command = { type = secedeprovince which = SER value = 493 when = 0 }
+	}
+}
+#########################################################################
+#  Montenegro's Rallies of Truth
+#########################################################################
+event = {
+	id = 6000011
+	random = no
+	country = YUG
+	
+	trigger = { NOT = { exists = MTN } }
+	
+	name = "montenegro_rallies_of_truth"
+	desc = "montenegro_rallies_of_truth_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 6 month = october year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = 10 }
+		#command = { type = event which = 6000014 where = -1 when = 65 }
+	}
+}
+event = {
+	id = 6000012
+	random = no
+	country = MTN
+	
+	trigger = { NOT = { event = 6000011 } }
+	
+	name = "montenegro_rallies_of_truth"
+	desc = "montenegro_rallies_of_truth_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 6 month = october year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_STATE_OF_EMERGENCY"
+		ai_chance = 99
+		command = { type = dissent value = 10 }
+		command = { type = trigger which = 6000013 }
+	}
+	action = {
+		name = "ACTION_NAME_CLING"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = trigger which = 6000013 }
+		command = { type = trigger which = 6000015 }
+		command = { type = sleepevent which = 6000014 }
+		command = { type = end_puppet }
+		command = { trigger = { exists = SER } type = end_access which = SER }
+		command = { trigger = { flag = milosevic } type = end_access which = YUG }
+		command = { trigger = { exists = SER } type = end_non_aggression which = MTN where = SER }
+		command = { trigger = { flag = milosevic } type = end_non_aggression which = MTN where = YUG }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_SUPPORT_MILOSEVIC"
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = setflag which = mtn_support_milosevic }
+		command = { type = trigger which = 6000013 }
+		command = { type = sleepevent which = 6000014 }
+	}
+}
+event = {
+	id = 6000013
+	random = no
+	TAG = { YUG SER }
+	persistent = yes
+	all = yes
+	
+	name = "montenegro_rallies_of_truth"
+	desc = "montenegro_rallies_of_truth_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = -5 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { country = SER NOT = { flag = mtn_support_milosevic } }
+		command = { type = dissent value = -5 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { flag = milosevic flag = mtn_support_milosevic }
+		command = { type = dissent value = -5 }
+		command = { type = make_puppet which = MTN }
+		command = { type = sleepevent which = 6000015 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { country = SER flag = mtn_support_milosevic }
+		command = { type = dissent value = -5 }
+		command = { type = make_puppet which = MTN }
+		command = { type = sleepevent which = 6000015 }
+	}
+}
+#########################################################################
+#  Montenegro's State of Emergency
+#########################################################################
+event = {
+	id = 6000014
+	random = no
+	country = YUG
+	
+	trigger = { 
+		NOT = { flag = mtn_support_milosevic } 
+	}
+	
+	name = "montenegro_state_of_emergency"
+	desc = "montenegro_state_of_emergency_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 9 month = january year = 1989 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = -5 }
+		command = { type = make_puppet which = MTN }
+		command = { type = sleepevent which = 6000015 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 10 }
+		command = { type = secedeprovince which = SER value = 389 when = 0 }    
+		command = { type = secedeprovince which = SER value = 3373 when = 0 }
+		command = { type = secedeprovince which = SER value = 2608 when = 0 }
+		command = { type = secedeprovince which = SER value = 5464 when = 0 }
+		command = { type = secedeprovince which = SER value = 7269 when = 0 }     
+		command = { type = secedeprovince which = SER value = 7315 when = 0 }
+	}
+}
+#########################################################################
+#  Montenegro resists!
+#########################################################################
+event = {
+	id = 6000015
+	random = no
+	TAG = { YUG SER }
+	persistent = yes
+	all = yes
+	
+	name = "montenegro_resists"
+	desc = "montenegro_resists_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_WAR"
+		trigger = { flag = milosevic }
+		command = { type = war which = MTN }
+	}
+	action = {
+		name = "ACTION_NAME_BACK_DOWN"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		name = "ACTION_NAME_WAR"
+		trigger = { country = SER }
+		command = { type = war which = MTN }
+	}
+	action = {
+		name = "ACTION_NAME_BACK_DOWN"
+		trigger = { country = SER }
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  Toppling of Kosovar Leadership
+#########################################################################
+event = {
+	id = 6000016
+	random = no
+	country = YUG
+	
+	trigger = { NOT = { exists = SIB } }
+	
+	name = "kosovo_falls"
+	desc = "kosovo_falls_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = november year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 10 }
+		command = { type = secedeprovince which = SER value = 6562 when = 0 }    
+		command = { type = secedeprovince which = SER value = 415 when = 0 }
+		command = { type = secedeprovince which = SER value = 3372 when = 0 }
+		command = { type = secedeprovince which = SER value = 2609 when = 0 }
+	}
+}
+event = {
+	id = 6000017
+	random = no
+	country = SIB
+	
+	name = "kosovo_falls"
+	desc = "kosovo_falls_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = november year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_NOT_MUCH_WE_CAN_DO"
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = setflag which = kosovo_falls }
+		command = { type = trigger which = 6000018 }
+		command = { type = sleepevent which = 6000019 }
+		command = { type = sleepevent which = 6100005 }
+	}
+	action = {
+		name = "ACTION_NAME_CLING"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = trigger which = 6000018 }
+		command = { type = trigger which = 6000019 }
+		command = { type = end_puppet }
+		command = { trigger = { exists = SER } type = end_access which = SER }
+		command = { trigger = { flag = milosevic } type = end_access which = YUG }
+		command = { trigger = { exists = SER } type = end_non_aggression which = SIB where = SER }
+		command = { trigger = { flag = milosevic } type = end_non_aggression which = SIB where = YUG }
+	}
+}
+event = {
+	id = 6000018
+	random = no
+	TAG = { YUG SER }
+	persistent = yes
+	all = yes
+	
+	name = "kosovo_falls"
+	desc = "kosovo_falls_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { flag = milosevic flag = kosovo_falls }
+		command = { type = dissent value = -5 }
+		command = { type = inherit which = SIB value = 1 }
+	}
+	action = {
+		name = "ACTION_NAME_THEY_REFUSED"
+		trigger = { flag = milosevic NOT = { flag = kosovo_falls } }
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { country = SER flag = kosovo_falls }
+		command = { type = dissent value = -5 }
+		command = { type = inherit which = SIB value = 1 }
+	}
+	action = {
+		name = "ACTION_NAME_THEY_REFUSED"
+		trigger = { country = SER NOT = { flag = kosovo_falls } }
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Kosovo resists!
+#########################################################################
+event = {
+	id = 6000019
+	random = no
+	TAG = { YUG SER }
+	persistent = yes
+	all = yes
+	
+	name = "kosovo_resists"
+	desc = "kosovo_resists_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_WAR"
+		trigger = { flag = milosevic }
+		command = { type = war which = SIB }
+	}
+	action = {
+		name = "ACTION_NAME_BACK_DOWN"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		name = "ACTION_NAME_WAR"
+		trigger = { country = SER }
+		command = { type = war which = SIB }
+	}
+	action = {
+		name = "ACTION_NAME_BACK_DOWN"
+		trigger = { country = SER }
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Kosovo Miners' Strike
+#########################################################################
+event = {
+	id = 6000020
+	random = no
+	TAG = { YUG SER }
+	
+	trigger = { 
+		NOT = { exists = SIB }
+		event = 6000017 #Toppling of Kosovar Leadership
+	}
+	
+	name = "kosovo_miners_strike"
+	desc = "kosovo_miners_strike_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 19 month = february year = 1989 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_YAY"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = -5 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { country = SER }
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  The Gazimestan Speech
+#########################################################################
+event = {
+	id = 6000021
+	random = no
+	TAG = { YUG SER }
+	
+	name = "gazimestan_speech"
+	desc = "gazimestan_speech_desc"
+	style = 1
+	picture = "gazimestan_speech"
+	
+	date = { day = 27 month = june year = 1989 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_HURRAH"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = -5 }
+	}
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_HURRAH"
+		trigger = { country = SER }
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  Action North
+#########################################################################
+event = {
+	id = 6000022
+	random = no
+	TAG = { YUG SER }
+	
+	name = "action_north"
+	desc = "action_north_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1989 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 360
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 5 }
+		command = { type = trigger which = 6000023 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = -5 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { country = SER }
+		command = { type = dissent value = 5 }
+		command = { type = trigger which = 6000023 }
+	}
+}
+event = {
+	id = 6000023
+	random = no
+	TAG = { SLV CRO }
+	persistent = yes
+	all = yes
+	
+	name = "action_north"
+	desc = "action_north_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -5 }
+		command = { type = end_puppet }
+	}
+}
+#########################################################################
+#  Party Crisis
+#########################################################################
+event = {
+	id = 6000024
+	random = no
+	TAG = { YUG SER }
+	
+	name = "party_crisis"
+	desc = "party_crisis_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 22 month = january year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 5 }
+		command = { type = trigger which = 6000025 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { country = SER }
+		command = { type = dissent value = 5 }
+		command = { type = trigger which = 6000025 }
+	}
+}
+event = {
+	id = 6000025
+	random = no
+	TAG = { SLV CRO BOS OTT MTN SIB SIK }
+	persistent = yes
+	all = yes
+	
+	name = "party_crisis"
+	desc = "party_crisis_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Multi-Party Elections
+#########################################################################
+#Slovenia
+event = {
+	id = 6000026
+	random = no
+	TAG = { YUG SLV }
+	one_action = yes
+	
+	name = "multy-party_elections_1"
+	desc = "multy-party_elections_1_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 7 month = april year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_democrat
+			country = YUG
+		}
+		ai_chance = 10
+		command = { type = dissent value = 25 }
+		command = { type = setflag which = slv_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_liberal
+			country = YUG
+		}
+		ai_chance = 30
+		command = { type = dissent value = 20 }
+		command = { type = setflag which = slv_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = left_wing_radical
+			country = YUG
+		}
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = setflag which = slv_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = leninist
+			country = YUG
+		}
+		ai_chance = 50
+		command = { type = dissent value = 15 }
+		command = { type = setflag which = slv_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = stalinist
+			country = YUG
+		}
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = setflag which = slv_com }
+	}
+	#
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_democrat
+			country = YUG
+		}
+		ai_chance = 70
+		command = { type = dissent value = 3 }
+		command = { type = independence which = SLV value = 1 } #Slovenia
+		command = { type = make_puppet which = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_liberal
+			country = YUG
+		}
+		ai_chance = 99
+		command = { type = dissent value = 6 }
+		command = { type = independence which = SLV value = 1 } #Slovenia
+		command = { type = make_puppet which = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = left_wing_radical
+			country = YUG
+		}
+		ai_chance = 50
+		command = { type = dissent value = 9 }
+		command = { type = independence which = SLV value = 1 } #Slovenia
+		command = { type = make_puppet which = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = leninist
+			country = YUG
+		}
+		ai_chance = 10
+		command = { type = dissent value = 12 }
+		command = { type = independence which = SLV value = 1 } #Slovenia
+		command = { type = make_puppet which = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = stalinist
+			country = YUG
+		}
+		ai_chance = 1
+		command = { type = dissent value = 15 }
+		command = { type = independence which = SLV value = 1 } #Slovenia
+		command = { type = make_puppet which = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+		command = { type = switch_allegiance which = -1 where = SLV }
+	}
+	#
+	action = {
+		name = "ACTION_NAME_ELECT_COMMUNIST"
+		trigger = { country = SLV }
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = set_domestic which = democratic value = 3 }
+		command = { type = set_domestic which = political_left value = 10 }
+		command = { type = set_domestic which = freedom value = 3 }
+		command = { type = set_domestic which = free_market value = 3 }
+		command = { type = setflag which = slv_com }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_NATIONALIST"
+		trigger = { country = SLV }
+		ai_chance = 99
+		command = { type = dissent value = -10 }
+		command = { type = set_domestic which = democratic value = 7 }
+		command = { type = set_domestic which = political_left value = 5 }
+		command = { type = set_domestic which = freedom value = 7 }
+		command = { type = set_domestic which = free_market value = 6 }
+	}
+}
+#Croatia
+event = {
+	id = 6000027
+	random = no
+	TAG = { YUG CRO }
+	one_action = yes
+	
+	name = "multy-party_elections_2"
+	desc = "multy-party_elections_2_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = may year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_democrat
+			country = YUG
+		}
+		ai_chance = 10
+		command = { type = dissent value = 25 }
+		command = { type = setflag which = cro_com }
+		command = { type = sleepevent which = 6000035 } #Log Revolution
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_liberal
+			country = YUG
+		}
+		ai_chance = 30
+		command = { type = dissent value = 20 }
+		command = { type = setflag which = cro_com }
+		command = { type = sleepevent which = 6000035 } #Log Revolution
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = left_wing_radical
+			country = YUG
+		}
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = setflag which = cro_com }
+		command = { type = sleepevent which = 6000035 } #Log Revolution
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = leninist
+			country = YUG
+		}
+		ai_chance = 50
+		command = { type = dissent value = 15 }
+		command = { type = setflag which = cro_com }
+		command = { type = sleepevent which = 6000035 } #Log Revolution
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = stalinist
+			country = YUG
+		}
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = setflag which = cro_com }
+		command = { type = sleepevent which = 6000035 } #Log Revolution
+	}
+	#
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_democrat
+			country = YUG
+		}
+		ai_chance = 70
+		command = { type = dissent value = 3 }
+		command = { type = independence which = CRO value = 1 } #Croatia
+		command = { type = make_puppet which = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_liberal
+			country = YUG
+		}
+		ai_chance = 99
+		command = { type = dissent value = 6 }
+		command = { type = independence which = CRO value = 1 } #Croatia
+		command = { type = make_puppet which = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = left_wing_radical
+			country = YUG
+		}
+		ai_chance = 50
+		command = { type = dissent value = 9 }
+		command = { type = independence which = CRO value = 1 } #Croatia
+		command = { type = make_puppet which = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = leninist
+			country = YUG
+		}
+		ai_chance = 10
+		command = { type = dissent value = 12 }
+		command = { type = independence which = CRO value = 1 } #Croatia
+		command = { type = make_puppet which = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = stalinist
+			country = YUG
+		}
+		ai_chance = 1
+		command = { type = dissent value = 15 }
+		command = { type = independence which = CRO value = 1 } #Croatia
+		command = { type = make_puppet which = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -1 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -2 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+		command = { type = switch_allegiance which = -3 where = CRO }
+	}
+	#
+	action = {
+		name = "ACTION_NAME_ELECT_COMMUNIST"
+		trigger = { country = CRO }
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = headofstate which = 275017 }
+		command = { type = headofgovernment which = 275002 }
+		command = { type = set_domestic which = democratic value = 3 }
+		command = { type = set_domestic which = political_left value = 10 }
+		command = { type = set_domestic which = freedom value = 3 }
+		command = { type = set_domestic which = free_market value = 3 }
+		command = { type = setflag which = cro_com }
+		command = { type = sleepevent which = 6000035 } #Log Revolution
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_NATIONALIST"
+		trigger = { country = CRO }
+		ai_chance = 99
+		command = { type = dissent value = -10 }
+		command = { type = headofstate which = 275001 }
+		command = { type = headofgovernment which = 275002 }
+		command = { type = set_domestic which = democratic value = 7 }
+		command = { type = set_domestic which = political_left value = 5 }
+		command = { type = set_domestic which = freedom value = 7 }
+		command = { type = set_domestic which = free_market value = 6 }
+	}
+}
+#Bosnia
+event = {
+	id = 6000028
+	random = no
+	TAG = { YUG BOS }
+	one_action = yes
+	
+	name = "multy-party_elections_3"
+	desc = "multy-party_elections_3_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 24 month = november year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_democrat
+			country = YUG
+		}
+		ai_chance = 10
+		command = { type = dissent value = 25 }
+		command = { type = setflag which = bos_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_liberal
+			country = YUG
+		}
+		ai_chance = 30
+		command = { type = dissent value = 20 }
+		command = { type = setflag which = bos_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = left_wing_radical
+			country = YUG
+		}
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = setflag which = bos_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = leninist
+			country = YUG
+		}
+		ai_chance = 50
+		command = { type = dissent value = 15 }
+		command = { type = setflag which = bos_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = stalinist
+			country = YUG
+		}
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = setflag which = bos_com }
+	}
+	#
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_democrat
+			country = YUG
+		}
+		ai_chance = 70
+		command = { type = dissent value = 3 }
+		command = { type = independence which = BOS value = 1 } #Bosnia
+		command = { type = make_puppet which = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_liberal
+			country = YUG
+		}
+		ai_chance = 99
+		command = { type = dissent value = 6 }
+		command = { type = independence which = BOS value = 1 } #Bosnia
+		command = { type = make_puppet which = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = left_wing_radical
+			country = YUG
+		}
+		ai_chance = 50
+		command = { type = dissent value = 9 }
+		command = { type = independence which = BOS value = 1 } #Bosnia
+		command = { type = make_puppet which = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = leninist
+			country = YUG
+		}
+		ai_chance = 10
+		command = { type = dissent value = 12 }
+		command = { type = independence which = BOS value = 1 } #Bosnia
+		command = { type = make_puppet which = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = stalinist
+			country = YUG
+		}
+		ai_chance = 1
+		command = { type = dissent value = 15 }
+		command = { type = independence which = BOS value = 1 } #Bosnia
+		command = { type = make_puppet which = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+		command = { type = switch_allegiance which = -1 where = BOS }
+	}
+	#
+	action = {
+		name = "ACTION_NAME_ELECT_COMMUNIST"
+		trigger = { country = BOS }
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = set_domestic which = democratic value = 3 }
+		command = { type = set_domestic which = political_left value = 10 }
+		command = { type = set_domestic which = freedom value = 3 }
+		command = { type = set_domestic which = free_market value = 3 }
+		command = { type = setflag which = bos_com }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_NATIONALIST"
+		trigger = { country = BOS }
+		ai_chance = 99
+		command = { type = dissent value = -10 }
+		command = { type = set_domestic which = democratic value = 7 }
+		command = { type = set_domestic which = political_left value = 5 }
+		command = { type = set_domestic which = freedom value = 7 }
+		command = { type = set_domestic which = free_market value = 6 }
+		command = { type = end_puppet }
+	}
+}
+#Macedonia
+event = {
+	id = 6000029
+	random = no
+	TAG = { YUG OTT }
+	one_action = yes
+	
+	name = "multy-party_elections_4"
+	desc = "multy-party_elections_4_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 8 month = december year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_democrat
+			country = YUG
+		}
+		ai_chance = 10
+		command = { type = dissent value = 25 }
+		command = { type = setflag which = mac_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_liberal
+			country = YUG
+		}
+		ai_chance = 30
+		command = { type = dissent value = 20 }
+		command = { type = setflag which = mac_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = left_wing_radical
+			country = YUG
+		}
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = setflag which = mac_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = leninist
+			country = YUG
+		}
+		ai_chance = 50
+		command = { type = dissent value = 15 }
+		command = { type = setflag which = mac_com }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_COMMUNIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = stalinist
+			country = YUG
+		}
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = setflag which = mac_com }
+	}
+	#
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_democrat
+			country = YUG
+		}
+		ai_chance = 70
+		command = { type = dissent value = 3 }
+		command = { type = independence which = OTT value = 1 } #Macedonia
+		command = { type = make_puppet which = OTT } 
+		command = { type = switch_allegiance which = -1 where = OTT }
+		command = { type = switch_allegiance which = -1 where = OTT }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = social_liberal
+			country = YUG
+		}
+		ai_chance = 99
+		command = { type = dissent value = 6 }
+		command = { type = independence which = OTT value = 1 } #Macedonia
+		command = { type = make_puppet which = OTT } 
+		command = { type = switch_allegiance which = -1 where = OTT }
+		command = { type = switch_allegiance which = -1 where = OTT }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = left_wing_radical
+			country = YUG
+		}
+		ai_chance = 50
+		command = { type = dissent value = 9 }
+		command = { type = independence which = OTT value = 1 } #Macedonia
+		command = { type = make_puppet which = OTT } 
+		command = { type = switch_allegiance which = -1 where = OTT }
+		command = { type = switch_allegiance which = -1 where = OTT }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = leninist
+			country = YUG
+		}
+		ai_chance = 10
+		command = { type = dissent value = 12 }
+		command = { type = independence which = OTT value = 1 } #Macedonia
+		command = { type = make_puppet which = OTT } 
+		command = { type = switch_allegiance which = -1 where = OTT }
+		command = { type = switch_allegiance which = -1 where = OTT }
+	}
+	action = {
+		name = "ACTION_NAME_YUG_NATIONALIST"
+		trigger = { 
+			flag = brotherhood_unity 
+			ideology = stalinist
+			country = YUG
+		}
+		ai_chance = 1
+		command = { type = dissent value = 15 }
+		command = { type = independence which = OTT value = 1 } #Macedonia
+		command = { type = make_puppet which = OTT } 
+		command = { type = switch_allegiance which = -1 where = OTT }
+		command = { type = switch_allegiance which = -1 where = OTT }
+	}
+	#
+	action = {
+		name = "ACTION_NAME_ELECT_COMMUNIST"
+		trigger = { country = OTT }
+		ai_chance = 1
+		command = { type = dissent value = 30 }
+		command = { type = set_domestic which = democratic value = 3 }
+		command = { type = set_domestic which = political_left value = 10 }
+		command = { type = set_domestic which = freedom value = 3 }
+		command = { type = set_domestic which = free_market value = 3 }
+		command = { type = setflag which = mac_com }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_NATIONALIST"
+		trigger = { country = OTT }
+		ai_chance = 99
+		command = { type = dissent value = -10 }
+		command = { type = set_domestic which = democratic value = 7 }
+		command = { type = set_domestic which = political_left value = 5 }
+		command = { type = set_domestic which = freedom value = 7 }
+		command = { type = set_domestic which = free_market value = 6 }
+		command = { type = end_puppet }
+	}
+}
+#########################################################################
+#  Confiscate Croatia's Weapons
+#########################################################################
+event = {
+	id = 6000030
+	random = no
+	country = YUG
+	
+	name = "yug_confiscate_weapons"
+	desc = "yug_confiscate_weapons_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 13 month = may year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_PROCEED"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = -5 }
+		command = { type = relation which = CRO value = -200 }
+		command = { type = trigger which = 6000031 }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 5 }
+		command = { type = sleepevent which = 6000031 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 10 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+	}
+}
+event = {
+	id = 6000031
+	random = no
+	country = CRO
+	
+	name = "yug_confiscate_weapons"
+	desc = "yug_confiscate_weapons_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 10 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+		command = { type = damage_division which = -1 where = 99 }
+	}
+}
+#########################################################################
+#  Croatian Independence Referendum
+#########################################################################
+event = {
+	id = 6000032
+	random = no
+	country = CRO
+	
+	trigger = { headofstate = 275001 } #Franjo Tudman
+	
+	name = "cro_independence_referendum"
+	desc = "cro_independence_referendum_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = may year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_WILL_PEOPLE"
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  Flag Change
+#########################################################################
+event = {
+	id = 6000033
+	random = no
+	country = CRO
+	
+	trigger = { event = 6000032 }
+	
+	name = "cro_flagchange"
+	desc = "cro_flagchange_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = may year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_PROCEED"
+		command = { type = dissent value = -5 }
+		command = { type = relation which = YUG value = -100 }
+		command = { type = flag_ext where = -1 which = "_IND" }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  Transition to Independence
+#########################################################################
+event = {
+	id = 6000034
+	random = no
+	country = CRO
+	
+	trigger = { event = 6000032 }
+	
+	name = "cro_transition_independence"
+	desc = "cro_transition_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = july year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_PROCEED"
+		command = { type = dissent value = -5 }
+		command = { type = relation which = YUG value = -100 }
+		command = { type = name where = -1 which = TAG_CRO }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 30 }
+	}
+}
+#########################################################################
+#  The Log Revolution
+#########################################################################
+#Arm Croatian Serbs
+event = {
+	id = 6000035
+	random = no
+	TAG = { YUG SER }
+	
+	trigger = { event = 6000032 } #Croatian Independence Referendum
+	
+	name = "log_revolution"
+	desc = "log_revolution_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = july year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_PROCEED"
+		command = { type = dissent value = -5 }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 10 }
+		command = { type = name where = TRA which = TAG_TRA_SER }
+		command = { type = sleepevent which = 6000036 }
+	}
+}
+#Send Special Forces
+event = {
+	id = 6000036
+	random = no
+	country = CRO
+	
+	trigger = { event = 6000035 }
+	
+	name = "log_revolution_1-2"
+	desc = "log_revolution_1-2_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = august year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_SPEC_OPS"
+		command = { type = trigger which = 6000037 }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 10 }
+		command = { type = independence which = TRA value = 1 } #SAO Krajina
+	}
+}
+#Send Airforce
+event = {
+	id = 6000037
+	random = no
+	country = YUG
+	
+	name = "log_revolution_1-2-yug"
+	desc = "log_revolution_1-2_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_AIR_FORCE"
+		command = { type = trigger which = 6000038 }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 10 }
+		command = { type = name where = TRA which = TAG_TRA_SER }
+		command = { type = sleepevent which = 6000038 }
+	}
+}
+#Independence of Serbia Krajina
+event = {
+	id = 6000038
+	random = no
+	TAG = { CRO YUG }
+	persistent = yes
+	all = yes
+	
+	name = "log_revolution_2"
+	desc = "log_revolution_2_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_NOT_MUCH_WE_CAN_DO"
+		ai_chance = 99
+		trigger = { country = CRO }
+		command = { type = dissent value = 10 }
+		command = { type = independence which = TRA value = 1 } #SAO Krajina
+	}
+	action = {
+		name = "ACTION_NAME_FIGHT"
+		ai_chance = 1
+		trigger = { country = CRO }
+		command = { type = dissent value = -5 }
+		command = { type = independence which = TRA value = 1 } #SAO Krajina
+		command = { type = war which = TRA }
+		command = { type = war which = YUG }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"										###### Create another event in case Croatia chooses to fight?
+		trigger = { country = YUG }
+		command = { type = dissent value = -5 }
+		command = { type = make_puppet which = TRA } #SAO Krajina
+	}
+}
+#########################################################################
+#  Slovenian Independence Referendum
+#########################################################################
+event = {
+	id = 6000039
+	random = no
+	country = SLV
+	
+	trigger = { NOT = { flag = slv_com } }
+	
+	name = "slv_independence_referendum"
+	desc = "slv_independence_referendum_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 22 month = december year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_WILL_PEOPLE"
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  Reform Federation
+#########################################################################
+event = {
+	id = 6000040
+	random = no
+	country = YUG
+	
+	trigger = {
+		event = 6000026
+		event = 6000027
+		event = 6000028
+		event = 6000029
+	}
+	
+	name = "yug_reform_federation"
+	desc = "yug_reform_federation_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = september year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { flag = milosevic }
+		ai_chance = 99
+		command = { type = dissent value = 20 }
+		command = { type = sleepevent which = 6000042 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { flag = milosevic }
+		ai_chance = 1
+		command = { type = dissent value = -20 }
+		command = { type = setflag which = yug_reform_federation }
+		command = { type = inherit which = SER value = 1 }
+		command = { type = inherit which = MTN value = 1 }
+		command = { type = inherit which = SIK value = 1 }
+		command = { type = inherit which = SIB value = 1 }
+		command = { type = sleepevent which = 6000042 }
+	}
+}
+event = {
+	id = 6000041
+	random = no
+	country = SER
+	
+	trigger = {
+		event = 6000026
+		event = 6000027
+		event = 6000028
+		event = 6000029
+	}
+	
+	name = "yug_reform_federation"
+	desc = "yug_reform_federation_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = september year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { flag = brotherhood_unity }
+		ai_chance = 99
+		command = { type = dissent value = 20 }
+		command = { type = trigger which = 6000042 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { flag = brotherhood_unity }
+		ai_chance = 1
+		command = { type = dissent value = -20 }
+		command = { type = setflag which = yug_reform_federation }
+		command = { type = trigger which = 6000042 }
+	}
+}
+event = {
+	id = 6000042
+	random = no
+	country = YUG
+	
+	name = "yug_reform_federation"
+	desc = "yug_reform_federation_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_THEY_REFUSED"
+		trigger = { NOT = { flag = yug_reform_federation } }
+		command = { type = dissent value = 20 }
+	}
+	action = {
+		name = "ACTION_NAME_THEY_ACCEPTED"
+		trigger = { flag = yug_reform_federation }
+		command = { type = dissent value = -20 }
+		command = { type = inherit which = SER value = 1 }
+		command = { type = inherit which = MTN value = 1 }
+		command = { type = inherit which = SIK value = 1 }
+		command = { type = inherit which = SIB value = 1 }
+	}
+}
+#########################################################################
+#  Smuggle Weapons to Croatia
+#########################################################################
+event = {
+	id = 6000043
+	random = no
+	TAG = { YUG CRO }
+	
+	trigger = { 
+		OR = {
+			AND = {
+				country = CRO
+				event = 6000031 
+			}
+			AND = {
+				country = YUG
+				flag = brotherhood_unity
+				event = 6000030 
+			}
+		}
+	}
+	
+	name = "cro_smuggle_weapons"
+	desc = "cro_smuggle_weapons_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = june year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_PROCEED"
+		command = { type = dissent value = -5 }
+		command = { trigger = { country = CRO } type = relation which = YUG value = -100 }
+		command = { trigger = { country = YUG } type = relation which = SER value = -100 }
+		command = { type = money value = -2000 }
+		command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 1.0  }
+		command = { type = manpowerpool value = -60 }
+		command = { type = add_division which = "Croatian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Infantry" value = infantry when = 6 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+		#command = { type = damage_division which = -1 where = -99 }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Spegelj Tapes
+#########################################################################
+event = {
+	id = 6000044
+	random = no
+	TAG = { YUG CRO }
+	
+	trigger = { 
+		OR = {
+			AND = {
+				country = CRO
+				event = 6000043 
+			}
+			AND = {
+				country = YUG
+				flag = brotherhood_unity
+				event = 6000043 
+			}
+		}
+	}
+	
+	name = "cro_spegelj_tapes"
+	desc = "cro_spegelj_tapes_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 10 }
+		command = { trigger = { country = CRO } type = relation which = YUG value = -100 }
+		command = { trigger = { country = YUG } type = relation which = SER value = -100 }
+	}
+}
+#########################################################################
+#  Declare State of Emergency
+#########################################################################
+event = {
+	id = 6000045
+	random = no
+	country = YUG
+	
+	trigger = {
+		event = 6000026
+		event = 6000027
+		event = 6000028
+		event = 6000029
+	}
+	
+	name = "yug_state_of_emergency"
+	desc = "yug_state_of_emergency_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 11 month = march year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 5 }
+		command = { type = sleepevent which = 6000046 }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = 5 }
+		command = { type = sleepevent which = 6000046 }
+	}
+	action = {
+		name = "ACTION_NAME_STATE_OF_EMERGENCY"
+		trigger = { OR = { flag = cro_com flag = slv_com flag = bos_com flag = mac_com } }
+		command = { type = dissent value = -5 }
+		command = { trigger = { NOT = { flag = cro_com } } type = end_mastery which = CRO }
+		command = { trigger = { NOT = { flag = cro_com } } type = end_access which = CRO }
+		command = { trigger = { NOT = { flag = cro_com } } type = end_non_aggression which = -1 where = CRO }
+		command = { trigger = { NOT = { flag = cro_com } } type = end_guarantee which = -1 where = CRO }
+		command = { trigger = { NOT = { flag = slv_com } } type = end_mastery which = SLV }
+		command = { trigger = { NOT = { flag = slv_com } } type = end_access which = SLV }
+		command = { trigger = { NOT = { flag = slv_com } } type = end_non_aggression which = -1 where = SLV }
+		command = { trigger = { NOT = { flag = slv_com } } type = end_guarantee which = -1 where = SLV }
+		command = { trigger = { NOT = { flag = bos_com } } type = end_mastery which = BOS }
+		command = { trigger = { NOT = { flag = bos_com } } type = end_access which = BOS }
+		command = { trigger = { NOT = { flag = bos_com } } type = end_non_aggression which = -1 where = BOS }
+		command = { trigger = { NOT = { flag = bos_com } } type = end_guarantee which = -1 where = BOS }
+		command = { trigger = { NOT = { flag = mac_com } } type = end_mastery which = OTT }
+		command = { trigger = { NOT = { flag = mac_com } } type = end_access which = OTT }
+		command = { trigger = { NOT = { flag = mac_com } } type = end_non_aggression which = -1 where = OTT }
+		command = { trigger = { NOT = { flag = mac_com } } type = end_guarantee which = -1 where = OTT }
+		command = { trigger = { flag = cro_com } type = inherit which = CRO value = 1 }
+		command = { trigger = { flag = slv_com } type = inherit which = SLV value = 1 }
+		command = { trigger = { flag = bos_com } type = inherit which = BOS value = 1 }
+		command = { trigger = { flag = mac_com } type = inherit which = OTT value = 1 }
+		command = { type = trigger which = 6000046 }
+	}
+}
+#State of Emergency declared
+event = {
+	id = 6000046
+	random = no
+	TAG = { CRO SLV BOS OTT }
+	
+	name = "yug_state_of_emergency"
+	desc = "yug_state_of_emergency_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		command = { type = dissent value = 10 }
+		command = { type = war which = YUG }
+	}
+}
+#########################################################################
+#  The Pakrac Clash
+#########################################################################
+event = {
+	id = 6000047
+	random = no
+	TAG = { YUG CRO }
+	
+	trigger = { 
+		OR = {
+			AND = {
+				country = CRO
+				event = 6000035 #Log Revolution
+			}
+			AND = {
+				country = YUG
+				flag = brotherhood_unity
+				event = 6000035 #Log Revolution 
+			}
+		}
+	}
+	
+	name = "cro_spegelj_tapes"
+	desc = "cro_spegelj_tapes_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = march year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 5 }
+		command = { trigger = { country = CRO } type = relation which = YUG value = -50 }
+		command = { trigger = { country = YUG } type = relation which = SER value = -50 }
+	}
+}
+#########################################################################
+#  The March Protests
+#########################################################################
+event = {
+	id = 6000048
+	random = no
+	TAG = { YUG SER }
+	
+	trigger = { 
+		OR = {
+			country = SER
+			AND = {
+				country = YUG
+				flag = milosevic
+			}
+		}
+	}
+	
+	name = "yug_march_protests"
+	desc = "yug_march_protests_desc"
+	style = 1
+	picture = "march_protests"
+	
+	date = { day = 8 month = march year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 10 }
+		command = { type = domestic which = democratic value = -1 }
+		command = { type = domestic which = freedom value = -1 }
+	}
+}
+##############
+#  SLOVENIA  #
+##############
+#########################################################################
+#  Nova revija 57
+#########################################################################
+event = {
+	id = 6000049
+	random = no
+	country = YUG
+	
+	trigger = { event = 6000004 } #SANU Memorandum
+	
+	name = "slv_revija"
+	desc = "slv_revija_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1987 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Ljubljana Trial
+#########################################################################
+event = {
+	id = 6000050
+	random = no
+	country = YUG
+	
+	name = "slv_trial"
+	desc = "slv_trial_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = may year = 1988 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 6000051 }
+	}
+}
+event = {
+	id = 6000051
+	random = no
+	country = SER
+	
+	name = "slv_trial"
+	desc = "slv_trial_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Slovenian Spring
+#########################################################################
+event = {
+	id = 6000052
+	random = no
+	country = SLV
+	
+	trigger = { flag = milosevic }
+	
+	name = "slv_spring"
+	desc = "slv_spring_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = september year = 1989 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -5 }
+		command = { type = set_domestic which = democratic value = 8 }
+		command = { type = trigger which = 6000053 }
+	}
+}
+event = {
+	id = 6000053
+	random = no
+	country = YUG
+	
+	name = "slv_spring"
+	desc = "slv_spring_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { flag = milosevic }
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { flag = brotherhood_unity }
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  Transition to Independence (Slovenia)
+#########################################################################
+event = {
+	id = 6000054
+	random = no
+	country = SLV
+	
+	trigger = { flag = milosevic }
+	
+	name = "slv_transition_independence"
+	desc = "slv_transition_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 6 month = march year = 1990 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = political_left value = -4 }
+		command = { type = trigger which = 6000055 }
+		command = { type = name where = -1 which = TAG_SLV }
+	}
+}
+event = {
+	id = 6000055
+	random = no
+	country = YUG
+	
+	name = "slv_transition_independence"
+	desc = "slv_transition_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Slovenia's Declaration of Independence
+#########################################################################
+event = {
+	id = 6000056
+	random = no
+	country = SLV
+	
+	trigger = { flag = milosevic }
+	
+	name = "slv_independence"
+	desc = "slv_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 24 month = june year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -15 }
+		command = { type = end_puppet }
+		command = { type = leave_alliance when = 1 }
+		command = { type = end_access which = YUG when = 0 }
+		command = { type = end_non_aggression which = SLV where = YUG }
+		command = { type = trigger which = 6000057 }
+	}
+}
+event = {
+	id = 6000057
+	random = no
+	country = YUG
+	
+	name = "slv_independence"
+	desc = "slv_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 15 }
+	}
+}
+#########################################################################
+#  The Slovenian War of Independence
+#########################################################################
+event = {
+	id = 6000058
+	random = no
+	country = YUG
+	
+	trigger = { event = 6000056 } #Slovenia's Declaration of Independence
+	
+	name = "slv_10-day_war"
+	desc = "slv_10-day_war_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 26 month = june year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_WAR"
+		command = { type = war which = SLV }
+		command = { type = trigger which = 6000059 }
+	}
+}
+#Slovenia
+event = {
+	id = 6000059
+	random = no
+	country = SLV
+	
+	name = "slv_10-day_war"
+	desc = "slv_10-day_war_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_FIGHT"
+		command = {}
+	}
+}
+#########################################################################
+#  Slovenia Changes Flag
+#########################################################################
+event = {
+	id = 6000060
+	random = no
+	country = SLV
+	
+	trigger = { event = 6000056 } #Slovenia's Declaration of Independence
+	
+	name = "slv_flag"
+	desc = "slv_flag_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 26 month = june year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -3 }
+		command = { type = flag_ext where = -1 which = "_IND" }
+	}
+}
+#########################################################################
+#  Creation of the Croatian National Guard
+#########################################################################
+event = {
+	id = 6000061
+	random = no
+	country = CRO
+	
+	name = "cro_national_guard"
+	desc = "cro_national_guard_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 8 month = april year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -8 }
+		command = { type = add_division which = "National Guard Brigade" value = infantry when = 6 }
+		command = { type = add_division which = "National Guard Brigade" value = infantry when = 6 }
+		command = { type = add_division which = "National Guard Brigade" value = infantry when = 6 }
+		command = { type = add_division which = "National Guard Brigade" value = infantry when = 6 }
+	}
+}
+#########################################################################
+#  Spegelj resigns
+#########################################################################
+event = {
+	id = 6000062
+	random = no
+	country = CRO
+	
+	trigger = { 
+		event = 6000044 #The Spegelj Tapes
+	}
+	
+	name = "cro_spegelj_tapes_1"
+	desc = "cro_spegelj_tapes_1_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = august year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 30
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 3 }
+		command = { trigger = { country = CRO } type = sleepminister which = 275004 }
+	}
+}
+#########################################################################
+#  Croatia's Declaration of Independence
+#########################################################################
+event = {
+	id = 6000063
+	random = no
+	country = CRO
+	
+	name = "cro_independence"
+	desc = "cro_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 24 month = june year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -15 }
+		command = { type = end_puppet }
+		command = { type = leave_alliance when = 1 }
+		command = { type = end_access which = YUG when = 0 }
+		command = { type = end_non_aggression which = CRO where = YUG }
+		command = { type = trigger which = 6000064 }
+	}
+}
+event = {
+	id = 6000064
+	random = no
+	country = YUG
+	
+	name = "cro_independence"
+	desc = "cro_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 15 }
+	}
+}
+#########################################################################
+#  Croatian Militia
+#########################################################################
+event = {
+	id = 6000065
+	random = no
+	country = U79
+	
+	name = "croatian_militia"
+	desc = "croatian_militia_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = add_division which = "Croatian Militia" value = militia when = 6 }
+	}
+}
+#########################################################################
+#  The Independence of the Serbian Krajina
+#########################################################################
+event = {
+	id = 6000066
+	random = no
+	country = TRA
+	
+	name = "tra_independence"
+	desc = "tra_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = april year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -15 }
+		command = { type = end_access which = CRO when = 0 }
+		command = { type = access which = YUG }
+		command = { type = end_non_aggression which = TRA where = CRO }
+		command = { type = trigger which = 6000067 }
+		command = { type = name where = -1 which = TAG_TRA_SER }
+	}
+}
+event = {
+	id = 6000067
+	random = no
+	TAG = { CRO YUG }
+	persistent = yes
+	all = yes
+	
+	name = "tra_independence"
+	desc = "tra_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { country = CRO }
+		command = { type = dissent value = 5 }
+		command = { type = secedeprovince which = TRA value = 3363 when = 0 }  
+		command = { type = secedeprovince which = TRA value = 3364 when = 0 }
+		command = { type = secedeprovince which = TRA value = 3362 when = 0 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { country = YUG }
+		command = { type = dissent value = -5 }  
+	}
+}
+#########################################################################
+#  Slovenia-Croatia Alliance
+#########################################################################
+event = {
+	id = 6000068
+	random = no
+	country = SLV
+	
+	trigger = { 
+		event = 8000002 #The Ten-Day War
+		war = { country = YUG country = -1 }
+		war = { country = YUG country = CRO }
+	}
+	
+	name = "slv-cro_alliance"
+	desc = "slv-cro_alliance_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = april year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 99
+		command = { type = trigger which = 6000069 }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		ai_chance = 1
+		command = { type = dissent value = 15 }
+		command = { type = sleepevent which = 6000069 }
+	}
+}
+#Croatia
+event = {
+	id = 6000069
+	random = no
+	country = CRO
+	
+	name = "slv-cro_alliance"
+	desc = "slv-cro_alliance_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		ai_chance = 99
+		command = { type = alliance which = SLV }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		ai_chance = 1
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Serbian Militia
+#########################################################################
+event = {
+	id = 6000070
+	random = no
+	country = TRA
+	
+	name = "serbian_militia"
+	desc = "serbian_militia_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = add_division which = "Knin Militia" value = militia when = 6 }
+	}
+}
+#########################################################################
+#  The Vance Plan
+#########################################################################
+event = {
+	id = 6000071
+	random = no
+	country = U00
+	
+	trigger = {
+		war = { country = YUG country = CRO }
+	}
+	
+	name = "vance_plan"
+	desc = "vance_plan_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 1 month = january year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_PROCEED"
+		command = { type = trigger which = 6000072 }
+	}
+}
+#Yugoslavia
+event = {
+	id = 6000072
+	random = no
+	country = YUG
+	
+	name = "vance_plan"
+	desc = "vance_plan_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 1 month = january year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		ai_chance = 99
+		command = { type = trigger which = 6000073 }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		ai_chance = 1
+		command = { type = sleepevent which = 6000073 }
+	}
+}
+#Croatia
+event = {
+	id = 6000073
+	random = no
+	country = CRO
+	
+	name = "vance_plan"
+	desc = "vance_plan_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 1 month = january year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		ai_chance = 99
+		command = { type = peace which = YUG }
+		command = { type = non_aggression which = CRO where = YUG }
+		command = { type = trigger which = 6000074 }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		ai_chance = 1
+		command = {}
+	}
+}
+#Serbian Krajina and Bosnia
+event = {
+	id = 6000074
+	random = no
+	TAG = { TRA BOS }
+	persistent = yes
+	all = yes
+	
+	name = "vance_plan"
+	desc = "vance_plan_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = access which = U00 }
+		command = { trigger = { country = TRA } type = non_aggression which = TRA where = CRO }
+		command = { trigger = { country = BOS } type = non_aggression which = BOS where = CRO }
+		command = { trigger = { country = BOS } type = non_aggression which = BOS where = YUG }
+		command = { trigger = { country = BOS } type = secedeprovince which = U00 value = 6538 when = 0 }
+		command = { type = trigger which = 6000075 }
+	}
+}
+#########################################################################
+#  The United Nations Protection Force
+#########################################################################
+event = {
+	id = 6000075
+	random = no
+	country = U00
+	
+	name = "unprofor"
+	desc = "unprofor_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = add_corps which = "UNPROFOR" value = land where = 6538 }
+		command = { type = add_division which = "Blue Helmets" value = infantry when = 6 }
+		command = { type = guarantee which = U00 where = CRO }
+		command = { type = guarantee which = U00 where = TRA }
+		command = { type = guarantee which = U00 where = YUG }
+		command = { type = guarantee which = U00 where = BOS }
+		command = { type = secedeprovince which = BOS value = 6538 when = 0 }
+	}
+}
+#########################################################################
+#  The Independence of Macedonia
+#########################################################################
+event = {
+	id = 6000076
+	random = no
+	country = OTT
+	
+	name = "macedonia_independence"
+	desc = "macedonia_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 24 month = september year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -15 }
+		command = { type = end_puppet }
+		command = { type = leave_alliance when = 1 }
+		command = { type = end_access which = YUG when = 0 }
+		command = { type = end_non_aggression which = OTT where = YUG }
+		command = { type = trigger which = 6000077 }
+		command = { type = name where = OTT which = TAG_OTT }
+	}
+}
+#Yugoslavia
+event = {
+	id = 6000077
+	random = no
+	country = YUG
+	
+	name = "macedonia_independence"
+	desc = "macedonia_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = set_relation which = OTT value = 100 }
+	}
+	action = {
+		name = "ACTION_NAME_PROTEST"
+		ai_chance = 30
+		command = { type = dissent value = 3 }
+		command = { type = relation which = OTT value = -100 }
+	}
+	action = {
+		name = "ACTION_NAME_WAR"
+		ai_chance = 1
+		command = { type = dissent value = 9 }
+		command = { type = war which = OTT }
+	}
+}
+#########################################################################
+#  The Third Yugoslavia
+#########################################################################
+event = {
+	id = 6000078
+	random = no
+	country = YUG
+	
+	name = "invite_bosnia_yugoslavia"
+	desc = "invite_bosnia_yugoslavia_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 25 month = december year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 99
+		command = { type = trigger which = 6000079 }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		ai_chance = 1
+		command = { type = sleepevent which = 6000079 }
+		command = { type = sleepevent which = 6000080 }
+	}
+}
+#Bosnia
+event = {
+	id = 6000079
+	random = no
+	country = BOS
+	
+	name = "invite_bosnia_yugoslavia"
+	desc = "invite_bosnia_yugoslavia_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		ai_chance = 90
+		command = { type = sleepevent which = 6000080 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		ai_chance = 10
+		command = { type = trigger which = 6000080 }
+	}
+}
+#Bosnia accepts!
+event = {
+	id = 6000080
+	random = no
+	country = YUG
+	
+	name = "invite_bosnia_yugoslavia_1"
+	desc = "invite_bosnia_yugoslavia_1_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -9 }
+		command = { type = inherit which = BOS value = 1 }
+	}
+}
+#########################################################################
+#  The Federal Republic of Yugoslavia
+#########################################################################
+event = {
+	id = 6000081
+	random = no
+	country = YUG
+	
+	name = "federal_yugoslavia"
+	desc = "federal_yugoslavia_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 27 month = april year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -5 }
+		#command = { type = name where = TRA which = TAG_YUG_FRY }
+		command = { type = flag_ext where = -1 which = "_FRY" }
+		command = { type = inherit which = MTN }
+	}
+}
+#########################################################################
+#  The Republic of the Serb People of Bosnia and Herzegovina
+#########################################################################
+event = {
+	id = 6000082
+	random = no
+	country = BOS
+	
+	name = "republika_srpska"
+	desc = "republika_srpska_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 8 month = january year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 10 }
+		command = { type = independence which = U72 value = 1 } #Republika Srpska
+		command = { type = secedeprovince which = U72 value = 3367 when = 0 }
+		command = { type = secedeprovince which = U72 value = 1892 when = 0 }
+		command = { type = secedeprovince which = U72 value = 6535 when = 0 }
+		command = { type = switch_allegiance which = -1 where = U72 }
+	}
+}
+#########################################################################
+#  The Independence of Bosnia
+#########################################################################
+event = {
+	id = 6000083
+	random = no
+	country = BOS
+	
+	name = "bosnia_independence"
+	desc = "bosnia_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 2 month = march year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -10 }
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = -1 which = TAG_BOS }
+		command = { type = end_puppet }
+		command = { type = leave_alliance when = 1 }
+		command = { type = end_access which = YUG when = 0 }
+		command = { type = end_non_aggression which = BOS where = YUG }
+		command = { type = trigger which = 6000084 }
+	}
+}
+event = {
+	id = 6000084
+	random = no
+	country = YUG
+	
+	name = "bosnia_independence"
+	desc = "bosnia_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Change Official Name (Republika Srpska)
+#########################################################################
+event = {
+	id = 6000085
+	random = no
+	country = U72
+	
+	name = "bosnia_independence"
+	desc = "bosnia_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 11 month = august year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_YES"
+		command = { type = name where = -1 which = TAG_U72_SRPSK }
+	}
+	action = {
+		name = "ACTION_NAME_NO"
+		command = {}
+	}
+}
+#########################################################################
+#  The Karadordevo Agreement
+#########################################################################
+event = {
+	id = 6000086
+	random = no
+	country = YUG
+	
+	trigger = { 
+		NOT = {
+			war = { country = YUG country = CRO }
+		}
+	}
+	
+	name = "karadordevo_agreement"
+	desc = "karadordevo_agreement_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 24 month = march year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		command = { type = trigger which = 6000087 }
+	}
+	action = {
+		name = "ACTION_NAME_LIES"
+		command = { type = sleepevent which = 6000087 }
+	}
+}
+#Croatia
+event = {
+	id = 6000087
+	random = no
+	country = CRO
+	
+	name = "karadordevo_agreement"
+	desc = "karadordevo_agreement_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		command = { type = setflag which = karadordevo_agreement }
+		command = { type = non_aggression which = CRO where = YUG }
+	}
+	action = {
+		name = "ACTION_NAME_LIES"
+		command = {}
+	}
+}
+#########################################################################
+#  The Croatian Community of Herzeg-Bosnia
+#########################################################################
+event = {
+	id = 6000088
+	random = no
+	country = BOS
+	
+	trigger = { flag = karadordevo_agreement }
+	
+	name = "herzeg-bosnia_independence"
+	desc = "herzeg-bosnia_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 17 month = november year = 1991 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 10 }
+		command = { type = independence which = U79 value = 1 } #Herzeg-Bosnia
+		#command = { type = secedeprovince which = U72 value = 3367 when = 0 }
+		#command = { type = secedeprovince which = U72 value = 1892 when = 0 }
+		#command = { type = secedeprovince which = U72 value = 6535 when = 0 }
+		command = { type = switch_allegiance which = -1 where = U79 }
+		command = { type = trigger which = 6000089 }
+	}
+}
+#Bosnia and Croatia
+event = {
+	id = 6000089
+	random = no
+	all = yes
+	TAG = { BOS CRO }
+	
+	name = "herzeg-bosnia_independence"
+	desc = "herzeg-bosnia_independence_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		trigger = { country = BOS }
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { country = CRO }
+		command = { type = dissent value = -5 }
+		command = { type = make_puppet which = U79 }
+	}
+}
+#########################################################################
+#  The Bosnian War
+#########################################################################
+event = {
+	id = 6000090
+	random = no
+	country = U72 #Republika Srpska
+	
+	trigger = { 
+		event = 6000083 #The Independence of Bosnia
+	}
+	
+	name = "bosnia_independence_1"
+	desc = "bosnia_independence_1_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 5 month = april year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_WAR"
+		ai_chance = 99
+		command = { type = war which = BOS } #Bosnia
+		command = { type = war which = U79 } #Herzeg-Bosnia
+	}
+	action = {
+		name = "ACTION_NAME_BACK_DOWN"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Graz Agreement
+#########################################################################
+event = {
+	id = 6000091
+	random = no
+	country = U72
+	
+	trigger = { 
+		war = { country = U72 country = BOS }
+		war = { country = U72 country = U79 }
+	}
+	
+	name = "graz_agreement"
+	desc = "graz_agreement_desc"
+	style = 2
+	picture = "news_paper"
+	
+	date = { day = 5 month = may year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		ai_chance = 99
+		command = { type = trigger which = 6000092 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		ai_chance = 1
+		command = { type = sleepevent which = 6000092 }
+	}
+}
+#Herzeg-Bosnia
+event = {
+	id = 6000092
+	random = no
+	country = U79
+	
+	name = "graz_agreement"
+	desc = "graz_agreement_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		ai_chance = 99
+		command = { type = peace which = U72 }
+		command = { type = non_aggression which = U79 where = U72 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		ai_chance = 1
+		command = {}
+	}
+}
+#########################################################################
+#  The Croat-Bosniak War
+#########################################################################
+event = {
+	id = 6000093
+	random = no
+	country = BOS
+	
+	name = "croat-bosniak_war"
+	desc = "croat-bosniak_war_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Washington Agreement
+#########################################################################
+event = {
+	id = 6000094
+	random = no
+	country = CRO
+	
+	trigger = {
+		war = { country = U79 country = BOS }
+	}
+	
+	date = { day = 17 month = march year = 1994 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	name = "washington_agreement"
+	desc = "washington_agreement_desc"
+	style = 1
+	picture = "washington_agreement"
+	
+	action = {
+		name = "ACTION_NAME_SIGN"
+		ai_chance = 99
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 6000095 }
+	}
+	action = {
+		name = "ACTION_NAME_DONT_SIGN"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = BOS value = -100 }
+		command = { type = sleepevent which = 6000095 }
+	}
+}
+#Bosnia
+event = {
+	id = 6000095
+	random = no
+	country = BOS
+	
+	name = "washington_agreement"
+	desc = "washington_agreement_desc"
+	style = 1
+	picture = "washington_agreement"
+	
+	action = {
+		name = "ACTION_NAME_SIGN"
+		ai_chance = 100
+		command = { type = dissent value = -10 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = CRO value = -100 }
+		command = { type = make_puppet which = U79 }
+		command = { type = non_aggression which = BOS where = CRO }
+	}
+	action = {
+		name = "ACTION_NAME_DONT_SIGN"
+		ai_chance = 0
+		command = { type = dissent value = 20 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = CRO value = -100 }
+	}
+}
+#########################################################################
+#  The Dayton Agreement
+#########################################################################
+event = {
+	id = 6000096
+	random = no
+	country = CRO
+	
+	trigger = {
+		war = { country = BOS country = U72 }
+	}
+	
+	date = { day = 13 month = december year = 1995 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	name = "washington_agreement"
+	desc = "washington_agreement_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_SIGN"
+		ai_chance = 100
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 6000097 }
+	}
+	action = {
+		name = "ACTION_NAME_DONT_SIGN"
+		ai_chance = 0
+		command = { type = dissent value = 15 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = FRA value = -100 }
+		command = { type = relation which = GER value = -100 }
+		command = { type = relation which = RUS value = -100 }
+		command = { type = relation which = SOV value = -100 }
+		command = { type = relation which = ENG value = -100 }
+		command = { type = relation which = BOS value = -100 }
+		command = { type = sleepevent which = 6000097 }
+	}
+}
+#Yugoslavia
+event = {
+	id = 6000097
+	random = no
+	country = YUG
+	
+	name = "washington_agreement"
+	desc = "washington_agreement_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_SIGN"
+		ai_chance = 100
+		command = { type = dissent value = -5 }
+		command = { type = trigger which = 6000098 }
+	}
+	action = {
+		name = "ACTION_NAME_DONT_SIGN"
+		ai_chance = 0
+		command = { type = dissent value = 15 }
+		command = { type = war which = BOS }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = FRA value = -100 }
+		command = { type = relation which = GER value = -100 }
+		command = { type = relation which = RUS value = -100 }
+		command = { type = relation which = SOV value = -100 }
+		command = { type = relation which = ENG value = -100 }
+		command = { type = relation which = CRO value = -100 }
+		command = { type = relation which = BOS value = -100 }
+		command = { type = sleepevent which = 6000098 }
+	}
+}
+#Bosnia
+event = {
+	id = 6000098
+	random = no
+	country = BOS
+	
+	name = "washington_agreement"
+	desc = "washington_agreement_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_SIGN"
+		ai_chance = 100
+		command = { type = dissent value = -20 }
+		command = { type = inherit which = U79 }
+		command = { type = inherit which = U72 }
+	}
+	action = {
+		name = "ACTION_NAME_DONT_SIGN"
+		ai_chance = 0
+		command = { type = dissent value = 30 }
+		command = { type = relation which = USA value = -100 }
+		command = { type = relation which = FRA value = -100 }
+		command = { type = relation which = GER value = -100 }
+		command = { type = relation which = RUS value = -100 }
+		command = { type = relation which = SOV value = -100 }
+		command = { type = relation which = ENG value = -100 }
+		command = { type = relation which = CRO value = -100 }
+		command = { type = relation which = YUG value = -100 }
+	}
+}
+#########################################################################
+#  Dobrica Cosic
+#########################################################################
+event = {
+	id = 6000099
+	random = no
+	country = YUG
+	
+	trigger = {
+		event = 6000081 #The Federal Republic of Yugoslavia
+		NOT = { headofstate = 100034 }
+	}
+	
+	date = { day = 14 month = june year = 1992 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	name = "dobrica_cosic"
+	desc = "dobrica_cosic_desc"
+	style = 2
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		#command = { type = wakeminister which = 100034 }
+		command = { type = headofstate which = 100035 } #Dobrica Cosic
+		command = { type = headofgovernment which = 100038 } #Milan Panic
+	}
+}
+

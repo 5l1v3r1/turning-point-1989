@@ -1,0 +1,24 @@
+AFG;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+155001;Head of State;Babrak Karmal;1985;2012;2012;LE;Weary Stiffneck;Very High;AFG1;X
+155002;Head of Government;Babrak Karmal;1985;2012;2012;LE;Happy Amateur;Very High;AFG1;X
+155003;Foreign Minister;Sultan Ali Keshtmand;1985;2012;2012;LE;Apologetic Clerk;Very High;AFG2;X
+155004;Minister of Armament;Abdul Qadir Dagarwal;1985;2012;2012;LE;Air to Ground Proponent;Very High;unknown;X
+155005;Minister of Security;Mohammad Najibullah;1985;2012;2012;ST;Prince of Terror;Very High;AFG3;X
+155006;Head of Military Intelligence;Shahnawaz Tanai;1985;2012;2012;ST;Logistics Specialist;Very High;AFG4;X
+155007;Chief of Staff;Nazar Mohammed;1985;2012;2012;ST;School of Fire Support;Very High;unknown;X
+155008;Chief of Army;Nazar Mohammed;1985;2012;2012;ST;Decisive Battle Doctrine;Very High;unknown;X
+155009;Chief of Navy;Nazar Mohammed;1985;2012;2012;ST;Indirect Approach Doctrine;Very High;unknown;X
+155010;Chief of Air Force;Nazar Mohammed;1985;2012;2012;ST;Army Aviation Doctrine;Very High;unknown;X
+;Replacements;;;;;;;;;X
+155011;Head of State;Mohammad Najibullah;1985;2012;2012;ST;Autocratic Charmer;Very High;AFG3;X
+155012;Head of Government;Mohammad Najibullah;1985;2012;2012;ST;Flamboyant Tough Guy;Very High;AFG3;X
+155013;Head of State;Sibghatullah Mojaddedi;1985;2012;2012;PA;Popular Figurehead;Very High;AFG5;X
+155014;Head of Government;Burhanuddin Rabbani;1985;2012;2012;PA;Old General;Very High;AFG6;X
+155015;Foreign Minister;Abdullah Abdullah;1985;2012;2012;PA;Great Compromiser;Very High;AFG7;X
+155016;Minister of Armament;Ahmad Shah Massoud;1985;2012;2012;PA;Military Entrepreneur;Very High;AFG8;X
+155017;Minister of Security;Abdul Qadir;1985;2012;2012;PA;Back Stabber;Very High;AFG9;X
+155018;Head of Military Intelligence;Abdul Qadir;1985;2012;2012;PA;Logistics Specialist;Very High;AFG9;X
+155019;Chief of Staff;Ahmad Shah Massoud;1985;2012;2012;PA;School of Psychology;Very High;AFG8;X
+155020;Chief of Army;Burhanuddin Rabbani;1985;2012;2012;PA;Guns and Butter Doctrine;Very High;AFG6;X
+155021;Chief of Navy;Burhanuddin Rabbani;1985;2012;2012;PA;Indirect Approach Doctrine;Very High;AFG6;X
+155022;Chief of Air Force;Burhanuddin Rabbani;1985;2012;2012;PA;Army Aviation Doctrine;Very High;AFG6;X

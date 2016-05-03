@@ -1,0 +1,569 @@
+#########################################################################
+#  Country Name Expander
+#########################################################################
+event = {
+	id = 2022016
+	random = no 
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 
+	U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE 
+	U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA }
+
+	action = {
+		command = { type = name where = SOV which = COM_SOV }
+		command = { type = name where = POL which = COM_POL }
+		command = { type = name where = HUN which = COM_HUN }
+		command = { type = name where = CZE which = COM_CZE }
+		command = { type = name where = ROM which = COM_ROM }
+		command = { type = name where = BUL which = COM_BUL }
+		command = { type = name where = MON which = COM_MON }
+		command = { type = name where = USA which = TAG_USA }
+		command = { type = name where = PRK which = TAG_PRK_FULL }
+		command = { type = name where = KOR which = TAG_KOR_FULL }
+		command = { type = name where = DFR which = TAG_DFR_FULL }
+		command = { type = name where = DDR which = TAG_DDR_FULL }
+		command = { type = name where = CHC which = TAG_CHC_FULL }
+		command = { type = name where = CHI which = TAG_CHI_FULL }
+	}
+	action = {
+		command = { type = name where = SOV which = TAG_SOV }
+		command = { type = name where = POL which = TAG_POL }
+		command = { type = name where = HUN which = TAG_HUN }
+		command = { type = name where = CZE which = TAG_CZE }
+		command = { type = name where = ROM which = TAG_ROM }
+		command = { type = name where = BUL which = TAG_BUL }
+		command = { type = name where = MON which = TAG_MON }
+		command = { type = name where = USA which = TAG_USA }
+		command = { type = name where = PRK which = TAG_PRK }
+		command = { type = name where = KOR which = TAG_KOR }
+		command = { type = name where = DFR which = TAG_DFR }
+		command = { type = name where = DDR which = TAG_DDR }
+		command = { type = name where = CHC which = TAG_CHC }
+		command = { type = name where = CHI which = TAG_CHI }
+	}
+}
+#########################################################################
+#  Deactivating Techs
+#########################################################################
+event = {
+	id = 2022017
+	random = no 
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 
+	U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE 
+	U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA }
+	
+	#trigger = {
+	#	ai = no
+	#}
+	
+	#date = { day = 0 month = january year = 1985 }
+	#offset = 1
+	#deathdate = { day = 21 month = december year = 2012 }
+
+	name = "DISABLE_TECHS"
+	desc = "DISABLE_TECHS_DESC"
+	style = 1
+	picture = "high_education"
+
+	action = {
+		command = { trigger = { NOT = { technology = 5316 } } type = deactivate which = 5316 }
+		command = { trigger = { NOT = { technology = 5326 } } type = deactivate which = 5326 }
+		command = { trigger = { NOT = { technology = 5327 } } type = deactivate which = 5327 }
+		command = { trigger = { NOT = { technology = 1550 } } type = deactivate which = 1550 }
+		command = { trigger = { NOT = { technology = 1750 } } type = deactivate which = 1750 }
+		command = { type = trigger which = 2022018 }
+	}
+}
+#FOR AI
+event = {
+	id = 2022018
+	random = no 
+	all = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 
+	U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE 
+	U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA }
+	persistent = yes
+	
+	#trigger = {
+	#	ai = no
+	#}
+
+	name = "AI_EVENT"
+	style = 0
+
+	action = {
+		command = { trigger = { NOT = { technology = 5316 } } type = deactivate which = 5316 }
+		command = { trigger = { NOT = { technology = 5326 } } type = deactivate which = 5326 }
+		command = { trigger = { NOT = { technology = 5327 } } type = deactivate which = 5327 }
+		command = { trigger = { NOT = { technology = 1550 } } type = deactivate which = 1550 }
+		command = { trigger = { NOT = { technology = 1750 } } type = deactivate which = 1750 }
+	}
+}
+#########################################################################
+#  Soviet Hardliners Take Power
+#########################################################################
+event = {
+	id = 2022019
+	random = no
+	TAG = { EST LIT LAT UKR BLR U05 GEO ARM AZB } #KAZ UZB KYG TAJ
+	persistent = yes
+	all = yes
+
+	name = "sov_hardliners_take_power"
+	desc = "sov_hardliners_take_power_desc"
+	style = 1
+	picture = "sov_restore_order"
+
+	action = {
+		name = ACTION_NAME_WAR
+		command = { type = end_access which = SOV }
+		command = { type = leave_alliance when = 1 }
+		command = { trigger = { ai = yes } type = ai which = "switch/anti_soviet_diplomacy.ai" }
+	}
+}
+#########################################################################
+#  Soviet Republics are liberated
+#########################################################################
+event = {
+	id = 2022020
+	random = no
+	TAG = { EST LIT LAT BLR UKR U05 KAZ UZB TRK AZB }
+	persistent = yes
+	
+	trigger = { 
+		NOT = { 
+			puppet = { country = SOV country = -1 } #Not Soviet Puppet
+			participant = { country = -1 value = 2 } #Not in Warsaw Pact
+			event = 2007016 #Perestroika
+			local_flag = we_are_liberated
+		}
+		OR = {
+			participant = { country = -1 value = 1 } #In NATO
+			participant = { country = -1 value = 4 } #In any alliance
+		}
+		OR = {
+			exists = EST
+			exists = LIT
+			exists = LAT
+			exists = BLR
+			exists = UKR
+			exists = U05
+			exists = KAZ
+			exists = UZB
+			exists = TRK
+			exists = AZB
+		}
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	name = "we_are_liberated"
+	desc = "we_are_liberated_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		trigger = { country = EST }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = EST which = TAG_EST }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = LIT }
+		name = "ACTION_NAME_GREAT"
+		command = { type = name where = LIT which = TAG_LIT }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = LAT }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = LAT which = TAG_LAT }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = BLR }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = BLR which = TAG_BLR }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = UKR }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = UKR which = TAG_UKR }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = U05 }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = U05 which = TAG_U05 }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = KAZ }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = KAZ which = TAG_KAZ }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = UZB }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = UZB which = TAG_UZB }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = TRK }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		#command = { type = name where = TRK which = TAG_TRK }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+	action = {
+		trigger = { country = AZB }
+		name = "ACTION_NAME_GREAT"
+		command = { type = flag_ext where = -1 which = "_IND" }
+		command = { type = name where = AZB which = TAG_AZB }
+		command = { type = local_setflag which = we_are_liberated }
+	}
+}
+#########################################################################
+#  Land of the Free
+#########################################################################
+event = {
+	id = 2022021
+	random = no
+	country = USA
+	
+	trigger = {
+		lost_national = { value = 10 }
+		manpower = 50
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	name = "land_of_the_free"
+	desc = "land_of_the_free_desc"
+	style = 1
+	picture = "american_patriot"
+
+	action = {
+		name = "ACTION_NAME_HOME_OF_THE_BRAVE"
+		command = { type = manpowerpool value = -50 }
+		command = { type = add_division which = "The Wolverines" value = militia when = 5 where = b_09 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+	}
+}
+#
+event = {
+	id = 2022022
+	random = no
+	country = USA
+	
+	trigger = {
+		lost_national = { value = 30 }
+		manpower = 500
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	name = "land_of_the_free"
+	desc = "land_of_the_free_desc"
+	style = 1
+	picture = "american_patriot"
+
+	action = {
+		name = "ACTION_NAME_HOME_OF_THE_BRAVE"
+		command = { type = manpowerpool value = -500 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+		command = { type = add_division which = "Minutemen" value = militia when = 5 }
+	}
+}
+#########################################################################
+#  The Second Great Patriotic War
+#########################################################################
+event = {
+	id = 2022023
+	random = no
+	country = SOV
+	
+	trigger = {
+		lost_national = { value = 10 }
+		manpower = 50
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	name = "great_patriotic_war"
+	desc = "great_patriotic_war_desc"
+	style = 1
+	picture = "russian_sniper"
+
+	action = {
+		name = "ACTION_NAME_HOME_OF_THE_BRAVE"
+		command = { type = manpowerpool value = -50 }
+		command = { type = add_division which = "Snipers" value = d_03 when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+	}
+}
+#
+event = {
+	id = 2022024
+	random = no
+	country = SOV
+	
+	trigger = {
+		lost_national = { value = 30 }
+		manpower = 500
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	name = "great_patriotic_war"
+	desc = "great_patriotic_war_desc"
+	style = 1
+	picture = "russian_sniper"
+
+	action = {
+		name = "ACTION_NAME_HOME_OF_THE_BRAVE"
+		command = { type = manpowerpool value = -500 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+		command = { type = add_division which = "Partisans" value = militia when = 5 }
+	}
+}

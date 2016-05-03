@@ -1,0 +1,18 @@
+EUS;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+645001;Bizkaiko Labe Garaiak;T11000;5;1902;2999;mechanics;chemistry;artillery;vehicle_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+645002;Zamakona Yards;T11001;6;1973;3000;naval_engineering;electronics;mechanics;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+645003;Astra, Unceta y Cia S.A.;100106;3;1903;3001;general_equipment;artillery;munitions;vehicle_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+645004;La Naval ontziola;T11003;6;1891;3002;naval_engineering;naval_artillery;electronics;technical_efficiency;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+645005;Mondragon Corporation;T11004;8;1956;3003;management;vehicle_engineering;electronics;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+645006;University of the Basque Country;T11005;5;1980;3004;mechanics;medicine;management;industrial_engineering;chemistry;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+645007;Gamesa;T11006;7;1976;3005;electronics;management;industrial_engineering;avionics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+645008;Ertzaintza;100683;5;1936;3006;training;small_unit_tactics;infantry_focus;munitions;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645009;Iberduero;100684;4;1944;3007;Management;electronics;technical_efficiency;combined_arms_focus;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645010;Deustuko Unibertsitatea;100685;4;1886;3008;Management;mechanics;industrial_engineering;technical_efficiency;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645011;Osakidetza;100686;7;1984;3009;medicine;chemistry;technical_efficiency;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645012;Euskal Aire Indarra;100687;5;1936;3010;piloting;fighter_tactics;avionics;fighter_design;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645013;Eusko Gudarostea;100688;4;1936;3011;small_unit_tactics;centralized_execution;combined_arms_focus;individual_courage;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645014;Euskal Itsas Gudarostea;100689;6;1936;3012;small_taskforce_tactics;seamanship;decentralized_execution;naval_training;marine_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645015;Berrozi Berezi Taldea;100690;8;1982;3013;small_unit_tactics;airborne_training;mountain_training;technical_efficiency;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645016;SENER Aeron�utica;100691;7;1956;3014;aeronautics;avionics;aircraft_testing;rocketry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+645017;CAF Beasain;645017;8;1917;3015;mechanics;vehicle_engineering;electronics;technical_efficiency;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;

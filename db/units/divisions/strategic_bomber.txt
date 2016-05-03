@@ -1,0 +1,110 @@
+allowed_brigades = b_02
+allowed_brigades = b_05
+
+upgrade = { type = naval_bomber upgrade_time_factor = 0.54 upgrade_cost_factor = 1.4 }
+upgrade = { type = tactical_bomber upgrade_time_factor = 0.54 upgrade_cost_factor = 1.4 }
+
+# 0 - Strategic Bomber 1949
+model = {
+	cost 					= 20
+	buildtime	 			= 540
+	defaultorganisation 		= 30
+	morale					= 20
+	manpower				= 3
+	maxspeed				= 110
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 2
+	surfacedefence				= 8
+	airdefence				= 30
+	airattack				= 1
+	strategicattack				= 4
+	softattack				= 3
+	hardattack				= 3
+	navalattack				= 0
+	range					= 500
+	supplyconsumption 			= 3
+	fuelconsumption				= 1
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { heavy_bomber = 100 manpower = 1000 }
+}
+# 1 - Strategic Bomber 1955
+model = {
+	cost 					= 25
+	buildtime	 			= 660
+	defaultorganisation 		= 30
+	morale					= 20
+	manpower				= 3
+	maxspeed				= 145
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 2
+	surfacedefence				= 6
+	airdefence				= 25
+	airattack				= 2
+	strategicattack				= 6
+	softattack				= 5
+	hardattack				= 5
+	navalattack				= 1
+	range					= 750
+	supplyconsumption 			= 3
+	fuelconsumption				= 1
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { heavy_bomber = 100 manpower = 1000 }
+}
+# 2 - Strategic Bomber 1986
+model = {
+	cost 					= 30
+	buildtime	 			= 720
+	defaultorganisation 		= 30
+	morale					= 20
+	manpower				= 3
+	maxspeed				= 180
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 2
+	surfacedefence				= 5
+	airdefence				= 20
+	airattack				= 2
+	strategicattack				= 10
+	softattack				= 7
+	hardattack				= 7
+	navalattack				= 0
+	range					= 1000
+	supplyconsumption 			= 3
+	fuelconsumption				= 1
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { heavy_bomber = 100 manpower = 1000 }
+}
+# 3 - Stealth Bomber
+model = {
+	cost 					= 100
+	buildtime	 			= 1440
+	defaultorganisation 		= 30
+	morale					= 20
+	manpower				= 3
+	maxspeed				= 250
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 2
+	surfacedefence				= 1
+	airdefence				= 1
+	airattack				= 2
+	strategicattack				= 15
+	softattack				= 10
+	hardattack				= 10
+	navalattack				= 0
+	range					= 40000
+	supplyconsumption 			= 2
+	fuelconsumption				= 3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { heavy_bomber = 20 manpower = 1000 }
+}

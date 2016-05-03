@@ -1,0 +1,131 @@
+# 0 - Engineer 1945
+model = {
+	cost 				= 3
+	buildtime	 		= 90
+	manpower 			= 3.5
+	supplyconsumption 	= 0.05
+	fuelconsumption		= 0.05
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	equipment = { manpower = 3500 horses = 368 }
+}
+# 1 - Engineer 1965
+model = {
+	cost 				= 3
+	buildtime	 		= 90
+	manpower 			= 3.5
+	supplyconsumption 	= 0.06
+	fuelconsumption		= 0.06
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	equipment = { manpower = 3500 horses = 368 }
+}
+# 2 - Engineer 1970
+model = {
+	cost 				= 3.5
+	buildtime	 		= 90
+	manpower 			= 3.5
+	supplyconsumption 	= 0.08
+	fuelconsumption		= 0.08
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	equipment = { manpower = 3500 horses = 368 }
+}
+# 3 - Engineer 1975
+model = {
+	cost 				= 3.5
+	buildtime	 		= 90
+	manpower 			= 3.5
+	morale					= 1
+	supplyconsumption 	= 0.1
+	fuelconsumption		= 0.09
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	equipment = { manpower = 3500 horses = 128 trucks = 60 }
+}
+# 4 - Engineer 1980
+model = {
+	cost 				= 4
+	buildtime	 		= 90
+	manpower 			= 3.5
+	maxspeed 			= 1
+	morale					= 2
+	hardattack			= 1
+	supplyconsumption 	= 0.12
+	fuelconsumption		= 0.1
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	equipment = { manpower = 3500 trucks = 92 }
+}
+# 5 - Engineer 1985
+model = {
+	cost 				= 4
+	buildtime	 		= 90
+	manpower 			= 3.5
+	maxspeed 			= 1
+	morale					= 3
+	hardattack			= 1
+	supplyconsumption 	= 0.14
+	fuelconsumption		= 0.1
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	equipment = { manpower = 3500 trucks = 92 }
+}
+# 6 - Engineer 1990
+model = {
+	cost 				= 5
+	buildtime	 		= 90
+	manpower 			= 3.5
+	maxspeed 			= 2
+	morale					= 4
+	hardattack			= 1
+	supplyconsumption 	= 0.2
+	fuelconsumption		= 0.2
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	equipment = { manpower = 3500 trucks = 92 }
+}
+# 7 - Engineer 1995
+model = {
+	cost 				= 5
+	buildtime	 		= 90
+	manpower 			= 3.5
+	maxspeed 			= 2
+	morale					= 5
+	hardattack			= 1
+	supplyconsumption 	= 0.25
+	fuelconsumption		= 0.4
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	equipment = { manpower = 3500 trucks = 92 }
+}
+# 8 - Engineer 2000
+model = {
+	cost 				= 6
+	buildtime	 		= 90
+	manpower 			= 3.5
+	maxspeed 			= 3
+	morale					= 5
+	hardattack			= 1
+	supplyconsumption 	= 0.3
+	fuelconsumption		= 0.5
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	upgrade_time_boost 	= no
+	equipment = { manpower = 3500 trucks = 92 }
+}
+# 9 - Engineer 2005
+model = {
+	cost 				= 6
+	buildtime	 		= 90
+	manpower 			= 3.5
+	maxspeed 			= 3
+	morale					= 5
+	hardattack			= 1
+	supplyconsumption 	= 0.4
+	fuelconsumption		= 0.6
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.42
+	upgrade_time_boost 	= no
+	equipment = { manpower = 3500 trucks = 92 }
+}

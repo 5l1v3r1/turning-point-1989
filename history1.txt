@@ -1,0 +1,706 @@
+1985-00-00 : 0:00 January 1, 1985 : Our policy can be changed.
+1985-00-00 : 0:00 January 1, 1985 : The following decisions are now available: Turning Point Options, Politics, Investments, Praise The USA, Praise The USSR, Align More Towards Capitalism, USA Trade Mission, Align More Towards Socialism, USSR Trade Mission, Education Budget, Testing Tool, Our Inflation Rate, Our Interest Rates, Prolong Terms of Service, Enact Partial Mobilization
+1985-00-00 : 0:00 January 1, 1985 : Czechoslovakia had The Normalization .
+1985-00-00 : 0:00 January 1, 1985 : Romania had Ceausescu and The Systematization .
+1985-00-00 : 0:00 January 1, 1985 : Bulgaria went with Okay in The Revival Process.
+1985-00-00 : 0:00 January 1, 1985 : Yugoslavia had North-South Differences .
+1985-00-00 : 0:00 January 1, 1985 : We went with TP Standard in Events Settings.
+1985-00-00 : 0:00 January 1, 1985 : We went with §GOur inflation is around 6 percent. in Our Inflation Rate.
+1985-00-00 : 0:00 January 1, 1985 : Research Technology happened to us.
+1985-00-01 : 0:00 January 2, 1985 : Soviet Union went with Hurrah! in The Soviet-Afghan War.
+1985-00-01 : 0:00 January 2, 1985 : Poland had Solidarity .
+1985-00-02 : 0:00 January 3, 1985 : Syria left the Military Alliance she had with Egypt and Jordan.
+1985-00-04 : 1:00 January 5, 1985 : Our treasury is §Rvery low§§ happened to us.
+1985-00-05 : 0:00 January 6, 1985 : Italy concluded a diplomatic deal with us.
+1985-00-07 : 0:00 January 8, 1985 : We concluded a diplomatic deal with Switzerland.
+1985-00-08 : 0:00 January 9, 1985 : We concluded a diplomatic deal with Congo.
+1985-00-08 : 0:00 January 9, 1985 : We concluded a diplomatic deal with Madagascar.
+1985-00-08 : 0:00 January 9, 1985 : We concluded a diplomatic deal with Singapore.
+1985-00-09 : 0:00 January 10, 1985 : We concluded a diplomatic deal with Uganda.
+1985-00-09 : 0:00 January 10, 1985 : Kenya went with This is a good idea! in Recognition of the Sahrawi Arab Democratic Republic..
+1985-00-10 : 0:00 January 11, 1985 : Yugoslavia had Development Program for Vojvodina .
+1985-00-10 : 0:00 January 11, 1985 : We concluded a diplomatic deal with Singapore.
+1985-00-10 : 0:00 January 11, 1985 : Morocco had Kenya supports Polisario! .
+1985-00-11 : 0:00 January 12, 1985 : Iran had Found the Economic Cooperation Organization .
+1985-00-11 : 0:00 January 12, 1985 : Turkey went with They have accepted! in Iran invites us to the Economic Cooperation Organization!.
+1985-00-11 : 0:00 January 12, 1985 : Iran had Turkey accepts! .
+1985-00-11 : 0:00 January 12, 1985 : Pakistan went with Accept in Iran invites us to the Economic Cooperation Organization!.
+1985-00-11 : 0:00 January 12, 1985 : Iran had Pakistan accepts! .
+1985-00-11 : 0:00 January 12, 1985 : Iran had The Economic Cooperation Organization is formed! .
+1985-00-11 : 0:00 January 12, 1985 : Turkey had The Economic Cooperation Organization is formed! .
+1985-00-11 : 0:00 January 12, 1985 : Pakistan had The Economic Cooperation Organization is formed! .
+1985-00-14 : 0:00 January 15, 1985 : We concluded a diplomatic deal with Libya.
+1985-00-14 : 0:00 January 15, 1985 : We concluded a diplomatic deal with Liberia.
+1985-00-14 : 0:00 January 15, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-00-14 : 0:00 January 15, 1985 : Brazil went with Elect Tancredo Neves (Historical) in 1985 Brazilian Presidential Election.
+1985-00-14 : 0:00 January 15, 1985 : Brazil had Tancredo Neves is elected by the electoral college! .
+1985-00-16 : 0:00 January 17, 1985 : We concluded a diplomatic deal with Malaysia.
+1985-00-16 : 0:00 January 17, 1985 : United Kingdom had British Telecom Announcement. .
+1985-00-19 : 0:00 January 20, 1985 : Benin had African and Malagasy Union dissolved! .
+1985-00-20 : 0:00 January 21, 1985 : We concluded a diplomatic deal with Maldives.
+1985-00-20 : 0:00 January 21, 1985 : United States of America had President Reagan's Second Term. .
+1985-00-26 : 0:00 January 27, 1985 : Iran had Economic Cooperation Organisation formed .
+1985-00-26 : 0:00 January 27, 1985 : Pakistan had Economic Cooperation Organisation formed .
+1985-00-26 : 0:00 January 27, 1985 : Turkey had We Are The World' recorded. .
+1985-01-00 : 0:00 February 1, 1985 : United States of America had Operation Cyclone .
+1985-01-00 : 0:00 February 1, 1985 : Mujahideen had The USA funds the Mujahideen! .
+1985-01-03 : 0:00 February 4, 1985 : Spain went with This can only be a good thing. in Opening the border..
+1985-01-04 : 0:00 February 5, 1985 : United Kingdom had The Strangler of Vitebsk .
+1985-01-04 : 0:00 February 5, 1985 : Australia had Withdrawal from the MX-Missile Tests. .
+1985-01-05 : 0:00 February 6, 1985 : United States of America had Australian withdrawal from the MX-Missile Tests. .
+1985-01-07 : 0:00 February 8, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-01-08 : 0:00 February 9, 1985 : United States of America had Drug Agent Enrique Camarena goes missing. .
+1985-01-09 : 0:00 February 10, 1985 : South Africa went with Offer Mandela Conditional Freedom (Historical) in Offer Mandela Freedom.
+1985-01-09 : 0:00 February 10, 1985 : South Africa had Mandela refuses the offer! .
+1985-01-11 : 0:00 February 12, 1985 : Soviet Union had Shortage of Consumer Goods .
+1985-01-11 : 0:00 February 12, 1985 : Uruguay had General Alvarez resigns! .
+1985-01-13 : 0:00 February 14, 1985 : Israel had CNN Reporter Jeremy Levin released. .
+1985-01-13 : 0:00 February 14, 1985 : United States of America had CNN Reporter Jeremy Levin released. .
+1985-01-13 : 0:00 February 14, 1985 : United States of America went with Hurrah, Peace in the Middle East! in Israeli forces start to leave Lebanon..
+1985-01-18 : 0:00 February 19, 1985 : United States of America had First Artificial Heart Patient. .
+1985-01-19 : 0:00 February 20, 1985 : Japan had Minolta releases the worlds first autofocus single-lens reflex camera. .
+1985-01-24 : 0:00 February 25, 1985 : We concluded a diplomatic deal with Jamaica.
+1985-01-24 : 0:00 February 25, 1985 : We concluded a diplomatic deal with Samoa.
+1985-01-26 : 0:00 February 27, 1985 : We concluded a diplomatic deal with Barbados.
+1985-01-26 : 0:00 February 27, 1985 : We concluded a diplomatic deal with Lesotho.
+1985-01-27 : 0:00 February 28, 1985 : United Kingdom had Mortar attack in Northern Ireland .
+1985-01-27 : 0:00 February 28, 1985 : We concluded a diplomatic deal with St. Lucia.
+1985-01-28 : 0:00 February 29, 1985 : We concluded a diplomatic deal with Seychelles.
+1985-01-29 : 0:00 February 30, 1985 : We concluded a diplomatic deal with Switzerland.
+1985-01-29 : 0:00 February 30, 1985 : Switzerland cancelled a trade agreement they had with us.
+1985-01-29 : 0:00 February 30, 1985 : We concluded a diplomatic deal with Tonga.
+1985-02-00 : 0:00 March 1, 1985 : Libya annexed Chad.
+1985-02-00 : 0:00 March 1, 1985 : Uruguay had Sanguinetti is the new president! .
+1985-02-00 : 0:00 March 1, 1985 : Uruguay had End of the Dictatorship! .
+1985-02-00 : 0:00 March 1, 1985 : We concluded a diplomatic deal with Uganda.
+1985-02-02 : 0:00 March 3, 1985 : We concluded a diplomatic deal with Gambia.
+1985-02-02 : 0:00 March 3, 1985 : Chile had The Algarrobo Earthquake .
+1985-02-02 : 0:00 March 3, 1985 : We concluded a diplomatic deal with Portugal.
+1985-02-02 : 0:00 March 3, 1985 : We concluded a diplomatic deal with Bahamas.
+1985-02-03 : 0:00 March 4, 1985 : United States of America had USFDA approves a blood test for AIDS .
+1985-02-04 : 0:00 March 5, 1985 : United States of America had Drug Agent Enrique Camarena has been found. .
+1985-02-05 : 0:00 March 6, 1985 : We concluded a diplomatic deal with Antigua and Barbuda.
+1985-02-07 : 0:00 March 8, 1985 : Lebanon had Car bomb goes off in Beirut! .
+1985-02-08 : 0:00 March 9, 1985 : We concluded a diplomatic deal with Mauritania.
+1985-02-09 : 0:00 March 10, 1985 : Soviet Union went with Appoint Gorbachev! (Historical) in Chernenko passes away!.
+1985-02-10 : 0:00 March 11, 1985 : We concluded a diplomatic deal with Norway.
+1985-02-10 : 0:00 March 11, 1985 : We concluded a diplomatic deal with Singapore.
+1985-02-10 : 0:00 March 11, 1985 : United Kingdom had Mohammed Al Fayed buys Harrods. .
+1985-02-12 : 0:00 March 13, 1985 : We concluded a diplomatic deal with Norway.
+1985-02-12 : 0:00 March 13, 1985 : We concluded a diplomatic deal with Austria.
+1985-02-13 : 0:00 March 14, 1985 : Singapore had The Lionesses at Singapore Zoo. .
+1985-02-13 : 0:00 March 14, 1985 : Brazil had President-elect Tancredo Neves falls ill .
+1985-02-15 : 0:00 March 16, 1985 : United States of America had Reporter taken Hostage in Beirut! .
+1985-02-16 : 0:00 March 17, 1985 : Yugoslavia went with That's what a federation is about in Divided We Stand, United We Fall?.
+1985-02-18 : 0:00 March 19, 1985 : We concluded a diplomatic deal with Gambia.
+1985-02-18 : 0:00 March 19, 1985 : We concluded a diplomatic deal with St. Lucia.
+1985-02-19 : 0:00 March 20, 1985 : We concluded a diplomatic deal with Jamaica.
+1985-02-20 : 0:00 March 21, 1985 : Canada had Rick Hansen's Man in Motion Tour .
+1985-02-22 : 0:00 March 23, 1985 : We concluded a diplomatic deal with Benin.
+1985-02-22 : 0:00 March 23, 1985 : We concluded a diplomatic deal with Austria.
+1985-02-24 : 0:00 March 25, 1985 : Vatican had The Camerlengo Resigns .
+1985-02-25 : 0:00 March 26, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-02-25 : 0:00 March 26, 1985 : United States of America had The Academy Awards. .
+1985-02-26 : 0:00 March 27, 1985 : We concluded a diplomatic deal with Seychelles.
+1985-02-29 : 0:00 March 30, 1985 : We concluded a diplomatic deal with Barbados.
+1985-02-29 : 0:00 March 30, 1985 : We concluded a diplomatic deal with São Tomé and Príncipe.
+1985-03-05 : 0:00 April 6, 1985 : We concluded a diplomatic deal with Uganda.
+1985-03-09 : 0:00 April 10, 1985 : We concluded a diplomatic deal with Jamaica.
+1985-03-11 : 0:00 April 12, 1985 : Spain had The El Descanso bombing .
+1985-03-13 : 0:00 April 14, 1985 : Soviet Union went with Fully embrace the Perestroika! in The Perestroika.
+1985-03-13 : 0:00 April 14, 1985 : We concluded a diplomatic deal with Tonga.
+1985-03-13 : 0:00 April 14, 1985 : We concluded a diplomatic deal with Mauritania.
+1985-03-14 : 0:00 April 15, 1985 : We concluded a diplomatic deal with Tanzania.
+1985-03-15 : 0:00 April 16, 1985 : We concluded a diplomatic deal with Mali.
+1985-03-18 : 0:00 April 19, 1985 : We concluded a diplomatic deal with Madagascar.
+1985-03-19 : 0:00 April 20, 1985 : We concluded a diplomatic deal with Bahamas.
+1985-03-20 : 0:00 April 21, 1985 : Brazil had Tancredo Neves dies! .
+1985-03-20 : 0:00 April 21, 1985 : We concluded a diplomatic deal with Samoa.
+1985-03-23 : 0:00 April 24, 1985 : We concluded a diplomatic deal with Uganda.
+1985-03-24 : 0:00 April 25, 1985 : We concluded a diplomatic deal with Benin.
+1985-03-24 : 0:00 April 25, 1985 : We concluded a diplomatic deal with Antigua and Barbuda.
+1985-03-24 : 0:00 April 25, 1985 : We concluded a diplomatic deal with Maldives.
+1985-03-24 : 0:00 April 25, 1985 : We concluded a diplomatic deal with St. Lucia.
+1985-03-26 : 0:00 April 27, 1985 : South Africa had End Ban on Interracial Marriage .
+1985-03-27 : 0:00 April 28, 1985 : We concluded a diplomatic deal with Barbados.
+1985-04-00 : 0:00 May 1, 1985 : The attachment to 1st Armored Division has been upgraded to Anti-Air 1965.
+1985-04-00 : 0:00 May 1, 1985 : We concluded a diplomatic deal with Gambia.
+1985-04-01 : 0:00 May 2, 1985 : The attachment to 8th Armored Division has been upgraded to Anti-Air 1965.
+1985-04-04 : 0:00 May 5, 1985 : The attachment to 40th Mechanized Division has been upgraded to Anti-Air 1965.
+1985-04-05 : 0:00 May 6, 1985 : We concluded a diplomatic deal with Senegal.
+1985-04-06 : 0:00 May 7, 1985 : We concluded a diplomatic deal with Comoros.
+1985-04-08 : 0:00 May 9, 1985 : The following decisions are now available: Align More Towards Socialism
+1985-04-08 : 0:00 May 9, 1985 : We concluded a diplomatic deal with Jamaica.
+1985-04-10 : 0:00 May 11, 1985 : We concluded a diplomatic deal with Maldives.
+1985-04-10 : 0:00 May 11, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-04-10 : 0:00 May 11, 1985 : We concluded a diplomatic deal with Uganda.
+1985-04-11 : 0:00 May 12, 1985 : Soviet Union had Shortage of Consumer Goods .
+1985-04-11 : 0:00 May 12, 1985 : People's Republic of Bulgaria went with Beat around the bush in The Bulgarian Perestroika.
+1985-04-14 : 0:00 May 15, 1985 : United States of America had The Unabomber Strikes! .
+1985-04-14 : 0:00 May 15, 1985 : We concluded a diplomatic deal with Suriname.
+1985-04-14 : 0:00 May 15, 1985 : We concluded a diplomatic deal with Madagascar.
+1985-04-18 : 0:00 May 19, 1985 : United States of America had John Anthony Walker, Jr. .
+1985-04-19 : 0:00 May 20, 1985 : We concluded a diplomatic deal with Barbados.
+1985-04-24 : 0:00 May 25, 1985 : Bangladesh had Tropical Cyclone and Storm Surge .
+1985-05-01 : 0:00 June 2, 1985 : We concluded a diplomatic deal with Antigua and Barbuda.
+1985-05-01 : 0:00 June 2, 1985 : We concluded a diplomatic deal with Jamaica.
+1985-05-06 : 0:00 June 7, 1985 : The people of Chad declared independence from Libya.
+1985-05-06 : 0:00 June 7, 1985 : Libya have made Chad their puppet state.
+1985-05-12 : 0:00 June 13, 1985 : United States of America had Police defuses a Unabomber bomb sent to Boeing! .
+1985-05-17 : 0:00 June 18, 1985 : We concluded a diplomatic deal with Uganda.
+1985-06-26 : 0:00 July 27, 1985 : Uganda went with Okay in Military coup against Obote!.
+1985-06-26 : 0:00 July 27, 1985 : Soviet Union went with No need in Appoint Gromyko to Chairman of the Presidium of the Supreme Soviet.
+1985-07-11 : 0:00 August 12, 1985 : Soviet Union had Shortage of Consumer Goods .
+1985-08-15 : 0:00 September 16, 1985 : Japan had Expo '85 .
+1985-09-05 : 0:00 October 6, 1985 : Libya have ended their mastery over Chad.
+1985-09-16 : 0:00 October 17, 1985 : Soviet Union had Soviet Casualties Increases .
+1985-09-16 : 0:00 October 17, 1985 : Mujahideen had Mujahideen for the Jihad! .
+1985-09-29 : 0:00 October 30, 1985 : Uganda went with This gives us more time to regroup! in The Nairobi Agreement.
+1985-10-02 : 0:00 November 3, 1985 : Philippines went with Accept in Calls for election.
+1985-10-11 : 0:00 November 12, 1985 : Soviet Union had Shortage of Consumer Goods .
+1985-11-14 : 0:00 December 15, 1985 : Yugoslavia went with That's what a federation is about in The North Republics Suffers.
+1985-11-29 : 0:00 December 30, 1985 : Spain had Join the European Community .
+1985-11-29 : 0:00 December 30, 1985 : Portugal had Join the European Community .
+1986-00-00 : 0:00 January 1, 1986 : The following decisions are now available: Education Budget
+1986-00-00 : 0:00 January 1, 1986 : Libya cancelled a trade agreement they had with us.
+1986-00-11 : 0:00 January 12, 1986 : United States of America had STS-61-C: Space Shuttle Columbia is launched! .
+1986-00-17 : 0:00 January 18, 1986 : Madagascar cancelled a trade agreement they had with us.
+1986-00-23 : 0:00 January 24, 1986 : United States of America had The Voyager 2 space probe makes its first encounter with Uranus! .
+1986-00-27 : 0:00 January 28, 1986 : United States of America had STS-51-L: Space Shuttle Challenger disintegrates! .
+1986-01-06 : 0:00 February 7, 1986 : Philippines went with Fraud the election! in Snap Election.
+1986-01-10 : 0:00 February 11, 1986 : Soviet Union went with Okay in Release Anatoly Shcharansky.
+1986-01-11 : 0:00 February 12, 1986 : Soviet Union had Shortage of Consumer Goods .
+1986-01-24 : 0:00 February 25, 1986 : Philippines had The People Power Revolution .
+1986-02-20 : 0:00 March 21, 1986 : People's Republic of Bulgaria had Prime Minister Grisha Filipov .
+1986-02-21 : 0:00 March 22, 1986 : Tonga cancelled a trade agreement they had with us.
+1986-02-22 : 0:00 March 23, 1986 : Tanzania cancelled a trade agreement they had with us.
+1986-02-23 : 0:00 March 24, 1986 : Soviet Union had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : Saudi Arabia had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : Iraq had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : Iran had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : Venezuela had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : Kuwait had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : Qatar had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : Libya had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : Nigeria had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-23 : 0:00 March 24, 1986 : United Arab Emirates had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-03-22 : 0:00 April 23, 1986 : We concluded a diplomatic deal with Congo.
+1986-03-25 : 0:00 April 26, 1986 : Soviet Union had The Chernoyl disaster .
+1986-03-26 : 0:00 April 27, 1986 : Soviet Union had Pripyat evacuated! .
+1986-03-27 : 0:00 April 28, 1986 : Soviet Union had The Chernoyl disaster .
+1986-04-11 : 0:00 May 12, 1986 : Soviet Union had Shortage of Consumer Goods .
+1986-04-14 : 0:00 May 15, 1986 : Yugoslavia had A New Prime Minister .
+1986-04-16 : 0:00 May 17, 1986 : Guinea-Bissau cancelled a trade agreement they had with us.
+1986-04-21 : 0:00 May 22, 1986 : Samoa cancelled a trade agreement they had with us.
+1986-04-25 : 0:00 May 26, 1986 : São Tomé and Príncipe cancelled a trade agreement they had with us.
+1986-04-29 : 0:00 May 30, 1986 : Soviet Union had Soviet Casualties Increases .
+1986-04-29 : 0:00 May 30, 1986 : Mujahideen had Mujahideen for the Jihad! .
+1986-05-03 : 0:00 June 4, 1986 : Suriname cancelled a trade agreement they had with us.
+1986-05-11 : 0:00 June 12, 1986 : Uganda cancelled a trade agreement they had with us.
+1986-05-23 : 0:00 June 24, 1986 : Maldives cancelled a trade agreement they had with us.
+1986-05-24 : 0:00 June 25, 1986 : Lesotho cancelled a trade agreement they had with us.
+1986-07-06 : 0:00 August 7, 1986 : Mauritania cancelled a trade agreement they had with us.
+1986-07-11 : 0:00 August 12, 1986 : Soviet Union had Shortage of Consumer Goods .
+1986-08-05 : 0:00 September 6, 1986 : Yugoslavia went with Denounce in Memorandum of the Serbian Academy of Sciences and Arts.
+1986-08-21 : 0:00 September 22, 1986 : Jamaica cancelled a trade agreement they had with us.
+1986-08-23 : 0:00 September 24, 1986 : Soviet Union had The Perestroika Challenge .
+1986-08-29 : 0:00 September 30, 1986 : We concluded a diplomatic deal with Libya.
+1986-09-02 : 0:00 October 3, 1986 : Soviet Union went with Okay in Glasnost.
+1986-09-05 : 0:00 October 6, 1986 : Gambia cancelled a trade agreement they had with us.
+1986-09-28 : 0:00 October 29, 1986 : Soviet Union had Soviet Casualties Increases .
+1986-09-28 : 0:00 October 29, 1986 : Mujahideen had Mujahideen for the Jihad! .
+1986-10-11 : 0:00 November 12, 1986 : Soviet Union had Shortage of Consumer Goods .
+1986-11-14 : 0:00 December 15, 1986 : Senegal cancelled a trade agreement they had with us.
+1986-11-16 : 0:00 December 17, 1986 : Soviet Union went with Suppress them! in The Kazakhs are rioting (Jeltoqsan riots)!.
+1986-11-18 : 0:00 December 19, 1986 : People's Republic of China had Protests in Hefei .
+1986-11-25 : 0:00 December 26, 1986 : Soviet Union went with Suppress them! in The Latvians are rioting (Helsinki-86 and the first demonstrations)!.
+1987-00-00 : 0:00 January 1, 1987 : Our policy has been moved one step toward Interventionism. Current value: 6.
+1987-00-00 : 0:00 January 1, 1987 : The following decisions are now available: Education Budget
+1987-00-09 : 0:00 January 10, 1987 : People's Republic of China had Hu Yaobang is forced to resign! .
+1987-00-12 : 0:00 January 13, 1987 : Yugoslavia had Nova revija 57 .
+1987-00-13 : 0:00 January 14, 1987 : Soviet Union went with Okay in Demokratizatsiya.
+1987-00-25 : 0:00 January 26, 1987 : Federal Republic of Germany went with Elect The Social Democratic Party in West German election 1987.
+1987-01-11 : 0:00 February 12, 1987 : Soviet Union had Shortage of Consumer Goods .
+1987-01-15 : 0:00 February 16, 1987 : Bahamas cancelled a trade agreement they had with us.
+1987-02-02 : 0:00 March 3, 1987 : Benin cancelled a trade agreement they had with us.
+1987-02-27 : 0:00 March 28, 1987 : Yugoslavia had Workers Strike! .
+1987-03-02 : 0:00 April 3, 1987 : Czechoslovak Socialist Republic went with Beat around the bush in The Czech Perestroika.
+1987-03-07 : 0:00 April 8, 1987 : Soviet Union had Soviet Casualties Increases .
+1987-03-07 : 0:00 April 8, 1987 : Mujahideen had Mujahideen for the Jihad! .
+1987-03-13 : 0:00 April 14, 1987 : Comoros cancelled a trade agreement they had with us.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia went with Protect the Serbians! in Rise of Milosevic.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Slovenia declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Bosnia and Herzegovina declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Croatia declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of SAP Kosovo declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of SAP Vojvodina declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Macedonia declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Montenegro declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Slovenia their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Bosnia and Herzegovina their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Croatia their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made SAP Kosovo their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made SAP Vojvodina their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Macedonia their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Montenegro their puppet state.
+1987-03-26 : 0:00 April 27, 1987 : Italy cancelled a trade agreement they had with us.
+1987-03-27 : 0:00 April 28, 1987 : Mali cancelled a trade agreement they had with us.
+1987-03-28 : 0:00 April 29, 1987 : United States of America concluded a diplomatic deal with us.
+1987-04-11 : 0:00 May 12, 1987 : Soviet Union had Shortage of Consumer Goods .
+1987-04-13 : 0:00 May 14, 1987 : Antigua and Barbuda cancelled a trade agreement they had with us.
+1987-04-24 : 0:00 May 25, 1987 : Barbados cancelled a trade agreement they had with us.
+1987-05-00 : 0:00 June 1, 1987 : Soviet Union went with Allow majority foreign ownership in Law on Joint Ventures.
+1987-05-04 : 0:00 June 5, 1987 : Seychelles cancelled a trade agreement they had with us.
+1987-05-10 : 0:00 June 11, 1987 : United Kingdom went with Elect Right in General Election of 1987.
+1987-05-11 : 0:00 June 12, 1987 : United States of America had Tear down this wall! .
+1987-05-11 : 0:00 June 12, 1987 : Soviet Union had Tear down this wall! .
+1987-05-11 : 0:00 June 12, 1987 : We concluded a diplomatic deal with Libya.
+1987-05-13 : 0:00 June 14, 1987 : Soviet Union went with Okay in The Latvians are protesting!.
+1987-05-17 : 0:00 June 18, 1987 : St. Lucia cancelled a trade agreement they had with us.
+1987-06-05 : 0:00 July 6, 1987 : Soviet Union had Law on State Enterprise .
+1987-06-15 : 0:00 July 16, 1987 : We concluded a diplomatic deal with Libya.
+1987-06-19 : 0:00 July 20, 1987 : United Nations had United Nations Security Council Resolution 598 .
+1987-06-19 : 0:00 July 20, 1987 : People's Republic of China went with Approve in United Nations Security Council Resolution 598.
+1987-06-19 : 0:00 July 20, 1987 : France went with Approve in United Nations Security Council Resolution 598.
+1987-06-19 : 0:00 July 20, 1987 : United Kingdom went with Approve in United Nations Security Council Resolution 598.
+1987-06-19 : 0:00 July 20, 1987 : United States of America went with Approve in United Nations Security Council Resolution 598.
+1987-06-19 : 0:00 July 20, 1987 : Soviet Union went with Approve in United Nations Security Council Resolution 598.
+1987-07-11 : 0:00 August 12, 1987 : Soviet Union had Shortage of Consumer Goods .
+1987-07-22 : 0:00 August 23, 1987 : Soviet Union went with Okay in The Molotov–Ribbentrop Pact protests!.
+1987-07-22 : 0:00 August 23, 1987 : Soviet Union went with Suppress them! in The Estonians are protesting!.
+1987-07-25 : 0:00 August 26, 1987 : Austria cancelled a trade agreement they had with us.
+1987-07-29 : 0:00 August 30, 1987 : People's Republic of Poland had The Gdansk Agreement Anniversary .
+1987-07-29 : 0:00 August 30, 1987 : Soviet Union went with Okay in The Estonians are protesting!.
+1987-07-29 : 0:00 August 30, 1987 : Soviet Union went with Okay in The Estonians are protesting!.
+1987-08-09 : 0:00 September 10, 1987 : Soviet Union went with Okay in Boris Yeltsin Resignation.
+1987-08-09 : 0:00 September 10, 1987 : Soviet Union went with Dismiss and denounce him! in Boris Yeltsin's Fate.
+1987-09-13 : 0:00 October 14, 1987 : Soviet Union had Soviet Casualties Increases .
+1987-09-13 : 0:00 October 14, 1987 : Mujahideen had Mujahideen for the Jihad! .
+1987-09-16 : 0:00 October 17, 1987 : Soviet Union had The Armenians are protesting! .
+1987-10-11 : 0:00 November 12, 1987 : Soviet Union had Shortage of Consumer Goods .
+1987-10-14 : 0:00 November 15, 1987 : Socialist Republic of Romania had The Brasov Rebellion .
+1987-10-16 : 0:00 November 17, 1987 : We concluded a diplomatic deal with Congo.
+1987-10-17 : 0:00 November 18, 1987 : Soviet Union went with Okay in Latvia's Independence protest!.
+1987-10-25 : 0:00 November 26, 1987 : Yugoslavia went with Okay in The Anti-Bureaucratic Revolution.
+1987-10-25 : 0:00 November 26, 1987 : Socialist Republic of Montenegro went with Damn! in The Anti-Bureaucratic Revolution.
+1987-10-25 : 0:00 November 26, 1987 : SAP Vojvodina went with Damn! in The Anti-Bureaucratic Revolution.
+1987-10-25 : 0:00 November 26, 1987 : SAP Kosovo went with Damn! in The Anti-Bureaucratic Revolution.
+1987-10-27 : 0:00 November 28, 1987 : People's Republic of Poland went with Okay in Referendum on Political and Economic Reforms.
+1987-10-27 : 0:00 November 28, 1987 : People's Republic of Poland went with Raise the prices! in The Referendum Results!.
+1988-00-00 : 0:00 January 1, 1988 : The following decisions are now available: Education Budget
+1988-00-14 : 0:00 January 15, 1988 : Soviet Union had The Democratic Movement of Moldova .
+1988-00-25 : 0:00 January 26, 1988 : Yugoslavia had Development Program Finished .
+1988-00-29 : 0:00 January 30, 1988 : Norway cancelled a trade agreement they had with us.
+1988-00-29 : 0:00 January 30, 1988 : People's Republic of Poland had Inflation rises! .
+1988-01-01 : 0:00 February 2, 1988 : Malaysia concluded a diplomatic deal with us.
+1988-01-11 : 0:00 February 12, 1988 : Soviet Union had Shortage of Consumer Goods .
+1988-01-21 : 0:00 February 22, 1988 : Soviet Union had The Askeran Clash .
+1988-01-24 : 0:00 February 25, 1988 : Soviet Union went with Okay in The Armenians are protesting!.
+1988-02-07 : 0:00 March 8, 1988 : People's Republic of Poland went with Suppress them! in The March 1968 Events Anniversary.
+1988-02-24 : 0:00 March 25, 1988 : Czechoslovak Socialist Republic went with Suppress them! in The Candle Demonstration.
+1988-03-14 : 0:00 April 15, 1988 : Soviet Union had The Geneva Accords .
+1988-03-14 : 0:00 April 15, 1988 : Afghanistan went with Sign it! in The Geneva Accords.
+1988-03-14 : 0:00 April 15, 1988 : Pakistan went with Sign it! in The Geneva Accords.
+1988-03-14 : 0:00 April 15, 1988 : Soviet Union had Afghanistan and Pakistan have signed the Geneva Accords! .
+1988-03-14 : 0:00 April 15, 1988 : Mujahideen accepted peace with Soviet Union on the following terms : Return to Status Quo.
+1988-03-14 : 0:00 April 15, 1988 : Afghanistan had Soviet material support .
+1988-03-25 : 0:00 April 26, 1988 : Soviet Union had The Ukrainians are demostrating! .
+1988-03-28 : 0:00 April 29, 1988 : People's Republic of Poland went with Suppress them! in Strikes of Spring 1988.
+1988-03-29 : 0:00 April 30, 1988 : People's Republic of Poland went with Suppress them! in Strikes of Spring 1988.
+1988-04-00 : 0:00 May 1, 1988 : Yugoslavia went with Damn! in The Ljubljana Trial.
+1988-04-02 : 0:00 May 3, 1988 : Soviet Union had Law on Cooperatives .
+1988-04-11 : 0:00 May 12, 1988 : Soviet Union had Shortage of Consumer Goods .
+1988-04-20 : 0:00 May 21, 1988 : Soviet Union went with Sack the Armenian and Azeri party leaders! in The Nagorno-Karabakh Question.
+1988-04-26 : 0:00 May 27, 1988 : People's Republic of Hungary had Kádár resigns .
+1988-05-03 : 0:00 June 4, 1988 : Yugoslavia had Calls for resignation! .
+1988-05-15 : 0:00 June 16, 1988 : Soviet Union had The Ukrainians are protesting! .
+1988-05-16 : 0:00 June 17, 1988 : Soviet Union went with Actually, there's not much we can do... in The Abkhazian Letter.
+1988-05-21 : 0:00 June 22, 1988 : Soviet Union had The Estonian Popular Front .
+1988-06-00 : 0:00 July 1, 1988 : Soviet Union had Create The Congress of People's Deputies of The USSR .
+1988-06-06 : 0:00 July 7, 1988 : People's Republic of China had Recruitment Campaign .
+1988-06-06 : 0:00 July 7, 1988 : Soviet Union had The Ukrainians are protesting! .
+1988-06-15 : 0:00 July 16, 1988 : Soviet Union had The Popular Front of Azerbaijan .
+1988-06-19 : 0:00 July 20, 1988 : Iraq went with Accept in United Nations Security Council Resolution 598.
+1988-06-19 : 0:00 July 20, 1988 : Iran went with Accept in United Nations Security Council Resolution 598.
+1988-07-03 : 0:00 August 4, 1988 : Soviet Union had The Ukrainians are protesting! .
+1988-07-11 : 0:00 August 12, 1988 : Soviet Union had Shortage of Consumer Goods .
+1988-07-14 : 0:00 August 15, 1988 : People's Republic of Poland went with Suppress them! in Strikes of Summer 1988.
+1988-07-16 : 0:00 August 17, 1988 : People's Republic of Poland had Strikes of Summer 1988 .
+1988-07-20 : 0:00 August 21, 1988 : People's Republic of Poland had Strikes of Summer 1988 .
+1988-07-21 : 0:00 August 22, 1988 : People's Republic of Poland had Strikes of Summer 1988 .
+1988-09-04 : 0:00 October 5, 1988 : Yugoslavia went with Okay in The Yogurt Revolution.
+1988-09-04 : 0:00 October 5, 1988 : Yugoslavia annexed SAP Vojvodina.
+1988-09-05 : 0:00 October 6, 1988 : Soviet Union had The Latvian Popular Front .
+1988-09-06 : 0:00 October 7, 1988 : Socialist Republic of Montenegro went with Declare an State of Emergency in Montenegro's Rallies of Truth.
+1988-09-06 : 0:00 October 7, 1988 : Yugoslavia went with Okay in Montenegro's Rallies of Truth.
+1988-10-04 : 0:00 November 5, 1988 : Soviet Union had The Lithuanian Popular Front (Sajudis) .
+1988-10-07 : 0:00 November 8, 1988 : United States of America went with Elect Right in The United States Presidential Election of 1988.
+1988-10-07 : 0:00 November 8, 1988 : SAP Kosovo went with Actually, there's not much we can do... in Toppling of Kosovar Leadership.
+1988-10-07 : 0:00 November 8, 1988 : Yugoslavia went with Great! in Toppling of Kosovar Leadership.
+1988-10-07 : 0:00 November 8, 1988 : Yugoslavia annexed SAP Kosovo.
+1988-10-11 : 0:00 November 12, 1988 : Soviet Union had Shortage of Consumer Goods .
+1988-10-12 : 0:00 November 13, 1988 : Soviet Union had The Belarusian Popular Front .
+1988-10-12 : 0:00 November 13, 1988 : Soviet Union had Georgians are protesting! .
+1988-10-15 : 0:00 November 16, 1988 : Soviet Union had The Estonian Sovereignty Declaration .
+1988-10-15 : 0:00 November 16, 1988 : The people of Estonian SSR declared independence from Soviet Union.
+1988-10-15 : 0:00 November 16, 1988 : Soviet Union have made Estonian SSR their puppet state.
+1988-10-16 : 0:00 November 17, 1988 : People's Republic of Poland left the Military Alliance she had with Soviet Union, Czechoslovak Socialist Republic, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, German Democratic Republic and Estonian SSR.
+1988-10-17 : 0:00 November 18, 1988 : Yugoslavia had Development Program for Kosovo .
+1988-10-19 : 0:00 November 20, 1988 : Socialist Republic of Romania left the Military Alliance she had with Soviet Union, Czechoslovak Socialist Republic, People's Republic of Hungary, People's Republic of Bulgaria, German Democratic Republic and Estonian SSR.
+1988-10-22 : 0:00 November 23, 1988 : Czechoslovak Socialist Republic left the Military Alliance she had with Soviet Union, People's Republic of Hungary, People's Republic of Bulgaria, German Democratic Republic and Estonian SSR.
+1988-10-23 : 0:00 November 24, 1988 : People's Republic of Hungary left the Military Alliance she had with Soviet Union, People's Republic of Bulgaria, German Democratic Republic and Estonian SSR.
+1988-10-23 : 0:00 November 24, 1988 : People's Republic of Hungary had The Rise of Németh .
+1988-10-24 : 0:00 November 25, 1988 : German Democratic Republic left the Military Alliance she had with Soviet Union, People's Republic of Bulgaria and Estonian SSR.
+1988-10-27 : 0:00 November 28, 1988 : People's Republic of Bulgaria left the Military Alliance she had with Soviet Union and Estonian SSR.
+1988-11-06 : 0:00 December 7, 1988 : Soviet Union had The Spitak Earthquake .
+1988-11-29 : 0:00 December 30, 1988 : Yugoslavia had Mikulic resigns! .
+1989-00-00 : 0:00 January 1, 1989 : Our policy has been moved one step toward Interventionism. Current value: 7.
+1989-00-00 : 0:00 January 1, 1989 : The following decisions are now available: Education Budget
+1989-00-06 : 0:00 January 7, 1989 : People's Republic of China had Result of the recruitment campaign .
+1989-00-08 : 0:00 January 9, 1989 : Soviet Union had The People's Movement of Ukraine (Rukh) .
+1989-00-09 : 0:00 January 10, 1989 : Yugoslavia went with Okay in Montenegro's State of Emergency.
+1989-00-09 : 0:00 January 10, 1989 : Yugoslavia have made Socialist Republic of Montenegro their puppet state.
+1989-01-05 : 0:00 February 6, 1989 : People's Republic of Poland had The Polish Round Table Agreement .
+1989-01-10 : 0:00 February 11, 1989 : Malaysia cancelled a trade agreement they had with us.
+1989-01-11 : 0:00 February 12, 1989 : Soviet Union had Shortage of Consumer Goods .
+1989-01-12 : 0:00 February 13, 1989 : Libya concluded a diplomatic deal with us.
+1989-01-19 : 0:00 February 20, 1989 : Yugoslavia went with Damn! in The Kosovo Miners' Strike.
+1989-01-28 : 0:00 February 29, 1989 : We concluded a diplomatic deal with Singapore.
+1989-02-00 : 0:00 March 1, 1989 : Singapore concluded a diplomatic deal with us.
+1989-02-14 : 0:00 March 15, 1989 : People's Republic of Hungary went with Okay in The Hungarian Round Table Talks.
+1989-02-25 : 0:00 March 26, 1989 : Soviet Union had Elections for The Congress of People's Deputies! .
+1989-02-27 : 0:00 March 28, 1989 : Socialist Republic of Romania had The Letter of Six .
+1989-03-03 : 0:00 April 4, 1989 : People's Republic of Poland went with Refuse in The Polish Round Table Agreement Results.
+1989-03-07 : 0:00 April 8, 1989 : Soviet Union had Economic Conditions Deteriorate .
+1989-03-08 : 0:00 April 9, 1989 : Soviet Union went with Blame the army! in The April 9 Tragedy.
+1989-03-11 : 0:00 April 12, 1989 : We concluded a diplomatic deal with Singapore.
+1989-03-14 : 0:00 April 15, 1989 : People's Republic of China had The Tiananmen Square protests .
+1989-03-25 : 0:00 April 26, 1989 : Socialist Republic of Romania went with Lift austerity measures in Paying Off The External Debt.
+1989-04-01 : 0:00 May 2, 1989 : People's Republic of Hungary had The Pan-European Picnic .
+1989-04-01 : 0:00 May 2, 1989 : German Democratic Republic had The Pan-European Picnic .
+1989-04-01 : 0:00 May 2, 1989 : Federal Republic of Germany had The Pan-European Picnic .
+1989-04-05 : 0:00 May 6, 1989 : People's Republic of Bulgaria had The Revival Process - Open Borders .
+1989-04-08 : 0:00 May 9, 1989 : Portugal cancelled a trade agreement they had with us.
+1989-04-11 : 0:00 May 12, 1989 : Soviet Union had Shortage of Consumer Goods .
+1989-04-14 : 0:00 May 15, 1989 : People's Republic of China went with No need in The Tiananmen Square protests.
+1989-04-17 : 0:00 May 18, 1989 : Soviet Union had The Lithuanian Sovereignty Declaration .
+1989-04-17 : 0:00 May 18, 1989 : The people of Lithuanian SSR declared independence from Soviet Union.
+1989-04-17 : 0:00 May 18, 1989 : Soviet Union have made Lithuanian SSR their puppet state.
+1989-04-23 : 0:00 May 24, 1989 : Federal Republic of Germany had The West German Presidential Election of 1989 .
+1989-04-29 : 0:00 May 30, 1989 : People's Republic of Bulgaria had The Revival Process Results .
+1989-05-00 : 0:00 June 1, 1989 : Iraq went with Keep Ahvaz and offer them peace. in We have conquered Ahvaz!.
+1989-05-00 : 0:00 June 1, 1989 : Iran went with Never! We will retake our land! in The conquest of Ahvaz.
+1989-05-27 : 0:00 June 28, 1989 : Yugoslavia went with Hurrah! in The Gazimestan Speech.
+1989-06-27 : 0:00 July 28, 1989 : Soviet Union had The Latvian Sovereignty Declaration .
+1989-06-27 : 0:00 July 28, 1989 : The people of Latvian SSR declared independence from Soviet Union.
+1989-06-27 : 0:00 July 28, 1989 : Soviet Union have made Latvian SSR their puppet state.
+1989-07-11 : 0:00 August 12, 1989 : Soviet Union had Shortage of Consumer Goods .
+1989-07-22 : 0:00 August 23, 1989 : Soviet Union had The Baltic Way .
+1989-07-26 : 0:00 August 27, 1989 : Soviet Union had The Grand National Assembly .
+1989-08-01 : 0:00 September 2, 1989 : Congo cancelled a trade agreement they had with us.
+1989-08-03 : 0:00 September 4, 1989 : German Democratic Republic had The Monday Demonstrations .
+1989-08-04 : 0:00 September 5, 1989 : Soviet Union had The Azerbaijani Declaration of Sovereignty .
+1989-08-04 : 0:00 September 5, 1989 : The people of Azerbaijan SSR declared independence from Soviet Union.
+1989-08-04 : 0:00 September 5, 1989 : Soviet Union have made Azerbaijan SSR their puppet state.
+1989-08-12 : 0:00 September 13, 1989 : People's Republic of Hungary went with Okay in A Hole in The Iron Curtain.
+1989-08-12 : 0:00 September 13, 1989 : German Democratic Republic went with No need in A Hole in The Iron Curtain.
+1989-08-12 : 0:00 September 13, 1989 : Federal Republic of Germany had A Hole in The Iron Curtain .
+1989-08-17 : 0:00 September 18, 1989 : Socialist Republic of Slovenia had The Slovenian Spring .
+1989-08-17 : 0:00 September 18, 1989 : Yugoslavia went with Damn! in The Slovenian Spring.
+1989-08-17 : 0:00 September 18, 1989 : People's Republic of Hungary had The Hungarian Round Table Talks .
+1989-09-01 : 0:00 October 2, 1989 : Iran went with Offer a white peace in We have conquered Basrah!.
+1989-09-01 : 0:00 October 2, 1989 : Iraq went with We shall have peace... in The conquest of Ahvaz.
+1989-09-01 : 0:00 October 2, 1989 : Iran accepted peace with Iraq on the following terms : Return to Status Quo.
+1989-09-01 : 0:00 October 2, 1989 : German Democratic Republic went with Shoot! in The Monday Demonstrations.
+1989-09-03 : 0:00 October 4, 1989 : People's Republic of Bulgaria had The Ecoglasnost Protests .
+1989-09-05 : 0:00 October 6, 1989 : People's Republic of Bulgaria had Unrest in Bulgaria .
+1989-09-06 : 0:00 October 7, 1989 : German Democratic Republic went with Never! in 40th Anniversary of the German Democratic Republic.
+1989-09-08 : 0:00 October 9, 1989 : German Democratic Republic went with Okay in Wir sind das Volk!.
+1989-09-17 : 0:00 October 18, 1989 : German Democratic Republic had The Fall of Honecker .
+1989-09-17 : 0:00 October 18, 1989 : German Democratic Republic had Egon Krenz .
+1989-09-17 : 0:00 October 18, 1989 : Federal Republic of Germany had The Fall of Honecker .
+1989-09-22 : 0:00 October 23, 1989 : People's Republic of Hungary had Mátyás Szúrös & Miklós Németh .
+1989-09-24 : 0:00 October 25, 1989 : Soviet Union had The Sinatra Doctrine .
+1989-10-02 : 0:00 November 3, 1989 : German Democratic Republic had The Iron Curtain is Falling Apart .
+1989-10-02 : 0:00 November 3, 1989 : Federal Republic of Germany had The Iron Curtain is Falling Apart .
+1989-10-04 : 0:00 November 5, 1989 : Yugoslavia went with Damn! in Action North.
+1989-10-04 : 0:00 November 5, 1989 : Socialist Republic of Slovenia had Action North .
+1989-10-04 : 0:00 November 5, 1989 : Socialist Republic of Croatia had Action North .
+1989-10-06 : 0:00 November 7, 1989 : Soviet Union had The Moldavians are rioting! .
+1989-10-10 : 0:00 November 11, 1989 : People's Republic of Bulgaria went with Okay in The Fall of Zhivkov.
+1989-10-10 : 0:00 November 11, 1989 : Socialist Republic of Romania had The Party Congress Protest .
+1989-10-11 : 0:00 November 12, 1989 : Soviet Union had Shortage of Consumer Goods .
+1989-10-15 : 0:00 November 16, 1989 : Czechoslovak Socialist Republic went with Damn! in International Students Day Protest.
+1989-10-16 : 0:00 November 17, 1989 : Czechoslovak Socialist Republic went with Suppress them! in The Dead Student Hoax.
+1989-10-17 : 0:00 November 18, 1989 : Czechoslovak Socialist Republic went with Damn! in The Theatres Strikes.
+1989-10-18 : 0:00 November 19, 1989 : Czechoslovak Socialist Republic went with Damn! in The Public Against Violence.
+1989-10-19 : 0:00 November 20, 1989 : Czechoslovak Socialist Republic went with Damn! in Permanent Strikes.
+1989-10-20 : 0:00 November 21, 1989 : Czechoslovak Socialist Republic went with Crush the rebellion! in Mass demonstrations in Czechoslovakia.
+1989-10-21 : 0:00 November 22, 1989 : Czechoslovak Socialist Republic went with I mean it! in The Czech Glasnost.
+1989-10-23 : 0:00 November 24, 1989 : Hungary had Power Vacuum .
+1989-11-10 : 0:00 December 11, 1989 : People's Republic of Bulgaria had Fall of The Communist Regime .
+1989-11-15 : 0:00 December 16, 1989 : Socialist Republic of Romania had The Timisoara Uprising .
+1989-11-16 : 0:00 December 17, 1989 : Socialist Republic of Romania had The Crackdown .
+1989-11-17 : 0:00 December 18, 1989 : Socialist Republic of Romania had The Crackdown .
+1989-11-19 : 0:00 December 20, 1989 : Socialist Republic of Romania had The Crackdown .
+1989-11-20 : 0:00 December 21, 1989 : Socialist Republic of Romania had Ceausescu's Speech .
+1989-11-20 : 0:00 December 21, 1989 : Socialist Republic of Romania had The Romanian Revolution .
+1989-11-20 : 0:00 December 21, 1989 : Socialist Republic of Romania had The Romanian Revolution .
+1989-11-21 : 0:00 December 22, 1989 : Socialist Republic of Romania went with Ceasescu is finished in Stanculescu's Choice.
+1989-11-21 : 0:00 December 22, 1989 : Socialist Republic of Romania had Ceausescu Flees .
+1989-11-21 : 0:00 December 22, 1989 : Socialist Republic of Romania had Ceausescu is Captured! .
+1989-11-24 : 0:00 December 25, 1989 : Socialist Republic of Romania had The Ceausescus Trial and Execution .
+1990-00-00 : 0:00 January 1, 1990 : The following decisions are now available: Education Budget
+1990-00-05 : 0:00 January 6, 1990 : We concluded a diplomatic deal with Libya.
+1990-00-09 : 0:00 January 10, 1990 : Soviet Union had The War of Laws .
+1990-00-12 : 0:00 January 13, 1990 : Soviet Union went with Declare an State of Emergency in The Baku Pogrom.
+1990-00-14 : 0:00 January 15, 1990 : People's Republic of Bulgaria had Fall of The Communist Regime .
+1990-00-18 : 0:00 January 19, 1990 : Soviet Union had The Black January .
+1990-00-22 : 0:00 January 23, 1990 : Yugoslavia went with Damn! in Party Crisis.
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Slovenia had Party Crisis .
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Croatia had Party Crisis .
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Bosnia and Herzegovina had Party Crisis .
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Macedonia had Party Crisis .
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Montenegro had Party Crisis .
+1990-01-02 : 0:00 February 3, 1990 : People's Republic of Bulgaria had Andrey Lukanov .
+1990-01-10 : 0:00 February 11, 1990 : South Africa went with Free Nelson Mandela! in Nelson Mandela has been released!.
+1990-01-10 : 0:00 February 11, 1990 : South Africa had Nelson Mandela has been released! .
+1990-01-10 : 0:00 February 11, 1990 : Soviet Union went with Okay in Establish The Office of President of The USSR.
+1990-01-11 : 0:00 February 12, 1990 : Soviet Union had Shortage of Consumer Goods .
+1990-01-24 : 0:00 February 25, 1990 : We concluded a diplomatic deal with Congo.
+1990-01-26 : 0:00 February 27, 1990 : Latvian SSR had Restore Latvian National Flag .
+1990-01-26 : 0:00 February 27, 1990 : Soviet Union had Restore Latvian National Flag .
+1990-02-06 : 0:00 March 7, 1990 : Socialist Republic of Slovenia had Transition to Independence .
+1990-02-06 : 0:00 March 7, 1990 : Yugoslavia had Transition to Independence .
+1990-02-10 : 0:00 March 11, 1990 : Lithuanian SSR had The Act of the Re-Establishment of the State of Lithuania .
+1990-02-10 : 0:00 March 11, 1990 : Lithuanian SSR left the Military Alliance she had with Soviet Union, Estonian SSR, Latvian SSR and Azerbaijan SSR.
+1990-02-10 : 0:00 March 11, 1990 : Lithuanian SSR has revoked the military access for Soviet Union.
+1990-02-10 : 0:00 March 11, 1990 : Soviet Union had The Act of the Re-Establishment of the State of Lithuania .
+1990-02-10 : 0:00 March 11, 1990 : Soviet Union went with Economic blockade in Lithuanian Independence Response.
+1990-02-10 : 0:00 March 11, 1990 : Soviet Union has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Soviet Union has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Lithuania had The Soviet Union Embargoes Lithuania .
+1990-02-10 : 0:00 March 11, 1990 : United States of America has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : United States of America has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : United Kingdom has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : United Kingdom has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : France has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : France has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Canada has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Canada has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Italy has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Italy has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Federal Republic of Germany has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Federal Republic of Germany has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Japan has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Japan has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : German Democratic Republic has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : German Democratic Republic has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : People's Republic of China has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : People's Republic of China has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : People's Republic of Poland has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : People's Republic of Poland has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : People's Republic of Bulgaria has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : People's Republic of Bulgaria has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Hungary has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Hungary has enforced Technology Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Czechoslovak Socialist Republic has enforced Trade Embargo towards Lithuania.
+1990-02-10 : 0:00 March 11, 1990 : Czechoslovak Socialist Republic has enforced Technology Embargo towards Lithuania.
+1990-02-23 : 0:00 March 24, 1990 : Hungary went with Elect Right in The Hungarian Parliamentary Election.
+1990-03-07 : 0:00 April 8, 1990 : Slovenia went with Elect Nationalists in Multi-Party Elections in Slovenia.
+1990-04-00 : 0:00 May 1, 1990 : Socialist Republic of Croatia went with Elect Nationalists in Multi-Party Elections in Croatia.
+1990-04-01 : 0:00 May 2, 1990 : Socialist Republic of Croatia had Croatian Independence Referendum .
+1990-04-03 : 0:00 May 4, 1990 : Latvian SSR had The Latvian Restoration of Independence (Transitional) .
+1990-04-03 : 0:00 May 4, 1990 : Latvian SSR left the Military Alliance she had with Soviet Union, Estonian SSR and Azerbaijan SSR.
+1990-04-03 : 0:00 May 4, 1990 : Latvian SSR has revoked the military access for Soviet Union.
+1990-04-03 : 0:00 May 4, 1990 : Soviet Union had The Latvian Restoration of Independence (Transitional) .
+1990-04-03 : 0:00 May 4, 1990 : Soviet Union went with Economic blockade in Soviet response to Latvia's Independence.
+1990-04-03 : 0:00 May 4, 1990 : Soviet Union has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Soviet Union has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Latvia had The Soviet Union Embargoes Latvia .
+1990-04-03 : 0:00 May 4, 1990 : United States of America has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : United States of America has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : United Kingdom has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : United Kingdom has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : France has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : France has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Canada has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Canada has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Italy has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Italy has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Federal Republic of Germany has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Federal Republic of Germany has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Japan has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Japan has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : German Democratic Republic has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : German Democratic Republic has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : People's Republic of China has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : People's Republic of China has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : People's Republic of Poland has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : People's Republic of Poland has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : People's Republic of Bulgaria has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : People's Republic of Bulgaria has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Hungary has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Hungary has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Czechoslovak Socialist Republic has enforced Trade Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Czechoslovak Socialist Republic has enforced Technology Embargo towards Latvia.
+1990-04-03 : 0:00 May 4, 1990 : Singapore cancelled a trade agreement they had with us.
+1990-04-04 : 0:00 May 5, 1990 : Singapore concluded a diplomatic deal with us.
+1990-04-07 : 0:00 May 8, 1990 : Estonian SSR had Rename Estonia .
+1990-04-11 : 0:00 May 12, 1990 : Soviet Union had Shortage of Consumer Goods .
+1990-04-12 : 0:00 May 13, 1990 : Socialist Republic of Croatia went with Proceed in Flag Change.
+1990-04-13 : 0:00 May 14, 1990 : Yugoslavia went with Proceed in Confiscate Croatia's Weapons.
+1990-04-13 : 0:00 May 14, 1990 : Socialist Republic of Croatia had Confiscate Croatia's Weapons .
+1990-05-11 : 0:00 June 12, 1990 : Soviet Union had The Russian Sovereignty Declaration .
+1990-05-13 : 0:00 June 14, 1990 : Socialist Republic of Croatia went with Proceed in Smuggle Weapons to Croatia.
+1990-05-16 : 0:00 June 17, 1990 : People's Republic of Bulgaria had The Constitutional Assembly Elections .
+1990-05-19 : 0:00 June 20, 1990 : Soviet Union had The Uzbek Declaration of Sovereignty .
+1990-05-19 : 0:00 June 20, 1990 : The people of Uzbek SSR declared independence from Soviet Union.
+1990-05-19 : 0:00 June 20, 1990 : Soviet Union have made Uzbek SSR their puppet state.
+1990-05-22 : 0:00 June 23, 1990 : Soviet Union had The Moldavian Sovereignty Declaration .
+1990-05-22 : 0:00 June 23, 1990 : The people of SSR of Moldova declared independence from Soviet Union.
+1990-05-22 : 0:00 June 23, 1990 : Soviet Union have made SSR of Moldova their puppet state.
+1990-06-15 : 0:00 July 16, 1990 : Soviet Union had The Ukrainian Sovereignty Declaration .
+1990-06-15 : 0:00 July 16, 1990 : The people of Ukrainian SSR declared independence from Soviet Union.
+1990-06-15 : 0:00 July 16, 1990 : Soviet Union have made Ukrainian SSR their puppet state.
+1990-06-15 : 0:00 July 16, 1990 : Socialist Republic of Croatia went with Proceed in Transition to Independence.
+1990-06-26 : 0:00 July 27, 1990 : Soviet Union had The Belarusian Sovereignty Declaration .
+1990-06-26 : 0:00 July 27, 1990 : The people of Byelorussian SSR declared independence from Soviet Union.
+1990-06-26 : 0:00 July 27, 1990 : Soviet Union have made Byelorussian SSR their puppet state.
+1990-06-28 : 0:00 July 29, 1990 : Yugoslavia went with Proceed in Arm Croatian Serbs.
+1990-07-00 : 0:00 August 1, 1990 : Croatia went with No need in The Log Revolution.
+1990-07-00 : 0:00 August 1, 1990 : The people of SAO Kninska Krajina declared independence from Croatia.
+1990-07-00 : 0:00 August 1, 1990 : SAO Kninska Krajina had Serbian Paramilitary .
+1990-07-01 : 0:00 August 2, 1990 : Yugoslavia had Arm Serbian Krajina .
+1990-07-01 : 0:00 August 2, 1990 : SAO Kninska Krajina had Weapons from Serbia .
+1990-07-06 : 0:00 August 7, 1990 : Estonia had Restore Estonian National Flag .
+1990-07-11 : 0:00 August 12, 1990 : Soviet Union had Shortage of Consumer Goods .
+1990-07-22 : 0:00 August 23, 1990 : Soviet Union had The Armenian Declaration of Independence .
+1990-07-22 : 0:00 August 23, 1990 : The people of Armenia declared independence from Soviet Union.
+1990-08-00 : 0:00 September 1, 1990 : SSR of Moldova had Transnitria self-declares a Soviet Republic! .
+1990-08-00 : 0:00 September 1, 1990 : The people of Transnitria declared independence from SSR of Moldova.
+1990-09-20 : 0:00 October 21, 1990 : Romania had Recruitment Campaign .
+1990-09-24 : 0:00 October 25, 1990 : Soviet Union had The Kazakh Declaration of Sovereignty .
+1990-09-24 : 0:00 October 25, 1990 : The people of Kazakh SSR declared independence from Soviet Union.
+1990-09-24 : 0:00 October 25, 1990 : Soviet Union have made Kazakh SSR their puppet state.
+1990-09-27 : 0:00 October 28, 1990 : Switzerland cancelled a trade agreement they had with us.
+1990-10-11 : 0:00 November 12, 1990 : Soviet Union had Shortage of Consumer Goods .
+1990-10-14 : 0:00 November 15, 1990 : People's Republic of Bulgaria had The 7th Grand National Assembly .
+1990-10-18 : 0:00 November 19, 1990 : Azerbaijan SSR went with Okay in Rename Azerbaijan.
+1990-10-18 : 0:00 November 19, 1990 : Soviet Union had Rename Azerbaijan .
+1990-10-22 : 0:00 November 23, 1990 : Soviet Union went with Never! in The New Union Treaty.
+1990-10-24 : 0:00 November 25, 1990 : Socialist Republic of Bosnia and Herzegovina went with Elect Nationalists in Multi-Party Elections in Bosnia.
+1990-11-02 : 0:00 December 3, 1990 : Federal Republic of Germany went with Elect The Christian Democratic Union in German election 1990.
+1990-11-08 : 0:00 December 9, 1990 : Socialist Republic of Macedonia went with Elect Nationalists in Multi-Party Elections in Macedonia.
+1990-11-22 : 0:00 December 23, 1990 : Slovenia had Slovenian Independence Referendum .
+1991-00-00 : 0:00 January 1, 1991 : Our policy has been moved one step toward Interventionism. Current value: 8.
+1991-00-00 : 0:00 January 1, 1991 : The following decisions are now available: Education Budget
+1991-00-07 : 0:00 January 8, 1991 : Lithuania had Prunskiene Resignation .
+1991-00-07 : 0:00 January 8, 1991 : Yugoslavia went with Refuse in Reform Federation.
+1991-00-09 : 0:00 January 10, 1991 : Soviet Union went with Send an ultimatum! in The January Events.
+1991-00-10 : 0:00 January 11, 1991 : Lithuania went with Refuse in The January Events.
+1991-00-10 : 0:00 January 11, 1991 : Soviet Union went with They refuse in The January Events.
+1991-00-11 : 0:00 January 12, 1991 : Soviet Union had The January Events .
+1991-00-11 : 0:00 January 12, 1991 : Soviet Union had The January Events .
+1991-00-11 : 0:00 January 12, 1991 : Soviet Union had The January Events .
+1991-00-13 : 0:00 January 14, 1991 : Soviet Union had The Bloody Sunday .
+1991-00-14 : 0:00 January 15, 1991 : Lithuania had Brazauskas Chairman of the Presidium of the Supreme Soviet .
+1991-00-17 : 0:00 January 18, 1991 : Croatia had The Spegelj Tapes .
+1991-01-04 : 0:00 February 5, 1991 : Azerbaijan went with Okay in Azerbaijan changes flag.
+1991-01-04 : 0:00 February 5, 1991 : Soviet Union had Azerbaijan changes flag .
+1991-01-11 : 0:00 February 12, 1991 : Soviet Union had Shortage of Consumer Goods .
+1991-01-24 : 0:00 February 25, 1991 : Soviet Union had Dissolution of The Warsaw Pact .
+1991-01-24 : 0:00 February 25, 1991 : German Democratic Republic had Dissolution of The Warsaw Pact .
+1991-02-00 : 0:00 March 1, 1991 : Croatia had The Spegelj Tapes .
+1991-02-08 : 0:00 March 9, 1991 : Yugoslavia went with Okay in Serbian General Election.
+1991-02-08 : 0:00 March 9, 1991 : Yugoslavia had The March Protests .
+1991-02-11 : 0:00 March 12, 1991 : Yugoslavia went with Damn! in Declare State of Emergency.
+1991-02-20 : 5:00 March 21, 1991 : We went with §GOur inflation is around 6 percent. in Quarterly Report.
+1991-02-22 : 2:00 March 23, 1991 : Government nationalises private sector happened to us.
+1991-02-22 : 19:00 March 23, 1991 : 1980s Oil Glut (1986 Oil Price Drop)! happened to us.
+1991-02-24 : 0:00 March 25, 1991 : Yugoslavia went with Accept in The Karadordevo Agreement.
+1991-02-24 : 0:00 March 25, 1991 : Croatia went with Accept in The Karadordevo Agreement.
+1991-02-24 : 5:00 March 25, 1991 : We went with Ignore him in Rogue Politician.
+1991-02-25 : 6:00 March 26, 1991 : Major Worker Strike happened to us.
+1991-02-25 : 15:00 March 26, 1991 : Great Military Parade held in Capital happened to us.
+1991-03-00 : 0:00 April 1, 1991 : SAO Kninska Krajina had The Independence of the Serbian Krajina .
+1991-03-00 : 0:00 April 1, 1991 : Croatia went with Damn! in The Independence of the Serbian Krajina.
+1991-03-00 : 0:00 April 1, 1991 : Yugoslavia went with Great! in The Independence of the Serbian Krajina.
+1991-03-00 : 0:00 April 1, 1991 : Soviet Union had The Georgian Independence Referendum .
+1991-03-08 : 0:00 April 9, 1991 : Croatia had Creation of the Croatian National Guard .
+1991-03-08 : 0:00 April 9, 1991 : Soviet Union had The Georgian Restoration of Independence .
+1991-03-08 : 0:00 April 9, 1991 : The people of Georgia declared independence from Soviet Union.
+1991-03-20 : 0:00 April 21, 1991 : Romania had Result of the recruitment campaign .
+1991-03-21 : 0:00 April 22, 1991 : Libya cancelled a trade agreement they had with us.
+1991-04-11 : 0:00 May 12, 1991 : Soviet Union had Shortage of Consumer Goods .
+1991-05-24 : 0:00 June 25, 1991 : Croatia had Croatia's Declaration of Independence .
+1991-05-24 : 0:00 June 25, 1991 : Croatia has revoked the military access for Yugoslavia.
+1991-05-24 : 0:00 June 25, 1991 : Yugoslavia had Croatia's Declaration of Independence .
+1991-05-24 : 0:00 June 25, 1991 : Yugoslavia had Invade Croatia .
+1991-05-24 : 0:00 June 25, 1991 : Yugoslavia declared war upon Croatia.
+1991-05-24 : 0:00 June 25, 1991 : Slovenia had Slovenia's Declaration of Independence .
+1991-05-24 : 0:00 June 25, 1991 : Slovenia has revoked the military access for Yugoslavia.
+1991-05-24 : 0:00 June 25, 1991 : Yugoslavia had Slovenia's Declaration of Independence .
+1991-05-25 : 0:00 June 26, 1991 : Socialist Republic of Montenegro entered a Military Alliance with Yugoslavia.
+1991-05-25 : 0:00 June 26, 1991 : Socialist Republic of Montenegro joined the war on the same side as Yugoslavia in their war against Croatia.
+1991-05-26 : 0:00 June 27, 1991 : Yugoslavia had The Slovenian War of Independence .
+1991-05-26 : 0:00 June 27, 1991 : Yugoslavia declared war upon Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Socialist Republic of Montenegro joined the war on the same side as Yugoslavia in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Slovenia had The Slovenian War of Independence .
+1991-05-26 : 0:00 June 27, 1991 : Slovenia had Slovenia Changes Flag .
+1991-06-04 : 0:00 July 5, 1991 : European Community had The Brioni Agreement .
+1991-06-04 : 0:00 July 5, 1991 : Slovenia went with Okay in The Brioni Agreement.
+1991-06-04 : 0:00 July 5, 1991 : Yugoslavia went with Okay in The Brioni Agreement.
+1991-06-06 : 0:00 July 7, 1991 : Slovenia had The Ten-Day War .
+1991-06-06 : 0:00 July 7, 1991 : Yugoslavia accepted peace with Slovenia on the following terms : Return to Status Quo.
+1991-06-06 : 0:00 July 7, 1991 : Yugoslavia had The Ten-Day War .
+1991-07-00 : 0:00 August 1, 1991 : Croatia had Spegelj resigns .
+1991-07-11 : 0:00 August 12, 1991 : Soviet Union had Shortage of Consumer Goods .
+1991-08-24 : 0:00 September 25, 1991 : Socialist Republic of Macedonia had The Independence of Macedonia .
+1991-08-24 : 0:00 September 25, 1991 : Socialist Republic of Macedonia has revoked the military access for Yugoslavia.
+1991-08-24 : 0:00 September 25, 1991 : Yugoslavia went with Okay in The Independence of Macedonia.
+1991-09-07 : 0:00 October 8, 1991 : We concluded a diplomatic deal with Libya.
+1991-10-11 : 0:00 November 12, 1991 : Soviet Union had Shortage of Consumer Goods .
+1991-10-17 : 0:00 November 18, 1991 : Socialist Republic of Bosnia and Herzegovina had The Croatian Community of Herzeg-Bosnia .
+1991-10-17 : 0:00 November 18, 1991 : The people of Herzeg-Bosnia declared independence from Socialist Republic of Bosnia and Herzegovina.
+1991-10-17 : 0:00 November 18, 1991 : Socialist Republic of Bosnia and Herzegovina went with Damn! in The Croatian Community of Herzeg-Bosnia.
+1991-10-17 : 0:00 November 18, 1991 : Herzeg-Bosnia had Croatian Paramilitary .
+1991-11-02 : 0:00 December 3, 1991 : Yugoslavia had Development Program Finished .
+1991-11-25 : 0:00 December 26, 1991 : Yugoslavia went with Okay in The Third Yugoslavia.
+1991-11-25 : 0:00 December 26, 1991 : Socialist Republic of Bosnia and Herzegovina went with Refuse in The Third Yugoslavia.
+1992-00-00 : 0:00 January 1, 1992 : The following decisions are now available: Education Budget
+1992-00-01 : 0:00 January 2, 1992 : Yugoslavia went with Accept in The Vance Plan.
+1992-00-01 : 0:00 January 2, 1992 : Croatia went with Accept in The Vance Plan.
+1992-00-01 : 0:00 January 2, 1992 : Yugoslavia accepted peace with Croatia on the following terms : Return to Status Quo.
+1992-00-01 : 0:00 January 2, 1992 : Serbian Krajina had The Vance Plan .
+1992-00-01 : 0:00 January 2, 1992 : Socialist Republic of Bosnia and Herzegovina had The Vance Plan .
+1992-00-01 : 0:00 January 2, 1992 : United Nations had The United Nations Protection Force .
+1992-00-08 : 0:00 January 9, 1992 : Socialist Republic of Bosnia and Herzegovina had The Republic of the Serb People of Bosnia and Herzegovina .
+1992-00-08 : 0:00 January 9, 1992 : The people of Serbian Republic of Bosnia and Herzegovina declared independence from Socialist Republic of Bosnia and Herzegovina.
+1992-00-08 : 0:00 January 9, 1992 : Yugoslavia had Arm Republika Srpska .
+1992-00-08 : 0:00 January 9, 1992 : Serbian Republic of Bosnia and Herzegovina had Weapons from Serbia .
+1992-01-11 : 0:00 February 12, 1992 : Soviet Union had Shortage of Consumer Goods .
+1992-02-02 : 0:00 March 3, 1992 : Socialist Republic of Bosnia and Herzegovina had The Independence of Bosnia .
+1992-02-02 : 0:00 March 3, 1992 : Bosnia and Herzegovina has revoked the military access for Yugoslavia.
+1992-02-02 : 0:00 March 3, 1992 : Yugoslavia had The Independence of Bosnia .
+1992-03-05 : 0:00 April 6, 1992 : Serbian Republic of Bosnia and Herzegovina went with Declare War in The Bosnian War.
+1992-03-05 : 0:00 April 6, 1992 : Serbian Republic of Bosnia and Herzegovina declared war upon Bosnia and Herzegovina.
+1992-03-05 : 0:00 April 6, 1992 : Serbian Republic of Bosnia and Herzegovina declared war upon Herzeg-Bosnia.
+1992-03-08 : 0:00 April 9, 1992 : United Kingdom went with Elect Right in General Election of 1992.
+1992-03-21 : 0:00 April 22, 1992 : Serbian Republic of Bosnia and Herzegovina annexed Herzeg-Bosnia.
+1992-03-27 : 0:00 April 28, 1992 : Yugoslavia had The Federal Republic of Yugoslavia .
+1992-03-27 : 0:00 April 28, 1992 : Yugoslavia annexed Socialist Republic of Montenegro.
+1992-03-27 : 0:00 April 28, 1992 : Serbian Republic of Bosnia and Herzegovina annexed Bosnia and Herzegovina.
+1992-04-03 : 0:00 May 4, 1992 : Yugoslavia had Development Program for Montenegro .
+1992-04-11 : 0:00 May 12, 1992 : Soviet Union had Shortage of Consumer Goods .
+1992-04-17 : 0:00 May 18, 1992 : The following decisions are now available: Prolong Terms of Service
+1992-05-03 : 0:00 June 4, 1992 : Kazakh SSR went with Okay in Kazakhstan changes flag.
+1992-05-14 : 0:00 June 15, 1992 : Yugoslavia had Dobrica Cosic .
+1992-06-10 : 3:00 July 11, 1992 : We went with §GOur inflation is around 6 percent. in Quarterly Report.
+1992-07-09 : 0:00 August 10, 1992 : Congo cancelled a trade agreement they had with us.
+1992-07-11 : 0:00 August 12, 1992 : Serbian Republic of Bosnia and Herzegovina went with Yes! in The Independence of Bosnia.
+1992-07-11 : 0:00 August 12, 1992 : Soviet Union had Shortage of Consumer Goods .
+1992-09-10 : 21:00 October 11, 1992 : We went with §GOur inflation is around 6 percent. in Quarterly Report.
+1992-09-19 : 0:00 October 20, 1992 : Brazil has succeeded in stealing the blueprint for Mountain Terrain Specialization from Bolivia.  Relations between Bolivia and Brazil have been damaged due to a diplomatic incident.
+1992-10-02 : 0:00 November 3, 1992 : United States of America went with Elect Left in The United States Presidential Election of 1992.
+1992-10-11 : 0:00 November 12, 1992 : Soviet Union had Shortage of Consumer Goods .

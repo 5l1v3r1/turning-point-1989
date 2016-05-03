@@ -1,0 +1,34 @@
+airunit = {
+		id = { type = 13200 id = 115 }
+		location = 1190 #1560
+		base = 1190 #1560
+		name = "Fleet Air Force"
+		division = {
+			id = { type = 13200 id = 116 }
+			name = "1st Fleet Air Wing"
+			type     = naval_bomber
+			strength = 100
+			model = 2
+		}
+		division = {
+			id = { type = 13200 id = 117 }
+			name = "2nd Fleet Air Wing"
+			type     = naval_bomber
+			strength = 100
+			model = 2
+		}
+		division = {
+			id = { type = 13200 id = 118 }
+			name = "4th Fleet Air Wing"
+			type     = naval_bomber
+			strength = 100
+			model = 2
+		}
+        division = {
+			id = { type = 13200 id = 119 }
+			name = "5th Fleet Air Wing"
+			type     = naval_bomber
+			strength = 100
+			model = 2
+		}
+	}

@@ -1,0 +1,16 @@
+AST;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+800;Defence Force Academy;ausdeffor;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;management;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+801;Thales Australia;thalesaus;7;1000;2999;mechanics;general_equipment;technical_efficiency;management;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+802;Tenix Defence;tenixdef;7;1000;2999;mechanics;artillery;management;naval_artillery;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+803;BAE Australia;baeaus;8;1000;2999;aeronautics;submarine_tactics;naval_artillery;naval_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+804;Raytheon Australia;T17524;8;1000;2999;management;electronics;chemistry;industrial_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+805;DSTO;dstoaus;6;1000;2999;electronics;chemistry;technical_efficiency;training;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+806;Defence Intelligence Group;defintaus;6;1000;2999;mathematics;individual_courage;management;training;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+807;Warren and Brown;warrenbrown;5;1000;2999;industrial_engineering;vehicle_engineering;centralized_execution;training;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+808;Sinclair Knight Merz;skmerz;7;1000;2999;industrial_engineering;technical_efficiency;management;general_equipment;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+809;Australian Army;Australian Army;5;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+810;Joint Ops Command;jointopsaus;7;1000;2999;training;general_equipment;combined_arms_focus;technical_efficiency;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+811;Joint Logistics Command;ukrlogistics;6;1000;2999;centralized_execution;combined_arms_focus;management;technical_efficiency;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+812;Royal Australian Air Force;australianairforce;6;1000;2999;fighter_tactics;bomber_tactics;avionics;aeronautics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+813;Royal Australian Navy;Australian Navy;7;1000;2999;naval_training;seamanship;carrier_tactics;large_taskforce_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+814;ANSTO;anstonuc;5;1000;2999;nuclear_engineering;nuclear_physics;mathematics;training;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

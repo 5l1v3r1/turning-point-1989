@@ -1,0 +1,68 @@
+detachable = yes
+
+# 0 - AEW&C 1964
+model = {
+	cost 				= 8
+	buildtime			= 150
+	manpower 			= 0.33
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 3
+	subdetectioncapability		= 0
+	airdefence			= -3
+	seadefence			= -3
+	seaattack			= 3
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0.5
+	upgrade_time_factor 		= 1
+	upgrade_cost_factor 		= 0.6
+	equipment = { fighter = 100 manpower = 100 }
+}
+# 1 - AEW&C 1977
+model = {
+	cost 				= 12
+	buildtime			= 150
+	manpower 			= 0.33
+	surfacedetectioncapability	= 4
+	airdetectioncapability		= 4
+	subdetectioncapability		= 0
+	airdefence			= -5
+	seadefence			= -5
+	seaattack			= 5
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.7
+	fuelconsumption			= 0.8
+	upgrade_time_factor 		= 0.8
+	upgrade_cost_factor 		= 0.6
+	equipment = { fighter = 100 manpower = 100 }
+}
+# 2 - AEW&C 1998
+model = {
+	cost 				= 12
+	buildtime			= 150
+	manpower 			= 0.33
+	surfacedetectioncapability	= 5
+	airdetectioncapability		= 5
+	subdetectioncapability		= 5
+	airdefence			= -7
+	seadefence			= -7
+	seaattack			= 7
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.7
+	fuelconsumption			= 1
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+	equipment = { balloon = 100 manpower = 100 }
+}

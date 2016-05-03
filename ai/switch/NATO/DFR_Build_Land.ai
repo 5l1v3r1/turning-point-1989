@@ -1,0 +1,77 @@
+# DFR Land Prio Build by HansNery
+
+###################################
+# Construction and Tech Research
+###################################
+
+military = { 
+	relative_build_scheme 	= no
+
+	infantry     		= 0
+	cavalry 			= 0
+	motorized 			= 0
+	mechanized 			= 0
+	light_armor 		= 15
+   	armor       		= 0
+	paratrooper 		= 0
+	marine 				= 0
+	bergsjaeger 		= 0
+   	garrison    		= 4
+    hq 					= 3
+	militia 			= 0
+	d_01				= 40 #Infantry Brigade
+	d_02				= 15 #Motorized Brigade
+	d_03				= 2 #Special Forces Brigade
+	d_04				= 3 #Air Cavalry
+	d_05				= 0 #Marine Brigade
+	d_06				= 12 #Mechanized Brigade
+	d_07				= 0 #Missile Boat
+	d_08				= 0 #Paratrooper Brigade
+	d_09				= 1 #Mountain Brigade
+   #95 %
+	interceptor 	= 5
+	rocket_interceptor = 0
+	multi_role 		= 0
+	cas 			= 0
+	strategic_bomber = 0
+	tactical_bomber = 0
+	naval_bomber 	= 0
+	transport_plane = 0
+	flying_bomb 	= 0
+	flying_rocket 	= 0
+   #5 %
+	battleship 			= 0
+	carrier 			= 0
+	escort_carrier		= 0
+	destroyer 			= 0
+	light_cruiser 		= 0
+	heavy_cruiser 		= 0
+	battlecruiser	 	= 0
+	submarine 			= 0
+	nuclear_submarine 	= 0
+	transports 			= 0
+    #d_07				= 0	#Missile Boats
+	d_10				= 0	#Nuclear Carrier
+	d_11				= 0	#Nuclear Ballistic Submarine
+	d_12				= 0	#Nuclear Heavy Cruiser
+    #0 %
+
+
+	#### Brigades
+	artillery			= 30	#30
+	sp_artillery		= 20	#8
+	cavalry_brigade		= 0		#0
+	sp_anti_air			= 9		#0
+   	medium_armor		= 0		#0
+   	tank_destroyer		= 0		#0
+   	light_armor_brigade	= 0		#0
+   	heavy_armor			= 0		#5
+	super_heavy_armor	= 0		#0
+	armored_car			= 2		#0
+   	anti_air			= 5		#0
+   	police				= 1		#1
+	engineer			= 11	#5
+	#72 %
+}
+
+ 

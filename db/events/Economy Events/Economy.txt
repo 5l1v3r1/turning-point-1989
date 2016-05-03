@@ -1,0 +1,1582 @@
+#########################################################################
+# 							Economy Events
+#########################################################################
+# Treasury is low
+event = {
+	id = 2010000
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 
+	U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE 
+	U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA }
+	
+	trigger = {
+		ai = no
+		money = 1
+		OR = {
+			NOT = { money = 10 }
+			AND = {
+				IC = 80
+				NOT = { money = 5000 }
+			}
+			AND = {
+				NOT = { IC = 80 }
+				IC = 50
+				NOT = { money = 2500 }
+			}
+			AND = {
+				NOT = { IC = 50 }
+				IC = 30
+				NOT = { money = 1000 }
+			}	
+			AND = {
+				NOT = { IC = 30 }
+				IC = 15
+				NOT = { money = 500 }
+			}	
+			AND = {
+				NOT = { IC = 15 }
+				IC = 5
+				NOT = { money = 250 }
+			}
+		}
+	}
+	
+	name = "low_treasury"
+	desc = "low_treasury_desc"
+	style = 1
+	picture = "deficit"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 90
+	deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_ECONOMY"
+		command = { type = dissent value = 3 }
+		command = { type = local_setflag which = low_treasury }
+		command = { type = local_clrflag which = very_low_treasury }
+	}
+	action = {
+		name = "PRINT_MONEY_1"
+		ai_chance = 10
+		trigger = { 
+			NOT = { 
+				local_flag = { which = inflation when = 2 value = 50 }
+				local_flag = incomes_policy
+			} 
+		}
+		command = { type = dissent value = 5 }
+		command = { trigger = { IC = 80 } type = money value = 1000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = 800 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = 400 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = 300 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = 200 }
+		#command = { type = industrial_modifier which = total value = -0.5 } #Old inflation simulation
+		command = { type = local_setflag which = inflation when = 1 value = 1 } #Increase inflation (1%)
+		command = { type = local_clrflag which = low_treasury }
+		command = { type = local_clrflag which = very_low_treasury }
+	}
+	action = {
+		name = "PRINT_MONEY_2"
+		ai_chance = 50
+		trigger = { 
+			NOT = { 
+				local_flag = { which = inflation when = 2 value = 50 }
+				local_flag = incomes_policy
+			} 
+		}
+		command = { type = dissent value = 3 }
+		command = { trigger = { IC = 80 } type = money value = 3000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = 2400 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = 1200 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = 900 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = 600 }
+		#command = { type = industrial_modifier which = total value = -1.5 } #Old inflation simulation
+		command = { type = local_setflag which = inflation when = 1 value = 2 } #Increase inflation (2%)
+		command = { type = local_clrflag which = low_treasury }
+		command = { type = local_clrflag which = very_low_treasury }
+	}
+	action = {
+		name = "PRINT_MONEY_3"
+		ai_chance = 99
+		trigger = { 
+			NOT = { 
+				local_flag = { which = inflation when = 2 value = 50 }
+				local_flag = incomes_policy
+			} 
+		}
+		command = { type = dissent value = 1 }
+		command = { trigger = { IC = 80 } type = money value = 5000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = 4000 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = 2000 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = 1500 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = 1000 }
+		#command = { type = industrial_modifier which = total value = -2.5 } #Old inflation simulation
+		command = { type = local_setflag which = inflation when = 1 value = 3 } #Increase inflation (3%)
+		command = { type = local_clrflag which = low_treasury }
+		command = { type = local_clrflag which = very_low_treasury }
+	}
+}
+# Treasury is very low
+event = {
+	id = 2010001
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 
+	U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE 
+	U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA }
+	
+	trigger = {
+		ai = no
+		money = 1
+		OR = {
+			NOT = { money = 10 }
+			AND = {
+				IC = 80
+				NOT = { money = 2500 }
+			}
+			AND = {
+				NOT = { IC = 80 }
+				IC = 50
+				NOT = { money = 1000 }
+			}
+			AND = {
+				NOT = { IC = 50 }
+				IC = 30
+				NOT = { money = 500 }
+			}	
+			AND = {
+				NOT = { IC = 30 }
+				IC = 15
+				NOT = { money = 250 }
+			}	
+			AND = {
+				NOT = { IC = 15 }
+				IC = 5
+				NOT = { money = 100 }
+			}
+		}
+	}
+	
+	name = "low_treasury_1"
+	desc = "low_treasury_1_desc"
+	style = 1
+	picture = "past_due"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 90
+	deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_ECONOMY"
+		command = { type = dissent value = 6 }
+		command = { type = local_clrflag which = low_treasury }
+		command = { type = local_setflag which = very_low_treasury }
+	}
+	action = {
+		name = "PRINT_MONEY_1"
+		ai_chance = 10
+		trigger = { 
+			NOT = { 
+				local_flag = { which = inflation when = 2 value = 50 }
+				local_flag = incomes_policy
+			} 
+		}
+		command = { type = dissent value = 5 }
+		command = { trigger = { IC = 80 } type = money value = 1000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = 800 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = 400 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = 300 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = 200 }
+		#command = { type = industrial_modifier which = total value = -0.5 } #Old inflation simulation
+		command = { type = local_setflag which = inflation when = 1 value = 1 } #Increase inflation (1%)
+		command = { type = local_clrflag which = low_treasury }
+		command = { type = local_clrflag which = very_low_treasury }
+	}
+	action = {
+		name = "PRINT_MONEY_2"
+		ai_chance = 50
+		trigger = { 
+			NOT = { 
+				local_flag = { which = inflation when = 2 value = 50 }
+				local_flag = incomes_policy
+			} 
+		}
+		command = { type = dissent value = 3 }
+		command = { trigger = { IC = 80 } type = money value = 3000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = 2400 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = 1200 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = 900 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = 600 }
+		#command = { type = industrial_modifier which = total value = -1.5 } #Old inflation simulation
+		command = { type = local_setflag which = inflation when = 1 value = 2 } #Increase inflation (2%)
+		command = { type = local_clrflag which = low_treasury }
+		command = { type = local_clrflag which = very_low_treasury }
+	}
+	action = {
+		name = "PRINT_MONEY_3"
+		ai_chance = 99
+		trigger = { 
+			NOT = { 
+				local_flag = { which = inflation when = 2 value = 50 }
+				local_flag = incomes_policy
+			} 
+		}
+		command = { type = dissent value = 1 }
+		command = { trigger = { IC = 80 } type = money value = 5000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = 4000 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = 2000 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = 1500 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = 1000 }
+		#command = { type = industrial_modifier which = total value = -2.5 } #Old inflation simulation
+		command = { type = local_setflag which = inflation when = 1 value = 3 } #Increase inflation (3%)
+		command = { type = local_clrflag which = low_treasury }
+		command = { type = local_clrflag which = very_low_treasury }
+	}
+}
+# We are bankrupt
+event = {
+	id = 2010002
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 
+	U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE 
+	U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA }
+	
+	trigger = {
+		NOT = {
+			money = 0 
+			local_flag = bankrupt
+		}
+	}
+	
+	name = "bankruptcy"
+	desc = "bankruptcy_desc"
+	style = 1
+	picture = "riot"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 99
+		command = { type = dissent value = 50 }
+		command = { type = local_setflag which = bankrupt }
+	}
+}
+# Test
+event = {
+	id = 2010003
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 
+	U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U67 
+	UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	
+	trigger = {	
+		random = 60
+		local_flag = bankrupt
+		NOT = {
+			local_flag = government_falls
+		}
+	}
+   
+	name = "government_falls"
+	desc = "government_falls_desc" 
+	style = 2
+	picture = "news_paper"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 90
+	deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { government = { type = fascist } }
+		command = { type = regime_falls }
+		command = { type = dissent value = -20 }
+		command = { type = set_domestic which = democratic value = 7 }
+		command = { type = set_domestic which = political_left value = 3 }
+		command = { type = local_setflag which = government_falls }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { government = { type = communist } }
+		command = { type = regime_falls }
+		command = { type = dissent value = -20 }
+		command = { type = set_domestic which = democratic value = 6 }
+		command = { type = set_domestic which = political_left value = 7 }
+		command = { type = local_setflag which = government_falls }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { government = { type = democratic } }
+		command = { type = regime_falls }
+		command = { type = dissent value = -20 }
+		command = { type = set_domestic which = democratic value = 7 }
+		command = { 
+			trigger = {
+				domestic = { type = political_left value = 6 }
+			}
+			type = set_domestic which = political_left value = 3 
+		}
+		command = { 
+			trigger = {
+				NOT = { domestic = { type = political_left value = 6 } }
+			}
+			type = set_domestic which = political_left value = 7
+		}
+		command = { type = local_setflag which = government_falls }
+	}
+	action = {
+		name = "ACTION_NAME_CLING"
+		command = { type = local_setflag which = government_falls }
+	}
+}
+# Test
+event = {
+	id = 2010004
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 
+	U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U67 
+	UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	
+	decision = {}
+	decision_trigger = {}
+	trigger = {	ai = no	}
+   
+	name = "Testing Tool"
+	desc = "Decision for testing." 
+	style = 1
+	picture = "deficit"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = money value = -10000 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = money value = 10000 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -10 }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		name = "Decrease Inflation in 100"
+		command = { type = local_setflag which = inflation when = 1 value = -100 } #Decrease inflation (100%)
+	}
+	action = {
+		name = "Decrease Inflation in 10"
+		command = { type = local_setflag which = inflation when = 1 value = -10 } #Decrease inflation (10%)
+	}
+	action = {
+		name = "Decrease Inflation in 1"
+		command = { type = local_setflag which = inflation when = 1 value = -1 } #Decrease inflation (1%)
+	}
+	action = {
+		name = "Increase Inflation in 100"
+		command = { type = local_setflag which = inflation when = 1 value = 100 } #Decrease inflation (100%)
+	}
+	action = {
+		name = "Increase Inflation in 10"
+		command = { type = local_setflag which = inflation when = 1 value = 10 } #Decrease inflation (10%)
+	}
+	action = {
+		name = "Increase Inflation in 1"
+		command = { type = local_setflag which = inflation when = 1 value = 1 } #Decrease inflation (1%)
+	}
+}
+# Set inflation and interest rates
+event = {
+	id = 2010005
+	random = no
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 
+	U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U67 
+	UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	persistent = yes
+	one_action = yes
+	
+	trigger = { 
+		NOT = { local_flag = inflation }
+		ai = no
+	}
+   
+	name = "INFLATION_RATE"
+	desc = "INFLATION_RATE_DESC" 
+	style = 1
+	picture = "unemployment_rate"
+
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = AUS }
+		command = { type = local_setflag which = inflation when = 0 value = 3 } #Set inflation (3%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = BEL }
+		command = { type = local_setflag which = inflation when = 0 value = 5 } #Set inflation (5%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_HYPERINFLATION"
+		trigger = { country = BRA }
+		command = { type = local_setflag which = inflation when = 0 value = 225 } #Set inflation (225%)
+		command = { type = local_setflag which = high_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = CAN }
+		command = { type = local_setflag which = inflation when = 0 value = 4 } #Set inflation (4%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_30"
+		trigger = { country = CHL }
+		command = { type = local_setflag which = inflation when = 0 value = 31 } #Set inflation (31%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = DEN }
+		command = { type = local_setflag which = inflation when = 0 value = 5 } #Set inflation (5%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = FIN }
+		command = { type = local_setflag which = inflation when = 0 value = 5 } #Set inflation (5%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		trigger = { country = FRA }
+		command = { type = local_setflag which = inflation when = 0 value = 6 } #Set inflation (6%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = DFR }
+		command = { type = local_setflag which = inflation when = 0 value = 2 } #Set inflation (2%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		trigger = { country = ENG }
+		command = { type = local_setflag which = inflation when = 0 value = 6 } #Set inflation (6%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_20"
+		trigger = { country = GRE }
+		command = { type = local_setflag which = inflation when = 0 value = 19 } #Set inflation (19%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		trigger = { country = HUN }
+		command = { type = local_setflag which = inflation when = 0 value = 7 } #Set inflation (7%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_30"
+		trigger = { country = ICL }
+		command = { type = local_setflag which = inflation when = 0 value = 32 } #Set inflation (32%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		trigger = { country = IND }
+		command = { type = local_setflag which = inflation when = 0 value = 6 } #Set inflation (6%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = INO }
+		command = { type = local_setflag which = inflation when = 0 value = 5 } #Set inflation (5%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = IRE }
+		command = { type = local_setflag which = inflation when = 0 value = 5 } #Set inflation (5%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_HYPERINFLATION"
+		trigger = { country = ISR }
+		command = { type = local_setflag which = inflation when = 0 value = 346 } #Set inflation (346%)
+		command = { type = local_setflag which = high_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_10"
+		trigger = { country = ITA }
+		command = { type = local_setflag which = inflation when = 0 value = 9 } #Set inflation (9%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = JAP }
+		command = { type = local_setflag which = inflation when = 0 value = 2 } #Set inflation (2%)
+		command = { type = local_setflag which = low_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = LUX }
+		command = { type = local_setflag which = inflation when = 0 value = 4 } #Set inflation (4%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_HYPERINFLATION"
+		trigger = { country = MEX }
+		command = { type = local_setflag which = inflation when = 0 value = 58 } #Set inflation (58%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		trigger = { country = NOR }
+		command = { type = local_setflag which = inflation when = 0 value = 6 } #Set inflation (6%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_20"
+		trigger = { country = POR }
+		command = { type = local_setflag which = inflation when = 0 value = 20 } #Set inflation (20%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_HYPERINFLATION"
+		trigger = { country = YUG } #Actually Slovenia
+		command = { type = local_setflag which = inflation when = 0 value = 79 } #Set inflation (79%)
+		command = { type = local_setflag which = high_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_15"
+		trigger = { country = SAF }
+		command = { type = local_setflag which = inflation when = 0 value = 16 } #Set inflation (16%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = KOR }
+		command = { type = local_setflag which = inflation when = 0 value = 2 } #Set inflation (2%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_10"
+		trigger = { country = SPA }
+		command = { type = local_setflag which = inflation when = 0 value = 9 } #Set inflation (9%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		trigger = { country = SWE }
+		command = { type = local_setflag which = inflation when = 0 value = 7 } #Set inflation (7%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = SCH }
+		command = { type = local_setflag which = inflation when = 0 value = 3 } #Set inflation (3%)
+		command = { type = local_setflag which = low_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = HOL }
+		command = { type = local_setflag which = inflation when = 0 value = 2 } #Set inflation (2%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_45"
+		trigger = { country = TUR }
+		command = { type = local_setflag which = inflation when = 0 value = 46 } #Set inflation (46%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { country = USA }
+		command = { type = local_setflag which = inflation when = 0 value = 4 } #Set inflation (4%)
+		command = { type = local_setflag which = low_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		command = { type = local_setflag which = inflation when = 0 value = 6 } #Set inflation (6%)
+		command = { type = local_setflag which = average_interest_rates }
+	}
+}
+# Quarterly Report
+event = {
+	id = 2010006
+	random = no
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 
+	U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U67 
+	UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	persistent = yes
+	one_action = yes
+	
+	trigger = { ai = no }
+   
+	name = "QUARTERLY_REPORT"
+	desc = "QUARTERLY_REPORT_DESC" 
+	style = 1
+	picture = "unemployment_rate"
+
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 90
+
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { local_flag = { which = inflation when = -2 value = 6 } }
+		command = { type = dissent value = -3 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		trigger = { local_flag = { which = inflation when = 0 value = 6 } }
+		command = { type = dissent value = -1 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_10"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 6 }
+			local_flag = { which = inflation when = -1 value = 10 } 
+		}
+		command = { type = dissent value = 1 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_15"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 10 }
+			local_flag = { which = inflation when = -1 value = 15 } 
+		}
+		command = { type = dissent value = 2 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_20"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 15 }
+			local_flag = { which = inflation when = -1 value = 20 } 
+		}
+		command = { type = dissent value = 3 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_25"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 20 }
+			local_flag = { which = inflation when = -1 value = 25 } 
+		}
+		command = { type = dissent value = 4 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_30"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 25 }
+			local_flag = { which = inflation when = -1 value = 30 } 
+		}
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_35"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 30 }
+			local_flag = { which = inflation when = -1 value = 35 } 
+		}
+		command = { type = dissent value = 6 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_40"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 35 }
+			local_flag = { which = inflation when = -1 value = 40 } 
+		}
+		command = { type = dissent value = 7 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_45"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 40 }
+			local_flag = { which = inflation when = -1 value = 45 } 
+		}
+		command = { type = dissent value = 8 }
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_50"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 45 }
+			local_flag = { which = inflation when = -1 value = 50 } 
+		}
+		command = { type = dissent value = 9 }
+	}
+	action = {
+		name = "ACTION_NAME_HYPERINFLATION"
+		trigger = { local_flag = { which = inflation when = 2 value = 50 } }
+		command = { type = dissent value = 10 }
+	}
+}
+# Inflation Status
+event = {
+	id = 2010007
+	random = no
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 
+	U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U67 
+	UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	persistent = yes
+	one_action = yes
+	
+	decision = {}
+	decision_trigger = {}
+	trigger = { ai = no }
+   
+	name = "INFLATION_RATE"
+	desc = "INFLATION_RATE_DESC" 
+	style = 1
+	picture = "unemployment_rate"
+	decision_picture = "decision_inflation"
+
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+
+	action = {
+		name = "ACTION_NAME_INFLATION_BELOW_6"
+		trigger = { local_flag = { which = inflation when = -2 value = 6 } }
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_6"
+		trigger = { local_flag = { which = inflation when = 0 value = 6 } }
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_10"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 6 }
+			local_flag = { which = inflation when = -1 value = 10 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_15"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 10 }
+			local_flag = { which = inflation when = -1 value = 15 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_20"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 10 }
+			local_flag = { which = inflation when = -1 value = 20 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_25"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 20 }
+			local_flag = { which = inflation when = -1 value = 25 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_30"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 25 }
+			local_flag = { which = inflation when = -1 value = 30 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_35"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 30 }
+			local_flag = { which = inflation when = -1 value = 35 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_40"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 35 }
+			local_flag = { which = inflation when = -1 value = 40 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_45"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 40 }
+			local_flag = { which = inflation when = -1 value = 45 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_INFLATION_50"
+		trigger = { 
+			local_flag = { which = inflation when = 2 value = 45 }
+			local_flag = { which = inflation when = -1 value = 50 } 
+		}
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_HYPERINFLATION"
+		trigger = { local_flag = { which = inflation when = 2 value = 50 } }
+		command = {}
+	}
+}
+# Set Interest Rates
+event = {
+	id = 2010008
+	random = no
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 
+	U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U67 
+	UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	persistent = yes
+	
+	decision = {}
+	decision_trigger = {}
+	trigger = { ai = no }
+   
+	name = "INTEREST_RATE"
+	desc = "INTEREST_RATE_DESC" 
+	style = 1
+	picture = "unemployment_rate"
+	decision_picture = "decision_interest_rates"
+
+	date = { day = 1 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+
+	action = {
+		name = "ACTION_NAME_LOW"
+		trigger = { NOT = { local_flag = low_interest_rates } }
+		command = { type = local_setflag which = low_interest_rates }
+		command = { type = local_clrflag which = average_interest_rates }
+		command = { type = local_clrflag which = high_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_AVERAGE"
+		trigger = { NOT = { local_flag = average_interest_rates } }
+		command = { type = local_setflag which = average_interest_rates }
+		command = { type = local_clrflag which = low_interest_rates }
+		command = { type = local_clrflag which = high_interest_rates }
+	}
+	action = {
+		name = "ACTION_NAME_HIGH"
+		trigger = { NOT = { local_flag = high_interest_rates } }
+		command = { type = local_setflag which = high_interest_rates }
+		command = { type = local_clrflag which = low_interest_rates }
+		command = { type = local_clrflag which = average_interest_rates }
+	}
+}
+#########################################################################
+#  Capital Flight
+#########################################################################
+event = {
+	id = 2010009
+	random = no
+	persistent = yes
+	one_action = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				local_flag = very_low_treasury
+				random = 90
+			}
+			AND = {
+				local_flag = low_treasury
+				random = 80
+			}
+			AND = {
+				local_flag = { which = inflation when = 1 value = 10 }
+				random = 70
+			}
+			AND = {
+				dissent = 10
+				random = 60
+			}
+		}
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 60
+	
+	name = "capital_flight"
+	desc = "capital_flight_desc"
+	picture = "news_paper"
+	style = 2
+
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		trigger = { NOT = { OR = { local_flag = low_treasury local_flag = very_low_treasury local_flag = { which = inflation when = 1 value = 10 } } } }
+		command = { type = resource which = money value = -500 }
+	}
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		trigger = { OR = { local_flag = low_treasury local_flag = { which = inflation when = 1 value = 20 } dissent = 10 } }
+		command = { type = resource which = money value = -1000 }
+	}
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		trigger = { OR = { local_flag = very_low_treasury local_flag = { which = inflation when = 1 value = 30 } dissent = 20 } }
+		command = { type = resource which = money value = -2000 }
+	}
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		trigger = { OR = { local_flag = { which = inflation when = 1 value = 40 } dissent = 30 } }
+		command = { type = resource which = money value = -3000 }
+	}
+	action = {
+		name = "ACTION_NAME_OH_NO"
+		trigger = { OR = { local_flag = { which = inflation when = 1 value = 50 } dissent = 40 } }
+		command = { type = resource which = money value = -4000 }
+	}
+}
+#########################################################################
+#  Foreign Investment
+#########################################################################
+event = {
+	id = 2010010
+	random = no
+	persistent = yes
+	one_action = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				domestic = { type = free_market value = 8 }
+				random = 80
+			}
+			AND = {
+				domestic = { type = free_market value = 7 }
+				random = 70
+			}
+			AND = {
+				domestic = { type = free_market value = 6 }
+				random = 60
+			}
+			AND = {
+				domestic = { type = free_market value = 5 }
+				random = 50
+			}
+			AND = {
+				domestic = { type = free_market value = 4 }
+				random = 40
+			}
+		}
+		NOT = { 
+			OR = {
+				local_flag = { which = inflation when = 1 value = 30 } 
+				local_flag = incomes_policy
+			}
+		}
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 180
+	
+	name = "foreign_investment"
+	desc = "foreign_investment_desc"
+	picture = "news_paper"
+	style = 2
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { domestic = { type = free_market value = 4 } NOT = { domestic = { type = free_market value = 5 } local_flag = { which = inflation when = 1 value = 30 } } }
+		command = { type = industrial_modifier which = total value = 0.5 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { domestic = { type = free_market value = 5 } NOT = { domestic = { type = free_market value = 6 } local_flag = { which = inflation when = 1 value = 25 } } }
+		command = { type = industrial_modifier which = total value = 1 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { domestic = { type = free_market value = 6 } NOT = { domestic = { type = free_market value = 7 } local_flag = { which = inflation when = 1 value = 20 } } }
+		command = { type = industrial_modifier which = total value = 1.5 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { domestic = { type = free_market value = 7 } NOT = { domestic = { type = free_market value = 8 } local_flag = { which = inflation when = 1 value = 15 } } }
+		command = { type = industrial_modifier which = total value = 2 }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		trigger = { domestic = { type = free_market value = 8 } NOT = { local_flag = { which = inflation when = 1 value = 10 } } }
+		command = { type = industrial_modifier which = total value = 3 }
+	}
+}
+#########################################################################
+#  Money Supply Decreases
+#########################################################################
+event = {
+	id = 2010011
+	random = no
+	persistent = yes
+	one_action = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				local_flag = high_interest_rates 
+				random = 80
+			}
+			AND = {
+				local_flag = average_interest_rates 
+				random = 20
+			}
+		}
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 90
+	
+	name = "money_supply_decreases"
+	desc = "money_supply_decreases_desc"
+	picture = "unemployment_rate"
+	style = 1
+
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 70
+		command = { trigger = { local_flag = high_interest_rates } type = local_setflag which = inflation when = 1 value = -2 } #Decrease inflation (2%)
+		command = { trigger = { local_flag = average_interest_rates } type = local_setflag which = inflation when = 1 value = -1 } #Decrease inflation (1%)
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 20
+		command = { trigger = { local_flag = high_interest_rates } type = local_setflag which = inflation when = 1 value = -4 } #Decrease inflation (4%)
+		command = { trigger = { local_flag = average_interest_rates } type = local_setflag which = inflation when = 1 value = -2 } #Decrease inflation (2%)
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 10
+		command = { trigger = { local_flag = high_interest_rates } type = local_setflag which = inflation when = 1 value = -6 } #Decrease inflation (6%)
+		command = { trigger = { local_flag = average_interest_rates } type = local_setflag which = inflation when = 1 value = -3 } #Decrease inflation (3%)
+	}
+}
+#########################################################################
+#  Enact Incomes Policy
+#########################################################################
+event = {
+	id = 2010012
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 
+	U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U67 
+	UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	
+	decision = {
+		NOT = { domestic = { type = free_market value = 10 } }
+		NOT = { domestic = { type = free_market value = 9 } }
+		#NOT = { domestic = { type = free_market value = 8 } }
+		local_flag = { which = inflation when = 1 value = 20 }
+		NOT = { local_flag = incomes_policy }
+	}
+	decision_trigger = {}
+	trigger = { ai = no }
+   
+	name = "incomes_policy"
+	desc = "incomes_policy_desc" 
+	style = 1
+	picture = "law"
+	decision_picture = "decision_law"
+
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+
+	action = {
+		name = "ACTION_NAME_SIGN"
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = free_market value = -2 }
+		command = { type = local_setflag which = incomes_policy }
+	}
+}
+# Revoke Incomes Policy
+event = {
+	id = 2010013
+	random = no
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 
+	U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U57 U58 U59 U67 
+	UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 }
+	persistent = yes
+	
+	decision = {
+		local_flag = incomes_policy
+	}
+	decision_trigger = {}
+	trigger = { ai = no }
+   
+	name = "incomes_policy_2"
+	desc = "incomes_policy_2_desc" 
+	style = 1
+	picture = "law"
+	decision_picture = "decision_law"
+
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = 15 }
+		command = { type = local_clrflag which = incomes_policy }
+	}
+}
+# Incomes Policy decreases inflation
+event = {
+	id = 2010014
+	random = no
+	persistent = yes
+	one_action = yes
+	
+	trigger = {	
+		random = 99
+		local_flag = incomes_policy 
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 360
+	
+	name = "incomes_policy_3"
+	desc = "incomes_policy_3_desc"
+	picture = "news_paper"
+	style = 2
+
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 70
+		command = { type = local_setflag which = inflation when = 1 value = -6 } #Decrease inflation (6%)
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 20
+		command = { type = local_setflag which = inflation when = 1 value = -12 } #Decrease inflation (12%)
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 10
+		command = { type = local_setflag which = inflation when = 1 value = -18 } #Decrease inflation (18%)
+	}
+}
+#########################################################################
+#  Consumer Goods Shortage
+#########################################################################
+event = {
+	id = 2010015
+	random = no
+	persistent = yes
+
+	trigger = {
+		NOT = { country = SOV }
+		OR = {
+			local_flag = incomes_policy
+			local_flag = { which = inflation when = 1 value = 20 }
+		}
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 90
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "sov_event_1"
+	desc = "consumer_goods_shortage_desc"
+	style = 1
+	picture = "consumer_goods_shortage"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command	= { type = dissent value = 2 }
+		command	= { trigger = { local_flag = { which = inflation when = 1 value = 20 } } type = dissent value = 2 }
+		command	= { trigger = { local_flag = { which = inflation when = 1 value = 30 } } type = dissent value = 2 }
+		command	= { trigger = { local_flag = { which = inflation when = 1 value = 40 } } type = dissent value = 2 }
+		command	= { trigger = { local_flag = { which = inflation when = 1 value = 50 } } type = dissent value = 2 }
+		command = { type = industrial_modifier which = total value = -0.5 }
+		command = { trigger = { local_flag = incomes_policy } type = industrial_modifier which = total value = -0.5 }
+	}
+}
+#########################################################################
+#  High Interest Rates slows growth
+#########################################################################
+event = {
+	id = 2010016
+	random = no
+	persistent = yes
+	
+	trigger = {	
+		random = 70
+		local_flag = high_interest_rates
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 60
+	
+	name = "high_interest_rates_slows_growth"
+	desc = "high_interest_rates_slows_growth_desc"
+	picture = "unemployment_rate"
+	style = 1
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = industrial_modifier which = total value = -2 }
+	}
+}
+#########################################################################
+#  Aggregate Demand Increases
+#########################################################################
+event = {
+	id = 2010017
+	random = no
+	persistent = yes
+	one_action = yes
+	
+	trigger = {	
+		OR = {
+			AND = {
+				local_flag = low_interest_rates 
+				random = 80
+			}
+			AND = {
+				local_flag = average_interest_rates 
+				random = 20
+			}
+		}
+	}
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 90
+	
+	name = "aggregate_demand_increases"
+	desc = "aggregate_demand_increases_desc"
+	picture = "unemployment_rate"
+	style = 1
+
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 70
+		command = { trigger = { local_flag = low_interest_rates } type = industrial_modifier which = total value = 0.5 }
+		command = { trigger = { local_flag = low_interest_rates } type = local_setflag which = inflation when = 1 value = 1 } #Increase inflation (2%)
+		command = { trigger = { local_flag = average_interest_rates } type = industrial_modifier which = total value = 0.1 }
+		command = { trigger = { local_flag = average_interest_rates } type = local_setflag which = inflation when = 1 value = 1 } #Increase inflation (1%)
+	}
+	action = {
+		name = "ACTION_NAME_GOOD"
+		ai_chance = 20
+		command = { trigger = { local_flag = low_interest_rates } type = industrial_modifier which = total value = 1 }
+		command = { trigger = { local_flag = low_interest_rates } type = local_setflag which = inflation when = 1 value = 1 } #Increase inflation (4%)
+		command = { trigger = { local_flag = average_interest_rates } type = industrial_modifier which = total value = 0.5 }
+		command = { trigger = { local_flag = average_interest_rates } type = local_setflag which = inflation when = 1 value = 2 } #Increase inflation (2%)
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		ai_chance = 10
+		command = { trigger = { local_flag = low_interest_rates } type = industrial_modifier which = total value = 2 }
+		command = { trigger = { local_flag = low_interest_rates } type = local_setflag which = inflation when = 1 value = 8 } #Increase inflation (8%)
+		command = { trigger = { local_flag = average_interest_rates } type = industrial_modifier which = total value = 1 }
+		command = { trigger = { local_flag = average_interest_rates } type = local_setflag which = inflation when = 1 value = 4 } #Increase inflation (4%)
+	}
+}
+#########################################################################
+#  Invest in National Industry
+#########################################################################
+event = {
+	id = 2010018
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 
+	U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE 
+	U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA }
+	
+	decision = {
+		NOT = { local_flag = ic_investment_1 }
+		NOT = { local_flag = ic_investment_2 }
+		NOT = { local_flag = ic_investment_3 }
+		local_flag = national
+	}
+
+	decision_trigger = {
+		OR = {
+			money = 2000
+			AND = {
+				NOT = { IC = 50 }
+				money = 1500
+				}
+			AND = {
+				NOT = { IC = 30 }
+				money = 1000
+				}
+			AND = {
+				NOT = { IC = 20 }
+				money = 700
+				}	
+			AND = {
+				NOT = { IC = 10 }
+				money = 500
+				}
+			}
+	}
+
+	trigger = {	ai = no	}
+   
+	name = "invest_national_industry"
+	desc = "invest_national_industry_desc" 
+	style = 1
+	picture = "invest_industry"
+	decision_picture = "decision_invest_industry"
+
+	date = { day = 0 month = january year = 1914 }
+	offset = 120
+	deathdate = { day = 21 month = december year = 2012 }
+
+	action = { trigger = { IC = 80 money = 2000 }						 #
+		ai_chance = 30
+		name = "9000030a"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -2000 }
+		command = { type = event which = 2010019 where = -1 when = 60 }
+		command = { type = local_setflag which = ic_investment_1 }
+	}
+	action = { trigger = { IC = 80 money = 4000 }
+		ai_chance = 30
+		name = "9000030b"
+		command = { type = dissent value = -4 }
+		command = { type = money value = -4000 }
+		command = { type = event which = 2010019 where = -1 when = 120 }
+		command = { type = local_setflag which = ic_investment_2 }
+	}
+	action = { trigger = { IC = 80 money = 6000 }
+		ai_chance = 40
+		name = "9000030c"
+		command = { type = dissent value = -6 }
+		command = { type = money value = -6000 }
+		command = { type = event which = 2010019 where = -1 when = 180 }
+		command = { type = local_setflag which = ic_investment_3 }
+	}
+	action = { trigger = { IC = 50 NOT = { IC = 80 } money = 1500 }	 #
+		ai_chance = 30
+		name = "9000030a"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -1500 }
+		command = { type = event which = 2010019 where = -1 when = 60 }
+		command = { type = local_setflag which = ic_investment_1 }
+	}
+	action = { trigger = { IC = 50 NOT = { IC = 80 } money = 3000 }
+		ai_chance = 30
+		name = "9000030b"
+		command = { type = dissent value = -4 }
+		command = { type = money value = -3000 }
+		command = { type = event which = 2010019 where = -1 when = 120 }
+		command = { type = local_setflag which = ic_investment_2 }
+	}
+	action = { trigger = { IC = 50 NOT = { IC = 80 } money = 5000 }
+		ai_chance = 40
+		name = "9000030c"
+		command = { type = dissent value = -6 }
+		command = { type = money value = -5000 }
+		command = { type = event which = 2010019 where = -1 when = 180 }
+		command = { type = local_setflag which = ic_investment_3 }
+	}
+	action = { trigger = { IC = 30 NOT = { IC = 50 } money = 1000 }		 #
+		ai_chance = 30
+		name = "9000030a"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -1000 }
+		command = { type = event which = 2010019 where = -1 when = 60 }
+		command = { type = local_setflag which = ic_investment_1 }
+	}
+	action = { trigger = { IC = 30 NOT = { IC = 50 } money = 2000 }
+		ai_chance = 30
+		name = "9000030b"
+		command = { type = dissent value = -4 }
+		command = { type = money value = -2000 }
+		command = { type = event which = 2010019 where = -1 when = 120 }
+		command = { type = local_setflag which = ic_investment_2 }
+	}
+	action = { trigger = { IC = 30 NOT = { IC = 50 } money = 4000 }
+		ai_chance = 40
+		name = "9000030c"
+		command = { type = dissent value = -6 }
+		command = { type = money value = -4000 }
+		command = { type = event which = 2010019 where = -1 when = 180 }
+		command = { type = local_setflag which = ic_investment_3 }
+	}
+	action = { trigger = { IC = 20 NOT = { IC = 30 } money = 700 }		#
+		ai_chance = 30
+		name = "9000030a"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -700 }
+		command = { type = event which = 2010019 where = -1 when = 60 }
+		command = { type = local_setflag which = ic_investment_1 }
+	}
+	action = { trigger = { IC = 20 NOT = { IC = 30 } money = 1000 }
+		ai_chance = 30
+		name = "9000030b"
+		command = { type = dissent value = -4 }
+		command = { type = money value = -1000 }
+		command = { type = event which = 2010019 where = -1 when = 120 }
+		command = { type = local_setflag which = ic_investment_2 }
+	}
+	action = { trigger = { IC = 20 NOT = { IC = 30 } money = 2000 }
+		ai_chance = 40
+		name = "9000030c"
+		command = { type = dissent value = -6 }
+		command = { type = money value = -2000 }
+		command = { type = event which = 2010019 where = -1 when = 180 }
+		command = { type = local_setflag which = ic_investment_3 }
+	}
+	action = { trigger = { IC = 10 NOT = { IC = 20 } money = 500 }		 #
+		ai_chance = 30
+		name = "9000030a"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -500 }
+		command = { type = event which = 2010019 where = -1 when = 60 }
+		command = { type = local_setflag which = ic_investment_1 }
+	}
+	action = { trigger = { IC = 10 NOT = { IC = 20 } money = 1000 }
+		ai_chance = 30
+		name = "9000030b"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -1000 }
+		command = { type = event which = 2010019 where = -1 when = 120 }
+		command = { type = local_setflag which = ic_investment_2 }
+	}
+	action = { trigger = { IC = 10 NOT = { IC = 20 } money = 1500 }
+		ai_chance = 40
+		name = "9000030c"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -1500 }
+		command = { type = event which = 2010019 where = -1 when = 180 }
+		command = { type = local_setflag which = ic_investment_3 }
+	}
+}
+event = {
+	id = 2010019
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR 
+	DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY 
+	LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA 
+	SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 U12 U13 
+	U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U53 U54 U55 U56 U67 U69 UTC UER UPE 
+	U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 USA }
+
+	name = "invest_national_industry"
+	desc = "invest_national_industry_2_desc" 
+	style = 1
+	picture = "invest_industry"
+
+	action = {
+		name = ACTION_NAME_OK
+		ai_chance = 90
+		#command = { }
+		command = { trigger = { local_flag = ic_investment_1 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_1 } type = local_clrflag which = ic_investment_1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = local_clrflag which = ic_investment_2 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = industrial_modifier which = total value = 0.5 }
+		command = { trigger = { local_flag = ic_investment_3 } type = local_clrflag which = ic_investment_3 }
+		command = { type = local_setflag which = inflation when = 1 value = -2 } #Decrease inflation (2%)
+	}
+	action = {
+		name = ACTION_NAME_GOOD
+		ai_chance = 60
+		#command = { }
+		command = { trigger = { local_flag = ic_investment_1 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_1 } type = local_clrflag which = ic_investment_1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = local_clrflag which = ic_investment_2 }
+		command = { trigger = { local_flag = ic_investment_2 } type = industrial_modifier which = total value = 0.5 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = industrial_modifier which = total value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = local_clrflag which = ic_investment_3 }
+		command = { type = local_setflag which = inflation when = 1 value = -4 } #Decrease inflation (4%)
+	}
+	action = {
+		name = ACTION_NAME_EXCELLENT
+		ai_chance = 40
+		#command = { }
+		command = { trigger = { local_flag = ic_investment_1 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_1 } type = local_clrflag which = ic_investment_1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_2 } type = local_clrflag which = ic_investment_2 }
+		command = { trigger = { local_flag = ic_investment_2 } type = industrial_modifier which = total value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = construct which = ic where = -1 value = 1 }
+		command = { trigger = { local_flag = ic_investment_3 } type = industrial_modifier which = total value = 2 }
+		command = { trigger = { local_flag = ic_investment_3 } type = local_clrflag which = ic_investment_3 }
+		command = { type = local_setflag which = inflation when = 1 value = -6 } #Decrease inflation (6%)
+	}
+}

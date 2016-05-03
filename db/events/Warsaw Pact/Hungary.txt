@@ -1,0 +1,279 @@
+#########################################################################
+#  Kádár resigns
+#########################################################################
+event = {
+	id = 2022006
+	random = no
+	country = HUN
+
+	trigger = { 
+		headofgovernment = 105002
+	}
+	
+	date = { day = 26 month = may year = 1988 }
+	offset = 1
+	deathdate = { day = 5 month = july year = 1989 }
+	
+	name = "hungary_kadar_resigns"
+	desc = "hungary_kadar_resigns_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = headofgovernment which = 105022 } #Károly Grósz
+		command = { type = sleepminister which = 105002 } #Kádár dies
+	}
+}
+#########################################################################
+#  The Rise of Miklós Németh
+#########################################################################
+event = {
+	id = 2022007
+	random = no
+	country = HUN
+
+	trigger = { 
+		event = 2022006 #Kádár resigns
+		event = 2007016 #Perestroika
+	}
+	
+	date = { day = 23 month = november year = 1988 }
+	offset = 1
+	deathdate = { day = 5 month = july year = 1989 }
+	
+	name = "hungary_rise_nemeth"
+	desc = "hungary_rise_nemeth_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = headofgovernment which = 105012 } #Miklós Németh
+	}
+}
+#########################################################################
+#  The Hungarian Round Table Talks
+#########################################################################
+event = {
+	id = 2022008
+	random = no
+	country = HUN
+	
+	trigger = { 
+		event = 2022007 #The Rise of Miklós Németh
+	}
+	
+	date = { day = 14 month = march year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "hungary_round_table_talks"
+	desc = "hungary_round_table_talks_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -10 }
+		command = { type = local_setflag which = round_table }
+	}
+	action = {
+		name = ACTION_NAME_NEVER
+		command = { type = dissent value = 20 }
+	}
+}
+#  The Hungarian Round Table Talks Results
+event = {
+	id = 2022009
+	random = no
+	country = HUN
+	
+	trigger = { 
+		local_flag = round_table
+	}
+	
+	date = { day = 17 month = september year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "hungary_round_table_talks"
+	desc = "hungary_round_table_talks_1_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = dissent value = -10 }
+		command = { type = local_clrflag which = round_table }
+	}
+}
+#  Mátyás Szúrös & Miklós Németh
+event = {
+	id = 2022010
+	random = no
+	country = HUN
+	
+	trigger = { 
+		event = 2022009 #The Hungarian Round Table Talks Results
+	}
+	
+	date = { day = 22 month = october year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "hun_gov_change"
+	desc = "hun_gov_change_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = headofstate which = 105011 } #Mátyás Szurös
+		#command = { type = headofgovernment which = 105012 } #Miklós Németh
+		command = { type = name where = HUN which = TAG_HUN }
+	}
+}
+#  Power Vacuum
+event = {
+	id = 2022011
+	random = no
+	country = HUN
+	
+	trigger = { 
+		event = 2022009 #The Hungarian Round Table Talks Results
+	}
+	
+	date = { day = 23 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "hungary_power_vacuum"
+	desc = "hungary_power_vacuum_desc"
+	style = 1
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = political_left value = -3 }
+	}
+}
+#  Hungarian Parliamentary Election
+event = {
+	id = 2022012
+	random = no
+	country = HUN
+	
+	trigger = { 
+		event = 2022009 #The Hungarian Round Table Talks Results
+	}
+	
+	date = { day = 23 month = march year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "hungary_elections"
+	desc = "hungary_elections_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_ELECT_RIGHT
+		ai_chance = 99
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = democratic value = 5 }
+		command = { type = domestic which = political_left value = -3 }
+		command = { type = domestic which = freedom value = 8 }
+		command = { type = domestic which = free_market value = 7 }
+		command = { type = headofstate which = 105023 } #Árpád Göncz
+		command = { type = headofgovernment which = 105024 } #József Antall
+	}
+	action = {
+		name = ACTION_NAME_ELECT_LEFT
+		ai_chance = 1
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = democratic value = 5 }
+		command = { type = domestic which = political_left value = 3 }
+		command = { type = domestic which = freedom value = 8 }
+		command = { type = domestic which = free_market value = 3 }
+		command = { type = headofstate which = 105023 } #Árpád Göncz
+		command = { type = headofgovernment which = 105025 } #Árpád Göncz
+	}
+}
+#########################################################################
+#  The Pan-European Picnic
+#########################################################################
+event = {
+	id = 2022013
+	random = no
+	country = HUN
+	
+	trigger = { 
+		event = 2022007 #The Rise of Miklós Németh
+	}
+	
+	date = { day = 1 month = may year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "hungary_pan-european_picnic"
+	desc = "hungary_pan-european_picnic_desc"
+	style = 2
+	picture = "pan-european_picnic"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = relation which = AUS value = 50 }
+		command = { type = relation which = DDR value = -100 }
+		command = { type = relation which = CZE value = -50 }
+		command = { type = relation which = SOV value = -25 }
+		command = { type = trigger which = 2012006 } #Fire for East Germany
+	}
+}
+#########################################################################
+#  A Hole in The Iron Curtain
+#########################################################################
+event = {
+	id = 2022014
+	random = no
+	country = HUN
+	
+	trigger = { 
+		headofgovernment = 105012 #Miklós Németh
+		event = 2022013 #The Pan-European Picnic
+	}
+	
+	date = { day = 1 month = september year = 1989 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "hungary_hole_iron_curtain"
+	desc = "hungary_hole_iron_curtain_desc"
+	style = 1
+	picture = "hole_iron_curtain"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = relation which = AUS value = 100 }
+		command = { type = relation which = DDR value = -100 }
+		command = { type = relation which = CZE value = -50 }
+		command = { type = relation which = SOV value = -25 }
+		command = { type = trigger which = 2012007 } #Fire for East Germany
+	}
+	action = {
+		name = ACTION_NAME_NOT_ANGER_NEIGHBOR
+		command = { type = dissent value = 5 }
+		command = { type = relation which = DDR value = 100 }
+		command = { type = relation which = CZE value = 100 }
+	}
+}

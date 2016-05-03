@@ -1,0 +1,20 @@
+AST;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+225001;Head of State;HM Elizabeth II of Windsor;1985;2012;2012;SC;Popular Figurehead;Very High;UK1;X
+225002;Head of Government;Bob Hawke;1985;2012;2012;SL;Flamboyant Tough Guy;Very High;AST1;X
+225003;Foreign Minister;Bill Hayden;1985;2012;2012;SL;Great Compromiser;Very High;AST2;X
+225004;Minister of Armament;Kim Beazley;1985;2012;2012;SL;Resource Industrialist;Very High;AST3;X
+225005;Minister of Security;Lionel Bowen;1985;2012;2012;SL;Silent Lawyer;Very High;AST4;X
+225006;Head of Military Intelligence;Bill Hayden;1985;2012;2012;SL;Technical Specialist;Very High;AST2;X
+225007;Chief of Staff;Phillip Bennett;1985;2012;2012;ML;School of Manoeuvre;Very High;AST5;X
+225008;Chief of Army;Peter Gration;1985;2012;2012;ML;Static Defence Doctrine;Very High;AST6;X
+225009;Chief of Navy;David Leach;1985;2012;2012;ML;Open Seas Doctrine;Very High;unknown;X
+225010;Chief of Air Force;David Evans;1985;2012;2012;ML;Air Superiority Doctrine;Very High;AST7;X
+;Replacements;;;;;;;;;X
+225011;Minister of Armament;Paul Keating;1985;2012;2012;SL;Laissez-Faire Capitalist;Very High;AST8;X
+225012;Minister of Armament;John Kerin;1985;2012;2012;SL;Resource Industrialist;Very High;AST9;X
+225013;Minister of Security;Alan Wrigley;1985;2012;2012;ML;Crime Fighter;Very High;unknown;X
+225014;Head of Military Intelligence;Jim Furner;1985;2012;2012;ML;Logistics Specialist;Very High;unknown;X
+225015;Chief of Navy;Michael Hudson;1985;2012;2012;ML;Decisive Naval Battle Doctrine;Very High;AST10;X
+225016;Chief of Navy;David Martin;1985;2012;2012;ML;Power Projection Doctrine;Very High;AST11;X
+225017;Chief of Air Force;John Newham;1985;2012;2012;ML;Carpet Bombing Doctrine;Very High;AST12;X
+225018;Chief of Air Force;Ray Funnell;1985;2012;2012;ML;Air Superiority Doctrine;Very High;AST13;X

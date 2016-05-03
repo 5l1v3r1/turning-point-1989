@@ -1,0 +1,932 @@
+#########################################################################
+#  Iran-Iraq War - Iraq completely defeats Iran
+#########################################################################
+event = {
+	id = 800100
+	random = no
+	country = IRQ
+	
+	trigger = {
+		NOT = { exists = PER }
+		owned = { province = 1502 data = -1 } #Tehran
+		owned = { province = 1825 data = -1 } #Hamadan
+		owned = { province = 1498 data = -1 } #Ahvaz
+		owned = { province = 1826 data = -1 } #Shiraz
+		owned = { province = 1497 data = -1 } #Gameroon
+		#owned = { province = 1826 data = -1 } #Shiraz
+		owned = { province = 1500 data = -1 } #Mashhad
+	}
+	
+	name = "iran-iraq_war_1"
+	desc = "iran-iraq_war_1_desc"
+	style = 1
+	picture = "iraq_win"
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 7
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action_a = {
+		ai_chance = 90
+		name = "ACTION_IRAN-IRAQ_WAR_1"
+		command = { type = independence which = PER value = 1 when = 0 }
+		command = { type = make_puppet which = PER }
+	}
+	action_b = {
+		ai_chance = 10
+		name = "ACTION_IRAN-IRAQ_WAR_2"
+		command = { type = inherit which = PER value = 0 }
+		command = { type = addclaim which = 859 where = -1 }
+		command = { type = addclaim which = 1787 where = -1 }
+		command = { type = addclaim which = 1503 where = -1 }
+		command = { type = addclaim which = 1087 where = -1 }
+		command = { type = addclaim which = 1502 where = -1 }
+		command = { type = addclaim which = 1788 where = -1 }
+		command = { type = addclaim which = 1789 where = -1 }
+		command = { type = addclaim which = 1825 where = -1 }
+		command = { type = addclaim which = 1498 where = -1 }
+		command = { type = addclaim which = 1497 where = -1 }
+		command = { type = addclaim which = 1499 where = -1 }
+		command = { type = addclaim which = 1826 where = -1 }
+		command = { type = addclaim which = 1501 where = -1 }
+		command = { type = addclaim which = 1500 where = -1 }
+		command = { type = addclaim which = 1496 where = -1 }
+		command = { type = addclaim which = 1495 where = -1 }
+		command = { type = addclaim which = 2836 where = -1 }
+		command = { type = addclaim which = 2837 where = -1 }
+		command = { type = addclaim which = 2838 where = -1 }
+		command = { type = addclaim which = 2839 where = -1 }
+		command = { type = addclaim which = 2840 where = -1 }
+		command = { type = addclaim which = 2841 where = -1 }
+		command = { type = addclaim which = 2842 where = -1 }
+		command = { type = addclaim which = 2843 where = -1 }
+		command = { type = addclaim which = 2844 where = -1 }
+		command = { type = addclaim which = 2845 where = -1 }
+		command = { type = addclaim which = 2846 where = -1 }
+		command = { type = addclaim which = 4198 where = -1 }
+		command = { type = addclaim which = 4199 where = -1 }
+		command = { type = addclaim which = 4201 where = -1 }
+		command = { type = addclaim which = 4202 where = -1 }
+		command = { type = addclaim which = 4203 where = -1 }
+		command = { type = addclaim which = 4204 where = -1 }
+		command = { type = addclaim which = 4205 where = -1 }
+		command = { type = addclaim which = 4206 where = -1 }
+		command = { type = addclaim which = 4207 where = -1 }
+		command = { type = addclaim which = 4208 where = -1 }
+		command = { type = addclaim which = 4209 where = -1 }
+		command = { type = addclaim which = 4210 where = -1 }
+		command = { type = addclaim which = 4211 where = -1 }
+		command = { type = addclaim which = 4212 where = -1 }
+		command = { type = addclaim which = 4213 where = -1 }
+		command = { type = addclaim which = 4214 where = -1 }
+		command = { type = addclaim which = 4215 where = -1 }
+		command = { type = addclaim which = 4216 where = -1 }
+		command = { type = addclaim which = 4217 where = -1 }
+		command = { type = addclaim which = 4218 where = -1 }
+		command = { type = addclaim which = 4219 where = -1 }
+		command = { type = addclaim which = 4220 where = -1 }
+		command = { type = addclaim which = 4221 where = -1 }
+		command = { type = addclaim which = 4222 where = -1 }
+		command = { type = addclaim which = 4223 where = -1 }
+		command = { type = addclaim which = 4224 where = -1 }
+		command = { type = addclaim which = 4225 where = -1 }
+		command = { type = addclaim which = 4226 where = -1 }
+		command = { type = addclaim which = 4227 where = -1 }
+		command = { type = addclaim which = 4228 where = -1 }
+		command = { type = addclaim which = 4229 where = -1 }
+		command = { type = addclaim which = 4230 where = -1 }
+		command = { type = addclaim which = 4231 where = -1 }
+		command = { type = addclaim which = 4232 where = -1 }
+		command = { type = addclaim which = 4233 where = -1 }
+		command = { type = addclaim which = 4234 where = -1 }
+		command = { type = addclaim which = 6495 where = -1 }
+		command = { type = addclaim which = 7014 where = -1 }
+		command = { type = belligerence which = IRQ value = 80 }
+	}
+}
+#########################################################################
+#  Iran-Iraq War - Iraq takes Ahvaz
+#########################################################################
+event = {
+	id = 800101
+	random = no
+	country = IRQ
+	
+	decision = { 
+		war = { country = IRQ country = PER }
+		control = { province = 1498 data = -1 } #Ahvaz 
+		NOT = { control = { province = 1502 data = -1 } } #Tehran
+	}
+	decision_trigger = {
+		war = { country = IRQ country = PER }
+		control = { province = 1498 data = -1 } #Ahvaz
+		NOT = { control = { province = 1502 data = -1 } } #Tehran
+	}
+	trigger = {
+		war = { country = IRQ country = PER }
+		control = { province = 1498 data = -1 } #Ahvaz
+		NOT = { control = { province = 1502 data = -1 } } #Tehran
+	}
+	
+	name = "iran-iraq_war_2"
+	desc = "iran-iraq_war_2_desc"
+	style = 1
+	picture = "greater_iraq"
+	decision_picture = "decision_diplomatic_campaign"
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 90
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action_a = {
+		ai_chance = 90
+		name = "ACTION_IRAN-IRAQ_WAR_3"
+		command = { type = trigger which = 800102 }
+	}
+	action_b = {
+		ai_chance = 10
+		name = "ACTION_IRAN-IRAQ_WAR_4"
+		command = { type = sleepevent which = 800102 }
+		command = { type = dissent value = -5 }
+	}
+}
+#########################################################################
+#  Iran-Iraq War - Iran receives peace offer
+#########################################################################
+event = {
+	id = 800102
+	random = no
+	country = PER
+	
+	trigger = { event = 800101 }
+	
+	name = "iran-iraq_war_3"
+	desc = "iran-iraq_war_3_desc"
+	style = 1
+	picture = "greater_iraq"
+	
+	action = {
+		ai_chance = 60
+		name = "ACTION_IRAN-IRAQ_WAR_5"
+		command = { }
+	}
+	action = {
+		ai_chance = 40
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = IRQ value = 1498 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4212 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4213 when = 2 }
+		command = { type = dissent value = 20 }
+	}
+	action = {
+		trigger = { ai = yes lost_national = { country = -1 value = 20 } }
+		ai_chance = 50
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = IRQ value = 1498 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4212 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4213 when = 2 }
+		command = { type = dissent value = 20 }
+	}
+	action = {
+		trigger = { ai = yes lost_national = { country = -1 value = 30 } }
+		ai_chance = 60
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = IRQ value = 1498 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4212 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4213 when = 2 }
+		command = { type = dissent value = 20 }
+	}
+	action = {
+		trigger = { ai = yes lost_national = { country = -1 value = 40 } }
+		ai_chance = 70
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = IRQ value = 1498 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4212 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4213 when = 2 }
+		command = { type = dissent value = 20 }
+	}
+	action = {
+		trigger = { ai = yes lost_national = { country = -1 value = 50 } }
+		ai_chance = 80
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = IRQ value = 1498 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4212 when = 2 }
+		command = { type = secedeprovince which = IRQ value = 4213 when = 2 }
+		command = { type = dissent value = 20 }
+	}
+}
+#########################################################################
+#  Iran-Iraq War - Iran completely defeats Iraq
+#########################################################################
+event = {
+	id = 800103
+	random = no
+	country = PER
+	
+	trigger = {
+		NOT = { exists = IRQ }
+		owned = { province = 1865 data = -1 } #Baghdad
+		owned = { province = 1866 data = -1 } #Al-Kut
+		owned = { province = 1864 data = -1 } #Al-Hillah
+		owned = { province = 1823 data = -1 } #Al-Basrah
+	}
+	
+	name = "iran-iraq_war_4"
+	desc = "iran-iraq_war_4_desc"
+	style = 1
+	picture = "iran_win"
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 7
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		ai_chance = 90
+		name = "ACTION_IRAN-IRAQ_WAR_9"
+		command = { type = independence which = IRQ value = 1 when = 0 }
+		command = { type = make_puppet which = IRQ }
+	}
+	action = {
+		ai_chance = 30
+		name = "ACTION_IRAN-IRAQ_WAR_10"
+		command = { type = addclaim which = 1823 where = -1 }
+		command = { type = independence which = IRQ value = 1 when = 0 }
+		command = { type = make_puppet which = IRQ }
+		command = { type = belligerence which = PER value = 5 }
+	}
+	action = {
+		ai_chance = 20
+		name = "ACTION_IRAN-IRAQ_WAR_11"
+		command = { type = independence which = KUR value = 1 when = 0 }
+		command = { type = make_puppet which = KUR }
+		command = { type = independence which = IRQ value = 1 when = 0 }
+		command = { type = make_puppet which = IRQ }
+	}
+	action = {
+		ai_chance = 40
+		name = "ACTION_IRAN-IRAQ_WAR_12"
+		command = { type = addclaim which = 1823 where = -1 }
+		command = { type = independence which = KUR value = 1 when = 0 }
+		command = { type = make_puppet which = KUR }
+		command = { type = independence which = IRQ value = 1 when = 0 }
+		command = { type = make_puppet which = IRQ }
+	}
+	action = {
+		ai_chance = 30
+		name = "ACTION_IRAN-IRAQ_WAR_13"
+		command = { type = independence which = KUR value = 1 when = 0 }
+		command = { type = make_puppet which = KUR }
+		command = { type = inherit which = IRQ value = 0 }
+		command = { type = addclaim which = 1864 where = -1 }
+		command = { type = addclaim which = 1865 where = -1 }
+		command = { type = addclaim which = 1866 where = -1 }
+		command = { type = addclaim which = 1790 where = -1 }
+		command = { type = addclaim which = 1824 where = -1 }
+		command = { type = addclaim which = 1823 where = -1 }
+		command = { type = addclaim which = 1806 where = -1 }
+		command = { type = addclaim which = 1791 where = -1 }
+		command = { type = addclaim which = 4153 where = -1 }
+		command = { type = addclaim which = 4157 where = -1 }
+		command = { type = addclaim which = 4158 where = -1 }
+		command = { type = addclaim which = 4159 where = -1 }
+		command = { type = addclaim which = 4160 where = -1 }
+		command = { type = addclaim which = 4161 where = -1 }
+		command = { type = addclaim which = 4162 where = -1 }
+		command = { type = addclaim which = 4163 where = -1 }
+		command = { type = addclaim which = 4164 where = -1 }
+		command = { type = addclaim which = 4165 where = -1 }
+		command = { type = addclaim which = 7350 where = -1 }
+		command = { type = belligerence which = PER value = 60 }
+	}
+	action = {
+		ai_chance = 10
+		name = "ACTION_IRAN-IRAQ_WAR_14"
+		command = { type = inherit which = IRQ value = 0 }
+		command = { type = addclaim which = 1860 where = -1 }
+		command = { type = addclaim which = 1864 where = -1 }
+		command = { type = addclaim which = 1865 where = -1 }
+		command = { type = addclaim which = 1866 where = -1 }
+		command = { type = addclaim which = 1790 where = -1 }
+		command = { type = addclaim which = 1824 where = -1 }
+		command = { type = addclaim which = 1823 where = -1 }
+		command = { type = addclaim which = 1806 where = -1 }
+		command = { type = addclaim which = 1791 where = -1 }
+		command = { type = addclaim which = 710 where = -1 }
+		command = { type = addclaim which = 2496 where = -1 }
+		command = { type = addclaim which = 4153 where = -1 }
+		command = { type = addclaim which = 4154 where = -1 }
+		command = { type = addclaim which = 4155 where = -1 }
+		command = { type = addclaim which = 4156 where = -1 }
+		command = { type = addclaim which = 4157 where = -1 }
+		command = { type = addclaim which = 4158 where = -1 }
+		command = { type = addclaim which = 4159 where = -1 }
+		command = { type = addclaim which = 4160 where = -1 }
+		command = { type = addclaim which = 4161 where = -1 }
+		command = { type = addclaim which = 4162 where = -1 }
+		command = { type = addclaim which = 4163 where = -1 }
+		command = { type = addclaim which = 4164 where = -1 }
+		command = { type = addclaim which = 4165 where = -1 }
+		command = { type = addclaim which = 7349 where = -1 }
+		command = { type = addclaim which = 7350 where = -1 }
+		command = { type = addclaim which = 7977 where = -1 }
+		command = { type = belligerence which = PER value = 70 }
+	}
+}
+#########################################################################
+#  Iran-Iraq War - Iran takes Basrah
+#########################################################################
+event = {
+	id = 800104
+	random = no
+	country = PER
+	
+	decision = { 
+		war = { country = PER country = IRQ }
+		control = { province = 1823 data = -1 } #Basrah
+		NOT = { control = { province = 1865 data = -1 } } #Baghdad
+	}
+	decision_trigger = {
+		war = { country = PER country = IRQ }
+		control = { province = 1823 data = -1 } #Basrah
+		NOT = { control = { province = 1865 data = -1 } } #Baghdad
+	}
+	trigger = {
+		war = { country = PER country = IRQ }
+		control = { province = 1823 data = -1 } #Basrah
+		NOT = { control = { province = 1865 data = -1 } } #Baghdad
+	}
+	
+	name = "iran-iraq_war_5"
+	desc = "iran-iraq_war_5_desc"
+	style = 1
+	picture = "iran_win_2"
+	decision_picture = "decision_diplomatic_campaign"
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 90
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		ai_chance = 40
+		name = "ACTION_NAME_WHITE_PEACE"
+		command = { type = trigger which = 800105 }
+		command = { type = dissent value = -5 }
+	}
+	action = {
+		ai_chance = 60
+		name = "ACTION_IRAN-IRAQ_WAR_7"
+		command = { type = trigger which = 800106 }
+		command = { type = dissent value = -10 }
+	}
+	action = {
+		ai_chance = 10
+		name = "ACTION_IRAN-IRAQ_WAR_8"
+		command = { type = sleepevent which = 800105 }
+		command = { type = sleepevent which = 800106 }
+	}
+}
+#########################################################################
+#  Iran-Iraq War - Iraq receives white peace offer
+#########################################################################
+event = {
+	id = 800105
+	random = no
+	country = IRQ
+	
+	trigger = { event = 800104 }
+	
+	name = "iran-iraq_war_3"
+	desc = "iran-iraq_war_3_desc"
+	style = 1
+	picture = "iran_win"
+	
+	
+	action = {
+		ai_chance = 70
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = PER value = 0 }
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		ai_chance = 30
+		name = "ACTION_IRAN-IRAQ_WAR_5"
+		command = { }
+	}
+}
+#########################################################################
+#  Iran-Iraq War - Iraq receives peace offer (loses Basrah)
+#########################################################################
+event = {
+	id = 800106
+	random = no
+	country = IRQ
+	
+	trigger = { event = 800104 }
+	
+	name = "iran-iraq_war_3"
+	desc = "iran-iraq_war_3_desc"
+	style = 1
+	picture = "iran_win"
+	
+	action = {
+		ai_chance = 10
+		name = "ACTION_IRAN-IRAQ_WAR_5"
+		command = { }
+	}
+	action = {
+		ai_chance = 50
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = PER value = 0 }
+		command = { type = secedeprovince which = PER value = 1823 when = 2 }
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		trigger = { ai = yes lost_national = { country = -1 value = 20 } }
+		ai_chance = 60
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = PER value = 1823 when = 2 }
+		command = { type = dissent value = 15 }
+	}
+	action = {
+		trigger = { ai = yes lost_national = { country = -1 value = 30 } }
+		ai_chance = 70
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = PER value = 1823 when = 2 }
+		command = { type = dissent value = 20 }
+	}
+	action = {
+		trigger = { ai = yes lost_national = { country = -1 value = 40 } }
+		ai_chance = 80
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = PER value = 1823 when = 2 }
+		command = { type = dissent value = 25 }
+	}
+	action = {
+		trigger = { ai = yes lost_national = { country = -1 value = 50 } }
+		ai_chance = 90
+		name = "ACTION_WE_SHALL_HAVE_PEACE"
+		command = { type = peace which = IRQ value = 0 }
+		command = { type = secedeprovince which = PER value = 1823 when = 2 }
+		command = { type = dissent value = 30 }
+	}
+}
+#########################################################################
+#  The USA Surrenders to the Soviet Union
+#########################################################################
+event = {
+	id = 800107
+	random = no
+	country = USA
+	
+	decision = {
+		lost_national = { country = -1 value = 10 }
+		war = { country = USA country = SOV }
+	}
+	decision_trigger = {
+		lost_national = { country = -1 value = 60 }
+		war = { country = USA country = SOV }
+		OR = {
+			control = { province = 606 data = SOV } #Washington
+			AND = { 
+				alliance = { country = SOV country = CHC }
+				control = { province = 606 data = CHC } 
+			}
+			AND = { 
+				alliance = { country = SOV country = DDR }
+				control = { province = 606 data = DDR } 
+			}
+			AND = { 
+				alliance = { country = SOV country = POL }
+				control = { province = 606 data = POL } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CZE }
+				control = { province = 606 data = CZE } 
+			}
+			AND = { 
+				alliance = { country = SOV country = HUN }
+				control = { province = 606 data = HUN } 
+			}
+			AND = { 
+				alliance = { country = SOV country = ROM }
+				control = { province = 606 data = ROM } 
+			}
+			AND = { 
+				alliance = { country = SOV country = BUL }
+				control = { province = 606 data = BUL }
+			}
+			AND = { 
+				alliance = { country = SOV country = PRK }
+				control = { province = 606 data = PRK } 
+			}
+			AND = { 
+				alliance = { country = SOV country = YUG }
+				control = { province = 606 data = YUG } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CUB }
+				control = { province = 606 data = CUB } 
+			}
+		}
+		OR = {
+			control = { province = 602 data = SOV } #New York
+			AND = { 
+				alliance = { country = SOV country = CHC }
+				control = { province = 602 data = CHC } 
+			}
+			AND = { 
+				alliance = { country = SOV country = DDR }
+				control = { province = 602 data = DDR } 
+			}
+			AND = { 
+				alliance = { country = SOV country = POL }
+				control = { province = 602 data = POL } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CZE }
+				control = { province = 602 data = CZE } 
+			}
+			AND = { 
+				alliance = { country = SOV country = HUN }
+				control = { province = 602 data = HUN } 
+			}
+			AND = { 
+				alliance = { country = SOV country = ROM }
+				control = { province = 602 data = ROM } 
+			}
+			AND = { 
+				alliance = { country = SOV country = BUL }
+				control = { province = 602 data = BUL }
+			}
+			AND = { 
+				alliance = { country = SOV country = PRK }
+				control = { province = 602 data = PRK } 
+			}
+			AND = { 
+				alliance = { country = SOV country = YUG }
+				control = { province = 602 data = YUG } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CUB }
+				control = { province = 602 data = CUB } 
+			}
+	} 
+	OR = {
+		control = { province = 608 data = SOV } #Philadelphia
+			AND = { 
+				alliance = { country = SOV country = CHC }
+				control = { province = 608 data = CHC } 
+			}
+			AND = { 
+				alliance = { country = SOV country = DDR }
+				control = { province = 608 data = DDR } 
+			}
+			AND = { 
+				alliance = { country = SOV country = POL }
+				control = { province = 608 data = POL } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CZE }
+				control = { province = 608 data = CZE } 
+			}
+			AND = { 
+				alliance = { country = SOV country = HUN }
+				control = { province = 608 data = HUN } 
+			}
+			AND = { 
+				alliance = { country = SOV country = ROM }
+				control = { province = 608 data = ROM } 
+			}
+			AND = { 
+				alliance = { country = SOV country = BUL }
+				control = { province = 608 data = BUL }
+			}
+			AND = { 
+				alliance = { country = SOV country = PRK }
+				control = { province = 608 data = PRK } 
+			}
+			AND = { 
+				alliance = { country = SOV country = YUG }
+				control = { province = 608 data = YUG } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CUB }
+				control = { province = 608 data = CUB } 
+			}
+	}
+}
+trigger = {
+	lost_national = { country = -1 value = 90 }
+	war = { country = USA country = SOV }
+	OR = {
+		control = { province = 606 data = SOV } #Washington
+			AND = { 
+				alliance = { country = SOV country = CHC }
+				control = { province = 606 data = CHC } 
+			}
+			AND = { 
+				alliance = { country = SOV country = DDR }
+				control = { province = 606 data = DDR } 
+			}
+			AND = { 
+				alliance = { country = SOV country = POL }
+				control = { province = 606 data = POL } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CZE }
+				control = { province = 606 data = CZE } 
+			}
+			AND = { 
+				alliance = { country = SOV country = HUN }
+				control = { province = 606 data = HUN } 
+			}
+			AND = { 
+				alliance = { country = SOV country = ROM }
+				control = { province = 606 data = ROM } 
+			}
+			AND = { 
+				alliance = { country = SOV country = BUL }
+				control = { province = 606 data = BUL }
+			}
+			AND = { 
+				alliance = { country = SOV country = PRK }
+				control = { province = 606 data = PRK } 
+			}
+			AND = { 
+				alliance = { country = SOV country = YUG }
+				control = { province = 606 data = YUG } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CUB }
+				control = { province = 606 data = CUB } 
+			}
+	}
+	OR = {
+		control = { province = 602 data = SOV } #New York
+			AND = { 
+				alliance = { country = SOV country = CHC }
+				control = { province = 602 data = CHC } 
+			}
+			AND = { 
+				alliance = { country = SOV country = DDR }
+				control = { province = 602 data = DDR } 
+			}
+			AND = { 
+				alliance = { country = SOV country = POL }
+				control = { province = 602 data = POL } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CZE }
+				control = { province = 602 data = CZE } 
+			}
+			AND = { 
+				alliance = { country = SOV country = HUN }
+				control = { province = 602 data = HUN } 
+			}
+			AND = { 
+				alliance = { country = SOV country = ROM }
+				control = { province = 602 data = ROM } 
+			}
+			AND = { 
+				alliance = { country = SOV country = BUL }
+				control = { province = 602 data = BUL }
+			}
+			AND = { 
+				alliance = { country = SOV country = PRK }
+				control = { province = 602 data = PRK } 
+			}
+			AND = { 
+				alliance = { country = SOV country = YUG }
+				control = { province = 602 data = YUG } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CUB }
+				control = { province = 602 data = CUB } 
+			}
+	} 
+	OR = {
+		control = { province = 608 data = SOV } #Philadelphia
+			AND = { 
+				alliance = { country = SOV country = CHC }
+				control = { province = 608 data = CHC } 
+			}
+			AND = { 
+				alliance = { country = SOV country = DDR }
+				control = { province = 608 data = DDR } 
+			}
+			AND = { 
+				alliance = { country = SOV country = POL }
+				control = { province = 608 data = POL } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CZE }
+				control = { province = 608 data = CZE } 
+			}
+			AND = { 
+				alliance = { country = SOV country = HUN }
+				control = { province = 608 data = HUN } 
+			}
+			AND = { 
+				alliance = { country = SOV country = ROM }
+				control = { province = 608 data = ROM } 
+			}
+			AND = { 
+				alliance = { country = SOV country = BUL }
+				control = { province = 608 data = BUL }
+			}
+			AND = { 
+				alliance = { country = SOV country = PRK }
+				control = { province = 608 data = PRK } 
+			}
+			AND = { 
+				alliance = { country = SOV country = YUG }
+				control = { province = 608 data = YUG } 
+			}
+			AND = { 
+				alliance = { country = SOV country = CUB }
+				control = { province = 608 data = CUB } 
+			}
+		}
+	}
+	
+	name = "us_surrender_sov"
+	desc = "us_surrender_sov_desc"
+	style = 1
+	picture = "news_paper"
+	decision_picture = "decision_diplomatic_campaign"
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_DEFEAT"
+		ai_chance = 100
+		command = { type = dissent value = 10 }
+		command = { type = peace which = SOV value = 1 }
+		command = { type = leave_alliance }
+		command = { type = trigger which = 800108 }
+	}
+	action = {
+		name = "ACTION_NAME_NEVER"
+		command = { type = dissent value = 20 }
+		command = { type = sleepevent which = 800108 }
+	}
+}
+#########################################################################
+#  The Fate of America
+#########################################################################
+event = {
+	id = 800108
+	random = no
+	country = SOV
+	
+	name = "fate_america"
+	desc = "fate_america_desc"
+	style = 1
+	picture = "fate_america"
+	
+	action = {
+		name = "ACTION_NAME_DIVIDE_USA"
+		ai_chance = 90
+		command = { type = dissent value = -10 }
+		command = { type = setflag which = divide_usa }
+		command = { type = trigger which = 800109 }
+	}
+	action = {
+		name = "ACTION_NAME_PUPPET_USA"
+		ai_chance = 10
+		command = { type = dissent value = -10 }
+		command = { type = setflag which = puppet_usa }
+		command = { type = trigger which = 800109 }
+	}
+}
+#########################################################################
+#  The Fall of America
+#########################################################################
+event = {
+	id = 800109
+	random = no
+	country = USA
+	
+	name = "fall_america"
+	desc = "fall_america_desc"
+	style = 1
+	picture = "fall_america"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { flag = divide_usa }
+		command = { type = country which = USN }
+		command = { type = set_domestic which = democratic value = 1 }
+		command = { type = set_domestic which = political_left value = 10 }
+		command = { type = set_domestic which = freedom value = 1 }
+		command = { type = set_domestic which = free_market value = 1 }
+		command = { type = set_domestic which = interventionism value = 5 }
+		command = { type = independence which = UAU value = 0 when = 0 }
+		command = { type = independence which = UCH value = 0 when = 0 }
+		command = { type = independence which = UBO value = 0 when = 0 }
+		command = { type = independence which = UTC value = 0 when = 0 }
+		command = { type = independence which = UGS value = 0 when = 0 }
+		command = { type = independence which = UCS value = 0 when = 0 }
+		command = { type = independence which = UIC value = 0 when = 0 }
+		command = { type = independence which = UPR value = 0 when = 0 }
+		command = { type = independence which = UER value = 0 when = 0 }
+		command = { type = independence which = UTO value = 0 when = 0 }
+		command = { type = independence which = UIR value = 0 when = 0 }
+		command = { type = independence which = UPS value = 0 when = 0 }
+		command = { type = independence which = CAL value = 0 when = 0 }
+		command = { type = independence which = TEX value = 0 when = 0 }
+		command = { type = independence which = UES value = 0 when = 0 }
+		command = { type = independence which = URO value = 0 when = 0 }
+		#Alaska
+		command = { type = secederegion which = SOV value = "Alaska" when = 1 }
+		#Pacific Islands
+		command = { type = secedeprovince which = SOV value = 7202 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1603 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7199 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7201 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1608 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1602 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7198 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1600 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7200 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1617 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1601 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1604 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7197 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1618 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7196 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1619 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1620 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1621 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7195 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1625 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1626 when = 1 }
+		command = { type = secedeprovince which = SOV value = 1627 when = 1 }
+		command = { type = secedeprovince which = SOV value = 7194 when = 1 }
+		command = { type = headofstate which = 63401 }
+		command = { type = headofgovernment which = 63402 }
+		command = { type = songs which = "TheStarSpangledBanner.txt" }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		trigger = { flag = puppet_usa }
+		command = { type = country which = USN }
+		command = { type = flag_ext where = USN which = "_united" }
+		command = { type = songs which = "TheStarSpangledBanner.txt" }
+	}
+}
+#########################################################################
+#  The Former United States
+#########################################################################
+event = {
+	id = 800110
+	random = no
+	country = SOV
+	
+	trigger = {
+		event = 800109 #The Fall of America
+		flag = divide_usa
+	}
+	
+	name = "sov_puppet_america"
+	desc = "sov_puppet_america_desc"
+	style = 1
+	picture = "fall_america"
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_NEVER_RISE"
+		command = { type = dissent value = -10 }
+		command = { type = make_puppet which = USN }
+		command = { type = make_puppet which = UAU }
+		command = { type = make_puppet which = UCH }
+		command = { type = make_puppet which = UBO }
+		command = { type = make_puppet which = UTC }
+		command = { type = make_puppet which = UGS }
+		command = { type = make_puppet which = UCS }
+		command = { type = make_puppet which = UIC }
+		command = { type = make_puppet which = UPR }
+		command = { type = make_puppet which = UER }
+		command = { type = make_puppet which = UTO }
+		command = { type = make_puppet which = UIR }
+		command = { type = make_puppet which = UPS }
+		command = { type = make_puppet which = CAL }
+		command = { type = make_puppet which = TEX }
+		command = { type = make_puppet which = UES }
+		command = { type = make_puppet which = URO }
+		command = { type = songs which = "TheStarSpangledBanner.txt" }
+	}
+}

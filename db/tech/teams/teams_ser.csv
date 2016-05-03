@@ -1,0 +1,17 @@
+SER;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+14200;Training Command;belmilac2;5;1000;2999;combined_arms_focus;infantry_focus;individual_courage;artillery;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14201;Zastava Arms;zastavaarms;5;1000;2999;general_equipment;mechanics;artillery;training;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14202;Military Technical Institute;mtiser;6;1000;2999;mechanics;general_equipment;vehicle_engineering;industrial_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+14203;Utva;utva;4;1000;2999;aeronautics;rocketry;avionics;piloting;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14204;VOA;team_noimage;6;1000;2999;mathematics;management;individual_courage;small_unit_tactics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14205;Rad;radser;4;1000;2999;industrial_engineering;management;technical_efficiency;munitions;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14206;Imtel;imtelser;5;1000;2999;electronics;industrial_engineering;general_equipment;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14207;El Nis;elnis;5;1000;2999;chemistry;electronics;mathematics;general_equipment;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14208;Teleoptik;teleoptik;6;1000;2999;management;chemistry;industrial_engineering;mathematics;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14209;Serbian Army;serbarmy;5;1000;2999;training;management;large_unit_focus;small_unit_tactics;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14210;General Staff;team_noimage;5;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14211;Logistics Department;serblogistic;5;1000;2999;centralized_execution;management;small_unit_tactics;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14212;Serbian Air Force;serbairforce;5;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14213;Djuro Djakovic;durodakovic;4;2998;2999;mechanics;industrial_engineering;technical_efficiency;mathematics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14214;Split Shipbuilding Institute;brodarski;3;2998;2999;naval_training;seamanship;naval_engineering;management;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14215;Serbian Navy;serbnavy;2;2998;2999;seamanship;management;large_taskforce_tactics;naval_engineering;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

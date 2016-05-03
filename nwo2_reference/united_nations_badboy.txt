@@ -1,0 +1,247 @@
+8220000
+
+event = {
+	id = 8220000
+	country = REB
+	persistent = yes
+	
+	name = AI_EVENT
+	desc = AI_EVENT
+
+	date = { day = 1 month = january year = 1933 }
+	offset = 7
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = event which = 8220001 where = USA when = 1 }
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = event which = 8220001 where = ENG when = 1 }
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = event which = 8220001 where = FRA when = 1 }
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = event which = 8220001 where = CHI when = 1 }
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = event which = 8220001 where = SOV when = 1 }
+		
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = event which = 8220002 where = ALB when = 7 }
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = event which = 8220003 where = ALB when = 7 }
+		
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = setflag = ALB_intervention }
+		command = { trigger = { belligerence = { country = ALB value = 50 } NOT = { flag = ALB_sleepunactions } } type = setflag = ALB_sanctions }
+	}
+}
+
+### UNSC meeting - Albania breaks the limit
+
+event = {
+	id = 8220001
+	tag = { USA ENG FRA CHI SOV }
+	persistent = yes
+	
+	name = AI_EVENT
+	desc = AI_EVENT
+
+	action = {
+		name = VETO_SANCTIONS # Vetoes all possible actions
+		ai_chance = 60
+		
+		command = { type = setflag value = ALB_sleepunactions } # Albania won't be on UNSC agenda for the next year, no matter the decision
+		command = { type = event which = 8220009 where = REB when = 360 } # This will unblock UNSC meetings regarding Albania
+		
+		command = { type = belligerence value = 10 } # We accrue some belligerence by ignoring belligerent nation ourselves
+		command = { type = relation which = ALB value = 100 } # They like us, naturally
+		command = { type = domestic which = interventionism value = -1 } # We like isolationism
+		
+		command = { type = clrflag which = ALB_intervention } # Intervention won't happen
+		command = { type = clrflag which = ALB_sanctions } # Sanctions won't happen
+	}
+	
+	action = {
+		name = VETO_INTERVENTION # Veto intervention but allow economic sanctions
+		ai_chance = 30
+		trigger = { 
+			NOT = { 
+				alliance = ALB # We won't allow sanctions to our ally!
+				relation = { which = ALB value = 190 } # We can't have really good relations
+			}
+		}
+		command = { type = setflag value = ALB_sleepunactions } # Albania won't be on UNSC agenda for the next year, no matter the decision
+		command = { type = event which = 8220009 where = REB when = 360 } # This will unblock UNSC meetings regarding Albania
+		
+		command = { type = relation which = ALB value = -50 } # They like us a bit less
+		
+		command = { type = clrflag which = ALB_intervention } # Intervention won't happen
+	}
+	
+	action = {
+		name = ALLOW_ALL
+		ai_chance = 10
+		trigger = { 
+			NOT = { 
+				alliance = ALB # We won't attack our ally!
+				relation = { which = ALB value = 100 } # We can't have good relations
+			}
+		}
+		command = { type = setflag value = ALB_sleepunactions } # Albania won't be on UNSC agenda for the next year, no matter the decision
+		command = { type = event which = 8220009 where = REB when = 360 } # This will unblock UNSC meetings regarding Albania
+		
+		command = { type = relation which = ALB value = -150 } # They like us a lot less
+	}
+}
+
+# Event for country being the target of intervention
+
+event = {
+	id = 8220002
+	country = ALB
+	persistent = yes
+	
+	name = AI_EVENT
+	desc = AI_EVENT
+	
+	trigger = {
+		flag = ALB_intervention
+	}
+
+	action = {
+		name = AGREE_WITH_UNSC
+		ai_chance = 80
+		command = { type = event which = 8220997 where = -1 when = 2 } # Release occupied countries
+		command = { type = event which = 8220996 where = -1 when = 1 } # Peace with all 
+		command = { type = strength which = all when = 1 where = 1 value = -0.5 } # Cut strength of all units by half
+		
+		command = { type = belligerence value = -250 }
+		
+		command = { type = clrflag which = ALB_intervention }
+		command = { type = clrflag which = ALB_sanctions }
+		
+	}
+	
+	action = {
+		name = IGNORE_UNSC
+		ai_chance = 20
+		command = { type = revolt which = -3 } #New in 1.03
+		command = { trigger = { ic = 10 } type = revolt which = -3 }
+		command = { trigger = { ic = 20 } type = revolt which = -3 }
+		command = { trigger = { belligerence = 50 } type = revolt which = -3 }
+		command = { trigger = { belligerence = 100 } type = revolt which = -3 }
+		command = { trigger = { belligerence = 150 } type = revolt which = -3 }
+		command = { trigger = { dissent = 35 } type = revolt which = -3 }
+		command = { trigger = { dissent = 45 } type = revolt which = -3 }
+		
+		command = { type = local_setflag which = foreign_intervention }
+		command = { type = clrflag which = ALB_intervention }
+	}
+}
+
+# Event for country receiving sanctions
+
+event = {
+	id = 8220003
+	country = ALB
+	persistent = yes
+	
+	name = AI_EVENT
+	desc = AI_EVENT
+	
+	trigger = {
+		flag = ALB_sanctions
+		NOT = { flag = ALB_intervention } # Intervention possibility takes precedence
+	}
+
+	action = {
+		name = AGREE_WITH_UNSC
+		ai_chance = 80
+		command = { type = event which = 8220996 where = -1 when = 1 } # Peace with all 
+		command = { type = strength which = all when = 1 where = 1 value = -0.25 } # Cut strength of all units by quarter
+		
+		command = { type = belligerence value = -20 }
+		command = { type = clrflag which = ALB_sanctions }
+		
+	}
+	
+	action = {
+		name = IGNORE_UNSC
+		ai_chance = 20
+		command = { type = dissent value = 10 }
+		command = { type = industrial_modifier which = total value = -0.1 }
+		command = { type = event which = 8220998 where = -1 when = 1080 } # After 3 years, sanctions are cancelled
+	}
+}
+
+============================================================
+
+# Event that makes peace with all countries
+
+event = {
+	id = 8220996
+	persistent = yes
+	
+	name = PEACE_WITH_ALL
+	desc = PEACE_WITH_ALL
+
+	action = {
+		name = PEACE_WITH_ALL
+		command = { type = peace which = ... value = 0 } # Peace with all 
+	}
+}
+
+# Event that releases all occupied countries
+
+event = {
+	id = 8220997
+	persistent = yes
+	
+	name = INDEPENDENCE_FOR_ALL
+	desc = INDEPENDENCE_FOR_ALL
+
+	action = {
+		name = INDEPENDENCE_FOR_ALL
+		command = { type = independence which = ... value = 1 }
+	}
+}
+
+# Event that cancells effects of economic sanctions
+
+event = {
+	id = 8220998
+	persistent = yes
+	
+	name = SANCTIONS_ARE_LIFTED
+	desc = SANCTIONS_ARE_LIFTED
+
+	action = {
+		name = SANCTIONS_ARE_LIFTED
+		command = { type = industrial_modifier which = total value = 0.1 }
+	}
+}
+
+# Event that monitors if the UN invasion was successful
+
+event = {
+	id = 8220999
+	persistent = yes
+	
+	name = BADBOY_REGIME_FALLS
+	desc = BADBOY_REGIME_FALLS
+	
+	trigger = {
+		local_flag = foreign_intervention
+		lost_national = 45
+	}
+
+	date = { day = 1 month = january year = 1933 }
+	offset = 7
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = BADBOY_REGIME_FALLS
+		command = { type = event which = 8220997 where = -1 when = 2 } # Release occupied countries
+		command = { type = event which = 8220996 where = -1 when = 1 } # Peace with all 
+		command = { type = strength which = all when = 1 where = 1 value = -0.5 } # Cut strength of all units by half
+		
+		command = { type = belligerence value = -250 }
+		command = { type = local_clrflag which = foreign_intervention }
+		
+		# Give all the owned provinces to the country (will it clear rebels?)
+		command = { type = secederegion which = -2 value = "..." when = 1 } # Release occupied countries
+		
+	}
+}

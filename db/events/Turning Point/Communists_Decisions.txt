@@ -1,0 +1,470 @@
+#########################################################################
+#  Five-Year Plans
+#########################################################################
+event = {
+	id = 2049111
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP 
+	CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR 
+	KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI 
+	RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SOV SLV SOM SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 
+	U03 U04 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 
+	U52 U53 U54 U55 U56 U67 U69 UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 
+	U99 USA }
+	
+	decision = {
+		OR = {
+			ideology = leninist
+			ideology = stalinist
+		}	
+		NOT = { local_flag = plan_set }
+	}
+	decision_trigger = {
+		OR = {
+		money = 5000
+		AND = {
+			NOT = { IC = 80 }
+			money = 4000
+			}
+		AND = {
+			NOT = { IC = 50 }
+			money = 3000
+			}
+		AND = {
+			NOT = { IC = 30 }
+			money = 2000
+			}
+		AND = {
+			NOT = { IC = 15 }
+			money = 1000
+			}
+		}
+		NOT = { local_flag = plan_set }
+	}
+	trigger = {
+		ai = no
+		OR = {
+			ideology = leninist
+			ideology = stalinist
+		}
+		OR = {
+		money = 5000
+		AND = {
+			NOT = { IC = 80 }
+			money = 4000
+			}
+		AND = {
+			NOT = { IC = 50 }
+			money = 3000
+			}
+		AND = {
+			NOT = { IC = 30 }
+			money = 2000
+			}
+		AND = {
+			NOT = { IC = 15 }
+			money = 1000
+			}
+		}
+		NOT = { local_flag = plan_set }
+	}
+	
+	name = "fyp_decision"
+	desc = "fyp_decision_desc"
+	style = 2
+	picture = "five_year_plan"
+	decision_picture = "five_year_plan_decision"
+
+	date = { day = 1 month = january year = 1984 }
+	offset = 1
+	deathdate = { day = 1 month = october year = 2012 }
+
+	action = {
+		name = "ACTION_FYP_QE"
+		ai_chance = 10
+		command = { trigger = { IC = 80 } type = money value = -5000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = -4000 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = -3000 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = -2000 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = -1000 }
+		command = { type = event which = 2049112 where = -1 when = 1825 }
+		command = { type = local_setflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_FYP_SUPPLY"
+		ai_chance = 30
+		command = { trigger = { IC = 80 } type = money value = -5000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = -4000 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = -3000 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = -2000 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = -1000 }
+		command = { type = event which = 2049113 where = -1 when = 1825 }
+		command = { type = local_setflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_FYP_MILITARY"
+		ai_chance = 30
+		command = { trigger = { IC = 80 } type = money value = -5000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = -4000 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = -3000 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = -2000 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = -1000 }
+		command = { type = event which = 2049114 where = -1 when = 1825 }
+		command = { type = local_setflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_FYP_IC"
+		ai_chance = 30
+		command = { trigger = { IC = 80 } type = money value = -5000 }
+		command = { trigger = { IC = 50 NOT = { IC = 80 } } type = money value = -4000 }
+		command = { trigger = { IC = 30 NOT = { IC = 50 } } type = money value = -3000 }
+		command = { trigger = { IC = 15 NOT = { IC = 30 } } type = money value = -2000 }
+		command = { trigger = { NOT = { IC = 15 } } type = money value = -1000 }
+		command = { type = event which = 2049115 where = -1 when = 1825 }
+		command = { type = local_setflag which = plan_set }
+	}
+  }
+#########################################################################
+#  Improve Quality and Efficiency
+#########################################################################
+event = {
+	id = 2049112
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP 
+	CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR 
+	KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI 
+	RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SOV SLV SOM SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 
+	U03 U04 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 
+	U52 U53 U54 U55 U56 U67 U69 UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 
+	U99 USA }
+
+	name = "fyp_qe"
+	desc = "fyp_qe_desc"
+	style = 2
+	picture = "five_year_plan"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = industrial_modifier which = total value = -20 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 5
+		command = { type = dissent value = 5 }
+		command = { type = industrial_modifier which = total value = -5 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 40
+		command = { type = dissent value = -5 }
+		command = { type = industrial_modifier which = total value = 5 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_GOOD"
+		ai_chance = 30
+		command = { type = dissent value = -10 }
+		command = { type = industrial_modifier which = total value = 10 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_EXCELLENT"
+		ai_chance = 20
+		command = { type = dissent value = -15 }
+		command = { type = industrial_modifier which = total value = 15 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		ai_chance = 10
+		command = { type = dissent value = -20 }
+		command = { type = industrial_modifier which = total value = 20 }
+		command = { type = local_clrflag which = plan_set }
+	}
+  }
+#########################################################################
+#  Improve the Production of Supplies
+#########################################################################
+event = {
+	id = 2049113
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP 
+	CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR 
+	KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI 
+	RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SOV SLV SOM SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 
+	U03 U04 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 
+	U52 U53 U54 U55 U56 U67 U69 UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 
+	U99 USA }
+
+	name = "fyp_supply"
+	desc = "fyp_supply_desc"
+	style = 2
+	picture = "five_year_plan"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = industrial_modifier which = supplies value = -20 }
+		command = { type = supplies value = -20000 }	
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 5
+		command = { type = dissent value = 5 }
+		command = { type = industrial_modifier which = supplies value = -5 }
+		command = { type = supplies value = -5000 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 40
+		command = { type = dissent value = -5 }
+		command = { type = industrial_modifier which = supplies value = 5 }
+		command = { type = supplies value = 5000 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_GOOD"
+		ai_chance = 30
+		command = { type = dissent value = -10 }
+		command = { type = industrial_modifier which = supplies value = 10 }
+		command = { type = supplies value = 10000 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_EXCELLENT"
+		ai_chance = 20
+		command = { type = dissent value = -15 }
+		command = { type = industrial_modifier which = supplies value = 15 }
+		command = { type = supplies value = 15000 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		ai_chance = 10
+		command = { type = dissent value = -20 }
+		command = { type = industrial_modifier which = supplies value = 20 }
+		command = { type = supplies value = 20000 }
+		command = { type = local_clrflag which = plan_set }
+	}
+  }
+#########################################################################
+#  Expand the Military Industry
+#########################################################################
+event = {
+	id = 2049114
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP 
+	CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR 
+	KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI 
+	RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SOV SLV SOM SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 
+	U03 U04 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 
+	U52 U53 U54 U55 U56 U67 U69 UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 
+	U99 USA }
+
+	name = "fyp_military"
+	desc = "fyp_military_desc"
+	style = 2
+	picture = "five_year_plan"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = disorg_division which = -1 where = 20 } #Minimum disorg value
+		command = { trigger = { army = 5 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 8 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 10 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 12 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 15 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 18 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 20 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 22 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 25 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 28 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 30 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 33 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 35 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 37 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 40 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 42 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 45 }	type = disorg_division which = -1 where = 20 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 5
+		command = { type = dissent value = 5 }
+		command = { type = disorg_division which = -1 where = 20 } #Minimum disorg value
+		command = { trigger = { army = 5 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 8 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 10 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 12 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 15 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 18 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 20 } 	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 22 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 25 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 28 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 30 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 33 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 35 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 37 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 40 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 42 }	type = disorg_division which = -1 where = 20 }
+		command = { trigger = { army = 45 }	type = disorg_division which = -1 where = 20 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 40
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_GOOD"
+		ai_chance = 30
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = add_division which = "Reserve Rifle Division" value = infantry when = 1 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_EXCELLENT"
+		ai_chance = 20
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = local_clrflag which = plan_set }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		ai_chance = 10
+		command = { type = add_division which = "Reserve Guards Tank" value = armor when = 1 }
+		command = { type = add_division which = "Reserve Guards Tank" value = armor when = 1 }
+		command = { type = add_division which = "Reserve Guards Tank" value = armor when = 1 }
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = add_division which = "Reserve Guards Motor Rifle" value = motorized when = 1 }
+		command = { type = local_clrflag which = plan_set }
+	}
+  }
+#########################################################################
+#  Expand the Industrial Capacity
+#########################################################################
+event = {
+	id = 2049115
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP 
+	CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR 
+	KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI 
+	RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SOV SLV SOM SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU UZB VEN VIE WLL YEM YUG U01 U02 
+	U03 U04 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 
+	U52 U53 U54 U55 U56 U67 U69 UTC UER UPE U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 
+	U99 USA }
+
+	name = "fyp_ic"
+	desc = "fyp_ic_desc"
+	style = 2
+	picture = "five_year_plan"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 1
+		command = { type = dissent value = 20 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = local_clrflag which = plan_set }
+		command = { }
+	}
+	action = {
+		name = "ACTION_NAME_DAMN"
+		ai_chance = 5
+		command = { type = dissent value = 5 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = construct which = ic where = -4 value = -1 }
+		command = { type = local_clrflag which = plan_set }
+		command = { }
+	}
+	action = {
+		name = "ACTION_NAME_OK"
+		ai_chance = 40
+		command = { type = dissent value = -5 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = local_clrflag which = plan_set }
+		command = { }
+	}
+	action = {
+		name = "ACTION_NAME_GOOD"
+		ai_chance = 30
+		command = { type = dissent value = -10 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = local_clrflag which = plan_set }
+		command = { }
+	}
+	action = {
+		name = "ACTION_NAME_EXCELLENT"
+		ai_chance = 20
+		command = { type = dissent value = -15 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = local_clrflag which = plan_set }
+		command = { }
+	}
+	action = {
+		name = "ACTION_NAME_GREAT"
+		ai_chance = 10
+		command = { type = dissent value = -20 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+		command = { type = local_clrflag which = plan_set }
+		command = { }
+	}
+  }

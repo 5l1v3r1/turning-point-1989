@@ -1,0 +1,210 @@
+allowed_brigades = naval_asw
+allowed_brigades = naval_anti_air_s
+allowed_brigades = naval_radar_s
+allowed_brigades = naval_fire_controll_s
+allowed_brigades = naval_improved_hull_s
+allowed_brigades = naval_torpedoes_s
+allowed_brigades = b_04
+allowed_brigades = b_08
+allowed_brigades = b_03
+allowed_brigades = light_cag
+max_allowed_brigades = 5
+
+# 0 - Converted CVL 1956
+model = {
+	cost						= 14
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 3
+	subdetectioncapability		= 8
+	visibility					= 80
+	seadefence					= 28
+	airdefence					= 26
+	seaattack					= 3
+	airattack					= 3
+	subattack					= 2
+	convoyattack					= 3
+	shorebombardment			= 1
+	transportcapability			= 40
+	range						= 18000
+	supplyconsumption			= 1.75
+	fuelconsumption				= 1.25
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { carrier = 1 manpower = 1800 }
+}
+# 1 - LPH 1961
+model = {
+	cost						= 16
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 3
+	subdetectioncapability		= 9
+	visibility					= 80
+	seadefence					= 26
+	airdefence					= 24
+	seaattack					= 4
+	airattack					= 4
+	subattack					= 3
+	convoyattack					= 3
+	shorebombardment			= 1
+	transportcapability			= 40
+	range						= 18000
+	supplyconsumption			= 2.3
+	fuelconsumption				= 2
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { carrier = 1 manpower = 1800 }
+}
+# 2 - ASW 1967
+model = {
+	cost						= 18
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 3
+	subdetectioncapability		= 12
+	visibility					= 80
+	seadefence					= 25
+	airdefence					= 24
+	seaattack					= 4
+	airattack					= 4
+	subattack					= 10
+	convoyattack					= 3
+	shorebombardment			= 1
+	transportcapability			= 40
+	range						= 18000
+	supplyconsumption			= 2.3
+	fuelconsumption				= 2
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	upgrade_time_boost 	= no
+	equipment = { carrier = 1 manpower = 1800 }
+}
+# 3 - LHA 1971
+model = {
+	cost						= 20
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 3
+	subdetectioncapability		= 10
+	visibility					= 80
+	seadefence					= 26
+	airdefence					= 24
+	seaattack					= 6
+	airattack					= 6
+	subattack					= 5
+	convoyattack					= 3
+	shorebombardment			= 1
+	transportcapability			= 40
+	range						= 18000
+	supplyconsumption			= 2.3
+	fuelconsumption				= 2
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { carrier = 1 manpower = 1800 }
+}
+# 4 - LHD 1989
+model = {
+	cost						= 24
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 3
+	subdetectioncapability		= 11
+	visibility					= 80
+	seadefence					= 24
+	airdefence					= 22
+	seaattack					= 8
+	airattack					= 7
+	subattack					= 6
+	convoyattack					= 3
+	shorebombardment			= 1
+	transportcapability			= 40
+	range						= 20000
+	supplyconsumption			= 2.3
+	fuelconsumption				= 2
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { carrier = 1 manpower = 1800 }
+}
+# 5 - LHA 2004
+model = {
+	cost						= 26
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 3
+	subdetectioncapability		= 12
+	visibility					= 80
+	seadefence					= 23
+	airdefence					= 20
+	seaattack					= 10
+	airattack					= 8
+	subattack					= 7
+	convoyattack					= 3
+	shorebombardment			= 1
+	transportcapability			= 40
+	range						= 20000
+	supplyconsumption			= 2.3
+	fuelconsumption				= 2
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { carrier = 1 manpower = 1800 }
+}
+# 6 - LHA 2008
+model = {
+	cost						= 27
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 3
+	subdetectioncapability		= 12
+	visibility					= 80
+	seadefence					= 22
+	airdefence					= 20
+	seaattack					= 10
+	airattack					= 8
+	subattack					= 7
+	convoyattack					= 3
+	shorebombardment			= 1
+	transportcapability			= 40
+	range						= 20000
+	supplyconsumption			= 2.3
+	fuelconsumption				= 2
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	upgrade_time_boost 	= no
+	equipment = { carrier = 1 manpower = 1800 }
+}

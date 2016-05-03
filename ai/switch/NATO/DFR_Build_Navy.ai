@@ -1,0 +1,75 @@
+# DFR Land Prio Build by HansNery
+
+###################################
+# Construction and Tech Research
+###################################
+
+military = { 
+	relative_build_scheme 	= no
+
+	infantry     		= 0
+	cavalry 			= 0
+	motorized 			= 0
+	mechanized 			= 0
+	light_armor 		= 0
+   	armor       		= 0
+	paratrooper 		= 0
+	marine 				= 0
+	bergsjaeger 		= 0
+   	garrison    		= 3
+    hq 					= 0
+	militia 			= 0
+	d_01				= 5 #Infantry Brigade
+	d_02				= 5 #Motorized Brigade
+	d_03				= 0 #Special Forces Brigade
+	d_04				= 0 #Air Cavalry
+	d_05				= 0 #Marine Brigade
+	d_06				= 2 #Mechanized Brigade
+	d_07				= 0 #Missile Boat
+	d_08				= 0 #Paratrooper Brigade
+	d_09				= 0 #Mountain Brigade
+   #15 %
+	interceptor 	= 5
+	rocket_interceptor = 0
+	multi_role 		= 0
+	cas 			= 0
+	strategic_bomber = 0
+	tactical_bomber = 0
+	naval_bomber 	= 0
+	transport_plane = 0
+	flying_bomb 	= 0
+	flying_rocket 	= 0
+   #5 %
+	battleship 			= 0
+	carrier 			= 0
+	escort_carrier		= 0
+	destroyer 			= 20
+	light_cruiser 		= 20
+	heavy_cruiser 		= 0
+	battlecruiser	 	= 0
+	submarine 			= 5
+	nuclear_submarine 	= 30
+	transports 			= 5
+    #d_07				= 0	#Missile Boats
+	d_10				= 0	#Nuclear Carrier
+	d_11				= 0	#Nuclear Ballistic Submarine
+	d_12				= 0	#Nuclear Heavy Cruiser
+    #0 %
+
+	cag = 100.000
+	escort = 100.0000
+
+	naval_asw				= 10	#20
+	naval_anti_air_s 		= 10	#20 
+	naval_radar_s 			= 10	#20 
+	naval_fire_controll_s 	= 20
+	naval_improved_hull_s 	= 10
+	naval_torpedoes_s 		= 10
+	naval_anti_air_l 		= 5		#0 
+	naval_radar_l 			= 5		#0
+	naval_fire_controll_l 	= 10	#0
+	naval_improved_hull_l 	= 5		#0
+	floatplane 				= 5		#0
+}
+
+ 

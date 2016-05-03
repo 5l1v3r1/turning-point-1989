@@ -1,0 +1,19 @@
+CAL;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+95501;California Military Academy;calmilac;7;1000;2999;infantry_focus;individual_courage;combined_arms_focus;training;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95502;California Steel Industries;calsteel;7;1000;2999;industrial_engineering;technical_efficiency;management;centralized_execution;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95503;United Motor Manufacturing;unitedmotor;5;1000;2999;mechanics;artillery;industrial_engineering;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95504;California Arms;calarms;5;1000;2999;general_equipment;rocketry;industrial_engineering;technical_efficiency;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95505;Northrop Grumman;T17505;9;1000;2999;aeronautics;technical_efficiency;industrial_engineering;electronics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95506;Lockheed;T17503;8;1000;2999;aeronautics;avionics;technical_efficiency;electronics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95507;California National Guard;calnatguard;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95508;California Air National Guard;calairguard;7;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95509;Naval Aviation;calnavavia;7;1000;2999;aircraft_testing;piloting;aeronautics;avionics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95510;Californian Navy;calnavy;8;1000;2999;large_taskforce_tactics;naval_artillery;naval_training;general_equipment;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95511;Submarine Command;calsubcom;8;1000;2999;seamanship;submarine_design;marine_training;submarine_tactics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95512;Naval Logistics Command;calnavlog;8;1000;2999;naval_training;management;mathematics;combined_arms_focus;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95513;Intel;intel;8;1000;2999;electronics;rocketry;management;mathematics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95514;Mare Island Naval Shipyard;mareisland;7;1000;2999;submarine_tactics;naval_engineering;submarine_design;seamanship;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95515;Long Beach Shipyard;longbeach;7;1000;2999;naval_artillery;naval_engineering;small_taskforce_tactics;submarine_tactics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95516;Lawrence Berkeley Laboratory;berkeleylab;8;1000;2999;nuclear_physics;nuclear_engineering;management;mathematics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95517;National Intelligence Agency;calintel;6;1000;2999;mathematics;rocketry;management;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95518;Todd Pacific Shipyards;toddpacific;7;1000;2999;naval_artillery;submarine_tactics;small_taskforce_tactics;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

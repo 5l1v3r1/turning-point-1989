@@ -1,0 +1,42 @@
+YUG;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+100001;Head of State;Collective Presidency;1985;2012;2012;LE;Generic;Very High;YUG20;X
+100002;Head of Government;Milka Planinc;1985;2012;2012;LE;Silent Workhorse;High;YUG2;X
+100003;Foreign Minister;Raif Dizdarevic;1985;2012;2012;LE;The Cloak N Dagger Schemer;Medium;YUG3;X
+100004;Minister of Armament;Lazar Kolisevski;1985;2012;2012;LE;Corrupt Kleptocrat;Medium;YUG4;X
+100005;Minister of Security;Veljko Kadijevic;1985;2012;2012;LE;Prince of Terror;High;YUG5;X
+100006;Head of Military Intelligence;Branko Mamula;1985;2012;2012;LE;Political Specialist;Medium;YUG6;X
+100007;Chief of Staff;Petar Gracanin;1985;2012;2012;LE;School of Mass Combat;Medium;YUG7;X
+100008;Chief of Army;Blagoje Adzic;1985;2012;2012;LE;Decisive Battle Doctrine;Very High;YUG8;X
+100009;Chief of Navy;Miodrag Jokic;1985;2012;2012;LE;Base Control Doctrine;Very High;YUG9;X
+100010;Chief of Air Force;Anton Tus;1985;2012;2012;LE;Army Aviation Doctrine;Medium;YUG10;X
+;Replacements;;;;;;;;;X
+100011;Head of State;Veljko Kadijevic;1985;2012;2012;PA;Stern Imperialist;Very High;YUG5;X
+100012;Head of Government;Blagoje Adzic;1985;2012;2012;PA;Old General;Very High;YUG8;X
+100013;Foreign Minister;Blagoje Adzic;1985;2012;2012;PA;Iron Fisted Brute;Very High;YUG8;X
+100014;Minister of Armament;Branko Mamula;1985;2012;2012;PA;Corrupt Kleptocrat;Very High;YUG6;X
+100015;Minister of Security;Veljko Kadijevic;1985;2012;2012;PA;Prince of Terror;Very High;YUG5;X
+100016;Head of Military Intelligence;Branko Mamula;1985;2012;2012;PA;Naval Intelligence Specialist;Very High;YUG6;X
+100017;Chief of Staff;Petar Gracanin;1985;2012;2012;PA;School of Fire Support;Very High;YUG7;X
+100018;Chief of Army;Blagoje Adzic;1985;2012;2012;PA;Decisive Battle Doctrine;Very High;YUG8;X
+100019;Chief of Navy;Miodrag Jokic;1985;2012;2012;PA;Power Projection Doctrine;Very High;YUG9;X
+100020;Chief of Air Force;Blagoje Adzic;1985;2012;2012;PA;Army Aviation Doctrine;Very High;YUG8;X
+100021;Head of State;Stjepan Mesic;1985;2012;2012;ML;Barking Buffoon;Very High;YUG11;X
+100022;Head of Government;Janez Drnovsek;1985;2012;2012;ML;Silent Workhorse;Very High;YUG12;X
+100023;Foreign Minister;Raif Dizdarevic;1985;2012;2012;ML;Apologetic Clerk;Very High;YUG13;X
+100024;Minister of Armament;Milan Panic;1985;2012;2012;ML;Laissez-Faire Capitalist;Very High;YUG14;X
+100025;Minister of Security;Vuk Obradovic;1985;2012;2012;ML;Crime Fighter;Very High;YUG15;X
+100026;Head of Military Intelligence;Vuk Obradovic;1985;2012;2012;ML;Logistics Specialist;Very High;YUG15;X
+100027;Chief of Staff;Stanislav Brovet;1985;2012;2012;ML;School of Defence;Very High;YUG16;X
+100028;Chief of Army;Dragan Paskas;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;YUG17;X
+100029;Chief of Navy;Sveto Letica;1985;2012;2012;ML;Power Projection Doctrine;Very High;YUG18;X
+100030;Chief of Air Force;Anton Tus;1985;2012;2012;ML;Air Superiority Doctrine;Very High;YUG19;X
+100031;Head of State;Veselin Duranovic;1985;2012;2012;LE;Benevolent Gentleman;Very High;YUG1;X
+100032;Head of Government;Branko Mikulic;1985;1990;1990;LE;Lethargic2;Very High;YUG21;X
+100033;Head of Government;Ante Markovic;1985;1992;1992;SL;Reformer2;Very High;YUG22;X
+100034;Head of State;Slobodan Milosevic;1985;2012;2012;SD;Ambitious;Very High;SER4;X
+100035;Head of State;Dobrica Cosic;1992;1993;1993;SD;Popular Figurehead;Very High;YUG23;X
+100036;Head of State;Zoran Lilic;1993;1997;1997;SD;Popular Figurehead;Very High;YUG24;X
+100037;Head of State;Vojislav Kostunica;1997;2012;2012;SL;Popular Figurehead;Very High;YUG25;X
+100038;Head of Government;Milan Panic;1992;1993;1993;SL;Silent Workhorse;Very High;unknown;X
+100039;Head of Government;Radoje Kontic;1993;1998;1998;SL;Lethargic2;Very High;unknown;X
+100040;Head of Government;Momir Bulatovic;1998;2012;2012;SL;Silent Workhorse;Very High;unknown;X

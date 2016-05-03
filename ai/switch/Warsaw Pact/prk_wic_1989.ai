@@ -1,0 +1,311 @@
+#North Korea AI by hansnery.
+#
+switch = no # [yes/no]
+ferocity = yes
+max_front_ratio = 4.0
+max_front_ratios = { }
+max_garrison_prop = 0.2
+min_garrison_prop = 0.10
+neutrality = 0 
+war = 300
+upgrading = 0.15 
+reinforcement = 0.4 
+strat_redeploy_threshold = 7
+max_redeploying = 1.0
+no_exp_forces_to = {
+	SOV
+	DDR
+	POL
+	CZE
+	HUN
+	ROM
+	BUL
+}
+use_offensive_supply = yes
+max_fuel_offensive = 300
+exp_force_ratio = 0.0
+exp_force_ratios = {}
+###################################
+# Diplomacy
+###################################
+combat = {
+	KOR = 500
+	JAP = 300
+	USA = 100
+}
+
+liberate = { DDR POL HUN BUL ROM CZE MON CHC SPR RSI POR CAL U33 U34 U35 U39 VIC U12 SOV QUE CAN SCO U49 }
+liberate_nation = { DDR POL HUN BUL ROM CZE MON CHC SPR RSI POR CAL U33 U34 U35 U39 VIC U12 SOV QUE CAN SCO U49 }
+
+befriend = {
+	SOV = 100
+	CHC = 50
+}
+
+target = {
+		#South Korea
+		1199 = 100 #Seoul
+		1197 = 100 #Busan
+		1198 = 100 #Chuncheon
+		2219 = 100 #Sokcho
+		1196 = 100 #Daegu
+		3100 = 100 #Gangneung
+		3101 = 100 #Andong
+		3109 = 100 #Ulsan
+		3102 = 100 #Cheongju
+		3108 = 100 #Gumi
+		3107 = 100 #Masan
+		3106 = 100 #Yeosu
+		2226 = 100 #Daejeon
+		1195 = 100 #Gwangju
+		3105 = 100 #Jeonju
+		3104 = 100 #Cheonan
+		3103 = 100 #Suwon
+		3099 = 100 #Incheon
+		1194 = 100 #Jeju
+		5654 = 100 #Ulleung
+}
+###################################
+# Construction and Tech Research
+###################################
+#Default values
+construction = { 
+	max_factor = 0.05
+	AA_batteries = no
+	coastal_fort = no
+	radar_station = no
+	air_base = atwar
+	naval_base = no
+	land_fort = no
+	ic_at_war = no
+}
+
+military = { 
+	relative_build_scheme 	= no
+	max_batch_peace			= 720 #540 
+	max_batch_war			= 360 #320 
+	max_batch_home_front	= 180
+	extra_convoys_war		= 0.0000 
+	extra_convoys_peace		= 0.0000
+
+	infantry     		= 40
+	cavalry 			= 0
+	motorized 			= 6
+	mechanized 			= 6
+	light_armor 		= 0
+   	armor       		= 15
+	paratrooper 		= 0
+	marine 				= 0
+	bergsjaeger 		= 1
+   	garrison    		= 4
+    hq 					= 3
+	militia 			= 0
+	d_01				= 0 #Infantry Brigade
+	d_02				= 0 #Motorized Brigade
+	d_03				= 2 #Special Forces Brigade
+	d_04				= 3 #Air Cavalry
+	d_05				= 0 #Marine Brigade
+	d_06				= 0 #Mechanized Brigade
+	d_07				= 0 #Missile Boat
+	d_08				= 0 #Paratrooper Brigade
+	d_09				= 0 #Mountain Brigade
+   #80 %
+	interceptor 	= 3
+	rocket_interceptor = 0
+	multi_role 		= 4
+	cas 			= 3
+	strategic_bomber = 0
+	tactical_bomber = 3
+	naval_bomber 	= 0
+	transport_plane = 0
+	flying_bomb 	= 1
+	flying_rocket 	= 0
+   #14 %
+	battleship 			= 0
+	carrier 			= 0
+	escort_carrier		= 0
+	destroyer 			= 6
+	light_cruiser 		= 0
+	heavy_cruiser 		= 0
+	battlecruiser	 	= 0
+	submarine 			= 0
+	nuclear_submarine 	= 0
+	transports 			= 0
+    #d_07				= 0	#Missile Boats
+	d_10				= 0	#Nuclear Carrier
+	d_11				= 0	#Nuclear Ballistic Submarine
+	d_12				= 0	#Nuclear Heavy Cruiser
+    #6 %
+
+
+	#### Brigades
+	artillery			= 30	#30
+	sp_artillery		= 20	#8
+	cavalry_brigade		= 0		#0
+	sp_anti_air			= 9		#0
+   	medium_armor		= 0		#0
+   	tank_destroyer		= 0		#0
+   	light_armor_brigade	= 0		#0
+   	heavy_armor			= 0		#5
+	super_heavy_armor	= 0		#0
+	armored_car			= 2		#0
+   	anti_air			= 5		#0
+   	police				= 1		#1
+	engineer			= 11	#5
+	#72 %
+
+	cag = 100.000
+	escort = 100.0000
+
+	naval_asw				= 10	#20
+	naval_anti_air_s 		= 10	#20 
+	naval_radar_s 			= 10	#20 
+	naval_fire_controll_s 	= 20
+	naval_improved_hull_s 	= 10
+	naval_torpedoes_s 		= 10
+	naval_anti_air_l 		= 5		#0 
+	naval_radar_l 			= 5		#0
+	naval_fire_controll_l 	= 10	#0
+	naval_improved_hull_l 	= 5		#0
+	floatplane 				= 5		#0
+}
+########################################
+# Ground Combat, Leaders and Garrisons
+########################################
+garrison = {
+	home_multiplier 	= 1.0
+	overseas_multiplier = 0.1
+	home_peace_cap 		= 5
+	war_zone_odds 		= 1.2
+	key_point_prio_mult	= 1.3
+	revolt_risk_mult	= 0.3
+
+	# PRIORITIES:
+	beach			= 5			# Beach level 2
+	capital			= 0			# Our capital
+	human_border	= 50		# Ignored for allied human players
+	reserves = 0.1
+	opposing_alliance	= 50	# For neutrals, all alliances are "opposing"
+	claim_threat		= 0		# If we are neutral, countries with claims on us get this
+	unstable_border		= 10	# Bordering countries at war with someone else get this
+	war_target = 100			# The next country targeted for attack by this AI
+	
+	country_priorities = { 
+		USA = 100
+		CHI = 100
+		KOR = 100
+		JAP = 100
+		CHC = -1
+		SOV = -1
+	}
+		
+	ignore = {}
+		
+	province_priorities = {
+	}
+}
+	
+front = { 
+	recklessness 		= 3 # 0-3
+	distrib_vs_ai 		= offensive
+	distrib_vs_human 	= offensive
+	
+	enemy_reinf_days	= 5
+	reserve_prop		= 0.2
+	panic_ratio_vs_ai	= 1.75
+	panic_ratio_vs_human	= 1.75
+	base_attack_odds	= 0.8 #1.3
+	min_attack_odds		= 0.4
+	max_attack_odds		= 4.0
+	reinforce_odds		= 1.5
+	withdraw_odds		= 0.35
+	
+	support_defense_prop = 0.33
+	
+	river       = 1.0
+	largefort 	= 0.5
+	smallfort	= 1.0
+	occupied	= 1.1
+	owned		= 1.1
+	frozen_attack 	= 0.50
+	snow_attack 	= 0.50
+	blizzard_attack   = 0.25
+	storm_attack 	= 0.60
+	muddy_attack 	= 0.75
+
+	jungle_attack 	= 0.85
+	mountain_attack	= 0.60
+	swamp_attack 	= 0.60
+	forest_attack 	= 0.85
+	hill_attack 	= 0.75
+	urban_attack 	= 0.60
+	
+	province_priorities = {}
+}	
+###################################
+# Invasions and Naval
+###################################
+invasion = { 
+	invasion			= yes
+ 	base				= 0.1	#Relative modifier. (lower = specific targets much more important.)
+	random				= 10.0	#How big a random range.  (1.0 = 1%)
+	coastal				= 0.1	#increase to avoid coastal forts more.
+	beach				= 0.01	#higher, avoid worst beaches.
+	max_distance  		= 250.0  #About double the distance from Japan to Batavia
+	max_staging_distance = 250.0 # How far should the staging area be from the target invasion point
+	distance			= 0.01	#higher = avoid long distance.
+	pocket				= 20.0	#prioritise pockets, ie provinces with no adjacent controlled by same.
+	island				= 0.01	#prioritise taking pure islands.
+	enemy				= 1.0	#higher = much more vary of troops in province.
+	adjacentenemy 		= 0.2	#higher = much more vary of troops nearby
+	air_base			= 1.5 
+    naval_base 			= 1.5 
+    air_support 		= 3.0 
+    redirect 			= nearest
+	ignore				= no
+	help_allies 		= yes	#[yes/no]
+      
+	staging_province = {
+		1392 #Hamheung
+		549 #Anchorage
+		663 #Honolulu
+		133 #Murmansk
+	}
+	target = {
+		#Taiwan
+		1923 = 5000 #Taizhong
+		1324 = 5000 #Hualian
+		1322 = 5000 #Gaoxiong
+		3133 = 5000 #Taidong
+		1323 = 5000 #Taibei
+		#Japan
+		1184 = 9000 #Tokyo-shi
+		1185 = 9000 #Nagoya-shi
+		1187 = 9000 #Osaka-shi
+		1189 = 9000 #Matsuyama-shi
+		1190 = 9000 #Fukuoka-shi
+		1181 = 9000 #Niigata-shi
+		3065 = 9000 #Yamaguchi-shi
+		1183 = 9000 #Kanazawa-shi
+		3082 = 9000 #Aomori-shi
+		3083 = 9000 #Hakodate-shi
+		3071 = 9000 #Fukui-shi
+		#USA
+		780 = 9000 #Seattle
+		663 = 5000 #Honolulu
+		889 = 5000 #Balboa
+		765 = 5000 #San Francisco
+		762 = 5000 #Los Angeles
+		761 = 5000 #San Diego
+		549 = 5000 #Anchorage
+		600 = 5000 #Boston
+		602 = 5000 #New York
+		632 = 5000 #Norfolk
+		606 = 5000 #Washington	
+		651 = 1000 #Miami
+		748 = 1000 #Corpus Christi
+		679 = 1000 #New Orleans
+		648 = 1000 #Jacksonville
+		7242 = 1000 #Pearl Harbor
+	}
+} 

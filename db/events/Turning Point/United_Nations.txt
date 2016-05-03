@@ -1,0 +1,150 @@
+#########################################################################
+#  United Nations Events
+#########################################################################
+#United Nations Security Council Resolution 598
+event = {
+	id = 93000001
+	random = no
+	country = U00
+
+	trigger = {
+		war = { country = IRQ country = PER }
+		NOT = { 
+			event = 800100 #Iraq completely defeats Iran
+			event = 800103 #Iran completely defeats Iraq
+		}
+	}
+
+	name = "un_res_598"
+	desc = "un_res_598_desc"
+	style = 1
+	picture = "un_security_council"
+
+	date = { day = 19 month = july year = 1987 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = trigger which = 93000002 } #United Nations Security Council Resolution 598 Approval
+	}
+}
+#United Nations Security Council Resolution 598 Approval
+event = {
+	id = 93000002
+	random = no
+	TAG = { CHC FRA ENG USA SOV }
+	persistent = yes
+	all = yes
+
+	name = "un_res_598"
+	desc = "un_res_598_desc"
+	style = 1
+	picture = "un_security_council"
+	
+	action = {
+		name = "ACTION_NAME_APPROVE"
+		ai_chance = 99
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_VETO"
+		ai_chance = 1
+		command = { type = sleepevent which = 93000003 } #Iraq decides on the resolution
+		command = { type = sleepevent which = 93000004 } #Iran decides on the resolution
+		command = { type = sleepevent which = 93000005 } #Iran-Iraq War ends
+		command = { type = sleepevent which = 93000006 } #Iran-Iraq War ends
+	}
+}
+#Iraq decides on the resolution
+event = {
+	id = 93000003
+	random = no
+	country = IRQ
+
+	name = "un_res_598"
+	desc = "un_res_598_desc"
+	style = 1
+	picture = "un_security_council"
+	
+	date = { day = 19 month = july year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		ai_chance = 99
+		command = { type = trigger which = 93000004 } #Iran decides on the resolution
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		ai_chance = 1
+		command = { type = sleepevent which = 93000004 } #Iran decides on the resolution
+		command = { type = sleepevent which = 93000005 } #Iran-Iraq War ends
+		command = { type = sleepevent which = 93000006 } #Iran-Iraq War ends
+		command = { type = belligerence value = 20 }
+	}
+}
+#Iran decides on the resolution
+event = {
+	id = 93000004
+	random = no
+	country = PER
+
+	name = "un_res_598"
+	desc = "un_res_598_desc"
+	style = 1
+	picture = "un_security_council"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		ai_chance = 99
+		command = {}
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		ai_chance = 1
+		command = { type = belligerence value = 20 }
+		command = { type = sleepevent which = 93000005 }
+		command = { type = sleepevent which = 93000006 }
+	}
+}
+#Iran-Iraq War ends
+event = {
+	id = 93000005
+	random = no
+	country = PER
+	
+	trigger = { event = 9300004 } #Iran decides on the resolution
+
+	name = "iran-iraq_war"
+	desc = "iran-iraq_war_desc"
+	style = 1
+	picture = "iran-iraq_war"
+	
+	date = { day = 7 month = august year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_STATUS_QUO"
+		command = { type = belligerence value = -10 }
+		command = { type = trigger which = 93000006 }
+	}
+}
+event = {
+	id = 93000006
+	random = no
+	country = IRQ
+
+	name = "iran-iraq_war"
+	desc = "iran-iraq_war_desc"
+	style = 1
+	picture = "iran-iraq_war"
+	
+	action = {
+		name = "ACTION_NAME_STATUS_QUO"
+		command = { type = belligerence value = -5 }
+		command = { type = peace which = PER value = 1 }
+	}
+}

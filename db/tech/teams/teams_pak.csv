@@ -1,0 +1,17 @@
+PAK;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+12500;Pakistan Military Academy;pmacademy;5;1000;2999;combined_arms_focus;infantry_focus;individual_courage;training;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12501;Heavy Industries Taxila;Taxila;7;1000;2999;mechanics;industrial_engineering;electronics;training;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12502;ISI;isipak;8;1000;2999;mathematics;training;management;technical_efficiency;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12503;Ghandhara Industries;Ghandhara;5;1000;2999;industrial_engineering;small_unit_tactics;general_equipment;management;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12504;East West Infinity;eastwestinf;6;1000;2999;electronics;rocketry;aeronautics;avionics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12505;NESCOM;nescompak;6;1000;2999;electronics;rocketry;management;technical_efficiency;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12506;Pakistan Aeronautical Complex;pakaero;7;1000;2999;aeronautics;technical_efficiency;industrial_engineering;electronics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12507;Integrated Defence Systems;intdefsys;6;1000;2999;management;training;technical_efficiency;munitions;maneuver_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12508;Kahuta Labs;Kahuta;4;1000;2999;nuclear_physics;management;training;technical_efficiency;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12509;Pakistani Army;Pakistan Army;5;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12510;General Staff;pakgstaff;5;1000;2999;training;chemistry;mechanics;aeronautics;avionics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12511;Supply and Transport Corps;ukrlogistics;5;1000;2999;centralized_execution;management;small_unit_tactics;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12512;Pakistani Air Force;Pakistan Air Force;5;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12513;Pakistani Navy;Pakistan Navy;5;1000;2999;seamanship;submarine_design;marine_training;submarine_tactics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12514;Pakistani Naval Aviation;paknavair;5;1000;2999;aircraft_testing;fighter_tactics;avionics;aeronautics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12515;Pakistan Ordnance Factories;Pofactories;6;1000;2999;general_equipment;rocketry;industrial_engineering;technical_efficiency;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

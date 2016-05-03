@@ -1,0 +1,22 @@
+ITA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+25001;Head of State;Alessandro Pertini;1985;2012;2012;SL;Weary Stiffneck;Very High;ITA1;X
+25002;Head of Government;Bettino Craxi;1985;2012;2012;SD;Flamboyant Tough Guy;Very High;ITA2;X
+25003;Foreign Minister;Giulio Andreotti;1985;2012;2012;ML;Ideological Crusader;Very High;ITA3;X
+25004;Minister of Armament;Giovanni Goria;1985;2012;2012;SL;Resource Industrialist;Very High;ITA4;X
+25005;Minister of Security;Oscar Scalfaro;1985;2012;2012;SL;Man of the People;Very High;ITA5;X
+25006;Head of Military Intelligence;Fulvio Martini;1985;2012;2012;SD;Industrial Specialist;Very High;ITA6;X
+25007;Chief of Staff;Lamberto Bartolucci;1985;2012;2012;SD;School of Mass Combat;Very High;ITA7;X
+25008;Chief of Army;Umberto Cappuzzo;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;ITA8;X
+25009;Chief of Navy;Vittorio Marulli;1985;2012;2012;SL;Decisive Naval Battle Doctrine;Very High;ITA9;X
+25010;Chief of Air Force;Basilio Cottone;1985;2012;2012;SL;Army Aviation Doctrine;Very High;ITA10;X
+;Replacements;;;;;;;;;X
+25011;Head of State;Pino Rauti;1985;2012;2012;FA;Barking Buffoon;Very High;ITA11;X
+25012;Head of Government;Giuseppe Tatarella;1985;2012;2012;PA;Political Protege;Very High;ITA12;X
+25013;Foreign Minister;Gianfranco Fini;1985;2012;2012;PA;Apologetic Clerk;Very High;ITA13;X
+25014;Minister of Armament;Gino Birindelli;1985;2012;2012;PA;Military Entrepreneur;Very High;ITA14;X
+25015;Minister of Security;Giuseppe Tatarella;1985;2012;2012;PA;Back Stabber;Very High;ITA12;X
+25016;Head of Military Intelligence;Gino Birindelli;1985;2012;2012;NS;Naval Intelligence Specialist;Very High;ITA14;X
+25017;Chief of Staff;Lamberto Bartolucci;1985;2012;2012;PA;School of Mass Combat;Very High;ITA7;X
+25018;Chief of Army;Umberto Cappuzzo;1985;2012;2012;PA;Guns and Butter Doctrine;Very High;ITA8;X
+25019;Chief of Navy;Vittorio Marulli;1985;2012;2012;PA;Decisive Naval Battle Doctrine;Very High;ITA9;X
+25020;Chief of Air Force;Basilio Cottone;1985;2012;2012;PA;Army Aviation Doctrine;Very High;ITA10;X

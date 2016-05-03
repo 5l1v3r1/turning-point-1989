@@ -1,0 +1,22 @@
+SIA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+290001;Head of State;HM Rama IX;1985;2012;2012;SC;Autocratic Charmer;Very High;SIA1;X
+290002;Head of Government;Prem Tinsulanonda;1985;2012;2012;SC;Backroom Backstabber;Very High;SIA2;X
+290003;Foreign Minister;Siddhi Savetsila;1985;2012;2012;SC;General Staffer;Very High;SIA3;X
+290004;Minister of Armament;Prem Tinsulanonda;1985;2012;2012;SC;Military Entrepreneur;Very High;SIA2;X
+290005;Minister of Security;Sitthi Chirarot;1985;2012;2012;SC;Back Stabber;Very High;SIA4;X
+290006;Head of Military Intelligence;Prem Tinsulanonda;1985;2012;2012;SC;Logistics Specialist;Very High;SIA2;X
+290007;Chief of Staff;Arthit Kamlang-ek;1985;2012;2012;SC;School of Fire Support;Very High;SIA5;X
+290008;Chief of Army;Arthit Kamlang-ek;1985;2012;2012;SC;Decisive Battle Doctrine;Very High;SIA5;X
+290009;Chief of Navy;Somboon Chuaphiboon;1985;2012;2012;SC;Power Projection Doctrine;Very High;SIA6;X
+290010;Chief of Air Force;Prapan Dhupatemiya;1985;2012;2012;SC;Army Aviation Doctrine;Very High;unknown;X
+;Replacements;;;;;;;;;X
+290011;Head of State;Damri Ruangsutham;1985;2012;2012;ST;Barking Buffoon;Very High;unknown;X
+290012;Head of Government;Damri Ruangsutham;1985;2012;2012;ST;Ambitious Union Boss;Very High;unknown;X
+290013;Foreign Minister;Damri Ruangsutham;1985;2012;2012;ST;Ideological Crusader;Very High;unknown;X
+290014;Minister of Armament;Surachai Sae Dan;1985;2012;2012;ST;Infantry Proponent;Very High;unknown;X
+290015;Minister of Security;Surachai Sae Dan;1985;2012;2012;ST;Man of the People;Very High;unknown;X
+290016;Head of Military Intelligence;Surachai Sae Dan;1985;2012;2012;ST;Political Specialist;Very High;unknown;X
+290017;Chief of Staff;PLAT Supreme Command;1985;2012;2012;ST;School of Mass Combat;Very High;unknown;X
+290018;Chief of Army;PLAT Supreme Command;1985;2012;2012;ST;Guns and Butter Doctrine;Very High;unknown;X
+290019;Chief of Navy;PLAT Supreme Command;1985;2012;2012;ST;Indirect Approach Doctrine;Very High;unknown;X
+290020;Chief of Air Force;PLAT Supreme Command;1985;2012;2012;ST;Army Aviation Doctrine;Very High;unknown;X

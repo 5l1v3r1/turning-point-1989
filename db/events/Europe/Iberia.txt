@@ -1,0 +1,88 @@
+#########################################################################
+#  1985 El Descanso bombing
+#########################################################################
+event = {
+	id = 2052001
+	random = no
+	country = SPA
+	
+	# Triggered by JAP 2011007
+	
+	name = "SPAIN_1"
+	desc = "SPAIN_1_DESC"
+	style = 2
+	picture = "news_paper"
+	date = { day = 11 month = april year = 1985 }
+	
+	action_a = {
+		name = ACTION_NAME_DAMN # Tragedy!
+		command = { type = dissent value = 5 } # National cementation
+	}
+}
+#########################################################################
+#  1986 Spain joins European Community
+#########################################################################
+event = {
+	id = 2052002
+	random = no
+	country = SPA
+	
+	name = "join_ec"
+	desc = "iberia_join_ec"
+	style = 2
+	picture = "european_union"
+
+	date = { day = 29 month = december year = 1985 }
+	deathdate = { day = 29 month = october year = 1993 }
+	offset = 1
+
+	action = {
+		name = "Join the European Community!"
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = domestic which = freedom value = 1 }
+		command = { type = 	relation which = DFR value = 50 }
+		command = { type = 	relation which = FRA value = 50 }
+		command = { type = 	relation which = ITA value = 50 }
+		command = { type = 	relation which = ENG value = 50 }
+		command = { type = 	relation which = GRE value = 50 }
+		command = { type = 	relation which = IRE value = 50 }
+		command = { type = 	relation which = HOL value = 50 }
+		command = { type = 	relation which = BEL value = 50 }
+		command = { type = 	relation which = DEN value = 50 }
+	}
+}
+#########################################################################
+#  1986 Portugal joins European Community
+#########################################################################
+event = {
+	id = 2052003
+	random = no
+	country = POR
+	
+	name = "join_ec"
+	desc = "iberia_join_ec"
+	style = 2
+	picture = "european_union"
+	decision_picture = "decision_european_union"
+
+	date = { day = 29 month = december year = 1985 }
+	deathdate = { day = 29 month = october year = 1993 }
+	offset = 1
+
+	action = {
+		name = "Join the European Community!"
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = domestic which = freedom value = 1 }
+		command = { type = 	relation which = DFR value = 50 }
+		command = { type = 	relation which = FRA value = 50 }
+		command = { type = 	relation which = ITA value = 50 }
+		command = { type = 	relation which = ENG value = 50 }
+		command = { type = 	relation which = GRE value = 50 }
+		command = { type = 	relation which = IRE value = 50 }
+		command = { type = 	relation which = HOL value = 50 }
+		command = { type = 	relation which = BEL value = 50 }
+		command = { type = 	relation which = DEN value = 50 }
+	}
+}

@@ -1,0 +1,15 @@
+JAP;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+50001;Head of State;HM Akihito;1985;2012;2012;SC;Popular Figurehead;Very High;JAP1;X
+50002;Head of Government;Yasuhiro Nakasone;1985;2012;2012;ML;Flamboyant Tough Guy;Very High;JAP2;X
+50003;Foreign Minister;Shintaro Abe;1985;2012;2012;ML;Great Compromiser;Very High;JAP3;X
+50004;Minister of Armament;Noboru Takeshita;1985;2012;2012;ML;Laissez-Faire Capitalist;Very High;JAP4;X
+50005;Minister of Security;Hitoshi Shimazaki;1985;2012;2012;ML;Silent Lawyer;Very High;unknown;X
+50006;Head of Military Intelligence;Keitaro Watanabe;1985;2012;2012;ML;Logistics Specialist;Very High;JAP5;X
+50007;Chief of Staff;Keitaro Watanabe;1985;2012;2012;ML;School of Defence;Very High;JAP5;X
+50008;Chief of Army;Keitaro Watanabe;1985;2012;2012;ML;Static Defence Doctrine;Very High;JAP5;X
+50009;Chief of Navy;Keitaro Watanabe;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;JAP5;X
+50010;Chief of Air Force;Keitaro Watanabe;1985;2012;2012;ML;Air Superiority Doctrine;Very High;JAP5;X
+;Replacements;;;;;;;;;X
+50011;Head of Government;Kenjiro Ueda;1985;2012;2012;LWR;Ambitious Union Boss;Very High;unknown;X
+50012;Foreign Minister;Kenjiro Ueda;1985;2012;2012;LWR;biased intellectual;Very High;unknown;X
+50013;Minister of Armament;Hiroshi Murakami;1985;2012;2012;LWR;Administrative Genius;Very High;unknown;X

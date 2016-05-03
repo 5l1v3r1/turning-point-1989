@@ -1,0 +1,32 @@
+U07;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x;;
+850000;Head of State;Aristides Pereira;1985;2012;2012;SD;Pig-headed Isolationist;High;U07-1;X
+850001;Head of Government;Pedro Pires;1985;2012;2012;SD;Silent Workhorse;High;U07-2;X
+850002;Foreign Minister;Blue Shadow;1985;2012;2012;SD;Generic;High;unknown;X
+850003;Minister of Armament;Blue Shadow;1985;2012;2012;SD;Generic;High;unknown;X
+850004;Minister of Security;Blue Shadow;1985;2012;2012;SD;Generic;High;unknown;X
+850005;Head of Military Intelligence;Blue Shadow;1985;2012;2012;SD;Generic;High;unknown;X
+850006;Chief of Staff;Blue Shadow;1985;2012;2012;SD;Generic;High;unknown;X
+850007;Chief of Army;Blue Shadow;1985;2012;2012;SD;Generic;High;unknown;X
+850008;Chief of Navy;Blue Shadow;1985;2012;2012;SD;Generic;High;unknown;X
+850009;Chief of Air Force;Blue Shadow;1985;2012;2012;SD;Generic;High;unknown;X
+;Replacements;;;;;;;;;X
+850010;Head of State;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+850011;Head of Government;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+850012;Foreign Minister;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+850013;Minister of Armament;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+850014;Minister of Security;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;
+850015;Head of Military Intelligence;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;
+850016;Chief of Staff;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+850017;Chief of Army;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+850018;Chief of Navy;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+850019;Chief of Air Force;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+850020;Head of State;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850021;Head of Government;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850022;Foreign Minister;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850024;Minister of Armament;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850025;Minister of Security;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850027;Head of Military Intelligence;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850028;Chief of Staff;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850029;Chief of Army;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850030;Chief of Navy;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+850031;Chief of Air Force;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X

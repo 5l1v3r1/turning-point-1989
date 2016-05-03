@@ -1,0 +1,70 @@
+# Majors Research switch - No ignore
+
+###################################
+# Tech Research
+###################################
+technology = { 
+	endgoal 	= { } 
+	
+	preference = {
+		# Motorized Infantry
+		1100 1110 1120 1130 1140 1150 13000 13010 13020 13090
+
+		# Mechanized Infantry
+		1470 1480 1490 1500 1510 1520 1950 1970 1980 3370
+		
+		# MBTs
+		2620 2010 2630 2640 2646 2650 2030 2040 2050 2580
+		
+		# SP Artillery
+		2220 2230 2240 2250 11030 2940 2960
+		
+		# SP Rocket Artillery
+		2980 2260 2270 2280 11050 11060 11070
+
+		# Destroyers
+		3310 3320 3330 3340 3350 12030 3710 3490 3500 3550 12050
+		
+		# Aircraft Carriers
+		3510 3520 3530
+		
+		# Super Carriers and Nuclear Aircraft Carriers
+		3540 3560 12060 3570 3580 3840
+
+		# Air Superiority Fighters
+		4510 4520 4300 4310 4320 4330 4340
+		
+		# Multi-Role Fighters
+		4500 4570 4530 4540 4550 4010 4020 4050 4080
+
+		# Light Industry
+		5810 5820 5050 5830 5060 5070
+		
+		# Heavy Industry
+		5130 5110 5120 5840 5850 5860
+		
+		# Industrial Sectors
+		5140 5150 5160 5170 5180
+		
+		# Rocketry
+		5560 5910 5410 53030
+		
+		# Computing
+		5310 54010 54020 54030 5320 53116 5330 53060 5340 5920 5930 53010
+
+		# Nuclear
+		5470 5480 5490 5500 5510 5520 5530 5540
+	} 
+	
+	ignore 	= { }
+ 
+	armor 		= 4
+	infantry 	= 3
+	industry 	= 3
+	aircraft 	= 2
+	naval 		= 2
+	land_doctrines 	= 4
+	secret_weapons 	= 2
+	air_doctrines 	= 2
+	naval_doctrines = 2
+}

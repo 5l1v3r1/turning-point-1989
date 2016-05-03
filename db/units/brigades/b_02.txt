@@ -1,0 +1,49 @@
+# 0 - Reconnaissance Aiircraft 1955
+model = {
+	cost 					= 12
+	buildtime	 			= 150
+	defaultorganisation 		= 0
+	morale					= 0
+	manpower				= 0.33
+	maxspeed				= 0
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 2
+	surfacedefence				= -4
+	airdefence				= -4
+	airattack				= 3
+	strategicattack				= 0
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 500
+	supplyconsumption 			= 0.25
+	fuelconsumption				= 0.5
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.6
+	equipment = { balloon = 100 manpower = 100 }
+}
+# 1 - Reconnaissance Aiircraft 1966
+model = {
+	cost 					= 15
+	buildtime	 			= 150
+	defaultorganisation 		= 0
+	morale					= 0
+	manpower				= 0.33
+	maxspeed				= 0
+	surfacedetectioncapability	= 4
+	airdetectioncapability		= 4
+	surfacedefence				= -6
+	airdefence				= -6
+	airattack				= 6
+	strategicattack				= 0
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 500
+	supplyconsumption 			= 0.5
+	fuelconsumption				= 0.7
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.6
+	upgrade_time_boost 	= no
+	equipment = { balloon = 100 manpower = 100 }
+}

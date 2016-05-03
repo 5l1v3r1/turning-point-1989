@@ -1,0 +1,143 @@
+allowed_brigades = cag
+allowed_brigades = naval_anti_air_l
+allowed_brigades = naval_radar_l
+allowed_brigades = naval_improved_hull_l
+allowed_brigades = b_03
+allowed_brigades = naval_fire_controll_l
+allowed_brigades = naval_torpedoes_l
+allowed_brigades = b_04
+allowed_brigades = b_08
+allowed_brigades = b_06
+allowed_brigades = b_07
+max_allowed_brigades = 5
+
+# 0 - 36,960t Aircraft Carrier 1942
+model = {
+	cost						= 10
+	buildtime 					= 1380
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 3.5
+	maxspeed					= 32
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 4
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 18
+	airdefence					= 23
+	seaattack					= 5
+	airattack					= 5
+	subattack					= 0
+	convoyattack					= 5
+	shorebombardment			= 1
+	transportcapability			= 0
+	range						= 18000
+	supplyconsumption			= 2.3
+	fuelconsumption				= 2
+	distance					= 0.05
+	equipment = { carrier = 1 manpower = 3500 }
+}
+# 1 - 45,000t Aircraft Carrier 1945
+model = {
+	cost						= 12
+	buildtime 					= 1440
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 3.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 5
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 17
+	airdefence					= 23
+	seaattack					= 5
+	airattack					= 6
+	subattack					= 1
+	convoyattack					= 5
+	shorebombardment			= 2
+	transportcapability			= 0
+	range						= 20000
+	supplyconsumption			= 2.5
+	fuelconsumption				= 2
+	distance					= 0.05
+	equipment = { carrier = 1 manpower = 3800 }
+}
+# 2 - 60,000t Aircraft Carrier 1955
+model = {
+	cost						= 20
+	buildtime 					= 1500
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 4
+	maxspeed					= 34
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 5
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 16
+	airdefence					= 22
+	seaattack					= 6
+	airattack					= 6
+	subattack					= 1
+	convoyattack					= 6
+	shorebombardment			= 2
+	transportcapability			= 0
+	range						= 20000
+	supplyconsumption			= 3
+	fuelconsumption				= 2
+	distance					= 0.05
+	equipment = { carrier = 1 manpower = 4000 }
+}
+# 3 - 81,780t Aircraft Carrier 1955
+model = {
+	cost						= 30
+	buildtime 					= 1500
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 4
+	maxspeed					= 34
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 5
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 15
+	airdefence					= 21
+	seaattack					= 7
+	airattack					= 7
+	subattack					= 1
+	convoyattack					= 6
+	shorebombardment			= 2
+	transportcapability			= 0
+	range						= 20000
+	supplyconsumption			= 3
+	fuelconsumption				= 2
+	distance					= 0.05
+	equipment = { carrier = 1 manpower = 4000 }
+}
+# 4 - 82,655t Aircraft Carrier 1968
+model = {
+	cost						= 35
+	buildtime 					= 1500
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 4
+	maxspeed					= 34
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 5
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 14
+	airdefence					= 20
+	seaattack					= 7
+	airattack					= 7
+	subattack					= 1
+	convoyattack					= 6
+	shorebombardment			= 2
+	transportcapability			= 0
+	range						= 20000
+	supplyconsumption			= 3
+	fuelconsumption				= 2
+	distance					= 0.05
+	equipment = { carrier = 1 manpower = 4000 }
+}

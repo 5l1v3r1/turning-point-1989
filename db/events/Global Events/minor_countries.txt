@@ -1,0 +1,34 @@
+#9005000 HAI Baby Doc flees Haiti
+###########################################################################
+############################
+# Haiti
+############################
+event = {
+    id = 9005000
+    random = no
+	country = HAI
+	
+	decision = { }
+	decision_trigger = { }	
+	trigger = {
+			headofstate = 350001
+	}
+	
+	name = "baby_doc_decision"
+	desc = "baby_doc_decision_desc"
+	style = 2
+	picture = "baby_doc"
+	decision_picture = "decision_baby_doc"
+
+	offset = 6
+	date = { day = 1 month = february year = 1986 }
+	deathdate = { day = 29 month = december year = 1986 }
+
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -10 }
+		command = { type = headofstate which = 350011 }
+		command = { type = headofgovernment which = 350012 }
+	}
+}
+	

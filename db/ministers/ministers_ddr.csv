@@ -1,0 +1,34 @@
+DDR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+625001;Head of State;Erich Honecker;1985;2012;2012;ST;Ruthless Powermonger;High;DDR1;X
+625002;Head of Government;Willi Stoph;1985;2012;2012;ST;Ambitious Union Boss;High;DDR2;X
+625003;Foreign Minister;Oskar Fischer;1985;2012;2012;ST;Ideological Crusader;High;DDR3;X
+625004;Minister of Armament;Gerhard Schürer;1985;2012;2012;ST;laissez-faire capitalist;High;DDR4;X
+625005;Minister of Security;Erich Mielke;1985;2012;2012;ST;Crooked Kleptocrat;High;DDR5;X
+625006;Head of Military Intelligence;Markus Wolf;1985;1986;2012;ST;Political Specialist;Very High;DDR6;X
+625007;Chief of Staff;Heinz Hoffmann;1985;1986;2012;ST;School of Mass Combat;Very High;DDR7;X
+625008;Chief of Army;Horst Stechbarth;1985;1989;2012;ST;Decisive Battle Doctrine;Very High;DDR8;X
+625009;Chief of Navy;Wilhelm Ehm;1985;1987;2009;ST;Base Control Doctrine;Very High;DDR9;X
+625010;Chief of Air Force;Wolfgang Reinhold;1985;1989;2012;ST;Carpet Bombing Doctrine;Very High;DDR10;X
+;Replacements;;;;;;;;;X
+625011;Head of State;Egon Krenz;1985;2012;2012;LE;Weary Stiffneck;High;DDR11;X
+625012;Head of Government;Hans Modrow;1985;2012;2012;LE;Silent Workhorse;High;DDR12;X
+625013;Head of State;Manfred Gerlach;1989;2012;2012;LE;Insignificant Layman;High;DDR13;X
+625014;Head of State;Sabine Bergmann-Pohl;1990;2012;2012;SC;Popular Figurehead;High;DDR14;X
+625015;Head of Government;Lothar de Maizière;1990;2012;2012;SC;Silent Workhorse;High;DDR15;X
+625016;Head of State;Markus Meckel;1990;2012;2012;SD;Popular Figurehead;High;DDR16;X
+625017;Head of Government;Ibrahim Böhme;1990;2012;2012;SD;Controversial Figure2;High;DDR17;X
+625018;Head of Government;Hans Modrow;1990;2012;2012;SD;Silent Workhorse;High;DDR12;X
+625019;Foreign Minister;Markus Meckel;1990;2012;2012;SD;Biased Intellectual;High;DDR16;X
+625020;Foreign Minister;Lothar de Maizière;1990;2012;2012;SC;Great Compromiser;High;DDR15;X
+625021;Head of State;Manfred Gerlach;1990;2012;2012;SD;Insignificant Layman;High;DDR13;X
+625022;Chief of Staff;Heinz Keßler;1986;1989;2012;ST;School of Mass Combat;Very High;L_Keßler;X
+625023;Chief of Staff;Theodor Hoffmann;1989;1990;2012;ST;School of Mass Combat;Very High;DDR_L_Hoffmann;X
+625024;Chief of Army;Horst Skerra;1989;2012;2012;ST;Decisive Battle Doctrine;Very High;DDR_L_Skerra;X
+625025;Chief of Army;Hans-Christian Reiche;1990;2012;2012;ST;Decisive Battle Doctrine;Very High;unknownminister;X
+625026;Chief of Navy;Theodor Hoffmann;1987;2012;2012;ST;Base Control Doctrine;Very High;DDR_L_Hoffmann;X
+625027;Chief of Navy;Hendrik Born;1989;2012;2012;ST;Base Control Doctrine;Very High;DDR_L_Born;X
+625028;Chief of Air Force;Rolf Berger;1989;2012;2012;ST;Carpet Bombing Doctrine;Very High;DDR_L_Berger;X
+625029;Head of Military Intelligence;Werner Großmann;1986;2012;2012;ST;Political Specialist;Very High;DDR_L_Großmann;X
+625030;Minister of Armament;Gerhard Pohl;1989;2012;2012;ML;laissez-faire capitalist;High;DDR_M_Pohl;X
+625031;Minister of Security;Peter-Michael Diestel;1989;2012;2012;ML;Crooked Kleptocrat;High;DDR_M_Diestel;X
+625032;Head of Military Intelligence;Georg Böhm;1985;2012;2012;SD;Political Specialist;High;unknownminister;X

@@ -1,0 +1,12 @@
+ALG;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+;Replacements;;;;;;;;;X
+450001;Head of State;Chadli Bendjedid;1936;2012;2012;LWR;Benevolent Gentleman;Very High;ALG1;X
+450002;Head of Government;Abdelhamid Brahimi;1936;2012;2012;LWR;Flamboyant Tough Guy;High;ALG2;X
+450003;Foreign Minister;Ahmed Taleb Ibrahimi;1936;2012;2012;LWR;Great Compromiser;High;ALG3;X
+450004;Minister of Armament;Chadli Bendjedid;1936;2012;2012;LWR;Infantry Proponent;Very High;ALG1;X
+450005;Minister of Security;Chadli Bendjedid;1936;2012;2012;LWR;Man of the People;Very High;ALG1;X
+450006;Head of Military Intelligence;Chadli Bendjedid;1936;2012;2012;LWR;Dismal Enigma;Very High;ALG1;X
+450007;Chief of Staff;Abdellah Belhouchet;1936;2012;2012;LWR;School of Fire Support;High;ALG4;X
+450008;Chief of Army;Abdellah Belhouchet;1936;2012;2012;LWR;Decisive Battle Doctrine;High;ALG4;X
+450009;Chief of Navy;Abdellah Belhouchet;1936;2012;2012;LWR;Indirect Approach Doctrine;High;ALG4;X
+450010;Chief of Air Force;Abdellah Belhouchet;1936;2012;2012;LWR;Air Superiority Doctrine;High;ALG4;X

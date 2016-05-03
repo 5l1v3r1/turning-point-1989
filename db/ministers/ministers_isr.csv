@@ -1,0 +1,16 @@
+ISR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+675001;Head of State;Chaim Herzog;1985;2012;2012;SL;Popular Figurehead;Very High;ISR1;X
+675002;Head of Government;Shimon Peres;1985;2012;2012;SL;Ambitious Union Boss;Very High;ISR2;X
+675003;Foreign Minister;Yitzhak Shamir;1985;2012;2012;ML;Ideological Crusader;Very High;ISR3;X
+675004;Minister of Armament;Yitzhak Moda'i;1985;2012;2012;ML;Administrative Genius;Very High;ISR4;X
+675005;Minister of Security;Haim Bar-Lev;1985;2012;2012;SL;Crime Fighter;Very High;ISR5;X
+675006;Head of Military Intelligence;Nahum Admoni;1985;2012;2012;ML;Political Specialist;Very High;ISR6;X
+675007;Chief of Staff;Moshe Levi;1985;2012;2012;ML;School of Manoeuvre;Very High;ISR7;X
+675008;Chief of Army;Dan Shomron;1985;2012;2012;ML;Decisive Battle Doctrine;Very High;ISR8;X
+675009;Chief of Navy;Zeev Almog;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;ISR9;X
+675010;Chief of Air Force;Amos Lapidot;1985;2012;2012;ML;Army Aviation Doctrine;Very High;ISR10;X
+;Replacements;;;;;;;;;X
+675011;Minister of Armament;Yitzhak Rabin;1985;2012;2012;SL;Resource Industrialist;Very High;ISR11;X
+675012;Head of Military Intelligence;Ehud Barak;1985;2012;2012;ML;Logistics Specialist;Very High;ISR12;X
+675013;Chief of Staff;Dan Shomron;1985;2012;2012;ML;School of Fire Support;Very High;ISR8;X
+675014;Chief of Army;Ehud Barak;1985;2012;2012;ML;Armoured Spearhead Doctrine;Very High;ISR12;X

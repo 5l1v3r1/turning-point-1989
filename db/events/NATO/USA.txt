@@ -1,0 +1,255 @@
+#########################################################################
+#  The Unabomber Strikes - May 15th
+#########################################################################
+event = {
+	id = 2049016
+	random = no
+	country = USA
+
+	name = UNABOMBER_NAME
+	desc = UNABOMBER_1_DESC
+	style = 2
+	picture = "news_paper"
+
+    date = { day = 14 month = may year = 1985 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 1 }
+	}
+}
+#########################################################################
+#  John Anthony Walker Jr. Spying Case - May 19th
+#########################################################################
+event = {
+	id = 2049017
+	random = no
+	country = USA
+
+	name = SPY_1_NAME
+	desc = SPY_1_DESC
+	style = 2
+	picture = "news_paper"
+
+    date = { day = 18 month = may year = 1985 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 1 }
+	}
+}
+#########################################################################
+#  Police defuses a Unabomber bomb sent to Boeing!
+#########################################################################
+event = {
+	id = 2049018
+	random = no
+	country = USA
+
+	name = UNABOMBER_2_NAME
+	desc = UNABOMBER_2_DESC
+	style = 2
+	picture = "news_paper"
+
+    date = { day = 12 month = june year = 1985 }
+
+	action = {
+		name = "ACTION_NAME_GOOD"
+		command = { type = dissent value = 1 }
+	}
+}
+#########################################################################
+#  STS-61-C: Space Shuttle Columbia is launched
+#########################################################################
+event = {
+	id = 2049019
+	random = no
+	country = USA
+
+	name = columbia_1_name
+	desc = columbia_1_desc
+	style = 2
+	picture = "STS-61-C"
+
+    date = { day = 11 month = january year = 1986 }
+
+	action = {
+		name = "ACTION_NAME_GOOD"
+		command = { type = dissent value = -1 }
+	}
+}
+#########################################################################
+#  The Voyager 2 space probe makes its first encounter with Uranus
+#########################################################################
+event = {
+	id = 2049020
+	random = no
+	country = USA
+
+	name = voyager_2_name
+	desc = voyager_2_desc
+	style = 2
+	picture = "Voyager 2"
+
+    date = { day = 23 month = january year = 1986 }
+
+	action = {
+		name = "ACTION_NAME_GOOD"
+		command = { type = dissent value = -1 }
+	}
+}
+#########################################################################
+#  STS-51-L: Space Shuttle Challenger disintegrates
+#########################################################################
+event = {
+	id = 2049021
+	random = no
+	country = USA
+
+	name = columbia_2_name
+	desc = columbia_2_desc
+	style = 2
+	picture = "STS-51-L"
+
+    date = { day = 27 month = january year = 1986 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 1 }
+	}
+}
+#########################################################################
+#  The United States Presidential Election of 1988
+#########################################################################
+event = {
+	id = 2049022
+	random = no
+	country = USA
+	
+	trigger = { government = democratic }
+
+	name = usa_election_1988
+	desc = usa_election_1988_desc
+	style = 1
+	picture = "ballot"
+
+    date = { day = 7 month = november year = 1988 }
+	
+	action = {
+		name = "ACTION_NAME_ELECT_RIGHT"
+		ai_chance = 80
+		command = { type = dissent value = -6 }
+		command = { type = headofstate which = 240011 } #George H. W. Bush
+		command = { type = headofgovernment which = 240012 } #George H. W. Bush
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = -8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_LEFT"
+		ai_chance = 20
+		command = { type = dissent value = -3 }
+		command = { type = headofstate which = 240013 } #Michael Dukakis
+		command = { type = headofgovernment which = 240014 } #Michael Dukakis
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+}
+#########################################################################
+#  The United States Presidential Election of 1992
+#########################################################################
+event = {
+	id = 2049023
+	random = no
+	country = USA
+	
+	trigger = { government = democratic }
+
+	name = usa_election_1992
+	desc = usa_election_1992_desc
+	style = 1
+	picture = "ballot"
+
+    date = { day = 2 month = november year = 1992 }
+	
+	action = {
+		ai_chance = 10
+		name = "ACTION_NAME_ELECT_RIGHT"
+		ai_chance = 15
+		command = { type = dissent value = -6 }
+		command = { type = headofstate which = 240011 } #George H. W. Bush
+		command = { type = headofgovernment which = 240012 } #George H. W. Bush
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = -8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_LEFT"
+		ai_chance = 80
+		command = { type = dissent value = -3 }
+		command = { type = headofstate which = 240015 } #Bill Clinton
+		command = { type = headofgovernment which = 240016 } #Bill Clinton
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_INDEPENDENT"
+		ai_chance = 5
+		command = { type = dissent value = -1 }
+		command = { type = headofstate which = 240017 } #Ross Perot
+		command = { type = headofgovernment which = 240018 } #Ross Perot
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+}
+#########################################################################
+#  The United States Presidential Election of 1996
+#########################################################################
+event = {
+	id = 2049024
+	random = no
+	country = USA
+	
+	trigger = { government = democratic }
+
+	name = usa_election_1996
+	desc = usa_election_1996_desc
+	style = 1
+	picture = "ballot"
+
+    date = { day = 4 month = november year = 1996 }
+	
+	action = {
+		name = "ACTION_NAME_ELECT_RIGHT"
+		ai_chance = 9
+		command = { type = dissent value = -3 }
+		command = { type = headofstate which = 240019 } #Bob Dole
+		command = { type = headofgovernment which = 240020 } #Bob Dole
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = -8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_LEFT"
+		ai_chance = 90
+		command = { type = dissent value = -6 }
+		command = { type = headofstate which = 240015 } #Bill Clinton
+		command = { type = headofgovernment which = 240016 } #Bill Clinton
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_INDEPENDENT"
+		ai_chance = 1
+		command = { type = dissent value = -1 }
+		command = { type = headofstate which = 240017 } #Ross Perot
+		command = { type = headofgovernment which = 240018 } #Ross Perot
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+}

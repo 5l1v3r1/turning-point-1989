@@ -1,0 +1,41 @@
+DFR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+1;AEG;AEG;6;1000;1996;aeronautics;electronics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2;BASF AG;basf;8;1000;2999;aeronautics;chemistry;industrial_engineering;management;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3;Bayer AG;bayer;8;1000;2999;chemistry;industrial_engineering;management;technical_efficiency;medicine;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4;Blohm & Voss;T6235;7;1000;2999;small_taskforce_tactics;naval_artillery;naval_engineering;marine_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5;BND;BNDger;8;1000;2999;mathematics;technical_efficiency;training;centralized_execution;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6;Bosch;T6218;7;1000;2999;industrial_engineering;technical_efficiency;management;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7;BwB;Joint Support Service;8;1000;2999;centralized_execution;management;small_unit_tactics;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8;Command Staff;ger command staff;8;1000;2999;training;management;artillery;infantry_focus;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9;DFVLR;DLR2;8;1979;1989;aeronautics;rocketry;aircraft_testing;avionics;mechanics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10;DLR;DLR2;8;1989;2999;aeronautics;rocketry;aircraft_testing;avionics;mechanics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11;DASA GmbH;T6224;7;1989;2000;aeronautics;technical_efficiency;industrial_engineering;electronics;management;rocketry;eneral_equipment;management;;;;;;;;;;;;;;;;;;;;;;;;;x
+12;Deutsche Bank AG;deutschebank;8;1000;2999;rt_user_1;management;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13;Deutsche Marine;T6231;7;1000;2999;large_taskforce_tactics;naval_artillery;naval_training;general_equipment;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14;Deutsches Heer;T6229;8;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15;Diehl;T6242;7;1000;2999;management;technical_efficiency;mathematics;munitions;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16;Dornier GmbH;T6224;7;1000;1989;aeronautics;bomber_design;fighter_design;avionics;aircraft_testing;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17;EADS Electronics;eadselectronics;8;2000;2999;chemistry;electronics;management;rocketry;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+18;Eurocopter GmbH;Eurocopter;7;1989;2999;technical_efficiency;management;industrial_engineering;general_equipment;avionics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+19;Führungsakademie;Führungsakademie;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+20;Heckler & Koch;T6221;9;1000;2999;general_equipment;rocketry;industrial_engineering;technical_efficiency;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+21;Howaldtswerke-Deutsche Werft;T6239;7;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;submarine_design;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22;Juelich Research Centre;Julichrc;8;1000;2999;electronics;nuclear_physics;management;technical_efficiency;munitions;nuclear_engineering;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;x
+23;Krauss-Maffei;T6220;9;1000;2999;mechanics;artillery;industrial_engineering;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24;Krupp AG;krupp;8;1900;1992;industrial_engineering;mechanics;technical_efficiency;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+25;LFK;lfkger;7;1995;2999;management;training;technical_efficiency;munitions;maneuver_tactics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+26;Luftwaffe;T6232;8;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+27;Lürssen Werft Bremen;T6236;7;1000;2999;small_taskforce_tactics;naval_artillery;naval_engineering;seamanship;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+28;Marineflieger;gernavair;5;1000;2999;aircraft_testing;fighter_tactics;avionics;aeronautics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+29;Marinelogistik;gernavlog;7;1000;2999;naval_training;management;mathematics;combined_arms_focus;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+30;Max Planck Institute;T6211;8;1000;2999;nuclear_engineering;nuclear_physics;mathematics;general_equipment;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+31;MBB GmbH;Eurocopter;7;1000;1989;technical_efficiency;management;industrial_engineering;general_equipment;avionics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+32;Mercedes Benz AG;mercedes;8;1929;2999;mechanics;management;vehicle_engineering;technical_efficiency;technical_efficiency;industrial_engineering;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;x
+33;Nordseewerke;Nordsee;6;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;seamanship;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+34;Panavia Aircraft GmbH;panavia;8;1969;2999;aeronautics;bomber_design;avionics;management;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+35;Porsche;T6203;7;1000;2999;mechanics;artillery;industrial_engineering;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+36;Rheinmetall;T6244;9;1000;2999;mechanics;industrial_engineering;technical_efficiency;mathematics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+37;Siemens;T6210;9;1000;2999;electronics;industrial_engineering;technical_efficiency;management;centralized_execution;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+38;Thyssen Krupp AG;thyssenkrupp;9;1992;2999;industrial_engineering;mechanics;technical_efficiency;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+39;UBootflotille;gersubmarine;9;1000;2999;seamanship;submarine_design;marine_training;submarine_tactics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+40;Volkswagen;VW;6;1933;2999;mechanics;vehicle_engineering;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

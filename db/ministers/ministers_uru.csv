@@ -1,0 +1,18 @@
+URU;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+195001;Head of State;Gregório Álvarez;1985;2012;2012;PA;Resigned Generalissimo;Very High;URU0;
+195002;Head of Government;Gregório Álvarez;1985;2012;2012;PA;Old General;Very High;URU0;
+195003;Foreign Minister;José Espalter;1933;1964;1999;PA;Iron Fisted Brute;Medium;M41003;X
+195004;Minister of Armament;Alfredo Baldomir;1933;1964;1999;PA;Military Entrepreneur;Medium;M41004;X
+195005;Minister of Security;Heinz Glockenberger;1933;1964;1999;PA;Prince of Terror;Medium;M41005;X
+195006;Head of Military Intelligence;Cristiano Piraguy Trellés;1933;1964;1999;PA;Logistics Specialist;Medium;M41006;X
+195007;Chief of Staff;Manuel Heinz Azpurua;1933;1964;1999;PA;School of Fire Support;Medium;M41007;X
+195008;Chief of Army;Jorge Elio Mendoza;1933;1964;1999;PA;Static Defence Doctrine;Medium;M41008;X
+195009;Chief of Navy;Carlos Jackson Urribé;1933;1964;1999;PA;Decisive Naval Battle Doctrine;Medium;M41009;X
+195010;Chief of Air Force;Cosme Alvaréz Berisso;1933;1964;1999;PA;Air Superiority Doctrine;Medium;M41010;X
+;Replacements;;;;;;;;;
+195011;Head of State;Rafael Addiego;1985;2012;2012;SC;Weary Stiffneck;Very High;URU3;X
+195012;Head of Government;Rafael Addiego;1985;2012;2012;SC;Happy Amateur;Very High;URU3;X
+195013;Head of State;Tabaré Vázquez;1985;2012;2012;SD;Pig-headed Isolationist;Very High;URU2;X
+195014;Head of Government;Tabaré Vázquez;1985;2012;2012;SD;Ambitious Union Boss;Very High;URU2;X
+195015;Head of State;Julio María Sanguinetti;1985;2012;2012;SC;Benevolent Gentleman;Very High;URU1;X
+195016;Head of Government;Julio María Sanguinetti;1985;2012;2012;SC;Naive Optimist;Very High;URU1;X

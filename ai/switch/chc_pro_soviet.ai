@@ -1,0 +1,25 @@
+#China Pro Soviet by HansNery
+#
+neutrality = 100
+war = 0
+###################################
+# Diplomacy
+###################################
+
+liberate = { CZE HUN BUL ROM DDR PRK MON CHC SPR FRA POR ENG CSA CAL U33 U34 U35 U39 VIC RSI SOV }
+liberate_nation = { CZE HUN BUL ROM DDR PRK MON CHC SPR FRA POR ENG CSA CAL U33 U34 U35 U39 VIC RSI SOV }
+
+# Special resistance against "influence" by the listed nations. Value range = [0 - 10]  
+resistance = { USA = 50 }
+
+befriend = { 
+	SOV = 50 
+}
+
+trade = {
+	cancel_deal_threshold = 2
+	favored = { 
+		SOV = 100 
+	}
+	embargo = { }
+}

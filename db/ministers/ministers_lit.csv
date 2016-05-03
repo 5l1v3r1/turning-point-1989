@@ -1,0 +1,26 @@
+LIT;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+140001;Head of State;Vytautas Astrauskas;1985;2012;2012;ST;Popular Figurehead;Very High;unknown;X
+140002;Head of Government;Algirdas Brazauskas;1985;2012;2012;LE;Flamboyant Tough Guy;Very High;LIT6;X
+140003;Foreign Minister;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+140004;Minister of Armament;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+140005;Minister of Security;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+140006;Head of Military Intelligence;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+140007;Chief of Staff;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+140008;Chief of Army;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+140009;Chief of Navy;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+140010;Chief of Air Force;Red Shadow;1985;2012;2012;ST;Generic;Very High;unknown;X
+;Replacements;;;;;;;;;X
+140011;Head of State;Vytautas Landsbergis;1985;2012;2012;SC;Barking Buffoon;Very High;LIT1;X
+140012;Head of Government;Kazimira Prunskiene;1985;2012;2012;ML;Silent Workhorse;Very High;LIT2;X
+140013;Foreign Minister;Algirdas Saudargas;1985;2012;2012;ML;Great Compromiser;Very High;LIT3;X
+140014;Minister of Armament;Rimvydas Jasinavicius;1985;2012;2012;ML;Resource Industrialist;Very High;LIT4;X
+140015;Minister of Security;Arvydas Pocius;1985;2012;2012;ML;Crime Fighter;Very High;LIT5;X
+140016;Head of Military Intelligence;Rimvydas Jasinavicius;1985;2012;2012;ML;Industrial Specialist;Very High;LIT4;X
+140017;Chief of Staff;Arvydas Pocius;1985;2012;2012;ML;School of Psychology;Very High;LIT5;X
+140018;Chief of Army;Arvydas Pocius;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;LIT5;X
+140019;Chief of Navy;Arvydas Pocius;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;LIT5;X
+140020;Chief of Air Force;Arvydas Pocius;1985;2012;2012;ML;Army Aviation Doctrine;Very High;LIT5;X
+140021;Head of Government;Alberta Simenas;1985;2012;2012;ML;Happy Amateur;Very High;LIT7;X
+140022;Head of Government;Gediminas Vagnorius;1985;2012;2012;ML;Happy Amateur;Very High;LIT8;X
+140023;Head of Government;Aleksandras Abisala;1985;2012;2012;ML;Happy Amateur;Very High;LIT9;X
+140024;Head of State;Algirdas Brazauskas;1985;2012;2012;LE;Popular Figurehead;Very High;LIT6;X

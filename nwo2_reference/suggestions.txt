@@ -1,0 +1,310 @@
+##########
+
+Rommelstein
+
+Playing with Cuba and it's enjoyable. I just think some events and such could be added to make it more enjoyable! After all Cuba did have a big impact on the Cold War, especially in the Americas.
+
+1. The UN congress of 1964 where Che Guevara was sent as the Cuban delegate as an event? (I'm not sure if there are many events after 1960 though?)
+
+2. Nationalization of U.S. (and all else) citizens' and companies' property on Cuba which resulted in a US embargo towards Cuba that is lasting still today...
+
+3. Before the revolution Cuba had +200 relations with USA, -50 or something with Soviet etc. etc. but after the revolution it's still the same. There should be some kind of event changing the relations to other left wing countries and capitalist countries. (After the nationalization Soviet got closer to Cuba while USA relations to Cuba worsened, which is pretty logical)
+
+4. Che Guevara travelling around the world (and thus, becoming unavailable as a Cuba minister) especially Congo in 1965 during the Congo Crisis and 1966 Guevara moving to Bolivia trying to spark a revolution there. (Yet again, are there many events after 1960 really?)
+
+Well that's all for now.
+
+EDIT!: Well, actually it looks like I didn't check through the event files closely enough! There is an event where you can choose if you want to side with Soviet or USA which changes relations and makes Soviet guarantee the independence of Cuba. That's nice.
+
+##########
+
+KaiserMuffin
+
+So I read Rommelstein's fun little AAR. Decide to load up and do a bit more of a plausible game, thinking to myself "Hmm, this will be fun, Israel has a few interesting wars in our time period." 
+
+So I load up as Medinat Yisra'el (Israel) in 1950 scenario. 
+
+Where do I start..
+Why no 1948 scenario for Israel release? Or at least an event chain through 1945-46 with Haganah, Stern Gang, Irgun could be implemented...
+Jordan and Israel have -50 relations whilst Lebanon, Syria and Egypt have relations of 0. This is completely backwards. Israel had the most positive relationship with Jordan to the point that Jordan nearly got kicked out of the Arab League due to H.M. Abdullah's willingness to do business with Israel, whilst Egypt in particular supported infiltration and terror acts against Israel. (more on this later)
+Why are there 4 divisions of UK troops spawning in Tel Aviv at the start of the game?
+Why is Israel's sliders so poor? David Ben Gurion is Head of Government, Moshe Dayan is Chief of the Army and they only have a slider of 4 on Intervention and 8 on Hawk Lobby?! This is completely inaccurate due to failing to model Israel's Iron Wall strategy (to always negotiate from a position of strength with the Arabs. Hawk Lobby and Interventionism should be very high - Israel will get enough pain from the fact they're a democracy when they declare war.
+Starting with 15.0 manpower - this is the nation that managed to swell the ranks of the IDF from 35k to 96k within months during 1948, I would at start Israel with a higher base mobilisation and greater manpower
+Completely Generic unit and division names - really kills the mood of playing one of the most interesting countries of this period.
+Stupid 'Independence Struggle' dissent event fires on Jan 15th 1950 2 YEARS AFTER INDEPENDENCE - this crap is for AI's! I have an IC of 3 (by the way... what?) and I get this crap! I can't even supply my armies and gain a resource surplus via trade.
+No events with regards to border infiltrations and Israeli responses.
+On Jordan: Arab Legion is absent just yet more generic divisions - could we give the one force that kicked Israeli ass in the 1948 war some damn credit?! and Glubb Pasha seem absent from events (what events?!) and Jordan starts the game as JOR49.
+Why is Israel brown? Swap colour with Lebanon please, so I can tell myself apart from my neighbours at a glance on political mode.
+Just a generally stunning lack of events...
+Option for the IDF to lead a Coup against Moshe Sharatt and put either David Ben-Gurion back into power or Moshe Dayan taking the reins in Israel and prompting a new round of wars...
+Israel doesn't have 'Practical Turbojet Engine'. What, the fu... (never mind, the tech trees for minors are just a sodding mess)
+Moshe Dayan and Ariel Sharon are both Lt. Generals. This is crap. Dayan should be a General whilst Sharon should be a Mj. General (if he MUST be in the game from 1950 onward... - he was actually only a colonel at the time).
+Oh and here's some quote straight from Wikipedia... emphasis mine, primarily to back up some of my points above and suggest events - would it have killed to check it when you made the scenario?
+the population of Israel rose from 800,000 to two million between 1948 and 1958.[87] During this period, food, clothes and furniture had to be rationed in what became known as the Austerity Period. Between 1948–1970, approximately 1,151,029 Jewish refugees relocated to Israel.[88] Some arrived as refugees with no possessions and were housed in temporary camps known as ma'abarot; by 1952, over 200,000 immigrants were living in these tent cities.[89] The need to solve the crisis led Ben-Gurion to sign a reparations agreement with West Germany that triggered mass protests by Jews angered at the idea that Israel could accept monetary compensation for the Holocaust.[90] In the 1950s, Israel was frequently attacked by Palestinian fedayeen, mainly from the Egyptian-occupied Gaza Strip,[91] leading to several Israeli counter-raids. In 1950 Egypt closed the Suez Canal to Israeli shipping and tensions mounted as armed clashes took place along Israel's borders. In 1956, Israel joined a secret alliance with Great Britain and France aimed at regaining control of the Suez Canal, which the Egyptians had nationalized (see the Suez Crisis). Israel overran the Sinai Peninsula but was pressured to withdraw by the United Nations in return for guarantees of Israeli shipping rights in the Red Sea and the Canal.[92][93]
+In the early 1960s, Israel captured Nazi war criminal Adolf Eichmann in Argentina and brought him to Israel for trial.[94] The trial had a major impact on public awareness of the Holocaust.[95] Eichmann remains the only person ever to be executed by an Israeli court.[96]
+General Spotted errors
+Libya... still ran by two Italian Fascists... Somalia, same.
+Nat Spain, Jugoslavia, Bulgaria, Romania, Hungary, Czech, Austria, Burma, South Vietnam, Uruguay, Paraguay, Bolivia all just deploy troops to the capital
+All the minors (Israel included) seem to be stuck researching 1916's hot new war doctrine 'Separated Arms'
+
+Just a thought btw, could we get events with offmap IC to symbolise superpower support? + events for Soviets/France/US/Britain to supply arms (divisions) to both Egypt and Israel? Israel has 3 IC, yet this was the country that publically announced it's already underway nuclear program to the world in 1960... 
+I think there's a lot of room for improvement, and I'm glad that you responded to my post with such a sanguine response - I wrote that a bit late at night so it came off snappy. I would be willing to do some work on the region at some point.
+
+##########
+
+Easy1:
+
+Post war event suggestion. Uruguay, Argentina, Brazil, Chile, Egypt, Spain, Portugal and India should all get an event in which they all choose if they want have German refugees or not. If yes, they should get a tech bonus due to German technicians, but of course at the price of diplomatic relations with the allies and Comintern.
+
+If I only made a list when I studied this. Anyways, this is a list over some of the most famous ones. It is mostly engineers and scientists related to aerospace engineering since this was my field of interest. Also, the German aerospace industry was shut down after WWII as producing engine powered aircraft was made illegal. Therefore, most of the German engineers and scientists that emigrated were not really refugees. It's more like: the exodus of German engineers and scientists after WWII
+
+Argentina
+
+Émile Dewoitine (French collaborator)
+Cesare Pallavicino
+Ronald Richter
+Kurt Tank
+Hans-Ulrich Rudel (The most highly decorated German serviceman of the war)
+Reimar Horten
+Hans Guido Mutke <- first supersonic flight?
+
+Spain
+
+Émile Dewoitine
+Willy Messerschmitt
+
+India
+
+Kurt Tank
+
+Egypt
+
+Wilhelm Voss
+Rolf Engel
+Wilhelm Fahrmbacher
+Ferdinand Brandner
+Willy Messerschmitt
+
+Brazil
+
+Henrich Focke
+
+And of course the Anglo-American and Soviet efforts to capture German engineers and scientists
+
+Operation Osoaviakhim
+Operation Paperclip
+Operation Alsos
+Operation Harborage
+Russian Alsos
+Operation Surgeon
+Operation Big
+Operation Lusty
+Operation Backfire
+
+###
+
+bestmajor
+
+wasnt affecting foreign relations, but Kurt Tank worked in both India and Argentina post war together with Galland
+http://en.wikipedia.org/wiki/Kurt_Tank#Postwar
+http://en.wikipedia.org/wiki/Adolf_Galland#Post-war 
+
+##########
+
+NapalmEddie
+
+One of the most interesting things about this era is how each superpower tried to influence other countries over to their side. I'm playing as the Soviets and it's a very difficult process to influence nations when each influence action gives you 5 or 10 points a shot. Would it be possible to create decisions where you could pay to raise your relations with a number of countries in an area of the word? Similar to the "German diplomatic offensive" event in regular DH. Even when I'm attempting to win over left leaning nations like Argentina, or full blown Stalinist countries like Communist Greece you only get 5 or 10 points in relationship improvement. 
+
+##########
+
+razorbird789
+
+after all of the above things are complete perhaps you could look at introducing some decisions/events solely about economics and money. I've thought that to simulate inflation you could have events that increase dissent abit because of increasing prices, lower IC bonuses but triple money production? something like that. Or invest in Oil refineries in Nigeria and have off map oil being produced or a fixed trade agreement with Nigeria. In fact you could have foreign investments which cost money for the nation (USA, Europeans, USSR, China, Japan etc). They could take away resources from African/Latin american nations and give offmap money. The investing nation would get offmap resources but lose offmap money. I know that there's a big economic war going on in Africa and Latin america to see who can own the most assets. you could also give those nations the chance to re nationalise their resources and regain them but lose the offmap money.
+
+##########
+
+razorbird789
+
+Have you thought much about Alt History Bizon? Not to the point where Germany wins ww2 but just after, things like the empires/colonies being maintained or the UN not really taking off, or NATO being refused. Or my personal favourite, If France joined the Commonwealth like it requested to do after the Suez Crises and the foolish Anthony Eden actually said yes?
+
+http://en.wikipedia.org/wiki/Commonwealth_of_Nations
+
+The actual quote because it's buried deep in the page
+
+"At the time of the Suez Crisis in 1956, in the face of colonial unrest and international tensions, French Prime Minister Guy Mollet proposed to British Prime Minister Anthony Eden that their two countries be joined in a "union". When that proposal was turned down, Mollet suggested that France be allowed to join the Commonwealth, with "a common citizenship arrangement on the Irish basis."
+After both proposals had been rejected, in 1957 France signed the Treaty of Rome with West Germany and the other founding nations of the Common Market, later to become the European Union, which the United Kingdom joined in 1973. Malta and Cyprus, also Commonwealth members, joined in 2004."
+
+##########
+
+Kurfürst 
+
+About the nukes, I have an idea. You could disable the Nuke mission for everyone. Player country would get player-specific decision or event at the beginning of the game, activating nuke mission. This would enable player to nuke with abandon. 
+Then make a set of AI specific decisions for each nuclear power. The decision would become available if one nuclear power was at war with another nuclear power, and would enable the Nuke mission if triggered. That way, AI won't be able to nuke little insurgents or Partisans, but WW3 could get very hot. Who is or isn't nuclear power could be tracked via country-specific flags. Once country reached certain nuke tech level, it would get a USA_NUKELEVEL7 or such flag, making them legitimate targets for nukes.
+For example, ai USA can't nuke Vietnam, because it can't use nuke mission. But if nuclear-armed China or SU DOWs USA, ai triggers said decision and can nuke 'em all till they glow. Of course, SU or China would be able to return the favor, via triggering their decisions, 'cause they are currently at war with another nuclear power, namely USA.
+something like this, for example for soviets:
+Code:
+country = SOV
+trigger = and {   {flag=SOV_NUKELEVEL7}
+                  {flag=USA_NUKELEVEL7}
+                  {war = USA}  }
+actiona = { command = {type = enablemission_nuke} }
+indicating that SU is a nuclear power, that USA is nuclear power and that SOV is at war with USA, with the effect of enabling NUKES! for SOV.
+Each country would need a load of those for all other potential nuclear countries, but nevertheless, it could work. Obviously, it is one time limitation only, after nuking is activated, it stays on, but I don't see much of a problem with this. After WW3, your game is mostly over anyway.
+
+Phew, that is longer than expected. Hopefully it will be of some use. AI seems reasonable enough to avoid brutally ahistorical and random stuff, so I will definately try the mod more 
+
+##########
+
+Napalm Eddie
+
+I wonder if you could base the standing army on the size of the population? I don't know how you'd do this though. You could also assign different countries to all of us, your devoted fans of the mod, and we could do some research into a rough estimate of what each countries either population size or military size was at different periods of time. If you look at the military's growth every 10 years or so you could work out an average growth rate. This info could be helpful? Maybe? 
+
+##########
+
+Samilou
+
+SAMILOU - Modern Day Extension mod for AoD
+
+You may want to look at this for more correct OOBs for later scenarios.
+
+http://forum.paradoxplaza.com/forum/showthread.php?320734-Orders-of-Battle
+
+##########
+
+NickRooz
+
+Maybe in a future release events can be written for the Border Campaign, which happened between the IRA and British forces in Northern Ireland? Maybe with the use of partisans on both sides(NI and Ireland) of the border? 
+-Sino-Indian war in 1962.
+-French Indochina war.
+
+###
+
+Serban
+
+Have you planned on adding the Indochina/Vietnam wars?
+
+I have a suggestion on how you can implement them:
+- Indochina War (1946-1954): Have a series of events that end up on the uprising of the communist states of the North (Comm. Vietnam, Comm. Laos, Khmer Rouge). Then ask France if they will take part on the war, with the following options: Intervention/Let them handle themselves. 
+If they choose Intervention, France starts controlling the Indochinese Union's armies. During the war, have events for France in which they're prompted to send more armies. If they choose to do so, create new divisions for Indochinese Union, increase dissent in France and decrease manpower and supplies in France. If they choose not to, just increase dissent.
+If France chooses not to intervene, create "Nationalist" countries of Indochina (Nat. Vietnam, Laos and Cambodia) and annex Ind. Union. No more actions.
+
+At the end of the War, if Indochinese union survives, create "Nationalist" countries.
+
+- Vietnam War (1963): Start war between Nat. and Com. Vietnam. Event for USA where asked for intervention. Similar way of acting to France in the first Indochina War. Events to send divisions to Nat. Vietnam, thus reducing manpower and supplies in the US and increasing dissent.
+
+##########
+
+NickRooz
+
+-The Border campaign 1956-62. I've already mentioned this, but this an important event as this is the point from which the IRA radicalizes, the start of the terror campaigns and the presence of the British Army in Northern Ireland.
+
+###
+
+Limith
+
+If you want an idea for event chains to add
+
+Space Race between Communist China and Japan for first satellite in space. China gets advice from SOV, Japan gets advice from USA. It did happen.
+
+Of course, only add it if you have USA v Soviets
+
+###
+
+danielshannon
+
+My 2 cents on post Stalin events:
+
+With the fall of Stalin it initially looked as though Malenkov would be Beria’s puppet (Beria didn’t think another Georgian could run the USSR openly and was the Politburo member who proposed that Malenkov become Prime Minister). Despite his Stalin era crimes, Beria seemed like something of a reformist. He was apparently behind the release of 1 million+ people from the gulags and prisons. The Dr’s plot was acknowledged as a fabrication, the security apparatus was reduced in size and the routine use of physical torture was prohibited. Beria wanted to initiate domestic reforms, increase the production of consumer goods, and reduce tensions with the west. When the USSR’s collective leadership met with Hungary’s dictator Matayas Rakosi, Beria lambasted the Hungarian regieme for its repressive nature (Beria claimed that 1.5 million of Hungary’s 9.5 million people had been persecuted by the state). He urged Rakosi to initiate reforms because the Red army “will not be there forever” to prop up the Hungarian communists. Beria also wanted to work out a deal on German unification (seeing the GDR as a state maintained only by the point of Soviet bayonets). Apparently he told his son that he did not want a permanently unstable socialist Germany that would require USSR support for its survival. Indeed, he thought a reunified Germany, even if it was capitalist, would be grateful to the USSR and help it economically. (see Melvyn Leffler’s For the Soul of Mankind for more information).
+
+Obviously, the others in the government were really scared of an independent, unified, and possibly revanchist Germany. Beria’s position on Germany, plus fears about Beria taking them out, led the other politburo members to plot Beria’s arrest and execution. 
+
+I suggest that, initially, Malenkov as head of Government and Vorishilov as Head of State. Then have an event about Beria’s fate. He could stage a coup, becoming head of government with Malenkov kicked up to the head of state post. Molotov, Bulganin, vorishilov, and Khrushchev are all purged(slept). There should be two versions of this action 1 if Kussinen runs Finland and another if he doesn’t. 
+HOS: Malenkov (this would be new, I figure Popular Figurehead or insignificant layman)
+HOG: Beria
+FM: Vyshinsky
+Armaments: Otto Kuusinen (this would be new, I’d use the reformer trait)/ alternately Ustinov
+Security: Beria
+Intelligence: Viktor S. Abakumov
+Staff: Sergei M. Shtemenko (associate of Beria-implicated in the Dr’s plot)
+Army: Rodion Y. Malinovsky
+Navy: Kuznetzov
+AirForce: Novikov
+
+Beria's successful coup should allow for a event on the unification of the German states. If Beria is ousted then he and abakumov are slept.
+
+I don’t know how the usual events for Khruskhev’s succession work but the latest minister file has him becoming HOG in 1958 which is well after he consolidated power but after he technically succeeded Bulganin as premier. I’d suggest a decision around 1954 as to whether Malenkov, Khruskhev, or Bulganin gets the head of government spot.
+
+There should also be an event about the secret speech (if Khrushchev is HOG) and the attempted “anti party group” coup. If the coup is successful, then Khrushchev and Zhukov are slept. 
+HOS: Molotov
+HOG: Malenkov
+FM: Shepilov 
+Armaments: Kaganovich
+Staff: Bulganin
+Army: Malinovsky 
+
+If it fails then Molotov, Shepilov, Kaganovich, and Malenkov are slept. Additionally, Khrushchev will then have a choice between keeping Zhukov (whose support saved him from the anti party coup) or retiring him (sleeping him) out of fear of Zhukov’s power.
+
+###
+
+whatguts
+
+here's an idea for nationalist china, Chiang agrees to acquire French Indochina after WWII instead withdrawing troops in 1946 as it did in real life
+http://en.wikipedia.org/wiki/Chiang_...ench_Indochina
+
+this of course would mean that he will have to deal with Ho Chi Minh, should chiang chooses to crush Ho, the communist grow stronger, and during the war, Ho will coordinate with Mao and uprise. or should he start talking, Ho may just submit, and Mao is more likely to surrender and unify china under a new democratic centre regime. Or if he should allow Indochina to become independent as a puppet, Mao will still be more likely to surrender, and Chiang raises the international image of China.
+
+Of course the French aren't going to be happy about this, they can only voice their frustration, but nothing can be done as it was Roosevelt's idea, Truman however, may not endorse such action.
+
+If truman does endorse this idea, chances are, he will pressure the Raj to give up sumdo and putao, Chiang can accept this offer, but force to renounce on Mipi and Itanagar. Or truman can bargain with China for full support for the oncoming WWIII, not only giving all four provinces, but recognizing China's claim on Mongolia, Tannu Tuva, old Qing claims on Siberia, and the five North Korean province of Pyongyang, Sinuiju, Ganggye, Cheungjin, and Hamheung. but only if truman is desperate, or if the war has already started and going in USSR's favor 
+
+###
+
+Admiral Yamamot
+
+Would it be possible to set the event dates for the historic dates, rather than having the election occur in e.g. March 2nd of 1951?
+
+###
+
+1318 Andropov123
+
+Possible new USSR events:
+
+-1956 pro-Stalin, anti-Kruschev protests in Georgia, against the de-Stalinization.
+
+http://en.wikipedia.org/wiki/1956_Ge...demonstrations
+
+Most of the people were very pro-Stalin. Maybe they should have known better, but this is how it was. Relatives who lived in the time say the country strongly disliked Kruschev for his move. People who were supposed to destroy the Stalin portraits hid them in their homes.
+
+Maybe the protests could escalate into larger unrest.
+
+-Also after de-Stalinization, the "Anti-Party Group" of Malenkov, Molotov, and others wanted to overthrow Kruschev, but failed.
+
+Molotov says receiving telegrams from people opposed to de-Stalinization from all around the country, including in Georgia during 1956.
+
+Maybe it would be too much work, but a kind of mini-civil war between Kruschev's supporters and the pro-Molotov, Malenkov (Stalinist) group could erupt. Armies could defect to one or the other side. It was a very uncertain time- it was a miracle that things didn't escalate, mainly because Zhukov decided to support Kruschev out of pragmatism, as his supporters were more numerous than those of the Stalinist group.
+
+-If Molotov and Malenkov win, their plan was to increase production of consumer goods and decrease production of heavy industry and war equipment. This was opposed by the Kruschev group, interestingly enough.
+
+
+
+Malenkov talking about increasing consumer goods.
+
+Maybe this could be represented as -industry but also -dissent?
+
+-Under Kruschev, a major focus was put on building cheap, low-cost housing for the population. Probably other groups would pursue the same policy.
+
+http://en.wikipedia.org/wiki/Khrushchyovka
+
+Maybe a flavor event for mass housing construction could be added, with -money and -dissent.
+
+USA events:
+
+-If timeline is advanced to mid-late '60s, the hippie movement and Black nationalist movements (Black Panthers) could be included as a disssent hit, and maybe if the US government pursues oppressive policies, civil conflict may erupt. 
+
+###
+
+1325 Unluckyimmortal
+
+I had an idea regarding de-colonialization in the post-war period: numerous countries in the 1945-1963 time period tried to retain colonies as essentially full parts of the nation. France, Portugal, and the UK at the very least attempted it, and I think that some of those attempts largely succeeded, at least in the timeframe of the mod. For example, Portugal attempted to remodel itself from an empire into a nation spanning multiple continents. This largely failed in that they lost Portuguese Africa and India, but they managed to hang onto Macao, for example, until 2000. France was a little more successful in this regard, retaining Guiana, Polynesia, and a bunch of outlying islands until the present, with no sign that they're going to give them up. Britain hung onto most of the particularly valuable places that they managed to avoid losing during the war. I think it's entirely possible that, had the Empire successfully defended Malaya that Malaya and Singapore *might* be overseas provinces today. They certainly hung onto Hong Kong until 2000 as well.
+
+Anyway, enough justification. What I'd suggest is a third option (and I might try coding this on my own if there's interest) which allows a colonial power to retain a colony as a permanent overseas province, giving it cores on that colony. I'd imagine that it would involve a large dissent hit and a scripted liberation of the colony which provides it with a reasonably strong military force and scripts a war between the colonial power and its former colony. If the power defeats the colony, it can then choose to make it an overseas province, granting cores and suppressing further independence events while again taking a dissent hit. If the local forces are strong enough and the dissent hit is large enough, it makes it difficult to retain more than a couple colonies on a permanent basis, and perhaps impossible to retain multiple colonies without cheating or dealing with extremely high dissent. Basically, I think it might provide an interesting option for colonialist powers post-war, but dissent costs would make it a tough strategic choice for any country that has retained many colonies. 

@@ -1,0 +1,43 @@
+IRQ;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+365001;Head of State;Saddam Hussein;1980;2012;2012;LWR;Ruthless Powermonger;Very High;IRQ1;X
+365002;Head of Government;Saddam Hussein;1980;2012;2012;LWR;Flamboyant Tough Guy;Very High;IRQ1;X
+365003;Foreign Minister;Tariq Aziz;1980;2012;2012;LWR;biased intellectual;High;IRQ2;X
+365004;Minister of Armament;Hikmat Ibrahim al-Azzawi;1980;2012;2012;LWR;Corrupt Kleptocrat;High;IRQ3;X
+365005;Minister of Security;Watban Ibrahim al-Tikriti;1980;2012;2012;LWR;Prince of Terror;High;IRQ4;X
+365006;Head of Military Intelligence;Barzan Ibrahim al-Tikriti;1980;2012;2012;LWR;Political Specialist;High;IRQ5;X
+365007;Chief of Staff;Adnan Khairallah;1980;2012;2012;LWR;School of Fire Support;Medium;IRQ6;X
+365008;Chief of Army;Sultan Hashim Ahmad al-Tai;1980;2012;2012;LWR;Armoured Spearhead Doctrine;Medium;IRQ7;X
+365009;Chief of Navy;Hamid Sha'aban;1980;2012;2012;LWR;Power Projection Doctrine;Medium;unknown;X
+365010;Chief of Air Force;Hamid Sha'aban;1980;2012;2012;LWR;Carpet Bombing Doctrine;Medium;unknown;X
+365011;Minister of Armament;Adnan Khairallah;1980;2012;2012;LWR;Military Entrepreneur;High;IRQ6;X
+365012;Minister of Armament;Hussein Kamel al-Majid;1980;2012;2012;LWR;Tank Proponent;High;IRQ9;X
+365013;Minister of Security;Qusay Hussein;1980;2012;2012;LWR;Prince of Terror;High;IRQ10;X
+365014;Minister of Security;Ali Hassan al-Majid;1980;2012;2012;LWR;Efficient Sociopath;High;IRQ11;X
+365015;Minister of Security;Taha Yassin Ramadan;1980;2012;2012;LWR;Man of the People;High;IRQ8;X
+365016;Chief of Staff;Maher Abd al-Rashid;1980;2012;2012;LWR;School of Psychology;Medium;unknown;X
+365017;Chief of Staff;Sultan Hashim Ahmad al-Tai;1980;2012;2012;LWR;School of Manoeuvre;Medium;IRQ7;X
+365018;Chief of Staff;Izzat Ibrahim al-Douri;1980;2012;2012;LWR;School of Mass Combat;Medium;IRQ12;X
+365019;Chief of Army;Izzat Ibrahim al-Douri;1980;2012;2012;LWR;Static Defence Doctrine;Medium;IRQ12;X
+365020;Chief of Army;Hussein Kamel al-Majid;1980;2012;2012;LWR;Guns and Butter Doctrine;Medium;IRQ9;X
+365021;Chief of Air Force;Maher Abd al-Rashid;1980;2012;2012;LWR;Air Superiority Doctrine;Medium;unknown;X
+;Replacements;;;;;;;;;X
+365022;Head of State;Mohammad Baqir al-Hakim;1980;2012;2012;NS;Die-hard Reformer;Very High;IRQ13;X
+365023;Head of Government;Abdul Aziz al-Hakim;1980;2012;2012;NS;Political Protege;Very High;IRQ14;X
+365024;Foreign Minister;Nouri al-Maliki;1980;2012;2012;NS;biased intellectual;Very High;IRQ15;X
+365025;Minister of Armament;Adil Abdul-Mahdi;1980;2012;2012;NS;Laissez-Faire Capitalist;Very High;IRQ16;X
+365026;Minister of Security;Hadi al-Amiri;1980;2012;2012;NS;Prince of Terror;Very High;IRQ17;X
+365027;Head of Military Intelligence;Abdul Aziz al-Hakim;1980;2012;2012;NS;Logistics Specialist;Very High;IRQ14;X
+365028;Chief of Staff;Abdul Aziz al-Hakim;1980;2012;2012;NS;School of Mass Combat;Very High;IRQ14;X
+365029;Chief of Army;Hadi al-Amiri;1980;2012;2012;NS;Guns and Butter Doctrine;Very High;IRQ17;X
+365030;Chief of Navy;Hadi al-Amiri;1980;2012;2012;NS;Indirect Approach Doctrine;Very High;IRQ17;X
+365031;Chief of Air Force;Hadi al-Amiri;1980;2012;2012;NS;Army Aviation Doctrine;Very High;IRQ17;X
+365032;Head of State;Mohammed Abdullah al-Shahwani;1980;2012;2012;ML;Resigned Generalissimo;High;IRQ18;X
+365033;Head of Government;Ayad Allawi;1980;2012;2012;ML;Happy Amateur;High;IRQ19;X
+365034;Foreign Minister;Ayad Allawi;1980;2012;2012;ML;Great Compromiser;Medium;IRQ19;X
+365035;Minister of Armament;Ali Allawi;1980;2012;2012;ML;Laissez-Faire Capitalist;Medium;IRQ20;X
+365036;Minister of Security;Hussein Kamel al-Majid;1980;2012;2012;ML;Back Stabber;Medium;IRQ9;X
+365037;Head of Military Intelligence;Hussein Kamel al-Majid;1980;2012;2012;ML;Technical Specialist;Medium;IRQ9;X
+365038;Chief of Staff;Mohammed Abdullah al-Shahwani;1980;2012;2012;ML;School of Psychology;Medium;IRQ18;X
+365039;Chief of Army;Ali Ghaidan Majid;1980;2012;2012;ML;Guns and Butter Doctrine;Low;IRQ21;X
+365040;Chief of Navy;Ali Ghaidan Majid;1980;2012;2012;ML;Indirect Approach Doctrine;Low;IRQ21;X
+365041;Chief of Air Force;Ali Ghaidan Majid;1980;2012;2012;ML;Army Aviation Doctrine;Low;IRQ21;X

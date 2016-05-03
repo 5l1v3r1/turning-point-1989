@@ -1,0 +1,6 @@
+technology =
+{ id          = 8
+  category    = naval_doctrines
+  name        = TECH_ND_NAME # Localized name
+  desc        = TECH_ND_DESC # Localized description
+}

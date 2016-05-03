@@ -1,0 +1,25 @@
+FRA;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+5701;Eurocopter;eurocopter;8;1000;2999;technical_efficiency;avionics;aeronautics;piloting;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5702;DGSE;dgsefra;7;1000;2999;centralized_execution;management;individual_courage;small_taskforce_tactics;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5703;MBDA;mbdamissile;8;1000;2999;management;rocketry;mathematics;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5704;Thales;thaleseng;8;1000;2999;management;industrial_engineering;general_equipment;mechanics;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5705;EADS Electronics;eadselectronics;7;1000;2999;chemistry;electronics;mathematics;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5706;Schneider Electric;schneiderelectric;8;1000;2999;industrial_engineering;electronics;training;general_equipment;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5707;Groupe Bull;groupebull;7;1000;2999;electronics;management;training;technical_efficiency;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5708;Commissariat l��nergie atomique;comeatom;7;1000;2999;nuclear_physics;nuclear_engineering;mathematics;chemistry;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5709;French Army;armeedeterre;8;1000;2999;training;large_unit_tactics;large_unit_focus;small_taskforce_tactics;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5710;Marine Corps;tdmarines;6;1000;2999;decentralized_execution;small_unit_tactics;individual_courage;combined_arms_focus;marine_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5711;Joint Chiefs of Staff;frchstaff;8;1000;2999;training;management;general_equipment;centralized_execution;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5712;French Air Force;frairforce;8;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5713;Naval Aviation;frnavalair;7;1000;2999;aircraft_testing;aeronautics;fighter_design;bomber_design;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5714;Nexter-GIAT;giatfr;8;1000;2999;mechanics;artillery;munitions;rocketry;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5715;MAS;stetiene;6;1000;2999;general_equipment;rocketry;industrial_engineering;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5716;Dassault;T5702;8;1000;2999;aeronautics;avionics;piloting;fighter_design;bomber_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5717;EADS;T5701;9;1000;2999;aeronautics;technical_efficiency;industrial_engineering;avionics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5718;ESA;europeanspaceagency;7;1000;2999;electronics;rocketry;mathematics;technical_efficiency;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5719;French Navy;frenchnavy;8;1000;2999;carrier_tactics;large_taskforce_tactics;carrier_design;piloting;marine_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5720;DCNS;T5705;9;1000;2999;naval_engineering;naval_artillery;seamanship;small_taskforce_tactics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5721;Submarine Forces;frenchsub;7;1000;2999;submarine_tactics;submarine_design;maneuver_tactics;naval_engineering;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5722;Fleet Logistics;franavlog;7;1000;2999;naval_training;management;mathematics;technical_efficiency;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5723;Constructions M�caniques de Normandie;normandie;4;1000;2999;naval_artillery;seamanship;naval_engineering;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5724;Chantiers de l'Atlantique;atlantique;5;1000;2999;naval_artillery;small_taskforce_tactics;munitions;seamanship;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

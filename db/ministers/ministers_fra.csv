@@ -1,0 +1,22 @@
+FRA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+5001;Head of State;François Mitterand;1985;2012;2012;SD;Barking Buffoon;Very High;FRA1;X
+5002;Head of Government;Laurent Fabius;1985;2012;2012;SD;Happy Amateur;Very High;FRA2;X
+5003;Foreign Minister;Roland Dumas;1985;2012;2012;SD;Ideological Crusader;Very High;FRA3;X
+5004;Minister of Armament;Pierre Bérégovoy;1985;2012;2012;SL;Administrative Genius;Very High;FRA4;X
+5005;Minister of Security;Charles Hernu;1985;2012;2012;SL;Compassionate Gentleman;Very High;FRA5;X
+5006;Head of Military Intelligence;Rémy Pautrat;1985;2012;2012;SD;Political Specialist;Very High;FRA6;X
+5007;Chief of Staff;Jeannou Lacaze;1985;2012;2012;SD;School of Fire Support;Very High;FRA7;X
+5008;Chief of Army;René Imbot;1985;2012;2012;SL;Static Defence Doctrine;Very High;FRA8;X
+5009;Chief of Navy;Yves Leenhardt;1985;2012;2012;SD;Open Seas Doctrine;Very High;FRA9;X
+5010;Chief of Air Force;Bernard Capillon;1985;2012;2012;SL;Carpet Bombing Doctrine;Very High;FRA10;X
+;Replacements;;;;;;;;;X
+5011;Head of State;Jean-Marie Le Pen;1985;2012;2012;PA;Ruthless Powermonger;Very High;FRA11;X
+5012;Head of Government;Jean-Pierre Stirbois;1985;2012;2012;PA;Silent Workhorse;Very High;FRA12;X
+5013;Foreign Minister;Bruno Gollnisch;1985;2012;2012;PA;Biased Intellectual;Very High;FRA13;X
+5014;Minister of Armament;Roger Holeindre;1985;2012;2012;PA;Military Entrepreneur;Very High;FRA14;X
+5015;Minister of Security;Jean-Jacques Susini;1985;2012;2012;PA;Prince of Terror;Very High;FRA15;X
+5016;Head of Military Intelligence;Jean-Jacques Susini;1985;2012;2012;PA;Political Specialist;Very High;FRA15;X
+5017;Chief of Staff;Jeannou Lacaze;1985;2012;2012;PA;School of Fire Support;Very High;FRA7;X
+5018;Chief of Army;René Imbot;1985;2012;2012;PA;Static Defence Doctrine;Very High;FRA8;X
+5019;Chief of Navy;Yves Leenhardt;1985;2012;2012;PA;Open Seas Doctrine;Very High;FRA9;X
+5020;Chief of Air Force;Bernard Capillon;1985;2012;2012;PA;Carpet Bombing Doctrine;Very High;FRA10;X

@@ -1,0 +1,1467 @@
+1985-00-00 : 0:00 January 1, 1985 : Our policy can be changed.
+1985-00-00 : 0:00 January 1, 1985 : The following decisions are now available: Turning Point Options, Politics, Investments, Praise The USA, Praise The USSR, Align More Towards Capitalism, USA Trade Mission, Align More Towards Socialism, USSR Trade Mission, Education Budget, Testing Tool, Our Inflation Rate, Our Interest Rates, Prolong Terms of Service, Enact Partial Mobilization
+1985-00-00 : 0:00 January 1, 1985 : Czechoslovakia had The Normalization .
+1985-00-00 : 0:00 January 1, 1985 : Romania had Ceausescu and The Systematization .
+1985-00-00 : 0:00 January 1, 1985 : Bulgaria went with Okay in The Revival Process.
+1985-00-00 : 0:00 January 1, 1985 : Yugoslavia had North-South Differences .
+1985-00-00 : 0:00 January 1, 1985 : We went with World in Conflict in Events Settings.
+1985-00-00 : 0:00 January 1, 1985 : We went with §GOur inflation is around 6 percent. in Our Inflation Rate.
+1985-00-00 : 0:00 January 1, 1985 : Research Technology happened to us.
+1985-00-01 : 0:00 January 2, 1985 : Soviet Union went with Hurrah! in The Soviet-Afghan War.
+1985-00-02 : 0:00 January 3, 1985 : Syria left the Military Alliance she had with Egypt and Jordan.
+1985-00-02 : 0:00 January 3, 1985 : Soviet Union had Shortage of Consumer Goods .
+1985-00-02 : 0:00 January 3, 1985 : People's Republic of Poland had Solidarity .
+1985-00-03 : 0:00 January 4, 1985 : Yugoslavia had Development Program for Montenegro .
+1985-00-05 : 0:00 January 6, 1985 : United States of America concluded a diplomatic deal with us.
+1985-00-06 : 0:00 January 7, 1985 : We concluded a diplomatic deal with Madagascar.
+1985-00-06 : 0:00 January 7, 1985 : We concluded a diplomatic deal with Liechtenstein.
+1985-00-06 : 0:00 January 7, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-00-06 : 0:00 January 7, 1985 : We concluded a diplomatic deal with Singapore.
+1985-00-08 : 0:00 January 9, 1985 : We concluded a diplomatic deal with Congo.
+1985-00-08 : 0:00 January 9, 1985 : We concluded a diplomatic deal with Malaysia.
+1985-00-08 : 0:00 January 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-00-08 : 0:00 January 9, 1985 : We concluded a diplomatic deal with Singapore.
+1985-00-09 : 0:00 January 10, 1985 : Kenya went with This is a good idea! in Recognition of the Sahrawi Arab Democratic Republic..
+1985-00-10 : 0:00 January 11, 1985 : We concluded a diplomatic deal with Malaysia.
+1985-00-10 : 0:00 January 11, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-00-10 : 0:00 January 11, 1985 : We concluded a diplomatic deal with Singapore.
+1985-00-10 : 0:00 January 11, 1985 : Morocco had Kenya supports Polisario! .
+1985-00-11 : 0:00 January 12, 1985 : Yugoslavia went with That's what a federation is about in Divided We Stand, United We Fall?.
+1985-00-12 : 0:00 January 13, 1985 : We concluded a diplomatic deal with Singapore.
+1985-00-14 : 0:00 January 15, 1985 : Brazil went with Elect Tancredo Neves (Historical) in 1985 Brazilian Presidential Election.
+1985-00-14 : 0:00 January 15, 1985 : Brazil had Tancredo Neves is elected by the electoral college! .
+1985-00-15 : 0:00 January 16, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-00-16 : 0:00 January 17, 1985 : United Kingdom had British Telecom Announcement. .
+1985-00-18 : 0:00 January 19, 1985 : Benin had African and Malagasy Union dissolved! .
+1985-00-19 : 0:00 January 20, 1985 : United States of America had Operation Cyclone .
+1985-00-19 : 0:00 January 20, 1985 : Mujahideen had The USA funds the Mujahideen! .
+1985-00-19 : 0:00 January 20, 1985 : We concluded a diplomatic deal with Liberia.
+1985-00-20 : 0:00 January 21, 1985 : Iran had Found the Economic Cooperation Organization .
+1985-00-20 : 0:00 January 21, 1985 : Turkey went with They have accepted! in Iran invites us to the Economic Cooperation Organization!.
+1985-00-20 : 0:00 January 21, 1985 : Iran had Turkey accepts! .
+1985-00-20 : 0:00 January 21, 1985 : Pakistan went with Accept in Iran invites us to the Economic Cooperation Organization!.
+1985-00-20 : 0:00 January 21, 1985 : Iran had Pakistan accepts! .
+1985-00-20 : 0:00 January 21, 1985 : Iran had The Economic Cooperation Organization is formed! .
+1985-00-20 : 0:00 January 21, 1985 : Turkey had The Economic Cooperation Organization is formed! .
+1985-00-20 : 0:00 January 21, 1985 : Pakistan had The Economic Cooperation Organization is formed! .
+1985-00-20 : 0:00 January 21, 1985 : United States of America had President Reagan's Second Term. .
+1985-00-26 : 0:00 January 27, 1985 : Iran had Economic Cooperation Organisation formed .
+1985-00-26 : 0:00 January 27, 1985 : Pakistan had Economic Cooperation Organisation formed .
+1985-00-26 : 0:00 January 27, 1985 : Turkey had We Are The World' recorded. .
+1985-00-28 : 0:00 January 29, 1985 : We concluded a diplomatic deal with Belgium.
+1985-00-29 : 0:00 January 30, 1985 : We concluded a diplomatic deal with Lebanon.
+1985-01-01 : 0:00 February 2, 1985 : South Africa went with Offer Mandela Conditional Freedom (Historical) in Offer Mandela Freedom.
+1985-01-01 : 0:00 February 2, 1985 : South Africa had Mandela refuses the offer! .
+1985-01-03 : 0:00 February 4, 1985 : Spain went with This can only be a good thing. in Opening the border..
+1985-01-03 : 0:00 February 4, 1985 : We concluded a diplomatic deal with Lebanon.
+1985-01-04 : 0:00 February 5, 1985 : United Kingdom had The Strangler of Vitebsk .
+1985-01-04 : 0:00 February 5, 1985 : Australia had Withdrawal from the MX-Missile Tests. .
+1985-01-05 : 0:00 February 6, 1985 : United States of America had Australian withdrawal from the MX-Missile Tests. .
+1985-01-08 : 0:00 February 9, 1985 : United States of America had Drug Agent Enrique Camarena goes missing. .
+1985-01-09 : 0:00 February 10, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-01-11 : 0:00 February 12, 1985 : Uruguay had General Alvarez resigns! .
+1985-01-13 : 0:00 February 14, 1985 : Israel had CNN Reporter Jeremy Levin released. .
+1985-01-13 : 0:00 February 14, 1985 : United States of America had CNN Reporter Jeremy Levin released. .
+1985-01-13 : 0:00 February 14, 1985 : United States of America went with Hurrah, Peace in the Middle East! in Israeli forces start to leave Lebanon..
+1985-01-18 : 0:00 February 19, 1985 : United States of America had First Artificial Heart Patient. .
+1985-01-18 : 0:00 February 19, 1985 : We concluded a diplomatic deal with Tanzania.
+1985-01-18 : 0:00 February 19, 1985 : We concluded a diplomatic deal with Laos.
+1985-01-19 : 0:00 February 20, 1985 : Japan had Minolta releases the worlds first autofocus single-lens reflex camera. .
+1985-01-19 : 0:00 February 20, 1985 : We concluded a diplomatic deal with Uganda.
+1985-01-20 : 0:00 February 21, 1985 : The attachment to 1st Armored Division has been upgraded to Anti-Air 1965.
+1985-01-20 : 0:00 February 21, 1985 : The attachment to 8th Armored Division has been upgraded to Anti-Air 1965.
+1985-01-20 : 0:00 February 21, 1985 : The attachment to 40th Mechanized Division has been upgraded to Anti-Air 1965.
+1985-01-27 : 0:00 February 28, 1985 : United Kingdom had Mortar attack in Northern Ireland .
+1985-02-00 : 0:00 March 1, 1985 : Uruguay had End of the Dictatorship! .
+1985-02-00 : 0:00 March 1, 1985 : Uruguay had Sanguinetti is the new president! .
+1985-02-02 : 0:00 March 3, 1985 : Chile had The Algarrobo Earthquake .
+1985-02-03 : 0:00 March 4, 1985 : United States of America had USFDA approves a blood test for AIDS .
+1985-02-04 : 0:00 March 5, 1985 : United States of America had Drug Agent Enrique Camarena has been found. .
+1985-02-06 : 0:00 March 7, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-02-07 : 0:00 March 8, 1985 : Lebanon had Car bomb goes off in Beirut! .
+1985-02-09 : 0:00 March 10, 1985 : Soviet Union went with Appoint Viktor Grishin! (Hardliner) in Chernenko passes away!.
+1985-02-10 : 0:00 March 11, 1985 : United Kingdom had Mohammed Al Fayed buys Harrods. .
+1985-02-11 : 0:00 March 12, 1985 : We concluded a diplomatic deal with Tanzania.
+1985-02-13 : 0:00 March 14, 1985 : Brazil had President-elect Tancredo Neves falls ill .
+1985-02-13 : 0:00 March 14, 1985 : Singapore had The Lionesses at Singapore Zoo. .
+1985-02-15 : 0:00 March 16, 1985 : Lebanon had Reporter taken Hostage in Beirut! .
+1985-02-20 : 0:00 March 21, 1985 : Canada had Rick Hansen's Man in Motion Tour .
+1985-02-24 : 0:00 March 25, 1985 : Vatican had The Camerlengo Resigns .
+1985-02-25 : 0:00 March 26, 1985 : United States of America had The Academy Awards. .
+1985-02-28 : 0:00 March 29, 1985 : Yugoslavia went with That's what a federation is about in The North Republics Suffers.
+1985-03-00 : 0:00 April 1, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-03-02 : 0:00 April 3, 1985 : Soviet Union had Shortage of Consumer Goods .
+1985-03-09 : 0:00 April 10, 1985 : Libya annexed Chad.
+1985-03-10 : 0:00 April 11, 1985 : We concluded a diplomatic deal with Lesotho.
+1985-03-11 : 0:00 April 12, 1985 : Spain had The El Descanso bombing .
+1985-03-11 : 0:00 April 12, 1985 : We concluded a diplomatic deal with Barbados.
+1985-03-11 : 0:00 April 12, 1985 : We concluded a diplomatic deal with Antigua and Barbuda.
+1985-03-11 : 0:00 April 12, 1985 : We concluded a diplomatic deal with Maldives.
+1985-03-12 : 0:00 April 13, 1985 : We concluded a diplomatic deal with Djibouti.
+1985-03-12 : 0:00 April 13, 1985 : We concluded a diplomatic deal with St. Lucia.
+1985-03-14 : 0:00 April 15, 1985 : South Africa had End Ban on Interracial Marriage .
+1985-03-14 : 0:00 April 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-03-15 : 0:00 April 16, 1985 : We concluded a diplomatic deal with Fiji.
+1985-03-16 : 0:00 April 17, 1985 : We concluded a diplomatic deal with Vanuatu.
+1985-03-16 : 0:00 April 17, 1985 : Yugoslavia had Development Program for Vojvodina .
+1985-03-16 : 0:00 April 17, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-03-16 : 0:00 April 17, 1985 : We concluded a diplomatic deal with Comoros.
+1985-03-20 : 0:00 April 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-03-20 : 0:00 April 21, 1985 : Brazil had Tancredo Neves dies! .
+1985-03-22 : 0:00 April 23, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-03-23 : 0:00 April 24, 1985 : The following decisions are now available: Align More Towards Socialism
+1985-03-24 : 0:00 April 25, 1985 : We concluded a diplomatic deal with Benin.
+1985-03-24 : 0:00 April 25, 1985 : We concluded a diplomatic deal with Seychelles.
+1985-03-24 : 0:00 April 25, 1985 : We concluded a diplomatic deal with Bahamas.
+1985-03-24 : 0:00 April 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-03-25 : 0:00 April 26, 1985 : We concluded a diplomatic deal with Tanzania.
+1985-03-26 : 0:00 April 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-03-28 : 0:00 April 29, 1985 : We concluded a diplomatic deal with Guinea-Bissau.
+1985-04-00 : 0:00 May 1, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-02 : 0:00 May 3, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-03 : 0:00 May 4, 1985 : We concluded a diplomatic deal with Jamaica.
+1985-04-04 : 0:00 May 5, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-06 : 0:00 May 7, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-08 : 0:00 May 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-12 : 0:00 May 13, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-13 : 0:00 May 14, 1985 : We concluded a diplomatic deal with Gambia.
+1985-04-14 : 0:00 May 15, 1985 : Tanzania cancelled a trade agreement they had with us.
+1985-04-14 : 0:00 May 15, 1985 : United States of America had The Unabomber Strikes! .
+1985-04-14 : 0:00 May 15, 1985 : We concluded a diplomatic deal with Trinidad and Tobago.
+1985-04-14 : 0:00 May 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-15 : 0:00 May 16, 1985 : We concluded a diplomatic deal with Barbados.
+1985-04-18 : 0:00 May 19, 1985 : United States of America had John Anthony Walker, Jr. .
+1985-04-18 : 0:00 May 19, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-19 : 0:00 May 20, 1985 : We concluded a diplomatic deal with Antigua and Barbuda.
+1985-04-20 : 0:00 May 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-20 : 0:00 May 21, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-04-22 : 0:00 May 23, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-24 : 0:00 May 25, 1985 : Bangladesh had Tropical Cyclone and Storm Surge .
+1985-04-24 : 0:00 May 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-26 : 0:00 May 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-04-26 : 0:00 May 27, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-04-28 : 0:00 May 29, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-02 : 0:00 June 3, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-02 : 0:00 June 3, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-05-04 : 0:00 June 5, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-08 : 0:00 June 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-08 : 0:00 June 9, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-05-10 : 0:00 June 11, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-10 : 0:00 June 11, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-05-12 : 0:00 June 13, 1985 : United States of America had Police defuses a Unabomber bomb sent to Boeing! .
+1985-05-14 : 0:00 June 15, 1985 : We concluded a diplomatic deal with Samoa.
+1985-05-14 : 0:00 June 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-16 : 0:00 June 17, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-17 : 0:00 June 18, 1985 : We concluded a diplomatic deal with St. Lucia.
+1985-05-20 : 0:00 June 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-24 : 0:00 June 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-26 : 0:00 June 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-05-28 : 0:00 June 29, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-00 : 0:00 July 1, 1985 : We concluded a diplomatic deal with Angola.
+1985-06-02 : 0:00 July 3, 1985 : Soviet Union had Shortage of Consumer Goods .
+1985-06-02 : 0:00 July 3, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-02 : 0:00 July 3, 1985 : We concluded a diplomatic deal with Singapore.
+1985-06-02 : 0:00 July 3, 1985 : Singapore cancelled a trade agreement they had with us.
+1985-06-04 : 0:00 July 5, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-04 : 0:00 July 5, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-06-08 : 0:00 July 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-11 : 0:00 July 12, 1985 : Soviet Union had Soviet Casualties Increases .
+1985-06-11 : 0:00 July 12, 1985 : Mujahideen had Mujahideen for the Jihad! .
+1985-06-12 : 0:00 July 13, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-13 : 0:00 July 14, 1985 : We concluded a diplomatic deal with Belgium.
+1985-06-14 : 0:00 July 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-18 : 0:00 July 19, 1985 : We concluded a diplomatic deal with Malaysia.
+1985-06-18 : 0:00 July 19, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-20 : 0:00 July 21, 1985 : We concluded a diplomatic deal with Austria.
+1985-06-20 : 0:00 July 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-22 : 0:00 July 23, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-24 : 0:00 July 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-26 : 0:00 July 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-06-26 : 0:00 July 27, 1985 : Uganda went with Okay in Military coup against Obote!.
+1985-06-27 : 0:00 July 28, 1985 : The people of Chad declared independence from Libya.
+1985-06-27 : 0:00 July 28, 1985 : Libya have made Chad their puppet state.
+1985-07-00 : 0:00 August 1, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-02 : 0:00 August 3, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-04 : 0:00 August 5, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-06 : 0:00 August 7, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-06 : 0:00 August 7, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-07-06 : 0:00 August 7, 1985 : We concluded a diplomatic deal with Angola.
+1985-07-08 : 0:00 August 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-10 : 0:00 August 11, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-14 : 0:00 August 15, 1985 : We concluded a diplomatic deal with Uganda.
+1985-07-14 : 0:00 August 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-16 : 0:00 August 17, 1985 : We concluded a diplomatic deal with Angola.
+1985-07-18 : 0:00 August 19, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-20 : 0:00 August 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-22 : 0:00 August 23, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-24 : 0:00 August 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-26 : 0:00 August 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-28 : 0:00 August 29, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-07-28 : 0:00 August 29, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-08-00 : 0:00 September 1, 1985 : Uganda went with This gives us more time to regroup! in The Nairobi Agreement.
+1985-08-02 : 0:00 September 3, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-03 : 0:00 September 4, 1985 : We concluded a diplomatic deal with Liberia.
+1985-08-06 : 0:00 September 7, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-08 : 0:00 September 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-12 : 0:00 September 13, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-14 : 0:00 September 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-15 : 0:00 September 16, 1985 : Japan had Expo '85 .
+1985-08-16 : 0:00 September 17, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-16 : 0:00 September 17, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-08-18 : 0:00 September 19, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-18 : 0:00 September 19, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-08-20 : 0:00 September 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-22 : 0:00 September 23, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-24 : 0:00 September 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-24 : 0:00 September 25, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-08-24 : 0:00 September 25, 1985 : We concluded a diplomatic deal with San Marino.
+1985-08-26 : 0:00 September 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-28 : 0:00 September 29, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-08-28 : 0:00 September 29, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-09-02 : 0:00 October 3, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-02 : 0:00 October 3, 1985 : Soviet Union had Shortage of Consumer Goods .
+1985-09-04 : 0:00 October 5, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-06 : 0:00 October 7, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-08 : 0:00 October 9, 1985 : We concluded a diplomatic deal with Liechtenstein.
+1985-09-08 : 0:00 October 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-10 : 0:00 October 11, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-14 : 0:00 October 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-18 : 0:00 October 19, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-20 : 0:00 October 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-24 : 0:00 October 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-26 : 0:00 October 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-09-28 : 0:00 October 29, 1985 : We concluded a diplomatic deal with Angola.
+1985-10-00 : 0:00 November 1, 1985 : We concluded a diplomatic deal with Uganda.
+1985-10-00 : 0:00 November 1, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-00 : 0:00 November 1, 1985 : Angola cancelled a trade agreement they had with us.
+1985-10-01 : 0:00 November 2, 1985 : Soviet Union had Soviet Casualties Increases .
+1985-10-01 : 0:00 November 2, 1985 : Mujahideen had Mujahideen for the Jihad! .
+1985-10-02 : 0:00 November 3, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-02 : 0:00 November 3, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-10-02 : 0:00 November 3, 1985 : Philippines went with Accept in Calls for election.
+1985-10-04 : 0:00 November 5, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-08 : 0:00 November 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-08 : 0:00 November 9, 1985 : We concluded a diplomatic deal with Angola.
+1985-10-12 : 0:00 November 13, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-12 : 0:00 November 13, 1985 : United States of America cancelled a trade agreement they had with us.
+1985-10-13 : 0:00 November 14, 1985 : United States of America concluded a diplomatic deal with us.
+1985-10-14 : 0:00 November 15, 1985 : We concluded a diplomatic deal with Liechtenstein.
+1985-10-14 : 0:00 November 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-16 : 0:00 November 17, 1985 : France concluded a diplomatic deal with us.
+1985-10-16 : 0:00 November 17, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-18 : 0:00 November 19, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-19 : 0:00 November 20, 1985 : Afghanistan concluded a diplomatic deal with us.
+1985-10-20 : 0:00 November 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-20 : 0:00 November 21, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-10-20 : 0:00 November 21, 1985 : We concluded a diplomatic deal with Angola.
+1985-10-21 : 0:00 November 22, 1985 : Afghanistan concluded a diplomatic deal with us.
+1985-10-24 : 0:00 November 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-26 : 0:00 November 27, 1985 : We concluded a diplomatic deal with Malaysia.
+1985-10-26 : 0:00 November 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-10-26 : 0:00 November 27, 1985 : We concluded a diplomatic deal with Angola.
+1985-11-00 : 0:00 December 1, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-00 : 0:00 December 1, 1985 : We concluded a diplomatic deal with Angola.
+1985-11-01 : 0:00 December 2, 1985 : People's Republic of Bulgaria concluded a diplomatic deal with us.
+1985-11-02 : 0:00 December 3, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-02 : 0:00 December 3, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-11-02 : 0:00 December 3, 1985 : We concluded a diplomatic deal with Angola.
+1985-11-02 : 0:00 December 3, 1985 : Angola cancelled a trade agreement they had with us.
+1985-11-04 : 0:00 December 5, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-08 : 0:00 December 9, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-10 : 0:00 December 11, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-12 : 0:00 December 13, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-12 : 0:00 December 13, 1985 : We concluded a diplomatic deal with Angola.
+1985-11-13 : 0:00 December 14, 1985 : Libya concluded a diplomatic deal with us.
+1985-11-14 : 0:00 December 15, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-16 : 0:00 December 17, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-18 : 0:00 December 19, 1985 : France concluded a diplomatic deal with us.
+1985-11-19 : 0:00 December 20, 1985 : Libya concluded a diplomatic deal with us.
+1985-11-20 : 0:00 December 21, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-22 : 0:00 December 23, 1985 : Brazil has succeeded in stealing the blueprint for Advanced Strike Bomber from Bolivia.  Relations between Bolivia and Brazil have been damaged due to a diplomatic incident.
+1985-11-22 : 0:00 December 23, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-24 : 0:00 December 25, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-24 : 0:00 December 25, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-11-26 : 0:00 December 27, 1985 : We concluded a diplomatic deal with Sri Lanka.
+1985-11-28 : 0:00 December 29, 1985 : Sri Lanka cancelled a trade agreement they had with us.
+1985-11-28 : 0:00 December 29, 1985 : Libya have ended their mastery over Chad.
+1985-11-29 : 0:00 December 30, 1985 : Portugal had Join the European Community .
+1985-11-29 : 0:00 December 30, 1985 : Spain had Join the European Community .
+1986-00-00 : 0:00 January 1, 1986 : The following decisions are now available: Education Budget
+1986-00-00 : 0:00 January 1, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-02 : 0:00 January 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-02 : 0:00 January 3, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-00-02 : 0:00 January 3, 1986 : Soviet Union had Shortage of Consumer Goods .
+1986-00-04 : 0:00 January 5, 1986 : Afghanistan cancelled a trade agreement they had with us.
+1986-00-04 : 0:00 January 5, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-06 : 0:00 January 7, 1986 : Afghanistan concluded a diplomatic deal with us.
+1986-00-07 : 0:00 January 8, 1986 : France concluded a diplomatic deal with us.
+1986-00-08 : 0:00 January 9, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-09 : 0:00 January 10, 1986 : France concluded a diplomatic deal with us.
+1986-00-10 : 0:00 January 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-10 : 0:00 January 11, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-00-11 : 0:00 January 12, 1986 : United States of America had STS-61-C: Space Shuttle Columbia is launched! .
+1986-00-14 : 0:00 January 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-15 : 0:00 January 16, 1986 : Afghanistan cancelled a trade agreement they had with us.
+1986-00-16 : 0:00 January 17, 1986 : Afghanistan concluded a diplomatic deal with us.
+1986-00-16 : 0:00 January 17, 1986 : We concluded a diplomatic deal with Liechtenstein.
+1986-00-16 : 0:00 January 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-18 : 0:00 January 19, 1986 : Afghanistan concluded a diplomatic deal with us.
+1986-00-20 : 0:00 January 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-20 : 0:00 January 21, 1986 : We concluded a diplomatic deal with Angola.
+1986-00-21 : 0:00 January 22, 1986 : Afghanistan concluded a diplomatic deal with us.
+1986-00-22 : 0:00 January 23, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-23 : 0:00 January 24, 1986 : United States of America had The Voyager 2 space probe makes its first encounter with Uranus! .
+1986-00-24 : 0:00 January 25, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-24 : 0:00 January 25, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-00-26 : 0:00 January 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-00-26 : 0:00 January 27, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-00-27 : 0:00 January 28, 1986 : United States of America had STS-51-L: Space Shuttle Challenger disintegrates! .
+1986-00-28 : 0:00 January 29, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-00 : 0:00 February 1, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-02 : 0:00 February 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-04 : 0:00 February 5, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-04 : 0:00 February 5, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-01-05 : 0:00 February 6, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-01-06 : 0:00 February 7, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-06 : 0:00 February 7, 1986 : Philippines went with Fraud the election! in Snap Election.
+1986-01-07 : 0:00 February 8, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-01-08 : 0:00 February 9, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-08 : 0:00 February 9, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-01-08 : 0:00 February 9, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-01-10 : 0:00 February 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-10 : 0:00 February 11, 1986 : Soviet Union went with No! in Release Anatoly Shcharansky.
+1986-01-12 : 0:00 February 13, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-01-13 : 0:00 February 14, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-01-14 : 0:00 February 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-16 : 0:00 February 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-20 : 0:00 February 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-21 : 0:00 February 22, 1986 : Soviet Union had Soviet Casualties Increases .
+1986-01-21 : 0:00 February 22, 1986 : Mujahideen had Mujahideen for the Jihad! .
+1986-01-22 : 0:00 February 23, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-23 : 0:00 February 24, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-01-24 : 0:00 February 25, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-24 : 0:00 February 25, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-01-24 : 0:00 February 25, 1986 : Philippines had The People Power Revolution .
+1986-01-25 : 0:00 February 26, 1986 : Madagascar cancelled a trade agreement they had with us.
+1986-01-26 : 0:00 February 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-26 : 0:00 February 27, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-01-28 : 0:00 February 29, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-01-28 : 0:00 February 29, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-01-29 : 0:00 February 30, 1986 : Afghanistan cancelled a trade agreement they had with us.
+1986-02-00 : 0:00 March 1, 1986 : Afghanistan concluded a diplomatic deal with us.
+1986-02-00 : 0:00 March 1, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-00 : 0:00 March 1, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-02-01 : 0:00 March 2, 1986 : Soviet Union had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : Saudi Arabia had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : Iraq had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : Iran had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : Venezuela had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : Kuwait had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : Qatar had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : Libya had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : Nigeria had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-01 : 0:00 March 2, 1986 : United Arab Emirates had 1980s Oil Glut (1986 Oil Price Drop)! .
+1986-02-02 : 0:00 March 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-03 : 0:00 March 4, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-02-04 : 0:00 March 5, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-06 : 0:00 March 7, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-06 : 0:00 March 7, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-02-08 : 0:00 March 9, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-09 : 0:00 March 10, 1986 : Afghanistan concluded a diplomatic deal with us.
+1986-02-09 : 0:00 March 10, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-02-09 : 0:00 March 10, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-02-10 : 0:00 March 11, 1986 : Afghanistan concluded a diplomatic deal with us.
+1986-02-10 : 0:00 March 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-11 : 0:00 March 12, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-02-11 : 0:00 March 12, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-02-12 : 0:00 March 13, 1986 : Iran concluded a diplomatic deal with us.
+1986-02-14 : 0:00 March 15, 1986 : Afghanistan cancelled a trade agreement they had with us.
+1986-02-14 : 0:00 March 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-15 : 0:00 March 16, 1986 : Iran concluded a diplomatic deal with us.
+1986-02-16 : 0:00 March 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-17 : 0:00 March 18, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-02-20 : 0:00 March 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-20 : 0:00 March 21, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-02-22 : 0:00 March 23, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-24 : 0:00 March 25, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-24 : 0:00 March 25, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-02-25 : 0:00 March 26, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-02-25 : 0:00 March 26, 1986 : Fiji cancelled a trade agreement they had with us.
+1986-02-26 : 0:00 March 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-02-27 : 0:00 March 28, 1986 : Vanuatu cancelled a trade agreement they had with us.
+1986-02-29 : 0:00 March 30, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-03-00 : 0:00 April 1, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-02 : 0:00 April 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-02 : 0:00 April 3, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-03-02 : 0:00 April 3, 1986 : Soviet Union had Shortage of Consumer Goods .
+1986-03-05 : 0:00 April 6, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-03-06 : 0:00 April 7, 1986 : We concluded a diplomatic deal with Malaysia.
+1986-03-06 : 0:00 April 7, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-08 : 0:00 April 9, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-10 : 0:00 April 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-10 : 0:00 April 11, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-03-14 : 0:00 April 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-15 : 0:00 April 16, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-03-16 : 0:00 April 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-16 : 0:00 April 17, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-03-20 : 0:00 April 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-22 : 0:00 April 23, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-22 : 0:00 April 23, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-03-23 : 0:00 April 24, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-03-24 : 0:00 April 25, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-25 : 0:00 April 26, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-03-25 : 0:00 April 26, 1986 : Soviet Union had The Chernoyl disaster .
+1986-03-26 : 0:00 April 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-26 : 0:00 April 27, 1986 : Soviet Union had Pripyat evacuated! .
+1986-03-27 : 0:00 April 28, 1986 : Soviet Union had The Chernoyl disaster .
+1986-03-28 : 0:00 April 29, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-03-29 : 0:00 April 30, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-04-02 : 0:00 May 3, 1986 : Brazil has succeeded in stealing the blueprint for Mountain Terrain Specialization from Bolivia.  Relations between Bolivia and Brazil have been damaged due to a diplomatic incident.
+1986-04-02 : 0:00 May 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-03 : 0:00 May 4, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-04-06 : 0:00 May 7, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-08 : 0:00 May 9, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-10 : 0:00 May 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-10 : 0:00 May 11, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-04-11 : 0:00 May 12, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-04-13 : 0:00 May 14, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-04-14 : 0:00 May 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-14 : 0:00 May 15, 1986 : Yugoslavia had A New Prime Minister .
+1986-04-15 : 0:00 May 16, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-04-16 : 0:00 May 17, 1986 : Guinea-Bissau cancelled a trade agreement they had with us.
+1986-04-16 : 0:00 May 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-18 : 0:00 May 19, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-04-19 : 0:00 May 20, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-04-19 : 0:00 May 20, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-04-20 : 0:00 May 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-20 : 0:00 May 21, 1986 : Trinidad and Tobago cancelled a trade agreement they had with us.
+1986-04-24 : 0:00 May 25, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-26 : 0:00 May 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-04-27 : 0:00 May 28, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-05-00 : 0:00 June 1, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-02 : 0:00 June 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-04 : 0:00 June 5, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-04 : 0:00 June 5, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-05-05 : 0:00 June 6, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-05-08 : 0:00 June 9, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-09 : 0:00 June 10, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-05-10 : 0:00 June 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-10 : 0:00 June 11, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-05-11 : 0:00 June 12, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-05-12 : 0:00 June 13, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-13 : 0:00 June 14, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-05-14 : 0:00 June 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-14 : 0:00 June 15, 1986 : Iran cancelled a trade agreement they had with us.
+1986-05-16 : 0:00 June 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-16 : 0:00 June 17, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-05-17 : 0:00 June 18, 1986 : We concluded a diplomatic deal with Libya.
+1986-05-17 : 0:00 June 18, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-05-20 : 0:00 June 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-20 : 0:00 June 21, 1986 : We concluded a diplomatic deal with Congo.
+1986-05-23 : 0:00 June 24, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-05-24 : 0:00 June 25, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-24 : 0:00 June 25, 1986 : Lesotho cancelled a trade agreement they had with us.
+1986-05-25 : 0:00 June 26, 1986 : Iran concluded a diplomatic deal with us.
+1986-05-26 : 0:00 June 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-05-28 : 0:00 June 29, 1986 : We concluded a diplomatic deal with Congo.
+1986-06-00 : 0:00 July 1, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-02 : 0:00 July 3, 1986 : Soviet Union had Shortage of Consumer Goods .
+1986-06-02 : 0:00 July 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-03 : 0:00 July 4, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-06-04 : 0:00 July 5, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-04 : 0:00 July 5, 1986 : We concluded a diplomatic deal with Congo.
+1986-06-04 : 0:00 July 5, 1986 : Congo cancelled a trade agreement they had with us.
+1986-06-05 : 0:00 July 6, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-06-05 : 0:00 July 6, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-06-05 : 0:00 July 6, 1986 : Maldives cancelled a trade agreement they had with us.
+1986-06-06 : 0:00 July 7, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-06-08 : 0:00 July 9, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-10 : 0:00 July 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-10 : 0:00 July 11, 1986 : Samoa cancelled a trade agreement they had with us.
+1986-06-10 : 0:00 July 11, 1986 : We concluded a diplomatic deal with Congo.
+1986-06-13 : 0:00 July 14, 1986 : Trinidad and Tobago concluded a diplomatic deal with us.
+1986-06-13 : 0:00 July 14, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-06-13 : 0:00 July 14, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-06-14 : 0:00 July 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-14 : 0:00 July 15, 1986 : Trinidad and Tobago cancelled a trade agreement they had with us.
+1986-06-14 : 0:00 July 15, 1986 : We concluded a diplomatic deal with Congo.
+1986-06-14 : 0:00 July 15, 1986 : Congo cancelled a trade agreement they had with us.
+1986-06-16 : 0:00 July 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-17 : 0:00 July 18, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-06-20 : 0:00 July 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-20 : 0:00 July 21, 1986 : We concluded a diplomatic deal with Congo.
+1986-06-21 : 0:00 July 22, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-06-21 : 0:00 July 22, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-06-23 : 0:00 July 24, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-06-23 : 0:00 July 24, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-06-25 : 0:00 July 26, 1986 : Trinidad and Tobago concluded a diplomatic deal with us.
+1986-06-26 : 0:00 July 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-06-26 : 0:00 July 27, 1986 : Trinidad and Tobago cancelled a trade agreement they had with us.
+1986-06-26 : 0:00 July 27, 1986 : We concluded a diplomatic deal with Congo.
+1986-06-29 : 0:00 July 30, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-07-00 : 0:00 August 1, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-07-02 : 0:00 August 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-07-03 : 0:00 August 4, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-07-04 : 0:00 August 5, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-07-05 : 0:00 August 6, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-07-06 : 0:00 August 7, 1986 : We concluded a diplomatic deal with Congo.
+1986-07-10 : 0:00 August 11, 1986 : Trinidad and Tobago concluded a diplomatic deal with us.
+1986-07-10 : 0:00 August 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-07-10 : 0:00 August 11, 1986 : We concluded a diplomatic deal with Congo.
+1986-07-11 : 0:00 August 12, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-07-11 : 0:00 August 12, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-07-14 : 0:00 August 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-07-14 : 0:00 August 15, 1986 : We concluded a diplomatic deal with Congo.
+1986-07-14 : 0:00 August 15, 1986 : Congo cancelled a trade agreement they had with us.
+1986-07-16 : 0:00 August 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-07-16 : 0:00 August 17, 1986 : We concluded a diplomatic deal with Congo.
+1986-07-20 : 0:00 August 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-07-20 : 0:00 August 21, 1986 : We concluded a diplomatic deal with Congo.
+1986-07-21 : 0:00 August 22, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-07-21 : 0:00 August 22, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-07-25 : 0:00 August 26, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-07-26 : 0:00 August 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-07-28 : 0:00 August 29, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-08-02 : 0:00 September 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-08-02 : 0:00 September 3, 1986 : We concluded a diplomatic deal with Congo.
+1986-08-05 : 0:00 September 6, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-08-05 : 0:00 September 6, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-08-09 : 0:00 September 10, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-08-10 : 0:00 September 11, 1986 : We concluded a diplomatic deal with Congo.
+1986-08-11 : 0:00 September 12, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-08-12 : 0:00 September 13, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-08-13 : 0:00 September 14, 1986 : Yugoslavia went with Denounce in Memorandum of the Serbian Academy of Sciences and Arts.
+1986-08-14 : 0:00 September 15, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-08-16 : 0:00 September 17, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-08-17 : 0:00 September 18, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-08-18 : 0:00 September 19, 1986 : We concluded a diplomatic deal with Congo.
+1986-08-23 : 0:00 September 24, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-08-23 : 0:00 September 24, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-08-26 : 0:00 September 27, 1986 : Soviet Union had Soviet Casualties Increases .
+1986-08-26 : 0:00 September 27, 1986 : Mujahideen had Mujahideen for the Jihad! .
+1986-08-26 : 0:00 September 27, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-08-26 : 0:00 September 27, 1986 : We concluded a diplomatic deal with Congo.
+1986-09-00 : 0:00 October 1, 1986 : Comoros cancelled a trade agreement they had with us.
+1986-09-02 : 0:00 October 3, 1986 : Soviet Union had Shortage of Consumer Goods .
+1986-09-02 : 0:00 October 3, 1986 : We concluded a diplomatic deal with Congo.
+1986-09-03 : 0:00 October 4, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-09-07 : 0:00 October 8, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-09-08 : 0:00 October 9, 1986 : We concluded a diplomatic deal with Congo.
+1986-09-09 : 0:00 October 10, 1986 : Morocco concluded a diplomatic deal with us.
+1986-09-09 : 0:00 October 10, 1986 : Lebanon cancelled a trade agreement they had with us.
+1986-09-17 : 0:00 October 18, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-09-18 : 0:00 October 19, 1986 : We concluded a diplomatic deal with Congo.
+1986-09-20 : 0:00 October 21, 1986 : We concluded a diplomatic deal with Congo.
+1986-09-20 : 0:00 October 21, 1986 : Congo cancelled a trade agreement they had with us.
+1986-09-21 : 0:00 October 22, 1986 : We concluded a diplomatic deal with Lebanon.
+1986-09-27 : 0:00 October 28, 1986 : Italy concluded a diplomatic deal with us.
+1986-09-27 : 0:00 October 28, 1986 : Jamaica cancelled a trade agreement they had with us.
+1986-09-28 : 0:00 October 29, 1986 : We concluded a diplomatic deal with Congo.
+1986-09-28 : 0:00 October 29, 1986 : Congo cancelled a trade agreement they had with us.
+1986-10-02 : 0:00 November 3, 1986 : Bahamas cancelled a trade agreement they had with us.
+1986-10-02 : 0:00 November 3, 1986 : We concluded a diplomatic deal with Congo.
+1986-10-06 : 0:00 November 7, 1986 : We concluded a diplomatic deal with Congo.
+1986-10-06 : 0:00 November 7, 1986 : Congo cancelled a trade agreement they had with us.
+1986-10-08 : 0:00 November 9, 1986 : We concluded a diplomatic deal with Congo.
+1986-10-08 : 0:00 November 9, 1986 : Congo cancelled a trade agreement they had with us.
+1986-10-18 : 0:00 November 19, 1986 : We concluded a diplomatic deal with Congo.
+1986-10-19 : 0:00 November 20, 1986 : Uganda cancelled a trade agreement they had with us.
+1986-10-24 : 0:00 November 25, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-10-24 : 0:00 November 25, 1986 : We concluded a diplomatic deal with Congo.
+1986-10-26 : 0:00 November 27, 1986 : Congo cancelled a trade agreement they had with us.
+1986-10-28 : 0:00 November 29, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-10-28 : 0:00 November 29, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-10-28 : 0:00 November 29, 1986 : We concluded a diplomatic deal with Congo.
+1986-11-02 : 0:00 December 3, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-11-02 : 0:00 December 3, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-11-02 : 0:00 December 3, 1986 : We concluded a diplomatic deal with Congo.
+1986-11-10 : 0:00 December 11, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-11-12 : 0:00 December 13, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-11-12 : 0:00 December 13, 1986 : Sri Lanka cancelled a trade agreement they had with us.
+1986-11-14 : 0:00 December 15, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-11-14 : 0:00 December 15, 1986 : Syria had Recruitment Campaign .
+1986-11-18 : 0:00 December 19, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-11-18 : 0:00 December 19, 1986 : We concluded a diplomatic deal with Congo.
+1986-11-20 : 0:00 December 21, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-11-24 : 0:00 December 25, 1986 : We concluded a diplomatic deal with Sri Lanka.
+1986-11-29 : 0:00 December 30, 1986 : People's Republic of China had Protests in Hefei .
+1987-00-00 : 0:00 January 1, 1987 : Our policy has been moved one step toward Interventionism. Current value: 7.
+1987-00-00 : 0:00 January 1, 1987 : The following decisions are now available: Education Budget
+1987-00-02 : 0:00 January 3, 1987 : Soviet Union had Shortage of Consumer Goods .
+1987-00-09 : 0:00 January 10, 1987 : People's Republic of China had Hu Yaobang is forced to resign! .
+1987-00-12 : 0:00 January 13, 1987 : Yugoslavia had Nova revija 57 .
+1987-00-14 : 0:00 January 15, 1987 : Liechtenstein cancelled a trade agreement they had with us.
+1987-00-16 : 0:00 January 17, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-00-16 : 0:00 January 17, 1987 : We concluded a diplomatic deal with Congo.
+1987-00-20 : 0:00 January 21, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-00-22 : 0:00 January 23, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-00-24 : 0:00 January 25, 1987 : We concluded a diplomatic deal with Congo.
+1987-00-25 : 0:00 January 26, 1987 : Federal Republic of Germany went with Elect The Christian Democratic Union in West German election 1987.
+1987-00-26 : 0:00 January 27, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-00-28 : 0:00 January 29, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-00-29 : 0:00 January 30, 1987 : We concluded a diplomatic deal with Libya.
+1987-01-00 : 0:00 February 1, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-00 : 0:00 February 1, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-01-02 : 0:00 February 3, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-02 : 0:00 February 3, 1987 : We concluded a diplomatic deal with Congo.
+1987-01-06 : 0:00 February 7, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-06 : 0:00 February 7, 1987 : We concluded a diplomatic deal with Congo.
+1987-01-06 : 0:00 February 7, 1987 : Congo cancelled a trade agreement they had with us.
+1987-01-08 : 0:00 February 9, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-08 : 0:00 February 9, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-01-10 : 0:00 February 11, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-12 : 0:00 February 13, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-12 : 0:00 February 13, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-01-14 : 0:00 February 15, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-14 : 0:00 February 15, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-01-14 : 0:00 February 15, 1987 : We concluded a diplomatic deal with Congo.
+1987-01-17 : 0:00 February 18, 1987 : Djibouti cancelled a trade agreement they had with us.
+1987-01-18 : 0:00 February 19, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-20 : 0:00 February 21, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-20 : 0:00 February 21, 1987 : We concluded a diplomatic deal with Congo.
+1987-01-22 : 0:00 February 23, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-24 : 0:00 February 25, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-24 : 0:00 February 25, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-01-24 : 0:00 February 25, 1987 : We concluded a diplomatic deal with Congo.
+1987-01-24 : 0:00 February 25, 1987 : Congo cancelled a trade agreement they had with us.
+1987-01-26 : 0:00 February 27, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-01-28 : 0:00 February 29, 1987 : Soviet Union had Soviet Casualties Increases .
+1987-01-28 : 0:00 February 29, 1987 : Mujahideen had Mujahideen for the Jihad! .
+1987-01-28 : 0:00 February 29, 1987 : We concluded a diplomatic deal with Congo.
+1987-02-02 : 0:00 March 3, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-02 : 0:00 March 3, 1987 : We concluded a diplomatic deal with Congo.
+1987-02-06 : 0:00 March 7, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-06 : 0:00 March 7, 1987 : We concluded a diplomatic deal with Congo.
+1987-02-06 : 0:00 March 7, 1987 : Congo cancelled a trade agreement they had with us.
+1987-02-08 : 0:00 March 9, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-10 : 0:00 March 11, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-10 : 0:00 March 11, 1987 : We concluded a diplomatic deal with Congo.
+1987-02-12 : 0:00 March 13, 1987 : Benin cancelled a trade agreement they had with us.
+1987-02-14 : 0:00 March 15, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-14 : 0:00 March 15, 1987 : We concluded a diplomatic deal with Congo.
+1987-02-14 : 0:00 March 15, 1987 : Congo cancelled a trade agreement they had with us.
+1987-02-17 : 0:00 March 18, 1987 : Laos cancelled a trade agreement they had with us.
+1987-02-18 : 0:00 March 19, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-19 : 0:00 March 20, 1987 : Yugoslavia had Workers Strike! .
+1987-02-20 : 0:00 March 21, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-20 : 0:00 March 21, 1987 : We concluded a diplomatic deal with Congo.
+1987-02-24 : 0:00 March 25, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-24 : 0:00 March 25, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-02-26 : 0:00 March 27, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-02-28 : 0:00 March 29, 1987 : Gambia cancelled a trade agreement they had with us.
+1987-03-00 : 0:00 April 1, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-03-00 : 0:00 April 1, 1987 : We concluded a diplomatic deal with Congo.
+1987-03-02 : 0:00 April 3, 1987 : Soviet Union had Shortage of Consumer Goods .
+1987-03-02 : 0:00 April 3, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-03-08 : 0:00 April 9, 1987 : We concluded a diplomatic deal with Congo.
+1987-03-08 : 0:00 April 9, 1987 : Seychelles cancelled a trade agreement they had with us.
+1987-03-10 : 0:00 April 11, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-03-16 : 0:00 April 17, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-03-16 : 0:00 April 17, 1987 : We concluded a diplomatic deal with Congo.
+1987-03-16 : 0:00 April 17, 1987 : Congo cancelled a trade agreement they had with us.
+1987-03-22 : 0:00 April 23, 1987 : We concluded a diplomatic deal with Congo.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia went with Protect the Serbians! in Rise of Milosevic.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Slovenia declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Bosnia and Herzegovina declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Croatia declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of SAP Kosovo declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of SAP Vojvodina declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Macedonia declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : The people of Socialist Republic of Montenegro declared independence from Yugoslavia.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Slovenia their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Bosnia and Herzegovina their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Croatia their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made SAP Kosovo their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made SAP Vojvodina their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Macedonia their puppet state.
+1987-03-23 : 0:00 April 24, 1987 : Yugoslavia have made Socialist Republic of Montenegro their puppet state.
+1987-03-26 : 0:00 April 27, 1987 : We concluded a diplomatic deal with Congo.
+1987-04-02 : 0:00 May 3, 1987 : We concluded a diplomatic deal with Congo.
+1987-04-02 : 0:00 May 3, 1987 : Congo cancelled a trade agreement they had with us.
+1987-04-04 : 0:00 May 5, 1987 : We concluded a diplomatic deal with Congo.
+1987-04-04 : 0:00 May 5, 1987 : Congo cancelled a trade agreement they had with us.
+1987-04-08 : 0:00 May 9, 1987 : Libya cancelled a trade agreement they had with us.
+1987-04-08 : 0:00 May 9, 1987 : Antigua and Barbuda cancelled a trade agreement they had with us.
+1987-04-08 : 0:00 May 9, 1987 : We concluded a diplomatic deal with Congo.
+1987-04-15 : 0:00 May 16, 1987 : St. Lucia cancelled a trade agreement they had with us.
+1987-04-16 : 0:00 May 17, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-04-18 : 0:00 May 19, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-04-18 : 0:00 May 19, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-04-20 : 0:00 May 21, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-05-10 : 0:00 June 11, 1987 : United Kingdom went with Elect Right in General Election of 1987.
+1987-05-12 : 0:00 June 13, 1987 : Barbados cancelled a trade agreement they had with us.
+1987-05-13 : 0:00 June 14, 1987 : Venezuela concluded a diplomatic deal with us.
+1987-05-14 : 0:00 June 15, 1987 : Syria had Result of the recruitment campaign .
+1987-05-22 : 0:00 June 23, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-06-02 : 0:00 July 3, 1987 : Soviet Union had Shortage of Consumer Goods .
+1987-06-12 : 0:00 July 13, 1987 : We concluded a diplomatic deal with Zimbabwe.
+1987-06-12 : 0:00 July 13, 1987 : We concluded a diplomatic deal with Soviet Union.
+1987-06-19 : 0:00 July 20, 1987 : United Nations had United Nations Security Council Resolution 598 .
+1987-06-19 : 0:00 July 20, 1987 : People's Republic of China went with Approve in United Nations Security Council Resolution 598.
+1987-06-19 : 0:00 July 20, 1987 : France went with Approve in United Nations Security Council Resolution 598.
+1987-06-19 : 0:00 July 20, 1987 : United Kingdom went with Approve in United Nations Security Council Resolution 598.
+1987-06-19 : 0:00 July 20, 1987 : United States of America went with Approve in United Nations Security Council Resolution 598.
+1987-06-19 : 0:00 July 20, 1987 : Soviet Union went with Approve in United Nations Security Council Resolution 598.
+1987-06-26 : 0:00 July 27, 1987 : We concluded a diplomatic deal with Congo.
+1987-06-28 : 0:00 July 29, 1987 : Congo cancelled a trade agreement they had with us.
+1987-07-14 : 0:00 August 15, 1987 : We concluded a diplomatic deal with Congo.
+1987-07-22 : 0:00 August 23, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-07-24 : 0:00 August 25, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-07-29 : 0:00 August 30, 1987 : People's Republic of Poland had The Gdansk Agreement Anniversary .
+1987-08-12 : 0:00 September 13, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-08-18 : 0:00 September 19, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-08-20 : 0:00 September 21, 1987 : We concluded a diplomatic deal with Libya.
+1987-09-00 : 0:00 October 1, 1987 : We concluded a diplomatic deal with Congo.
+1987-09-02 : 0:00 October 3, 1987 : Soviet Union had Shortage of Consumer Goods .
+1987-09-02 : 0:00 October 3, 1987 : Congo cancelled a trade agreement they had with us.
+1987-09-09 : 0:00 October 10, 1987 : San Marino cancelled a trade agreement they had with us.
+1987-10-02 : 0:00 November 3, 1987 : Austria cancelled a trade agreement they had with us.
+1987-10-06 : 0:00 November 7, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-10-14 : 0:00 November 15, 1987 : Belgium cancelled a trade agreement they had with us.
+1987-10-14 : 0:00 November 15, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-10-14 : 0:00 November 15, 1987 : Socialist Republic of Romania had The Brasov Rebellion .
+1987-10-16 : 0:00 November 17, 1987 : Austria concluded a diplomatic deal with us.
+1987-10-18 : 0:00 November 19, 1987 : Yugoslavia went with Okay in The Anti-Bureaucratic Revolution.
+1987-10-18 : 0:00 November 19, 1987 : Socialist Republic of Montenegro went with Damn! in The Anti-Bureaucratic Revolution.
+1987-10-18 : 0:00 November 19, 1987 : SAP Vojvodina went with Damn! in The Anti-Bureaucratic Revolution.
+1987-10-18 : 0:00 November 19, 1987 : SAP Kosovo went with Damn! in The Anti-Bureaucratic Revolution.
+1987-10-27 : 0:00 November 28, 1987 : People's Republic of Poland went with Never! in Referendum on Political and Economic Reforms.
+1987-11-04 : 0:00 December 5, 1987 : We concluded a diplomatic deal with Sri Lanka.
+1987-11-08 : 0:00 December 9, 1987 : Sri Lanka cancelled a trade agreement they had with us.
+1987-11-28 : 0:00 December 29, 1987 : United States of America has succeeded with a smear campaign in Japan. Relations between Japan and United States of America have been damaged due to a diplomatic incident.
+1988-00-00 : 0:00 January 1, 1988 : The following decisions are now available: Education Budget
+1988-00-02 : 0:00 January 3, 1988 : Soviet Union had Shortage of Consumer Goods .
+1988-00-14 : 0:00 January 15, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-00-18 : 0:00 January 19, 1988 : Yugoslavia had Development Program Finished .
+1988-01-18 : 0:00 February 19, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-01-24 : 0:00 February 25, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-01-26 : 0:00 February 27, 1988 : Sri Lanka cancelled a trade agreement they had with us.
+1988-02-07 : 0:00 March 8, 1988 : People's Republic of Poland went with Suppress them! in The March 1968 Events Anniversary.
+1988-02-08 : 0:00 March 9, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-02-24 : 0:00 March 25, 1988 : Lebanon concluded a diplomatic deal with us.
+1988-02-25 : 0:00 March 26, 1988 : We concluded a diplomatic deal with People's Republic of Hungary.
+1988-02-26 : 0:00 March 27, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-03-02 : 0:00 April 3, 1988 : Soviet Union had Shortage of Consumer Goods .
+1988-03-12 : 0:00 April 13, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-03-14 : 0:00 April 15, 1988 : Soviet Union had The Geneva Accords .
+1988-03-14 : 0:00 April 15, 1988 : Afghanistan went with Sign it! in The Geneva Accords.
+1988-03-14 : 0:00 April 15, 1988 : Pakistan went with Sign it! in The Geneva Accords.
+1988-03-14 : 0:00 April 15, 1988 : Soviet Union had Afghanistan and Pakistan have signed the Geneva Accords! .
+1988-03-14 : 0:00 April 15, 1988 : Mujahideen accepted peace with Soviet Union on the following terms : Return to Status Quo.
+1988-03-14 : 0:00 April 15, 1988 : Afghanistan had Soviet material support .
+1988-03-16 : 0:00 April 17, 1988 : Sri Lanka cancelled a trade agreement they had with us.
+1988-03-18 : 0:00 April 19, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-03-20 : 0:00 April 21, 1988 : We concluded a diplomatic deal with Congo.
+1988-03-28 : 0:00 April 29, 1988 : People's Republic of Poland went with Suppress them! in Strikes of Spring 1988.
+1988-03-29 : 0:00 April 30, 1988 : People's Republic of Poland went with Okay in Strikes of Spring 1988.
+1988-04-00 : 0:00 May 1, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-04-01 : 0:00 May 2, 1988 : Yugoslavia had Development Program Finished .
+1988-04-01 : 0:00 May 2, 1988 : Soviet Union had Nothing New in The East .
+1988-04-04 : 0:00 May 5, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-04-06 : 0:00 May 7, 1988 : United States of America concluded a diplomatic deal with us.
+1988-04-07 : 0:00 May 8, 1988 : We concluded a diplomatic deal with Australia.
+1988-04-07 : 0:00 May 8, 1988 : We concluded a diplomatic deal with Netherlands.
+1988-04-08 : 0:00 May 9, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-04-10 : 0:00 May 11, 1988 : Sri Lanka cancelled a trade agreement they had with us.
+1988-04-12 : 0:00 May 13, 1988 : Iran concluded a diplomatic deal with us.
+1988-04-13 : 0:00 May 14, 1988 : Austria concluded a diplomatic deal with us.
+1988-04-25 : 0:00 May 26, 1988 : Yugoslavia went with Damn! in The Ljubljana Trial.
+1988-04-26 : 0:00 May 27, 1988 : Soviet Union had The Soviet Union Gears Up for War .
+1988-04-26 : 0:00 May 27, 1988 : People's Republic of Hungary had Kádár resigns .
+1988-04-28 : 0:00 May 29, 1988 : Soviet Union went with 1350000text7 in End Mobilization.
+1988-05-01 : 0:00 June 2, 1988 : United States of America concluded a diplomatic deal with us.
+1988-05-03 : 0:00 June 4, 1988 : We concluded a diplomatic deal with Soviet Union.
+1988-05-24 : 0:00 June 25, 1988 : Yugoslavia had Calls for resignation! .
+1988-06-00 : 0:00 July 1, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-06-02 : 0:00 July 3, 1988 : Soviet Union had Shortage of Consumer Goods .
+1988-06-12 : 0:00 July 13, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-06-14 : 0:00 July 15, 1988 : Sri Lanka cancelled a trade agreement they had with us.
+1988-06-18 : 0:00 July 19, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-06-19 : 0:00 July 20, 1988 : Iraq went with Accept in United Nations Security Council Resolution 598.
+1988-06-19 : 0:00 July 20, 1988 : Iran went with Accept in United Nations Security Council Resolution 598.
+1988-06-28 : 0:00 July 29, 1988 : Soviet Union went with 1350000text8 in End Mobilization.
+1988-07-06 : 0:00 August 7, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-07-14 : 0:00 August 15, 1988 : People's Republic of Poland went with Suppress them! in Strikes of Summer 1988.
+1988-07-16 : 0:00 August 17, 1988 : People's Republic of Poland had Strikes of Summer 1988 .
+1988-07-16 : 0:00 August 17, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-07-20 : 0:00 August 21, 1988 : People's Republic of Poland had Strikes of Summer 1988 .
+1988-07-21 : 0:00 August 22, 1988 : People's Republic of Poland had Strikes of Summer 1988 .
+1988-08-22 : 0:00 September 23, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-09-02 : 0:00 October 3, 1988 : Soviet Union had Shortage of Consumer Goods .
+1988-09-02 : 0:00 October 3, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-09-04 : 0:00 October 5, 1988 : Yugoslavia went with Okay in The Yogurt Revolution.
+1988-09-04 : 0:00 October 5, 1988 : Yugoslavia annexed SAP Vojvodina.
+1988-09-06 : 0:00 October 7, 1988 : Socialist Republic of Montenegro went with Declare an State of Emergency in Montenegro's Rallies of Truth.
+1988-09-06 : 0:00 October 7, 1988 : Yugoslavia went with Okay in Montenegro's Rallies of Truth.
+1988-09-25 : 0:00 October 26, 1988 : Iraq concluded a diplomatic deal with us.
+1988-09-26 : 0:00 October 27, 1988 : We concluded a diplomatic deal with People's Republic of China.
+1988-10-07 : 0:00 November 8, 1988 : United States of America went with Elect Right in The United States Presidential Election of 1988.
+1988-10-21 : 0:00 November 22, 1988 : SAP Kosovo went with Actually, there's not much we can do... in Toppling of Kosovar Leadership.
+1988-10-21 : 0:00 November 22, 1988 : Yugoslavia went with Great! in Toppling of Kosovar Leadership.
+1988-10-21 : 0:00 November 22, 1988 : Yugoslavia annexed SAP Kosovo.
+1988-10-26 : 0:00 November 27, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-11-01 : 0:00 December 2, 1988 : Yugoslavia had Development Program for Kosovo .
+1988-11-03 : 0:00 December 4, 1988 : Iraq cancelled a trade agreement they had with us.
+1988-11-04 : 0:00 December 5, 1988 : Iran concluded a diplomatic deal with us.
+1988-11-06 : 0:00 December 7, 1988 : Iran cancelled a trade agreement they had with us.
+1988-11-12 : 0:00 December 13, 1988 : Iraq concluded a diplomatic deal with us.
+1988-11-12 : 0:00 December 13, 1988 : We concluded a diplomatic deal with Sri Lanka.
+1988-11-13 : 0:00 December 14, 1988 : Iraq concluded a diplomatic deal with us.
+1988-11-18 : 0:00 December 19, 1988 : Lebanon concluded a diplomatic deal with us.
+1988-11-21 : 0:00 December 22, 1988 : We concluded a diplomatic deal with Belgium.
+1988-11-21 : 0:00 December 22, 1988 : We concluded a diplomatic deal with People's Republic of Hungary.
+1988-11-29 : 0:00 December 30, 1988 : Yugoslavia had Mikulic resigns! .
+1989-00-00 : 0:00 January 1, 1989 : Our policy has been moved one step toward Interventionism. Current value: 8.
+1989-00-00 : 0:00 January 1, 1989 : The following decisions are now available: Education Budget
+1989-00-00 : 0:00 January 1, 1989 : We concluded a diplomatic deal with Sri Lanka.
+1989-00-02 : 0:00 January 3, 1989 : Soviet Union had Shortage of Consumer Goods .
+1989-00-02 : 0:00 January 3, 1989 : Libya cancelled a trade agreement they had with us.
+1989-00-09 : 0:00 January 10, 1989 : Yugoslavia went with Okay in Montenegro's State of Emergency.
+1989-00-09 : 0:00 January 10, 1989 : Yugoslavia have made Socialist Republic of Montenegro their puppet state.
+1989-00-11 : 0:00 January 12, 1989 : United States of America has disrupted production of Oyodo In Japan. Relations between Japan and United States of America have been damaged due to a diplomatic incident.
+1989-00-16 : 0:00 January 17, 1989 : Yugoslavia went with Damn! in Action North.
+1989-00-16 : 0:00 January 17, 1989 : Socialist Republic of Slovenia had Action North .
+1989-00-16 : 0:00 January 17, 1989 : Socialist Republic of Croatia had Action North .
+1989-00-16 : 0:00 January 17, 1989 : We concluded a diplomatic deal with Sri Lanka.
+1989-00-23 : 0:00 January 24, 1989 : We concluded a diplomatic deal with Burma.
+1989-01-00 : 0:00 February 1, 1989 : We concluded a diplomatic deal with Sri Lanka.
+1989-01-03 : 0:00 February 4, 1989 : Iran annexed Iraq.
+1989-01-10 : 0:00 February 11, 1989 : Iran went with Let's spread the Islamic Revolution to Iraq and take Basrah! in Iraq completely defeated!.
+1989-01-10 : 0:00 February 11, 1989 : The people of Iraq declared independence from Iran.
+1989-01-10 : 0:00 February 11, 1989 : Iran have made Iraq their puppet state.
+1989-01-16 : 0:00 February 17, 1989 : Venezuela concluded a diplomatic deal with us.
+1989-01-18 : 0:00 February 19, 1989 : Yugoslavia concluded a diplomatic deal with us.
+1989-01-19 : 0:00 February 20, 1989 : Yugoslavia went with Damn! in The Kosovo Miners' Strike.
+1989-01-21 : 0:00 February 22, 1989 : United States of America concluded a diplomatic deal with us.
+1989-01-22 : 0:00 February 23, 1989 : We concluded a diplomatic deal with Congo.
+1989-01-25 : 0:00 February 26, 1989 : Morocco concluded a diplomatic deal with us.
+1989-01-28 : 0:00 February 29, 1989 : Singapore concluded a diplomatic deal with us.
+1989-02-01 : 0:00 March 2, 1989 : Socialist Republic of Romania had The Letter of Six .
+1989-02-16 : 0:00 March 17, 1989 : Iran went with 1350000text8 in End Mobilization.
+1989-02-22 : 0:00 March 23, 1989 : We concluded a diplomatic deal with Spain.
+1989-03-02 : 0:00 April 3, 1989 : Soviet Union had Shortage of Consumer Goods .
+1989-03-04 : 0:00 April 5, 1989 : We concluded a diplomatic deal with Congo.
+1989-03-10 : 0:00 April 11, 1989 : Congo cancelled a trade agreement they had with us.
+1989-03-14 : 0:00 April 15, 1989 : People's Republic of China had The Tiananmen Square protests .
+1989-03-19 : 0:00 April 20, 1989 : Soviet Union had Economic Conditions Deteriorate .
+1989-03-26 : 0:00 April 27, 1989 : Socialist Republic of Romania went with Okay in Paying Off The External Debt.
+1989-04-02 : 0:00 May 3, 1989 : We concluded a diplomatic deal with Congo.
+1989-04-07 : 0:00 May 8, 1989 : Brazil has succeeded in stealing the blueprint for Early Hospital System from Chile.  Relations between Chile and Brazil have been damaged due to a diplomatic incident.
+1989-04-14 : 0:00 May 15, 1989 : People's Republic of China went with Crush the rebellion! in The Tiananmen Square protests.
+1989-04-16 : 0:00 May 17, 1989 : Iran went with 1350000text8 in End Mobilization.
+1989-04-23 : 0:00 May 24, 1989 : Federal Republic of Germany had The West German Presidential Election of 1989 .
+1989-04-24 : 0:00 May 25, 1989 : People's Republic of Bulgaria had The Revival Process - Open Borders .
+1989-04-25 : 0:00 May 26, 1989 : We concluded a diplomatic deal with Morocco.
+1989-05-03 : 0:00 June 4, 1989 : People's Republic of China had The Tiananmen Square Massacre .
+1989-05-15 : 0:00 June 16, 1989 : We concluded a diplomatic deal with Libya.
+1989-05-17 : 0:00 June 18, 1989 : People's Republic of Bulgaria had The Revival Process Results .
+1989-05-18 : 0:00 June 19, 1989 : Lebanon cancelled a trade agreement they had with us.
+1989-05-21 : 0:00 June 22, 1989 : Lebanon concluded a diplomatic deal with us.
+1989-05-22 : 0:00 June 23, 1989 : We concluded a diplomatic deal with Congo.
+1989-05-24 : 0:00 June 25, 1989 : We concluded a diplomatic deal with Morocco.
+1989-05-24 : 0:00 June 25, 1989 : Congo cancelled a trade agreement they had with us.
+1989-05-27 : 0:00 June 28, 1989 : Yugoslavia went with Hurrah! in The Gazimestan Speech.
+1989-06-02 : 0:00 July 3, 1989 : Soviet Union had Shortage of Consumer Goods .
+1989-06-02 : 0:00 July 3, 1989 : Lebanon cancelled a trade agreement they had with us.
+1989-06-16 : 0:00 July 17, 1989 : Iran went with 1350000text7 in End Mobilization.
+1989-06-19 : 0:00 July 20, 1989 : Iran concluded a diplomatic deal with us.
+1989-06-19 : 0:00 July 20, 1989 : Soviet Union had Invade the West .
+1989-06-19 : 0:00 July 20, 1989 : Soviet Union declared war upon United States of America.
+1989-06-19 : 0:00 July 20, 1989 : Czechoslovak Socialist Republic joined the war on the same side as Soviet Union in their war against United States of America.
+1989-06-19 : 0:00 July 20, 1989 : People's Republic of Poland joined the war on the same side as Soviet Union and Czechoslovak Socialist Republic in their war against United States of America.
+1989-06-19 : 0:00 July 20, 1989 : Socialist Republic of Romania joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic and People's Republic of Poland in their war against United States of America.
+1989-06-19 : 0:00 July 20, 1989 : People's Republic of Hungary joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland and Socialist Republic of Romania in their war against United States of America.
+1989-06-19 : 0:00 July 20, 1989 : People's Republic of Bulgaria joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania and People's Republic of Hungary in their war against United States of America.
+1989-06-19 : 0:00 July 20, 1989 : German Democratic Republic joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary and People's Republic of Bulgaria in their war against United States of America.
+1989-06-19 : 0:00 July 20, 1989 : Belgium joined the war on the same side as United States of America in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Canada joined the war on the same side as United States of America and Belgium in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Denmark joined the war on the same side as United States of America, Belgium and Canada in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Italy joined the war on the same side as United States of America, Belgium, Canada and Denmark in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Luxemburg joined the war on the same side as United States of America, Belgium, Canada, Denmark and Italy in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Netherlands joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy and Luxemburg in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Norway joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg and Netherlands in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Portugal joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands and Norway in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : United Kingdom joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway and Portugal in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Greece joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal and United Kingdom in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Turkey joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal, United Kingdom and Greece in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Federal Republic of Germany joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal, United Kingdom, Greece and Turkey in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Spain joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal, United Kingdom, Greece, Turkey and Federal Republic of Germany in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : Iceland joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal, United Kingdom, Greece, Turkey, Federal Republic of Germany and Spain in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-19 : 0:00 July 20, 1989 : United States of America had A Gentlemen's Agreement .
+1989-06-19 : 0:00 July 20, 1989 : Federal Republic of Germany had State of Defence .
+1989-06-19 : 0:00 July 20, 1989 : German Democratic Republic had State of Defence .
+1989-06-19 : 0:00 July 20, 1989 : France went with Declare War in France and  NATO.
+1989-06-19 : 0:00 July 20, 1989 : France entered a Military Alliance with United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal, United Kingdom, Greece, Turkey, Federal Republic of Germany, Spain and Iceland.
+1989-06-19 : 0:00 July 20, 1989 : France joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal, United Kingdom, Greece, Turkey, Federal Republic of Germany, Spain and Iceland in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-20 : 0:00 July 21, 1989 : Northern Cyprus entered a Military Alliance with United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal, United Kingdom, Greece, Turkey, Federal Republic of Germany, Spain, Iceland and France.
+1989-06-20 : 0:00 July 21, 1989 : Northern Cyprus joined the war on the same side as United States of America, Belgium, Canada, Denmark, Italy, Luxemburg, Netherlands, Norway, Portugal, United Kingdom, Greece, Turkey, Federal Republic of Germany, Spain, Iceland and France in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and German Democratic Republic.
+1989-06-21 : 0:00 July 22, 1989 : United States of America concluded a diplomatic deal with us.
+1989-06-25 : 0:00 July 26, 1989 : People's Republic of Bulgaria cancelled a trade agreement they had with us.
+1989-07-06 : 0:00 August 7, 1989 : Belgium cancelled a trade agreement they had with us.
+1989-07-15 : 0:00 August 16, 1989 : Italy concluded a diplomatic deal with us.
+1989-07-18 : 0:00 August 19, 1989 : Australia cancelled a trade agreement they had with us.
+1989-07-20 : 0:00 August 21, 1989 : We concluded a diplomatic deal with Soviet Union.
+1989-08-02 : 0:00 September 3, 1989 : Socialist Republic of Slovenia had The Slovenian Spring .
+1989-08-02 : 0:00 September 3, 1989 : Yugoslavia went with Damn! in The Slovenian Spring.
+1989-08-06 : 0:00 September 7, 1989 : We concluded a diplomatic deal with Congo.
+1989-08-13 : 0:00 September 14, 1989 : People's Republic of China cancelled a trade agreement they had with us.
+1989-08-15 : 0:00 September 16, 1989 : United States of America concluded a diplomatic deal with us.
+1989-08-16 : 0:00 September 17, 1989 : Iran went with 1350000text7 in End Mobilization.
+1989-08-19 : 0:00 September 20, 1989 : Netherlands cancelled a trade agreement they had with us.
+1989-08-24 : 0:00 September 25, 1989 : United States of America cancelled a trade agreement they had with us.
+1989-09-01 : 0:00 October 2, 1989 : Italy concluded a diplomatic deal with us.
+1989-09-02 : 0:00 October 3, 1989 : Soviet Union had Shortage of Consumer Goods .
+1989-09-06 : 0:00 October 7, 1989 : France concluded a diplomatic deal with us.
+1989-09-07 : 0:00 October 8, 1989 : France concluded a diplomatic deal with us.
+1989-09-09 : 0:00 October 10, 1989 : France concluded a diplomatic deal with us.
+1989-09-22 : 0:00 October 23, 1989 : German Democratic Republic annexed Luxemburg.
+1989-09-28 : 0:00 October 29, 1989 : People's Republic of Bulgaria annexed Greece.
+1989-10-00 : 0:00 November 1, 1989 : German Democratic Republic annexed Federal Republic of Germany.
+1989-10-02 : 0:00 November 3, 1989 : German Democratic Republic had Germany is reunified by force! .
+1989-10-08 : 0:00 November 9, 1989 : Spain cancelled a trade agreement they had with us.
+1989-10-16 : 0:00 November 17, 1989 : Iran went with 1350000text7 in End Mobilization.
+1989-10-17 : 0:00 November 18, 1989 : Germany annexed Netherlands.
+1989-10-23 : 0:00 November 24, 1989 : Germany annexed Belgium.
+1989-11-10 : 0:00 December 11, 1989 : We concluded a diplomatic deal with Afghanistan.
+1989-11-11 : 13:00 December 12, 1989 : We went with §GOur inflation is around 6 percent. in Quarterly Report.
+1989-11-11 : 13:00 December 12, 1989 : Government nationalises private sector happened to us.
+1989-11-11 : 13:00 December 12, 1989 : 1980s Oil Glut (1986 Oil Price Drop)! happened to us.
+1989-11-11 : 13:00 December 12, 1989 : We went with Ignore him in Rogue Politician.
+1989-11-11 : 13:00 December 12, 1989 : Major Worker Strike happened to us.
+1989-11-11 : 13:00 December 12, 1989 : Great Military Parade held in Capital happened to us.
+1989-11-14 : 0:00 December 15, 1989 : Afghanistan cancelled a trade agreement they had with us.
+1989-11-14 : 0:00 December 15, 1989 : We concluded a diplomatic deal with Angola.
+1989-11-16 : 0:00 December 17, 1989 : We concluded a diplomatic deal with Afghanistan.
+1989-11-13 : 6:00 December 14, 1989 : The following decisions are now available: Turning Point Options, Politics, Investments, Convert Convoys Into Transports, Launch Probe, Testing Tool, Our Inflation Rate, Our Interest Rates, Enact General Mobilization
+1989-11-13 : 6:00 December 14, 1989 : We went with §BOur inflation is below 6 percent. in Our Inflation Rate.
+1989-11-13 : 6:00 December 14, 1989 : The following decisions are now available: Turning Point Options, Politics, Investments, Praise The USA, Praise The USSR, Align More Towards Capitalism, USA Trade Mission, Align More Towards Socialism, USSR Trade Mission, Testing Tool, Our Inflation Rate, Our Interest Rates, Prolong Terms of Service, Enact Partial Mobilization
+1989-11-22 : 6:00 December 23, 1989 : Germany annexed Denmark.
+1989-11-25 : 6:00 December 26, 1989 : We concluded a diplomatic deal with Afghanistan.
+1989-11-27 : 6:00 December 28, 1989 : We concluded a diplomatic deal with Afghanistan.
+1989-11-27 : 6:00 December 28, 1989 : Afghanistan cancelled a trade agreement they had with us.
+1989-11-29 : 6:00 December 30, 1989 : Afghanistan cancelled a trade agreement they had with us.
+1990-00-00 : 0:00 January 1, 1990 : The following decisions are now available: Education Budget
+1990-00-17 : 6:00 January 18, 1990 : Soviet Union had Rapprochement with China .
+1990-00-17 : 6:00 January 18, 1990 : Soviet Union had Align North Korea .
+1990-00-17 : 6:00 January 18, 1990 : People's Republic of Korea went with Refuse in Align with the Soviets.
+1990-00-22 : 0:00 January 23, 1990 : Yugoslavia went with Damn! in Party Crisis.
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Slovenia had Party Crisis .
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Croatia had Party Crisis .
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Bosnia and Herzegovina had Party Crisis .
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Macedonia had Party Crisis .
+1990-00-22 : 0:00 January 23, 1990 : Socialist Republic of Montenegro had Party Crisis .
+1990-00-26 : 0:00 January 27, 1990 : The following decisions are now available: Prolong Terms of Service
+1990-01-07 : 0:00 February 8, 1990 : South Africa went with Free Nelson Mandela! in Nelson Mandela has been released!.
+1990-01-07 : 0:00 February 8, 1990 : South Africa had Nelson Mandela has been released! .
+1990-01-15 : 6:00 February 16, 1990 : We concluded a diplomatic deal with Germany.
+1990-01-29 : 6:00 February 30, 1990 : Soviet Union annexed Turkey.
+1990-02-01 : 6:00 March 2, 1990 : Soviet Union had Rapprochement with Yugoslavia .
+1990-02-04 : 6:00 March 5, 1990 : Soviet Union had Shortage of Consumer Goods .
+1990-02-06 : 0:00 March 7, 1990 : Socialist Republic of Slovenia had Transition to Independence .
+1990-02-06 : 0:00 March 7, 1990 : Yugoslavia had Transition to Independence .
+1990-02-11 : 6:00 March 12, 1990 : The people of People's Republic of Greece declared independence from People's Republic of Bulgaria.
+1990-02-11 : 6:00 March 12, 1990 : People's Republic of Bulgaria have made People's Republic of Greece their puppet state.
+1990-02-11 : 6:00 March 12, 1990 : People's Republic of Greece joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and Germany in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France and Northern Cyprus.
+1990-03-04 : 6:00 April 5, 1990 : The people of Greece declared independence from Italy.
+1990-03-04 : 6:00 April 5, 1990 : Italy have made Greece their puppet state.
+1990-03-04 : 6:00 April 5, 1990 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France and Northern Cyprus in their war against Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany and People's Republic of Greece.
+1990-03-07 : 0:00 April 8, 1990 : Slovenia went with Elect Nationalists in Multi-Party Elections in Slovenia.
+1990-03-07 : 6:00 April 8, 1990 : Italy have ended their mastery over Greece.
+1990-03-24 : 6:00 April 25, 1990 : Morocco cancelled a trade agreement they had with us.
+1990-03-28 : 6:00 April 29, 1990 : Germany cancelled a trade agreement they had with us.
+1990-04-00 : 0:00 May 1, 1990 : Socialist Republic of Croatia went with Elect Nationalists in Multi-Party Elections in Croatia.
+1990-04-01 : 0:00 May 2, 1990 : Socialist Republic of Croatia had Croatian Independence Referendum .
+1990-04-02 : 6:00 May 3, 1990 : People's Republic of Hungary cancelled a trade agreement they had with us.
+1990-04-13 : 0:00 May 14, 1990 : Yugoslavia went with Proceed in Confiscate Croatia's Weapons.
+1990-04-13 : 0:00 May 14, 1990 : Socialist Republic of Croatia had Confiscate Croatia's Weapons .
+1990-04-17 : 6:00 May 18, 1990 : We concluded a diplomatic deal with Soviet Union.
+1990-04-17 : 6:00 May 18, 1990 : People's Republic of China went with Accept in Rapprochement with The Soviet Union.
+1990-04-19 : 6:00 May 20, 1990 : People's Republic of China entered a Military Alliance with Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany and People's Republic of Greece.
+1990-04-19 : 6:00 May 20, 1990 : People's Republic of China joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany and People's Republic of Greece in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France, Northern Cyprus and Greece.
+1990-04-25 : 0:00 May 26, 1990 : Socialist Republic of Croatia went with Proceed in Flag Change.
+1990-05-04 : 6:00 June 5, 1990 : Soviet Union had Shortage of Consumer Goods .
+1990-05-18 : 6:00 June 19, 1990 : United Kingdom annexed People's Republic of Greece.
+1990-05-21 : 0:00 June 22, 1990 : Socialist Republic of Croatia went with Proceed in Smuggle Weapons to Croatia.
+1990-06-01 : 6:00 July 2, 1990 : We concluded a diplomatic deal with Soviet Union.
+1990-06-01 : 6:00 July 2, 1990 : Yugoslavia went with Accept in Rapprochement with The Soviet Union.
+1990-06-03 : 6:00 July 4, 1990 : Yugoslavia entered a Military Alliance with Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany and People's Republic of China.
+1990-06-03 : 6:00 July 4, 1990 : Yugoslavia joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany and People's Republic of China in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France, Northern Cyprus and Greece.
+1990-06-04 : 0:00 July 5, 1990 : Socialist Republic of Montenegro entered a Military Alliance with Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China and Yugoslavia.
+1990-06-04 : 0:00 July 5, 1990 : Socialist Republic of Bosnia and Herzegovina entered a Military Alliance with Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China, Yugoslavia and Socialist Republic of Montenegro.
+1990-06-04 : 0:00 July 5, 1990 : Socialist Republic of Macedonia entered a Military Alliance with Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China, Yugoslavia, Socialist Republic of Montenegro and Socialist Republic of Bosnia and Herzegovina.
+1990-06-04 : 0:00 July 5, 1990 : Socialist Republic of Montenegro joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China and Yugoslavia in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France, Northern Cyprus and Greece.
+1990-06-04 : 0:00 July 5, 1990 : Socialist Republic of Bosnia and Herzegovina joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China, Yugoslavia and Socialist Republic of Montenegro in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France, Northern Cyprus and Greece.
+1990-06-04 : 0:00 July 5, 1990 : Socialist Republic of Macedonia joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China, Yugoslavia, Socialist Republic of Montenegro and Socialist Republic of Bosnia and Herzegovina in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France, Northern Cyprus and Greece.
+1990-06-07 : 0:00 July 8, 1990 : Yugoslavia went with Proceed in Arm Croatian Serbs.
+1990-06-17 : 6:00 July 18, 1990 : United Kingdom annexed Socialist Republic of Macedonia.
+1990-06-22 : 0:00 July 23, 1990 : Socialist Republic of Croatia went with No need in Transition to Independence.
+1990-06-27 : 6:00 July 28, 1990 : We concluded a diplomatic deal with Yugoslavia.
+1990-07-00 : 0:00 August 1, 1990 : Socialist Republic of Croatia went with Send the Special Forces! in The Log Revolution.
+1990-07-00 : 0:00 August 1, 1990 : Yugoslavia went with Send the Air Force! in The Log Revolution.
+1990-07-00 : 0:00 August 1, 1990 : Socialist Republic of Croatia went with Actually, there's not much we can do... in The Log Revolution.
+1990-07-00 : 0:00 August 1, 1990 : The people of SAO Kninska Krajina declared independence from Socialist Republic of Croatia.
+1990-07-00 : 0:00 August 1, 1990 : Yugoslavia went with Great! in The Log Revolution.
+1990-07-00 : 0:00 August 1, 1990 : Yugoslavia have made SAO Kninska Krajina their puppet state.
+1990-07-00 : 0:00 August 1, 1990 : SAO Kninska Krajina joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China, Yugoslavia, Socialist Republic of Montenegro and Socialist Republic of Bosnia and Herzegovina in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France, Northern Cyprus and Greece.
+1990-07-00 : 0:00 August 1, 1990 : SAO Kninska Krajina had Serbian Paramilitary .
+1990-07-00 : 6:00 August 1, 1990 : Yugoslavia had Arm Serbian Krajina .
+1990-07-00 : 6:00 August 1, 1990 : SAO Kninska Krajina had Weapons from Serbia .
+1990-07-01 : 6:00 August 2, 1990 : Yugoslavia cancelled a trade agreement they had with us.
+1990-07-16 : 6:00 August 17, 1990 : We concluded a diplomatic deal with Yugoslavia.
+1990-07-29 : 6:00 August 30, 1990 : Austria cancelled a trade agreement they had with us.
+1990-08-00 : 6:00 September 1, 1990 : Libya cancelled a trade agreement they had with us.
+1990-08-04 : 6:00 September 5, 1990 : Soviet Union had Shortage of Consumer Goods .
+1990-08-16 : 6:00 September 17, 1990 : Italy cancelled a trade agreement they had with us.
+1990-10-24 : 0:00 November 25, 1990 : Socialist Republic of Bosnia and Herzegovina went with Elect Nationalists in Multi-Party Elections in Bosnia.
+1990-11-04 : 6:00 December 5, 1990 : Soviet Union had Shortage of Consumer Goods .
+1990-11-22 : 0:00 December 23, 1990 : Slovenia had Slovenian Independence Referendum .
+1991-00-00 : 0:00 January 1, 1991 : Our policy has been moved one step toward Interventionism. Current value: 9.
+1991-00-00 : 0:00 January 1, 1991 : The following decisions are now available: Education Budget
+1991-00-23 : 0:00 January 24, 1991 : Socialist Republic of Croatia had The Spegelj Tapes .
+1991-02-00 : 0:00 March 1, 1991 : Socialist Republic of Croatia had The Spegelj Tapes .
+1991-02-04 : 6:00 March 5, 1991 : Soviet Union had Shortage of Consumer Goods .
+1991-02-08 : 0:00 March 9, 1991 : Yugoslavia had The March Protests .
+1991-02-08 : 0:00 March 9, 1991 : Yugoslavia went with Okay in Serbian General Election.
+1991-02-12 : 0:00 March 13, 1991 : United States of America concluded a diplomatic deal with us.
+1991-02-24 : 0:00 March 25, 1991 : Yugoslavia went with Accept in The Karadordevo Agreement.
+1991-02-24 : 0:00 March 25, 1991 : Socialist Republic of Croatia went with Accept in The Karadordevo Agreement.
+1991-03-00 : 0:00 April 1, 1991 : SAO Kninska Krajina had The Independence of the Serbian Krajina .
+1991-03-00 : 0:00 April 1, 1991 : Socialist Republic of Croatia went with Damn! in The Independence of the Serbian Krajina.
+1991-03-00 : 0:00 April 1, 1991 : Yugoslavia went with Great! in The Independence of the Serbian Krajina.
+1991-03-08 : 0:00 April 9, 1991 : Socialist Republic of Croatia had Creation of the Croatian National Guard .
+1991-04-20 : 6:00 May 21, 1991 : Yugoslavia cancelled a trade agreement they had with us.
+1991-04-21 : 0:00 May 22, 1991 : People's Republic of Hungary concluded a diplomatic deal with us.
+1991-04-25 : 6:00 May 26, 1991 : We concluded a diplomatic deal with Soviet Union.
+1991-05-04 : 6:00 June 5, 1991 : Soviet Union had Shortage of Consumer Goods .
+1991-05-24 : 0:00 June 25, 1991 : Slovenia had Slovenia's Declaration of Independence .
+1991-05-24 : 0:00 June 25, 1991 : Slovenia has revoked the military access for Yugoslavia.
+1991-05-24 : 0:00 June 25, 1991 : Yugoslavia had Slovenia's Declaration of Independence .
+1991-05-24 : 0:00 June 25, 1991 : Socialist Republic of Croatia had Croatia's Declaration of Independence .
+1991-05-24 : 0:00 June 25, 1991 : Socialist Republic of Croatia has revoked the military access for Yugoslavia.
+1991-05-24 : 0:00 June 25, 1991 : Yugoslavia had Croatia's Declaration of Independence .
+1991-05-24 : 6:00 June 25, 1991 : Yugoslavia had Invade Croatia .
+1991-05-24 : 6:00 June 25, 1991 : Yugoslavia declared war upon Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : Soviet Union joined the war on the same side as Yugoslavia in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : Czechoslovak Socialist Republic joined the war on the same side as Soviet Union and Yugoslavia in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : People's Republic of Poland joined the war on the same side as Soviet Union, Yugoslavia and Czechoslovak Socialist Republic in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : Socialist Republic of Romania joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic and People's Republic of Poland in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : People's Republic of Hungary joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland and Socialist Republic of Romania in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : People's Republic of Bulgaria joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania and People's Republic of Hungary in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : Germany joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary and People's Republic of Bulgaria in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : People's Republic of China joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and Germany in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : Socialist Republic of Montenegro joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany and People's Republic of China in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : Socialist Republic of Bosnia and Herzegovina joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China and Socialist Republic of Montenegro in their war against Socialist Republic of Croatia.
+1991-05-24 : 6:00 June 25, 1991 : Serbian Krajina joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China, Socialist Republic of Montenegro and Socialist Republic of Bosnia and Herzegovina in their war against Socialist Republic of Croatia.
+1991-05-26 : 0:00 June 27, 1991 : Yugoslavia had The Slovenian War of Independence .
+1991-05-26 : 0:00 June 27, 1991 : Yugoslavia declared war upon Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Soviet Union joined the war on the same side as Yugoslavia in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Czechoslovak Socialist Republic joined the war on the same side as Soviet Union and Yugoslavia in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : People's Republic of Poland joined the war on the same side as Soviet Union, Yugoslavia and Czechoslovak Socialist Republic in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Socialist Republic of Romania joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic and People's Republic of Poland in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : People's Republic of Hungary joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland and Socialist Republic of Romania in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : People's Republic of Bulgaria joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania and People's Republic of Hungary in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Germany joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary and People's Republic of Bulgaria in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : People's Republic of China joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria and Germany in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Socialist Republic of Montenegro joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany and People's Republic of China in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Socialist Republic of Bosnia and Herzegovina joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China and Socialist Republic of Montenegro in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Serbian Krajina joined the war on the same side as Soviet Union, Yugoslavia, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China, Socialist Republic of Montenegro and Socialist Republic of Bosnia and Herzegovina in their war against Slovenia.
+1991-05-26 : 0:00 June 27, 1991 : Slovenia had The Slovenian War of Independence .
+1991-05-26 : 0:00 June 27, 1991 : Slovenia had Slovenia Changes Flag .
+1991-06-03 : 6:00 July 4, 1991 : Socialist Republic of Croatia annexed Serbian Krajina.
+1991-06-04 : 0:00 July 5, 1991 : European Community had The Brioni Agreement .
+1991-06-04 : 0:00 July 5, 1991 : Slovenia went with Okay in The Brioni Agreement.
+1991-06-04 : 0:00 July 5, 1991 : Yugoslavia went with Okay in The Brioni Agreement.
+1991-06-06 : 0:00 July 7, 1991 : Slovenia had The Ten-Day War .
+1991-06-06 : 0:00 July 7, 1991 : Yugoslavia accepted peace with Slovenia on the following terms : Return to Status Quo.
+1991-06-06 : 0:00 July 7, 1991 : Yugoslavia had The Ten-Day War .
+1991-06-17 : 6:00 July 18, 1991 : Socialist Republic of Croatia annexed Socialist Republic of Montenegro.
+1991-06-21 : 6:00 July 22, 1991 : We concluded a diplomatic deal with People's Republic of China.
+1991-07-15 : 0:00 August 16, 1991 : Socialist Republic of Croatia had Spegelj resigns .
+1991-07-27 : 6:00 August 28, 1991 : Yugoslavia annexed Socialist Republic of Croatia.
+1991-08-04 : 6:00 September 5, 1991 : Soviet Union had Shortage of Consumer Goods .
+1991-08-26 : 6:00 September 27, 1991 : The people of People's Republic of Greece declared independence from People's Republic of Bulgaria.
+1991-08-26 : 6:00 September 27, 1991 : People's Republic of Bulgaria have made People's Republic of Greece their puppet state.
+1991-08-26 : 6:00 September 27, 1991 : People's Republic of Greece joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China, Yugoslavia and Socialist Republic of Bosnia and Herzegovina in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Spain, Iceland, France, Northern Cyprus and Greece.
+1991-09-07 : 6:00 October 8, 1991 : Germany annexed Spain.
+1991-10-17 : 0:00 November 18, 1991 : Socialist Republic of Bosnia and Herzegovina had The Croatian Community of Herzeg-Bosnia .
+1991-10-17 : 0:00 November 18, 1991 : The people of Herzeg-Bosnia declared independence from Socialist Republic of Bosnia and Herzegovina.
+1991-10-17 : 0:00 November 18, 1991 : Socialist Republic of Bosnia and Herzegovina went with Damn! in The Croatian Community of Herzeg-Bosnia.
+1991-10-17 : 0:00 November 18, 1991 : Herzeg-Bosnia had Croatian Paramilitary .
+1991-11-04 : 6:00 December 5, 1991 : Soviet Union had Shortage of Consumer Goods .
+1991-11-16 : 0:00 December 17, 1991 : Yugoslavia had Development Program Finished .
+1991-11-17 : 6:00 December 18, 1991 : People's Republic of Bulgaria have ended their mastery over People's Republic of Greece.
+1991-11-21 : 6:00 December 22, 1991 : People's Republic of China cancelled a trade agreement they had with us.
+1991-11-21 : 6:00 December 22, 1991 : United States of America annexed People's Republic of Greece.
+1991-11-25 : 0:00 December 26, 1991 : Yugoslavia went with Okay in The Third Yugoslavia.
+1991-11-25 : 0:00 December 26, 1991 : Socialist Republic of Bosnia and Herzegovina went with Accept in The Third Yugoslavia.
+1991-11-25 : 0:00 December 26, 1991 : Yugoslavia had The Third Yugoslavia is Formed .
+1991-11-25 : 0:00 December 26, 1991 : Yugoslavia annexed Socialist Republic of Bosnia and Herzegovina.
+1992-00-00 : 0:00 January 1, 1992 : The following decisions are now available: Education Budget
+1992-00-01 : 0:00 January 2, 1992 : Yugoslavia went with Accept in The Vance Plan.
+1992-02-04 : 6:00 March 5, 1992 : Soviet Union had Shortage of Consumer Goods .
+1992-02-26 : 6:00 March 27, 1992 : People's Republic of Hungary cancelled a trade agreement they had with us.
+1992-02-27 : 0:00 March 28, 1992 : Italy concluded a diplomatic deal with us.
+1992-03-02 : 6:00 April 3, 1992 : Italy cancelled a trade agreement they had with us.
+1992-03-07 : 0:00 April 8, 1992 : Germany concluded a diplomatic deal with us.
+1992-03-08 : 0:00 April 9, 1992 : United Kingdom went with Elect Right in General Election of 1992.
+1992-03-08 : 6:00 April 9, 1992 : Germany cancelled a trade agreement they had with us.
+1992-03-09 : 0:00 April 10, 1992 : Morocco concluded a diplomatic deal with us.
+1992-03-27 : 0:00 April 28, 1992 : Yugoslavia had The Federal Republic of Yugoslavia .
+1992-04-18 : 6:00 May 19, 1992 : Iran declared war upon United States of America.
+1992-04-18 : 6:00 May 19, 1992 : Canada joined the war on the same side as United States of America in their war against Iran.
+1992-04-18 : 6:00 May 19, 1992 : Italy joined the war on the same side as United States of America and Canada in their war against Iran.
+1992-04-18 : 6:00 May 19, 1992 : Norway joined the war on the same side as United States of America, Canada and Italy in their war against Iran.
+1992-04-18 : 6:00 May 19, 1992 : Portugal joined the war on the same side as United States of America, Canada, Italy and Norway in their war against Iran.
+1992-04-18 : 6:00 May 19, 1992 : United Kingdom joined the war on the same side as United States of America, Canada, Italy, Norway and Portugal in their war against Iran.
+1992-04-18 : 6:00 May 19, 1992 : Iceland joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal and United Kingdom in their war against Iran.
+1992-04-18 : 6:00 May 19, 1992 : France joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom and Iceland in their war against Iran.
+1992-04-18 : 6:00 May 19, 1992 : Northern Cyprus joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland and France in their war against Iran.
+1992-04-18 : 6:00 May 19, 1992 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France and Northern Cyprus in their war against Iran.
+1992-04-19 : 0:00 May 20, 1992 : Iraq entered a Military Alliance with Iran.
+1992-04-19 : 0:00 May 20, 1992 : Iraq joined the war on the same side as Iran in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece.
+1992-05-04 : 6:00 June 5, 1992 : Soviet Union had Shortage of Consumer Goods .
+1992-05-14 : 0:00 June 15, 1992 : Yugoslavia had Dobrica Cosic .
+1992-06-07 : 6:00 July 8, 1992 : The people of Socialist Republic of Turkey declared independence from People's Republic of Bulgaria.
+1992-06-07 : 6:00 July 8, 1992 : People's Republic of Bulgaria have made Socialist Republic of Turkey their puppet state.
+1992-06-07 : 6:00 July 8, 1992 : Socialist Republic of Turkey joined the war on the same side as Soviet Union, Czechoslovak Socialist Republic, People's Republic of Poland, Socialist Republic of Romania, People's Republic of Hungary, People's Republic of Bulgaria, Germany, People's Republic of China and Yugoslavia in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece.
+1992-06-17 : 6:00 July 18, 1992 : People's Republic of Bulgaria have ended their mastery over Socialist Republic of Turkey.
+1992-08-04 : 6:00 September 5, 1992 : Soviet Union had Shortage of Consumer Goods .
+1992-10-02 : 0:00 November 3, 1992 : United States of America went with Elect Left in The United States Presidential Election of 1992.
+1992-10-08 : 6:00 November 9, 1992 : Brazil has succeeded with a smear campaign in Argentina. Relations between Argentina and Brazil have been damaged due to a diplomatic incident.
+1992-11-04 : 6:00 December 5, 1992 : Soviet Union had Shortage of Consumer Goods .
+1992-11-28 : 6:00 December 29, 1992 : We concluded a diplomatic deal with Germany.
+1993-00-00 : 0:00 January 1, 1993 : Our policy has been moved one step toward Interventionism. Current value: 10.
+1993-00-00 : 0:00 January 1, 1993 : The following decisions are now available: Education Budget
+1993-02-04 : 6:00 March 5, 1993 : Soviet Union had Shortage of Consumer Goods .
+1993-03-00 : 6:00 April 1, 1993 : United States of America annexed People's Republic of Poland.
+1993-03-07 : 6:00 April 8, 1993 : Soviet Union had The Second Great Patriotic War .
+1993-03-08 : 6:00 April 9, 1993 : United States of America annexed Czechoslovak Socialist Republic.
+1993-03-09 : 0:00 April 10, 1993 : People's Republic of Korea had Appointing Kim Jong-il to the NDC .
+1993-04-05 : 6:00 May 6, 1993 : Germany cancelled a trade agreement they had with us.
+1993-05-04 : 6:00 June 5, 1993 : Soviet Union had Shortage of Consumer Goods .
+1993-05-12 : 6:00 June 13, 1993 : United States of America annexed People's Republic of Hungary.
+1993-05-13 : 6:00 June 14, 1993 : Soviet Union cancelled a trade agreement they had with us.
+1993-05-20 : 6:00 June 21, 1993 : Soviet Union had The Second Great Patriotic War .
+1993-05-29 : 6:00 June 30, 1993 : United States of America annexed Socialist Republic of Romania.
+1993-06-09 : 6:00 July 10, 1993 : We concluded a diplomatic deal with Yugoslavia.
+1993-07-21 : 6:00 August 22, 1993 : Yugoslavia cancelled a trade agreement they had with us.
+1993-08-03 : 6:00 September 4, 1993 : We concluded a diplomatic deal with People's Republic of Bulgaria.
+1993-08-04 : 6:00 September 5, 1993 : Soviet Union had Shortage of Consumer Goods .
+1993-08-25 : 6:00 September 26, 1993 : United States of America annexed Yugoslavia.
+1993-10-05 : 6:00 November 6, 1993 : The people of Democratic Spanish Union declared independence from Germany.
+1993-10-05 : 6:00 November 6, 1993 : Germany have made Democratic Spanish Union their puppet state.
+1993-10-05 : 6:00 November 6, 1993 : Democratic Spanish Union joined the war on the same side as Soviet Union, People's Republic of Bulgaria, Germany, People's Republic of China and Socialist Republic of Turkey in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece.
+1993-11-00 : 6:00 December 1, 1993 : We concluded a diplomatic deal with Soviet Union.
+1993-11-02 : 6:00 December 3, 1993 : We concluded a diplomatic deal with Soviet Union.
+1993-11-04 : 6:00 December 5, 1993 : Soviet Union had Shortage of Consumer Goods .
+1993-11-29 : 6:00 December 30, 1993 : Germany have ended their mastery over Democratic Spanish Union.
+1994-00-00 : 0:00 January 1, 1994 : The following decisions are now available: Education Budget
+1994-01-00 : 6:00 February 1, 1994 : United States of America annexed People's Republic of Bulgaria.
+1994-01-07 : 6:00 February 8, 1994 : Albania entered a Military Alliance with Soviet Union, Germany, People's Republic of China, Socialist Republic of Turkey and Democratic Spanish Union.
+1994-01-07 : 6:00 February 8, 1994 : Albania joined the war on the same side as Soviet Union, Germany, People's Republic of China, Socialist Republic of Turkey and Democratic Spanish Union in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece.
+1994-02-04 : 6:00 March 5, 1994 : Soviet Union had Shortage of Consumer Goods .
+1994-02-12 : 6:00 March 13, 1994 : United States of America annexed Albania.
+1994-02-21 : 6:00 March 22, 1994 : The people of Yugoslavia declared independence from United Kingdom.
+1994-02-21 : 6:00 March 22, 1994 : United Kingdom have made Yugoslavia their puppet state.
+1994-02-21 : 6:00 March 22, 1994 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece in their war against Soviet Union, Germany, People's Republic of China, Socialist Republic of Turkey and Democratic Spanish Union.
+1994-02-21 : 6:00 March 22, 1994 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece in their war against Iran and Iraq.
+1994-03-12 : 6:00 April 13, 1994 : United Kingdom have ended their mastery over Yugoslavia.
+1994-04-05 : 6:00 May 6, 1994 : The people of Russia declared independence from United Kingdom.
+1994-04-05 : 6:00 May 6, 1994 : United Kingdom have made Russia their puppet state.
+1994-04-05 : 6:00 May 6, 1994 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus, Greece and Yugoslavia in their war against Soviet Union, Germany, People's Republic of China, Socialist Republic of Turkey and Democratic Spanish Union.
+1994-04-05 : 6:00 May 6, 1994 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus, Greece and Yugoslavia in their war against Iran and Iraq.
+1994-05-04 : 6:00 June 5, 1994 : Soviet Union had Shortage of Consumer Goods .
+1994-06-08 : 0:00 July 9, 1994 : People's Republic of Korea had Kim Il-sung has died! .
+1994-06-24 : 6:00 July 25, 1994 : United States of America annexed Iran.
+1994-06-29 : 6:00 July 30, 1994 : United States of America annexed Iraq.
+1994-07-14 : 6:00 August 15, 1994 : United Kingdom have ended their mastery over Russia.
+1994-08-01 : 6:00 September 2, 1994 : United States of America annexed Socialist Republic of Turkey.
+1994-08-04 : 6:00 September 5, 1994 : Botswana declared war upon United States of America.
+1994-08-04 : 6:00 September 5, 1994 : Canada joined the war on the same side as United States of America in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Italy joined the war on the same side as United States of America and Canada in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Norway joined the war on the same side as United States of America, Canada and Italy in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Portugal joined the war on the same side as United States of America, Canada, Italy and Norway in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : United Kingdom joined the war on the same side as United States of America, Canada, Italy, Norway and Portugal in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Iceland joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal and United Kingdom in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : France joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom and Iceland in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Northern Cyprus joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland and France in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France and Northern Cyprus in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus, Greece and Yugoslavia in their war against Botswana.
+1994-08-04 : 6:00 September 5, 1994 : Soviet Union had Shortage of Consumer Goods .
+1994-08-08 : 6:00 September 9, 1994 : Lebanon declared war upon United States of America.
+1994-08-08 : 6:00 September 9, 1994 : Canada joined the war on the same side as United States of America in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : Italy joined the war on the same side as United States of America and Canada in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : Norway joined the war on the same side as United States of America, Canada and Italy in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : Portugal joined the war on the same side as United States of America, Canada, Italy and Norway in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : United Kingdom joined the war on the same side as United States of America, Canada, Italy, Norway and Portugal in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : Iceland joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal and United Kingdom in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : France joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom and Iceland in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : Northern Cyprus joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland and France in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France and Northern Cyprus in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece in their war against Lebanon.
+1994-08-08 : 6:00 September 9, 1994 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus, Greece and Yugoslavia in their war against Lebanon.
+1994-08-11 : 6:00 September 12, 1994 : Republic of Korea declared war upon United States of America.
+1994-08-11 : 6:00 September 12, 1994 : Canada joined the war on the same side as United States of America in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : Italy joined the war on the same side as United States of America and Canada in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : Norway joined the war on the same side as United States of America, Canada and Italy in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : Portugal joined the war on the same side as United States of America, Canada, Italy and Norway in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : United Kingdom joined the war on the same side as United States of America, Canada, Italy, Norway and Portugal in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : Iceland joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal and United Kingdom in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : France joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom and Iceland in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : Northern Cyprus joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland and France in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France and Northern Cyprus in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece in their war against Republic of Korea.
+1994-08-11 : 6:00 September 12, 1994 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus, Greece and Yugoslavia in their war against Republic of Korea.
+1994-08-17 : 6:00 September 18, 1994 : Cyprus declared war upon United States of America.
+1994-08-17 : 6:00 September 18, 1994 : Canada joined the war on the same side as United States of America in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : Italy joined the war on the same side as United States of America and Canada in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : Norway joined the war on the same side as United States of America, Canada and Italy in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : Portugal joined the war on the same side as United States of America, Canada, Italy and Norway in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : United Kingdom joined the war on the same side as United States of America, Canada, Italy, Norway and Portugal in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : Iceland joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal and United Kingdom in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : France joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom and Iceland in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : Northern Cyprus joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland and France in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France and Northern Cyprus in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus and Greece in their war against Cyprus.
+1994-08-17 : 6:00 September 18, 1994 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Northern Cyprus, Greece and Yugoslavia in their war against Cyprus.
+1994-08-21 : 6:00 September 22, 1994 : Cyprus annexed Northern Cyprus.
+1994-08-23 : 6:00 September 24, 1994 : Tunisia declared war upon United States of America.
+1994-08-23 : 6:00 September 24, 1994 : Canada joined the war on the same side as United States of America in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : Italy joined the war on the same side as United States of America and Canada in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : Norway joined the war on the same side as United States of America, Canada and Italy in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : Portugal joined the war on the same side as United States of America, Canada, Italy and Norway in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : United Kingdom joined the war on the same side as United States of America, Canada, Italy, Norway and Portugal in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : Iceland joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal and United Kingdom in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : France joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom and Iceland in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland and France in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France and Greece in their war against Tunisia.
+1994-08-23 : 6:00 September 24, 1994 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece and Yugoslavia in their war against Tunisia.
+1994-09-10 : 6:00 October 11, 1994 : United Kingdom annexed Cyprus.
+1994-09-13 : 6:00 October 14, 1994 : Rwanda declared war upon United States of America.
+1994-09-13 : 6:00 October 14, 1994 : Canada joined the war on the same side as United States of America in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : Italy joined the war on the same side as United States of America and Canada in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : Norway joined the war on the same side as United States of America, Canada and Italy in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : Portugal joined the war on the same side as United States of America, Canada, Italy and Norway in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : United Kingdom joined the war on the same side as United States of America, Canada, Italy, Norway and Portugal in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : Iceland joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal and United Kingdom in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : France joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom and Iceland in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland and France in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France and Greece in their war against Rwanda.
+1994-09-13 : 6:00 October 14, 1994 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece and Yugoslavia in their war against Rwanda.
+1994-10-00 : 6:00 November 1, 1994 : Brazil has succeeded with a smear campaign in Chile. Relations between Chile and Brazil have been damaged due to a diplomatic incident.
+1994-11-04 : 6:00 December 5, 1994 : Soviet Union had Shortage of Consumer Goods .
+1995-00-00 : 0:00 January 1, 1995 : The following decisions are now available: Education Budget
+1995-00-16 : 6:00 January 17, 1995 : Brazil had Recruitment Campaign .
+1995-01-27 : 6:00 February 28, 1995 : United States of America annexed Germany.
+1995-02-04 : 6:00 March 5, 1995 : Soviet Union had Shortage of Consumer Goods .
+1995-03-19 : 0:00 April 20, 1995 : Herzeg-Bosnia declared war upon United States of America.
+1995-03-19 : 0:00 April 20, 1995 : Canada joined the war on the same side as United States of America in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : Italy joined the war on the same side as United States of America and Canada in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : Norway joined the war on the same side as United States of America, Canada and Italy in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : Portugal joined the war on the same side as United States of America, Canada, Italy and Norway in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : United Kingdom joined the war on the same side as United States of America, Canada, Italy, Norway and Portugal in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : Iceland joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal and United Kingdom in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : France joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom and Iceland in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : Greece joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland and France in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : Yugoslavia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France and Greece in their war against Herzeg-Bosnia.
+1995-03-19 : 0:00 April 20, 1995 : Russia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece and Yugoslavia in their war against Herzeg-Bosnia.
+1995-04-19 : 6:00 May 20, 1995 : Yugoslavia annexed Herzeg-Bosnia.
+1995-05-04 : 6:00 June 5, 1995 : Soviet Union had Shortage of Consumer Goods .
+1995-06-16 : 6:00 July 17, 1995 : Brazil had Result of the recruitment campaign .
+1995-06-19 : 6:00 July 20, 1995 : United States of America annexed People's Republic of China.
+1995-06-23 : 6:00 July 24, 1995 : Mongolian People's Republic entered a Military Alliance with Soviet Union and Democratic Spanish Union.
+1995-06-23 : 6:00 July 24, 1995 : Mongolian People's Republic joined the war on the same side as Soviet Union and Democratic Spanish Union in their war against United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia and Russia.
+1995-07-01 : 6:00 August 2, 1995 : United States of America annexed Soviet Union.
+1995-07-24 : 6:00 August 25, 1995 : United States of America annexed Mongolian People's Republic.
+1995-07-29 : 6:00 August 30, 1995 : The people of Estonian SSR declared independence from United States of America.
+1995-07-29 : 6:00 August 30, 1995 : United States of America have made Estonian SSR their puppet state.
+1995-07-29 : 6:00 August 30, 1995 : Estonian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia and Russia in their war against Democratic Spanish Union.
+1995-07-29 : 6:00 August 30, 1995 : Estonian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia and Russia in their war against Botswana.
+1995-07-29 : 6:00 August 30, 1995 : Estonian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia and Russia in their war against Lebanon.
+1995-07-29 : 6:00 August 30, 1995 : Estonian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia and Russia in their war against Republic of Korea.
+1995-07-29 : 6:00 August 30, 1995 : Estonian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia and Russia in their war against Tunisia.
+1995-07-29 : 6:00 August 30, 1995 : Estonian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia and Russia in their war against Rwanda.
+1995-07-29 : 6:00 August 30, 1995 : Estonian SSR went with Great! in We have been liberated!.
+1995-08-00 : 6:00 September 1, 1995 : The people of Ukrainian SSR declared independence from United States of America.
+1995-08-00 : 6:00 September 1, 1995 : United States of America have made Ukrainian SSR their puppet state.
+1995-08-00 : 6:00 September 1, 1995 : Ukrainian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia and Estonia in their war against Democratic Spanish Union.
+1995-08-00 : 6:00 September 1, 1995 : Ukrainian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia and Estonia in their war against Botswana.
+1995-08-00 : 6:00 September 1, 1995 : Ukrainian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia and Estonia in their war against Lebanon.
+1995-08-00 : 6:00 September 1, 1995 : Ukrainian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia and Estonia in their war against Republic of Korea.
+1995-08-00 : 6:00 September 1, 1995 : Ukrainian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia and Estonia in their war against Tunisia.
+1995-08-00 : 6:00 September 1, 1995 : Ukrainian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia and Estonia in their war against Rwanda.
+1995-08-00 : 6:00 September 1, 1995 : Ukrainian SSR went with Great! in We have been liberated!.
+1995-08-01 : 6:00 September 2, 1995 : The people of Republic of Bulgaria declared independence from United States of America.
+1995-08-01 : 6:00 September 2, 1995 : United States of America have made Republic of Bulgaria their puppet state.
+1995-08-01 : 6:00 September 2, 1995 : Republic of Bulgaria joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia and Ukraine in their war against Democratic Spanish Union.
+1995-08-01 : 6:00 September 2, 1995 : Republic of Bulgaria joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia and Ukraine in their war against Botswana.
+1995-08-01 : 6:00 September 2, 1995 : Republic of Bulgaria joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia and Ukraine in their war against Lebanon.
+1995-08-01 : 6:00 September 2, 1995 : Republic of Bulgaria joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia and Ukraine in their war against Republic of Korea.
+1995-08-01 : 6:00 September 2, 1995 : Republic of Bulgaria joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia and Ukraine in their war against Tunisia.
+1995-08-01 : 6:00 September 2, 1995 : Republic of Bulgaria joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia and Ukraine in their war against Rwanda.
+1995-08-03 : 6:00 September 4, 1995 : The people of Azerbaijan SSR declared independence from United States of America.
+1995-08-03 : 6:00 September 4, 1995 : United States of America have made Azerbaijan SSR their puppet state.
+1995-08-03 : 6:00 September 4, 1995 : Azerbaijan SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine and Republic of Bulgaria in their war against Democratic Spanish Union.
+1995-08-03 : 6:00 September 4, 1995 : Azerbaijan SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine and Republic of Bulgaria in their war against Botswana.
+1995-08-03 : 6:00 September 4, 1995 : Azerbaijan SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine and Republic of Bulgaria in their war against Lebanon.
+1995-08-03 : 6:00 September 4, 1995 : Azerbaijan SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine and Republic of Bulgaria in their war against Republic of Korea.
+1995-08-03 : 6:00 September 4, 1995 : Azerbaijan SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine and Republic of Bulgaria in their war against Tunisia.
+1995-08-03 : 6:00 September 4, 1995 : Azerbaijan SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine and Republic of Bulgaria in their war against Rwanda.
+1995-08-03 : 6:00 September 4, 1995 : Azerbaijan SSR went with Great! in We have been liberated!.
+1995-08-05 : 6:00 September 6, 1995 : The people of Georgia declared independence from United States of America.
+1995-08-05 : 6:00 September 6, 1995 : United States of America have made Georgia their puppet state.
+1995-08-05 : 6:00 September 6, 1995 : Georgia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria and Azerbaijan in their war against Democratic Spanish Union.
+1995-08-05 : 6:00 September 6, 1995 : Georgia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria and Azerbaijan in their war against Botswana.
+1995-08-05 : 6:00 September 6, 1995 : Georgia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria and Azerbaijan in their war against Lebanon.
+1995-08-05 : 6:00 September 6, 1995 : Georgia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria and Azerbaijan in their war against Republic of Korea.
+1995-08-05 : 6:00 September 6, 1995 : Georgia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria and Azerbaijan in their war against Tunisia.
+1995-08-05 : 6:00 September 6, 1995 : Georgia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria and Azerbaijan in their war against Rwanda.
+1995-08-06 : 6:00 September 7, 1995 : The people of Turkey declared independence from United States of America.
+1995-08-06 : 6:00 September 7, 1995 : United States of America have made Turkey their puppet state.
+1995-08-06 : 6:00 September 7, 1995 : Turkey joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan and Georgia in their war against Democratic Spanish Union.
+1995-08-06 : 6:00 September 7, 1995 : Turkey joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan and Georgia in their war against Botswana.
+1995-08-06 : 6:00 September 7, 1995 : Turkey joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan and Georgia in their war against Lebanon.
+1995-08-06 : 6:00 September 7, 1995 : Turkey joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan and Georgia in their war against Republic of Korea.
+1995-08-06 : 6:00 September 7, 1995 : Turkey joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan and Georgia in their war against Tunisia.
+1995-08-06 : 6:00 September 7, 1995 : Turkey joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan and Georgia in their war against Rwanda.
+1995-08-08 : 6:00 September 9, 1995 : The people of Lithuanian SSR declared independence from United States of America.
+1995-08-08 : 6:00 September 9, 1995 : United States of America have made Lithuanian SSR their puppet state.
+1995-08-08 : 6:00 September 9, 1995 : United States of America have ended their mastery over Republic of Bulgaria.
+1995-08-08 : 6:00 September 9, 1995 : Lithuanian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia and Turkey in their war against Democratic Spanish Union.
+1995-08-08 : 6:00 September 9, 1995 : Lithuanian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia and Turkey in their war against Botswana.
+1995-08-08 : 6:00 September 9, 1995 : Lithuanian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia and Turkey in their war against Lebanon.
+1995-08-08 : 6:00 September 9, 1995 : Lithuanian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia and Turkey in their war against Republic of Korea.
+1995-08-08 : 6:00 September 9, 1995 : Lithuanian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia and Turkey in their war against Tunisia.
+1995-08-08 : 6:00 September 9, 1995 : Lithuanian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia and Turkey in their war against Rwanda.
+1995-08-08 : 6:00 September 9, 1995 : Lithuanian SSR went with Great! in We have been liberated!.
+1995-08-14 : 6:00 September 15, 1995 : The people of Armenia declared independence from United States of America.
+1995-08-14 : 6:00 September 15, 1995 : United States of America have made Armenia their puppet state.
+1995-08-14 : 6:00 September 15, 1995 : Armenia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey and Lithuania in their war against Democratic Spanish Union.
+1995-08-14 : 6:00 September 15, 1995 : Armenia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey and Lithuania in their war against Botswana.
+1995-08-14 : 6:00 September 15, 1995 : Armenia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey and Lithuania in their war against Lebanon.
+1995-08-14 : 6:00 September 15, 1995 : Armenia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey and Lithuania in their war against Republic of Korea.
+1995-08-14 : 6:00 September 15, 1995 : Armenia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey and Lithuania in their war against Tunisia.
+1995-08-14 : 6:00 September 15, 1995 : Armenia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey and Lithuania in their war against Rwanda.
+1995-08-17 : 6:00 September 18, 1995 : The people of Latvian SSR declared independence from United States of America.
+1995-08-17 : 6:00 September 18, 1995 : United States of America have made Latvian SSR their puppet state.
+1995-08-17 : 6:00 September 18, 1995 : United States of America have ended their mastery over Armenia.
+1995-08-17 : 6:00 September 18, 1995 : Latvian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania and Armenia in their war against Democratic Spanish Union.
+1995-08-17 : 6:00 September 18, 1995 : Latvian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania and Armenia in their war against Botswana.
+1995-08-17 : 6:00 September 18, 1995 : Latvian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania and Armenia in their war against Lebanon.
+1995-08-17 : 6:00 September 18, 1995 : Latvian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania and Armenia in their war against Republic of Korea.
+1995-08-17 : 6:00 September 18, 1995 : Latvian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania and Armenia in their war against Tunisia.
+1995-08-17 : 6:00 September 18, 1995 : Latvian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania and Armenia in their war against Rwanda.
+1995-08-17 : 6:00 September 18, 1995 : Latvian SSR went with Great! in We have been liberated!.
+1995-08-18 : 6:00 September 19, 1995 : The people of Kyrgyzstan declared independence from United States of America.
+1995-08-18 : 6:00 September 19, 1995 : United States of America have made Kyrgyzstan their puppet state.
+1995-08-18 : 6:00 September 19, 1995 : Kyrgyzstan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia and Latvia in their war against Democratic Spanish Union.
+1995-08-18 : 6:00 September 19, 1995 : Kyrgyzstan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia and Latvia in their war against Botswana.
+1995-08-18 : 6:00 September 19, 1995 : Kyrgyzstan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia and Latvia in their war against Lebanon.
+1995-08-18 : 6:00 September 19, 1995 : Kyrgyzstan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia and Latvia in their war against Republic of Korea.
+1995-08-18 : 6:00 September 19, 1995 : Kyrgyzstan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia and Latvia in their war against Tunisia.
+1995-08-18 : 6:00 September 19, 1995 : Kyrgyzstan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia and Latvia in their war against Rwanda.
+1995-08-21 : 6:00 September 22, 1995 : The people of Kazakh SSR declared independence from United States of America.
+1995-08-21 : 6:00 September 22, 1995 : United States of America have made Kazakh SSR their puppet state.
+1995-08-21 : 6:00 September 22, 1995 : United States of America have ended their mastery over Turkey.
+1995-08-21 : 6:00 September 22, 1995 : Kazakh SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia and Kyrgyzstan in their war against Democratic Spanish Union.
+1995-08-21 : 6:00 September 22, 1995 : Kazakh SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia and Kyrgyzstan in their war against Botswana.
+1995-08-21 : 6:00 September 22, 1995 : Kazakh SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia and Kyrgyzstan in their war against Lebanon.
+1995-08-21 : 6:00 September 22, 1995 : Kazakh SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia and Kyrgyzstan in their war against Republic of Korea.
+1995-08-21 : 6:00 September 22, 1995 : Kazakh SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia and Kyrgyzstan in their war against Tunisia.
+1995-08-21 : 6:00 September 22, 1995 : Kazakh SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia and Kyrgyzstan in their war against Rwanda.
+1995-08-21 : 6:00 September 22, 1995 : Kazakh SSR went with Great! in We have been liberated!.
+1995-08-25 : 6:00 September 26, 1995 : United States of America have ended their mastery over Lithuania.
+1995-08-26 : 6:00 September 27, 1995 : The people of Byelorussian SSR declared independence from United States of America.
+1995-08-26 : 6:00 September 27, 1995 : United States of America have made Byelorussian SSR their puppet state.
+1995-08-26 : 6:00 September 27, 1995 : United States of America have ended their mastery over Kazakhstan.
+1995-08-26 : 6:00 September 27, 1995 : Byelorussian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan and Kazakhstan in their war against Democratic Spanish Union.
+1995-08-26 : 6:00 September 27, 1995 : Byelorussian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan and Kazakhstan in their war against Botswana.
+1995-08-26 : 6:00 September 27, 1995 : Byelorussian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan and Kazakhstan in their war against Lebanon.
+1995-08-26 : 6:00 September 27, 1995 : Byelorussian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan and Kazakhstan in their war against Republic of Korea.
+1995-08-26 : 6:00 September 27, 1995 : Byelorussian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan and Kazakhstan in their war against Tunisia.
+1995-08-26 : 6:00 September 27, 1995 : Byelorussian SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan and Kazakhstan in their war against Rwanda.
+1995-08-26 : 6:00 September 27, 1995 : Byelorussian SSR went with Great! in We have been liberated!.
+1995-08-28 : 6:00 September 29, 1995 : The people of Czechoslovakia declared independence from United States of America.
+1995-08-28 : 6:00 September 29, 1995 : United States of America have made Czechoslovakia their puppet state.
+1995-08-28 : 6:00 September 29, 1995 : Czechoslovakia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan and Belarus in their war against Democratic Spanish Union.
+1995-08-28 : 6:00 September 29, 1995 : Czechoslovakia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan and Belarus in their war against Botswana.
+1995-08-28 : 6:00 September 29, 1995 : Czechoslovakia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan and Belarus in their war against Lebanon.
+1995-08-28 : 6:00 September 29, 1995 : Czechoslovakia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan and Belarus in their war against Republic of Korea.
+1995-08-28 : 6:00 September 29, 1995 : Czechoslovakia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan and Belarus in their war against Tunisia.
+1995-08-28 : 6:00 September 29, 1995 : Czechoslovakia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan and Belarus in their war against Rwanda.
+1995-08-29 : 6:00 September 30, 1995 : United States of America have ended their mastery over Azerbaijan.
+1995-09-00 : 6:00 October 1, 1995 : The people of Turkmenistan declared independence from United States of America.
+1995-09-00 : 6:00 October 1, 1995 : United States of America have made Turkmenistan their puppet state.
+1995-09-00 : 6:00 October 1, 1995 : Turkmenistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus and Czechoslovakia in their war against Democratic Spanish Union.
+1995-09-00 : 6:00 October 1, 1995 : Turkmenistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus and Czechoslovakia in their war against Botswana.
+1995-09-00 : 6:00 October 1, 1995 : Turkmenistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus and Czechoslovakia in their war against Lebanon.
+1995-09-00 : 6:00 October 1, 1995 : Turkmenistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus and Czechoslovakia in their war against Republic of Korea.
+1995-09-00 : 6:00 October 1, 1995 : Turkmenistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus and Czechoslovakia in their war against Tunisia.
+1995-09-00 : 6:00 October 1, 1995 : Turkmenistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus and Czechoslovakia in their war against Rwanda.
+1995-09-00 : 6:00 October 1, 1995 : Turkmenistan went with Great! in We have been liberated!.
+1995-09-03 : 6:00 October 4, 1995 : United States of America have ended their mastery over Latvia.
+1995-09-11 : 6:00 October 12, 1995 : The people of Hungary declared independence from United States of America.
+1995-09-11 : 6:00 October 12, 1995 : United States of America have made Hungary their puppet state.
+1995-09-11 : 6:00 October 12, 1995 : Hungary joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia and Turkmenistan in their war against Democratic Spanish Union.
+1995-09-11 : 6:00 October 12, 1995 : Hungary joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia and Turkmenistan in their war against Botswana.
+1995-09-11 : 6:00 October 12, 1995 : Hungary joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia and Turkmenistan in their war against Lebanon.
+1995-09-11 : 6:00 October 12, 1995 : Hungary joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia and Turkmenistan in their war against Republic of Korea.
+1995-09-11 : 6:00 October 12, 1995 : Hungary joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia and Turkmenistan in their war against Tunisia.
+1995-09-11 : 6:00 October 12, 1995 : Hungary joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia and Turkmenistan in their war against Rwanda.
+1995-09-16 : 6:00 October 17, 1995 : United States of America have ended their mastery over Georgia.
+1995-09-17 : 6:00 October 18, 1995 : United States of America have ended their mastery over Ukraine.
+1995-09-26 : 6:00 October 27, 1995 : The people of Tajikistan declared independence from United States of America.
+1995-09-26 : 6:00 October 27, 1995 : United States of America have made Tajikistan their puppet state.
+1995-09-26 : 6:00 October 27, 1995 : United States of America have ended their mastery over Estonia.
+1995-09-26 : 6:00 October 27, 1995 : Tajikistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan and Hungary in their war against Democratic Spanish Union.
+1995-09-26 : 6:00 October 27, 1995 : Tajikistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan and Hungary in their war against Botswana.
+1995-09-26 : 6:00 October 27, 1995 : Tajikistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan and Hungary in their war against Lebanon.
+1995-09-26 : 6:00 October 27, 1995 : Tajikistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan and Hungary in their war against Republic of Korea.
+1995-09-26 : 6:00 October 27, 1995 : Tajikistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan and Hungary in their war against Tunisia.
+1995-09-26 : 6:00 October 27, 1995 : Tajikistan joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan and Hungary in their war against Rwanda.
+1995-10-01 : 6:00 November 2, 1995 : The people of Uzbek SSR declared independence from United States of America.
+1995-10-01 : 6:00 November 2, 1995 : United States of America have made Uzbek SSR their puppet state.
+1995-10-01 : 6:00 November 2, 1995 : Uzbek SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary and Tajikistan in their war against Democratic Spanish Union.
+1995-10-01 : 6:00 November 2, 1995 : Uzbek SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary and Tajikistan in their war against Botswana.
+1995-10-01 : 6:00 November 2, 1995 : Uzbek SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary and Tajikistan in their war against Lebanon.
+1995-10-01 : 6:00 November 2, 1995 : Uzbek SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary and Tajikistan in their war against Republic of Korea.
+1995-10-01 : 6:00 November 2, 1995 : Uzbek SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary and Tajikistan in their war against Tunisia.
+1995-10-01 : 6:00 November 2, 1995 : Uzbek SSR joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary and Tajikistan in their war against Rwanda.
+1995-10-01 : 6:00 November 2, 1995 : Uzbek SSR went with Great! in We have been liberated!.
+1995-10-04 : 6:00 November 5, 1995 : United States of America have ended their mastery over Belarus.
+1995-10-17 : 6:00 November 18, 1995 : United States of America have ended their mastery over Uzbekistan.
+1995-10-20 : 6:00 November 21, 1995 : United States of America have ended their mastery over Czechoslovakia.
+1995-10-25 : 6:00 November 26, 1995 : United States of America have ended their mastery over Turkmenistan.
+1995-10-26 : 6:00 November 27, 1995 : The people of SSR of Moldova declared independence from United States of America.
+1995-10-26 : 6:00 November 27, 1995 : United States of America have made SSR of Moldova their puppet state.
+1995-10-26 : 6:00 November 27, 1995 : SSR of Moldova joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan and Uzbekistan in their war against Democratic Spanish Union.
+1995-10-26 : 6:00 November 27, 1995 : SSR of Moldova joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan and Uzbekistan in their war against Botswana.
+1995-10-26 : 6:00 November 27, 1995 : SSR of Moldova joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan and Uzbekistan in their war against Lebanon.
+1995-10-26 : 6:00 November 27, 1995 : SSR of Moldova joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan and Uzbekistan in their war against Republic of Korea.
+1995-10-26 : 6:00 November 27, 1995 : SSR of Moldova joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan and Uzbekistan in their war against Tunisia.
+1995-10-26 : 6:00 November 27, 1995 : SSR of Moldova joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan and Uzbekistan in their war against Rwanda.
+1995-10-26 : 6:00 November 27, 1995 : SSR of Moldova went with Great! in We have been liberated!.
+1995-11-04 : 6:00 December 5, 1995 : United States of America have ended their mastery over Moldova.
+1995-11-18 : 6:00 December 19, 1995 : United States of America have ended their mastery over Tajikistan.
+1996-00-00 : 0:00 January 1, 1996 : The following decisions are now available: Education Budget
+1996-00-00 : 6:00 January 1, 1996 : United States of America have ended their mastery over Hungary.
+1996-00-04 : 6:00 January 5, 1996 : The people of Mongolia declared independence from United States of America.
+1996-00-04 : 6:00 January 5, 1996 : United States of America have made Mongolia their puppet state.
+1996-00-04 : 6:00 January 5, 1996 : Mongolia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan, Uzbekistan and Moldova in their war against Democratic Spanish Union.
+1996-00-04 : 6:00 January 5, 1996 : Mongolia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan, Uzbekistan and Moldova in their war against Botswana.
+1996-00-04 : 6:00 January 5, 1996 : Mongolia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan, Uzbekistan and Moldova in their war against Lebanon.
+1996-00-04 : 6:00 January 5, 1996 : Mongolia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan, Uzbekistan and Moldova in their war against Republic of Korea.
+1996-00-04 : 6:00 January 5, 1996 : Mongolia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan, Uzbekistan and Moldova in their war against Tunisia.
+1996-00-04 : 6:00 January 5, 1996 : Mongolia joined the war on the same side as United States of America, Canada, Italy, Norway, Portugal, United Kingdom, Iceland, France, Greece, Yugoslavia, Russia, Estonia, Ukraine, Republic of Bulgaria, Azerbaijan, Georgia, Turkey, Lithuania, Armenia, Latvia, Kyrgyzstan, Kazakhstan, Belarus, Czechoslovakia, Turkmenistan, Hungary, Tajikistan, Uzbekistan and Moldova in their war against Rwanda.
+1996-00-17 : 6:00 January 18, 1996 : We concluded a diplomatic deal with Libya.
+1996-00-29 : 6:00 January 30, 1996 : United States of America have ended their mastery over Mongolia.
+1996-01-02 : 6:00 February 3, 1996 : Brazil has succeeded in influencing the global opinion about Bolivia. Relations between Bolivia and Brazil have been damaged due to a diplomatic incident.
+1996-01-02 : 6:00 February 3, 1996 : United States of America have ended their mastery over Kyrgyzstan.
+1996-09-16 : 6:00 October 17, 1996 : Brazil had Recruitment Campaign .
+1996-10-04 : 0:00 November 5, 1996 : United States of America went with Elect Left in The United States Presidential Election of 1996.
+1997-00-00 : 0:00 January 1, 1997 : The following decisions are now available: Education Budget
+1997-03-09 : 23:00 April 10, 1997 : We went with §COur inflation is around 35 percent! in Quarterly Report.
+1997-03-09 : 23:00 April 10, 1997 : Great Military Parade held in Capital happened to us.
+1997-03-09 : 23:00 April 10, 1997 : We went with Ignore him in Rogue Politician.
+1997-03-09 : 23:00 April 10, 1997 : Government nationalises private sector happened to us.

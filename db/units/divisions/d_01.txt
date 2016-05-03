@@ -1,0 +1,284 @@
+allowed_brigades = artillery
+allowed_brigades = super_heavy_artillery
+allowed_brigades = medium_armor
+allowed_brigades = anti_air
+allowed_brigades = cavalry_brigade
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = amph_armor
+allowed_brigades = heavy_armor
+allowed_brigades = super_heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = b_01
+allowed_brigades = b_09
+max_allowed_brigades = 2
+
+upgrade = { type = garrison upgrade_time_factor = 0.32 upgrade_cost_factor = 0.69 }
+upgrade = { type = bergsjaeger upgrade_time_factor = 0.5 upgrade_cost_factor = 0.93 }
+upgrade = { type = paratrooper upgrade_time_factor = 0.5 upgrade_cost_factor = 1.42 }
+upgrade = { type = marine upgrade_time_factor = 0.5 upgrade_cost_factor = 1.3 }
+upgrade = { type = cavalry upgrade_time_factor = 0.72 upgrade_cost_factor = 0.81 }
+upgrade = { type = motorized upgrade_time_factor = 0.52 upgrade_cost_factor = 1.34 }
+upgrade = { type = mechanized upgrade_time_factor = 0.8 upgrade_cost_factor = 0.99 }
+
+# 0 - Infantry Brigade 1945
+model = {
+	cost 					= 5
+	buildtime	 			= 145
+	manpower 				= 6.5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 35
+	toughness				= 40
+	softness				= 95
+	suppression				= 5
+	airdefence				= 14
+	softattack				= 2.5
+	hardattack				= 1.5
+	airattack				= 3
+	transportweight			= 5
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 0.25
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	equipment = { manpower = 6000 trucks = 1000 horses = 1250 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 1 - Infantry Brigade 1965
+model = {
+	cost 					= 6
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 30
+	toughness				= 35
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 4
+	hardattack				= 2.5
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 0.6
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 2 - Infantry Brigade 1970
+model = {
+	cost 					= 6
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 30
+	toughness				= 35
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 4.5
+	hardattack				= 2.5
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 0.6
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 3 - Infantry Brigade 1975
+model = {
+	cost 					= 7
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 30
+	toughness				= 35
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 5
+	hardattack				= 3
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 0.7
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 4 - Infantry Brigade 1980
+model = {
+	cost 					= 7
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 25
+	toughness				= 30
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 5.5
+	hardattack				= 3
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 0.7
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 5 - Infantry Brigade 1985
+model = {
+	cost 					= 8
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 25
+	toughness				= 30
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 6
+	hardattack				= 3
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 0.8
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 6 - Infantry Brigade 1990
+model = {
+	cost 					= 8
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 25
+	toughness				= 30
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 6.5
+	hardattack				= 3.5
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 0.8
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 7 - Infantry Brigade 1995
+model = {
+	cost 					= 9
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 20
+	toughness				= 25
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 7
+	hardattack				= 3.5
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 0.9
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 8 - Infantry Brigade 2000
+model = {
+	cost 					= 9
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 20
+	toughness				= 25
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 7.5
+	hardattack				= 3.5
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 0.9
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}
+# 9 - Infantry Brigade 2005
+model = {
+	cost 					= 10
+	buildtime	 			= 145
+	manpower 				= 5
+	maxspeed 				= 7
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 20
+	toughness				= 25
+	softness				= 90
+	suppression				= 6
+	airdefence				= 14
+	softattack				= 8
+	hardattack				= 4
+	airattack				= 3
+	transportweight			= 10
+	supplyconsumption 		= 1
+	fuelconsumption			= 0.5
+	upgrade_time_factor = 0.2
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.45
+	reinforce_cost 		= 0.33
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 1000 artillery = 105 heavy_artillery = 30 anti_tank = 25 anti_air = 13 }
+}

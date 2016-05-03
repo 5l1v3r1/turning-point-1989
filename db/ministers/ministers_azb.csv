@@ -1,0 +1,12 @@
+AZB;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+460001;Head of State;Ayaz Mutallibov;1985;2012;2012;SD;Weary Stiffneck;Very High;AZB1;X
+460002;Head of Government;Hasan Hasanov;1985;2012;2012;SD;Ambitious Union Boss;Very High;AZB2;X
+460003;Foreign Minister;Hasan Hasanov;1985;2012;2012;SD;Great Compromiser;Very High;AZB2;X
+460004;Minister of Armament;Valeh Barshadly;1985;2012;2012;ML;Military Entrepreneur;Very High;unknown;X
+460005;Minister of Security;Mahammad Asadov;1985;2012;2012;ML;Crime Fighter;Very High;unknown;X
+460006;Head of Military Intelligence;Mahammad Asadov;1985;2012;2012;ML;Logistics Specialist;Very High;unknown;X
+460007;Chief of Staff;Safar Abiyev;1985;2012;2012;ML;School of Fire Support;Very High;AZB3;X
+460008;Chief of Army;Safar Abiyev;1985;2012;2012;ML;Decisive Battle Doctrine;Very High;AZB3;X
+460009;Chief of Navy;Rafig Asgarov;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;unknown;X
+460010;Chief of Air Force;Rail Rzayev;1985;2012;2012;ML;Army Aviation Doctrine;Very High;AZB4;X
+;Replacements;;;;;;;;;X

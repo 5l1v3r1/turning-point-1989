@@ -1,0 +1,27 @@
+U09;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;X
+860001;Austro-Daimler;T600;7;1945;2012;mechanics;industrial_engineering;general_equipment;management;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860002;Hirtenberger;T601;5;1945;2012;artillery;fighter_design;general_equipment;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860003;Pintsch;T602;4;1945;2012;aeronautics;avionics;bomber_design;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860004;Steyr;T603;7;1945;2012;munitions;general_equipment;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860005;Alexander Löhr;T604;6;1945;2012;bomber_tactics;combined_arms_focus;training;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860006;Johann Kubena;T605;3;1945;2012;large_unit_tactics;centralized_execution;individual_courage;infantry_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860007;Julius Yllam;T606;4;1945;2012;fighter_tactics;centralized_execution;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860008;Lothar Rendulic;T607;5;1945;2012;small_unit_tactics;decentralized_execution;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860009;Erwin Schrödinger;T608;6;1945;2012;nuclear_physics;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860010;Ministry of Defence;T609;5;1945;2012;small_unit_tactics;centralized_execution;infantry_focus;fighter_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860011;Technische Universität Wien;T610;4;1945;2012;mathematics;chemistry;mechanics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860012;Skoda Werke;100023;7;1945;2012;artillery;mechanics;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860013;Aviatik;100024;5;1945;2012;aeronautics;mechanics;electronics;artillery;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860014;STT;100025;5;1945;2012;naval_engineering;naval_artillery;mechanics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860015;Gunther Burstyn;100026;4;1945;2012;mechanics;electronics;artillery;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860016;Lorenz Böhler;100487;7;1945;2012;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860017;Conrad von Hötzendorf;100027;5;1945;2012;centralized_execution;large_unit_focus;large_unit_tactics;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860018;Miklos Horthy;100505;7;1945;2012;centralized_execution;small_taskforce_tactics;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860019;Anton Haus;100488;6;1945;2012;submarine_tactics;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860020;Godwin Brumowski;100028;6;1945;2012;piloting;training;individual_courage;fighter_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860021;Hermann von Spaun;100029;4;1945;2012;centralized_execution;large_taskforce_tactics;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860022;Rudolf Montecuccoli;100030;6;1945;2012;centralized_execution;large_taskforce_tactics;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860023;Gebrüder Böhler & Cie;100031;4;1945;2012;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860024;Technische Hochschule Graz;100489;6;1945;2012;mathematics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860025;Theresianische Militärakademie;100032;5;1945;2012;training;individual_courage;infantry_focus;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+860026;Emil Uzelac;100490;5;1945;2012;fighter_tactics;training;individual_courage;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

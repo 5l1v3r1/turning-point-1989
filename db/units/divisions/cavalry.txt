@@ -1,0 +1,262 @@
+allowed_brigades = artillery
+allowed_brigades = medium_armor
+allowed_brigades = anti_air
+allowed_brigades = cavalry_brigade
+allowed_brigades = sp_artillery
+allowed_brigades = sp_anti_air
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = b_01
+
+upgrade = { type = infantry upgrade_time_factor = 0.8 upgrade_cost_factor = 0.28 }
+upgrade = { type = motorized upgrade_time_factor = 0.8 upgrade_cost_factor = 0.3 }
+upgrade = { type = mechanized upgrade_time_factor = 0.8 upgrade_cost_factor = 0.55 }
+upgrade = { type = light_armor upgrade_time_factor = 0.8 upgrade_cost_factor = 0.69 }
+upgrade = { type = armor upgrade_time_factor = 0.8 upgrade_cost_factor = 0.87 }
+
+# 0 - Armored Cavalry 1945
+model = {
+	cost 					= 12
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 15
+	hardattack				= 6
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 1.2
+	fuelconsumption			= 4
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 halftracks = 143 light_armor = 58 }
+}
+# 1 - Armored Cavalry 1965
+model = {
+	cost 					= 16
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 7
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 1.6
+	fuelconsumption			= 4.5
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 halftracks = 143 light_armor = 58 }
+}
+# 2 - Armored Cavalry 1970
+model = {
+	cost 					= 16
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 8
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 1.6
+	fuelconsumption			= 4.5
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 light_armor = 58 }
+}
+# 3 - Armored Cavalry 1975
+model = {
+	cost 					= 18
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 9
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 1.8
+	fuelconsumption			= 5
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 light_armor = 58 }
+}
+# 4 - Armored Cavalry 1980
+model = {
+	cost 					= 18
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 10
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 1.8
+	fuelconsumption			= 5
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 light_armor = 58 }
+}
+# 5 - Armored Cavalry 1985
+model = {
+	cost 					= 21
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 11
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 2
+	fuelconsumption			= 5
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 light_armor = 58 }
+}
+# 6 - Armored Cavalry 1990
+model = {
+	cost 					= 21
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 12
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 2.2
+	fuelconsumption			= 5.5
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 light_armor = 58 }
+}
+# 7 - Armored Cavalry 1995
+model = {
+	cost 					= 23
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 18
+	hardattack				= 13
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 2.2
+	fuelconsumption			= 5.5
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 light_armor = 58 }
+}
+# 8 - Armored Cavalry 2000
+model = {
+	cost 					= 23
+	buildtime	 			= 350
+	manpower 				= 5
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 35
+	defensiveness 			= 18
+	toughness				= 14
+	softness				= 49
+	suppression				= 4
+	airdefence				= 7
+	softattack				= 18
+	hardattack				= 14
+	airattack				= 4
+	transportweight			= 10
+	supplyconsumption 		= 2.4
+	fuelconsumption			= 6
+	no_fuel_combat_mod 		= -0.3
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 2000 artillery = 37 heavy_artillery = 6 anti_tank = 21 anti_air = 6 armored_car = 41 light_armor = 58 }
+}

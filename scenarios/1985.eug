@@ -1,0 +1,411 @@
+name       = "1985_SCENARIO"
+panel      = "scenarios/data/scenario_1985.bmp"
+header =
+{ name       = "1985_SCENARIO"
+  startdate  = { year = 1985 }
+  selectable = { AFG ALB ALG ANG ARG AST AUS BEL BEN BOL BRA BRU BUL BUR CAM CAN CHC CHI CHL CMB COL CON COS CUB CYP CZE DDR 
+	DEN DFR ECU EGY ENG EQA ETH FIN FRA GAB GLD GRE GUA GUI GUY HOL HON HUN ICL IND INO IRE IRQ ISR ITA JAP JOR KOR LAO LBY LEB LUX 
+	MAD MAL MAN MEN MEX MLY MON MOR MOZ NIC NIG NOR NZL OMN PAK PAN PAR PER PHI POL POR PRK PRU RHO ROM SAF 
+	SAL SAR SAU	SCH SIA SIE SLO SOM SOV SPA SUD SWE SYR TUN TUR URU VEN YEM YUG U01 U02 U03 U04 U20 U40 U41 
+	U42 U43 U44 U45 U46 U47 U48 U50 U51 U52 U53 U54 U55 U56 U67 U69 U70 U75 U80 U81 U82 U83 U84 U85 U86 U88 U89 U90 U91 U92 U93 
+	U94 U95 U96 U97 U98 U99 USA VIE
+	U23 #Mujahideen
+	U00 #United Nations
+	U71 #European Community
+	PAL #Palestine
+	}
+
+  USA        = { }
+  ENG        = { }
+  CAN        = { }
+  FRA        = { }
+  CHI        = { }
+  JAP        = { }
+  KOR        = { }
+  ITA        = { }
+  DFR        = { }
+  DDR        = { }
+  POL        = { }
+  CZE        = { }
+  HUN        = { }
+  ROM        = { }
+  BUL        = { }
+  PRK        = { }
+  YUG        = { }
+  CHC        = { }
+  SOV	     = { } 
+}
+globaldata =
+{ startdate = { year = 1985 month = january day = 0 }
+  enddate   = { year = 2012 month = december day = 21 }
+
+  allies =
+  { id          = { type = 15000 id = 1 }
+	participant = { USA BEL CAN DEN ITA LUX HOL NOR POR ENG GRE TUR DFR SPA ICL }
+  }
+  comintern =
+  { id          = { type = 15000 id = 2 }
+    participant = { SOV CZE POL ROM HUN BUL DDR }
+  }
+  axis =
+  { id          = { type = 15000 id = 3 }
+    participant = { U00 U71 }
+  }
+  #alliance =
+  #{ id          = { type = 15000 id = 4 }
+  #  participant = { EGY SYR JOR } #Arab League
+  #}
+  # TRADE
+  # Soviet economic help to Warsaw Pact's allies
+  treaty =
+  { id         = { type = 16300 id = 1 }					#Germany
+    type       = trade
+    country    = "SOV"
+    country    = "DDR"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -100
+    supplies   = -50
+	money	   = -10
+    cancel     = no
+  }
+  treaty =													#Poland
+  { id         = { type = 16300 id = 2 }
+    type       = trade
+    country    = "SOV"
+    country    = "POL"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -80
+    supplies   = -40
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#Czechslovakia
+  { id         = { type = 16300 id = 3 }
+    type       = trade
+    country    = "SOV"
+    country    = "CZE"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -60
+    supplies   = -30
+	money	   = -5
+    cancel     = no
+  }
+  treaty =
+  { id         = { type = 16300 id = 4 }					#Romania
+    type       = trade
+    country    = "SOV"
+    country    = "ROM"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -40
+    supplies   = -20
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#Bulgaria
+  { id         = { type = 16300 id = 5 }
+    type       = trade
+    country    = "SOV"
+    country    = "BUL"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -20
+    supplies   = -10
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#Afghanistan
+  { id         = { type = 16300 id = 6 }
+    type       = trade
+    country    = "SOV"
+    country    = "AFG"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -20
+    supplies   = -10
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#Cuba
+  { id         = { type = 16300 id = 7 }
+    type       = trade
+    country    = "SOV"
+    country    = "CUB"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -20
+    supplies   = -10
+	money	   = -5
+    cancel     = no
+  }
+  treaty =													#North Korea
+  { id         = { type = 16300 id = 8 }
+    type       = trade
+    country    = "SOV"
+    country    = "PRK"
+    startdate  = { year = 1985 month = december day = 29 }
+    expirydate = { year = 2012 month = december day = 21 }
+    energy      = -20
+    supplies   = -10
+	money	   = -5
+    cancel     = no
+  }
+  # WARS
+  # IRAN-IRAQ WAR
+  war =
+  { id        = { type = 9000 id = 1 }
+    date      = { year = 1985 month = january day = 1 }
+    enddate   = { year = 2012 month = january day = 1 } 
+    attackers =
+    { id          = { type = 9000 id = 2 }
+      participant = { PER }
+    }
+    defenders =
+    { id          = { type = 9000 id = 3 }
+      participant = { IRQ }
+    }
+  }
+  # LYBYA-CHAD CONFLICT (TOYOTA WAR)
+  war =
+  { id        = { type = 9001 id = 1 }
+    date      = { year = 1985 month = january day = 1 }
+    enddate   = { year = 2012 month = january day = 1 } 
+    attackers =
+    { id          = { type = 9001 id = 2 }
+      participant = { LBY }
+    }
+    defenders =
+    { id          = { type = 9001 id = 3 }
+      participant = { U84 }
+    }
+  }
+  # SOVIET-AFGHAN WAR
+  war =
+  { id        = { type = 9002 id = 1 }
+    date      = { year = 1985 month = january day = 1 }
+    enddate   = { year = 1989 month = february day = 14 } 
+    attackers =
+    { id          = { type = 9002 id = 2 }
+      participant = { SOV AFG }
+    }
+    defenders =
+    { id          = { type = 9002 id = 3 }
+      participant = { U23 }
+    }
+  }
+  # NON-AGRESSION PACTS
+  treaty =
+  { id         = { type = 9003 id = 1 }
+    type       = non_aggression
+    country    = "CHC"
+    country    = "U23"
+    startdate  = { year = 1985 month = january day = 0 }
+    expirydate = { year = 2012 month = december day = 29 }
+  }
+  treaty =
+  { id         = { type = 9004 id = 1 }
+    type       = non_aggression
+    country    = "PAK"
+    country    = "U23"
+    startdate  = { year = 1985 month = january day = 0 }
+    expirydate = { year = 2012 month = december day = 29 }
+  }
+}
+# ###################
+#sleepevent = { 
+#}
+
+# ###################
+
+# Includes for global data
+include = "db\events.txt"
+
+# Victory points distribution
+include = "scenarios\1985\VP.inc"
+
+# Others
+include = "scenarios\1985\Installations.inc"
+include = "scenarios\1985\Depots.inc"
+
+# International Organizations
+include = "scenarios\1985\United Nations.inc"
+include = "scenarios\1985\European Community.inc"
+
+# Include files for each country tag used in the scenario
+###############################################
+include = "scenarios\1985\Algeria.inc"
+include = "scenarios\1985\Andorra.inc"
+include = "scenarios\1985\Angola.inc"
+include = "scenarios\1985\Antigua and Barbuda.inc"
+include = "scenarios\1985\Afghanistan.inc"
+include = "scenarios\1985\Albania.inc"
+include = "scenarios\1985\Argentina.inc"
+include = "scenarios\1985\Australia.inc"
+include = "scenarios\1985\Austria.inc"
+include = "scenarios\1985\Bahrain.inc"
+include = "scenarios\1985\Bahamas.inc"
+include = "scenarios\1985\Barbados.inc"
+include = "scenarios\1985\Bangladesh.inc"
+include = "scenarios\1985\Belgium.inc"
+include = "scenarios\1985\Belize.inc"
+include = "scenarios\1985\Benin.inc"
+include = "scenarios\1985\Bhutan.inc"
+include = "scenarios\1985\Burma.inc"
+include = "scenarios\1985\Botswana.inc"
+include = "scenarios\1985\Bolivia.inc"
+include = "scenarios\1985\Brazil.inc"
+include = "scenarios\1985\Brunei.inc"
+include = "scenarios\1985\Burkina Faso.inc"
+include = "scenarios\1985\Burundi.inc"
+include = "scenarios\1985\Bulgaria.inc"
+include = "scenarios\1985\Canada.inc"
+include = "scenarios\1985\Cambodia.inc"
+include = "scenarios\1985\Cameroon.inc"
+include = "scenarios\1985\Cape Verde.inc"
+include = "scenarios\1985\Central Africa.inc"
+include = "scenarios\1985\Cyprus.inc"
+include = "scenarios\1985\Chad.inc"
+include = "scenarios\1985\Comoros.inc"
+include = "scenarios\1985\Communist China.inc"
+include = "scenarios\1985\Congo.inc"
+include = "scenarios\1985\Chile.inc"
+include = "scenarios\1985\Colombia.inc"
+include = "scenarios\1985\Costa Rica.inc"
+include = "scenarios\1985\Cuba.inc"
+include = "scenarios\1985\Czechoslovakia.inc"
+include = "scenarios\1985\Denmark.inc"
+include = "scenarios\1985\Djibouti.inc"
+include = "scenarios\1985\Dominicana.inc"
+include = "scenarios\1985\Dominica.inc"
+include = "scenarios\1985\East Germany.inc"
+include = "scenarios\1985\Egypt.inc"
+include = "scenarios\1985\Ecuador.inc"
+include = "scenarios\1985\El Salvador.inc"
+include = "scenarios\1985\Ethiopia.inc"
+include = "scenarios\1985\Finland.inc"
+include = "scenarios\1985\Fiji.inc"
+include = "scenarios\1985\France.inc"
+include = "scenarios\1985\Gambia.inc"
+include = "scenarios\1985\Gabon.inc"
+include = "scenarios\1985\Ghana.inc"
+include = "scenarios\1985\Guyana.inc"
+include = "scenarios\1985\Guinea.inc"
+include = "scenarios\1985\Guinea-Bissau.inc"
+include = "scenarios\1985\Guinea Equatorial.inc"
+include = "scenarios\1985\Greece.inc"
+include = "scenarios\1985\Grenada.inc"
+include = "scenarios\1985\Guatemala.inc"
+include = "scenarios\1985\Haiti.inc"
+include = "scenarios\1985\Netherlands.inc"
+include = "scenarios\1985\Honduras.inc"
+include = "scenarios\1985\Hungary.inc"
+include = "scenarios\1985\Ivory Coast.inc"
+include = "scenarios\1985\India.inc"
+include = "scenarios\1985\Indonesia.inc"
+include = "scenarios\1985\Ireland.inc"
+include = "scenarios\1985\Iceland.inc"
+include = "scenarios\1985\Iran.inc"
+include = "scenarios\1985\Iraq.inc"
+include = "scenarios\1985\Israel.inc"
+include = "scenarios\1985\Italy.inc"
+include = "scenarios\1985\Japan.inc"
+include = "scenarios\1985\Jamaica.inc"
+include = "scenarios\1985\Jordan.inc"
+include = "scenarios\1985\Kenya.inc"
+include = "scenarios\1985\Kuwait.inc"
+include = "scenarios\1985\Kiribati.inc"
+include = "scenarios\1985\Laos.inc"
+include = "scenarios\1985\Liechtenstein.inc"
+include = "scenarios\1985\Libya.inc"
+include = "scenarios\1985\Liberia.inc"
+include = "scenarios\1985\Lesotho.inc"
+include = "scenarios\1985\Luxembourg.inc"
+include = "scenarios\1985\Lebanon.inc"
+include = "scenarios\1985\Malaysia.inc"
+include = "scenarios\1985\Mali.inc"
+include = "scenarios\1985\Malawi.inc"
+include = "scenarios\1985\Malta.inc"
+include = "scenarios\1985\Maldives.inc"
+include = "scenarios\1985\Mauritania.inc"
+include = "scenarios\1985\Mauritius.inc"
+include = "scenarios\1985\Madagascar.inc"
+include = "scenarios\1985\Mexico.inc"
+include = "scenarios\1985\Monaco.inc"
+include = "scenarios\1985\Morocco.inc"
+include = "scenarios\1985\Mozambique.inc"
+include = "scenarios\1985\Mongolia.inc"
+include = "scenarios\1985\Mujahideen.inc"
+include = "scenarios\1985\Nauru.inc"
+include = "scenarios\1985\Nepal.inc"
+include = "scenarios\1985\Niger.inc"
+include = "scenarios\1985\Nigeria.inc"
+include = "scenarios\1985\Nicaragua.inc"
+include = "scenarios\1985\Norway.inc"
+include = "scenarios\1985\North Yemen.inc"
+include = "scenarios\1985\North Korea.inc"
+include = "scenarios\1985\Northern Cyprus.inc"
+include = "scenarios\1985\New Zealand.inc"
+include = "scenarios\1985\Oman.inc"
+include = "scenarios\1985\Panama.inc"
+include = "scenarios\1985\Papua New Guinea.inc"
+include = "scenarios\1985\Pakistan.inc"
+include = "scenarios\1985\Paraguay.inc"
+include = "scenarios\1985\Philippines.inc"
+include = "scenarios\1985\Poland.inc"
+include = "scenarios\1985\Portugal.inc"
+include = "scenarios\1985\Peru.inc"
+include = "scenarios\1985\Qatar.inc"
+include = "scenarios\1985\Romania.inc"
+include = "scenarios\1985\Rwanda.inc"
+include = "scenarios\1985\Samoa.inc"
+include = "scenarios\1985\Sao Tome e Principe.inc"
+include = "scenarios\1985\Senegal.inc"
+include = "scenarios\1985\Seychelles.inc"
+include = "scenarios\1985\South Africa.inc"
+include = "scenarios\1985\Solomon Islands.inc"
+include = "scenarios\1985\Saudi Arabia.inc"
+include = "scenarios\1985\Soviet Union.inc"
+include = "scenarios\1985\South Yemen.inc"
+include = "scenarios\1985\South Korea.inc"
+include = "scenarios\1985\Somalia.inc"
+include = "scenarios\1985\Sudan.inc"
+include = "scenarios\1985\Suriname.inc"
+include = "scenarios\1985\Switzerland.inc"
+include = "scenarios\1985\Siam.inc"
+include = "scenarios\1985\Singapore.inc"
+include = "scenarios\1985\Sierra Leone.inc"
+include = "scenarios\1985\Sri Lanka.inc"
+include = "scenarios\1985\Syria.inc"
+include = "scenarios\1985\Spain.inc"
+include = "scenarios\1985\Sweden.inc"
+include = "scenarios\1985\Swaziland.inc"
+include = "scenarios\1985\St. Kitts and Nevis.inc"
+include = "scenarios\1985\St. Lucia.inc"
+include = "scenarios\1985\St. Vincent and the Grenadines.inc"
+include = "scenarios\1985\Taiwan.inc"
+include = "scenarios\1985\Togo.inc"
+include = "scenarios\1985\Tonga.inc"
+include = "scenarios\1985\Tanzania.inc"
+include = "scenarios\1985\Tunisia.inc"
+include = "scenarios\1985\Turkey.inc"
+include = "scenarios\1985\Tuvalu.inc"
+include = "scenarios\1985\Trinidad and Tobago.inc"
+include = "scenarios\1985\United Arab Emirates.inc"
+include = "scenarios\1985\United Kingdom.inc"
+include = "scenarios\1985\Uganda.inc"
+include = "scenarios\1985\Uruguay.inc"
+include = "scenarios\1985\USA.inc"
+include = "scenarios\1985\Vanuatu.inc"
+include = "scenarios\1985\Venezuela.inc"
+include = "scenarios\1985\Vietnam.inc"
+include = "scenarios\1985\Yugoslavia.inc"
+include = "scenarios\1985\San Marino.inc"
+include = "scenarios\1985\Vatican.inc"
+include = "scenarios\1985\Zaire.inc"
+include = "scenarios\1985\Zambia.inc"
+include = "scenarios\1985\Zimbabwe.inc"
+include = "scenarios\1985\West Germany.inc"
+#Others

@@ -1,0 +1,12 @@
+SAF;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+;Replacements;;;;;;;;;X
+425001;Head of State;P.W. Botha;1936;1999;2012;SC;Stern Imperialist;High;SAF1;X
+425002;Head of Government;P.W. Botha;1936;1999;2012;SC;Old General;High;SAF1;X
+425003;Foreign Minister;Pik Botha;1936;1999;2012;SC;General Staffer;Very High;SAF2;X
+425004;Minister of Armament;Barend du Plessis;1936;1999;2012;ML;Laissez-Faire Capitalist;Very High;SAF3;X
+425005;Minister of Security;Magnus Malan;1936;1999;2012;PA;Man of the People;High;SAF4;X
+425006;Head of Military Intelligence;Louis Pienaar;1936;1999;2012;SC;Logistics Specialist;Medium;SAF5;X
+425007;Chief of Staff;Constand Viljoen;1936;1999;2012;SC;School of Manoeuvre;Very High;SAF6;X
+425008;Chief of Army;Johannes Geldenhuys;1936;1999;2012;PA;Armoured Spearhead Doctrine;Very High;SAF7;X
+425009;Chief of Navy;Glen Syndercombe;1936;1999;2012;PA;Open Seas Doctrine;Very High;SAF8;X
+425010;Chief of Air Force;Denis Earp;1936;1999;2012;PA;Air Superiority Doctrine;Very High;SAF9;X

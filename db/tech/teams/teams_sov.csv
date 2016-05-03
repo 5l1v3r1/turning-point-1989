@@ -1,0 +1,46 @@
+SOV;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+92501;Frunze Academy;Frunze;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92542;Council of Ministers;tt_urss;4;1000;2012;rt_user_1;rt_user_2;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92502;Uralvagonzavod;Uralvagon;9;1000;2999;rt_user_6;artillery;electronics;technical_efficiency;vehicle_engineering;mechanics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92503;Kirov Factory;Kirov Plant;8;1000;2999;rt_user_6;artillery;vehicle_engineering;industrial_engineering;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92504;GAZ;GAZ;8;1000;2999;mechanics;vehicle_engineering;industrial_engineering;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92505;Kovrovskiy Mekhanicheskiy Zavod;kmz;8;1000;2999;rt_user_5;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92506;Izmash;T13802;9;1000;2999;rt_user_5;munitions;general_equipment;artillery;chemistry;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92507;MiG;T13801;9;1000;2999;aeronautics;avionics;fighter_design;bomber_design;technical_efficiency;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92508;Sukhoi;sukhoi;9;1000;2999;aeronautics;avionics;fighter_design;bomber_design;technical_efficiency;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92509;Tupolev;T13811;9;1000;2999;aeronautics;avionics;fighter_design;bomber_design;technical_efficiency;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92510;Mil;rus mil;8;1000;2999;rt_user_3;aeronautics;avionics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92511;Kamov Design Bureau;Kamov;6;1000;2999;rt_user_3;aeronautics;avionics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92512;GRU;gru;9;1000;2999;training;rt_user_4;small_unit_tactics;decentralized_execution;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92513;Magnitogorsk Works;Magnitogorsk;8;1000;2999;industrial_engineering;technical_efficiency;chemistry;munitions;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92514;Motovilikha Plants;Motovilikha;5;1000;2999;industrial_engineering;general_equipment;management;chemistry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92515;KBP;KBP;7;1000;2999;rt_user_5;artillery;electronics;rocketry;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92516;Vympel;Vympel;8;1000;2999;electronics;rocketry;munitions;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92517;Scientific Research Inst. of Radar;Phazotron;8;1000;2999;electronics;mathematics;avionics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92518;Tikhomirov Institute;NIIP;8;1000;2999;avionics;artillery;industrial_engineering;technical_efficiency;vehicle_engineering;mechanics;management;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92519;Russian Navy;Russian Air Force;6;1000;2999;large_taskforce_tactics;naval_artillery;naval_training;marine_training;submarine_tactics;centralized_execution;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92520;Korolev Institute;Energia;9;1000;2999;rocketry;technical_efficiency;avionics;aeronautics;chemistry;management;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92521;Kurchatov Institute;T13812;9;1000;2999;nuclear_physics;nuclear_engineering;mathematics;chemistry;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92522;Ground Forces;Russian Ground Forces;9;1000;2999;artillery;management;general_equipment;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92523;Airborne Forces;rus airborne;9;1000;2999;small_unit_tactics;airborne_training;mountain_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92524;Naval Infantry;rusnavinf;6;1000;2999;decentralized_execution;marine_training;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92525;General Staff;rus staff;9;1000;2999;training;marine_training;mountain_training;large_unit_tactics;large_unit_focus;management;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92526;Logistics Department;rus logistics;7;1000;2999;centralized_execution;management;seamanship;general_equipment;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92527;Russian Air Force;Russian Air Force;9;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92528;Naval Aviation;rus naval aviation;6;1000;2999;aircraft_testing;piloting;combined_arms_focus;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92529;Admiralty Shipyard;Admiralty Shipyard;9;1000;2999;naval_engineering;naval_artillery;submarine_design;technical_efficiency;nuclear_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92530;Severnaya Verf;T13809;8;1000;2999;naval_artillery;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92531;Zelenodolsk Shipyard;T13810;7;1000;2999;naval_artillery;naval_engineering;technical_efficiency;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92532;Mozorov Design Bureau;KMDBukr;8;2099;2999;mechanics;vehicle_engineering;rt_user_6;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92533;Malyshev Plant;team_noimage;8;2099;2999;mechanics;vehicle_engineering;industrial_engineering;rt_user_6;chemistry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92534;Antonov;Antonov;9;2099;2999;aeronautics;avionics;technical_efficiency;bomber_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92535;Nikolayev Shipyard;nikolaevship;7;2099;2999;naval_artillery;naval_engineering;carrier_design;submarine_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92536;Yuzhnoye Design Bureau;yuzhnoye;9;2099;2999;rocketry;electronics;aeronautics;avionics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92537;Rubin Design Bureau;rubin;9;1000;2999;submarine_tactics;submarine_design;nuclear_physics;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92538;Baltiysky Zavod;baltiski;7;1000;2999;naval_artillery;naval_engineering;nuclear_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92539;Submarine Forces;russubmarine;9;1000;2999;seamanship;management;small_taskforce_tactics;naval_training;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92540;Naval Logistics;rusnavlog;7;1000;2999;naval_training;seamanship;naval_engineering;management;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92541;KGB;KGB;9;1985;2999;rt_user_4;mathematics;technical_efficiency;individual_courage;centralized_execution;small_unit_tactics;management;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92543;Lobaev;lobaev;6;2000;2999;rt_user_5;rt_user_7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92544;Lazurit Central Design Bureau;lazurit;7;1953;2999;submarine_design;naval_engineering;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+92545;Malakhit Design Bureau;malakhit;8;1948;2999;submarine_design;naval_engineering;nuclear_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

@@ -1,0 +1,22 @@
+BOL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+205001;Head of State;Hernán Siles Zuazo;1985;2012;2012;ML;Weary Stiffneck;Very High;BOL1;X
+205002;Head of Government;Hernán Siles Zuazo;1985;2012;2012;ML;Naive Optimist;Very High;BOL1;X
+205003;Foreign Minister;Blue Shadow;1985;2012;2012;ML;Generic;Very High;unknown;X
+205004;Minister of Armament;Blue Shadow;1985;2012;2012;ML;Generic;Very High;unknown;X
+205005;Minister of Security;Blue Shadow;1985;2012;2012;ML;Generic;Very High;unknown;X
+205006;Head of Military Intelligence;Blue Shadow;1985;2012;2012;ML;Generic;Very High;unknown;X
+205007;Chief of Staff;Blue Shadow;1985;2012;2012;ML;Generic;Very High;unknown;X
+205008;Chief of Army;Blue Shadow;1985;2012;2012;ML;Generic;Very High;unknown;X
+205009;Chief of Navy;Blue Shadow;1985;2012;2012;ML;Generic;Very High;unknown;X
+205010;Chief of Air Force;Blue Shadow;1985;2012;2012;ML;Generic;Very High;unknown;X
+;Replacements;;;;;;;;;X
+205011;Head of State;Jaime Paz Zamora;1985;2012;2012;SD;Barking Buffoon;Very High;BOL2;X
+205012;Head of Government;Jaime Paz Zamora;1985;2012;2012;SD;Happy Amateur;Very High;BOL2;X
+205013;Foreign Minister;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+205014;Minister of Armament;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+205015;Minister of Security;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+205016;Head of Military Intelligence;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+205017;Chief of Staff;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+205018;Chief of Army;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+205019;Chief of Navy;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+205020;Chief of Air Force;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X

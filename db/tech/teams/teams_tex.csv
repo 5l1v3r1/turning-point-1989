@@ -1,0 +1,14 @@
+TEX;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+95001;Lone Star Steel Company;lonestar;7;1000;2999;industrial_engineering;technical_efficiency;management;centralized_execution;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95002;Bond Arms;bondarms;5;1000;2999;general_equipment;artillery;technical_efficiency;munitions;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95003;Bell Helicopter;bell;8;1000;2999;technical_efficiency;avionics;combined_arms_focus;aircraft_testing;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95004;TASA;T17515;5;1000;2999;electronics;rocketry;aeronautics;avionics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95005;Arlington Defense;arlington;4;1000;2999;artillery;mechanics;small_unit_tactics;large_unit_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95006;Dell;dell;6;1000;2999;electronics;rocketry;aeronautics;avionics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95007;Vanguard Defense;vanguard;5;1000;2999;aeronautics;technical_efficiency;industrial_engineering;electronics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95008;Consolidated Robotics;Consolidated Robotics;7;1000;2999;management;training;technical_efficiency;munitions;maneuver_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95009;Army National Guard;tanguard;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95010;Air National Guard;anguard;7;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95011;Texan Navy;texannavy;5;1000;2999;seamanship;submarine_design;marine_training;submarine_tactics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95012;Houston Shipbuilding;houstonship;6;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;submarine_design;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+95013;Military Intelligence Agency;texasintel;7;1000;2999;mathematics;technical_efficiency;training;centralized_execution;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

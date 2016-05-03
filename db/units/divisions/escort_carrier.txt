@@ -1,0 +1,66 @@
+allowed_brigades = naval_improved_hull_s
+allowed_brigades = naval_fire_controll_s
+allowed_brigades = naval_radar_s
+allowed_brigades = naval_anti_air_s
+allowed_brigades = naval_asw
+allowed_brigades = naval_torpedoes_s
+allowed_brigades = b_04
+allowed_brigades = light_cag
+max_allowed_brigades = 5
+
+# 0 - Early Light Carrier
+model = {
+	cost						= 9
+	buildtime 					= 1240
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.6
+	maxspeed					= 32
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 1
+	visibility					= 80
+	seadefence					= 30
+	airdefence					= 26
+	seaattack					= 2
+	airattack					= 3
+	subattack					= 1
+	convoyattack					= 2
+	shorebombardment			= 1
+	transportcapability			= 0
+	range						= 14000
+	supplyconsumption			= 1.2
+	fuelconsumption				= 1.25
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { carrier = 1 manpower = 1600 }
+}
+# 1 - Basic Light Carrier
+model = {
+	cost						= 12
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 1.8
+	maxspeed					= 33
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 3
+	subdetectioncapability		= 1
+	visibility					= 80
+	seadefence					= 28
+	airdefence					= 26
+	seaattack					= 3
+	airattack					= 3
+	subattack					= 2
+	convoyattack					= 3
+	shorebombardment			= 1
+	transportcapability			= 0
+	range						= 16000
+	supplyconsumption			= 1.75
+	fuelconsumption				= 1.25
+	distance					= 0.05
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { carrier = 1 manpower = 1800 }
+}

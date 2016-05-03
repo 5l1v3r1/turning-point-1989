@@ -1,0 +1,96 @@
+# 0 - Early Naval Patrol
+model = {
+	cost 					= 9
+	buildtime	 			= 170
+	defaultorganisation 		= 0
+	morale					= 0
+	manpower				= 0.33
+	maxspeed				= 0
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 2
+	surfacedefence				= -2
+	airdefence				= 0
+	airattack				= 0
+	strategicattack				= 0
+	softattack				= 1
+	hardattack				= 1
+	navalattack				= 5
+	range					= 1000
+	supplyconsumption 			= 0.45
+	fuelconsumption				= 0.9
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.6
+	equipment = { helicopter = 50 manpower = 100 }
+}
+# 1 - Basic Naval Patrol
+model = {
+	cost 					= 10
+	buildtime	 			= 170
+	defaultorganisation 		= 0
+	morale					= 0
+	manpower				= 0.33
+	maxspeed				= 0
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 2
+	surfacedefence				= -4
+	airdefence				= 0
+	airattack				= 0
+	strategicattack				= 0
+	softattack				= 1
+	hardattack				= 1
+	navalattack				= 7
+	range					= 1500
+	supplyconsumption 			= 0.5
+	fuelconsumption				= 1
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.6
+	equipment = { helicopter = 50 manpower = 100 }
+}
+# 2 - Improved Naval Patrol
+model = {
+	cost 					= 10
+	buildtime	 			= 170
+	defaultorganisation 		= 0
+	morale					= 0
+	manpower				= 0.33
+	maxspeed				= 0
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 2
+	surfacedefence				= -6
+	airdefence				= 0
+	airattack				= 0
+	strategicattack				= 0
+	softattack				= 1
+	hardattack				= 1
+	navalattack				= 8
+	range					= 2000
+	supplyconsumption 			= 0.5
+	fuelconsumption				= 1
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.6
+	equipment = { helicopter = 50 manpower = 100 }
+}
+# 3 - Advanced Naval Patrol
+model = {
+	cost 					= 11
+	buildtime	 			= 170
+	defaultorganisation 		= 0
+	morale					= 0
+	manpower				= 0.33
+	maxspeed				= 0
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 2
+	surfacedefence				= -8
+	airdefence				= 0
+	airattack				= 0
+	strategicattack				= 0
+	softattack				= 1
+	hardattack				= 1
+	navalattack				= 10
+	range					= 2500
+	supplyconsumption 			= 0.5
+	fuelconsumption				= 1
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.6
+	equipment = { helicopter = 50 manpower = 100 }
+}

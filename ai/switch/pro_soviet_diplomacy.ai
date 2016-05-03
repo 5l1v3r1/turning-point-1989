@@ -1,0 +1,23 @@
+# Pro Soviet Diplomacy by HansNery;
+
+###################################
+# Diplomacy
+###################################
+combat = {}
+claim_acceptance = -99
+demand_claims = {}
+# Special resistance against "influence" by the listed nations. Value range = [0 - 10]  
+resistance = { USA = 50 }
+befriend = { 
+	SOV = 100 
+}
+protect = { }
+target = {} 
+
+trade = {
+	cancel_deal_threshold = 2
+	favored = { 
+		SOV = 100 
+	}
+	embargo = { }
+}

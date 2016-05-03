@@ -1,0 +1,22 @@
+KOR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+15100;National Military Academy;koreamilac;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;technical_efficiency;maneuver_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15101;Hyundai Rotem;hrotem;8;1000;2999;mechanics;vehicle_engineering;management;training;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15102;Doosan Infracore;doosan;8;1000;2999;mechanics;technical_efficiency;centralized_execution;general_equipment;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15103;Samsung Techwin;stechwin;8;1000;2999;artillery;electronics;mechanics;combined_arms_focus;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15104;Daewoo Firearms;dfirearms;8;1000;2999;general_equipment;munitions;technical_efficiency;small_unit_tactics;large_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15105;Korea Aerospace Industries;koreaaero;5;1000;2999;aeronautics;technical_efficiency;avionics;piloting;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15106;NIS;koreanis;8;1000;2999;mathematics;management;technical_efficiency;training;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15107;Samsung Electronics;samsung;9;1000;2999;electronics;chemistry;rocketry;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15108;Hyundai Heavy Industries;hyundaiheavy;9;1000;2999;industrial_engineering;rocketry;management;mechanics;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15109;Doosan Heavy Industries;doosanheavy;8;1000;2999;industrial_engineering;management;general_equipment;combined_arms_focus;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15110;Agency for Defense Development;agencydef;7;1000;2999;management;small_taskforce_tactics;artillery;munitions;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15111;ROK Army;koreanarmy;8;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15112;ROK Marine Corps;rokmc;8;1000;2999;decentralized_execution;infantry_focus;individual_courage;marine_training;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15113;Joint Chiefs of Staff;koreanjcs;8;1000;2999;training;management;naval_training;general_equipment;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15114;Logistics Department;ukrlogistics;7;1000;2999;centralized_execution;management;technical_efficiency;general_equipment;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15115;ROK Air Force;koreanairforce;8;1000;2999;fighter_tactics;bomber_tactics;avionics;aeronautics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15116;ROK Navy;koreannavy;8;1000;2999;naval_training;seamanship;large_taskforce_tactics;marine_training;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15117;Hyundai Shipbuilding;hyundaiship;8;1000;2999;naval_artillery;small_taskforce_tactics;technical_efficiency;management;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15118;Daewoo Shipbuilding;daewooship;7;1000;2999;submarine_tactics;naval_artillery;submarine_design;naval_engineering;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15119;Naval Logistics Command;roknavlog;8;1000;2999;naval_training;management;technical_efficiency;seamanship;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15120;Submarine Flotilla;roksubmarine;6;1000;2999;seamanship;submarine_design;submarine_tactics;naval_engineering;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

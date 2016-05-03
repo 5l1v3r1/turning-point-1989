@@ -1,0 +1,86 @@
+# 0 - Armored Car 1945
+model = {
+	cost 				= 3.5
+	buildtime	 		= 90
+	manpower 			= 3
+	defaultorganisation = 1
+	defensiveness 		= -2
+	toughness 			= -2
+	softness			= -2
+	suppression			= 1
+	softattack			= 1
+	supplyconsumption 	= 0.6
+	fuelconsumption		= 0.2
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.75
+	equipment = { manpower = 3000 armored_car = 126 }
+}
+# 1 - Armored Car 1957
+model = {
+	cost 				= 3.5
+	buildtime	 		= 90
+	manpower 			= 3
+	defaultorganisation = 1
+	defensiveness 		= -2
+	toughness 			= -2
+	softness			= -2
+	suppression			= 1
+	softattack			= 2
+	supplyconsumption 	= 0.4
+	fuelconsumption		= 0.2
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.75
+	equipment = { manpower = 3000 armored_car = 126 }
+}
+# 2 - Armored Car 1964
+model = {
+	cost 				= 3.5
+	buildtime	 		= 90
+	manpower 			= 3
+	defaultorganisation = 1
+	defensiveness 		= -3
+	toughness 			= -3
+	softness			= -2
+	suppression			= 2
+	softattack			= 2
+	supplyconsumption 	= 0.4
+	fuelconsumption		= 0.2
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.75
+	equipment = { manpower = 3000 armored_car = 126 }
+}
+# 3 - Armored Car 1987
+model = {
+	cost 				= 3.5
+	buildtime	 		= 90
+	manpower 			= 3
+	defaultorganisation = 2
+	defensiveness 		= -3
+	toughness 			= -3
+	softness			= -2
+	suppression			= 3
+	softattack			= 2
+	supplyconsumption 	= 0.4
+	fuelconsumption		= 0.3
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.75
+	equipment = { manpower = 3000 armored_car = 126 }
+}
+# 4 - Armored Car 2002
+model = {
+	cost 				= 3.5
+	buildtime	 		= 100
+	manpower 			= 3
+	defaultorganisation = 5
+	defensiveness 		= -5
+	toughness 			= -5
+	softness			= -2
+	suppression			= 4
+	softattack			= 3
+	hardattack			= 1
+	supplyconsumption 	= 0.5
+	fuelconsumption		= 0.3
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.75
+	equipment = { manpower = 3000 armored_car = 126 }
+}

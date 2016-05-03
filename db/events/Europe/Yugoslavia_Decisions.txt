@@ -1,0 +1,573 @@
+#########################################################################
+#  Yugoslavia's Decisions
+#########################################################################
+#########################################################################
+#  Development Program for Kosovo
+#########################################################################
+event = {
+	id = 6100001
+	random = no
+	country = YUG
+	
+	decision = {
+		owned = { province = 415 data = -1 }
+	}
+	decision_trigger = {
+		owned = { province = 415 data = -1 }
+		money = 18000
+	}
+	trigger = {
+		owned = { province = 415 data = -1 }
+		money = 18000
+		random = 5
+	}
+	
+	name = "yug_4"
+	desc = "yug_4_desc"
+	style = 1
+	picture = "unemployment_rate"
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -5 }
+		command = { type = money value = -18000 }
+		command = { type = event which = 6100004 where = -1 when = 1095  }
+	}
+}
+#########################################################################
+#  Development Program for Vojvodina
+#########################################################################
+event = {
+	id = 6100002
+	random = no
+	country = YUG
+	
+	decision = {
+		owned = { province = 493 data = -1 }
+	}
+	decision_trigger = {
+		owned = { province = 493 data = -1 }
+		money = 6000
+	}
+	trigger = {
+		owned = { province = 493 data = -1 }
+		money = 6000
+		random = 5
+	}
+	
+	name = "yug_5"
+	desc = "yug_5_desc"
+	style = 1
+	picture = "unemployment_rate"
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -5 }
+		command = { type = money value = -6000 }
+		command = { type = event which = 6100004 where = -1 when = 1095  }
+	}
+}
+#########################################################################
+#  Development Program for Montenegro
+#########################################################################
+event = {
+	id = 6100003
+	random = no
+	country = YUG
+	
+	decision = {
+		owned = { province = 5464 data = -1 }
+	}
+	decision_trigger = {
+		owned = { province = 5464 data = -1 }
+		money = 12000
+	}
+	trigger = {
+		owned = { province = 5464 data = -1 }
+		money = 12000
+		random = 5
+	}
+	
+	name = "yug_6"
+	desc = "yug_6_desc"
+	style = 1
+	picture = "unemployment_rate"
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = -5 }
+		command = { type = money value = -12000 }
+		command = { type = event which = 6100004 where = -1 when = 1095  }
+	}
+}
+#########################################################################
+#  Development Program Finished
+#########################################################################
+event = {
+	id = 6100004
+	random = no
+	country = YUG
+	persistent = yes
+	
+	name = "development_program_finished"
+	desc = "development_program_finished_desc"
+	style = 1
+	picture = "unemployment_rate"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { trigger = { event = 6100001 } type = construct which = ic where = 415 value = 9 }
+		command = { trigger = { event = 6100002 } type = construct which = ic where = 493 value = 3 }
+		command = { trigger = { event = 6100003 } type = construct which = ic where = 5464 value = 6 }
+		command = { trigger = { event = 6100001 event = 6100003 event = 6100003 } type = sleepevent which = 6100004 }
+	}
+}
+#########################################################################
+#  Raise Kosovo's Status
+#########################################################################
+event = {
+	id = 6100005
+	random = no
+	country = YUG
+	
+	decision = {}
+	decision_trigger = {
+		flag = brotherhood_unity
+		NOT = {
+			flag = kosovo_falls
+		}
+	}
+	trigger = {
+		flag = brotherhood_unity
+		NOT = {
+			flag = kosovo_falls
+		}
+	}
+	
+	name = "yug_7"
+	desc = "yug_7_desc"
+	style = 1
+	picture = "law"
+	decision_picture = "decision_law"
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = 10 }
+		command = { type = sleepevent which = 6000017 }
+		command = { type = sleepevent which = 6000018 }
+		command = { type = sleepevent which = 6000019 }
+	}
+}
+#########################################################################
+#  Raise Vojvodina's Status
+#########################################################################
+event = {
+	id = 6100006
+	random = no
+	country = YUG
+	
+	decision = {}
+	decision_trigger = {
+		flag = brotherhood_unity
+		NOT = {
+			OR = {
+				event = 6000010
+				event = 6000011
+			}
+		}
+	}
+	trigger = {
+		flag = brotherhood_unity
+		NOT = {
+			OR = {
+				event = 6000010
+				event = 6000011
+			}
+		}
+	}
+	
+	name = "yug_8"
+	desc = "yug_8_desc"
+	style = 1
+	picture = "law"
+	decision_picture = "decision_law"
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = dissent value = 10 }
+		command = { type = sleepevent which = 6000009 }
+		command = { type = sleepevent which = 6000010 }
+		command = { type = sleepevent which = 6000011 }
+	}
+}
+#########################################################################
+#  Invade Croatia
+#########################################################################
+event = {
+	id = 6100007
+	random = no
+	country = YUG
+	
+	decision = {
+		event = 6000064 #Croatia's Declaration of Independence
+		NOT = { war = { country = YUG  country = CRO } }
+	}
+	decision_trigger = {
+	}
+	trigger = {
+		event = 6000064 #Croatia's Declaration of Independence
+		NOT = { war = { country = YUG  country = CRO } }
+	}
+	
+	name = "invade_croatia"
+	desc = "invade_croatia_desc"
+	style = 2
+	picture = "news_paper"
+	decision_picture = "decision_diplomatic_campaign"
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_WAR"
+		command = { type = dissent value = -5 }
+		command = { type = war which = CRO }
+		command = { type = name where = TRA which = TAG_TRA_SER }
+	}
+}
+#########################################################################
+#  Invade Bosnia
+#########################################################################
+event = {
+	id = 6100008
+	random = no
+	country = U79 #Herzeg-Bosnia
+	
+	decision = { 
+		event = 6000092 #The Graz Agreement
+		non_aggression = { country = U79 country = U72 }
+	}
+	decision_trigger = { 
+		event = 6000092 #The Graz Agreement
+		non_aggression = { country = U79 country = U72 }
+	}
+	trigger = { 
+		event = 6000092 #The Graz Agreement
+		non_aggression = { country = U79 country = U72 }
+	}
+	
+	name = "invade_bosnia"
+	desc = "invade_bosnia_desc"
+	style = 2
+	picture = "news_paper"
+	decision_picture = "decision_diplomatic_campaign"
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_WAR"
+		command = { type = dissent value = -5 }
+		command = { type = war which = BOS }
+		command = { type = alliance which = U72 }
+		command = { type = trigger which = 6000093 }
+	}
+}
+#########################################################################
+#  Operation Storm
+#########################################################################
+event = {
+	id = 6100009
+	random = no
+	country = CRO
+	
+	decision = { 
+		event = 6000094 #The Washington Agreement
+		non_aggression = { country = CRO country = BOS }
+		exists = U72
+	}
+	decision_trigger = { 
+		event = 6000094 #The Washington Agreement
+		non_aggression = { country = CRO country = BOS }
+		exists = U72
+	}
+	trigger = { 
+		event = 6000094 #The Washington Agreement
+		non_aggression = { country = CRO country = BOS }
+		exists = U72
+		day = 3
+		month = august
+		year = 1995
+	}
+	
+	name = "operation_storm"
+	desc = "operation_storm_desc"
+	style = 2
+	picture = "news_paper"
+	decision_picture = "decision_diplomatic_campaign"
+	
+	date = { day = 0 month = january year = 1995 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_WAR"
+		command = { type = dissent value = -5 }
+		command = { type = war which = U72 }
+		#command = { type = alliance which = U79 }
+	}
+}
+#########################################################################
+#  Invade Muslim Balkan Countries
+#########################################################################
+event = {
+	id = 6100010
+	random = no
+	TAG = { YUG SER }
+	
+	decision = { 
+		exists = BOS
+		exists = ALB
+		NOT = { exists = U72 }
+		policy = { country = -1 type = defense_lobby value = 10 }
+	}
+	decision_trigger = { 
+		exists = BOS
+		exists = ALB
+		NOT = { exists = U72 }
+	}
+	trigger = { 
+		exists = BOS
+		exists = ALB
+		NOT = { exists = U72 }
+		belligerence = { value = 30 }
+	}
+	
+	name = "invade_muslim_balkan"
+	desc = "invade_muslim_balkan"
+	style = 2
+	picture = "news_paper"
+	decision_picture = "decision_diplomatic_campaign"
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_REMOVE_KEBAB"
+		command = { type = dissent value = -10 }
+		command = { type = war which = BOS }
+		command = { type = war which = ALB }
+	}
+}
+#########################################################################
+#  Arm Serbian Krajina
+#########################################################################
+event = {
+	id = 6100011
+	random = no
+	country = YUG
+	
+	decision = {
+		exists = TRA
+	}
+	decision_trigger = {
+		exists = TRA
+		supplies = 5000
+		money = 2500
+	}
+	trigger = {
+		exists = TRA
+		supplies = 5000
+		money = 2500
+	}
+	
+	name = "arm_serbian_krajina"
+	desc = "arm_serbian_krajina_desc"
+	style = 2
+	picture = "bullets"
+	decision_picture = "decision_bullets"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_ARM"									
+		command = { type = supplies value = -5000 }
+		command = { type = money value = -2500 }
+		command = { type = trigger which = 6100013 }
+	}
+}
+#########################################################################
+#  Arm Republika Srpska
+#########################################################################
+event = {
+	id = 6100012
+	random = no
+	country = YUG
+	
+	decision = {
+		exists = U72
+	}
+	decision_trigger = {
+		exists = U72
+		supplies = 5000
+		money = 2500
+	}
+	trigger = {
+		exists = U72
+		supplies = 5000
+		money = 2500
+	}
+	
+	name = "arm_republika_srpska"
+	desc = "arm_republika_srpska_desc"
+	style = 2
+	picture = "bullets"
+	decision_picture = "decision_bullets"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_ARM"									
+		command = { type = supplies value = -5000 }
+		command = { type = money value = -2500 }
+		command = { type = trigger which = 6100014 }
+	}
+}
+#########################################################################
+#  Weapons from Serbia (Serbian Krajina)
+#########################################################################
+event = {
+	id = 6100013
+	random = no
+	country = TRA
+	
+	name = "weapons_serbia"
+	desc = "weapons_serbia_desc"
+	style = 1
+	picture = "bullets"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = supplies value = 5000 }
+		command = { type = manpowerpool value = -50 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+	}
+}
+#########################################################################
+#  Weapons from Serbia (Republika Srpska)
+#########################################################################
+event = {
+	id = 6100014
+	random = no
+	country = U72
+	
+	name = "weapons_serbia"
+	desc = "weapons_serbia_desc"
+	style = 1
+	picture = "bullets"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = supplies value = 5000 }
+		command = { type = manpowerpool value = -50 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+		command = { type = add_division which = "Serbian Infantry" value = infantry when = 6 }
+	}
+}
+#########################################################################
+#  Arm Herzeg-Bosnia
+#########################################################################
+event = {
+	id = 6100015
+	random = no
+	country = CRO
+	
+	decision = {	
+		exists = U79
+	}
+	decision_trigger = {
+		exists = U79
+		supplies = 5000
+		money = 5000
+	}
+	trigger = {
+		exists = U79
+		supplies = 5000
+		money = 5000
+	}
+	
+	name = "arm_herzeg-bosnia"
+	desc = "arm_herzeg-bosnia_desc"
+	style = 2
+	picture = "bullets"
+	decision_picture = "decision_bullets"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	action = {
+		name = "ACTION_NAME_ARM"									
+		command = { type = supplies value = -5000 }
+		command = { type = money value = -5000 }
+		command = { type = trigger which = 6100016 }
+	}
+}
+#########################################################################
+#  Weapons from Croatia (Herzeg-Bosnia)
+#########################################################################
+event = {
+	id = 6100016
+	random = no
+	country = U79
+	
+	name = "weapons_croatia"
+	desc = "weapons_croatia_desc"
+	style = 1
+	picture = "bullets"
+	
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = supplies value = 5000 }
+		command = { type = manpowerpool value = -50 }
+		command = { type = add_division which = "Croatian Defence Council" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Defence Council" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Defence Council" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Defence Council" value = infantry when = 6 }
+		command = { type = add_division which = "Croatian Defence Council" value = infantry when = 6 }
+	}
+}

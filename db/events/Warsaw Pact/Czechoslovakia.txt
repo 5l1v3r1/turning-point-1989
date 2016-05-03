@@ -1,0 +1,434 @@
+#########################################################################
+#  The Normalization
+#########################################################################
+event = {
+	id = 2032000
+	random = no
+	country = CZE
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_normalization"
+	desc = "cze_normalization_desc"
+	style = 1
+	picture = "the_normalization"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = 10 }
+		command = { type = industrial_modifier which = total value = -30 }
+	}
+}
+#########################################################################
+#  The Czech Perestroika
+#########################################################################
+event = {
+	id = 2032001
+	random = no
+	country = CZE
+
+	trigger = {	event = 2007021 } #Glasnost
+	
+	date = { day = 0 month = april year = 1987 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_perestroika"
+	desc = "cze_perestroika_desc"
+	style = 1
+	picture = "husak"
+
+	action = {
+		name = ACTION_NAME_STALL
+		ai_chance = 90
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		name = ACTION_NAME_PERESTROIKA
+		ai_chance = 10
+		command = { type = dissent value = -10 }
+		command = { type = local_setflag which = czech_perestroika }
+	}
+}
+#########################################################################
+#  The Candle Demonstration
+#########################################################################
+event = {
+	id = 2032002
+	random = no
+	country = CZE
+
+	trigger = {
+		event = 2032001 #The Czech Perestroika
+	}
+	
+	date = { day = 24 month = march year = 1988 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_candle_demonstration"
+	desc = "cze_candle_demonstration_desc"
+	style = 1
+	picture = "candles"
+
+	action = { 
+		name = ACTION_NAME_SUPPRESS
+		#ai_chance = 90
+		trigger = { NOT = { local_flag = czech_perestroika } }
+		command = { type = dissent value = 10 }
+		command = { type = domestic which = freedom value = -1 }
+	}
+	action = {
+		name = ACTION_NAME_ALLOW
+		#ai_chance = 99
+		trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = freedom value = 1 }
+	}
+}
+#########################################################################
+#  International Students Day Protest
+#########################################################################
+event = {
+	id = 2032003
+	random = no
+	country = CZE
+
+	trigger = {	event = 2032002 } #The Candle Demonstration
+	
+	date = { day = 15 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_1"
+	desc = "cze_velvet_1_desc"
+	style = 1
+	picture = "students_flowers"
+
+	action = { 
+		name = ACTION_NAME_DAMN
+		#ai_chance = 90
+		trigger = { NOT = { local_flag = czech_perestroika } }
+		command = { type = dissent value = 5 }
+		#command = { type = event which = 2032004 where = -1 when = 1 }
+	}
+	action = {
+		name = ACTION_NAME_OK
+		#ai_chance = 99
+		trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -5 }
+		#command = { type = event which = 2032004 where = -1 when = 1 }
+	}
+}
+#########################################################################
+#  The Dead Student Hoax
+#########################################################################
+event = {
+	id = 2032004
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032003 } #International Students Day Protest
+	
+	date = { day = 16 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_2"
+	desc = "cze_velvet_2_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = { 
+		name = ACTION_NAME_SUPPRESS
+		#ai_chance = 90
+		trigger = { NOT = { local_flag = czech_perestroika } }
+		command = { type = dissent value = 5 }
+		command = { type = domestic which = freedom value = -1 }
+		#command = { type = event which = 2032005 where = -1 when = 1 }
+	}
+	action = {
+		name = ACTION_NAME_ALLOW
+		#ai_chance = 99
+		trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 1 }
+		#command = { type = event which = 2032005 where = -1 when = 1 }
+	}
+}
+#########################################################################
+#  The Theatres Strikes
+#########################################################################
+event = {
+	id = 2032005
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032004 } #The Dead Student Hoax
+	
+	date = { day = 17 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_3"
+	desc = "cze_velvet_3_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = { 
+		name = ACTION_NAME_DAMN
+		#ai_chance = 90
+		trigger = { NOT = { local_flag = czech_perestroika } }
+		command = { type = dissent value = 5 }
+		#command = { type = event which = 2032006 where = -1 when = 1 }
+	}
+	action = {
+		name = ACTION_NAME_OK
+		#ai_chance = 99
+		trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 1 }
+		#command = { type = event which = 2032006 where = -1 when = 1 }
+	}
+}
+#########################################################################
+#  The Public Against Violence
+#########################################################################
+event = {
+	id = 2032006
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032005 } #The Theatres Strikes
+	
+	date = { day = 18 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_4"
+	desc = "cze_velvet_4_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = { 
+		name = ACTION_NAME_DAMN
+		#ai_chance = 90
+		trigger = { NOT = { local_flag = czech_perestroika } }
+		command = { type = dissent value = 5 }
+		#command = { type = event which = 2032007 where = -1 when = 1 }
+	}
+	action = {
+		name = ACTION_NAME_OK
+		#ai_chance = 99
+		trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 1 }
+		#command = { type = event which = 2032007 where = -1 when = 1 }
+	}
+}
+#########################################################################
+#  Permanent Strikes
+#########################################################################
+event = {
+	id = 2032007
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032006 } #The Public Against Violence
+	
+	date = { day = 19 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_5"
+	desc = "cze_velvet_5_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = { 
+		name = ACTION_NAME_DAMN
+		#ai_chance = 90
+		trigger = { NOT = { local_flag = czech_perestroika } }
+		command = { type = dissent value = 10 }
+		#command = { type = event which = 2032008 where = -1 when = 1 }
+	}
+	action = {
+		name = ACTION_NAME_ALLOW
+		#ai_chance = 99
+		trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 1 }
+		#command = { type = event which = 2032008 where = -1 when = 1 }
+	}
+}
+#########################################################################
+#  Mass demonstrations in Czechoslovakia
+#########################################################################
+event = {
+	id = 2032008
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032007 } #Permanent Strikes
+	
+	date = { day = 20 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_6"
+	desc = "cze_velvet_6_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = { 
+		name = ACTION_NAME_CRUSH
+		#ai_chance = 90
+		trigger = { NOT = { local_flag = czech_perestroika } }
+		command = { type = dissent value = 10 }
+		command = { type = domestic which = freedom value = -2 }
+		command = { type = domestic which = democratic value = -2 }
+		#command = { type = event which = 2032009 where = -1 when = 1 }
+	}
+	action = {
+		name = ACTION_NAME_OK
+		#ai_chance = 99
+		trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 1 }
+		#command = { type = event which = 2032009 where = -1 when = 1 }
+	}
+}
+#########################################################################
+#  The Czech Glasnost
+#########################################################################
+event = {
+	id = 2032009
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032008 } #Mass demonstrations in Czechoslovakia
+	
+	date = { day = 21 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_7"
+	desc = "cze_velvet_7_desc"
+	style = 1
+	picture = "wencelas_monument"
+
+	action = {
+		name = ACTION_NAME_OK
+		#ai_chance = 99
+		trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 1 }
+		#command = { type = event which = 2032010 where = -1 when = 2 }
+	}
+	action = { 
+		name = ACTION_NAME_FOR_REAL
+		#ai_chance = 90
+		trigger = { NOT = { local_flag = czech_perestroika } }
+		command = { type = dissent value = 20 }
+		command = { type = domestic which = freedom value = -2 }
+		command = { type = domestic which = democratic value = -2 }
+		command = { type = sleepevent which = 2032010 } #The Velvet Revolution
+	}
+}
+#########################################################################
+#  The Velvet Revolution
+#########################################################################
+event = {
+	id = 2032010
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032009 } #The Czech Glasnost
+	
+	date = { day = 23 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_8"
+	desc = "cze_velvet_8_desc"
+	style = 1
+	picture = "cze_general_strike"
+
+	action = {
+		name = ACTION_NAME_OK
+		#ai_chance = 99
+		#trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 1 }
+		#command = { type = event which = 2032011 where = -1 when = 3 }
+	}
+}
+#########################################################################
+#  The Velvet Revolution Aftermath
+#########################################################################
+event = {
+	id = 2032011
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032010 } #The Velvet Revolution
+	
+	date = { day = 26 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_9"
+	desc = "cze_velvet_9_desc"
+	style = 1
+	picture = "velvet_revolution"
+
+	action = {
+		name = ACTION_NAME_OK
+		#ai_chance = 99
+		#trigger = { local_flag = czech_perestroika }
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = domestic which = democratic value = 4 }
+		#command = { type = event which = 2032012 where = -1 when = 13 }
+	}
+}
+#########################################################################
+#  The Velvet Revolution Succeeds
+#########################################################################
+event = {
+	id = 2032012
+	random = no
+	country = CZE
+	
+	trigger = { event = 2032011 } #The Velvet Revolution Aftermath
+	
+	date = { day = 9 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "cze_velvet_10"
+	desc = "cze_velvet_10_desc"
+	style = 1
+	picture = "velvet_revolution_1"
+
+	action = { 
+		name = ACTION_NAME_GREAT_DAY
+		#ai_chance = 90
+		command = { type = dissent value = -10 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = political_left value = -3 }
+		command = { type = headofstate which = 120011 }
+		command = { type = headofgovernment which = 120012 }
+		command = { type = foreignminister which = 120013 }
+		command = { type = armamentminister which = 120014 }
+		command = { type = ministerofsecurity which = 120015 }
+		command = { type = ministerofintelligence which = 120016 }
+		command = { type = chiefofstaff which = 120017 }
+		command = { type = chiefofarmy which = 120018 }
+		command = { type = chiefofnavy which = 120019 }
+		command = { type = chiefofair which = 120020 }
+	}
+}

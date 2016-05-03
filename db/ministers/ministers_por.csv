@@ -1,0 +1,32 @@
+POR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+20001;Head of State;António Ramalho Eanes;1985;2012;2012;SL;Resigned Generalissimo;High;POR1;X
+20002;Head of Government;Mário Soares;1985;2012;2012;SD;Naive Optimist;High;POR2;X
+20003;Foreign Minister;Jaime Gama;1985;2012;2012;SD;Great Compromiser;High;POR3;X
+20004;Minister of Armament;José Veiga Simão;1985;2012;2012;SD;Theoretical Scientist;High;POR4;X
+20005;Minister of Security;Eduardo Pereira;1985;2012;2012;SD;Silent Lawyer;High;unknown;X
+20006;Head of Military Intelligence;Mário Soares;1985;2012;2012;SD;Political Specialist;High;POR2;X
+20007;Chief of Staff;José Lemos Ferreira;1985;2012;2012;ML;School of Manoeuvre;High;POR5;X
+20008;Chief of Army;António Ramalho Eanes;1985;2012;2012;SL;Guns and Butter Doctrine;High;POR1;X
+20009;Chief of Navy;José Lemos Ferreira;1985;2012;2012;ML;Indirect Approach Doctrine;High;POR5;X
+20010;Chief of Air Force;José Lemos Ferreira;1985;2012;2012;ML;Air Superiority Doctrine;High;POR5;X
+;Replacements;;;;;;;;;X
+20011;Head of State;Álvaro Cunhal;1985;2012;2012;LE;Die-hard Reformer;High;POR6;X
+20012;Head of Government;Álvaro Cunhal;1985;2012;2012;LE;Flamboyant Tough Guy;High;POR6;X
+20013;Foreign Minister;Jerónimo de Sousa;1985;2012;2012;LE;Great Compromiser;High;POR7;X
+20014;Minister of Armament;Carlos Carvalhas;1985;2012;2012;LE;Administrative Genius;High;POR8;X
+20015;Minister of Security;Salgado Zenha;1985;2012;2012;LE;Silent Lawyer;High;POR9;
+20016;Head of Military Intelligence;Vasco Gonçalves;1985;2012;2012;LE;Logistics Specialist;High;POR10;
+20017;Chief of Staff;Vasco Gonçalves;1985;2012;2012;LE;School of Fire Support;High;POR10;X
+20018;Chief of Army;Vasco Gonçalves;1985;2012;2012;LE;Guns and Butter Doctrine;High;POR10;X
+20019;Chief of Navy;António Alva Rosa Coutinho;1985;2012;2012;LWR;Indirect Approach Doctrine;High;POR11;X
+20020;Chief of Air Force;António Alva Rosa Coutinho;1985;2012;2012;LWR;Naval Aviation Doctrine;High;POR11;X
+20021;Head of State;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20022;Head of Government;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20023;Foreign Minister;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20024;Minister of Armament;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20025;Minister of Security;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20026;Head of Military Intelligence;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20027;Chief of Staff;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20028;Chief of Army;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20029;Chief of Navy;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+20030;Chief of Air Force;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X

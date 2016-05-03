@@ -1,0 +1,6 @@
+technology =
+{ id          = 1
+  category    = infantry
+  name        = TECH_INFANTRY_NAME # Localized name
+  desc        = TECH_INFANTRY_DESC # Localized description
+}

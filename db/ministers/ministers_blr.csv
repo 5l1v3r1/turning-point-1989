@@ -1,0 +1,26 @@
+BLR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+470001;Head of State;Alexander Lukashenko;1994;2012;2012;PA;Ruthless Powermonger;Very High;BLR1;X
+470002;Head of Government;Mikhail Chigir;1994;2012;2012;ML;Corporate Suit;Very High;BLR2;X
+470003;Foreign Minister;Andrei Sannikov;1985;2012;2012;ML;Great Compromiser;Very High;BLR3;X
+470004;Minister of Armament;Mikhail Chigir;1985;2012;2012;ML;Resource Industrialist;Very High;BLR2;X
+470005;Minister of Security;Jury Zacharanka;1985;2012;2012;ML;Crime Fighter;Very High;BLR4;X
+470006;Head of Military Intelligence;Eduard Shirkovsky;1985;2012;2012;ML;Dismal Enigma;Very High;unknown;X
+470007;Chief of Staff;Leonid Maltsev;1985;2012;2012;ML;School of Fire Support;Very High;BLR5;X
+470008;Chief of Army;Leonid Maltsev;1985;2012;2012;ML;Decisive Battle Doctrine;Very High;BLR5;X
+470009;Chief of Navy;Leonid Maltsev;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;BLR5;X
+470010;Chief of Air Force;Leonid Maltsev;1985;2012;2012;ML;Army Aviation Doctrine;Very High;BLR5;X
+;Replacements;;;;;;;;;X
+470011;Head of State;Yefrem Sokolov;1987;2012;2012;LE;Bureaucrat;Very High;BLR6;X
+470012;Head of Government;Yefrem Sokolov;1987;2012;2012;LE;Bureaucrat2;Very High;BLR6;X
+470013;Head of State;Anatoly Malofeyev;1990;2012;2012;LE;Bureaucrat;Very High;BLR7;X
+470014;Head of Government;Anatoly Malofeyev;1990;2012;2012;LE;Bureaucrat2;Very High;BLR7;X
+470015;Head of State;Stanislav Shushkevich;1991;2012;2012;SD;Reformer;Very High;BLR8;X
+470016;Head of Government;Vyacheslav Kebich;1991;2012;2012;SD;Liberal2;Very High;BLR9;X
+470017;Foreign Minister;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+470018;Minister of Armament;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+470019;Minister of Security;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+470020;Head of Military Intelligence;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+470021;Chief of Staff;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+470022;Chief of Army;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+470023;Chief of Navy;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+470024;Chief of Air Force;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X

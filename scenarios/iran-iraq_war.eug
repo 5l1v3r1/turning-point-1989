@@ -1,0 +1,181 @@
+name       = "IRAN_IRAQ_WAR_SCENARIO"
+panel      = "scenarios/data/scenario_1980.bmp"
+
+header = { 
+	name       = "IRAN_IRAQ_WAR_SCENARIO"
+	#startdate  = { year = 1980 }
+	startyear = 1904
+	endyear = 1905
+	
+	free = no
+	
+	combat = yes #this is a battlescenario  
+	
+	selectable = { PER IRQ }
+	
+	PER        = { bottom = yes }
+	
+	IRQ        = { }
+}
+
+globaldata = { 
+	startdate = { year = 1980 month = september day = 22 }
+	
+	rules = {
+		diplomacy = no
+		production = no
+		technology = no
+	}
+	
+  #axis =
+  #{ id          = { type = 15000 id = 2 }
+  #  participant = { PER }
+  #}
+  #allies =
+  #{ id          = { type = 15000 id = 1 }
+  #  participant = { IRQ }
+  #}
+  #comintern =
+  #{ id          = { type = 15000 id = 3 }
+  #  participant = { }
+  #}
+	war = { 
+		id        = { type = 9430 id = 1 }
+		date      = { year = 1980 month = september day = 21 }
+		enddate   = { year = 1988 month = august day = 20 }
+		attackers =
+		{ id          = { type = 9430 id = 2 }
+			participant = { PER }
+		}
+		defenders =
+		{ id          = { type = 9430 id = 3 }
+			participant = { IRQ }
+		}
+	}
+}
+
+
+map = {
+	no = all
+	yes = 1860 
+	yes = 1864 
+	yes = 1865 
+	yes = 1866 
+	yes = 1790 
+	yes = 1824 
+	yes = 1823 
+	yes = 1806 
+	yes = 1791 
+	yes = 710 
+	yes = 2496
+	yes = 4153 
+	yes = 4154 
+	yes = 4155 
+	yes = 4156 
+	yes = 4157 
+	yes = 4158 
+	yes = 4159 
+	yes = 4160 
+	yes = 4161 
+	yes = 4162 
+	yes = 4163 
+	yes = 4164 
+	yes = 4165 
+	yes = 7349 
+	yes = 7350 
+	yes = 7977 
+	yes = 1859 
+	yes = 1787 
+	yes = 1503 
+	yes = 1502 
+	yes = 1788 
+	yes = 1789 
+	yes = 1825 
+	yes = 1498 
+	yes = 1497 
+	yes = 1499 
+	yes = 1826 
+	yes = 1501 
+	yes = 1500 
+	yes = 1496 
+	yes = 1495
+	yes = 2836 
+	yes = 2837 
+	yes = 2838 
+	yes = 2839 
+	yes = 2840 
+	yes = 2841 
+	yes = 2842 
+	yes = 2843 
+	yes = 2844 
+	yes = 2845
+	yes = 2846
+	yes = 4198 
+	yes = 4199 
+	yes = 4201 
+	yes = 4202 
+	yes = 4203 
+	yes = 4204 
+	yes = 4205 
+	yes = 4206 
+	yes = 4207 
+	yes = 4208 
+	yes = 4209 
+	yes = 4210 
+	yes = 4211 
+	yes = 4212 
+	yes = 4213 
+	yes = 4214 
+	yes = 4215 
+	yes = 4216 
+	yes = 4217 
+	yes = 4218 
+	yes = 4219 
+	yes = 4220 
+	yes = 4221 
+	yes = 4222 
+	yes = 4223 
+	yes = 4224 
+	yes = 4225 
+	yes = 4226 
+	yes = 4227 
+	yes = 4228 
+	yes = 4229 
+	yes = 4230 
+	yes = 4231 
+	yes = 4232 
+	yes = 4233 
+	yes = 4234 
+	yes = 6495
+	yes = 7014 
+	yes = 6499 
+	yes = 1822
+
+	top = {	x = 18500 y = 3500 }
+	bottom = {	x = 19500 y = 4500 }
+
+}
+
+# ###################
+#event      = "db\events\AI\AI_PER.txt"
+#event      = "db\events\AI\AI_IRQ.txt"
+
+# Includes for global data
+include = "db\events.txt"
+#include = "db\events\Wars\Surrender_Events.txt" #Iran-Iraq War surrender events
+#include = "db\events\Turning Point\United_Nations.txt" #End of Iran-Iraq War (Resolution 598)
+
+# Victory points distribution
+include = "scenarios\1985\VP.inc"
+
+# Others
+include = "scenarios\1985\Installations.inc"
+
+# International Organizations
+include = "scenarios\1985\United Nations.inc"
+
+# Include files for each country tag used in the scenario
+include = "scenarios\iran-iraq_war\iraq.inc"
+include = "scenarios\iran-iraq_war\iran.inc"
+include = "scenarios\iran-iraq_war\kuwait.inc"
+include = "scenarios\iran-iraq_war\bases.inc"

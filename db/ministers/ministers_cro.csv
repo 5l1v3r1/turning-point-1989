@@ -1,0 +1,44 @@
+CRO;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+275001;Head of State;Franjo Tudman;1985;2012;2012;SC;Courageous;Very High;CRO1;X
+275002;Head of Government;Stjepan Mesic;1985;2012;2012;SD;Silent Workhorse;Very High;CRO2;X
+275003;Foreign Minister;;1984;1984;1984;SC;Iron Fisted Brute;Very High;unknown;X
+275004;Minister of Armament;Martin Spegelj;1985;2012;2012;SC;Administrative Genius;Very High;CRO4;X
+275005;Minister of Security;;1984;1984;1984;SC;Crooked Kleptocrat;Very High;unknown;X
+275006;Head of Military Intelligence;;1984;1984;1984;SC;Dismal Enigma;Very High;unknown;X
+275007;Chief of Staff;;1984;1984;1984;SC;School of Manoeuvre;Very High;unknown;X
+275008;Chief of Army;;1984;1984;1984;SC;Armoured Spearhead Doctrine;Very High;unknown;X
+275009;Chief of Navy;;1984;1984;1984;SC;Base Control Doctrine;Very High;unknown;X
+275010;Chief of Air Force;;1984;1984;1984;SC;Air Superiority Doctrine;Very High;unknown;X
+;Replacements;;;;;;;;;X
+275011;Head of Government;Josip Manolic;1990;2012;2012;SC;Silent Workhorse;Very High;unknown;X
+275012;Head of Government;Franjo Greguric;1991;2012;2012;SC;Silent Workhorse;Very High;unknown;X
+275013;Head of Government;Hrvoje Sarinic;1992;2012;2012;SC;Silent Workhorse;Very High;unknown;X
+275014;Head of Government;Nikica Valentic;1993;2012;2012;SC;Silent Workhorse;Very High;unknown;X
+275015;Head of Government;Zlatko Matesa;1995;2012;2012;SC;Silent Workhorse;Very High;unknown;X
+275016;Head of State;Stjepan Mesic;2000;2012;2012;SC;Courteous Figure;Very High;CRO2;X
+275017;Head of State;Ivica Racan;1985;2012;2012;LE;Communist;Very High;CRO3;X
+275018;Head of Government;Ivica Racan;2000;2012;2012;SD;Silent Workhorse;Very High;CRO3;X
+275019;Head of Government;;1984;1984;1984;SC;Silent Workhorse;Very High;unknown;X
+275020;Foreign Minister;;1984;1984;1984;SD;biased intellectual;Medium;M30011;X
+275021;Minister of Armament;;1984;1984;1984;NS;Infantry Proponent;Medium;M30033;X
+275022;Minister of Armament;;1984;1984;1984;SD;Theoretical Scientist;Medium;M30012;X
+275023;Minister of Security;;1984;1984;1984;NS;Man of the People;High;M30015;X
+275024;Minister of Security;;1984;1984;1984;NS;Prince of Terror;High;M30037;X
+275025;Minister of Security;;1984;1984;1984;NS;Efficient Sociopath;High;M30038;X
+275026;Minister of Security;;1984;1984;1984;NS;Back Stabber;High;M30039;X
+275027;Minister of Security;;1984;1984;1984;PA;Crooked Kleptocrat;Medium;M30040;X
+275028;Minister of Security;;1984;1984;1984;SD;Silent Lawyer;Medium;M30004;X
+275029;Head of Military Intelligence;;1984;1984;1984;PA;Logistics Specialist;High;M30005;X
+275030;Head of Military Intelligence;;1984;1984;1984;SC;Dismal Enigma;Medium;M30040;X
+275031;Chief of Staff;;1984;1984;1984;NS;School of Defence;Medium;M30017;X
+275032;Chief of Staff;;1984;1984;1984;NS;School of Mass Combat;High;M30048;X
+275033;Chief of Staff;;1984;1984;1984;NS;School of Psychology;Very High;M30002;X
+275034;Chief of Army;;1984;1984;1984;NS;Guns and Butter Doctrine;Medium;M30007;X
+275035;Chief of Army;;1984;1984;1984;NS;Static Defence Doctrine;Medium;M30054;X
+275036;Chief of Army;;1984;1984;1984;NS;Decisive Battle Doctrine;High;M30020;X
+275037;Chief of Army;;1984;1984;1984;NS;Elastic Defence Doctrine;Medium;M30017;X
+275038;Chief of Navy;;1984;1984;1984;NS;Open Seas Doctrine;Medium;M30019;X
+275039;Chief of Navy;;1984;1984;1984;NS;Decisive Naval Battle Doctrine;Low;M30062;X
+275040;Chief of Air Force;;1984;1984;1984;NS;Army Aviation Doctrine;Medium;M30006;X
+275041;Chief of Air Force;;1984;1984;1984;PA;Vertical Envelopment Doctrine;High;M30020;X
+275042;Head of State;;1984;1984;1984;FA;Powerhungry Demagogue;High;M30002;X

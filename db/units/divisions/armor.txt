@@ -1,0 +1,283 @@
+allowed_brigades = anti_air
+allowed_brigades = sp_artillery
+allowed_brigades = sp_anti_air
+allowed_brigades = engineer
+allowed_brigades = b_01
+allowed_brigades = artillery
+allowed_brigades = rocket_artillery
+allowed_brigades = sp_rct_artillery
+
+upgrade = { type = infantry upgrade_time_factor = 0.19 upgrade_cost_factor = 1.16 }
+upgrade = { type = d_01 upgrade_time_factor = 0.8 upgrade_cost_factor = 0.58 }
+upgrade = { type = motorized upgrade_time_factor = 0.23 upgrade_cost_factor = 0.96 }
+upgrade = { type = mechanized upgrade_time_factor = 0.56 upgrade_cost_factor = 0.39 }
+upgrade = { type = light_armor upgrade_time_factor = 0.8 upgrade_cost_factor = 0.28 }
+
+# 0 - Tank Division 1945
+model = {
+	cost 					= 24
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 20
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 35
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 14
+	hardattack				= 8
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 3
+	fuelconsumption			= 13.5
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	equipment = { manpower = 8000 trucks = 458 artillery = 104 heavy_artillery = 24 anti_tank = 36 anti_air = 60 armored_car = 52 halftracks = 450 medium_armor = 299 }
+}
+# 1 - MBT Division 1952
+model = {
+	cost 					= 28
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 17
+	hardattack				= 10
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 3
+	fuelconsumption			= 15
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 halftracks = 428 medium_armor = 148 }
+}
+# 2 - MBT Division 1961
+model = {
+	cost 					= 28
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 18
+	hardattack				= 11
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 3.5
+	fuelconsumption			= 15
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 medium_armor = 148 }
+}
+# 3 - MBT Division 1965
+model = {
+	cost 					= 30
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 19
+	hardattack				= 12
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 3.5
+	fuelconsumption			= 15
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 medium_armor = 148 }
+}
+# 4 - MBT Division 1973
+model = {
+	cost 					= 30
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 20
+	hardattack				= 13
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 4
+	fuelconsumption			= 16
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 medium_armor = 148 }
+}
+# 5 - MBT Division 1976
+model = {
+	cost 					= 32
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 21
+	hardattack				= 14
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 4
+	fuelconsumption			= 16
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 medium_armor = 148 }
+}
+# 6 - MBT Division 1981
+model = {
+	cost 					= 32
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 22
+	hardattack				= 15
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 4.5
+	fuelconsumption			= 16
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 medium_armor = 148 }
+}
+# 7 - MBT Division 1985
+model = {
+	cost 					= 34
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 23
+	hardattack				= 16
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 4.5
+	fuelconsumption			= 17
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 medium_armor = 148 }
+}
+# 8 - MBT Division 1992
+model = {
+	cost 					= 34
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 24
+	hardattack				= 17
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 5
+	fuelconsumption			= 17
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 medium_armor = 148 }
+}
+# 9 - MBT Division 1999
+model = {
+	cost 					= 36
+	buildtime	 			= 345
+	manpower 				= 8
+	maxspeed 				= 22
+	defaultorganisation 	= 30
+	morale					= 30
+	defensiveness 			= 18
+	toughness				= 22
+	softness				= 20
+	suppression				= 1
+	airdefence				= 7
+	softattack				= 25
+	hardattack				= 18
+	airattack				= 4
+	transportweight			= 45
+	supplyconsumption 		= 5
+	fuelconsumption			= 17
+	no_fuel_combat_mod 		= -0.5
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.75
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.75
+	upgrade_time_boost 	= no
+	equipment = { manpower = 8000 trucks = 260 artillery = 84 heavy_artillery = 28 anti_tank = 28 anti_air = 34 armored_car = 82 medium_armor = 148 }
+}

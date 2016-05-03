@@ -1,0 +1,24 @@
+BRA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+160001;Head of State;João Figueiredo;1985;2012;2012;SC;Autocratic Charmer;Very High;BR1;X
+160002;Head of Government;João Figueiredo;1985;2012;2012;SC;Naive Optimist;Very High;BR1;X
+160003;Foreign Minister;Ramiro Guerreiro;1985;2012;2012;SC;Iron Fisted Brute;Medium;BR2;X
+160004;Minister of Armament;Ernane Galvêas;1985;2012;2012;SC;Military Entrepreneur;Medium;BR3;X
+160005;Minister of Security;João de Abreu;1985;2012;2012;SC;Crime Fighter;High;BR4;X
+160006;Head of Military Intelligence;Octávio de Medeiros;1985;2012;2012;FA;Political Specialist;Very High;BR5;X
+160007;Chief of Staff;João Figueiredo;1985;2012;2012;PA;School of Defence;High;BR6;X
+160008;Chief of Army;Walter Pires;1985;2012;2012;FA;Static Defence Doctrine;High;BR7;X
+160009;Chief of Navy;Alfredo Karam;1985;2012;2012;PA;Open Seas Doctrine;High;BR8;X
+160010;Chief of Air Force;Délio de Matos;1985;2012;2012;PA;Army Aviation Doctrine;High;BR9;X
+160011;Head of State;José Sarney;1985;2012;2012;SC;Autocratic Charmer;High;BR10;X
+160012;Head of Government;José Sarney;1985;2012;2012;SC;Naive Optimist;High;BR10;X
+160013;Head of State;Paulo Maluf;1985;2012;2012;SL;Autocratic Charmer;High;BR11;X
+160014;Head of Government;Paulo Maluf;1985;2012;2012;SL;Naive Optimist;High;BR11;X
+;Replacements;;;;;;;;;X
+160015;Head of State;Fernando Collor;1989;2012;2012;SL;Insignificant Layman;Very High;BR12;X
+160016;Head of Government;Fernando Collor;1989;2012;2012;SL;Naive Optimist;Very High;BR12;X
+160017;Head of State;Lula;1989;2012;2012;LWR;Insignificant Layman;Very High;BR13;X
+160018;Head of Government;Lula;1989;2012;2012;LWR;Naive Optimist;Very High;BR13;X
+160019;Head of State;Leonel Brizola;1989;2012;2012;LWR;Die-Hard Reformer;Very High;BR14;X
+160020;Head of Government;Leonel Brizola;1989;2012;2012;LWR;Flamboyant Tough Guy;Very High;BR14;X
+160021;Head of State;Silvio Santos;1989;2012;2012;SL;Courteous Figure;Very High;BR15;X
+160022;Head of Government;Silvio Santos;1989;2012;2012;SL;Reputable2;Very High;BR15;X

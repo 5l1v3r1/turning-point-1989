@@ -1,0 +1,1158 @@
+#  STRING NAME (do not change!);English;French;Italian;Spanish;German;Polish;Portuguese;Russian;;Extra2;X
+#  ========================;;;;;;;;;;;X
+########################################;;;;;;;;;;;X
+#  Division Description;;;;;;;;;;;X
+########################################;;;;;;;;;;;X
+NAME_INFANTRY;Infantry Division;.;.;.;.;.;.;.;.;.;X
+NAME_BRIGADE;Infantry Brigade;.;.;.;.;.;.;.;.;.;X
+NAME_SPECIAL_FORCES;Special Forces;.;.;.;.;.;.;.;.;.;X
+NAME_CAVALRY;Armored Cavalry;.;.;.;.;.;.;.;.;.;X
+NAME_AIR_CAVALRY;Air Cavalry;.;.;.;.;.;.;.;.;.;X
+NAME_MOTORIZED;Motorized Infantry Division;.;.;.;.;.;.;.;.;.;X
+NAME_MOT_BRIGADE;Motorized Infantry Brigade;.;.;.;.;.;.;.;.;.;X
+NAME_MECHANIZED;Mechanized Infantry Division;.;.;.;.;.;.;.;.;.;X
+NAME_MECHANIZED_BRIGADE;Mechanized Brigade;.;.;.;.;.;.;.;.;.;X
+NAME_LIGHT_ARMOR_BRI;Armored Personnel Carrier;.;.;.;.;.;.;.;.;.;X
+NAME_ARMOR;Main Battle Tank Division;.;.;.;.;.;.;.;.;.;X
+NAME_PARATROOPER;Airborne Division;.;.;.;.;.;.;.;.;.;X
+NAME_MARINE;Marine Division;.;.;.;.;.;.;.;.;.;X
+NAME_MARINE_BRIGADE;Marine Brigade;.;.;.;.;.;.;.;.;.;X
+NAME_BERGSJAEGER;Mountain Division;.;.;.;.;.;.;.;.;.;X
+NAME_MILITIA;Militia;.;.;.;.;.;.;.;.;.;X
+NAME_GARRISON;Garrison;.;.;.;.;.;.;.;.;.;X
+NAME_HQ;HQ;.;.;.;.;.;.;.;.;.;X
+NAME_FIGHTER;Fighters;.;.;.;.;.;.;.;.;.;X
+NAME_INTERCEPTOR;Air Superiority Fighters;.;.;.;.;.;.;.;.;.;X
+NAME_MULTI_ROLE;Multi-Role Fighters;.;.;.;.;.;.;.;.;.;X
+NAME_ESCORT;Naval Patrol;.;.;.;.;.;.;.;.;.;X
+NAME_STRATEGIC_BOMBER;Strategic Bombers;.;.;.;.;.;.;.;.;.;X
+NAME_TACTICAL_BOMBER;Strike Bomber;.;.;.;.;.;.;.;.;.;X
+NAME_NAVAL_BOMBER;Naval Patrol;.;.;.;.;.;.;.;.;.;X
+NAME_TRANSPORT_PLANE;Transport Planes;.;.;.;.;.;.;.;.;.;X
+NAME_BATTLESHIP;Aircraft Cruiser;.;.;.;.;.;.;.;.;.;X
+NAME_LIGHT_CRUISER;Frigate;.;.;.;.;.;.;.;.;.;X
+NAME_HEAVY_CRUISER;Cruiser;.;.;.;.;.;.;.;.;.;X
+NAME_BATTLECRUISER;Helicopter Carrier;.;.;.;.;.;.;.;.;.;X
+NAME_DESTROYER;Destroyers;.;.;.;.;.;.;.;.;.;X
+NAME_CARRIER;Aircraft Carrier;.;.;.;.;.;.;.;.;.;X
+NAME_SUBMARINE;Submarines;.;.;.;.;.;.;.;.;.;X
+NAME_TRANSPORT;Transports;.;.;.;.;.;.;.;.;.;X
+NAME_FLYING_BOMB;Flying Bomb;.;.;.;.;.;.;.;.;.;X
+NAME_FLYING_ROCKET;Strategic Rocket;.;.;.;.;.;.;.;.;.;X
+NAME_BALLISTIC_MISSILE;Missile;.;.;.;.;.;.;.;.;.;X
+NAME_ICBM;ICBM;.;.;.;.;.;.;.;.;.;X
+NAME_ARTILLERY;Field Artillery;.;.;.;.;.;.;.;.;.;X
+NAME_SP_ARTILLERY;Self-Propelled Artillery;.;.;.;.;.;.;.;.;.;X
+NAME_ROCKET_ARTILLERY;Armored Cavalry;.;.;.;.;.;.;.;.;.;X
+NAME_SP_ROCKET_ARTILLERY;Self-Propelled Rocket Artillery;.;.;.;.;.;.;.;.;.;X
+NAME_SP_ANTI_AIR;Self-Propelled Anti-Aircraft;.;.;.;.;.;.;.;.;.;X
+NAME_TANK_DESTROYER;Tank Destroyer;.;.;.;.;.;.;.;.;.;X
+NAME_HEAVY_ARMOR;Infantry Fighting Vehicle;.;.;.;.;.;.;.;.;.;X
+NAME_SUPER_HEAVY_ARMOR;Super Heavy Armored;.;.;.;.;.;.;.;.;.;X
+NAME_ARMORED_CAR;Armored Car;.;.;.;.;.;.;.;.;.;X
+NAME_POLICE;Police;.;.;.;.;.;.;.;.;.;X
+NAME_ANTITANK;Anti-Tank Missile Carrier;.;.;.;.;.;.;.;.;.;X
+NAME_ANTIAIR;Anti-Aircraft Brigade;.;.;.;.;.;.;.;.;.;X
+NAME_ENGINEER;Engineer Brigade;.;.;.;.;.;.;.;.;.;X
+NAME_ATTACK_HELICOPTER;Attack Helicopters;.;.;.;.;.;.;.;.;.;X
+NAME_CAS;Attack Aircraft;.;.;.;.;.;.;.;.;.;X
+NAME_CAG;Multi-Role Carrier Air Group;.;.;.;.;.;.;.;.;.;X
+NAME_ESCORT_CARRIER;Light Carrier;Porte-avions lйger;Portaerei Leggere;Portaaviones ligero;Geleittrдger;Lekki lotniskowiec ;;Легкий авианосец;;;X
+NAME_NUCLEAR_SUBMARINE;Nuclear Submarine;Sous-marin nuclйaire;Sottomarino Nucleare;Submarino nuclear;Atom-U-Boot;Atom. okr. podw.;;Атомная подлодка;;;X
+SNAME_AIR_CAVALRY;Air Cav;.;.;.;.;.;.;.;.;.;X
+SNAME_BRIGADE;Inf Bgd;.;.;.;.;.;.;.;.;.;X
+SNAME_SPECIAL_FORCES;SpecOps;.;.;.;.;.;.;.;.;.;X
+SNAME_MOT_BRIGADE;Mot Bgd;.;.;.;.;.;.;.;.;.;X
+SNAME_ARTILLERY;Art;.;.;.;.;.;.;.;.;.;X
+SNAME_SP_ARTILLERY;SP Art;.;.;.;.;.;.;.;.;.;X
+SNAME_SP_ANTI_AIR;SP AA;.;.;.;.;.;.;.;.;.;X
+SNAME_ROCKET_ARTILLERY;Arm Cav;.;.;.;.;.;.;.;.;.;X
+SNAME_SP_ROCKET_ARTILLERY;SP AA;.;.;.;.;.;.;.;.;.;X
+SNAME_TANK_DESTROYER;TD;.;.;.;.;.;.;.;.;.;X
+SNAME_HEAVY_ARMOR;IFV;.;.;.;.;.;.;.;.;.;X
+SNAME_SUPER_HEAVY_ARMOR;SH Arm;.;.;.;.;.;.;.;.;.;X
+SNAME_ARMORED_CAR;AC;.;.;.;.;.;.;.;.;.;X
+SNAME_ANTITANK;AT;.;.;.;.;.;.;.;.;.;X
+SNAME_ANTIAIR;AA;.;.;.;.;.;.;.;.;.;X
+SNAME_ENGINEER;Eng;.;.;.;.;.;.;.;.;.;X
+SNAME_POLICE;Pol;.;.;.;.;.;.;.;.;.;X
+SNAME_LIGHT_ARMOR_BRI;L-A;B-L;B-L;Bli Lig;L. Pz;L. Cz.;;Л.БТ.;;;X
+SNAME_ATTACK_HELICOPTER;AH;.;.;.;.;.;.;.;.;.;X
+SNAME_CAS;CAS;.;.;.;.;.;.;.;.;.;X
+SNAME_CAG;MRCAG;.;.;.;.;.;.;.;.;.;X
+SNAME_INFANTRY;Inf Div;.;.;.;.;.;.;.;.;.;X
+SNAME_CAVALRY;Arm Cav;.;.;.;.;.;.;.;.;.;X
+SNAME_MOTORIZED;Mot;.;.;.;.;.;.;.;.;.;X
+SNAME_MECHANIZED;Mec Div;.;.;.;.;.;.;.;.;.;X
+SNAME_MECHANIZED_BRIGADE;Mec Bgd;.;.;.;.;.;.;.;.;.;X
+SNAME_LIGHT_ARMOR;MBT Bgd;.;.;.;.;.;.;.;.;.;X
+SNAME_ARMOR;MBT;.;.;.;.;.;.;.;.;.;X
+SNAME_PARATROOPER;Par Div;.;.;.;.;.;.;.;.;.;X
+SNAME_MARINE;Mar Div;.;.;.;.;.;.;.;.;.;X
+SNAME_MARINE_BRIGADE;Mar Bgd;.;.;.;.;.;.;.;.;.;X
+SNAME_BERGSJAEGER;Mtn Div;.;.;.;.;.;.;.;.;.;X
+SNAME_GARRISON;Gar;.;.;.;.;.;.;.;.;.;X
+SNAME_HQ;HQ;.;.;.;.;.;.;.;.;.;X
+SNAME_INTERCEPTOR;ASF;.;.;.;.;.;.;.;.;.;X
+SNAME_MULTI_ROLE;MRF;.;.;.;.;.;.;.;.;.;X
+SNAME_ESCORT;Nav;.;.;.;.;.;.;.;.;.;X
+SNAME_STRATEGIC_BOMBER;Str;.;.;.;.;.;.;.;.;.;X
+SNAME_TACTICAL_BOMBER;Tac;.;.;.;.;.;.;.;.;.;X
+SNAME_NAVAL_BOMBER;Nav;.;.;.;.;.;.;.;.;.;X
+SNAME_TRANSPORT_PLANE;Tra;.;.;.;.;.;.;.;.;.;X
+SNAME_BATTLESHIP;CCV/N;.;.;.;.;.;.;.;.;.;X
+SNAME_CRUISER;CA;.;.;.;.;.;.;.;.;.;X
+SNAME_LIGHT_CRUISER;FF/FFG;.;.;.;.;.;.;.;.;.;X
+SNAME_HEAVY_CRUISER;CG;.;.;.;.;.;.;.;.;.;X
+SNAME_BATTLECRUISER;LHA;.;.;.;.;.;.;.;.;.;X
+SNAME_DESTROYER;DD/DDG;.;.;.;.;.;.;.;.;.;X
+SNAME_CARRIER;CV;.;.;.;.;.;.;.;.;.;X
+SNAME_SUBMARINE;SS;.;.;.;.;.;.;.;.;.;X
+SNAME_TRANSPORT;TP;.;.;.;.;.;.;.;.;.;X
+SNAME_FLYING_BOMB;V1;.;.;.;.;.;.;.;.;.;X
+SNAME_FLYING_ROCKET;V2;.;.;.;.;.;.;.;.;.;X
+SNAME_MILITIA;Mil;.;.;.;.;.;.;.;.;.;X
+SNAME_ESCORT_CARRIER;CVL;CVL;CVL;Portaav L;Geleittrдger;Lk. lotn.;;Легк. авианосец;;;X
+SNAME_NUCLEAR_SUBMARINE;SSN;SSN;SSN;Sub Nucl;SSN;Atom. OP;;АПЛ;;;X
+SDESC_INFANTRY;Infantry Division;.;.;.;.;.;.;.;.;.;X
+SDESC_BRIGADE;Infantry Brigade;.;.;.;.;.;.;.;.;.;X
+SDESC_SPECIAL_FORCES;Special Forces Brigade;.;.;.;.;.;.;.;.;.;X
+SDESC_AIR_CAVALRY;Air Cavalry Brigade;.;.;.;.;.;.;.;.;.;X
+SDESC_CAVALRY;Armored Cavalry;.;.;.;.;.;.;.;.;.;X
+SDESC_MOTORIZED;Motorized Division;.;.;.;.;.;.;.;.;.;X
+SDESC_MOT_BRIGADE;Motorized Infantry Brigade;.;.;.;.;.;.;.;.;.;X
+SDESC_MECHANIZED;Mechanized Division;.;.;.;.;.;.;.;.;.;X
+SDESC_MECHANIZED_BRIGADE;Mechanized Infantry Brigade;.;.;.;.;.;.;.;.;.;X
+SDESC_LIGHT_ARMOR;Armored Brigade;.;.;.;.;.;.;.;.;.;X
+SDESC_ARMOR;Armored Division;.;.;.;.;.;.;.;.;.;X
+SDESC_PARATROOPER;Paratroop Division;.;.;.;.;.;.;.;.;.;X
+SDESC_MARINE;Marine Division;.;.;.;.;.;.;.;.;.;X
+SDESC_MARINE_BRIGADE;Marine Brigade;.;.;.;.;.;.;.;.;.;X
+SDESC_BERGSJAEGER;Mountain Division;.;.;.;.;.;.;.;.;.;X
+SDESC_GARRISON;Garrison Division;.;.;.;.;.;.;.;.;.;X
+SDESC_HQ;HQ Division;.;.;.;.;.;.;.;.;.;X
+SDESC_CAS;Close Air Support Wing;.;.;.;.;.;.;.;.;.;X
+SDESC_INTERCEPTOR;Air Superiority Fighter Wing;.;.;.;.;.;.;.;.;.;X
+SDESC_MULTI_ROLE;Multi-Role Fighter Wing;.;.;.;.;.;.;.;.;.;X
+SDESC_ESCORT;Naval Patrol;.;.;.;.;.;.;.;.;.;X
+SDESC_STRATEGIC_BOMBER;Strategic Bombing Wing;.;.;.;.;.;.;.;.;.;X
+SDESC_TACTICAL_BOMBER;Tactical Bombing Wing;.;.;.;.;.;.;.;.;.;X
+SDESC_TRANSPORT_PLANE;Transport Wing;.;.;.;.;.;.;.;.;.;X
+SDESC_NAVAL_BOMBER;Naval Bomber Wing;.;.;.;.;.;.;.;.;.;X
+SDESC_BATTLESHIP;Aircraft Cruiser;.;.;.;.;.;.;.;.;.;X
+SDESC_CRUISER;Cruiser;.;.;.;.;.;.;.;.;.;X
+SDESC_LIGHT_CRUISER;Frigate;.;.;.;.;.;.;.;.;.;X
+SDESC_HEAVY_CRUISER;Cruiser;.;.;.;.;.;.;.;.;.;X
+SDESC_BATTLECRUISER;Helicopter Carrier;.;.;.;.;.;.;.;.;.;X
+SDESC_DESTROYER;Destroyer Flotilla;.;.;.;.;.;.;.;.;.;X
+SDESC_CARRIER;Carrier;.;.;.;.;.;.;.;.;.;X
+SDESC_SUBMARINE;Submarine Flotilla;.;.;.;.;.;.;.;.;.;X
+SDESC_TRANSPORT;Transport Flotilla;.;.;.;.;.;.;.;.;.;X
+SDESC_MILITIA;Militia Division;.;.;.;.;.;.;.;.;.;X
+SDESC_FLYING_BOMB;Flying Bomb Battery;.;.;.;.;.;.;.;.;.;X
+SDESC_FLYING_ROCKET;Strategic Rocket Battery;.;.;.;.;.;.;.;.;.;X
+SDESC_ESCORT_CARRIER;Light Carrier;Porte-avions lйger;Portaerei Leggere;Portaaviones ligero;Geleittrдger;Lekki lotniskowiec ;;Легкий авианосец;;;X
+SDESC_NUCLEAR_SUBMARINE;Nuclear Submarine;Sous-marin nuclйaire;Sottomarino Nucleare;Submarino nuclear;Atom-U-Boot;Atom. okr. podw.;;Атомная подлодка;;;X
+LDESC_INFANTRY;The modern division had become in many militaries the primary identifiable combat unit during the second half of the 20th century, supplanting the brigade, however the trend has been reversing during the Cold War. The peak of use of the division as the primary combat unit was during World War II, when over a thousand divisions were deployed by the belligerents.;.;.;.;.;.;.;.;.;.;X
+LDESC_BRIGADE;A brigade is a major tactical military formation that is typically composed of three to six battalions, plus supporting elements depending on the era and nationality of a given army and could be perceived as an enlarged/reinforced regiment. Usually, a brigade is a sub-component of a division, a larger unit consisting of two or more brigades. Brigades formed into divisions are usually infantry or armoured (sometimes referred to as combined arms brigades), in addition to combat units they may include combat support units or sub-units such as artillery and engineers, and logistic units or sub-units.;.;.;.;.;.;.;.;.;.;X
+LDESC_SPECIAL_FORCES;Special forces, or special operations forces are military units highly-trained to perform unconventional, often high-risk missions.;.;.;.;.;.;.;.;.;.;X
+LDESC_AIR_CAVALRY;Air mobility has been a key concept in offensive operations since the 1930s. Initial approaches to air mobility focused on airborne and glider-borne troops. During World War II many assaults were done by military gliders. Following the war faster aircraft led to the abandonment of the flimsy wooden gliders with the then new helicopters taking their place.;.;.;.;.;.;.;.;.;.;X
+LDESC_CAVALRY;Armoured cavalry began to replace horse cavalry as the reconnaissance arm in most armies after the First World War, although many armies continued to maintain horse cavalry through the end of the Second World War. It differed from regular armour units in that the main AFVs were armoured cars or scout cars, with some light or medium tanks.;" motorcycle troops or infantry in trucks or half-tracks rounded out the unit.""";.;.;.;.;.;.;.;.;X
+LDESC_MOTORIZED;Motorized Infantry make use of wheeled vehicles, such as trucks, to manoeuvre more rapidly than basic Infantry. But they are limited to roads and so their performance may suffer in provinces with low infrastructure levels.;.;.;.;.;.;.;.;.;.;X
+LDESC_MECHANIZED;Mechanized Infantry are equipped with all-terrain vehicles, such as the halftrack, which does not limit them to roads as with Motorized Infantry and allows them to work well with armoured units. However, the specialist equipment they require means their cost is high.;.;.;.;.;.;.;.;.;.;X
+LDESC_LIGHT_ARMOR;An armoured personnel carrier (APC) is an armoured fighting vehicle designed to transport infantry to the battlefield. APCs are usually armed with only a machine gun although variants carry recoilless rifles, anti-tank guided missiles (ATGMs), or mortars. They are not usually designed to take part in a direct-fire battle, but to carry troops to the battlefield safe from shrapnel and ambush. They may have wheels or tracks.;.;.;.;.;.;.;.;.;.;X
+LDESC_ARMOR;Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks became heaver, their speeds would reduce accordingly.  They also required a constant supply of fuel to remain in the field, and if this vital supply was severed, the armoured unit would be next to useless.;.;.;.;.;.;.;.;.;.;X
+LDESC_PARATROOPER;Paratroopers are an elite branch of the Infantry, specifically trained to either parachute to the ground or be ferried to a battle in gliders. Their rapid deployment capability makes them ideal for use as a mobile reserve or for use in capturing a strategic asset behind enemy lines. However, they are handicapped by a lack of heavy equipment due to their mode of travel, and when they are in action it is advisable to move other units to their support.;.;.;.;.;.;.;.;.;.;X
+LDESC_MARINE;Marines are an elite branch of the Infantry, specifically trained for assaulting beaches and other naval operations. They make use of specialised equipment and tactics to give them an edge over regular Infantry in such an environment.;.;.;.;.;.;.;.;.;.;X
+LDESC_BERGSJAEGER;Mountain Troops are an elite branch of the Infantry, specifically trained for operations in mountainous terrain.  They make use of specialised equipment and tactics to give them an edge over regular Infantry in such an environment.;.;.;.;.;.;.;.;.;.;X
+LDESC_GARRISON;Garrison Divisions are second line troops used to safeguard valuable objectives far from the front lines. They lack heavy equipment and transportation, making them immobile except for strategic redeployment. They have limited fighting capability but can be used to free more capable troops for frontline use.;.;.;.;.;.;.;.;.;.;X
+LDESC_HQ;Headquarters are the brains of your armed forces. They contain the staff that keeps your army running, such as logistics and planning staff. They give a bonus to the units fighting in the vicinity but it is advisable to guard them, as their own fighting ability is poor.;.;.;.;.;.;.;.;.;.;X
+LDESC_ATTACK_HELICOPTER;An attack helicopter is a military helicopter with the primary role of an attack aircraft, with the capability of engaging targets on the ground, such as enemy infantry and armored vehicles. Attack helicopters are designed to maximize the helicopter’s intrinsic abilities to exploit terrain for cover and to loiter closely over a battlefield in order to provide immediate close air support. These helicopters carry a myriad of weaponry to engage ground targets, including guided air-to-ground missiles, autocannon, rockets, and machine guns. Attack helicopters can also carry air-to-air missiles, but these are intended only for self-defense.;.;.;.;.;.;.;.;.;.;X
+LDESC_CAS;WWII cemented the importance of close air support (CAS) in warfare and the need for specialized CAS aircraft. Although fighters can perform CAS missions, specialized CAS aircraft possess better handling characteristics at the low speeds and altitude that characterize CAS missions. CAS aircraft must also be able to carry plenty of ordnance, precisely target the enemy’s positions, possess the ability to loiter over the battlefield, and be able to stay aloft despite taking heavy damage.;.;.;.;.;.;.;.;.;.;X
+LDESC_INTERCEPTOR;An air superiority fighter is a type of fighter aircraft intended to gain air superiority in a war, by entering and seizing control of enemy airspace. Air superiority fighters are designed to effectively engage enemy fighters, more than other types of aircraft. They are usually more expensive and procured in smaller numbers than multirole fighters.;.;.;.;.;.;.;.;.;.;X
+LDESC_MULTI_ROLE;A multirole fighter is a combat aircraft designed to perform many different combat missions previously relegated to special-purpose aircraft. In addition to its air-to-air combat role, a multirole fighter can also, for instance, also operate as a reconnaissance, ground attack, maritime interdiction, and air defense aircraft. The motivation for developing a multirole fighter is usually to reduce the number of different models of aircraft among allies, and to reduce supply and logistical costs.;" in other words, an aircraft whose various roles include, among others, the role of air-to-air combat.""";.;.;.;.;.;.;.;.;X
+LDESC_ESCORT;The Naval Patrol is designed for use over water and make accurate tactical strikes against enemy surface vessels using torpedoes or armour-piercing bombs.  They have a limited dog-fighting capability, which makes them vulnerable if intercepted by fighters.;.;.;.;.;.;.;.;.;.;X
+LDESC_STRATEGIC_BOMBER;Strategic bombers destroy the economic and industrial capability of an enemy state to make war by systematically bombing cities, factories, and infrastructure. The advent of nuclear weapons gives strategic bombers unprecedented destructive potential. Furthermore, the strategic bomber’s long range and loiter time gives it a strategic second strike capability in a mutually-assured destruction scenario. Modern strategic bombers rely on speed and stealth to perform their mission.;.;.;.;.;.;.;.;.;.;X
+LDESC_TACTICAL_BOMBER;Strike bombers are aircraft designed to attack ground targets with greater precision than strategic bombers. They differ from close air support aircraft in the scope of their intended mission: strike bombers generally perform more interdiction and long range attack missions than CAS aircraft, but the roles of the two types of aircraft overlap significantly. Strike bombers also carry a larger payload than CAS aircraft, enabling them to effectively target enemy installations.;.;.;.;.;.;.;.;.;.;X
+LDESC_TRANSPORT_PLANE;Transport Planes are designed to ferry men and materials over long distances quickly. Paratroops need Transport Planes in order to make a paradrop.;.;.;.;.;.;.;.;.;.;X
+LDESC_BATTLESHIP;The aircraft cruiser or cruiser-carrier was originally a 1930s experimental concept of creating an all-around warship, trying to combine all the good features of the aircraft carrier and the heavy cruiser. The early aircraft cruisers were usually armed with relatively heavy artillery, mines and a number of aircraft fitted with floats. A more modern derivative of the aircraft cruiser is the helicopter cruiser. The Invincible-class aircraft carriers of the Royal Navy can also be considered;" they were originally classed as cruisers due to their original role as command and control platforms as well as ASW vessels, taking on those roles from the RN's ''Tiger'' class cruiser conversions. In the Russian Navy, ""Aviation Cruiser"" is a designation for the Kiev-class and Kuznetsov-class ships. They are a cross between cruiser and aircraft carrier and are divided in two classes, the aviation cruisers and the heavy aviation cruisers.";.;.;.;.;.;.;.;.;X
+LDESC_LIGHT_CRUISER;In modern navies, Frigates are used to protect other warships and merchant-marine ships, especially as anti-submarine warfare (ASW) combatants for amphibious expeditionary forces, underway replenishment groups, and merchant convoys.;.;.;.;.;.;.;.;.;.;X
+LDESC_HEAVY_CRUISER;In the later 20th century, the obsolescence of the battleship left the cruiser as the largest and most powerful surface combatant. The role of the cruiser varied according to ship and navy, often including air defense, commerce raiding and shore bombardment. The U.S. Navy in the Cold War period built guided-missile cruisers primarily designed to provide air defense, while the navy of the USSR built cruisers with heavy anti-ship missiles designed to sink NATO carrier task forces.;.;.;.;.;.;.;.;.;.;X
+LDESC_BATTLECRUISER;A helicopter carrier is a type of aircraft carrier whose primary purpose is to operate helicopters. Helicopter carriers have been used as anti-submarine warfare carriers and amphibious assault ships.Helicopter carriers can either have a full-length aircraft deck like HMS Ocean, or have a large helicopter deck, usually aft, as in the Soviet Navy's Moskva class or RFA Argus. A full-length deck maximises deck space for helicopter landing spots. Such a design also allows for a hangar deck.;.;.;.;.;.;.;.;.;.;X
+LDESC_DESTROYER;The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defence away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties.;.;.;.;.;.;.;.;.;.;X
+LDESC_CARRIER;An aircraft carrier is a warship designed with a primary mission of deploying and recovering aircraft, acting as a seagoing airbase. Aircraft carriers thus allow a naval force to project airpower worldwide without having to depend on local bases for staging aircraft operations. Aircraft carriers are typically the capital ship of a fleet, and are extremely expensive to build and important to protect.;.;.;.;.;.;.;.;.;.;X
+LDESC_SUBMARINE;The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive.;.;.;.;.;.;.;.;.;.;X
+LDESC_TRANSPORT;Naval Transports are used for moving supplies and resources around the world. They can also be used to ferry land units across stretches of water. They are completely unarmed and, unless well protected, will be vulnerable to attack by other naval units or aircraft.;.;.;.;.;.;.;.;.;.;X
+LDESC_MILITIA;Militia are a cheap and rapidly formed Infantry unit. Their hurried training and poor equipment mean they are of little use in combat, although they can be useful for controlling territory and as a last line of defence when no other units are available.;.;.;.;.;.;.;.;.;.;X
+LDESC_NAVAL_BOMBER;The Naval Patrol is designed for use over water and make accurate tactical strikes against enemy surface vessels using torpedoes or armour-piercing bombs.  They have a limited dog-fighting capability, which makes them vulnerable if intercepted by fighters.;.;.;.;.;.;.;.;.;.;X
+LDESC_FLYING_BOMB;The Flying Bomb (e.g. the German V1) is a pilotless aircraft powered by an early jet engine, designed to deliver a payload of explosives to an area target. It is slower than a rocket or missile, which means that it can be intercepted and shot down by enemy fighters.;.;.;.;.;.;.;.;.;.;X
+LDESC_FLYING_ROCKET;The Rocket or Ballistic Missile (e.g. the German V2) is designed to deliver a payload of explosives to a distant target. Its high speed makes it almost impossible to intercept but it is an expensive way of destroying the enemy with conventional explosives.  Nuclear weapons are needed to give it more than psychological effect.;.;.;.;.;.;.;.;.;.;X
+LDESC_ESCORT_CARRIER;The Light Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carries made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, are only lightly armed, lightly armored, and of far smaller displacement than fleet carriers.;Le porte-avions lйger devenait une partie importante des flottes pendant le cours de la guerre. Sa capacitй de protйger les convois, de chasser des sous-marins et de soutenir des embarquements amphibies faisait que les grands porte-avions йtaient libre pour des autres tвches. Les Bateaux eux-mкmes ont par contre des armes et armures relativement faibles et sont beaucoup moins fort que les porte-avions normaux. ;La Portaerei Leggera divenne un'importante unita' navale verso la fine della guerra. La sua capacita' di protezione dei convogli, la caccia ai sottomarini e il supporto alle operazioni anfibie con l'utilizzo di forze aeree trasportate ne fecero un mezzo utile ed economico, lasciando disponibili le piu' costose Portaerei di Flotta per altri ruoli. La Portaerei Leggera era pero' dotata di un minore armamento e corazzatura e in generale meno potenti delle Portaerei di Flotta.;El portaaviones ligero se convirtiу en un navнo importante avanzada la guerra. Su capacidad para proteger convoyes, cazar submarinos activamente y apoyar las operaciones anfibias mediante las aeronaves que transportaba lo hicieron muy eficaz y rentable, pues asн se pudieron destinar a los portaaviones de la flota mбs caros a otros cometidos. No obstante, los propios buques sуlo van ligeramente armados y blindados y tienen un desplazamiento bastante inferior al de otros portaaviones de la flota.;Der Geleittrдger wurde mit fortschreiten des Krieges ein wichtiger Bestandteil der Flotten. Seine Fдhigkeit Konvois zu schьtzen, aktiv U-Bote zu jagen und Amphibienlandungen zu unterstьtzen machte ihn zu einem guten kosteneffizienten Fahrzeug was die groЯen Trдgerschiffe fьr andere Aufgaben freihielt. Die Schiffe selbst sind jedoch nur leicht bewaffnet und gepanzert und um vieles kleiner als normale Flugzeugtrдger.;Lekki lotniskowiec staі siк waїn№ jednostk№ morsk№ w pуџniejszym okresie wojny. Moїliwoњж ochrony konwojуw, tropienia i niszczenia okrкtуw podwodnych a takїe wspierania dziaіaс desantowych dziкki przenoszonym samolotom uczyniіy z niego okrкt opіacalny i bardzo uїyteczny. Dziкki nim moїliwe staіo siк wykorzystywanie lotniskowcуw floty do innych dziaіaс. Lekkie lotniskowce s№ jednakїe uzbrojone jedynie w broс lekk№, posiadaj№ sіaby pancerz i maj№ o wiele mniejsz№ wypornoњж niї lotniskowce floty. ;;Ближе к окончанию войны для защиты конвоев, поиска и уничтожения подлодок противника, при проведении десантных операций стали использоваться легкие авианосцы. Широкий спектр выполняемых задач очень скоро сделал их незаменимыми, что позволяло высвободить более дорогие крупные авианосцы для самых сложных и ответственных операций. Легкие авианосцы имели относительно слабую бронезащиту и вооружение, а также намного меньшее водоизмещение.;;;X
+LDESC_NUCLEAR_SUBMARINE;Nuclear Submarine;Sous-marin nuclйaire;Sottomarino Nucleare;Submarino nuclear;Atom-U-Boot;Atom. okr. podw.;;Атомная подлодка;;;X
+##;;;;;;;;;;;X
+SDESC_ARTILLERY;This unit has a artillery brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_SP_ARTILLERY;This unit has an self-propelled artillery brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_SP_ANTI_AIR;This unit has an self-propelled anti-air brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_ROCKET_ARTILLERY;This unit has an Cavalry brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_SP_ROCKET_ARTILLERY;This unit has an self-propelled AA artillery brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_TANK_DESTROYER;This unit has an tank destroyer brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_LIGHT_ARMOR_BRIG;This unit has a APC brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_HEAVY_ARMOR;This unit has an IFV brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_SUPER_HEAVY_ARMOR;This unit has an super-heavy tank brigade;.;.;.;.;.;.;.;.;.;X
+SDESC_ARMORED_CAR;This unit has a armored car brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_ANTITANK;This unit has an Medium-tank brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_ANTIAIR;This unit has a anti-aircraft brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_ENGINEER;This unit has a engineering brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_POLICE;This unit has an police brigade.;.;.;.;.;.;.;.;.;.;X
+SDESC_CAG;This unit has a multi-role carrier air group.;.;.;.;.;.;.;.;.;.;X
+SDESC_ATTACK_HELICOPTER;This unit has an helicopter unit;.;.;.;.;.;.;.;.;.;X
+LDESC_ARTILLERY;Artillery pieces will increase the 'Soft Attack' capability of your units, inflicting more damage on Infantry and Motorized units.;.;.;.;.;.;.;.;.;.;X
+LDESC_SP_ARTILLERY;SP, or Self-Propelled, Artillery gives your armored and mechanized units an additional punch against enemy infantry while not reducing the speed of those units as much as normal artillery.;.;.;.;.;.;.;.;.;.;X
+LDESC_SP_ANTI_AIR;SP, or Self-Propelled, Anti Air Artillery gives your armored and mechanized units added capability against Air units such as Close air attack planes. They are very effective against enemy air units, and do not reduce the speed of your fast units like normal AA artillery.;.;.;.;.;.;.;.;.;.;X
+LDESC_ROCKET_ARTILLERY;Cavalry Brigade gives your units an added Reconnaissance capability and increases your division with one additional combat brigade;.;.;.;.;.;.;.;.;.;X
+LDESC_SP_ROCKET_ARTILLERY;SP, or Self-Propelled, Anti Air Artillery gives your armored and mechanized units added capability against Air units such as Close air attack planes. They are very effective against enemy air units, and do not reduce the speed of your fast units like normal AA artillery.;.;.;.;.;.;.;.;.;.;X
+LDESC_TANK_DESTROYER;Tank Destroyers are similar to normal Tanks. The difference is that they don't have a rotating turret, and mount most of their armor to the front. They give your units an added capability against hard targets such as enemy armor.;.;.;.;.;.;.;.;.;.;X
+LDESC_LIGHT_ARMOR_BRIG;An armoured personnel carrier (APC) is an armoured fighting vehicle designed to transport infantry to the battlefield. APCs are usually armed with only a machine gun although variants carry recoilless rifles, anti-tank guided missiles (ATGMs), or mortars. They are not usually designed to take part in a direct-fire battle, but to carry troops to the battlefield safe from shrapnel and ambush. They may have wheels or tracks.;.;.;.;.;.;.;.;.;.;X
+LDESC_HEAVY_ARMOR;An infantry fighting vehicle (IFV), is a type of armoured fighting vehicle used to carry infantry into battle and provide fire support. They are differentiated from APCs—which are purely transport vehicles, armed only for self-defence—because they are designed to give direct fire support to the dismounted infantry and so usually have significantly enhanced armament. IFVs also often have improved armour and some have firing ports (allowing the infantry to fire personal weapons while mounted).;.;.;.;.;.;.;.;.;.;X
+LDESC_SUPER_HEAVY_ARMOR;Super Heavy Armor is the ultimate shock weapon. Nearly impossible to kill, they give horrendous bonuses to your units' hard and soft attack values. They also consume enormous amounts of supplies and fuel, and slow your units to a crawl.;.;.;.;.;.;.;.;.;.;X
+LDESC_ARMORED_CAR;Armored Cars are wheeled vehicles, typically with light armour and modest weaponry. They give your units an added capability against soft targets, being most effective against supply trucks and rear area troops.;.;.;.;.;.;.;.;.;.;X
+LDESC_ANTITANK;Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks became heaver, their speeds would reduce accordingly.  They also required a constant supply of fuel to remain in the field, and if this vital supply was severed, the armoured unit would be next to useless.;.;.;.;.;.;.;.;.;.;X
+LDESC_ANTIAIR;Anti-Aircraft weapons will increase the 'Air Attack' capability of your units, so that they inflict more damage on Aircraft.;.;.;.;.;.;.;.;.;.;X
+LDESC_ENGINEER;Engineer Brigades help crossing rivers, making the process quicker and reducing disorganisation.;.;.;.;.;.;.;.;.;.;X
+LDESC_POLICE;Police Brigades are good at suppressing partisans and rebels.;.;.;.;.;.;.;.;.;.;X
+LDESC_CAG;Carrier Air Groups represent the complement of planes stationed on carriers which provide both protection for the carrier and allow it to strike enemy ships at a large distance. The multi-role aircraft has a carrier based variant that is purposefully built for carrier operations and unlike its land based variant, the MRCAG also boasts a reasonable sea attack capability.;.;.;.;.;.;.;.;.;.;X
+##;;;;;;;;;;;X
+NAME_NAVAL_ASW;ASW;Lutte anti sous-marine;Anti-Sommergibile;GAS;UAW;Zwalcz. okr. podw.;ASW;ПЛО;;;X
+SNAME_NAVAL_ASW;ASW;ASM;ASM;GAS;UAW;ZOP;ASW;ПЛО;;;X
+LDESC_NAVAL_ASW;Improvements in both Sonar and ASW weaponry improve this ships ability to find and sink submarines.;Les amйliorations du sonar et de l'armement de lutte anti sous-marine embarquй amйliorent sa capacitй а dйtecter et couler les sous-marins hostiles.;Miglioramenti sia al Sonar che all'armamento subacqueo aumentano la capacitа di questa nave di scoprire e affondare i sommergibili.;Las mejoras en sуnar y armamento antisubmarino mejoran la capacidad de este barco para encontrar y hundir submarinos.;Verbesserungen bei Sonar und UAW erhцhen die Fдhigkeit von Schiffen, U-Boote aufzuspьren und zu versenken;Ulepszenia sonaru i uzbrojenia przeciw іodziom podwodnym zwiкkszyіy moїliwoњci tego okrкtu w zakresie znajdowania i zatapiania okrкtуw podwodnych.;Melhorias no sonar e no armamento ASW incrementam a capacidade deste navio para encontrar e afundar submarinos.;Усовершенствованные гидролокаторы и противолодочное вооружение повышают возможности этого корабля в борьбе с подлодками.;;;X
+SDESC_NAVAL_ASW;This ship has upgraded ASW equipment.;Ce navire est йquipй pour la lutte anti sous-marine.;A questa nave и stato migliorato l'equipaggiamento antisommergibile.;Las mejoras en sуnar y armamento antisubmarino mejoran la capacidad de este barco para encontrar y hundir submarinos.;Dieses Schiff verfьgt ьber Verbesserungen zur UAW.;Ten okrкt posiada ulepszone wyposaїenie do obrony przeciw okrкtom podwodnym.;Este navio aprimorou os equipamentos de luta antissubmarino.;Усовершенствованные гидролокаторы и противолодочное вооружение повышают возможности этого корабля в борьбе с подлодками.;;;X
+NAME_NAVAL_ANTI_AIR_S;Anti Air;Dйfense anti aйrienne;Anti-Aerea;Antiaйrea;Flugabwehrkanonen;Obr. przeciwlot.;Defesa Antiaйrea;ПВО;;;X
+SNAME_NAVAL_ANTI_AIR_S;S-AA;DCA;AA;AA;Fl.Abw.;P-lot.;AA;ПВО;;;X
+LDESC_NAVAL_ANTI_AIR_S;Improvements to anti aircraft armaments and targeting technology make this ship better at engaging enemy aircraft.;L'amйlioration de l'armement de dйfense anti-aйrienne du navire ainsi que de son systиme de visйe rendent ce navire plus apte а affronter les avions ennemis.;Miglioramenti all'armamento anti-aereo e ai sistemi di puntamento aumentano le capacitа di questa nave di ingaggiare i velivoli nemici.;Las mejoras en armamento antiaйreo y tecnologнa de fijaciуn de objetivos mejoran la capacidad de este barco para luchar contra aviones enemigos.;Die neue Luftabwehr verbessert die Fдhigkeit von Schiffen, Luftangriffe abzuwehren;Ulepszenia uzbrojenia przeciwlotniczego i technologii odnajdowania celуw uczyniіy ten okrкt lepszym w walce z wrogimi samolotami.;O aperfeiзoamento da tecnologia de pontaria e do armamento antiaйreo torna este navio mais eficiente contra aeronaves inimigas.;Усовершенствованное зенитное вооружения и системы прицеливания повышают возможности этого корабля в борьбе с самолетами противника.;;;X
+SDESC_NAVAL_ANTI_AIR_S;This ship has additional Anti-Air weapon systems.;Ce navire est йquipй de canons de DCA supplйmentaires.;A questa nave sono stati aggiunti ulteriori sistemi antiaerei.;Las mejoras en armamento antiaйreo y tecnologнa de fijaciуn de objetivos mejoran la capacidad de este barco para luchar contra aviones enemigos. ;Dieses Schiff verfьgt ьber zusдtzliche Flugabwehrkannonen.;Ten okrкt posiada dodatkowe uzbrojenie przeciwlotnicze.;Este navio foi equipado com armas antiaйreas adicionais.;Усовершенствованное зенитное вооружения и системы наведения повышают возможности этого корабля в борьбе с самолетами противника.;;;X
+NAME_NAVAL_RADAR_S;Radar;Radar;Radar;Radar;Radar;Radar;Radar;РЛС;;;X
+SNAME_NAVAL_RADAR_S;S-RA;Radar;Radar;RA;Radar;Radar;RA;РЛС;;;X
+LDESC_NAVAL_RADAR_S;Improved surface search radar allows this ship to better find enemy naval units and convoys. ;L'amйlioration du radio repйrage du navire lui permet de decouvrir plus aisйment les navires et convois ennemis.;L'utilizzo di radar di scoperta di superficie permette a questa nave di incrementare le capacitа di scoperta di unitа navali nemiche e convogli.;El radar de superficie mejorado hace que este barco encuentre unidades navales y convoyes enemigos con mayor eficacia. ;Verbessertes Ьberwasserradar erhцht die Fдhigkeit von Schiffen, feindliche Schiffe und Konvois zu finden;Ulepszony radar powierzchniowy pozwala temu okrкtowi lepiej odnajdywaж jednostki nawodne nieprzyjaciela, w tym konwoje.;O aperfeiзoamento do radar de busca de superfнcie deste navio facilita a localizaзгo de comboios e unidades navais inimigas.;Усовершенствованная РЛС позволяет этому кораблю чаще обнаруживать вражеские корабли и конвои.;;;X
+SDESC_NAVAL_RADAR_S;This ship is equipped with Radar.;Ce navire est йquipй de systиmes de radar.;Questa nave и equipaggiata con un radar.;El radar de superficie mejorado hace que este barco encuentre unidades navales y convoyes enemigos con mayor eficacia. ;Dieses Schiff verfьgt ьber zusдtzliches Radar.;Ten okrкt wyposaїony jest w radar.;Este navio estб equipado com radar.;Усовершенствованная РЛС позволяет этому кораблю чаще обнаруживать вражеские корабли и конвои.;;;X
+NAME_NAVAL_FIRE_CONTROLL_S;Fire Control;Systиme de visйe;Centrale di Tiro;Control de tiro;Feuerleitanlage;Kontrola ognia;Controle de tiro;СУО;;;X
+SNAME_NAVAL_FIRE_CONTROLL_S;S-FC;Sys. visйe;Cen. Tiro;CT;FLA;K. ognia;CT;СУО;;;X
+LDESC_NAVAL_FIRE_CONTROLL_S;The use of mechanical computers to calculate and update firing solutions allows this naval unit to fire further and more accurately;L'utilisation de calculatrices mйchaniques pour calculer et mettre а jour les possibilitйs de tir donne а ce navire une meilleure portйe et prйcision de tir.;L'utilizzo di calcolatori meccanici per determinare e aggiornare le soluzioni di tiro permette a questa nave una superiore cadenza di fuoco e una maggiore precisione.;El uso de computadoras mecбnicas para calcular y optimizar las opciones de disparo hace que esta unidad naval tenga mayor alcance y precisiуn de tiro.;Durch den Einsatz von Computern wird die Zielgenauigkeit der Schiffe erhцht;Uїycie komputerуw mechanicznych w celu obliczania i aktualizacji lokalizacji celуw pozwala tej jednostce strzelaж dalej i bardziej celnie.;O uso de computadores mecвnicos para calcular e atualizar soluзхes de tiro permite a esta unidade naval disparar mais longe e com mais precisгo.;Использование механических вычислительных устройств для расчета и корректировки данных для стрельбы позволяет этому кораблю стрелять дальше и точнее.;;;X
+SDESC_NAVAL_FIRE_CONTROLL_S;This ship has improved Fire Control systems.;Ce navire est йquipй d'un systиme de visйe.;A questa nave и stato migliorato il sistema di controllo del tiro.;El uso de computadoras mecбnicas para calcular y optimizar las opciones de disparo hace que esta unidad naval tenga mayor alcance y precisiуn de tiro.;Dieses Schiff verfьgt ьber zusдtzliche Feuerleitanlagen.;Ten okrкt posiada ulepszone systemy kontroli ognia.;Este navio aprimorou os sistemas de controle de tiro.;Использование механических вычислительных устройств для расчета и корректировки данных для стрельбы позволяет этому кораблю стрелять дальше и точнее.;;;X
+NAME_NAVAL_FIRE_CONTROLL_L;Capital Fire Control;Systиme de visйe de navire amiral;Centrale di Tiro per navi maggiori;Control de tiro de gran unidad;Feuerleitanlage fьr GroЯkampfschiff;Kontrola ognia wielkiej floty;Controle de tiro (Navio de grande porte);СУО крупн. кораблей;;;X
+SNAME_NAVAL_FIRE_CONTROLL_L;FC;Sys. visйe;Cen. Tiro;CT;GKS-FLA;K. ognia;CT;СУО;;;X
+LDESC_NAVAL_FIRE_CONTROLL_L;The use of mechanical computers to calculate and update firing solutions allows this naval unit to fire further and more accurately;L'utilisation de calculatrices mйchaniques pour calculer et mettre а jour les possibilitйs de tir donne а ce navire une meilleure portйe et prйcision de tir.;L'utilizzo di calcolatori meccanici per determinare e aggiornare le soluzioni di tiro permette a questa nave una superiore cadenza di fuoco e una maggiore precisione.;El uso de computadoras mecбnicas para calcular y optimizar las opciones de disparo hace que esta unidad naval tenga mayor alcance y precisiуn de tiro.;Durch den Einsatz von Computern wird die Zielgenauigkeit der Schiffe erhцht;Uїycie komputerуw mechanicznych w celu obliczania i aktualizacji lokalizacji celуw pozwala tej jednostce strzelaж dalej i bardziej celnie.;O uso de computadores mecвnicos para calcular e atualizar soluзхes de tiro permite a esta unidade naval disparar mais longe e com mais precisгo.;Использование механических вычислительных устройств для расчета и корректировки данных для стрельбы позволяет этому кораблю стрелять дальше и точнее.;;;X
+SDESC_NAVAL_FIRE_CONTROLL_L;This ship has improved Fire Control systems.;Ce navire est йquipй d'un systиme de visйe.;A questa nave и stato migliorato il sistema di controllo del tiro.;El uso de computadoras mecбnicas para calcular y optimizar las opciones de disparo hace que esta unidad naval tenga mayor alcance y precisiуn de tiro.;Dieses Schiff verfьgt ьber zusдtzliche Feuerleitanlagen.;Ten okrкt posiada ulepszone systemy kontroli ognia.;Este navio aprimorou os sistemas de controle de tiro.;Использование механических вычислительных устройств для расчета и корректировки данных для стрельбы позволяет этому кораблю стрелять дальше и точнее.;;;X
+NAME_NAVAL_IMPROVED_HULL_S;Improved Hull;Coque amйliorйe;Scafo migliorato;Casco mejorado;Verbesserter Rumpf;Ulepszony kadіub;Casco aprimorado;Улучш. корпус;;;X
+SNAME_NAVAL_IMPROVED_HULL_S;S-IH;Coque;Scafo;CM;Verb. Rumpf;Ul. kadіub;CA;УК;;;X
+LDESC_NAVAL_IMPROVED_HULL_S;The focusing of armour on key locations and the addition of more watertight compartments will improve the survivability of this ship.;L'attention apportйe au blindage aux points clefs et l'ajout de nouveaux compartiments impermйables amйliorent la viabilitй du navire.;L'incremento di corazzatura nei punti chiave e l'aggiunta di un maggior numero di compartimenti stagni migliora la capacitа di sopravvivenza della nave.;La concentraciуn del blindaje en puntos clave y la instalaciуn de mбs compartimentos estancos aumentan la posibilidad de supervivencia de este barco.;Durch den Einsatz von verbesserter Panzerung und wasserdichten Abteilungen ist das Schiff schwerer zu versenken;Pogrubienie opancerzenia w kluczowych miejscach okrкtu oraz dodanie wodoszczelnych grodzi poprawia zdolnoњж przetrwania tego okrкtu w walce na morzu.;A blindagem de pontos-chave e o acrйscimo de compartimentos estanques melhora a capacidade de sobrevivкncia deste navio.;Усиленное бронирование ключевых участков корпуса и дополнительные водонепроницаемые переборки повышает живучесть этого корабля.;;;X
+SDESC_NAVAL_IMPROVED_HULL_S;This ship has added Armor protection.;La coque de ce navire est renforcйe.;A questa nave и stata migliorata la protezione.;La concentraciуn del blindaje en puntos clave y la instalaciуn de mбs compartimentos estancos aumentan la posibilidad de supervivencia de este barco. ;Dieses Schiff verfьgt ьber zusдtzliche Panzerung.;Ten okrкt posiada dodatkowe opancerzenie.;Este navio tem o casco reforзado.;Усиленное бронирование ключевых участков корпуса и дополнительные водонепроницаемые переборки повышает живучесть этого корабля.;;;X
+NAME_NAVAL_TORPEDOES_S;Torpedoes;Torpilles;Siluri;Torpedos;Torpedos;Torpedy;Torpedos;Торпеды;;;X
+SNAME_NAVAL_TORPEDOES_S;S-TM;Torp.;Siluri;TN;Torp.;Torp.;TP;ТОРП;;;X
+LDESC_NAVAL_TORPEDOES_S;The upgrading of the torpedo targeting systems and the fitting of more modern torpedoes will make this ship more effective at convoy raiding. ;L'amйlioration du systиme de visйe des torpilles et l'installation de torpilles modernes faciliteront la traque des convois ennemis.;Il miglioramento dei sistemi di puntamento delle torpedini e l'approvigionamento di siluri piщ moderni permetterа a questa nave di migliorare la capacitа di caccia ai convogli.;La mejora de los sistemas de guнa de los torpedos y la modernizaciуn de los mismos hacen a este barco mбs eficaz en el ataque a convoyes. ;Die Verbesserungen des Torpedozielsystems und der Einsatz von neuen Torpedos erhцht die Kampfkraft gegen Konvois;Ulepszenie systemуw celowania torped i wyposaїenie okrкtu w bardziej nowoczesne torpedy czyni go bardziej efektywnym w zwalczaniu konwojуw.;O aprimoramento dos sistemas de pontaria e o uso de torpedos mais modernos tornarгo este navio mais eficiente no ataque a comboios.;Усовершенствованные торпеды и системы их наведения на цель  повышают возможности этого корабля в борьбе с конвоями.;;;X
+SDESC_NAVAL_TORPEDOES_S;This ship has additional Torpedo launchers.;Ce navire peut lancer plus de torpilles.;Questa nave и dotata di ulteriori sistemi di lancio per i siluri.;La mejora de los sistemas de guнa de los torpedos y la modernizaciуn de los mismos hacen a este barco mбs eficaz en el ataque a convoyes. ;Dieses Schiff verfьgt ьber zusдtzliche Torpedorohre.;Ten okrкt posiada dodatkowe wyrzutnie torped.;Este navio tem lanзa-torpedos adicionais.;Усовершенствованные торпеды и системы их наведения на цель  повышают возможности этого корабля в борьбе с конвоями.;;;X
+NAME_NAVAL_ANTI_AIR_L;Capital Anti Air;Dйfense anti aйrienne de navire amiral;Anti-Aerea per navi maggiori;Antiaйreos de gran unidad;Flugabwehrkanonen fьr GroЯkampfschiff;Obrona przeciwlot. wielkiej floty;Defesa AA (Navio de grande porte);ПВО крупн. кораблей;;;X
+SNAME_NAVAL_ANTI_AIR_L;AA;DCA;AA;AA;GKS-Fl.Abw.;P-lot.;AA;ПВО;;;X
+LDESC_NAVAL_ANTI_AIR_L;Improvements to anti aircraft armaments and targeting technology make this ship better at engaging enemy aircraft.;L'amйlioration de l'armement de dйfense anti-aйrienne du navire ainsi que ses systиmes de visйe rendent ce navire plus apte а affronter les avions ennemis.;Miglioramenti all'armamento anti-aereo e ai sistemi di puntamento aumentano le capacitа di questa nave di ingaggiare i velivoli nemici.;Las mejoras en armamento antiaйreo y tecnologнa de fijaciуn de objetivos mejoran la capacidad de este barco para luchar contra aviones enemigos.;Die neue Luftabwehr verbessert die Fдhigkeit von Schiffen, Luftangriffe abzuwehren;Ulepszenia w wyposaїeniu przeciwlotniczym i technologii celowania czyni№ ten okrкt lepszym w przechwytywaniu nieprzyjacielskich samolotуw.;O aperfeiзoamento da tecnologia de pontaria e do armamento antiaйreo torna este navio mais eficiente contra aeronaves inimigas.;Усовершенствованное зенитное вооружения и системы прицеливания повышают возможности этого корабля в борьбе с самолетами противника.;;;X
+SDESC_NAVAL_ANTI_AIR_L;This ship has additional Anti-Air weapon systems.;Ce navire est йquipй de canons de DCA supplйmentaires.;A questa nave sono stati aggiunti ulteriori sistemi antiaerei.;Las mejoras en armamento antiaйreo y tecnologнa de fijaciуn de objetivos mejoran la capacidad de este barco para luchar contra aviones enemigos. ;Dieses Schiff verfьgt ьber zusдtzliche Flugabwehrkannonen.;Ten okrкt posiada doatkowe uzbrojenie przeciwlotnicze.;Este navio foi equipado com armas antiaйreas adicionais.;Усовершенствованное зенитное вооружения и системы наведения повышают возможности этого корабля в борьбе с самолетами противника.;;;X
+NAME_NAVAL_RADAR_L;Capital Radar;Radar de navire amiral;Radar per navi maggiori;Radar de gran unidad;Radar fьr GroЯkampfschiff;Radar wielkiej floty;Radar (Navio de grande porte);РЛС;;;X
+SNAME_NAVAL_RADAR_L;RA;Radar;Radar;RA;GKS-Radar;Radar;RA;РЛС;;;X
+LDESC_NAVAL_RADAR_L;Improved surface search radar allows this ship to better find enemy naval units and convoys. ;L'amйlioration du radio repйrage du navire lui permet de dйcouvrir plus aisйment les navires et convois ennemis.;L'utilizzo di radar di scoperta di superficie permette a questa nave di incrementare le capacitа di scoperta di unitа navali nemiche e convogli.;El radar de superficie mejorado hace que este barco encuentre unidades navales y convoyes enemigos con mayor eficacia. ;Verbessertes Ьberwasserradar erhцht die Fдhigkeit von Schiffen, feindliche Schiffe und Konvois zu finden;Ulepszony radar powierzchniowy pozwala temu okrкtowi lepiej odnajdywaж jednostki nawodne nieprzyjaciela, w tym konwoje.;O aperfeiзoamento do radar de busca de superfнcie deste navio facilita a localizaзгo de comboios e unidades navais inimigas.;Усовершенствованный радар позволяет этому кораблю чаще обнаруживать вражеские корабли и конвои.;;;X
+SDESC_NAVAL_RADAR_L;This ship is equipped with Radar.;Ce navire est йquipй de systиmes de radar.;Questa nave и equipaggiata con un radar.;El radar de superficie mejorado hace que este barco encuentre unidades navales y convoyes enemigos con mayor eficacia.;Dieses Schiff verfьgt ьber zusдtzliches Radar.;Ten okrкt wyposaїony jest w radar.;Este navio estб equipado com radar.;Усовершенствованный радар позволяет этому кораблю чаще обнаруживать вражеские корабли и конвои.;;;X
+NAME_NAVAL_IMPROVED_HULL_L;Capital Improved Hull;Coque amйliorйe de navire amiral;Scafo migliorato per navi maggiori;Casco mejorado de gran unidad;Verbesserter Rumpf fьr GroЯkampfschiff;Ulepszony kadіub wielkiej floty;Casco aprimorado (Navio de grande porte);Улучш. корпус крупн. кораблей;;;X
+SNAME_NAVAL_IMPROVED_HULL_L;IH;Coque;Scafo;CM;Verb. GKS-Rumpf;Ul. kadіub;CA;УК;;;X
+LDESC_NAVAL_IMPROVED_HULL_L;The focusing of armour on key locations and the addition of more watertight compartments will improve the survivability of this ship.;L'attention apportйe au blindage aux points clefs et l'ajout de nouveaux compartiments impermйables amйliorent la viabilitй du navire.;L'incremento di corazzatura nei punti chiave e l'aggiunta di un maggior numero di compartimenti stagni migliora la capacitа di sopravvivenza della nave.;La concentraciуn del blindaje en puntos clave y la instalaciуn de mбs compartimentos estancos aumentan la posibilidad de supervivencia de este barco.;Durch den Einsatz von verbesserter Panzerung und wasserdichten Abteilungen ist das Schiff schwerer zu versenken;Pogrubienie opancerzenia w kluczowych miejscach okrкtu oraz dodanie wodoszczelnych grodzi poprawia zdolnoњж przetrwania tego okrкtu w walce na morzu.;A blindagem de pontos-chave e o acrйscimo de compartimentos estanques melhora a capacidade de sobrevivкncia deste navio.;Усиленное бронирование ключевых участков корпуса и дополнительные водонепроницаемые переборки повышает живучесть этого корабля.;;;X
+SDESC_NAVAL_IMPROVED_HULL_L;This ship has added Armor protection.;La coque de ce navire est renforcйe.;A questa nave и stata migliorata la protezione.;La concentraciуn del blindaje en puntos clave y la instalaciуn de mбs compartimentos estancos aumentan la posibilidad de supervivencia de este barco.;Dieses Schiff verfьgt ьber zusдtzliche Panzerung.;Ten okrкt posiada dodatkowe opancerzenie.;Este navio tem o casco reforзado.;Усиленное бронирование ключевых участков корпуса и дополнительные водонепроницаемые переборки повышает живучесть этого корабля.;;;X
+NAME_NAVAL_TORPEDOES_L;Capital Torpedoes;Torpilles de navire amiral;Siluri per navi maggiori;Torpedos de gran unidad;Torpedos fьr GroЯkampfschiff;Torpedy wielkiej floty;Torpedos (Navio de grande porte);Торпеды крупн. кораблей;;;X
+SNAME_NAVAL_TORPEDOES_L;TM;Torp.;Siluri;TN;GKS-Torp.;Torp.;TP;ТОРП;;;X
+LDESC_NAVAL_TORPEDOES_L;The upgrading of the torpedo targeting systems and the fitting of more modern torpedoes will make this ship more effective at convoy raiding. ;L'amйlioration du systиme de visйe des torpilles et l'installation de torpilles modernes faciliteront la traque des convois ennemis.;Il miglioramento dei sistemi di puntamento delle torpedini e l'approvigionamento di siluri piщ moderni permetterа a questa nave di migliorare la capacitа di caccia ai convogli.;La mejora de los sistemas de guнa de los torpedos y la modernizaciуn de los mismos hacen a este barco mбs eficaz en el ataque a convoyes. ;Die Verbesserungen des Torpedozielsystems und der Einsatz von neuen Torpedos erhцht die Kampfkraft gegen Konvois;Ulepszenie systemуw celowania torped i wyposaїenie okrкtu w bardziej nowoczesne torpedy czyni go bardziej efektywnym w zwalczaniu konwojуw.;O aprimoramento dos sistemas de pontaria e o uso de torpedos mais modernos tornarгo este navio mais eficiente no ataque a comboios.;Усовершенствованные торпеды и системы их наведения на цель  повышают возможности этого корабля в борьбе с конвоями.;;;X
+SDESC_NAVAL_TORPEDOES_L;This ship has additional Torpedo launchers.;Ce navire est йquipй d'un systиme de visйe.;Questa nave и dotata di ulteriori sistemi di lancio per i siluri.;La mejora de los sistemas de guнa de los torpedos y la modernizaciуn de los mismos hacen a este barco mбs eficaz en el ataque a convoyes.;Dieses Schiff verfьgt ьber zusдtzliche Torpedorohre.;Ten okrкt posiada dodatkowe wyrzutnie torped.;Este navio tem lanзa-torpedos adicionais.;Усовершенствованные торпеды и системы их наведения на цель  повышают возможности этого корабля в борьбе с конвоями.;;;X
+NAME_NAVAL_BRIGADE_0;Carrier Air Group;.;.;.;.;.;.;.;.;.;X
+SNAME_NAVAL_BRIGADE_0;CAG;.;.;.;.;.;.;.;.;.;X
+SDESC_NAVAL_BRIGADE_0;This division has a carrier air group.;.;.;.;.;.;.;.;.;.;X
+LDESC_NAVAL_BRIGADE_0;Carrier Air Groups represent the complement of planes stationed on carriers. They are usually a mix of fighters, torpedo and dive bombers which provide both protection for the carrier and allow it to strike enemy ships at a large distance.;.;.;.;.;.;.;.;.;.;X
+#########################################;;;;;;;;;;;X
+######## UNIT MODELS              #######;;;;;;;;;;;X
+#########################################;;;;;;;;;;;X
+MODEL_2_0;Motorized Division 1945;.;.;.;Jдgerdivision (motorisiert) 1945;.;.;.;.;.;X
+MODEL_2_1;Motorized Division 1965;.;.;.;Jдgerdivision (motorisiert) 1965;.;.;.;.;.;X
+MODEL_42_0;Motorized Brigade 1945;.;.;.;Jдgerbrigade (motorisiert) 1945;.;.;.;.;.;X
+MODEL_42_1;Motorized Brigade 1965;.;.;.;Jдgerbrigade (motorisiert) 1965;.;.;.;.;.;X
+MODEL_42_2;Motorized Brigade 1970;.;.;.;Jдgerbrigade (motorisiert) 1970;.;.;.;.;.;X
+MODEL_42_3;Motorized Brigade 1975;.;.;.;Jдgerbrigade (motorisiert) 1975;.;.;.;.;.;X
+MODEL_42_4;Motorized Brigade 1980;.;.;.;Jдgerbrigade (motorisiert) 1980;.;.;.;.;.;X
+MODEL_42_5;Motorized Brigade 1985;.;.;.;Jдgerbrigade (motorisiert) 1985;.;.;.;.;.;X
+MODEL_42_6;Motorized Brigade 1990;.;.;.;Jдgerbrigade (motorisiert) 1990;.;.;.;.;.;X
+MODEL_42_7;Motorized Brigade 1995;.;.;.;Jдgerbrigade (motorisiert) 1995;.;.;.;.;.;X
+MODEL_42_8;Motorized Brigade 2000;.;.;.;Jдgerbrigade (motorisiert) 2000;.;.;.;.;.;X
+MODEL_44_0;Air Cavalry 1965;.;.;.;.;.;.;.;.;.;X
+MODEL_5_0;Tank Division 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_5_1;MBT Division 1952;.;.;.;.;.;.;.;.;.;X
+MODEL_43_0;Special Forces 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_43_1;Special Forces 1965;.;.;.;.;.;.;.;.;.;X
+MODEL_43_2;Special Forces 1970;.;.;.;.;.;.;.;.;.;X
+MODEL_43_3;Special Forces 1975;.;.;.;.;.;.;.;.;.;X
+MODEL_43_4;Special Forces 1980;.;.;.;.;.;.;.;.;.;X
+MODEL_43_5;Special Forces 1985;.;.;.;.;.;.;.;.;.;X
+MODEL_43_6;Special Forces 1990;.;.;.;.;.;.;.;.;.;X
+MODEL_43_7;Special Forces 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_43_8;Special Forces 2000;.;.;.;.;.;.;.;.;.;X
+MODEL_9_0;Garrison 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_9_1;Garrison 1965;.;.;.;.;.;.;.;.;.;X
+MODEL_9_2;Garrison 1970;.;.;.;.;.;.;.;.;.;X
+MODEL_9_3;Garrison 1975;.;.;.;.;.;.;.;.;.;X
+MODEL_9_4;Garrison 1980;.;.;.;.;.;.;.;.;.;X
+MODEL_9_5;Garrison 1985;.;.;.;.;.;.;.;.;.;X
+MODEL_9_6;Garrison 1990;.;.;.;.;.;.;.;.;.;X
+MODEL_9_7;Garrison 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_9_8;Garrison 2000;.;.;.;.;.;.;.;.;.;X
+MODEL_10_0;HQ 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_10_1;HQ 1965;.;.;.;.;.;.;.;.;.;X
+MODEL_10_2;HQ 1970;.;.;.;.;.;.;.;.;.;X
+MODEL_10_3;HQ 1975;.;.;.;.;.;.;.;.;.;X
+MODEL_10_4;HQ 1980;.;.;.;.;.;.;.;.;.;X
+MODEL_10_5;HQ 1985;.;.;.;.;.;.;.;.;.;X
+MODEL_10_6;HQ 1990;.;.;.;.;.;.;.;.;.;X
+MODEL_10_7;HQ 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_10_7;HQ 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_11_0;Militia 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_11_1;Militia 1965;.;.;.;.;.;.;.;.;.;X
+MODEL_11_2;Militia 1970;.;.;.;.;.;.;.;.;.;X
+MODEL_11_3;Militia 1975;.;.;.;.;.;.;.;.;.;X
+MODEL_11_4;Militia 1980;.;.;.;.;.;.;.;.;.;X
+MODEL_11_5;Militia 1985;.;.;.;.;.;.;.;.;.;X
+MODEL_11_6;Militia 1990;.;.;.;.;.;.;.;.;.;X
+MODEL_11_7;Militia 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_12_0;Fighter 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_12_1;Jet Fighter 1946;.;.;.;.;.;.;.;.;.;X
+MODEL_12_2;MRF 1950;.;.;.;.;.;.;.;.;.;X
+MODEL_12_3;MRF 1954;.;.;.;.;.;.;.;.;.;X
+MODEL_12_4;MRF 1957;.;.;.;.;.;.;.;.;.;X
+MODEL_12_5;MRF 1969;Chasseur MR supersonique;Caccia Supersonico;Caza supersуnico;Ьberschall-Mehrzweckjдger;Myњliwiec ponaddџwiкkowy;;Сверхзвуковой истребитель;;;X
+MODEL_12_6;MRF 1983;.;.;.;.;.;.;.;.;.;X
+MODEL_12_7;MRF 1991;.;.;.;.;.;.;.;.;.;X
+MODEL_14_0;Strategic Bomber 1949;.;.;.;.;.;.;.;.;.;X
+MODEL_14_1;Strategic Bomber 1955;.;.;.;.;.;.;.;.;.;X
+MODEL_14_2;Strategic Bomber 1986;.;.;.;.;.;.;.;.;.;X
+MODEL_16_0;Naval Patrol 1956;.;.;.;.;.;.;.;.;.;X
+MODEL_16_1;Naval Patrol 1962;.;.;.;.;.;.;.;.;.;X
+MODEL_16_2;Naval Patrol 1972;.;.;.;.;.;.;.;.;.;X
+MODEL_16_3;Naval Patrol 2012;.;.;.;.;.;.;.;.;.;X
+MODEL_17_0;Attack Aircraft 1947;.;.;.;.;.;.;.;.;.;X
+MODEL_17_1;Attack Aircraft 1953;.;.;.;.;.;.;.;.;.;X
+MODEL_17_2;Attack Aircraft 1958;.;.;.;.;.;.;.;.;.;X
+MODEL_17_3;Attack Aircraft 1967;.;.;.;.;.;.;.;.;.;X
+MODEL_17_4;Attack Aircraft 1975;Bombardier en piquй а turborйacteur II;Bombardiere CAS a Turbogetto Migliorato;AAP a turborreacciуn mejorado;Verb. Turbojet-Sturzkampfbomber;Ulepszony turboodrzutowiec CAS;;Улучшенный реактивный штурмовик;;;X
+MODEL_17_5;Attack Aircraft 1979;.;.;.;.;.;.;.;.;.;X
+MODEL_17_6;Attack Aircraft 1986;.;.;.;.;.;.;.;.;.;X
+MODEL_18_0;Transport Plane 1949;.;.;.;.;.;.;.;.;.;X
+MODEL_18_1;Transport Plane 1957;.;.;.;.;.;.;.;.;.;X
+MODEL_18_2;Transport Plane 1968;.;.;.;.;.;.;.;.;.;X
+MODEL_18_3;Transport Plane 1974;Transport aйrien semi-moderne;Aereo da Trasporto Semi Moderno;Aviуn de transporte semimoderno;Halbmodernes Transportflugzeug;Prawie nowoczesny transportowiec lotniczy;;Полусовременный трансп. самолет;;;X
+MODEL_18_6;Transport Plane 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_18_7;Transport Plane 2000;.;.;.;.;.;.;.;.;.;X
+MODEL_18_8;Transport Plane 2005;.;.;.;.;.;.;.;.;.;X
+MODEL_19_0;Flying Bomb;.;.;.;.;.;.;.;.;.;X
+MODEL_20_0;Strategic Rocket;.;.;.;.;.;.;.;.;.;X
+MODEL_20_1;Ballistic Missile;.;.;.;.;.;.;.;.;.;X
+MODEL_20_2;ICBM;.;.;.;.;.;.;.;.;.;X
+MODEL_21_0;Aircraft Cruiser 1965 ;.;.;.;.;.;.;.;.;.;X
+MODEL_21_1;Aircraft Cruiser 1975 ;.;.;.;.;.;.;.;.;.;X
+MODEL_21_2;Aircraft Cruiser 1982;.;.;.;.;.;.;.;.;.;X
+MODEL_21_3;Aircraft Cruiser 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_21_4;Amphibious Assault Ship 1990;.;.;.;.;.;.;.;.;.;X
+MODEL_21_5;Amphibious Assault Ship 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_21_6;Amphibious Assault Ship 2000;.;.;.;.;.;.;.;.;.;X
+MODEL_21_7;Amphibious Assault Ship 2005;.;.;.;.;.;.;.;.;.;X
+MODEL_22_0;Frigate 1963;.;.;.;.;.;.;.;.;.;X
+MODEL_22_1;Frigate 1964;.;.;.;.;.;.;.;.;.;X
+MODEL_22_2;Frigate 1966;.;.;.;.;.;.;.;.;.;X
+MODEL_22_3;Frigate 1969;.;.;.;.;.;.;.;.;.;X
+MODEL_22_4;Frigate 1977;.;.;.;.;.;.;.;.;.;X
+MODEL_22_5;Frigate 1986;.;.;.;.;.;.;.;.;.;X
+MODEL_22_6;Frigate 1991;Croiseur lйger moderne;Incrociatore Leggero Moderno;Crucero ligero moderno;Moderner leichter Kreuzer;Nowoczesny lekki kr№їownik;;Современный легкий крейсер;;;X
+MODEL_22_7;Frigate 1996;.;.;.;.;.;.;.;.;.;X
+MODEL_22_8;Frigate 2003;.;.;.;.;.;.;.;.;.;X
+MODEL_23_0;CA 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_23_1;CAG 1955;.;.;.;.;.;.;.;.;.;X
+MODEL_23_2;CG 1958;.;.;.;.;.;.;.;.;.;X
+MODEL_23_3;CG 1959;.;.;.;.;.;.;.;.;.;X
+MODEL_23_4;CG 1962;.;.;.;.;.;.;.;.;.;X
+MODEL_23_5;CG 1964;.;.;.;.;.;.;.;.;.;X
+MODEL_23_6;CG 1983;.;.;.;.;.;.;.;.;.;X
+MODEL_23_7;Modern Heavy Cruiser;Croiseur lourd moderne (CA);Incrociatore Pesante Moderno;Crucero pesado moderno;Moderner schwerer Kreuzer;Nowoczesny ciкїki kr№їownik;;Современный тяжелый крейсер;;;X
+MODEL_23_8;Missile Cruiser 2005;.;.;.;.;.;.;.;.;.;X
+MODEL_24_0;Converted CVL 1956;.;.;.;.;.;.;.;.;.;X
+MODEL_24_1;LPH 1961;.;.;.;.;.;.;.;.;.;X
+MODEL_24_2;ASW 1967;.;.;.;.;.;.;.;.;.;X
+MODEL_24_3;LHA 1971;.;.;.;.;.;.;.;.;.;X
+MODEL_24_4;LHD 1989;.;.;.;.;.;.;.;.;.;X
+MODEL_24_5;LHA 2004;.;.;.;.;.;.;.;.;.;X
+MODEL_24_6;LHA 2008;.;.;.;.;.;.;.;.;.;X
+MODEL_24_7;Modern Battlecruiser;Croiseur CC moderne;Incrociatore da Battaglia Moderno;Crucero batalla moderno;Moderner Schlachtkreuzer;Nowoczesny kr№їownik liniowy;;Современный линейный крейсер;;;X
+MODEL_25_0;DD 1944;.;.;.;.;.;.;.;.;.;X
+MODEL_25_1;DD 1949;.;.;.;.;.;.;.;.;.;X
+MODEL_25_2;DD 1953;.;.;.;.;.;.;.;.;.;X
+MODEL_25_3;DD 1956;.;.;.;.;.;.;.;.;.;X
+MODEL_25_4;DDG 1957;.;.;.;.;.;.;.;.;.;X
+MODEL_25_5;DDG 1972;.;.;.;.;.;.;.;.;.;X
+MODEL_25_6;DDG 1978;Destroyer moderne;Cacciatorpediniere Moderno;Destructor moderno;Moderner Zerstцrer;Nowoczesny niszczyciel;;Современный эсминец;;;X
+MODEL_25_7;DDG 1988;.;.;.;.;.;.;.;.;.;X
+MODEL_25_8;DDG 1994;.;.;.;.;.;.;.;.;.;X
+MODEL_26_0;36,960t Aircraft Carrier 1942;.;.;.;.;.;.;.;.;.;X
+MODEL_26_1;45,000t Aircraft Carrier 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_26_2;60,000t Aircraft Carrier 1955;.;.;.;.;.;.;.;.;.;X
+MODEL_26_3;81,780t Aircraft Carrier 1955;.;.;.;.;.;.;.;.;.;X
+MODEL_26_4;82,655t Aircraft Carrier 1968;.;.;.;.;.;.;.;.;.;X
+MODEL_26_5;Super Carrier 1990;.;.;.;.;.;.;.;.;.;X
+MODEL_26_6;Super Carrier 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_26_7;Super Carrier 2000;.;.;.;.;.;.;.;.;.;X
+MODEL_26_8;Modern Carrier;Porte-avions moderne;Portaerei Moderna;Portaaviones moderno;Moderner Flugzeugtrдger;Nowoczesny lotniskowiec;;Современный авианосец;;;X
+MODEL_27_0;Early Light Carrier;Porte-avions lйger I;Portaerei Leggera I;Portaaviones ligero temprano;Frьher Geleittrдger;Wczesny lekki lotniskowiec;;Ранний легкий авианосец;;;X
+MODEL_27_1;Basic Light Carrier;Porte-avions lйger II;Portaerei Leggera II;Portaaviones ligero bбsico;Einfacher Geleittrдger;Podstawowy lekki lotniskowiec;;Базовый легкий авианосец;;;X
+MODEL_27_2;Improved Light Carrier;Porte-avions lйger III;Portaerei Leggera III;Portaaviones ligero mejorado;Verbesserter Geleittrдger;Ulepszony lekki lotniskowiec;;Улучшенный легкий авианосец;;;X
+MODEL_27_3;Advanced Light Carrier;Porte-avions lйger IV;Portaerei Leggera IV;Portaaviones ligero avanzado;Fortgeschrittener Geleittrдger;Zaawansowany lekki lotniskowiec;;Усоверш. легкий авианосец;;;X
+MODEL_27_4;Semi Modern Light Carrier;Porte-avions lйger semi-moderne;Portaerei Leggera Semi Moderna;Portaaviones ligero semimoderno;Halbmoderner Geleittrдger;Prawie nowoczesny lekki lotniskowiec;;Полусовр. легкий авианосец;;;X
+MODEL_27_5;Modern Light Carrier;Porte-avions lйger moderne;Portaerei Leggera Moderna;Portaaviones ligero moderno;Moderner Geleittrдger;Nowoczesny lekki lotniskowiec;;Современный легкий авианосец;;;X
+MODEL_27_6;Light Aircraft Carrier 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_27_7;Light Aircraft Carrier 2000;.;.;.;.;.;.;.;.;.;X
+MODEL_27_8;Light Aircraft Carrier 2005;.;.;.;.;.;.;.;.;.;X
+MODEL_28_0;SS 1944;.;.;.;.;.;.;.;.;.;X
+MODEL_28_1;SS 1950;.;.;.;.;.;.;.;.;.;X
+MODEL_28_2;SS 1954;.;.;.;.;.;.;.;.;.;X
+MODEL_28_3;SSG 1958;.;.;.;.;.;.;.;.;.;X
+MODEL_28_4;SSG 1973;.;.;.;.;.;.;.;.;.;X
+MODEL_28_5;SSG 1982;.;.;.;.;.;.;.;.;.;X
+MODEL_28_6;SSG 1998;.;.;.;.;.;.;.;.;.;X
+MODEL_28_7;Submarine 1990;.;.;.;.;.;.;.;.;.;X
+MODEL_28_8;Submarine 2005;.;.;.;.;.;.;.;.;.;X
+MODEL_29_0;SSN 1956;.;.;.;.;.;.;.;.;.;X
+MODEL_29_1;SSN 1958;.;.;.;.;.;.;.;.;.;X
+MODEL_29_2;SSN 1960;.;.;.;.;.;.;.;.;.;X
+MODEL_29_3;SSN 1963;.;.;.;.;.;.;.;.;.;X
+MODEL_29_4;SSN 1972;.;.;.;.;.;.;.;.;.;X
+MODEL_29_5;SSN 1979;.;.;.;.;.;.;.;.;.;X
+MODEL_29_6;SSN 1992;.;.;.;.;.;.;.;.;.;X
+MODEL_29_7;SSN 2000;.;.;.;.;.;.;.;.;.;X
+MODEL_30_0;Merchant Ship 1945;.;.;.;.;.;.;.;.;.;X
+MODEL_30_1;Transport Ship 1965;.;.;.;.;.;.;.;.;.;X
+MODEL_30_2;Transport Ship 1970;.;.;.;.;.;.;.;.;.;X
+MODEL_30_3;Transport Ship 1975;.;.;.;.;.;.;.;.;.;X
+MODEL_30_4;Transport Ship 1980;.;.;.;.;.;.;.;.;.;X
+MODEL_30_5;Transport Ship 1985;.;.;.;.;.;.;.;.;.;X
+MODEL_30_6;Transport Ship 1990;.;.;.;.;.;.;.;.;.;X
+MODEL_30_7;Transport Ship 1995;.;.;.;.;.;.;.;.;.;X
+MODEL_30_8;Transport Ship 2000;.;.;.;.;.;.;.;.;.;X
+MODEL_41_0;Infantry Brigade 1945;.;.;.;Jдgerbrigade 1945;.;.;.;.;.;X
+MODEL_41_1;Infantry Brigade 1965;.;.;.;Jдgerbrigade 1965;.;.;.;.;.;X
+MODEL_41_2;Infantry Brigade 1970;.;.;.;Jдgerbrigade 1970;.;.;.;.;.;X
+MODEL_42_0;Motorized Brigade 1945;.;.;.;Jдgerbrigade (motorisiert) 1945;.;.;.;.;.;X
+MODEL_42_1;Motorized Brigade 1965;.;.;.;Jдgerbrigade (motorisiert) 1965;.;.;.;.;.;X
+MODEL_42_2;Motorized Brigade 1970;.;.;.;Jдgerbrigade (motorisiert) 1970;.;.;.;.;.;X
+MODEL_42_3;Motorized Brigade 1975;.;.;.;Jдgerbrigade (motorisiert) 1975;.;.;.;.;.;X
+MODEL_42_4;Motorized Brigade 1980;.;.;.;Jдgerbrigade (motorisiert) 1980;.;.;.;.;.;X
+MODEL_42_5;Motorized Brigade 1985;.;.;.;Jдgerbrigade (motorisiert) 1985;.;.;.;.;.;X
+MODEL_42_6;Motorized Brigade 1990;.;.;.;Jдgerbrigade (motorisiert) 1990;.;.;.;.;.;X
+MODEL_42_7;Motorized Brigade 1995;.;.;.;Jдgerbrigade (motorisiert) 1995;.;.;.;.;.;X
+MODEL_42_8;Motorized Brigade 2000;.;.;.;Jдgerbrigade (motorisiert) 2000;.;.;.;.;.;X
+##;;;;;;;;;;;X
+BRIG_MODEL_0_0;No Brigade;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_1_0;Artillery 1945;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_1_1;Artillery 1951;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_1_2;Artillery 1963;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_1_3;Artillery 1975;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_1_4;Artillery 1987;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_1_5;Artillery 1996;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_2_0;SP Artillery 1945;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_2_1;SP Artillery 1967;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_2_2;SP Artillery 1974;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_2_3;SP Artillery 1978;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_2_4;SP Artillery 1989;Artillerie AM semi-moderne;Artiglieria Mobile Semi Moderna;Artillerнa APr semimoderna;Halbmoderne Art.(Sfl);Prawie nowoczesna artyleria jednego przeznaczenia;;Полусовременная САУ;;;X
+BRIG_MODEL_2_5;SP Artillery 2003;Artillerie AM moderne;Artiglieria Mobile Moderna;Artillerнa APr moderna;Moderne Art.(Sfl);Nowoczesna artyleria jednego przeznaczenia;;Современная САУ;;;X
+BRIG_MODEL_2_6;SP Artillery 2006;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_2_8;SP Artillery 2005;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_3_0;Air Cavalry Brig 1965;.;.;.;Heeresfliegerbrigade 1965;.;.;.;.;.;X
+BRIG_MODEL_3_1;Air Cavalry Brig 1975;.;.;.;Heeresfliegerbrigade 1975;.;.;.;.;.;X
+BRIG_MODEL_3_2;Air Cavalry Brig 1980;.;.;.;Heeresfliegerbrigade 1980;.;.;.;.;.;X
+BRIG_MODEL_3_3;Air Cavalry Brig 1985;.;.;.;Heeresfliegerbrigade 1985;.;.;.;.;.;X
+BRIG_MODEL_3_4;Air Cavalry Brig 1990;.;.;.;Heeresfliegerbrigade 1990;.;.;.;.;.;X
+BRIG_MODEL_3_5;Air Cavalry Brig 1995;.;.;.;Heeresfliegerbrigade 1995;.;.;.;.;.;X
+BRIG_MODEL_3_6;Air Cavalry Brig 2000;.;.;.;Heeresfliegerbrigade 2000;.;.;.;.;.;X
+BRIG_MODEL_3_7;Air Cavalry Brig 2005;.;.;.;Heeresfliegerbrigade 2005;.;.;.;.;.;X
+BRIG_MODEL_3_8;Armored Cavalry Brig 1965;.;.;.;Heeresfliegerbrigade 1965;.;.;.;.;.;X
+BRIG_MODEL_3_9;Armored Cavalry Brig 1975;.;.;.;Heeresfliegerbrigade 1975;.;.;.;.;.;X
+BRIG_MODEL_3_10;Armored Cavalry Brig 1980;.;.;.;Heeresfliegerbrigade 1980;.;.;.;.;.;X
+BRIG_MODEL_3_11;Armored Cavalry Brig 1985;.;.;.;Heeresfliegerbrigade 1985;.;.;.;.;.;X
+BRIG_MODEL_3_12;Armored Cavalry Brig 1990;.;.;.;Heeresfliegerbrigade 1990;.;.;.;.;.;X
+BRIG_MODEL_3_13;Armored Cavalry Brig 1995;.;.;.;Heeresfliegerbrigade 1995;.;.;.;.;.;X
+BRIG_MODEL_3_14;Armored Cavalry Brig 2000;.;.;.;Heeresfliegerbrigade 2000;.;.;.;.;.;X
+BRIG_MODEL_3_15;Armored Cavalry Brig 2005;.;.;.;Heeresfliegerbrigade 2005;.;.;.;.;.;X
+BRIG_MODEL_4_0;SP Rocket Artillery 1945;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_4_1;SP Rocket Artillery 1956;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_4_2;SP Rocket Artillery 1963;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_4_3;SP Rocket Artillery 1975;Artillerie de missiles AM semi-moderne;Artiglieria Mobile a Razzi Semi Moderna;Artillerнa LCo APr semimoderna;Halbmoderner RW(Sfl);Prawie now. art. rakietowa jednego przeznaczenia;;Полусовр. ракетная САУ;;;X
+BRIG_MODEL_4_4;SP Rocket Artillery 1986;Artillerie de missiles AM moderne;Artiglieria Mobile a Razzi Moderna;Artillerнa LCo APr moderna;Moderner RW(Sfl);Nowoczesna art. rakietowa jednego przeznaczenia;;Совр. ракетная САУ;;;X
+BRIG_MODEL_4_5;SP Rocket Artillery 1992;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_0;Medium Armor Mk.I;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_1;Medium Armor Mk.II;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_2;Medium Armor Mk.III;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_3;Early Armor '36;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_4;Basic Armor '39;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_5;Modern Anti-Tank;Antichars moderne;Anticarro Moderno;Anticarro moderno;Moderne Panzerabwehr;Nowoczesne p-panc;;Современное ПТО;;;X
+BRIG_MODEL_5_6;Advanced Armor '43;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_7;Semi-Modern Armor '45;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_8;Early MBT;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_9;Basic MBT;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_10;Advanced MBT;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_11;Modern MBT;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_6_0;Tank Destroyer 1965;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_6_1;Tank Destroyer 1975;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_6_2;Tank Destroyer 1980;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_6_3;Tank Destroyer 1985;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_6_4;TD 1;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_6_5;Modern Tank Destroyer;Chasseur de chars moderne;Carro Anticarro Moderno;Cazacarros moderno;Moderner Jagdpanzer;Nowoczesny niszczyciel czoіgуw;;Современное СхПТО;;;X
+BRIG_MODEL_6_6;TD 3;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_6_7;TD 4;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_7_0;APC 1945;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_7_1;APC 1952;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_4;Basic Armor '39;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_5;Modern Anti-Tank;Antichars moderne;Anticarro Moderno;Anticarro moderno;Moderne Panzerabwehr;Nowoczesne p-panc;;Современное ПТО;;;X
+BRIG_MODEL_5_6;Advanced Armor '43;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_7;Semi-Modern Armor '45;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_8;Early MBT;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_9;Basic MBT;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_10;Advanced MBT;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_5_11;Modern MBT;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_8_0;IFV 1966;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_8_1;IFV 1981;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_8_2;IFV 1984;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_9_0;Great War Super-Heavy Tank;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_9_1;Super-Heavy Tank;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_10_0;Armored Car 1945;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_10_1;Armored Car 1957;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_10_2;Armored Car 1964;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_10_3;Armored Car 1987;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_10_4;Armored Car 2002;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_10_8;Armored Car 2005;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_11_0;Anti-Air 1945;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_11_1;Anti-Air 1965;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_11_2;Anti-Air 1970;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_11_3;Anti-Air 1979;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_11_4;Anti-Air 1986;Anti-air moderne;Antiaerea Moderna;AA Moderno;Moderne Flugabwehr;Nowoczesne p-lot;;Современное ПВО;;;X
+BRIG_MODEL_11_5;Anti-Air 1990;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_11_6;Anti-Air 2007;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_12_0;Police 1965;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_12_1;Police 1975;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_12_2;Police 1985;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_0;Engineer 1945;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_1;Engineer 1965;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_2;Engineer 1970;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_3;Engineer 1975;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_4;Engineer 1980;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_5;Engineer 1985;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_6;Engineer 1990;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_7;Engineer 1995;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_13_8;Engineer 2000;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_14_0;MRCAG 1949;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_14_1;MRCAG 1951;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_14_2;MRCAG 1957;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_14_3;MRCAG 1966;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_14_4;MRCAG 1976;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_14_5;MRCAG 1987;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_15_0;Early Naval Patrol;Chasseur escorte I;Caccia di Scorta I;Caza escolta bбsico;Einfacher Begleitjдger;Podst. myњliwiec eskortuj№cy;;Базовый истреб. сопровожд.;;;X
+BRIG_MODEL_15_1;Basic Naval Patrol;Chasseur escorte II;Caccia di Scorta II;Caza escolta mejorado;Verbesserter Begleitjдger;Ulepszony myњliwiec eskortuj№cy;;Улуч. истреб. сопровожд.;;;X
+BRIG_MODEL_15_2;Improved Naval Patrol;Chasseur escorte III;Caccia di Scorta III;Caza escolta avanzado;Fortschrittlicher Begleitjдger;Zaaw. myњliwiec eskortuj№cy;;Усов. истреб. сопровожд.;;;X
+BRIG_MODEL_15_3;Advanced Naval Patrol;Chasseur escorte а turborйacteur I;Caccia di Scorta a Turbogetto I;Caza de escolta a turborreacciуn;Turbojet Begleitjдger;Turboodrzutowy myњliwiec eskortuj№cy;;Реакт. истреб. сопровожд.;;;X
+BRIG_MODEL_15_4;Improved Turbojet Escort Fighter;Chasseur escorte а turborйacteur II;Caccia di Scorta a Turbogetto II;Caza de escolta a turborreacciуn mejorado;Verb. Turbojet Begleitjдger;Ulepszony turboodrzutowy myњliwiec eskortuj№cy;;Улуч. реакт. истреб. сопровожд.;;;X
+BRIG_MODEL_15_5;Supersonic Escort Fighter;Chasseur escorte supersonique;Caccia di Scorta Supersonico;Caza de escolta supersуnico;Ьberschall Begleitjдger;Ponaddџwiкkowy myњliwiec eskortuj№cy;;Сверхзвук. истреб. сопровожд.;;;X
+BRIG_MODEL_15_6;Supersonic Escort Fighter;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_15_7;Modern Supersonic Escort Fighter;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_15_8;Adv. Supersonic Escort Fighter;.;.;.;.;.;.;.;.;.;X
+##;;;;;;;;;;;X
+BRIG_MODEL_16_0;ASW;ASM;Anti-Sommergibile;GAS;UAW;Zwalcz. okr. podw.;ASW;ПЛО;;;X
+BRIG_MODEL_16_1;Improved ASW;ASM II;Anti-Sommergibile migliorato;GAS de gran unidad;Verb. UAW;Ulepszona zwalcz. okr. podw.;ASW melhorado;ул.ПЛО;;;X
+BRIG_MODEL_16_2;Early ASW;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_16_3;Basic ASW;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_16_4;Improved ASW;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_16_5;Advanced ASW;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_17_0;AA;DCA;Anti-Aerea;AA;Flak;Obr. p-lot.;AA;ПВО;;;X
+BRIG_MODEL_17_1;Improved AA;DCA II;Anti-Aerea migliorata;AA;Verb. Flak;Ulepszona obr. p-lot.;Defesa AA melhorada;ул.ПВО;;;X
+BRIG_MODEL_17_2;Imp. CW AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_17_3;Adv. CW AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_17_4;Early Mod. AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_17_5;Basic Mod. AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_17_6;Imp. Mod. AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_17_7;Adv. Mod. AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_18_0;Radar;Radar;Radar;Radar;Radar;Radar;Radar;РЛС;;;X
+BRIG_MODEL_18_1;Improved Radar;Radar II;Radar migliorato;Radar;Verb. Radar;Ulepszony radar;Radar melhorado;ул.РЛС;;;X
+BRIG_MODEL_18_2;Impr. Radar;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_18_3;Adv. Radar;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_19_0;Fire Control;Systиme de visйe;Centrale di Tiro;Control de tiro;Feuerleitanlage;Kontrola ognia;Controle de tiro;СУО;;;X
+BRIG_MODEL_19_1;Improved Fire Control;Systиme de visйe II;Controllo del Tiro migliorato;Control de tiro;Verb. Feuerleitanlage;Ulepszona kontrola ognia;Controle de tiro melhorado;ул.СУО;;;X
+BRIG_MODEL_19_2;Advanced Fire Control;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_20_1;Improved Hull;Coque amйliorйe II;Scafo migliorato;Casco mejorado;GKS-Zusatzpanzerung;Ulepszony kadіub;Casco aprimorado;ул.УК;;;X
+BRIG_MODEL_20_0;Improved Hull;Coque amйliorйe;Scafo migliorato;Casco mejorado;Verb. Rumpf;Ulepszony kadіub;Casco aprimorado;УК;;;X
+BRIG_MODEL_21_0;Torpedoes;Torpilles;Siluri;Torpedos;Torpedos;Torpedy;Torpedos;ТОРП;;;X
+BRIG_MODEL_21_1;Improved Torpedoes;Torpilles II;Siluri migliorati;Torpedos;Verb. Torpedos;Ulepszone torpedy;Torpedos melhorados;ул.ТОРП;;;X
+BRIG_MODEL_22_0;Capital AA;DCA de navire amiral;Anti-Aerea per navi maggiori;AA de gran unidad;GKS-Flak;Obr. p-lot. wlk. floty;Defesa AA (Navio de grande porte);ПВО крупн. кораблей;;;X
+BRIG_MODEL_22_1;Impr. Capital AA;DCA de navire amiral II;Anti-Aerea migliorata per navi maggiori;AA de gran unidad;Verb. GKS-Flak;Ulepszona obr. p-lot. wlk. floty;Defesa AA melhorada (gde. porte);ул.ПВО крупн. кораблей;;;X
+BRIG_MODEL_22_2;Imp. CW Capital AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_22_3;Adv. CW Capital AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_22_4;Early Mod. Capital AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_22_5;Basic Mod. Capital AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_22_6;Imp. Mod. Capital AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_22_7;Adv. Mod. Capital AA (SAM);.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_23_0;Capital Radar;Radar de navire amiral;Radar per navi maggiori;Radar de gran unidad;GKS-Radar;Radar wlk. floty;Radar (Navio de grande porte);РЛС крупн. кораблей;;;X
+BRIG_MODEL_23_1;Impr. Capital Radar;Radar de navire amiral II;Radar migliorato per navi maggiori;Radar de gran unidad;Verb. GKS-Radar;Ulepszony radar wlk. floty;Radar melhorado (gde. porte);ул.РЛС крупн. кораблей;;;X
+BRIG_MODEL_23_2;Basic Capital Radar;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_23_3;Impr. Capital Radar;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_23_4;Adv. Capital Radar;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_24_0;Capital Fire Control;Systиme de visйe de navire amiral;Centrale di Tiro per navi maggiori;Control de tiro de gran unidad;GKS-Feuerleitanlage;Kontrola ognia wlk. floty;Controle de tiro (Navio de grande porte);СУО крупн. кораблей;;;X
+BRIG_MODEL_24_1;Impr. Capital Fire Control;Systиme de visйe de navire amiral II;Controllo del Tiro migliorato per navi maggiori;Control de tiro de gran unidad;Verb. GKS-Feuerleitanlage;Ulepszona kontrola ognia wlk. floty;Controle de tiro melhorado (gde. porte);ул.СУО крупн. кораблей;;;X
+BRIG_MODEL_24_2;Adv. Capital Fire Control;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_25_0;Capital Improved Hull;Coque amйliorйe de navire amiral;Scafo migliorato per navi maggiori;Casco mejorado de gran unidad;Verb. GKS-Rumpf;Ulepszony kadіub wlk. floty;Casco aprimorado (Navio de grande porte);УК  крупн. кораблей;;;X
+BRIG_MODEL_25_1;Capital Improved Hull;Coque amйliorйe de navire amiral II;Scafo migliorato per navi maggiori;Casco mejorado de gran unidad;GKS-Zusatzpanzerung;Ulepszony kadіub wlk. floty;Casco aprimorado (Navio de grande porte);ул.УК  крупн. кораблей;;;X
+BRIG_MODEL_26_0;Capital Torpedoes;Torpilles de navire amiral;Siluri per navi maggiori;Torpedos de gran unidad;GKS-Torpedos;Torpedy wlk. floty;Torpedos (Navio de grande porte);ТОРП  крупн. кораблей;;;X
+BRIG_MODEL_26_1;Impr. Capital Torpedoes;Torpilles de navire amiral II;Siluri migliorati per navi maggiori;Torpedos de gran unidad;Verb. GKS-Torpedos;Ulepszone torpedy wlk. floty;Torpedos melhorados (gde. porte);ул.ТОРП  крупн. кораблей;;;X
+BRIG_MODEL_26_2;Great War Seaplanes;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_26_3;Interwar Seaplanes;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_26_4;Basic Seaplanes;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_26_5;Improved Seaplanes;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_26_6;Semi-Modern Seaplanes;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_26_7;Modern Seaplanes;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_28_0;SP AA Artillery 1945;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_28_1;SP AA Artillery 1954;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_28_2;SP AA Artillery 1967;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_28_3;SP AA Artillery 1982;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_28_4;SP AA Artillery 1989;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_28_5;SP AA Artillery 1996;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_28_6;SP AA Artillery 2000;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_41_0;Attack Helicopter 1966;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_41_1;Attack Helicopter 1971;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_41_2;Attack Helicopter 1978;.;.;.;.;.;.;.;.;.;X
+BRIG_MODEL_41_3;Attack Helicopter 1984;.;.;.;.;.;.;.;.;.;X
+NAME_LIGHT_ARMOR;Main Battle Tank Brigade;;;;;;;;;;X
+MODEL_4_3;MBT Brigade 1965;;;;;;;;;;X
+MODEL_4_4;MBT Brigade 1973;;;;;;;;;;X
+MODEL_4_5;MBT Brigade 1976;;;;;;;;;;X
+MODEL_4_6;MBT Brigade 1981;;;;;;;;;;X
+MODEL_4_7;MBT Brigade 1985;;;;;;;;;;X
+MODEL_4_8;MBT Brigade 1992;;;;;;;;;;X
+NAME_LIGHT_CARRIER;Corvette;;;;;;;;;;X
+SNAME_LIGHT_CARRIER;CT;;;;;;;;;;X
+LDESC_LIGHT_CARRIER;A corvette is a small, maneuverable, lightly armed warship, originally smaller than a frigate (2,000+ tons) and larger than a coastal patrol craft or fast attack craft (500 or fewer tons), although many recent designs resemble frigates in size and role.;;;;;;;;;;X
+SDESC_LIGHT_CARRIER;Corvette;;;;;;;;;;X
+MODEL_31_0;Corvette 1945;;;;;;;;;;X
+MODEL_31_1;Corvette 1965;;;;;;;;;;X
+MODEL_31_2;Corvette 1975;;;;;;;;;;X
+MODEL_31_3;Corvette 1980;;;;;;;;;;X
+MODEL_31_4;Corvette 1985;;;;;;;;;;X
+MODEL_31_5;Corvette 1990;;;;;;;;;;X
+MODEL_31_6;Corvette 1995;;;;;;;;;;X
+MODEL_31_7;Corvette 2000;;;;;;;;;;X
+MODEL_31_8;Corvette 2005;;;;;;;;;;X
+MODEL_60_1;Missile Boat 1965;;;;;;;;;;X
+MODEL_60_2;Missile Boat 1975;;;;;;;;;;X
+MODEL_60_3;Missile Boat 1980;;;;;;;;;;X
+MODEL_60_4;Missile Boat 1985;;;;;;;;;;X
+MODEL_60_5;Missile Boat 1990;;;;;;;;;;X
+MODEL_60_6;Missile Boat 1995;;;;;;;;;;X
+MODEL_60_7;Missile Boat 2000;;;;;;;;;;X
+MODEL_60_8;Missile Boat 2005;;;;;;;;;;X
+NAME_D_20;;;;;;;;;;;X
+LDESC_D_20;; in fact, the first missile boats were modified torpedo boats replacing two or more torpedo tubes with missile tubes. The doctrine behind the use of missile boats is based on the principle of mobility over defence. The advent of proper missile and electronic counter measure technologies gave birth to the idea that, because a missile is far more accurate than a shell and can penetrate even the most heavily armored ship hulls, warships should now be designed to outmaneuver their enemies and get to a better position first.;;;;;;;;;X
+SNAME_D_20;;;;;;;;;;;X
+LDESC_D_07;A missile boat or missile cutter is a small warship armed with anti-ship missiles. Being a small craft, missile boats are popular with nations interested in forming an inexpensive navy. They are similar in idea to the torpedo boats of the World War II;;;;;;;;;;X
+SNAME_D_07;BT;;;;;;;;;;X
+NAME_D_07;Boat;;;;;;;;;;X
+SDESC_D_07;Anti-Ship Boat;;;;;;;;;;X
+NAME_BOAT;Fast Attack Craft;;;;;;;;;;X
+SNAME_BOAT;FAC;;;;;;;;;;X
+LDESC_BOAT;A fast attack craft (FAC) is a small, fast, agile and offensive warship armed with anti-ship missiles, gun and/or torpedoes. FACs are usually operated in close proximity to land as they lack both the seakeeping and all-round defensive capabilities to survive in blue water. The size of the vessel also limits the fuel, stores and water supplies. In size they are usually between 50–400 tonnes and can reach speeds of 25–50 knots. A fast attack craft's main advantage over other warship types is its affordability. Many FACs can be deployed at a relatively low cost, allowing a navy which is at a disadvantage to effectively defend itself against a larger adversary. A small boat, when equipped with the same weapons as its larger counterpart, can pose a serious threat to even the largest of capital ships.; in fact, the first missile boats were modified torpedo boats replacing two or more torpedo tubes with missile tubes. The doctrine behind the use of missile boats is based on the principle of mobility over defence. The advent of proper missile and electronic counter measure technologies gave birth to the idea that, because a missile is far more accurate than a shell and can penetrate even the most heavily armored ship hulls, warships should now be designed to outmaneuver their enemies and get to a better position first. Moreover, increasing the potency of shells requires employing larger projectiles, which necessitates larger naval guns and consequently, larger platforms to carry these guns. This trend culminated in the giant battleships of WWII. The ability to deploy anti-ship missiles on small, maneuverable platforms seriously negates the advantages that were provided by larger ships in the era before the advent of guided missiles. A small missile boat, when equipped with sophisticated guided anti-ship missiles can pose a serious threat to even the largest of capital ships, and do so at much greater ranges than is possible with torpedoes.;;;;;;;;;X
+SDESC_BOAT;Fast Attack Craft;;;;;;;;;;X
+MODEL_47_0;Torpedo 1945;;;;;;;;;;X
+MODEL_47_1;Missile Boat 1965;;;;;;;;;;X
+MODEL_47_2;Missile Boat 1975;;;;;;;;;;X
+MODEL_47_3;Missile Boat 1980;;;;;;;;;;X
+MODEL_47_4;Missile Boat 1985;;;;;;;;;;X
+MODEL_47_5;Missile Boat 1990;;;;;;;;;;X
+MODEL_47_6;Missile Boat 1995;;;;;;;;;;X
+MODEL_47_7;Missile Boat 2000;;;;;;;;;;X
+MODEL_47_8;Missile Boat 2005;;;;;;;;;;X
+MODEL_18_9;Transport Plane 1995;;;;;;;;;;X
+MODEL_0_1;Infantry Division 1965;;;;;;;;;;X
+MODEL_0_0;Infantry Division 1945;;;;;;;;;;X
+MODEL_0_2;Infantry Division 1970;;;;;;;;;;X
+MODEL_0_3;Infantry Division 1975;;;;;;;;;;X
+MODEL_0_4;Infantry Division 1980;;;;;;;;;;X
+MODEL_0_5;Infantry Division 1985;;;;;;;;;;X
+MODEL_0_6;Infantry Division 1990;Infanterie '47;Fanteria '47;Infanterнa del 47;Infanterie '47;Piechota '47;;Пехота 47-го;;;X
+MODEL_0_7;Infantry Division 1995;Infanterie '51;Fanteria '51;Infanterнa del 51;Infanterie '51;Piechota '51;;Пехота 51-го;;;X
+MODEL_0_8;Infantry Division 2000;;;;;;;;;;X
+MODEL_0_9;Infantry Division 2005;;;;;;;;;;X
+MODEL_41_9;Infantry Brigade 2005;;;;;;;;;;X
+MODEL_41_8;Infantry Brigade 2000;;;;;;;;;;X
+MODEL_41_7;Infantry Brigade 1995;;;;;;;;;;X
+MODEL_41_6;Infantry Brigade 1990;;;;;;;;;;X
+MODEL_41_5;Infantry Brigade 1985;;;;;;;;;;X
+MODEL_41_4;Infantry Brigade 1980;;;;;;;;;;X
+MODEL_41_3;Infantry Brigade 1975;;;;;;;;;;X
+MODEL_1_0;Armored Cavalry 1945;;;;;;;;;;X
+MODEL_1_1;Armored Cavalry 1965;;;;;;;;;;X
+MODEL_1_2;Armored Cavalry 1970;;;;;;;;;;X
+MODEL_1_3;Armored Cavalry 1975;;;;;;;;;;X
+MODEL_1_4;Armored Cavalry 1980;;;;;;;;;;X
+MODEL_1_5;Armored Cavalry 1985;;;;;;;;;;X
+MODEL_1_6;Armored Cavalry 1990;;;;;;;;;;X
+MODEL_1_7;Armored Cavalry 2000;;;;;;;;;;X
+MODEL_1_8;Armored Cavalry 2005;;;;;;;;;;X
+MODEL_2_2;Motorized Division 1970;;;;;;;;;;X
+MODEL_2_3;Motorized Division 1975;Infanterie motorisйe '47;Fanteria Motorizzata '47;Infanterнa motorizada del 47;Motorisierte Infanterie '47;Zmotoryzowana piechota '47;;Моторизованная пехота 47-го;;;X
+MODEL_2_4;Motorized Division 1980;Infanterie motorisйe '51;Fanteria Motorizzata '51;Infanterнa motorizada del 51;Motorisierte Infanterie '51;Zmotoryzowana piechota '51;;Моторизованная пехота 51-го;;;X
+MODEL_2_5;Motorized Division 1985;;;;;;;;;;X
+MODEL_2_6;Motorized Division 1990;;;;;;;;;;X
+MODEL_2_7;Motorized Division 1995;;;;;;;;;;X
+MODEL_2_8;Motorized Division 2000;;;;;;;;;;X
+MODEL_42_9;Motorized Brigade 2005;;;;;;;;;;X
+MODEL_2_9;Motorized Division 2005;;;;;;;;;;X
+MODEL_43_9;Special Forces 2005;;;;;;;;;;X
+MODEL_44_1;Air Cavalry 1970;;;;;;;;;;X
+MODEL_44_2;Air Cavalry 1975;;;;;;;;;;X
+MODEL_44_3;Air Cavalry 1980;;;;;;;;;;X
+MODEL_44_4;Air Cavalry 1985;;;;;;;;;;X
+MODEL_44_5;Air Cavalry 1990;;;;;;;;;;X
+MODEL_44_6;Air Cavalry 1995;;;;;;;;;;X
+MODEL_44_7;Air Cavalry 2000;;;;;;;;;;X
+MODEL_44_8;Air Cavalry 2005;;;;;;;;;;X
+MODEL_5_2;MBT Division 1961;;;;;;;;;;X
+MODEL_5_3;MBT Division 1965;;;;;;;;;;X
+MODEL_5_4;MBT Division 1973;;;;;;;;;;X
+MODEL_5_5;MBT Division 1976;;;;;;;;;;X
+MODEL_5_6;MBT Division 1981;Char de combat;Carro Principale da Battaglia;Carro MBT;Hauptkampfpanzer;Czoіg podstawowy;;Основной танк;;;X
+MODEL_5_7;MBT Division 1985;Char de combat II;Carro Principale da Battaglia Avanzato;Carro MBT avanzado;Fortgeschrittener Hauptkampfpanzer;Zaawansowany czoіg podstawowy;;Усов. основной танк;;;X
+MODEL_5_8;MBT Division 1992;;;;;;;;;;X
+MODEL_5_9;MBT Division 1999;;;;;;;;;;X
+MODEL_3_-1;Mechanized Division 1990;;;;;;;;;;X
+MODEL_3_0;Mechanized Division 1945;;;;;;;;;;X
+MODEL_3_1;Mechanized Division 1965;;;;;;;;;;X
+MODEL_3_2;Mechanized Division 1970;;;;;;;;;;X
+MODEL_3_3;Mechanized Division 1975;;;;;;;;;;X
+MODEL_3_4;Mechanized Division 1980;Infanterie mйcanisйe '47;Fanteria Meccanizzata '47;Infanterнa mecanizada del 47;Mechanisierte Infanterie '47;Zmechanizowana piechota '47;;Механизированная пехота 47-го;;;X
+MODEL_3_5;Mechanized Division 1985;Infanterie mйcanisйe '51;Fanteria Meccanizzata '51;Infanterнa mecanizada del 51;Mechanisierte Infanterie '51;Zmechanizowana piechota '51;;Механизированная пехота 51-го;;;X
+MODEL_3_6;Mechanized Division 1990;;;;;;;;;;X
+MODEL_3_7;Mechanized Division 1995;;;;;;;;;;X
+MODEL_3_8;Mechanized Division 2000;;;;;;;;;;X
+MODEL_3_9;Mechanized Division 2005;;;;;;;;;;X
+MODEL_4_-1;Main Battle Tank 1975;;;;;;;;;;X
+MODEL_4_0;Tank Brigade 1945;;;;;;;;;;X
+MODEL_4_1;MBT Brigade 1952;;;;;;;;;;X
+MODEL_4_2;MBT Brigade 1961;;;;;;;;;;X
+MODEL_4_9;MBT Brigade 1999;;;;;;;;;;X
+MODEL_46_-1;Mechanized Brigade 2005;;;;;;;;;;X
+MODEL_46_0;Mechanized Brigade 1945;;;;;;;;;;X
+MODEL_46_1;Mechanized Brigade 1965;;;;;;;;;;X
+MODEL_46_2;Mechanized Brigade 1970;;;;;;;;;;X
+MODEL_46_3;Mechanized Brigade 1975;;;;;;;;;;X
+MODEL_46_4;Mechanized Brigade 1980;;;;;;;;;;X
+MODEL_46_5;Mechanized Brigade 1985;;;;;;;;;;X
+MODEL_46_6;Mechanized Brigade 1990;;;;;;;;;;X
+MODEL_46_7;Mechanized Brigade 1995;;;;;;;;;;X
+MODEL_46_8;Mechanized Brigade 2000;;;;;;;;;;X
+MODEL_46_9;Mechanized Brigade 2005;;;;;;;;;;X
+MODEL_6_-1;Airborne 2000;;;;;;;;;;X
+MODEL_6_0;Airborne Division 1945;;;;;;;;;;X
+MODEL_6_1;Airborne Division 1965;;;;;;;;;;X
+MODEL_6_2;Airborne Division 1970;;;;;;;;;;X
+MODEL_6_3;Airborne Division 1975;;;;;;;;;;X
+MODEL_6_4;Airborne Division 1980;Aйroportй '47;Paracadutisti '47;Aerotransportada del 47;Fallschirmjдger '47;Spadochroniarze '47;;Десантники 47-го;;;X
+MODEL_6_5;Airborne Division 1985;Aйroportй '51;Paracadutisti '51;Aerotransportada del 51;Fallschirmjдger '51;Spadochroniarze '51;;Десантники 51-го;;;X
+MODEL_6_6;Airborne Division 1990;;;;;;;;;;X
+MODEL_6_7;Airborne Division 1995;;;;;;;;;;X
+MODEL_6_8;Airborne Division 2000;;;;;;;;;;X
+MODEL_6_9;Airborne Division 2005;;;;;;;;;;X
+NAME_D_08;Airborne Brigade;;;;;;;;;;X
+SNAME_D_08;Par Bgd;;;;;;;;;;X
+LDESC_D_08;Paratroopers are an elite branch of the Infantry, specifically trained to either parachute to the ground or be ferried to a battle in gliders. Their rapid deployment capability makes them ideal for use as a mobile reserve or for use in capturing a strategic asset behind enemy lines. However, they are handicapped by a lack of heavy equipment due to their mode of travel, and when they are in action it is advisable to move other units to their support.;;;;;;;;;;X
+SDESC_D_08;Paratroop Brigade;;;;;;;;;;X
+MODEL_48_0;Airborne Brigade 1945;;;;;;;;;;X
+MODEL_48_1;Airborne Brigade 1965;;;;;;;;;;X
+MODEL_48_2;Airborne Brigade 1970;;;;;;;;;;X
+MODEL_48_3;Airborne Brigade 1975;;;;;;;;;;X
+MODEL_48_4;Airborne Brigade 1980;;;;;;;;;;X
+MODEL_48_5;Airborne Brigade 1985;;;;;;;;;;X
+MODEL_48_6;Airborne Brigade 1990;;;;;;;;;;X
+MODEL_48_7;Airborne Brigade 1995;;;;;;;;;;X
+MODEL_48_8;Airborne Brigade 2000;;;;;;;;;;X
+MODEL_48_9;Airborne Brigade 2005;;;;;;;;;;X
+MODEL_7_0;Marine Division 1945;;;;;;;;;;X
+MODEL_7_1;Marine Division 1965;;;;;;;;;;X
+MODEL_7_2;Marine Division 1970;;;;;;;;;;X
+MODEL_7_3;Marine Division 1975;;;;;;;;;;X
+MODEL_7_4;Marine Division 1980;Infanterie de marine '47;Fanteria di Marina '47;Infanterнa de marina del 47;Marineinfanterie '47;Piechota morska '47;;Морская пехота 47-го;;;X
+MODEL_7_5;Marine Division 1985;Infanterie de marine '51;Fanteria di Marina '51;Infanterнa de marina del 51;Marineinfanterie '51;Piechota morska '51;;Морская пехота 51-го;;;X
+MODEL_7_6;Marine Division 1990;;;;;;;;;;X
+MODEL_7_7;Marine Division 1995;;;;;;;;;;X
+MODEL_7_8;Marine Division 2000;;;;;;;;;;X
+MODEL_7_9;Marine Division 2005;;;;;;;;;;X
+MODEL_45_-1;Marine Brigade 2005;;;;;;;;;;X
+MODEL_45_0;Marine Brigade 1945;;;;;;;;;;X
+MODEL_45_1;Marine Brigade 1965;;;;;;;;;;X
+MODEL_45_2;Marine Brigade 1970;;;;;;;;;;X
+MODEL_45_3;Marine Brigade 1975;;;;;;;;;;X
+MODEL_45_4;Marine Brigade 1980;;;;;;;;;;X
+MODEL_45_5;Marine Brigade 1985;;;;;;;;;;X
+MODEL_45_6;Marine Brigade 1990;;;;;;;;;;X
+MODEL_45_7;Marine Brigade 1995;;;;;;;;;;X
+MODEL_45_8;Marine Brigade 2000;;;;;;;;;;X
+MODEL_45_9;Marine Brigade 2005;;;;;;;;;;X
+MODEL_8_0;Mountain Division 1945;;;;;;;;;;X
+MODEL_8_1;Mountain Division 1965;;;;;;;;;;X
+MODEL_8_2;Mountain Division 1970;;;;;;;;;;X
+MODEL_8_3;Mountain Division 1975;;;;;;;;;;X
+MODEL_8_4;Mountain Division 1980;Alpine '47;Alpini '47;Infanterнa de montaсa del 47;Gebirgsjдger '47;Piechota gуrska '47;;Горные стрелки 47-го;;;X
+MODEL_8_5;Mountain Division 1985;Alpine '51;Alpini '51;Infanterнa de montaсa del 51;Gebirgsjдger '51;Piechota gуrska '51;;Горные стрелки 51-го;;;X
+MODEL_8_6;Mountain Division 1990;;;;;;;;;;X
+MODEL_8_7;Mountain Division 1995;;;;;;;;;;X
+MODEL_8_8;Mountain Division 2000;;;;;;;;;;X
+MODEL_8_9;Mountain Division 2005;;;;;;;;;;X
+NAME_D_09;Mountain Brigade;;;;;;;;;;X
+SNAME_D_09;Mtn Bgd;;;;;;;;;;X
+LDESC_D_09;Mountain Troops are an elite branch of the Infantry, specifically trained for operations in mountainous terrain.  They make use of specialised equipment and tactics to give them an edge over regular Infantry in such an environment.;;;;;;;;;;X
+SDESC_D_09;Mountain Brigade;;;;;;;;;;X
+MODEL_49_0;Mountain Brigade 1945;;;;;;;;;;X
+MODEL_49_1;Mountain Brigade 1965;;;;;;;;;;X
+MODEL_49_2;Mountain Brigade 1970;;;;;;;;;;X
+MODEL_49_3;Mountain Brigade 1975;;;;;;;;;;X
+MODEL_49_4;Mountain Brigade 1980;;;;;;;;;;X
+MODEL_49_5;Mountain Brigade 1985;;;;;;;;;;X
+MODEL_49_6;Mountain Brigade 1990;;;;;;;;;;X
+MODEL_49_7;Mountain Brigade 1995;;;;;;;;;;X
+MODEL_49_8;Mountain Brigade 2000;;;;;;;;;;X
+MODEL_49_9;Mountain Brigade 2005;;;;;;;;;;X
+LDESC_D_10;An aircraft carrier is a warship designed with a primary mission of deploying and recovering aircraft, acting as a seagoing airbase. Aircraft carriers thus allow a naval force to project airpower worldwide without having to depend on local bases for staging aircraft operations. Aircraft carriers are typically the capital ship of a fleet, and are extremely expensive to build and important to protect.;;;;;;;;;;X
+SNAME_D_10;CVN;;;;;;;;;;X
+NAME_D_10;Nuclear Carrier;;;;;;;;;;X
+NAME_PARATROOPER_BRIGADE;Airborne Brigade;;;;;;;;;;X
+NAME_BERGSJAEGER_BRIGADE;Mountain Brigade;;;;;;;;;;X
+NAME_NUCLEAR_CARRIER;Nuclear Aircraft Carrier;;;;;;;;;;X
+SNAME_NUCLEAR_CARRIER;CVN;;;;;;;;;;X
+SDESC_NUCLEAR_CARRIER;Nuclear Carrier;;;;;;;;;;X
+LDESC_NUCLEAR_CARRIER;An aircraft carrier is a warship designed with a primary mission of deploying and recovering aircraft, acting as a seagoing airbase. Aircraft carriers thus allow a naval force to project airpower worldwide without having to depend on local bases for staging aircraft operations. Aircraft carriers are typically the capital ship of a fleet, and are extremely expensive to build and important to protect.;;;;;;;;;;X
+LDESC_BERGSJAEGER_BRIGADE;Mountain Troops are an elite branch of the Infantry, specifically trained for operations in mountainous terrain.  They make use of specialised equipment and tactics to give them an edge over regular Infantry in such an environment.;;;;;;;;;;X
+SNAME_BERGSJAEGER_BRIGADE;Mtn Brig;;;;;;;;;;X
+SDESC_BERGSJAEGER_BRIGADE;Mountain Brigade;;;;;;;;;;X
+SDESC_PARATROOPER_BRIGADE;Paratroop Brigade;;;;;;;;;;X
+LDESC_PARATROOPER_BRIGADE;Paratroopers are an elite branch of the Infantry, specifically trained to either parachute to the ground or be ferried to a battle in gliders. Their rapid deployment capability makes them ideal for use as a mobile reserve or for use in capturing a strategic asset behind enemy lines. However, they are handicapped by a lack of heavy equipment due to their mode of travel, and when they are in action it is advisable to move other units to their support.;;;;;;;;;;X
+SNAME_PARATROOPER_BRIGADE;Par Brig;;;;;;;;;;X
+MODEL_50_0;CVN 1962;;;;;;;;;;X
+MODEL_50_1;CVN 1975;;;;;;;;;;X
+MODEL_50_2;CVN 1985;;;;;;;;;;X
+NAME_D_11;Nuclear Ballistic Missile Submarine;;;;;;;;;;X
+SNAME_D_11;SSBN;;;;;;;;;;X
+LDESC_D_11;A ballistic missile submarine is a submarine equipped to launch submarine-launched ballistic missiles (SLBMs) with nuclear warheads. These submarines became a major weapon system in the cold war because of their major nuclear deterrence capability. They can fire their missiles from thousands of kilometres from their targets, and the use of stealth technology makes them very difficult to detect.;;;;;;;;;;X
+SDESC_D_11;Nuclear Ballistic Missile Submarine;;;;;;;;;;X
+NAME_NUCLEAR_BALLISTIC_SUBMARINE;Nuclear Ballistic Missile Submarine;;;;;;;;;;X
+SNAME_NUCLEAR_BALLISTIC_SUBMARINE;SSBN;;;;;;;;;;X
+LDESC_NUCLEAR_BALLISTIC_SUBMARINE;A ballistic missile submarine is a submarine equipped to launch submarine-launched ballistic missiles (SLBMs) with nuclear warheads. These submarines became a major weapon system in the cold war because of their major nuclear deterrence capability. They can fire their missiles from thousands of kilometres from their targets, and the use of stealth technology makes them very difficult to detect.;;;;;;;;;;X
+SDESC_NUCLEAR_BALLISTIC_SUBMARINE;Nuclear Ballistic Missile Submarine;;;;;;;;;;X
+MODEL_51_0;SSBN 1959;;;;;;;;;;X
+MODEL_51_1;SSBN 1962;;;;;;;;;;X
+MODEL_51_2;SSBN 1965;;;;;;;;;;X
+MODEL_51_3;SSBN 1976;;;;;;;;;;X
+MODEL_51_4;SSBN 1996;;;;;;;;;;X
+NAME_LCAG;Helicopter Carrier Air Group;;;;;;;;;;X
+LDESC_LCAG;Helicopter Carrier Air Groups represent the complement of helicopters stationed on carriers.;;;;;;;;;;X
+SDESC_LCAG;This unit has an helicopter carrier air group.;;;;;;;;;;X
+SNAME_LCAG;HCAG;;;;;;;;;;X
+BRIG_MODEL_16_6;Modern ASW;;;;;;;;;;X
+NAME_NUCLEAR_HEAVY_CRUISER;Nuclear Cruiser;;;;;;;;;;X
+SNAME_NUCLEAR_HEAVY_CRUISER;CGN;;;;;;;;;;X
+LDESC_NUCLEAR_HEAVY_CRUISER;In the later 20th century, the obsolescence of the battleship left the cruiser as the largest and most powerful surface combatant. The role of the cruiser varied according to ship and navy, often including air defense, commerce raiding and shore bombardment. The U.S. Navy in the Cold War period built guided-missile cruisers primarily designed to provide air defense, while the navy of the USSR built cruisers with heavy anti-ship missiles designed to sink NATO carrier task forces.;;;;;;;;;;X
+SDESC_NUCLEAR_HEAVY_CRUISER;Nuclear Cruiser;;;;;;;;;;X
+MODEL_52_0;CGN 1961;;;;;;;;;;X
+MODEL_52_1;CGN 1962;;;;;;;;;;X
+MODEL_52_2;CGN 1967;;;;;;;;;;X
+MODEL_52_3;CGN 1974;;;;;;;;;;X
+MODEL_52_4;CGN 1976;;;;;;;;;;X
+MODEL_22_10;Frigate 2000;;;;;;;;;;X
+MODEL_25_9;DDG 2000;;;;;;;;;;X
+MODEL_25_10;DDG 2008;;;;;;;;;;X
+MODEL_50_3;CVN 2015;;;;;;;;;;X
+LDESC_D_13;;;;;;;;;;;X
+SNAME_D_13;;;;;;;;;;;X
+NAME_D_13;d_13;;;;;;;;;;X
+SDESC_D_13;;;;;;;;;;;X
+LDESC_ASW_AIRCRAFT;Anti-submarine bombers are aircraft designed specifically to conduct anti-submarine warfare (ASW). Their sensors include sonar buoys, surface search radar capable of detecting periscopes, magnetic anomaly detection gear, and advanced networking in order to take advantage of permanent sea floor and buoy sensors. Anti-submarine bombers carry torpedoes and anti-submarine missiles to engage any subs that they detect.;;;;;;;;;;X
+NAME_ASW_AIRCRAFT;Anti-Submarine Bomber;;;;;;;;;;X
+SNAME_ASW_AIRCRAFT;ASW Bomber;;;;;;;;;;X
+SDESC_ASW_AIRCRAFT;ASW Bomber;;;;;;;;;;X
+MODEL_53_0;ASW Bomber 1954;;;;;;;;;;X
+MODEL_53_1;ASW Bomber 1974;;;;;;;;;;X
+NAME_RECON;Reconnaissance Aircraft;;;;;;;;;;X
+SNAME_RECON;Recon;;;;;;;;;;X
+LDESC_RECON;Reconnaissance aircraft are designed to fly over a nation’s territory in order to gather imagery, signals, and measurement and signature intelligence. To avoid interception, reconnaissance aircraft are designed to either fly too fast and high for surface-to-air missiles to reach, or to hug the ground and infiltrate under the radar. Advances in stealth technology directly benefit the effectiveness of reconnaissance aircraft.;;;;;;;;;;X
+SDESC_RECON;This air wing has a reconnaissance unit.;;;;;;;;;;X
+BRIG_MODEL_42_0;Reconnaissance Aiircraft 1955;;;;;;;;;;X
+LDESC_ASW_BOMBER;Anti-submarine bombers are aircraft designed specifically to conduct anti-submarine warfare (ASW). Their sensors include sonar buoys, surface search radar capable of detecting periscopes, magnetic anomaly detection gear, and advanced networking in order to take advantage of permanent sea floor and buoy sensors. Anti-submarine bombers carry torpedoes and anti-submarine missiles to engage any subs that they detect.;;;;;;;;;;X
+NAME_ASW_BOMBER;Anti-Submarine Warfare Bomber;;;;;;;;;;X
+SNAME_ASW_BOMBER;ASW Bomber;;;;;;;;;;X
+SDESC_ASW_BOMBER;This ship has an ASW Bomber unit.;;;;;;;;;;X
+BRIG_MODEL_43_0;ASW Bomber 1954;;;;;;;;;;X
+BRIG_MODEL_43_1;ASW Bomber 1974;;;;;;;;;;X
+BRIG_MODEL_44_0;AEW&C 1964;;;;;;;;;;X
+BRIG_MODEL_44_1;AEW&C 1977;;;;;;;;;;X
+NAME_AEWC;Naval Airborne Early Warning and Control System;;;;;;;;;;X
+SNAME_AEWC;Naval AEW&C;;;;;;;;;;X
+SDESC_AEWC;This ship has a AEW&C.;;;;;;;;;;X
+LDESC_AEWC;An airborne early warning and control (AEW&C) system is an airborne radar picket system designed to detect aircraft, ships and vehicles at long ranges and perform control and command of the battle space in an air engagement by directing fighter and attack aircraft strikes. AEW&C units are also used to carry out surveillance, including over ground targets and frequently perform C2BM (command and control, battle management) functions similar to an Airport Traffic Controller given military command over other forces. When used at altitude, the radar on the aircraft allows the operators to detect and track targets and distinguish between friendly and hostile aircraft much farther away than a similar ground based radar. Like a ground based radar, it can be detected by opposing forces, but because of its mobility, it is much less vulnerable to counter-attack.;;;;;;;;;;X
+NAME_B_05;Airborne Early Warning and Control System;;;;;;;;;;X
+SNAME_B_05;AEW&C;;;;;;;;;;X
+LDESC_B_05;An airborne early warning and control (AEW&C) system is an airborne radar picket system designed to detect aircraft, ships and vehicles at long ranges and perform control and command of the battle space in an air engagement by directing fighter and attack aircraft strikes. AEW&C units are also used to carry out surveillance, including over ground targets and frequently perform C2BM (command and control, battle management) functions similar to an Airport Traffic Controller given military command over other forces. When used at altitude, the radar on the aircraft allows the operators to detect and track targets and distinguish between friendly and hostile aircraft much farther away than a similar ground based radar. Like a ground based radar, it can be detected by opposing forces, but because of its mobility, it is much less vulnerable to counter-attack.;;;;;;;;;;X
+BRIG_MODEL_45_0;AEW&C 1964;;;;;;;;;;X
+BRIG_MODEL_45_1;AEW&C 1977;;;;;;;;;;X
+SDESC_B_05;This air wing has a AEW&C.;;;;;;;;;;X
+LDESC_AEWC_1;An airborne early warning and control (AEW&C) system is an airborne radar picket system designed to detect aircraft, ships and vehicles at long ranges and perform control and command of the battle space in an air engagement by directing fighter and attack aircraft strikes. AEW&C units are also used to carry out surveillance, including over ground targets and frequently perform C2BM (command and control, battle management) functions similar to an Airport Traffic Controller given military command over other forces. When used at altitude, the radar on the aircraft allows the operators to detect and track targets and distinguish between friendly and hostile aircraft much farther away than a similar ground based radar. Like a ground based radar, it can be detected by opposing forces, but because of its mobility, it is much less vulnerable to counter-attack.;;;;;;;;;;X
+SNAME_AEWC_1;AEW&C;;;;;;;;;;X
+NAME_AEWC_1;Airborne Early Warning and Control System;;;;;;;;;;X
+SDESC_AEWC_1;This air wing has a AEW&C.;;;;;;;;;;X
+BRIG_MODEL_46_0;ACAG 1946;;;;;;;;;;X
+BRIG_MODEL_46_1;ACAG 1956;;;;;;;;;;X
+BRIG_MODEL_46_2;ACAG 1963;;;;;;;;;;X
+BRIG_MODEL_46_3;ACAG 1971;;;;;;;;;;X
+BRIG_MODEL_46_4;ACAG 1985;;;;;;;;;;X
+NAME_ACAG;Attack Carrier Air Group;;;;;;;;;;X
+SNAME_ACAG;ACAG;;;;;;;;;;X
+LDESC_ACAG;Attack aircraft give a carrier task force its offensive punch. Their mission is to penetrate the enemy’s defensive umbrella and engage surface vessels with air-to-surface missiles. Attack aircraft are specially designed to perform this hazardous mission and are optimized for low-altitude flight, long range, and high durability. Advanced attack aircraft benefit from high speed and are better able to avoid interception on their attack run.;;;;;;;;;;X
+SDESC_ACAG;This unit has an attack carrier air group.;;;;;;;;;;X
+NAME_FCAG;Fighter Carrier Air Group;;;;;;;;;;X
+SNAME_FCAG;FCAG;;;;;;;;;;X
+LDESC_FCAG;Carrier-based fighters maintain air superiority around a carrier task force. They are equipped with advanced avionics, long and short range air-to-air missiles, and are capable of very high speeds. Carrier operations require carrier-based fighters to be built very robustly in order to withstand short takeoffs and landings and to incorporate space-saving features like folding wings.;;;;;;;;;;X
+SDESC_FCAG;This unit has a fighter carrier air group.;;;;;;;;;;X
+BRIG_MODEL_47_0;FCAG 1946;;;;;;;;;;X
+BRIG_MODEL_47_1;FCAG 1949;;;;;;;;;;X
+BRIG_MODEL_47_2;FCAG 1956;;;;;;;;;;X
+BRIG_MODEL_47_3;FCAG 1974;;;;;;;;;;X
+BRIG_MODEL_47_4;FCAG 1983;;;;;;;;;;X
+SNAME_VTOL;VTOL CAG;;;;;;;;;;X
+SDESC_VTOL;This unit has a VTOL carrier air group.;;;;;;;;;;X
+LDESC_VTOL;Vertical takeoff and landing (VTOL) is the ability for a fixed wing aircraft to hover, take off, and vertically by directing its jet engine thrust downward using nozzles or aerodynamic surfaces. VTOL aircraft may also be capable of short takeoff and landing (STOL) which uses much less fuel than pure VTOL but allows the aircraft to take off and land using very truncated runways. VTOL aircraft are especially useful for navies that focus on deploying helicopter carriers over full-size carriers.;;;;;;;;;;X
+NAME_VTOL;Vertical Take-Off and Landing Carrier Air Group;;;;;;;;;;X
+BRIG_MODEL_48_0;VTOL 1969;;;;;;;;;;X
+BRIG_MODEL_48_1;VTOL 1985;;;;;;;;;;X
+BRIG_MODEL_7_2;APC 1960;;;;;;;;;;X
+BRIG_MODEL_13_9;Engineer 2005;;;;;;;;;;X
+NAME_D_01;;;;;;;;;;;X
+SNAME_D_01;;;;;;;;;;;X
+LDESC_D_01;;;;;;;;;;;X
+SDESC_D_01;;;;;;;;;;;X
+NAME_D_02;;;;;;;;;;;X
+SNAME_D_02;;;;;;;;;;;X
+LDESC_D_02;;;;;;;;;;;X
+SDESC_D_02;;;;;;;;;;;X
+NAME_D_03;;;;;;;;;;;X
+SNAME_D_03;;;;;;;;;;;X
+LDESC_D_03;;;;;;;;;;;X
+SDESC_D_03;;;;;;;;;;;X
+NAME_D_04;;;;;;;;;;;X
+SNAME_D_04;;;;;;;;;;;X
+LDESC_D_04;;;;;;;;;;;X
+SDESC_D_04;;;;;;;;;;;X
+NAME_D_05;;;;;;;;;;;X
+SNAME_D_05;;;;;;;;;;;X
+LDESC_D_05;;;;;;;;;;;X
+SDESC_D_05;;;;;;;;;;;X
+NAME_D_06;;;;;;;;;;;X
+SNAME_D_06;;;;;;;;;;;X
+LDESC_D_06;;;;;;;;;;;X
+SDESC_D_06;;;;;;;;;;;X
+SDESC_D_10;;;;;;;;;;;X
+NAME_D_12;;;;;;;;;;;X
+SNAME_D_12;;;;;;;;;;;X
+LDESC_D_12;;;;;;;;;;;X
+SDESC_D_12;;;;;;;;;;;X
+NAME_CAVALRY_BRIGADE;;;;;;;;;;;X
+SNAME_CAVALRY_BRIGADE;;;;;;;;;;;X
+LDESC_CAVALRY_BRIGADE;;;;;;;;;;;X
+SDESC_CAVALRY_BRIGADE;;;;;;;;;;;X
+NAME_MEDIUM_ARMOR;;;;;;;;;;;X
+SNAME_MEDIUM_ARMOR;;;;;;;;;;;X
+LDESC_MEDIUM_ARMOR;;;;;;;;;;;X
+SDESC_MEDIUM_ARMOR;;;;;;;;;;;X
+NAME_FLOATPLANE;;;;;;;;;;;X
+SNAME_FLOATPLANE;;;;;;;;;;;X
+LDESC_FLOATPLANE;;;;;;;;;;;X
+SDESC_FLOATPLANE;;;;;;;;;;;X
+NAME_AMPH_LIGHT_ARMOR_BRIGADE;;;;;;;;;;;X
+SNAME_AMPH_LIGHT_ARMOR_BRIGADE;;;;;;;;;;;X
+LDESC_AMPH_LIGHT_ARMOR_BRIGADE;;;;;;;;;;;X
+SDESC_AMPH_LIGHT_ARMOR_BRIGADE;;;;;;;;;;;X
+NAME_GLI_LIGHT_ARMOR_BRIGADE;;;;;;;;;;;X
+SNAME_GLI_LIGHT_ARMOR_BRIGADE;;;;;;;;;;;X
+LDESC_GLI_LIGHT_ARMOR_BRIGADE;;;;;;;;;;;X
+SDESC_GLI_LIGHT_ARMOR_BRIGADE;;;;;;;;;;;X
+NAME_GLI_LIGHT_ARTILLERY;;;;;;;;;;;X
+SNAME_GLI_LIGHT_ARTILLERY;;;;;;;;;;;X
+LDESC_GLI_LIGHT_ARTILLERY;;;;;;;;;;;X
+SDESC_GLI_LIGHT_ARTILLERY;;;;;;;;;;;X
+NAME_SH_ARTILLERY;;;;;;;;;;;X
+SNAME_SH_ARTILLERY;;;;;;;;;;;X
+LDESC_SH_ARTILLERY;;;;;;;;;;;X
+SDESC_SH_ARTILLERY;;;;;;;;;;;X
+NAME_B_01;;;;;;;;;;;X
+SNAME_B_01;;;;;;;;;;;X
+LDESC_B_01;;;;;;;;;;;X
+SDESC_B_01;;;;;;;;;;;X
+NAME_B_02;;;;;;;;;;;X
+SNAME_B_02;;;;;;;;;;;X
+LDESC_B_02;;;;;;;;;;;X
+SDESC_B_02;;;;;;;;;;;X
+NAME_B_03;;;;;;;;;;;X
+SNAME_B_03;;;;;;;;;;;X
+LDESC_B_03;;;;;;;;;;;X
+SDESC_B_03;;;;;;;;;;;X
+NAME_B_04;;;;;;;;;;;X
+SNAME_B_04;;;;;;;;;;;X
+LDESC_B_04;;;;;;;;;;;X
+SDESC_B_04;;;;;;;;;;;X
+NAME_B_06;;;;;;;;;;;X
+SNAME_B_06;;;;;;;;;;;X
+LDESC_B_06;;;;;;;;;;;X
+SDESC_B_06;;;;;;;;;;;X
+NAME_B_07;;;;;;;;;;;X
+SNAME_B_07;;;;;;;;;;;X
+LDESC_B_07;;;;;;;;;;;X
+SDESC_B_07;;;;;;;;;;;X
+NAME_B_08;;;;;;;;;;;X
+SNAME_B_08;;;;;;;;;;;X
+LDESC_B_08;;;;;;;;;;;X
+SDESC_B_08;;;;;;;;;;;X
+NAME_NONE;;;;;;;;;;;X
+SNAME_NONE;;;;;;;;;;;X
+LDESC_NONE;;;;;;;;;;;X
+SDESC_NONE;;;;;;;;;;;X
+NAME_B_RSV_36;;;;;;;;;;;X
+SNAME_B_RSV_36;;;;;;;;;;;X
+LDESC_B_RSV_36;;;;;;;;;;;X
+SDESC_B_RSV_36;;;;;;;;;;;X
+NAME_B_RSV_37;;;;;;;;;;;X
+SNAME_B_RSV_37;;;;;;;;;;;X
+LDESC_B_RSV_37;;;;;;;;;;;X
+SDESC_B_RSV_37;;;;;;;;;;;X
+NAME_B_RSV_38;;;;;;;;;;;X
+SNAME_B_RSV_38;;;;;;;;;;;X
+LDESC_B_RSV_38;;;;;;;;;;;X
+SDESC_B_RSV_38;;;;;;;;;;;X
+NAME_B_RSV_39;;;;;;;;;;;X
+SNAME_B_RSV_39;;;;;;;;;;;X
+LDESC_B_RSV_39;;;;;;;;;;;X
+SDESC_B_RSV_39;;;;;;;;;;;X
+NAME_B_RSV_40;;;;;;;;;;;X
+SNAME_B_RSV_40;;;;;;;;;;;X
+LDESC_B_RSV_40;;;;;;;;;;;X
+SDESC_B_RSV_40;;;;;;;;;;;X
+MODEL_30_9;Transport Ship 2005;;;;;;;;;;X
+MODEL_30_10;Transport Ship 1995;;;;;;;;;;X
+BRIG_MODEL_13_10;Engineer 2005;;;;;;;;;;X
+MODEL_32_0;;;;;;;;;;;X
+NAME_ROCKET_INTERCEPTOR;;;;;;;;;;;X
+SNAME_ROCKET_INTERCEPTOR;;;;;;;;;;;X
+LDESC_ROCKET_INTERCEPTOR;;;;;;;;;;;X
+SDESC_ROCKET_INTERCEPTOR;;;;;;;;;;;X
+MODEL_32_1;Strike Bomber 1960;;;;;;;;;;X
+MODEL_32_2;Strike Bomber 1967;;;;;;;;;;X
+MODEL_32_3;Strike Bomber 1988;;;;;;;;;;X
+NAME_D_RSV_33;;;;;;;;;;;X
+SNAME_D_RSV_33;;;;;;;;;;;X
+LDESC_D_RSV_33;;;;;;;;;;;X
+SDESC_D_RSV_33;;;;;;;;;;;X
+NAME_D_RSV_34;;;;;;;;;;;X
+SNAME_D_RSV_34;;;;;;;;;;;X
+LDESC_D_RSV_34;;;;;;;;;;;X
+SDESC_D_RSV_34;;;;;;;;;;;X
+NAME_D_RSV_35;;;;;;;;;;;X
+SNAME_D_RSV_35;;;;;;;;;;;X
+LDESC_D_RSV_35;;;;;;;;;;;X
+SDESC_D_RSV_35;;;;;;;;;;;X
+NAME_D_RSV_36;;;;;;;;;;;X
+SNAME_D_RSV_36;;;;;;;;;;;X
+LDESC_D_RSV_36;;;;;;;;;;;X
+SDESC_D_RSV_36;;;;;;;;;;;X
+NAME_D_RSV_37;;;;;;;;;;;X
+SNAME_D_RSV_37;;;;;;;;;;;X
+LDESC_D_RSV_37;;;;;;;;;;;X
+SDESC_D_RSV_37;;;;;;;;;;;X
+NAME_D_RSV_38;;;;;;;;;;;X
+SNAME_D_RSV_38;;;;;;;;;;;X
+LDESC_D_RSV_38;;;;;;;;;;;X
+SDESC_D_RSV_38;;;;;;;;;;;X
+NAME_D_RSV_39;;;;;;;;;;;X
+SNAME_D_RSV_39;;;;;;;;;;;X
+LDESC_D_RSV_39;;;;;;;;;;;X
+SDESC_D_RSV_39;;;;;;;;;;;X
+NAME_D_RSV_40;;;;;;;;;;;X
+SNAME_D_RSV_40;;;;;;;;;;;X
+LDESC_D_RSV_40;;;;;;;;;;;X
+SDESC_D_RSV_40;;;;;;;;;;;X
+MODEL_15_-1;;;;;;;;;;;X
+MODEL_17_7;Attack Aircraft 1995;;;;;;;;;;X
+MODEL_17_8;Attack Aircraft 2007;;;;;;;;;;X
+BRIG_MODEL_41_4;Attack Helicopter 1995;;;;;;;;;;X
+BRIG_MODEL_41_5;Attack Helicopter 2008;;;;;;;;;;X
+BRIG_MODEL_42_1;Reconnaissance Aiircraft 1966;;;;;;;;;;X
+BRIG_MODEL_45_2;AEW&C 1998;;;;;;;;;;X
+BRIG_MODEL_44_2;AEW&C 1998;;;;;;;;;;X
+BRIG_MODEL_48_2;VTOL 2006;;;;;;;;;;X
+BRIG_MODEL_47_5;FCAG 1991;;;;;;;;;;X
+BRIG_MODEL_47_6;FCAG 2006;;;;;;;;;;X
+BRIG_MODEL_14_6;MRCAG 1992;;;;;;;;;;X
+BRIG_MODEL_46_5;ACAG 1995;;;;;;;;;;X
+BRIG_MODEL_46_6;ACAG 2007;;;;;;;;;;X
+MODEL_10_8;HQ 2000;;;;;;;;;;X
+MODEL_10_9;HQ 2005;;;;;;;;;;X
+MODEL_10_10;HQ 1995;;;;;;;;;;X
+MODEL_11_8;Militia 2000;;;;;;;;;;X
+MODEL_11_9;Militia 2005;;;;;;;;;;X
+BRIG_MODEL_8_3;IFV 1988;;;;;;;;;;X
+BRIG_MODEL_8_4;IFV 1994;;;;;;;;;;X
+BRIG_MODEL_8_5;IFV 2002;;;;;;;;;;X
+BRIG_MODEL_7_3;APC 1976;;;;;;;;;;X
+BRIG_MODEL_7_4;APC 1987;;;;;;;;;;X
+BRIG_MODEL_7_5;APC 1996;;;;;;;;;;X
+BRIG_MODEL_7_6;APC 2003;;;;;;;;;;X
+NAME_D_83;s;;;;;;;;;;X
+SNAME_D_83;;;;;;;;;;;X
+LDESC_D_83;;;;;;;;;;;X
+SDESC_D_83;;;;;;;;;;;X
+BRIG_MODEL_1_6;Artillery 2004;;;;;;;;;;X
+BRIG_MODEL_4_6;SP Rocket Artillery 2005;;;;;;;;;;X
+BRIG_MODEL_4_7;Modern SP AA Artillery;;;;;;;;;;X
+MODEL_13_0;ASF 1951;;;;;;;;;;X
+MODEL_13_1;ASF 1953;;;;;;;;;;X
+MODEL_13_2;ASF 1959;;;;;;;;;;X
+MODEL_13_3;ASF 1970;;;;;;;;;;X
+MODEL_13_4;ASF 1985;;;;;;;;;;X
+MODEL_13_5;ASF 1992;;;;;;;;;;X
+MODEL_15_0;Strike Bomber 1951;;;;;;;;;;X
+MODEL_15_1;Strike Bomber 1960;;;;;;;;;;X
+MODEL_15_2;Strike Bomber 1967;;;;;;;;;;X
+MODEL_14_3;Stealth Bomber;;;;;;;;;;X
+MODEL_12_8;MRF 1999;;;;;;;;;;X
+MODEL_13_6;ASF 2005;;;;;;;;;;X
+MODEL_18_4;Transport Plane 1991;;;;;;;;;;X
+MODEL_9_9;Garrison 2005;;;;;;;;;;X
+NAME_B_09;;;;;;;;;;;X
+SNAME_B_09;;;;;;;;;;;X
+LDESC_B_09;;;;;;;;;;;X
+SDESC_B_09;;;;;;;;;;;X
+BRIG_MODEL_49_0;MANPADS 1944;;;;;;;;;;X
+BRIG_MODEL_49_1;MANPADS 1968;;;;;;;;;;X
+BRIG_MODEL_49_2;MANPADS 1981;;;;;;;;;;X
+BRIG_MODEL_49_3;MANPADS 1988;;;;;;;;;;X
+BRIG_MODEL_49_4;MANPADS 2004;;;;;;;;;;X
+NAME_MANPADS;Man-Portable Air-Defense Systems;;;;;;;;;;X
+SNAME_MANPADS;MANPADS;;;;;;;;;;X
+SDESC_MANPADS;MANPADS;;;;;;;;;;X
+LDESC_MANPADS;Man-portable air-defense systems (MANPADS or MPADS) are shoulder-launched surface-to-air missiles (SAMs). They are typically guided weapons and are a threat to low-flying aircraft, especially helicopters.;;;;;;;;;;X
+MODEL_17_10;Attack Aircraft 1995;;;;;;;;;;X
+MODEL_15_3;"Stealth ""Fighter""";;;;;;;;;;X
+#EOF;;;;;;;;;;;X
+#EOF;;;;;;;;;;;X

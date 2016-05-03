@@ -1,0 +1,143 @@
+############################
+# Brazil
+############################
+###### 1985 Brazilian presidential election
+event = {
+	id = 9000540
+	random = no
+	country = BRA
+	
+	name = "brazil_1985_election"
+	desc = "brazil_1985_election_desc"
+	style = 2
+	picture = "brazil_1985_election"
+	decision_picture = "decision_brazil_1985_election"
+
+	
+	date = { day = 14 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 1 month = may year = 1985 }
+
+	action = { trigger = { NOT = { event = 9000544 } }
+		ai_chance = 90
+		name = "Elect Tancredo Neves (Historical)"
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = domestic which = freedom value = 1 }	
+		command = { type = trigger which = 9000541 } #Tancredo Neves Elected
+		command = { type = sleepevent which = 9000544 } #Paulo Maluf Elected
+	}
+	action = {
+		ai_chance = 10
+		name = "Elect Paulo Maluf"
+		command = { type = dissent value = 5 }
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = domestic which = political_left value = 1 }
+		command = { type = domestic which = freedom value = 1 }
+		command = { type = trigger which = 9000544 } #Paulo Maluf Elected
+		command = { type = sleepevent which = 9000541 } #Tancredo Neves Elected
+	}
+	action = {
+		ai_chance = 1
+		name = "Order and Progress, Progress Through Order"
+		command = { type = dissent value = 20 }
+		command = { type = domestic which = democratic value = -3 }
+		command = { type = domestic which = political_left value = -3 }
+		command = { type = domestic which = freedom value = -3 }
+		command = { type = sleepevent which = 9000541 } #Tancredo Neves Elected
+		command = { type = sleepevent which = 9000544 } #Paulo Maluf Elected
+		command = { type = local_setflag which = 1964_regime_continues }
+	}
+}
+###### 1985 Brazilian presidential election (Tancredo Neves Elected)
+event = {
+	id = 9000541	
+	random = no
+	country = BRA
+#	save_date = yes
+	
+	name = "brazil_1985_election_2"
+	desc = "brazil_1985_election_2_desc"
+	style = 2
+	picture = "brazil_1985_election"
+
+	#date = { day = 14 month = january year = 1985 }
+
+	action = {
+		name = "The New Republic!"
+		command = { type = dissent value = -5 }
+	}
+}
+###### 1985 Brazilian presidential election (Tancredo falls ill)
+event = {
+	id = 9000542	
+	random = no
+	country = BRA
+#	save_date = yes
+	
+	trigger = {
+			event = 9000541 #Tancredo Neves Elected
+	}
+	
+	name = "brazil_1985_election_3"
+	desc = "brazil_1985_election_3_desc"
+	style = 2
+	picture = "brazil_1985_election"
+
+	date = { day = 13 month = march year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "Let's hope he will be fine!"
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = political_left value = -2 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = headofstate which = 160011 } #José Sarney
+		command = { type = headofgovernment which = 160012 } #José Sarney
+	}
+}
+###### 1985 Brazilian presidential election (Tancredo died)
+event = {
+	id = 9000543
+	random = no
+	country = BRA
+#	save_date = yes
+	
+	trigger = {
+			event = 9000542 #Tancredo falls ill
+	}
+	
+	name = "brazil_1985_election_4"
+	desc = "brazil_1985_election_4_desc"
+	style = 2
+	picture = "brazil_1985_election"
+
+	date = { day = 20 month = april year = 1985 }
+
+	action = {
+		name = "We mourn in his honor..."
+		command = { type = dissent value = 5 }
+	}
+}
+###### 1985 Brazilian presidential election (Paulo Maluf Elected.)
+event = {
+	id = 9000544	
+	random = no
+	country = BRA
+#	save_date = yes
+	
+	name = "brazil_1985_election_5"
+	desc = "brazil_1985_election_desc"
+	style = 2
+	picture = "brazil_1985_election"
+
+	#date = { day = 13 month = march year = 1985 }
+
+	action = {
+		name = "A step towards democracy!"
+		command = { type = dissent value = -5 }
+		command = { type = headofstate which = 160013 }
+		command = { type = headofgovernment which = 160014 }
+		command = { type = local_clrflag which = maluf_elected }
+	}
+}

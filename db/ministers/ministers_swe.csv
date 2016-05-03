@@ -1,0 +1,22 @@
+SWE;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+40001;Head of State;HM Carl XVI Gustaf;1985;2012;2012;ML;Popular Figurehead;Very High;SWE1;X
+40002;Head of Government;Olof Palme;1985;2012;2012;SD;Flamboyant Tough Guy;Very High;SWE2;X
+40003;Foreign Minister;Lennart Bodström;1985;2012;2012;SD;biased intellectual;Very High;SWE3;X
+40004;Minister of Armament;Kjell-Olof Feldt;1985;2012;2012;SL;Laissez-Faire Capitalist;Very High;SWE4;X
+40005;Minister of Security;Sten Wickbom;1985;2012;2012;SD;Silent Lawyer;Very High;SWE5;X
+40006;Head of Military Intelligence;Lars-Erik Tammelin;1985;2012;2012;ML;Technical Specialist;Very High;unknown;X
+40007;Chief of Staff;Lennart Ljung;1985;2012;2012;ML;School of Defence;Very High;SWE6;X
+40008;Chief of Army;Erik G. Bengtsson;1985;2012;2012;ML;Elastic Defence Doctrine;Very High;unknown;X
+40009;Chief of Navy;Bengt Schuback;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;unknown;X
+40010;Chief of Air Force;Sven-Olof Olson;1985;2012;2012;ML;Air Superiority Doctrine;Very High;unknown;X
+;Replacements;;;;;;;;;X
+40011;Head of State;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40012;Head of Government;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40013;Foreign Minister;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40014;Minister of Armament;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40015;Minister of Security;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40016;Head of Military Intelligence;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40017;Chief of Staff;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40018;Chief of Army;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40019;Chief of Navy;?;1985;2012;2012;LE;Generic;Very High;unknown;X
+40020;Chief of Air Force;?;1985;2012;2012;LE;Generic;Very High;unknown;X

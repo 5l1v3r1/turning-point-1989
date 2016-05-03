@@ -1,0 +1,22 @@
+SLV;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+525001;Head of State;Milan Kucan;1985;2012;2012;SD;Popular Figurehead;Very High;SLV1;X
+525002;Head of Government;Lojze Peterle;1985;2012;2012;SC;Naive Optimist;Very High;SLV2;X
+525003;Foreign Minister;Dimitrij Rupel;1985;2012;2012;ML;Biased Intellectual;Very High;SLV3;X
+525004;Minister of Armament;Janez Jansa;1985;2012;2012;ML;Infantry Proponent;Very High;SLV4;X
+525005;Minister of Security;Igor Bavcar;1985;2012;2012;ML;Back Stabber;Very High;SLV5;X
+525006;Head of Military Intelligence;Mihael Brejc;1985;2012;2012;SC;Political Specialist;Very High;SLV6;X
+525007;Chief of Staff;Janez Slapar;1985;2012;2012;ML;School of Psychology;Very High;SLV7;X
+525008;Chief of Army;Janez Slapar;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;SLV7;X
+525009;Chief of Navy;Janez Slapar;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;SLV7;X
+525010;Chief of Air Force;Janez Slapar;1985;2012;2012;ML;Army Aviation Doctrine;Very High;SLV7;X
+;Replacements;;;;;;;;;X
+525011;Head of Government;Dusan Sinigoj;1985;2012;2012;LE;Silent Workhorse;Very High;unknown;X
+525012;Head of Government;Janez Drnovsek;1985;2012;2012;SL;Silent Workhorse;Very High;unknown;X
+525013;Foreign Minister;;1984;1984;1984;ML;Biased Intellectual;Very High;SLV3;X
+525014;Minister of Armament;;1984;1984;1984;ML;Infantry Proponent;Very High;SLV4;X
+525015;Minister of Security;;1984;1984;1984;ML;Back Stabber;Very High;SLV5;X
+525016;Head of Military Intelligence;;1984;1984;1984;SC;Political Specialist;Very High;SLV6;X
+525017;Chief of Staff;;1984;1984;1984;ML;School of Psychology;Very High;SLV7;X
+525018;Chief of Army;;1984;1984;1984;ML;Guns and Butter Doctrine;Very High;SLV7;X
+525019;Chief of Navy;;1984;1984;1984;ML;Indirect Approach Doctrine;Very High;SLV7;X
+525020;Chief of Air Force;;1984;1984;1984;ML;Army Aviation Doctrine;Very High;SLV7;X

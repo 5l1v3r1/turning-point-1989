@@ -1,0 +1,12 @@
+SPA;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+;Replacements;;;;;;;;;X
+35001;Head of State;HM Juan Carlos I;1936;1999;2012;SL;Resigned Generalissimo;High;ESP1;X
+35002;Head of Government;Felipe González;1936;1999;2012;SD;Political Protege;High;ESP2;X
+35003;Foreign Minister;Fernando Morán;1936;1999;2012;SD;Ideological Crusader;High;ESP3;X
+35004;Minister of Armament;Miguel Boyer;1936;1999;2012;SD;Infantry Proponent;High;ESP4;X
+35005;Minister of Security;Narcís Serra;1936;1999;2012;SD;Crime Fighter;High;ESP5;X
+35006;Head of Military Intelligence;Emilio Manglano;1936;1999;2012;SL;Political Specialist;High;ESP6;X
+35007;Chief of Staff;Fidel Dávila Arrondo;1936;1964;2012;FA;School of Psychology;High;M10002;X
+35008;Chief of Army;Emilio Mola Vidal;1936;1964;2012;FA;Decisive Battle Doctrine;Very High;M10008;X
+35009;Chief of Navy;Francisco Moreno Fernández;1936;1964;2012;FA;Open Seas Doctrine;High;M10009;X
+35010;Chief of Air Force;Alfredo Kindelán Duany;1936;1964;2012;PA;Carpet Bombing Doctrine;High;M10010;X

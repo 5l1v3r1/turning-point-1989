@@ -1,0 +1,25 @@
+CZE;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+120001;Head of State;Gustáv Husák;1985;2012;2012;LE;Weary Stiffneck;Very High;CZE1;X
+120002;Head of Government;Lubomír Strougal;1985;2012;2012;LE;Ambitious Union Boss;Very High;CZE2;X
+120003;Foreign Minister;Bohuslav Chnoupek;1985;2012;2012;LE;biased intellectual;Very High;CZE3;X
+120004;Minister of Armament;Milán Václavík;1985;2012;2012;ST;Infantry Proponent;Very High;CZE4;X
+120005;Minister of Security;Josef Jung;1985;2012;2012;LE;Crime Fighter;Very High;unknown;X
+120006;Head of Military Intelligence;Josef Jung;1985;2012;2012;LE;Political Specialist;Very High;unknown;X
+120007;Chief of Staff;Milán Václavík;1985;2012;2012;ST;School of Fire Support;Very High;CZE4;X
+120008;Chief of Army;Milán Václavík;1985;2012;2012;ST;Armoured Spearhead Doctrine;Very High;CZE4;X
+120009;Chief of Navy;Milán Václavík;1985;2012;2012;ST;Indirect Approach Doctrine;Very High;CZE4;X
+120010;Chief of Air Force;Milán Václavík;1985;2012;2012;ST;Army Aviation Doctrine;Very High;CZE4;X
+;Replacements;;;;;;;;;X
+120011;Head of State;Václav Havel;1985;2012;2012;ML;Benevolent Gentleman;Very High;CZE5;X
+120012;Head of Government;Marián Calfa;1985;2012;2012;SD;Silent Workhorse;Very High;CZE6;X
+120013;Foreign Minister;Lubos Dobrovský;1985;2012;2012;SL;Great Compromiser;Very High;CZE7;X
+120014;Minister of Armament;Václav Klaus;1985;2012;2012;ML;Laissez-Faire Capitalist;Very High;CZE8;X
+120015;Minister of Security;Vladimír Meciar;1985;2012;2012;SC;Back Stabber;Very High;CZE9;X
+120016;Head of Military Intelligence;Imrich Andrejcák;1985;2012;2012;ML;Logistics Specialist;Very High;CZE10;X
+120017;Chief of Staff;Miroslav Vacek;1985;2012;2012;SD;School of Manoeuvre;Very High;CZE11;X
+120018;Chief of Army;Miroslav Vacek;1985;2012;2012;SD;Decisive Battle Doctrine;Very High;CZE11;X
+120019;Chief of Navy;Miroslav Vacek;1985;2012;2012;SD;Indirect Approach Doctrine;Very High;CZE11;X
+120020;Chief of Air Force;Miroslav Vacek;1985;2012;2012;SD;Air Superiority Doctrine;Very High;CZE11;X
+120021;Head of Government;Václav Klaus;1985;2012;2012;ML;Flamboyant Tough Guy;Very High;CZE8;X
+120022;Minister of Security;Oskar Krejcí;1985;2012;2012;SD;Crime Fighter;Very High;CZE12;X
+120023;Head of Military Intelligence;Oskar Krejcí;1985;2012;2012;SD;Political Specialist;Very High;CZE12;X

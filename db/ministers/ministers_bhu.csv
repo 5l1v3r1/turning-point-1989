@@ -1,0 +1,32 @@
+BHU;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+330001;Head of State;Jigme Singye Wangchuck;1985;2012;2012;PA;Pig-headed Isolationist;High;BHU1;X
+330002;Head of Government;Jigme Singye Wangchuck;1985;2012;2012;PA;Silent Workhorse;High;BHU1;X
+330003;Foreign Minister;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+330004;Minister of Armament;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+330005;Minister of Security;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+330006;Head of Military Intelligence;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+330007;Chief of Staff;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+330008;Chief of Army;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+330009;Chief of Navy;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+330010;Chief of Air Force;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+;Replacements;;;;;;;;;X
+330011;Head of State;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+330012;Head of Government;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+330013;Foreign Minister;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+330014;Minister of Armament;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+330015;Minister of Security;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;
+330016;Head of Military Intelligence;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;
+330017;Chief of Staff;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+330018;Chief of Army;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+330019;Chief of Navy;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+330020;Chief of Air Force;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+330021;Head of State;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330022;Head of Government;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330023;Foreign Minister;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330024;Minister of Armament;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330025;Minister of Security;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330026;Head of Military Intelligence;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330027;Chief of Staff;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330028;Chief of Army;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330029;Chief of Navy;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+330030;Chief of Air Force;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X

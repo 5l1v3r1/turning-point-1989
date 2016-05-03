@@ -1,0 +1,34 @@
+ROM;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+110001;Head of State;Nicolae Ceausescu;1985;2012;2012;ST;Ruthless Powermonger;Very High;ROM1;X
+110002;Head of Government;Constantin Dascalescu;1985;2012;2012;ST;Political Protege;Very High;ROM2;X
+110003;Foreign Minister;Stefan Andrei;1985;2012;2012;LE;Apologetic Clerk;Very High;ROM3;X
+110004;Minister of Armament;Constantin Olteanu;1985;2012;2012;LE;Military Entrepreneur;Very High;ROM4;X
+110005;Minister of Security;George Homostean;1985;2012;2012;LE;Prince of Terror;Very High;ROM5;X
+110006;Head of Military Intelligence;George Homostean;1985;2012;2012;LE;Political Specialist;Very High;ROM5;X
+110007;Chief of Staff;Vasile Milea;1985;2012;2012;LE;School of Fire Support;Very High;ROM6;X
+110008;Chief of Army;Vasile Milea;1985;2012;2012;LE;Decisive Battle Doctrine;Very High;ROM6;X
+110009;Chief of Navy;Ioan Musat;1985;2012;2012;LE;Indirect Approach Doctrine;Very High;ROM7;X
+110010;Chief of Air Force;George Zarnescu;1985;2012;2012;LE;Air Superiority Doctrine;Very High;ROM8;X
+;Replacements;;;;;;;;;X
+110011;Head of State;Ion Iliescu;1985;2012;2012;SD;Popular Figurehead;High;ROM9;X
+110012;Head of Government;Petre Roman;1985;2012;2012;SD;Happy Amateur;High;ROM11;X
+110013;Foreign Minister;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+110014;Minister of Armament;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+110016;Minister of Security;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;
+110018;Head of Military Intelligence;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;
+110017;Chief of Staff;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+110015;Chief of Army;Nicolae Militaru;1985;2012;2012;SD;Generic;High;ROM10;X
+110019;Chief of Navy;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+110020;Chief of Air Force;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+110021;Head of State;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110022;Head of Government;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110023;Foreign Minister;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110024;Minister of Armament;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110025;Minister of Security;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110026;Head of Military Intelligence;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110027;Chief of Staff;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110028;Chief of Army;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110029;Chief of Navy;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110030;Chief of Air Force;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110031;Head of State;Blue Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+110032;Head of Government;Blue Shadow;1985;2012;2012;NS;Generic;High;unknown;X

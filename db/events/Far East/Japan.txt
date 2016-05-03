@@ -1,0 +1,24 @@
+#########################################################################
+#  Expo '85 (Japan)
+#########################################################################
+event = {
+	id = 2011006
+	random = no
+	country = JAP
+
+	name = EXPO85_NAME
+	desc = EXPO85_DESC
+	style = 2
+  	picture = "news_paper"
+	
+	trigger = {
+		atwar = no
+	}
+
+        date = { day = 15 month = september year = 1985 }
+
+	action = {
+		name = "ACTION_NAME_GREAT"
+		command = { type = dissent value = -1 }
+	}
+}

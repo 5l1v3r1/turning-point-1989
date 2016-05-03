@@ -1,0 +1,99 @@
+####################################
+# Dynamic AI Switch
+####################################
+event = {
+	id = 3057002
+	random = no
+	TAG = { SOV DDR POL CZE HUN ROM BUL CHC PRK YUG USA FRA ENG DFR ITA }
+	persistent = yes
+
+	trigger = {
+		OR = {
+			NOT = { local_flag = sov_wic }
+			NOT = { local_flag = ddr_wic }
+			NOT = { local_flag = pol_wic }
+			NOT = { local_flag = cze_wic }
+			NOT = { local_flag = hun_wic }
+			NOT = { local_flag = rom_wic }
+			NOT = { local_flag = bul_wic }
+			NOT = { local_flag = usa_wic }
+			NOT = { local_flag = fra_wic }
+			NOT = { local_flag = eng_wic }
+			NOT = { local_flag = dfr_wic }
+			NOT = { local_flag = ita_wic }
+			NOT = { local_flag = chc_wic }
+			NOT = { local_flag = prk_wic }
+			NOT = { local_flag = yug_wic }	
+		}
+		atwar = yes
+		ai = yes
+	}
+	
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+
+	action = { trigger = { country = SOV } 
+		command = { trigger = { war = { country = SOV  country = USA } } type = ai which = "switch/warsaw pact/sov_wic_1989.ai" } 
+		command = { type = local_setflag which = sov_wic }
+	}
+	action = { trigger = { country = CHC } 
+		command = { trigger = { war = { country = CHC  country = USA } } type = ai which = "switch/chc_wic_1989.ai" } 
+		command = { type = local_setflag which = chc_wic }
+	}
+	action = { trigger = { country = PRK } 
+		command = { trigger = { war = { country = PRK  country = USA } } type = ai which = "switch/warsaw pact/prk_wic_1989.ai" } 
+		command = { type = local_setflag which = prk_wic }
+	}
+	action = { trigger = { country = DDR } 
+		command = { trigger = { war = { country = DDR  country = USA } } type = ai which = "switch/warsaw pact/ddr_wic_1989.ai" } 
+		command = { type = local_setflag which = ddr_wic }
+	}
+	action = { trigger = { country = POL } 
+		command = { trigger = { war = { country = POL  country = USA } } type = ai which = "switch/warsaw pact/pol_wic_1989.ai" } 
+		command = { type = local_setflag which = pol_wic }
+	}
+	action = { trigger = { country = CZE } 
+		command = { trigger = { war = { country = CZE  country = USA } } type = ai which = "switch/warsaw pact/cze_wic_1989.ai" } 
+		command = { type = local_setflag which = cze_wic }
+	}
+	action = { trigger = { country = HUN } 
+		command = { trigger = { war = { country = HUN  country = USA } } type = ai which = "switch/warsaw pact/cze_wic_1989.ai" } 
+		command = { type = local_setflag which = hun_wic }
+	}
+	action = { trigger = { country = ROM } 
+		command = { trigger = { war = { country = ROM  country = USA } } type = ai which = "switch/warsaw pact/rom_wic_1989.ai" } 
+		command = { type = local_setflag which = rom_wic }
+	}
+	action = { trigger = { country = BUL } 
+		command = { trigger = { war = { country = BUL  country = USA } } type = ai which = "switch/warsaw pact/bul_wic_1989.ai" } 
+		command = { type = local_setflag which = bul_wic }
+	}
+	action = { trigger = { country = YUG } 
+		command = { trigger = { war = { country = YUG  country = USA } } type = ai which = "switch/yug_wic_1989.ai" } 
+		command = { type = local_setflag which = yug_wic }
+	}
+	action = { trigger = { country = USA } 
+		command = { trigger = { OR = { war = { country = USA  country = SOV } war = { country = USA  country = CHC } war = { country = USA  country = DDR } } } type = ai which = "switch/nato/usa_wic_1989.ai" }
+		command = { type = local_setflag which = usa_wic }
+	}
+	action = { trigger = { country = FRA } 
+		command = { trigger = { war = { country = FRA  country = SOV } } type = ai which = "switch/nato/fra_wic_1989.ai" } 
+		command = { type = local_setflag which = fra_wic }
+	}
+	action = { trigger = { country = ENG } 
+		command = { trigger = { war = { country = ENG  country = SOV } } type = ai which = "switch/nato/eng_wic_1989.ai" } 
+		command = { type = local_setflag which = eng_wic }
+	}
+	action = { trigger = { country = DFR } 
+		command = { trigger = { war = { country = DFR  country = SOV } } type = ai which = "switch/nato/dfr_wic_1989.ai" } 
+		command = { type = local_setflag which = dfr_wic }
+	}
+	action = { trigger = { country = ITA } 
+		command = { trigger = { war = { country = ITA  country = SOV } } type = ai which = "switch/nato/ita_wic_1989.ai" } 
+		command = { type = local_setflag which = ita_wic }
+	}
+}

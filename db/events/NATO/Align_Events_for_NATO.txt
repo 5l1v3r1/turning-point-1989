@@ -1,0 +1,570 @@
+#########################################################################
+#  Align Taiwan
+#########################################################################
+event = {
+	id = 2022025
+	random = no
+	country = USA
+
+	decision = {
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = CHI country = SOV } }
+		NOT = { alliance = { country = CHI country = USA } }
+		participant = { country = -1 value = 1 }
+	}
+	decision_trigger = {
+		money = 100
+	}
+	trigger = {
+		event = { id = 2007207 days = 90 } #China receives alliance offer
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = CHI country = SOV } }
+		NOT = { alliance = { country = CHI country = USA } }
+		participant = { country = -1 value = 1 }
+		money = 100
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "align_taiwan"
+	desc = "align_taiwan_desc"
+	style = 1
+	picture = "align_usa_nato"
+	decision_picture = "decision_align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ALLIANCE"									
+		command = { type = money value = -100 }
+		command = { type = trigger which = 2022026 }
+	}
+}
+#Taiwan receives alliance offer
+event = {
+	id = 2022026
+	random = no
+	country = CHI
+	
+	name = "align_usa"
+	desc = "align_usa_taiwan_desc"
+	style = 1
+	picture = "align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		#trigger = { flag = tpstandard }
+		ai_chance = 70
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		#trigger = { flag = tpstandard }
+		ai_chance = 30
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 99
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 1
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 90
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 10
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 10
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 90
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+}
+#########################################################################
+#  Align Japan
+#########################################################################
+event = {
+	id = 2022027
+	random = no
+	country = USA
+
+	decision = {
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = JAP country = SOV } }
+		NOT = { alliance = { country = JAP country = USA } }
+		participant = { country = -1 value = 1 }
+	}
+	decision_trigger = {
+		money = 100
+	}
+	trigger = {
+		event = { id = 2007207 days = 90 } #China receives alliance offer
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = JAP country = SOV } }
+		NOT = { alliance = { country = JAP country = USA } }
+		participant = { country = -1 value = 1 }
+		money = 100
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "align_japan"
+	desc = "align_japan_desc"
+	style = 1
+	picture = "align_usa_nato"
+	decision_picture = "decision_align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ALLIANCE"									
+		command = { type = money value = -100 }
+		command = { type = trigger which = 2022028 }
+	}
+}
+#Japan receives alliance offer
+event = {
+	id = 2022028
+	random = no
+	country = JAP
+	
+	name = "align_usa"
+	desc = "align_usa_japan_desc"
+	style = 1
+	picture = "align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		#trigger = { flag = tpstandard }
+		ai_chance = 70
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		#trigger = { flag = tpstandard }
+		ai_chance = 30
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 99
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 1
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 90
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 10
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 10
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 90
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+}
+#########################################################################
+#  Align Korea
+#########################################################################
+event = {
+	id = 2022029
+	random = no
+	country = USA
+
+	decision = {
+		alliance = { country = PRK country = SOV }
+		NOT = { alliance = { country = KOR country = SOV } }
+		NOT = { alliance = { country = KOR country = USA } }
+		participant = { country = -1 value = 1 }
+	}
+	decision_trigger = {
+		money = 100
+	}
+	trigger = {
+		event = { id = 2007209 days = 90 } #North Korea receives alliance offer
+		alliance = { country = PRK country = SOV }
+		NOT = { alliance = { country = KOR country = SOV } }
+		NOT = { alliance = { country = KOR country = USA } }
+		participant = { country = -1 value = 1 }
+		money = 100
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "align_korea"
+	desc = "align_korea_desc"
+	style = 1
+	picture = "align_usa_nato"
+	decision_picture = "decision_align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ALLIANCE"									
+		command = { type = money value = -100 }
+		command = { type = trigger which = 2022030 }
+	}
+}
+#Korea receives alliance offer
+event = {
+	id = 2022030
+	random = no
+	country = KOR
+	
+	name = "align_usa"
+	desc = "align_usa_korea_desc"
+	style = 1
+	picture = "align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		#trigger = { flag = tpstandard }
+		ai_chance = 70
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		#trigger = { flag = tpstandard }
+		ai_chance = 30
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 99
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 1
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 90
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 10
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 10
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 90
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+}
+#########################################################################
+#  Align Brazil
+#########################################################################
+event = {
+	id = 2022031
+	random = no
+	country = USA
+
+	decision = {
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = BRA country = SOV } }
+		participant = { country = -1 value = 1 }
+	}
+	decision_trigger = {
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = BRA country = SOV } }
+		money = 100
+	}
+	trigger = {
+		event = { id = 2007207 days = 90 } #China receives alliance offer
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = BRA country = SOV } }
+		participant = { country = -1 value = 1 }
+		money = 100
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "align_brazil"
+	desc = "align_brazil_desc"
+	style = 1
+	picture = "align_usa_nato"
+	decision_picture = "decision_align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ALLIANCE"									
+		command = { type = money value = -100 }
+		command = { type = trigger which = 2022032 }
+	}
+}
+#Brazil receives alliance offer
+event = {
+	id = 2022032
+	random = no
+	country = BRA
+	
+	name = "align_usa"
+	desc = "align_usa_brazil_desc"
+	style = 1
+	picture = "align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		#trigger = { flag = tpstandard }
+		ai_chance = 70
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		#trigger = { flag = tpstandard }
+		ai_chance = 30
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 99
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 1
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 90
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 10
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 10
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 90
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+}
+#########################################################################
+#  Align India
+#########################################################################
+event = {
+	id = 2022033
+	random = no
+	country = USA
+
+	decision = {
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = IND country = SOV } }
+		NOT = { alliance = { country = IND country = USA } }
+		participant = { country = -1 value = 1 }
+	}
+	decision_trigger = {
+		money = 100
+	}
+	trigger = {
+		event = { id = 2007207 days = 90 } #China receives alliance offer
+		alliance = { country = CHC country = SOV }
+		NOT = { alliance = { country = IND country = SOV } }
+		NOT = { alliance = { country = IND country = USA } }
+		participant = { country = -1 value = 1 }
+		money = 100
+	}
+	
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "align_india"
+	desc = "align_india_desc"
+	style = 1
+	picture = "align_usa_nato"
+	decision_picture = "decision_align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ALLIANCE"									
+		command = { type = money value = -100 }
+		command = { type = trigger which = 2022034 }
+	}
+}
+#India receives alliance offer
+event = {
+	id = 2022034
+	random = no
+	country = IND
+	
+	name = "align_usa"
+	desc = "align_usa_india_desc"
+	style = 1
+	picture = "align_usa_nato"
+	
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		#trigger = { flag = tpstandard }
+		ai_chance = 70
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		#trigger = { flag = tpstandard }
+		ai_chance = 30
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 99
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = wic }
+		ai_chance = 1
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 90
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = ahistorical }
+		ai_chance = 10
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+	action = {
+		name = "ACTION_NAME_ACCEPT"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 10
+		command = { type = alliance where = 1 when = 2 }
+		command = { type = relation which = USA value = 200 }
+		#command = { trigger = { ai = yes } type = ai which = "switch/chc_wic_1989.ai" }
+	}
+	action = {
+		name = "ACTION_NAME_REFUSE"
+		trigger = { ai = yes flag = historical }
+		ai_chance = 90
+		command = { type = belligerence value = -5 }
+		command = { type = relation which = USA value = -200 }
+	}
+}

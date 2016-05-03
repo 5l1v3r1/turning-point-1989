@@ -1,0 +1,151 @@
+detachable = yes
+
+# 0 - ACAG 1946
+model = {
+	cost 				= 7
+	buildtime			= 170
+	manpower 			= 0.15
+	surfacedetectioncapability	= 14
+	airdetectioncapability		= 8
+	subdetectioncapability		= 6
+	airdefence			= -10
+	seaattack			= 15
+	convoyattack			= 15
+	subattack			= 0
+	airattack			= 7
+	shorebombardment		= 20
+	distance			= 1.6
+	supplyconsumption 		= 0.5
+	fuelconsumption			= 1
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+	equipment = { fighter = 30 manpower = 150 }
+}
+# 1 - ACAG 1956
+model = {
+	cost 				= 10
+	buildtime			= 170
+	manpower 			= 0.15
+	surfacedetectioncapability	= 14
+	airdetectioncapability		= 10
+	subdetectioncapability		= 8
+	airdefence			= -11
+	seaattack			= 17
+	convoyattack			= 17
+	subattack			= 2
+	airattack			= 10
+	shorebombardment		= 23
+	distance			= 1.8
+	supplyconsumption 		= 0.6
+	fuelconsumption			= 1
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+	equipment = { fighter = 30 manpower = 150 }
+}
+# 2 - ACAG 1963
+model = {
+	cost 				= 12
+	buildtime			= 170
+	manpower 			= 0.15
+	surfacedetectioncapability	= 16
+	airdetectioncapability		= 12
+	subdetectioncapability		= 10
+	airdefence			= -12
+	seaattack			= 18
+	convoyattack			= 18
+	subattack			= 4
+	airattack			= 12
+	shorebombardment		= 24
+	distance			= 2
+	supplyconsumption 		= 0.6
+	fuelconsumption			= 1
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+	equipment = { fighter = 30 manpower = 150 }
+}
+# 3 - ACAG 1971
+model = {
+	cost 				= 15
+	buildtime			= 170
+	manpower 			= 0.15
+	surfacedetectioncapability	= 18
+	airdetectioncapability		= 14
+	subdetectioncapability		= 10
+	airdefence			= -13
+	seaattack			= 20
+	convoyattack			= 20
+	subattack			= 6
+	airattack			= 13
+	shorebombardment		= 26
+	distance			= 2.4
+	supplyconsumption 		= 0.7
+	fuelconsumption			= 1
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+	equipment = { fighter = 30 manpower = 150 }
+}
+# 4 - ACAG 1985
+model = {
+	cost 				= 17
+	buildtime			= 190
+	manpower 			= 0.15
+	surfacedetectioncapability	= 20
+	airdetectioncapability		= 16
+	subdetectioncapability		= 14
+	airdefence			= -14
+	seaattack			= 23
+	convoyattack			= 23
+	subattack			= 8
+	airattack			= 15
+	shorebombardment		= 30
+	distance			= 2.5
+	supplyconsumption 		= 1
+	fuelconsumption			= 1.5
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+	equipment = { fighter = 30 manpower = 150 }
+}
+# 5 - ACAG 1995
+model = {
+	cost 				= 20
+	buildtime			= 190
+	manpower 			= 0.15
+	surfacedetectioncapability	= 22
+	airdetectioncapability		= 17
+	subdetectioncapability		= 16
+	airdefence			= -15
+	seaattack			= 26
+	convoyattack			= 26
+	subattack			= 10
+	airattack			= 17
+	shorebombardment		= 35
+	distance			= 2.5
+	supplyconsumption 		= 1.5
+	fuelconsumption			= 2
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+	upgrade_time_boost 	= no
+	equipment = { fighter = 30 manpower = 150 }
+}
+# 6 - ACAG 2007
+model = {
+	cost 				= 25
+	buildtime			= 190
+	manpower 			= 0.15
+	surfacedetectioncapability	= 26
+	airdetectioncapability		= 18
+	subdetectioncapability		= 18
+	airdefence			= -16
+	seaattack			= 30
+	convoyattack			= 30
+	subattack			= 13
+	airattack			= 19
+	shorebombardment		= 40
+	distance			= 2.5
+	supplyconsumption 		= 2
+	fuelconsumption			= 2.5
+	upgrade_time_factor 		= 0.4
+	upgrade_cost_factor 		= 0.6
+	upgrade_time_boost 	= no
+	equipment = { fighter = 30 manpower = 150 }
+}

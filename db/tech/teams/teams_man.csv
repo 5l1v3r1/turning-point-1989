@@ -1,0 +1,17 @@
+MAN;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+9996400;Harbin Electric;MAN_T_Harbin_Electric;5;1000;2999;general_equipment;mechanics;industrial_engineering;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996401;Harbin Aircraft;MAN_T_Hafei;6;1000;2999;aeronautics;technical_efficiency;industrial_engineering;electronics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996402;Harbin Institute of Technology;MAN_T_HIT;6;1000;2999;electronics;rocketry;management;technical_efficiency;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996403;Daqing Oilfield Co.;MAN_T_Daqing_Oil;5;1000;2999;chemistry;electronics;management;rocketry;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996404;Jilin University;MAN_T_Univ_Jilin;7;1000;2999;electronics;rocketry;nuclear_physics;nuclear_engineering;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996405;Manchurian Air Force;planairforce;7;1000;2999;aircraft_testing;fighter_tactics;avionics;aeronautics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996406;Manchurian Navy;chcnavlog;6;1000;2999;carrier_tactics;large_taskforce_tactics;submarine_tactics;naval_engineering;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996407;Manchurian Army;MAN_T_Army;7;1000;2999;training;large_unit_tactics;large_unit_focus;small_unit_tactics;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996408;Shenyang Artillery Academy;MAN_T_Shenyang_Artillery_Academy;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996409;General Logistics Department;chc logistics;8;1000;2999;centralized_execution;management;small_unit_tactics;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996410;State Security Agency;T_MAN_Military_HQ;8;1000;2999;mathematics;training;management;technical_efficiency;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996411;Dalian Shipyard;T_MAN_Dalian_Dock;7;1000;2999;naval_artillery;submarine_tactics;small_taskforce_tactics;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996412;Manchurian Aerospace Co.;casic;6;1000;2999;management;avionics;electronics;rocketry;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996413;Manchurian Rangers;T_MAN_cavalry;7;1000;2999;combined_arms_focus;infantry_focus;individual_courage;maneuver_tactics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996414;First Automobile Works;T_MAN_FAW;5;1000;2999;mechanics;artillery;general_equipment;electronics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9996415;Air Force University;T_MAN_Airforce_Univ;6;1000;2999;electronics;rocketry;management;mathematics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

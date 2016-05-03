@@ -1,0 +1,15 @@
+BEL;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+1500;Royal Military Academy;belgacademy;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;maneuver_tactics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1501;FN Herstal;fnherstal;9;1000;2999;general_equipment;rocketry;munitions;infantry_focus;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1502;CMI Defence;cmidefence;6;1000;2999;mechanics;artillery;general_equipment;electronics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1503;Sabiex International;sabiex;6;1000;2999;mechanics;electronics;management;training;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1504;SABCA;sabca;5;1000;2999;aeronautics;avionics;piloting;industrial_engineering;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1505;General Intel and Security;team_noimage;6;1000;2999;mathematics;rocketry;management;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1506;Barco;barco;7;1000;2999;management;chemistry;industrial_engineering;mathematics;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1507;Bekaert;bekaert;7;1000;2999;industrial_engineering;management;technical_efficiency;munitions;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1508;Solvay;solvay;7;1000;2999;industrial_engineering;electronics;management;mathematics;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1509;Belgian Army;belgarmy;6;1000;2999;training;marine_training;mountain_training;general_equipment;infantry_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1510;Chiefs of Staff;team_noimage;6;1000;2999;training;large_unit_tactics;large_unit_focus;centralized_execution;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1511;Belgian Air Force;belgairforce;6;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1512;Belgian Navy;belgnavy;5;1000;2999;naval_training;seamanship;combined_arms_focus;technical_efficiency;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+1513;Boelwerf Shipyard;boelwerf;4;1000;2999;naval_artillery;submarine_tactics;small_taskforce_tactics;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

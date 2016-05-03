@@ -1,0 +1,12 @@
+SUD;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+;Replacements;;;;;;;;;X
+775001;Head of State;Gaafar Nimeiry;1985;2012;2012;PA;Autocratic Charmer;Very High;SUD1;X
+775002;Head of Government;Gaafar Nimeiry;1985;2012;2012;PA;Flamboyant Tough Guy;Very High;SUD1;X
+775003;Foreign Minister;Gaafar Nimeiry;1985;2012;2012;PA;General Staffer;Medium;SUD2;X
+775004;Minister of Armament;Abdel Rahman Suwar al-Dahab;1985;2012;2012;PA;Military Entrepreneur;Medium;SUD3;X
+775005;Minister of Security; Omar Tayeb;1985;2012;2012;PA;Man of the People;High;unknown;X
+775006;Head of Military Intelligence; Omar Tayeb;1985;2012;2012;PA;Political Specialist;High;unknown;X
+775007;Chief of Staff;Abdel Rahman Suwar al-Dahab;1985;2012;2012;PA;School of Fire Support;Medium;SUD3;X
+775008;Chief of Army;Abdel Rahman Suwar al-Dahab;1985;2012;2012;PA;Static Defence Doctrine;Medium;SUD3;X
+775009;Chief of Navy;Abdel Rahman Suwar al-Dahab;1985;2012;2012;PA;Open Seas Doctrine;Medium;SUD3;X
+775010;Chief of Air Force;Abdel Rahman Suwar al-Dahab;1985;2012;2012;PA;Army Aviation Doctrine;Medium;SUD3;X

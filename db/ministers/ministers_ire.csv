@@ -1,0 +1,32 @@
+IRE;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+125001;Head of State;Patrick Hillery;1985;2012;2012;SC;Popular Figurehead;High;IRE1;X
+125002;Head of Government;Garret FitzGerald;1985;2012;2012;ML;Naive Optimist;High;IRE2;X
+125003;Foreign Minister;Peter Barry;1985;2012;2012;ML;Great Compromiser;High;IRE3;X
+125004;Minister of Armament;Alan Dukes;1985;2012;2012;ML;Laissez-Faire Capitalist;High;IRE4;X
+125005;Minister of Security;Michael Noonan;1985;2012;2012;ML;Crime Fighter;High;IRE5;X
+125006;Head of Military Intelligence;Paddy O'Toole;1985;2012;2012;ML;Political Specialist;High;unknown;X
+125007;Chief of Staff;Gerald O'Sullivan;1985;2012;2012;ML;School of Defence;High;unknown;X
+125008;Chief of Army;Gerald O'Sullivan;1985;2012;2012;ML;Static Defence Doctrine;High;unknown;X
+125009;Chief of Navy;Gerald O'Sullivan;1985;2012;2012;ML;Indirect Approach Doctrine;High;unknown;X
+125010;Chief of Air Force;Gerald O'Sullivan;1985;2012;2012;ML;Air Superiority Doctrine;High;unknown;X
+;Replacements;;;;;;;;;X
+125011;Head of State;Andy Barr;1985;2012;2012;LE;Barking Buffoon;High;IRE6;X
+125012;Head of Government;Andy Barr;1985;2012;2012;LE;Happy Amateur;High;IRE6;X
+125013;Foreign Minister;Andy Barr;1985;2012;2012;LE;Ideological Crusader;High;unknown;X
+125014;Minister of Armament;Jimmy Stewart;1985;2012;2012;LE;Resource Industrialist;High;unknown;X
+125015;Minister of Security;Jimmy Stewart;1985;2012;2012;LE;Man of the People;High;IRE7;
+125016;Head of Military Intelligence;Michael O'Riordan;1985;2012;2012;LE;Dismal Enigma;High;IRE7;
+125017;Chief of Staff;Michael O'Riordan;1985;2012;2012;LE;School of Mass Combat;High;IRE7;X
+125018;Chief of Army;Michael O'Riordan;1985;2012;2012;LE;Guns and Butter Doctrine;High;IRE7;X
+125019;Chief of Navy;Michael O'Riordan;1985;2012;2012;LE;Indirect Approach Doctrine;High;IRE7;X
+125020;Chief of Air Force;Michael O'Riordan;1985;2012;2012;LE;Army Aviation Doctrine;High;IRE7;X
+125021;Head of State;Peter Kenny;1985;2012;2012;PA;Visionary;High;unknown;X
+125022;Head of Government;Peter Kenny;1985;2012;2012;PA;Silent Workhorse;High;unknown;X
+125023;Foreign Minister;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+125024;Minister of Armament;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+125025;Minister of Security;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+125026;Head of Military Intelligence;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+125027;Chief of Staff;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+125028;Chief of Army;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+125029;Chief of Navy;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X
+125030;Chief of Air Force;Black Shadow;1985;2012;2012;PA;Generic;High;unknown;X

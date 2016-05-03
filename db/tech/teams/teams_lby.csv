@@ -1,0 +1,10 @@
+LBY;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+495001;National Military Academy;libmilac;3;1000;2999;combined_arms_focus;infantry_focus;individual_courage;artillery;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+495002;National Intelligence Agency;libintel;4;1000;2999;mathematics;management;individual_courage;small_unit_tactics;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+495003;Libyan Iron and Steel;libiron;4;1000;2999;industrial_engineering;electronics;management;mathematics;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+495004;Tajoura Nuclear Research Center;tajoura;2;1000;2999;nuclear_engineering;nuclear_physics;nuclear_engineering;general_equipment;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+495005;Libyan Army;libyaarmy;3;1000;2999;training;management;general_equipment;centralized_execution;maneuver_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+495006;General Staff;libgenstaff;3;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+495007;Logistics Department;ukrlogistics;3;1000;2999;centralized_execution;management;small_unit_tactics;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+495008;Libyan Air Force;libyaairforce;3;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+495009;Libyan Navy;libyanavy;2;1000;2999;large_taskforce_tactics;naval_artillery;naval_training;general_equipment;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

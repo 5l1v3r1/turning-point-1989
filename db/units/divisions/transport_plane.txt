@@ -1,0 +1,133 @@
+allowed_brigades = escort
+max_allowed_brigades = 1
+
+# 0 - Transport Plane 1949
+model = {
+	cost 					= 30
+	buildtime	 			= 200
+	defaultorganisation 		= 20
+	morale					= 30
+	manpower				= 2.1
+	maxspeed				= 180
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 8
+	airdefence				= 30
+	airattack				= 1
+	strategicattack				= 0
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 300
+	supplyconsumption 			= 1
+	fuelconsumption				= 1.6
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { transport_plane = 100 manpower = 200 }
+}
+# 1 - Transport Plane 1957
+model = {
+	cost 					= 30
+	buildtime	 			= 330
+	defaultorganisation 		= 20
+	morale					= 30
+	manpower				= 2.1
+	maxspeed				= 250
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 8
+	airdefence				= 30
+	airattack				= 1
+	strategicattack				= 0
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 400
+	supplyconsumption 			= 1
+	fuelconsumption				= 1.7
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { transport_plane = 100 manpower = 200 }
+}
+# 2 - Transport Plane 1968
+model = {
+	cost 					= 25
+	buildtime	 			= 360
+	defaultorganisation 		= 20
+	morale					= 30
+	manpower				= 2.1
+	maxspeed				= 300
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 8
+	airdefence				= 30
+	airattack				= 1
+	strategicattack				= 0
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 500
+	supplyconsumption 			= 1
+	fuelconsumption				= 1.8
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { transport_plane = 100 manpower = 200 }
+}
+# 3 - Transport Plane 1974
+model = {
+	cost 					= 20
+	buildtime	 			= 400
+	defaultorganisation 		= 20
+	morale					= 30
+	manpower				= 2.1
+	maxspeed				= 350
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 8
+	airdefence				= 30
+	airattack				= 1
+	strategicattack				= 0
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 600
+	supplyconsumption 			= 1
+	fuelconsumption				= 2
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { transport_plane = 100 manpower = 200 }
+}
+# 4 - Transport Plane 1991
+model = {
+	cost 					= 20
+	buildtime	 			= 500
+	defaultorganisation 		= 20
+	morale					= 30
+	manpower				= 2.1
+	maxspeed				= 375
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	surfacedefence				= 8
+	airdefence				= 18
+	airattack				= 1
+	strategicattack				= 0
+	softattack				= 0
+	hardattack				= 0
+	navalattack				= 0
+	range					= 800
+	supplyconsumption 			= 1
+	fuelconsumption				= 2.1
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { transport_plane = 100 manpower = 200 }
+}

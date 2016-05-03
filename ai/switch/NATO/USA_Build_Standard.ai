@@ -1,0 +1,58 @@
+# USA Standard Build by HansNery
+
+###################################
+# Construction and Tech Research
+###################################
+military = { 
+	relative_build_scheme 	= no
+
+	#### Divisions etc...
+   	infantry   			= 0
+	cavalry 			= 0
+	motorized 			= 0
+	mechanized 			= 0
+	light_armor 		= 0
+	armor 				= 0
+   	paratrooper     	= 0
+	marine 				= 0
+	bergsjaeger 		= 0
+	garrison			= 2
+    hq	 				= 3
+	militia 			= 0
+	d_01				= 5 #Infantry Brigade
+	d_02				= 15 #Motorized Brigade
+	d_03				= 2 #Special Forces Brigade
+	d_04				= 3 #Air Cavalry
+	d_05				= 15 #Marine Brigade
+	d_06				= 15 #Mechanized Brigade
+	d_07				= 0 #Missile Boat
+	d_08				= 3 #Paratrooper Brigade
+	d_09				= 0 #Mountain Brigade
+#				60 %
+   	interceptor   		= 5
+   	multi_role   		= 6 
+	cas 				= 3
+	strategic_bomber 	= 2
+	tactical_bomber 	= 3
+	naval_bomber 		= 2
+   	transport_plane   	= 1
+	flying_bomb 		= 1
+	flying_rocket 		= 1
+#				24 %
+	battleship 			= 0
+   	carrier     		= 0
+   	light_carrier  		= 2 
+	escort_carrier		= 0
+   	destroyer   		= 5
+	light_cruiser 		= 2
+	heavy_cruiser 		= 2
+	battlecruiser 		= 0
+	submarine 			= 0
+	nuclear_submarine 	= 3
+	transports 			= 1
+	#d_07				= 0	#Missile Boats
+	d_10				= 1	#Nuclear Carrier
+	d_11				= 0	#Nuclear Ballistic Submarine
+	d_12				= 0	#Nuclear Heavy Cruiser
+#				16 %
+}

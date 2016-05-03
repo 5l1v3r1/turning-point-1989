@@ -1,0 +1,16 @@
+ENG;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+10001;Head of State;HM Elizabeth II;1936;2012;2012;SC;Popular Figurehead;Very High;UK1;X
+10002;Head of Government;Margaret Thatcher;1936;2012;2012;SC;Iron Lady;Very High;UK2;X
+10003;Foreign Minister;Sir Geoffrey Howe;1936;2012;2012;SC;Ideological Crusader;Very High;UK3;X
+10004;Minister of Armament;Nigel Lawson;1936;2012;2012;SC;Laissez-Faire Capitalist;Very High;UK4;X
+10005;Minister of Security;William Whitelaw;1936;2012;2012;SC;Crime Fighter;Very High;UK5;X
+10006;Head of Military Intelligence;Sir Antony Duff;1936;2012;2012;SC;Logistics Specialist;Very High;UK6;X
+10007;Chief of Staff;Sir Nigel Bagnall;1936;2012;2012;ML;School of Fire Support;Very High;UK7;X
+10008;Chief of Army;Sir Frank Kitson;1936;2012;2012;ML;Static Defence Doctrine;Very High;UK8;X
+10009;Chief of Navy;Sir William Staveley;1936;2012;2012;ML;Decisive Naval Battle Doctrine;Very High;UK9;X
+10010;Chief of Air Force;Sir Keith Williamson;1936;2012;2012;ML;Air Superiority Doctrine;Very High;UK10;X
+;Replacements;;;;;;;;;X
+10011;Head of Government;John Major;1992;1998;1998;SC;Traditionalist2;Very High;UK11;X
+10012;Head of Government;Neil Kinnock;1987;1998;1998;SD;Liberal2;Very High;UK12;X
+10013;Head of Government;David Steel;1987;1998;1998;SL;Liberal2;Very High;UK13;X
+10014;Head of Government;Paddy Ashdown;1992;1998;1998;SL;Liberal2;Very High;UK14;X

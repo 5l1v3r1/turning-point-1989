@@ -1,0 +1,6 @@
+technology =
+{ id          = 5
+  category    = industry
+  name        = TECH_INDUSTRY_NAME # Localized name
+  desc        = TECH_INDUSTRY_DESC # Localized description
+}

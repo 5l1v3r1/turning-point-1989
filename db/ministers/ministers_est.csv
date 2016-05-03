@@ -1,0 +1,24 @@
+EST;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+130001;Head of State;Valde Roosmaa;1985;2012;2012;LE;Popular Figurehead;Very High;EST7;X
+130002;Head of Government;Vaino Väljas;1985;2012;2012;LE;Naive Optimist;Very High;EST8;X
+130003;Foreign Minister;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+130004;Minister of Armament;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+130005;Minister of Security;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+130006;Head of Military Intelligence;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+130007;Chief of Staff;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+130008;Chief of Army;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+130009;Chief of Navy;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+130010;Chief of Air Force;Red Shadow;1985;2012;2012;LE;Generic;Very High;unknown;X
+130011;Head of State;Enn-Arno Sillari;1985;2012;2012;LE;Popular Figurehead;Very High;EST9;X
+130012;Head of State;Arnold Rüütel;1985;2012;2012;LE;Popular Figurehead;Very High;EST10;X
+;Replacements;;;;;;;;;X
+130013;Head of State;Lennart Meri;1985;2012;2012;SC;Pig-headed Isolationist;Very High;EST1;X
+130014;Head of Government;Edgar Savisaar;1985;2012;2012;SL;Backroom Backstabber;Very High;EST2;X
+130015;Foreign Minister;Trivimi Velliste;1985;2012;2012;SC;Great Compromiser;Very High;EST3;X
+130016;Minister of Armament;Siim Kallas;1985;2012;2012;ML;Laissez-Faire Capitalist;Very High;EST4;X
+130017;Minister of Security;Lagle Parek;1985;2012;2012;ML;Crime Fighter;Very High;EST5;X
+130018;Head of Military Intelligence;Lagle Parek;1985;2012;2012;ML;Political Specialist;Very High;EST5;X
+130019;Chief of Staff;Ants Laaneots;1985;2012;2012;ML;School of Manoeuvre;Very High;EST6;X
+130020;Chief of Army;Ants Laaneots;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;EST6;X
+130021;Chief of Navy;Ants Laaneots;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;EST6;X
+130022;Chief of Air Force;Ants Laaneots;1985;2012;2012;ML;Army Aviation Doctrine;Very High;EST6;X

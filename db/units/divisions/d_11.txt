@@ -1,0 +1,145 @@
+allowed_brigades = naval_torpedoes_s
+allowed_brigades = naval_improved_hull_s
+allowed_brigades = naval_fire_controll_s
+allowed_brigades = naval_radar_s
+
+# 0 - SSBN 1959
+model = {
+	cost						= 25
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 24
+	airdefence					= 12
+	seaattack					= 10
+	airattack					= 1
+	subattack					= 10
+	convoyattack					= 13
+	shorebombardment			= 14
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 1 - SSBN 1962
+model = {
+	cost						= 27
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 23
+	airdefence					= 12
+	seaattack					= 10
+	airattack					= 1
+	subattack					= 11
+	convoyattack					= 13
+	shorebombardment			= 15
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 2 - SSBN 1965
+model = {
+	cost						= 30
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 23
+	airdefence					= 15
+	seaattack					= 11
+	airattack					= 1
+	subattack					= 12
+	convoyattack					= 14
+	shorebombardment			= 16
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 3 - SSBN 1976
+model = {
+	cost						= 35
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 22
+	airdefence					= 15
+	seaattack					= 11
+	airattack					= 1
+	subattack					= 13
+	convoyattack					= 14
+	shorebombardment			= 17
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}
+# 4 - SSBN 1996
+model = {
+	cost						= 40
+	buildtime 					= 1000
+	defaultorganisation 		= 10
+	morale						= 30
+	manpower					= 0.55
+	maxspeed					= 25
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 1
+	visibility					= 0.1
+	seadefence					= 18
+	airdefence					= 14
+	seaattack					= 11
+	airattack					= 1
+	subattack					= 17
+	convoyattack					= 18
+	shorebombardment			= 18
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 1.9
+	fuelconsumption				= 0
+	distance					= 0.2
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { submarine = 1 manpower = 140 }
+}

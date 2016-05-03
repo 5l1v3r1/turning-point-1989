@@ -1,0 +1,12 @@
+TUN;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+535001;Head of State;Habib Bourguiba;1985;2012;2012;LWR;Pig-headed Isolationist;Very High;TUN1;X
+535002;Head of Government;Mohamed Mzali;1985;2012;2012;SD;Naive Optimist;High;TUN2;X
+535003;Foreign Minister;Beji Caid el Sebsi;1985;2012;2012;SD;Great Compromiser;High;TUN3;X
+535004;Minister of Armament;Rachid Sfar;1985;2012;2012;SD;Resource Industrialist;High;TUN4;X
+535005;Minister of Security;Zine El Abidine Ben Ali;1985;2012;2012;SD;Crooked Kleptocrat;High;TUN5;X
+535006;Head of Military Intelligence;Habib Bourguiba;1985;2012;2012;LWR;Logistics Specialist;Very High;TUN1;X
+535007;Chief of Staff;Habib Bourguiba;1985;2012;2012;LWR;School of Manoeuvre;Very High;TUN1;X
+535008;Chief of Army;Habib Bourguiba;1985;2012;2012;LWR;Guns and Butter Doctrine;Very High;TUN1;X
+535009;Chief of Navy;Habib Bourguiba;1985;2012;2012;LWR;Open Seas Doctrine;Very High;TUN1;X
+535010;Chief of Air Force;Habib Bourguiba;1985;2012;2012;LWR;Army Aviation Doctrine;Very High;TUN1;X
+;Replacements;;;;;;;;;X

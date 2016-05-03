@@ -1,0 +1,89 @@
+# Não usar esta série de eventos: 2069005
+#########################################################################
+#  The United Kingdom General Election of 1987
+#########################################################################
+event = {
+	id = 2001025
+	random = no
+	country = ENG
+	
+	trigger = { government = democratic }
+
+	name = uk_election_1987
+	desc = uk_election_1987_desc
+	style = 1
+	picture = "ballot"
+
+    date = { day = 10 month = june year = 1987 }
+	
+	action = {
+		name = "ACTION_NAME_ELECT_RIGHT"
+		ai_chance = 80
+		command = { type = dissent value = -6 }
+		command = { type = headofgovernment which = 10002 } #Margaret Thatcher
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = -8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_LEFT"
+		ai_chance = 10
+		command = { type = dissent value = -3 }
+		command = { type = headofgovernment which = 10012 } #Neil Kinnock
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_ALTERNATIVE"
+		ai_chance = 10
+		command = { type = headofgovernment which = 10013 } #David Steel
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 4 }
+	}
+}
+#########################################################################
+#  The United Kingdom General Election of 1992
+#########################################################################
+event = {
+	id = 2001026
+	random = no
+	country = ENG
+	
+	trigger = { government = democratic }
+
+	name = uk_election_1992
+	desc = uk_election_1992_desc
+	style = 1
+	picture = "ballot"
+
+    date = { day = 8 month = april year = 1992 }
+	
+	action = {
+		name = "ACTION_NAME_ELECT_RIGHT"
+		ai_chance = 60
+		command = { type = dissent value = -6 }
+		command = { type = headofgovernment which = 10011 } #John Major
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = -8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_LEFT"
+		ai_chance = 30
+		command = { type = dissent value = -3 }
+		command = { type = headofgovernment which = 10012 } #Neil Kinnock
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 8 }
+	}
+	action = {
+		name = "ACTION_NAME_ELECT_ALTERNATIVE"
+		ai_chance = 10
+		command = { type = headofgovernment which = 10014 } #Paddy Ashdown
+		command = { type = domestic which = democratic value = 4 }
+		command = { type = domestic which = freedom value = 4 }
+		command = { type = domestic which = political_left value = 4 }
+	}
+}

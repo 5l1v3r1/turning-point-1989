@@ -1,0 +1,66 @@
+﻿NEW WORLD ORDER 2 MODULES
+
+All the New World Order 2 events are 7-digit and begin with 8.
+
+8 000 00* - introductory events
+8 6** *** - economic development events - AI (var = province id and year code)
+8 7** *** - economic development events - AI (var = province id and year code)
+8 8** *** - economic development events - player (var = province id and year code)
+8 9** *** - economic development events - player (var = province id and year code)
+
+OLD MODULES FOR TEMPORARY REFERENCE:
+
+81** Der Untergang (DU): Events leading to the German surrender and Allied/Soviet victory in Europe
+82** Victory over Japan (VJ): Events setting up Pacific Theatre after Japanese surrender
+83** The Bitter Peace (BP): Soviet Union gets beaten by Germany
+84** The Empire Surrenders (ES): United Kingdom gets beaten by Germany
+85** Lost Hope (LH): United States is conquered by Germany or Japan
+86** Post-war historical events: If Germans or Japanese fell to Germany, there will be post-war events for years 1945-1963.
+87** Country-specific post-war events
+
+90** Unit IDs
+
+8601 - People's Republics
+8602 - NATO
+8603 - Warsaw Pact
+8604 - Core Completion (Countries that have rump province sets upon liberation - to let them stage uprising by events - receive proper sets of cores)
+8605 - Warsaw Uprising
+8606 - Tito Uprising
+'8607 - Localizing colonial wars
+8608 - Sino-Japanese War
+8609 - Buildup of Communist China
+8610 - Chinese Civil War
+'8611 - End of Colonialism - Africa
+'8612 - End of Colonialism - Asia
+'8613 - End of Colonialism - America
+8614 - Taiwan Strait Relations
+8615 - Occupation of Germany
+8616 - Marshall Plan
+8617 - European integration
+8618 - Dismantling Eastern European Bloc
+8620 - End of Colonialism
+8621 - Peacetime modifiers
+8622 - Economic sanctions
+8623 - Nuclear advantage
+8624 - Resource limits
+8625 - Space race
+8630 - WW3 flashpoints
+8631 - WW3
+
+880**** - 1945 Economy reorganisation
+881**** - 1945 Oil Production reorganisation
+882**** - 1950 Economy reorganisation
+883**** - 1955 Economy reorganisation
+884**** - 1960 Economy reorganisation
+885**** - 1965 Economy reorganisation
+886**** - 1970 Economy reorganisation
+887**** - 1975 Economy reorganisation
+889**** - 1980 Economy reorganisation
+890**** - 1985 Economy reorganisation
+891**** - 1990 Economy reorganisation
+892**** - 1995 Economy reorganisation
+893**** - 2000 Economy reorganisation
+
+8001 - 1945 scenario flag setup
+8002 - 1953 scenario flag setup
+8010 - AI switches

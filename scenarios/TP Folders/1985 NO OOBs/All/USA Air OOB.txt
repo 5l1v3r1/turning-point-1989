@@ -1,0 +1,134 @@
+  ########################################
+  # US MARINE CORPS AIRCRAFT jacksonville
+  ########################################
+  airunit = 
+  { location = 648 
+    base     = 648 
+    id       = {  type = 14800 id = 115  } 
+    name     = "2nd Marine Aircraft Wing" 
+    Division = 
+    {	id       = {  type = 14800 id = 116  } 
+		name     = "Marine Air Group 14" 
+		type     = interceptor 
+		model    = 4
+		strength = 100
+		} 
+	Division = 
+    {	id       = {  type = 14800 id = 117  } 
+		name     = "Marine Air Group 26" 
+		type     = naval_bomber 
+		model    = 4
+		strength = 100
+		}
+	Division = 
+    {	id       = {  type = 14800 id = 118  } 
+		name     = "Marine Air Group 29" 
+		type     = transport_plane
+		model    = 4
+		strength = 80
+		}
+	Division = 
+    {	id       = {  type = 14800 id = 119  } 
+		name     = "Marine Air Group 31" 
+		type     = naval_bomber 
+		model    = 4
+		strength = 100
+		}
+	Division = 
+    {	id       = {  type = 14800 id = 120  } 
+		name     = "Marine Air Group 32" 
+		type     = naval_bomber 
+		model    = 4
+		strength = 100
+		}
+  }
+  #####################################
+  # US MARINE CORPS AIRCRAFT Okinawa 
+  #####################################	
+  airunit = 
+ {	location = 1193 
+    base     = 1193 
+    id       = {  type = 14800 id = 105  } 
+    name     = "12th Marine Air Group" 
+    Division = 
+    {	id       = {  type = 14800 id = 106  } 
+		name     = "Shamrocks" 
+		type     = naval_bomber 
+		model    = 4 
+		strength = 90
+		}
+	Division = 
+    {	id       = {  type = 14800 id = 107  } 
+		name     = "Black Knights" 
+		type     = naval_bomber 
+		model    = 4
+		strength = 90
+		}
+	Division = 
+     {  id       = {  type = 14800 id = 108  } 
+       name     = "Sumos" 
+       type     = transport_plane
+       model    = 4
+       strength = 90
+	   }
+  }
+ ####################################################
+ # US MARINE CORPS AIRCRAFT Keneohe Bay, Honolulu 
+ ####################################################
+  airunit = 
+  { location = 663 
+    base     = 663 
+    id       = {  type = 14800 id = 96  } 
+    name     = "24th Marine Air Group" 
+    Division = 
+    {	id       = {  type = 14800 id = 97  } 
+		name     = "Lancers" 
+		type     = naval_bomber 
+		model    = 4
+		strength = 90
+		}
+	Division = 
+    {	id       = {  type = 14800 id = 98  } 
+		name     = "Red Devils" 
+		type     = naval_bomber 
+		model    = 4 
+		strength = 90
+		}
+	Division = 
+    {	id       = {  type = 14800 id = 99  } 
+		name     = "Death Angels" 
+		type     = transport_plane
+		model    = 4 
+		strength = 90
+		}
+  }
+  ####################################################
+  # US MARINE CORPS AIRCRAFT San Diego, El Toro
+  ####################################################
+  airunit = 
+  { location = 761 
+    base     = 761 
+    id       = {  type = 14800 id = 90  } 
+    name     = "3rd Marine Aircraft Wing" 
+    Division = 
+    {	id       = {  type = 14800 id = 91  } 
+		name     = "Marine Air Group 11" 
+		type     = naval_bomber 
+		model    = 4
+		strength = 100
+		}
+	Division = 
+    {	id       = {  type = 14800 id = 92  } 
+		name     = "Marine Air Group 13" 
+		type     = naval_bomber 
+		model    = 4
+		strength = 100
+		}
+	Division = 
+    {	id       = {  type = 14800 id = 93  } 
+		name     = "Marine Air Group 16" 
+		type     = transport_plane
+		model    = 4 
+		strength = 80
+		}
+  }

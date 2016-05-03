@@ -1,0 +1,32 @@
+U08;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+855001;Head of State;HM Elizabeth II of Windsor;1985;2012;2012;SC;Popular Figurehead;High;UK1;X
+855002;Head of Government;Manuel Esquivel;1985;2012;2012;SC;Silent Workhorse;High;U08-1;X
+855003;Foreign Minister;Blue Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+855004;Minister of Armament;Blue Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+855005;Minister of Security;Blue Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+855006;Head of Military Intelligence;Blue Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+855007;Chief of Staff;Blue Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+855008;Chief of Army;Blue Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+855009;Chief of Navy;Blue Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+855010;Chief of Air Force;Blue Shadow;1985;2012;2012;SC;Generic;High;unknown;X
+;Replacements;;;;;;;;;X
+855011;Head of State;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+855012;Head of Government;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+855013;Foreign Minister;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+855014;Minister of Armament;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+855015;Minister of Security;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;
+855016;Head of Military Intelligence;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;
+855017;Chief of Staff;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+855018;Chief of Army;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+855019;Chief of Navy;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+855020;Chief of Air Force;Red Shadow;1985;2012;2012;ST;Generic;High;unknown;X
+855021;Head of State;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855022;Head of Government;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855023;Foreign Minister;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855024;Minister of Armament;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855025;Minister of Security;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855026;Head of Military Intelligence;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855027;Chief of Staff;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855028;Chief of Army;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855029;Chief of Navy;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+855030;Chief of Air Force;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X

@@ -1,0 +1,42 @@
+###########
+	airunit =
+	{ id = { type = 19503 id = 115 }
+	location = 66 #kiel
+	base = 66
+	name = "BUNDESMARINE AIR"
+	division =
+	{ id = { type = 19503 id = 116 }
+	  name = "MFG 1"
+	  type = naval_bomber
+	  strength = 100
+	  model = 2
+	  }
+	 division =
+	{ id = { type = 19503 id = 117 }
+	  name = "MFG 2"
+	  type = naval_bomber
+	  strength = 100
+	  model = 2
+	  }
+	}
+	###########
+	airunit =
+	{ id = { type = 19503 id = 118 }
+	location = 66 #nordholz
+	base = 66
+	name = "BUNDESMARINE AIR"
+	division =
+	{ id = { type = 19503 id = 119 }
+	  name = "MFG 3"
+	  type = naval_bomber
+	  strength = 100
+	  model = 2
+	  }
+	 division =
+	{ id = { type = 19503 id = 120 }
+	  name = "MFG 5"
+	  type = naval_bomber
+	  strength = 100
+	  model = 2
+	  }
+	}

@@ -1,0 +1,58 @@
+	command = { type = independence which = SLV value = 1 } #Slovenia
+		command = { type = make_puppet which = SLV }
+		command = { type = switch_allegiance which = 19800 value = 48 where = SLV }
+		command = { type = switch_allegiance which = 19800 value = 49 where = SLV }
+		command = { type = switch_allegiance which = 19800 value = 17 where = SLV }
+		command = { type = switch_allegiance which = 19800 value = 18 where = SLV }
+		command = { type = switch_allegiance which = 19800 value = 44 where = SLV }
+		command = { type = switch_allegiance which = 19800 value = 45 where = SLV }
+		command = { type = switch_allegiance which = 19800 value = 46 where = SLV }
+		command = { type = switch_allegiance which = 19800 value = 55 where = SLV }
+		command = { type = independence which = BOS value = 1 } #Bosnia
+		command = { type = make_puppet which = BOS }
+		command = { type = switch_allegiance which = 19800 value = 5 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 6 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 7 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 16 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 14 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 15 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 51 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 52 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 53 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 2 where = BOS }
+		command = { type = switch_allegiance which = 19800 value = 3 where = BOS }
+		command = { type = independence which = CRO value = 1 } #Croatia
+		command = { type = make_puppet which = CRO }
+		command = { type = switch_allegiance which = 19800 value = 37 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 38 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 39 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 59 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 60 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 62 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 63 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 64 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 57 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 81 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 82 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 87 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 88 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 89 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 91 where = CRO }
+		command = { type = switch_allegiance which = 19800 value = 92 where = CRO }
+		command = { type = independence which = SIB value = 1 } #Kosovo
+		command = { type = make_puppet which = SIB }
+		command = { type = switch_allegiance which = 19800 value = 34 where = SIB }
+		command = { type = switch_allegiance which = 19800 value = 35 where = SIB }
+		command = { type = independence which = SIK value = 1 } #Voljvodina
+		command = { type = make_puppet which = SIK } 
+		command = { type = switch_allegiance which = 19800 value = 9 where = SIK }
+		command = { type = switch_allegiance which = 19800 value = 10 where = SIK }
+		command = { type = switch_allegiance which = 19800 value = 11 where = SIK }
+		command = { type = independence which = OTT value = 1 } #Macedonia
+		command = { type = make_puppet which = OTT } 
+		command = { type = switch_allegiance which = 19800 value = 31 where = OTT }
+		command = { type = switch_allegiance which = 19800 value = 32 where = OTT }
+		command = { type = independence which = MTN value = 1 } #Montenegro
+		command = { type = make_puppet which = MTN } 	
+		command = { type = switch_allegiance which = 19800 value = 25 where = MTN }
+		command = { type = switch_allegiance which = 19800 value = 26 where = MTN }

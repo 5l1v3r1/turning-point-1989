@@ -1,0 +1,176 @@
+#########################################################################
+### 9300001 - Turning Point Mod Events
+#########################################################################
+#  Dynamic Unification Events
+#########################################################################
+#########
+# Germany
+#########
+#West Germany
+event = {
+	id = 9300001
+	country = DFR
+	random = no
+
+	trigger = {
+		atwar = yes
+		NOT = { exists = DDR }
+		owned = { province = 7266 data = DFR } #East Berlin owned by West Germany
+	}
+
+	name = "germany_mil_unified"
+	desc = "germany_mil_unified_desc"
+	style = 1
+	picture = "news_paper"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 2
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_GREAT_DAY"
+		command = { type = dissent value = -15 }
+		command = { type = name where = -1 which = TAG_GER }
+		command = { type = capital which = 300 }
+		#command = { type = industrial_modifier which = total value = -20 }
+	}
+}
+#East Germany
+event = {
+	id = 9300002
+	country = DDR
+	random = no
+
+	trigger = {
+		atwar = yes
+		NOT = { exists = DFR }
+		owned = { province = 75 data = DDR } #Bonn owned by East Germany
+		owned = { province = 300 data = DDR } #West Berlin owned by East Germany
+	}
+
+	name = "germany_mil_unified"
+	desc = "germany_mil_unified_desc"
+	style = 1
+	picture = "news_paper"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 2
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_GREAT_DAY"
+		command = { type = dissent value = -30 }
+		command = { type = name where = -1 which = TAG_GER }
+	}
+}
+#########
+# China
+#########
+#PRC
+event = {
+	id = 9300003
+	country = CHC
+	random = no
+
+	trigger = {
+		NOT = { exists = CHI }
+		owned = { province = 1235 data = CHC } #Taipei owned by PRC
+	}
+
+	name = "china_mil_unified"
+	desc = "china_mil_unified_desc"
+	style = 1
+	picture = "news_paper"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 2
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_GREAT_DAY"
+		command = { type = dissent value = -15 }
+		command = { type = name where = -1 which = TAG_CHC }
+	}
+}
+#Taiwan
+event = {
+	id = 9300004
+	country = CHI
+	random = no
+
+	trigger = {
+		NOT = { exists = CHC }
+		owned = { province = 1205 data = CHI } #Beijing owned by Taiwan
+	}
+
+	name = "china_mil_unified"
+	desc = "china_mil_unified_desc"
+	style = 2
+	picture = "news_paper"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_GREAT_DAY"
+		command = { type = dissent value = -30 }
+		command = { type = name where = -1 which = TAG_CHC }
+		command = { type = capital which = 1205 }
+	}
+}
+#########
+# Korea
+#########
+#North
+event = {
+	id = 9300005
+	country = PRK
+	random = no
+
+	trigger = {
+		NOT = { exists = KOR }
+		owned = { province = 1199 data = PRK } #Seoul owned by DPRK.
+	}
+
+	name = "korea_mil_unified"
+	desc = "korea_mil_unified_desc"
+	style = 2
+	picture = "news_paper"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 2
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_GREAT_DAY"
+		command = { type = dissent value = -15 }
+		command = { type = name where = -1 which = TAG_KOR }
+	}
+}
+#South
+event = {
+	id = 9300006
+	country = KOR
+	random = no
+
+	trigger = {
+		NOT = { exists = PRK }
+		owned = { province = 1201 data = KOR } #Pyongyang owned by ROK.
+	}
+
+	name = "korea_mil_unified"
+	desc = "korea_mil_unified_desc"
+	style = 2
+	picture = "news_paper"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	action = {
+		name = "ACTION_NAME_GREAT_DAY"
+		command = { type = dissent value = -15 }
+		command = { type = name where = -1 which = TAG_KOR }
+	}
+}

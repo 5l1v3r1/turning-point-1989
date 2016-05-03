@@ -1,0 +1,11 @@
+PAL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+510001;Head of State;Yasser Arafat;1984;2012;2012;LWR;Autocratic Charmer;Very High;PAL1;X
+510002;Head of Government;Yasser Arafat;1984;2012;2012;LWR;Flamboyant Tough Guy;Very High;PAL1;X
+510003;Foreign Minister;Mahmoud Abbas;1984;2012;2012;SD;Great Compromiser;Very High;PAL2;X
+510004;Minister of Armament;Ahmed Qurei;1984;2012;2012;SD;Administrative Genius;Very High;PAL3;X
+510005;Minister of Security;Salah Khalaf;1984;2012;2012;LWR;Prince of Terror;Very High;PAL4;X
+510006;Head of Military Intelligence;Salah Khalaf;1984;2012;2012;LWR;Dismal Enigma;Very High;PAL4;X
+510007;Chief of Staff;Khalil al-Wazir;1984;2012;2012;LWR;School of Psychology;Very High;PAL5;X
+510008;Chief of Army;Khalil al-Wazir;1984;2012;2012;LWR;Guns and Butter Doctrine;Very High;PAL5;X
+510009;Chief of Navy;Khalil al-Wazir;1984;2012;2012;LWR;Indirect Approach Doctrine;Very High;PAL5;X
+510010;Chief of Air Force;Khalil al-Wazir;1984;2012;2012;LWR;Vertical Envelopment Doctrine;Very High;PAL5;X

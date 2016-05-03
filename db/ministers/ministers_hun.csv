@@ -1,0 +1,27 @@
+HUN;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+105001;Head of State;Pál Losonczi;1985;2012;2012;LE;Insignificant Layman;Very High;HUN1;X
+105002;Head of Government;János Kádár;1985;1989;1989;LE;Silent Workhorse;Very High;HUN13;X
+105003;Foreign Minister;Péter Várkonyi;1985;2012;2012;LE;Great Compromiser;Very High;HUN3;X
+105004;Minister of Armament;István Hetényi;1985;2012;2012;LE;Administrative Genius;Very High;HUN4;X
+105005;Minister of Security;István Horváth;1985;2012;2012;LE;Silent Lawyer;Very High;unknown;X
+105006;Head of Military Intelligence;István Oláh;1985;1986;2012;LE;Logistics Specialist;Very High;HUN6;X
+105007;Chief of Staff;István Oláh;1985;1986;2012;LE;School of Defence;Very High;HUN6;X
+105008;Chief of Army;István Oláh;1985;1986;2012;LE;Static Defence Doctrine;Very High;HUN6;X
+105009;Chief of Navy;István Oláh;1985;1986;2012;LE;Indirect Approach Doctrine;Very High;HUN6;X
+105010;Chief of Air Force;István Oláh;1985;1986;2012;LE;Air Superiority Doctrine;Very High;HUN6;X
+;Replacements;;;;;;;;;X
+105011;Head of State;Mátyás Szurös;1985;2012;2012;SD;Popular Figurehead;Very High;HUN7;X
+105012;Head of Government;Miklós Németh;1985;2012;2012;SD;Naive Optimist;Very High;HUN8;X
+105013;Foreign Minister;Géza Jeszenszky;1985;2012;2012;SD;Biased Intellectual;Very High;HUN9;X
+105014;Minister of Armament;Ferenc Rabár;1985;2012;2012;SD;Laissez-Faire Capitalist;Very High;HUN10;X
+105015;Minister of Security;Balázs Horváth;1985;2012;2012;SD;Silent Lawyer;Very High;HUN11;X
+105016;Head of Military Intelligence;Ferenc Kárpáti;1985;2012;2012;SD;Logistics Specialist;Very High;HUN12;X
+105017;Chief of Staff;Ferenc Kárpáti;1985;2012;2012;SD;School of Psychology;Very High;HUN12;X
+105018;Chief of Army;Ferenc Kárpáti;1985;2012;2012;SD;Guns and Butter Doctrine;Very High;HUN12;X
+105019;Chief of Navy;Ferenc Kárpáti;1985;2012;2012;SD;Indirect Approach Doctrine;Very High;HUN12;X
+105020;Chief of Air Force;Ferenc Kárpáti;1985;2012;2012;SD;Air Superiority Doctrine;Very High;HUN12;X
+105021;Minister of Armament;György Lázár;1985;2012;2012;LE;Resource Industrialist;Very High;HUN2;X
+105022;Head of Government;Károly Grósz;1985;1996;1996;LE;Political Protege;Very High;HUN14;X
+105023;Head of State;Árpád Göncz;1985;2012;2012;SL;Popular Figurehead;Very High;HUN15;X
+105024;Head of Government;József Antall;1985;2012;2012;SC;Silent Workhorse;Very High;HUN16;X
+105025;Head of Government;Árpád Göncz;1985;2012;2012;SL;Flamboyant Tough Guy;Very High;HUN15;X

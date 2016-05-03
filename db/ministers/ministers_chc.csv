@@ -1,0 +1,12 @@
+CHC;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+;Replacements;;;;;;;;;X
+260001;Head of State;Hu Yaobang;1936;1999;2012;LE;Powerhungry Demagogue;High;PRC1;X
+260002;Head of Government;Deng Xiaoping;1936;1999;2012;LE;Backroom Backstabber;High;PRC2;X
+260003;Foreign Minister;Wu Xueqian;1936;1999;2012;ST;General Staffer;High;PRC3;X
+260004;Minister of Armament;Wang Bingqian;1936;1999;2012;ST;Military Entrepreneur;High;PRC4;X
+260005;Minister of Security;Zhang Aiping;1936;1999;2012;ST;Man of the People;Medium;PRC5;X
+260006;Head of Military Intelligence;Jia Chunwang;1936;1999;2012;ST;Logistics Specialist;Medium;PRC6;X
+260007;Chief of Staff;Yang Dezhi;1936;1999;2012;ST;School of Mass Combat;Medium;PRC7;X
+260008;Chief of Army;Chi Haotian;1936;1999;2012;ST;Guns and Butter Doctrine;High;PRC8;X
+260009;Chief of Navy;Liu Huaqing;1936;1999;2012;ST;Open Seas Doctrine;Medium;PRC9;X
+260010;Chief of Air Force;Wang Hai;1936;1999;2012;ST;Army Aviation Doctrine;Medium;PRC10;X

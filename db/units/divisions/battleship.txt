@@ -1,0 +1,116 @@
+allowed_brigades = naval_anti_air_l
+allowed_brigades = naval_radar_l
+allowed_brigades = naval_fire_controll_l
+allowed_brigades = naval_improved_hull_l
+allowed_brigades = light_cag
+allowed_brigades = b_03
+allowed_brigades = naval_torpedoes_l
+allowed_brigades = b_04
+allowed_brigades = b_08
+max_allowed_brigades = 5
+
+# 0 - Aircraft Cruiser 1965 
+model = {
+	cost						= 18
+	buildtime 					= 1440
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 0.7
+	maxspeed					= 34
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 5
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 25
+	airdefence					= 19
+	seaattack					= 10
+	airattack					= 8
+	subattack					= 1
+	convoyattack					= 8
+	shorebombardment			= 2
+	transportcapability			= 0
+	range						= 20000
+	supplyconsumption			= 2.5
+	fuelconsumption				= 2
+	distance					= 0.05
+	equipment = { carrier = 1 manpower = 700 }
+}
+# 1 - Aircraft Cruiser 1975 
+model = {
+	cost						= 20
+	buildtime 					= 1440
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 0.7
+	maxspeed					= 34
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 5
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 23
+	airdefence					= 19
+	seaattack					= 10
+	airattack					= 8
+	subattack					= 1
+	convoyattack					= 8
+	shorebombardment			= 2
+	transportcapability			= 0
+	range						= 20000
+	supplyconsumption			= 2.5
+	fuelconsumption				= 2
+	distance					= 0.05
+	upgrade_time_boost 	= no
+	equipment = { carrier = 1 manpower = 700 }
+}
+# 2 - Aircraft Cruiser 1982
+model = {
+	cost						= 25
+	buildtime 					= 1440
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 0.7
+	maxspeed					= 34
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 5
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 20
+	airdefence					= 18
+	seaattack					= 13
+	airattack					= 8
+	subattack					= 1
+	convoyattack					= 9
+	shorebombardment			= 2
+	transportcapability			= 0
+	range						= 20000
+	supplyconsumption			= 2.5
+	fuelconsumption				= 2
+	distance					= 0.05
+	equipment = { carrier = 1 manpower = 700 }
+}
+# 3 - Aircraft Cruiser 1995
+model = {
+	cost						= 30
+	buildtime 					= 1440
+	defaultorganisation 		= 20
+	morale						= 20
+	manpower					= 0.7
+	maxspeed					= 34
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 5
+	subdetectioncapability		= 1
+	visibility					= 100
+	seadefence					= 18
+	airdefence					= 17
+	seaattack					= 15
+	airattack					= 8
+	subattack					= 1
+	convoyattack					= 9
+	shorebombardment			= 2
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 2.5
+	fuelconsumption				= 0
+	distance					= 0.05
+	equipment = { carrier = 1 manpower = 700 }
+}

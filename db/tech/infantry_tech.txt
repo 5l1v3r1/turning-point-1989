@@ -1,0 +1,2924 @@
+technology =
+{ id          = 1
+  category    = infantry
+  name        = TECH_INFANTRY_NAME # Localized name
+  desc        = TECH_INFANTRY_DESC # Localized description
+  label =
+  { tag      = TECH_CAT_INFANTRY
+    position = { x = 61 y = 10 }
+  }
+  label =
+  { tag      = TECH_CAT_ENGINEERS
+    position = { x = 145 y = 398 }
+  }
+  label =
+  { tag      = TECH_CAT_SUPPLY
+    position = { x = 497 y = 382 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRBORNE
+    position = { x = 302 y = 207 }
+  }
+  label =
+  { tag      = TECH_CAT_MARINES
+    position = { x = 311 y = 10 }
+  }
+  label =
+  { tag      = TECH_CAT_MOUNTAIN
+    position = { x = 187 y = 10 }
+  }
+  label =
+  { tag      = TECH_CAT_CAVALRY
+    position = { x = 566 y = 10 }
+  }
+  label =
+  { tag      = TECH_CAT_MOTORIZED
+    position = { x = 448 y = 10 }
+  }
+  label =
+  { tag      = TECH_CAT_MECHANIZED
+    position = { x = 427 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_IRREGULARS
+    position = { x = 567 y = 189 }
+  }
+  # World War II Infantry
+  application =
+  { id        = 1010
+    name      = TECH_APP_INFANTRY_01_NAME
+    position  = { x = 24 y = 24 }
+    picture   = "DH1010"
+    year      = 1945
+    # Service Rifle
+    component = { id = 1011 name = TECH_CMP_INFANTRY_01_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1012 name = TECH_CMP_INFANTRY_01_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1013 name = TECH_CMP_INFANTRY_01_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1014 name = TECH_CMP_INFANTRY_01_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1015 name = TECH_CMP_INFANTRY_01_5_NAME type = training difficulty = 10 }
+    required  = { }
+    or_required = { 1650 1660 }
+    effects =
+    { command = { type = activate_unit_type which = infantry }
+      command = { type = new_model which = infantry value = 0 }
+      command = { type = activate_unit_type which = d_01 }
+      command = { type = new_model which = d_01 value = 0 }
+      command = { type = activate_unit_type which = garrison }
+      command = { type = new_model which = garrison value = 0 }
+      command = { type = activate_unit_type which = police }
+    }
+  }
+  # Early Cold War Infantry
+  application =
+  { id        = 1020
+    name      = TECH_APP_INFANTRY_02_NAME
+    position  = { x = 24 y = 42 }
+    picture   = "INF1965"
+    year      = 1965
+    # Service Rifle
+    component = { id = 1021 name = TECH_CMP_INFANTRY_02_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1022 name = TECH_CMP_INFANTRY_02_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1023 name = TECH_CMP_INFANTRY_02_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1024 name = TECH_CMP_INFANTRY_02_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1025 name = TECH_CMP_INFANTRY_02_5_NAME type = training difficulty = 10 }
+    required  = { 1010 }
+    effects =
+    { command = { type = new_model which = infantry value = 1 }
+      command = { type = scrap_model which = infantry value = 0 }
+      command = { type = new_model which = d_01 value = 1 }
+      command = { type = scrap_model which = d_01 value = 0 }
+      command = { type = new_model which = garrison value = 1 }
+      command = { type = scrap_model which = garrison value = 0 }
+    }
+  }
+  # Mid-Cold War Infantry
+  application =
+  { id        = 1030
+    name      = TECH_APP_INFANTRY_03_NAME
+    position  = { x = 24 y = 60 }
+    picture   = "INF1970"
+    year      = 1970
+    # Service Rifle
+    component = { id = 1031 name = TECH_CMP_INFANTRY_03_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1032 name = TECH_CMP_INFANTRY_03_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1033 name = TECH_CMP_INFANTRY_03_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1034 name = TECH_CMP_INFANTRY_03_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1035 name = TECH_CMP_INFANTRY_03_5_NAME type = training difficulty = 10 }
+    required  = { 1020 }
+    effects =
+    { command = { type = new_model which = infantry value = 2 }
+      command = { type = scrap_model which = infantry value = 1 }
+      command = { type = new_model which = d_01 value = 2 }
+      command = { type = scrap_model which = d_01 value = 1 }
+      command = { type = new_model which = garrison value = 2 }
+      command = { type = scrap_model which = garrison value = 1 }
+    }
+  }
+  # Basic Cold War Infantry
+  application =
+  { id        = 1040
+    name      = TECH_APP_INFANTRY_04_NAME
+    position  = { x = 24 y = 78 }
+    picture   = "INF1975"
+    year      = 1975
+    # Service Rifle
+    component = { id = 1041 name = TECH_CMP_INFANTRY_04_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1042 name = TECH_CMP_INFANTRY_04_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1043 name = TECH_CMP_INFANTRY_04_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1044 name = TECH_CMP_INFANTRY_04_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1045 name = TECH_CMP_INFANTRY_04_5_NAME type = training difficulty = 10 }
+    required  = { 1030 }
+    effects =
+    { command = { type = new_model which = infantry value = 3 }
+      command = { type = scrap_model which = infantry value = 2 }
+      command = { type = new_model which = d_01 value = 3 }
+      command = { type = scrap_model which = d_01 value = 2 }
+      command = { type = new_model which = garrison value = 3 }
+      command = { type = scrap_model which = garrison value = 2 }
+    }
+  }
+  # Improved Cold War Infantry
+  application =
+  { id        = 1050
+    name      = TECH_APP_INFANTRY_05_NAME
+    position  = { x = 24 y = 96 }
+    picture   = "DH1050"
+    year      = 1980
+    # Service Rifle
+    component = { id = 1051 name = TECH_CMP_INFANTRY_05_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1052 name = TECH_CMP_INFANTRY_05_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1053 name = TECH_CMP_INFANTRY_05_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1054 name = TECH_CMP_INFANTRY_05_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1055 name = TECH_CMP_INFANTRY_05_5_NAME type = training difficulty = 10 }
+    required  = { 1040 }
+    effects =
+    { command = { type = new_model which = infantry value = 4 }
+      command = { type = scrap_model which = infantry value = 3 }
+      command = { type = new_model which = d_01 value = 4 }
+      command = { type = scrap_model which = d_01 value = 3 }
+      command = { type = new_model which = garrison value = 4 }
+      command = { type = scrap_model which = garrison value = 3 }
+    }
+  }
+  # Advanced Cold War Infantry
+  application =
+  { id        = 1060
+    name      = TECH_APP_INFANTRY_06_NAME
+    position  = { x = 24 y = 114 }
+    picture   = "INF1985"
+    year      = 1985
+    # Service Rifle
+    component = { id = 1061 name = TECH_CMP_INFANTRY_06_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1062 name = TECH_CMP_INFANTRY_06_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1063 name = TECH_CMP_INFANTRY_06_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1064 name = TECH_CMP_INFANTRY_06_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1065 name = TECH_CMP_INFANTRY_06_5_NAME type = training difficulty = 10 }
+    required  = { 1050 }
+    effects =
+    { command = { type = new_model which = infantry value = 5 }
+      command = { type = scrap_model which = infantry value = 4 }
+      command = { type = new_model which = d_01 value = 5 }
+      command = { type = scrap_model which = d_01 value = 4 }
+      command = { type = new_model which = garrison value = 5 }
+      command = { type = scrap_model which = garrison value = 4 }
+    }
+  }
+  # Early Modern Infantry
+  application =
+  { id        = 1070
+    name      = TECH_APP_INFANTRY_07_NAME
+    position  = { x = 24 y = 132 }
+    picture   = "1160"
+    year      = 1990
+    # Service Rifle
+    component = { id = 1071 name = TECH_CMP_INFANTRY_07_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1072 name = TECH_CMP_INFANTRY_07_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1073 name = TECH_CMP_INFANTRY_07_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1074 name = TECH_CMP_INFANTRY_07_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1075 name = TECH_CMP_INFANTRY_07_5_NAME type = training difficulty = 10 }
+    required  = { 1060 }
+    effects =
+    { command = { type = new_model which = infantry value = 6 }
+      command = { type = scrap_model which = infantry value = 5 }
+      command = { type = new_model which = d_01 value = 6 }
+      command = { type = scrap_model which = d_01 value = 5 }
+      command = { type = new_model which = garrison value = 6 }
+      command = { type = scrap_model which = garrison value = 5 }
+    }
+  }
+  # Basic Modern Infantry
+  application =
+  { id        = 1080
+    name      = TECH_APP_INFANTRY_08_NAME
+    position  = { x = 24 y = 150 }
+    picture   = "INF1995"
+    year      = 1995
+    # Machine Pistol
+    component = { id = 1081 name = TECH_CMP_INFANTRY_08_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1082 name = TECH_CMP_INFANTRY_08_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1083 name = TECH_CMP_INFANTRY_08_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1084 name = TECH_CMP_INFANTRY_08_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1085 name = TECH_CMP_INFANTRY_08_5_NAME type = training difficulty = 10 }
+    required  = { 1070 }
+    effects =
+    { command = { type = new_model which = infantry value = 7 }
+      command = { type = scrap_model which = infantry value = 6 }
+      command = { type = new_model which = d_01 value = 7 }
+      command = { type = scrap_model which = d_01 value = 6 }
+      command = { type = new_model which = garrison value = 7 }
+      command = { type = scrap_model which = garrison value = 6 }
+    }
+  }
+  # Improved Modern Infantry
+  application =
+  { id        = 1090
+    name      = TECH_APP_INFANTRY_09_NAME
+    position  = { x = 24 y = 168 }
+    picture   = "INF2000"
+    year      = 2000
+    # Machine Pistol
+    component = { id = 1091 name = TECH_CMP_INFANTRY_09_1_NAME type = rt_user_5 difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1092 name = TECH_CMP_INFANTRY_09_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1093 name = TECH_CMP_INFANTRY_09_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1094 name = TECH_CMP_INFANTRY_09_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1095 name = TECH_CMP_INFANTRY_09_5_NAME type = training difficulty = 10 }
+    required  = { 1080 }
+    effects =
+    { command = { type = new_model which = infantry value = 8 }
+      command = { type = scrap_model which = infantry value = 7 }
+      command = { type = new_model which = d_01 value = 8 }
+      command = { type = scrap_model which = d_01 value = 7 }
+      command = { type = new_model which = garrison value = 8 }
+      command = { type = scrap_model which = garrison value = 7 }
+    }
+  }
+  # Advanced Modern Infantry
+  application =
+  { id        = 2840
+    name      = TECH_APP_INFANTRY_109_NAME
+    desc      = TECH_APP_INFANTRY_109_DESC
+    position  = { x = 24 y = 186 }
+    picture   = "INF2005"
+    year      = 2005
+    # 
+    component = { id = 2841 name = TECH_CMP_INFANTRY_109_1_NAME type = rt_user_5 difficulty = 10 }
+    # 
+    component = { id = 2842 name = TECH_CMP_INFANTRY_109_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2843 name = TECH_CMP_INFANTRY_109_3_NAME type = electronics difficulty = 10 }
+    # 
+    component = { id = 2844 name = TECH_CMP_INFANTRY_109_4_NAME type = munitions difficulty = 10 }
+    # 
+    component = { id = 2845 name = TECH_CMP_INFANTRY_109_5_NAME type = training difficulty = 10 }
+    required  = { 1090 }
+    effects =
+    { command = { type = new_model which = infantry value = 9 }
+      command = { type = scrap_model which = infantry value = 8 }
+      command = { type = new_model which = d_01 value = 9 }
+      command = { type = scrap_model which = d_01 value = 8 }
+      command = { type = new_model which = garrison value = 9 }
+      command = { type = scrap_model which = garrison value = 8 }
+    }
+  }
+  # WWII Motorized Infantry
+  application =
+  { id        = 1100
+    name      = TECH_APP_INFANTRY_10_NAME
+    position  = { x = 24 y = 220 }
+    picture   = "1010"
+    year      = 1945
+    # Machine Pistol
+    component = { id = 1101 name = TECH_CMP_INFANTRY_10_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1102 name = TECH_CMP_INFANTRY_10_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1103 name = TECH_CMP_INFANTRY_10_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1104 name = TECH_CMP_INFANTRY_10_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1105 name = TECH_CMP_INFANTRY_10_5_NAME type = training difficulty = 10 }
+    required  = { 1010 }
+    or_required = { 1650 1660 }
+    effects =
+    { command = { type = activate_unit_type which = motorized }
+      command = { type = new_model which = motorized value = 0 }
+      command = { type = activate_unit_type which = d_02 }
+      command = { type = new_model which = d_02 value = 0 }
+    }
+  }
+  # Early Cold War Motorized Infantry
+  application =
+  { id        = 1110
+    name      = TECH_APP_INFANTRY_11_NAME
+    position  = { x = 24 y = 238 }
+    picture   = "MOT1965"
+    year      = 1965
+    # Assault Rifle
+    component = { id = 1111 name = TECH_CMP_INFANTRY_11_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1112 name = TECH_CMP_INFANTRY_11_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1113 name = TECH_CMP_INFANTRY_11_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1114 name = TECH_CMP_INFANTRY_11_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1115 name = TECH_CMP_INFANTRY_11_5_NAME type = training difficulty = 10 }
+    required  = { 1020 1100 }
+    effects =
+    { command = { type = new_model which = motorized value = 1 }
+      command = { type = scrap_model which = motorized value = 0 }
+      command = { type = new_model which = d_02 value = 1 }
+      command = { type = scrap_model which = d_02 value = 0 }
+    }
+  }
+  label =
+  { tag      = TECH_CAT_INFANTRY_1
+    position = { x = 37 y = 207 }
+  }
+  # Mid-Cold War Motorized Infantry
+  application =
+  { id        = 1120
+    name      = TECH_APP_INFANTRY_12_NAME
+    position  = { x = 24 y = 256 }
+    picture   = "MOT1970"
+    year      = 1970
+    # Assault Rifle
+    component = { id = 1121 name = TECH_CMP_INFANTRY_12_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1122 name = TECH_CMP_INFANTRY_12_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1123 name = TECH_CMP_INFANTRY_12_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1124 name = TECH_CMP_INFANTRY_12_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1125 name = TECH_CMP_INFANTRY_12_5_NAME type = training difficulty = 10 }
+    required  = { 1030 1110 }
+    effects =
+    { command = { type = new_model which = motorized value = 2 }
+      command = { type = scrap_model which = motorized value = 1 }
+      command = { type = new_model which = d_02 value = 2 }
+      command = { type = scrap_model which = d_02 value = 1 }
+    }
+  }
+  # Basic Cold War Motorized Infantry
+  application =
+  { id        = 1130
+    name      = TECH_APP_INFANTRY_13_NAME
+    position  = { x = 24 y = 274 }
+    picture   = "MOT1975"
+    year      = 1975
+    # Assault Rifle
+    component = { id = 1131 name = TECH_CMP_INFANTRY_13_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1132 name = TECH_CMP_INFANTRY_13_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1133 name = TECH_CMP_INFANTRY_13_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1134 name = TECH_CMP_INFANTRY_13_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1135 name = TECH_CMP_INFANTRY_13_5_NAME type = training difficulty = 10 }
+    required  = { 1040 1120 }
+    effects =
+    { command = { type = new_model which = motorized value = 3 }
+      command = { type = scrap_model which = motorized value = 2 }
+      command = { type = new_model which = d_02 value = 3 }
+      command = { type = scrap_model which = d_02 value = 2 }
+    }
+  }
+  # Improved Cold War Motorized Infantry
+  application =
+  { id        = 1140
+    name      = TECH_APP_INFANTRY_14_NAME
+    position  = { x = 24 y = 292 }
+    picture   = "MOT1980"
+    year      = 1980
+    # Assault Rifle
+    component = { id = 1141 name = TECH_CMP_INFANTRY_14_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1142 name = TECH_CMP_INFANTRY_14_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1143 name = TECH_CMP_INFANTRY_14_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1144 name = TECH_CMP_INFANTRY_14_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1145 name = TECH_CMP_INFANTRY_14_5_NAME type = training difficulty = 10 }
+    required  = { 1050 1130 }
+    effects =
+    { command = { type = new_model which = motorized value = 4 }
+      command = { type = scrap_model which = motorized value = 3 }
+      command = { type = new_model which = d_02 value = 4 }
+      command = { type = scrap_model which = d_02 value = 3 }
+    }
+  }
+  # Advanced Cold War Motorized Infantry
+  application =
+  { id        = 1150
+    name      = TECH_APP_INFANTRY_15_NAME
+    position  = { x = 24 y = 310 }
+    picture   = "MOT1985"
+    year      = 1985
+    # Assault Rifle
+    component = { id = 1151 name = TECH_CMP_INFANTRY_15_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 1152 name = TECH_CMP_INFANTRY_15_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 1153 name = TECH_CMP_INFANTRY_15_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 1154 name = TECH_CMP_INFANTRY_15_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 1155 name = TECH_CMP_INFANTRY_15_5_NAME type = training difficulty = 10 }
+    required  = { 1060 1140 }
+    effects =
+    { command = { type = new_model which = motorized value = 5 }
+      command = { type = scrap_model which = motorized value = 4 }
+      command = { type = new_model which = d_02 value = 5 }
+      command = { type = scrap_model which = d_02 value = 4 }
+    }
+  }
+  # Early Modern Motorized Infantry
+  application =
+  { id        = 13000
+    name      = TECH_APP_INFANTRY_300_NAME
+    position  = { x = 24 y = 328 }
+    picture   = "MOT1990"
+    year      = 1990
+    # Assault Rifle
+    component = { id = 13001 name = TECH_CMP_INFANTRY_15_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 13002 name = TECH_CMP_INFANTRY_15_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 13003 name = TECH_CMP_INFANTRY_15_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 13004 name = TECH_CMP_INFANTRY_15_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 13005 name = TECH_CMP_INFANTRY_15_5_NAME type = training difficulty = 10 }
+    required  = { 1070 1150 }
+    effects =
+    { command = { type = new_model which = motorized value = 6 }
+      command = { type = scrap_model which = motorized value = 5 }
+      command = { type = new_model which = d_02 value = 6 }
+      command = { type = scrap_model which = d_02 value = 5 }
+    }
+  }
+  # Basic Modern Motorized Infantry
+  application =
+  { id        = 13010
+    name      = TECH_APP_INFANTRY_301_NAME
+    position  = { x = 24 y = 346 }
+    picture   = "MOT1995"
+    year      = 1995
+    # Assault Rifle
+    component = { id = 13011 name = TECH_CMP_INFANTRY_15_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 13012 name = TECH_CMP_INFANTRY_15_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 13013 name = TECH_CMP_INFANTRY_15_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 13014 name = TECH_CMP_INFANTRY_15_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 13015 name = TECH_CMP_INFANTRY_15_5_NAME type = training difficulty = 10 }
+    required  = { 1080 13000 }
+    effects =
+    { command = { type = new_model which = motorized value = 7 }
+      command = { type = scrap_model which = motorized value = 6 }
+      command = { type = new_model which = d_02 value = 7 }
+      command = { type = scrap_model which = d_02 value = 6 }
+    }
+  }
+  # Improved Modern Motorized Infantry
+  application =
+  { id        = 13020
+    name      = TECH_APP_INFANTRY_302_NAME
+    position  = { x = 24 y = 364 }
+    picture   = "MOT2000"
+    year      = 2000
+    # Assault Rifle
+    component = { id = 13021 name = TECH_CMP_INFANTRY_15_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun
+    component = { id = 13022 name = TECH_CMP_INFANTRY_15_2_NAME type = artillery difficulty = 10 }
+    # Signal Command System
+    component = { id = 13023 name = TECH_CMP_INFANTRY_15_3_NAME type = electronics difficulty = 10 }
+    # Ammunition, Grenades, and Mines
+    component = { id = 13024 name = TECH_CMP_INFANTRY_15_4_NAME type = munitions difficulty = 10 }
+    # Infantry Training
+    component = { id = 13025 name = TECH_CMP_INFANTRY_15_5_NAME type = training difficulty = 10 }
+    required  = { 1090 13010 }
+    effects =
+    { command = { type = new_model which = motorized value = 8 }
+      command = { type = scrap_model which = motorized value = 7 }
+      command = { type = new_model which = d_02 value = 8 }
+      command = { type = scrap_model which = d_02 value = 7 }
+    }
+  }
+  # Advanced Modern Motorized Infantry
+  application =
+  { id        = 13090
+    name      = TECH_APP_INFANTRY_110_NAME
+    desc      = TECH_APP_INFANTRY_110_DESC
+    position  = { x = 24 y = 382 }
+    picture   = "MOT2005"
+    year      = 2005
+    # 
+    component = { id = 13091 name = TECH_CMP_INFANTRY_110_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 13092 name = TECH_CMP_INFANTRY_110_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 13093 name = TECH_CMP_INFANTRY_110_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 13094 name = TECH_CMP_INFANTRY_110_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 13095 name = TECH_CMP_INFANTRY_110_5_NAME type = artillery difficulty = 10 }
+    required  = { 13020 1090 }
+    effects =
+    { command = { type = new_model which = motorized value = 9 }
+      command = { type = scrap_model which = motorized value = 8 }
+      command = { type = new_model which = d_02 value = 9 }
+      command = { type = scrap_model which = d_02 value = 8 }
+    }
+  }
+  # World War II Mountain Infantry
+  application =
+  { id        = 1160
+    name      = TECH_APP_INFANTRY_16_NAME
+    position  = { x = 156 y = 24 }
+    picture   = "MTN1945"
+    year      = 1945
+    # Light Terrain Equipment
+    component = { id = 1161 name = TECH_CMP_INFANTRY_16_1_NAME type = general_equipment difficulty = 10 }
+    # Light Weaponry
+    component = { id = 1162 name = TECH_CMP_INFANTRY_16_3_NAME type = general_equipment difficulty = 4 }
+    # Light Battle Equipment
+    component = { id = 1163 name = TECH_CMP_INFANTRY_16_2_NAME type = general_equipment difficulty = 4 }
+    # Light Infantry Training
+    component = { id = 1164 name = TECH_CMP_INFANTRY_16_4_NAME type = training difficulty = 10 }
+    # Light Infantry Tactics
+    component = { id = 1165 name = TECH_CMP_INFANTRY_16_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1010 }
+    or_required = { 1650 1660 }
+    effects =
+    { command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = new_model which = bergsjaeger value = 0 }
+    }
+  }
+  # Early Cold War Mountain
+  application =
+  { id        = 1170
+    name      = TECH_APP_INFANTRY_17_NAME
+    position  = { x = 156 y = 42 }
+    picture   = "MTN1965"
+    year      = 1965
+    # Light Terrain Equipment
+    component = { id = 1171 name = TECH_CMP_INFANTRY_17_1_NAME type = general_equipment difficulty = 10 }
+    # Light Weaponry
+    component = { id = 1172 name = TECH_CMP_INFANTRY_17_3_NAME type = general_equipment difficulty = 10 }
+    # Light Battle Equipment
+    component = { id = 1173 name = TECH_CMP_INFANTRY_17_2_NAME type = general_equipment difficulty = 10 }
+    # Light Infantry Training
+    component = { id = 1174 name = TECH_CMP_INFANTRY_17_4_NAME type = training difficulty = 10 }
+    # Light Infantry Tactics
+    component = { id = 1175 name = TECH_CMP_INFANTRY_17_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1160 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 1 }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+    }
+  }
+  # Mid-Cold War Mountain Infantry
+  application =
+  { id        = 1180
+    name      = TECH_APP_INFANTRY_18_NAME
+    position  = { x = 156 y = 60 }
+    picture   = "MTN1970"
+    year      = 1970
+    # Light Terrain Equipment
+    component = { id = 1181 name = TECH_CMP_INFANTRY_18_1_NAME type = general_equipment difficulty = 10 }
+    # Light Weaponry
+    component = { id = 1182 name = TECH_CMP_INFANTRY_18_3_NAME type = general_equipment difficulty = 10 }
+    # Light Battle Equipment
+    component = { id = 1183 name = TECH_CMP_INFANTRY_18_2_NAME type = general_equipment difficulty = 10 }
+    # Light Infantry Training
+    component = { id = 1184 name = TECH_CMP_INFANTRY_18_4_NAME type = training difficulty = 10 }
+    # Light Infantry Tactics
+    component = { id = 1185 name = TECH_CMP_INFANTRY_18_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1170 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 2 }
+      command = { type = scrap_model which = bergsjaeger value = 1 }
+    }
+  }
+  # Basic Cold War Mountain Infantry
+  application =
+  { id        = 1190
+    name      = TECH_APP_INFANTRY_19_NAME
+    position  = { x = 156 y = 78 }
+    picture   = "MTN1975"
+    year      = 1975
+    # Light Terrain Equipment
+    component = { id = 1191 name = TECH_CMP_INFANTRY_19_1_NAME type = mountain_training difficulty = 10 }
+    # Light Weaponry
+    component = { id = 1192 name = TECH_CMP_INFANTRY_19_3_NAME type = mountain_training difficulty = 10 }
+    # Light Battle Equipment
+    component = { id = 1193 name = TECH_CMP_INFANTRY_19_2_NAME type = general_equipment difficulty = 10 }
+    # Light Infantry Training
+    component = { id = 1194 name = TECH_CMP_INFANTRY_19_4_NAME type = mountain_training difficulty = 10 }
+    # Light Infantry Tactics
+    component = { id = 1195 name = TECH_CMP_INFANTRY_19_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1180 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 3 }
+      command = { type = scrap_model which = bergsjaeger value = 2 }
+    }
+  }
+  # Improved Cold War Mountain Infantry
+  application =
+  { id        = 1200
+    name      = TECH_APP_INFANTRY_20_NAME
+    position  = { x = 156 y = 96 }
+    picture   = "MTN1980"
+    year      = 1980
+    # Light Terrain Equipment
+    component = { id = 1201 name = TECH_CMP_INFANTRY_20_1_NAME type = mountain_training difficulty = 10 }
+    # Light Weaponry
+    component = { id = 1202 name = TECH_CMP_INFANTRY_20_3_NAME type = mountain_training difficulty = 10 }
+    # Light Battle Equipment
+    component = { id = 1203 name = TECH_CMP_INFANTRY_20_2_NAME type = artillery difficulty = 10 }
+    # Light Infantry Training
+    component = { id = 1204 name = TECH_CMP_INFANTRY_20_4_NAME type = mountain_training difficulty = 10 }
+    # Light Infantry Tactics
+    component = { id = 1205 name = TECH_CMP_INFANTRY_20_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1190 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 4 }
+      command = { type = scrap_model which = bergsjaeger value = 3 }
+    }
+  }
+  # Advanced Cold War Mountain Infantry
+  application =
+  { id        = 1210
+    name      = TECH_APP_INFANTRY_21_NAME
+    position  = { x = 156 y = 114 }
+    picture   = "MTN1985"
+    year      = 1985
+    # Mountain Equipment
+    component = { id = 1211 name = TECH_CMP_INFANTRY_21_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1212 name = TECH_CMP_INFANTRY_21_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1213 name = TECH_CMP_INFANTRY_21_2_NAME type = mountain_training difficulty = 10 }
+    # Mountain Training
+    component = { id = 1214 name = TECH_CMP_INFANTRY_21_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1215 name = TECH_CMP_INFANTRY_21_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1200 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 5 }
+      command = { type = scrap_model which = bergsjaeger value = 4 }
+    }
+  }
+  # Early Modern Mountain Infantry
+  application =
+  { id        = 1220
+    name      = TECH_APP_INFANTRY_22_NAME
+    position  = { x = 156 y = 132 }
+    picture   = "MTN1990"
+    year      = 1990
+    # Mountain Equipment
+    component = { id = 1221 name = TECH_CMP_INFANTRY_22_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1222 name = TECH_CMP_INFANTRY_22_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1223 name = TECH_CMP_INFANTRY_22_2_NAME type = mountain_training difficulty = 10 }
+    # Mountain Training
+    component = { id = 1224 name = TECH_CMP_INFANTRY_22_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1225 name = TECH_CMP_INFANTRY_22_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1210 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 6 }
+      command = { type = scrap_model which = bergsjaeger value = 5 }
+    }
+  }
+  # Basic Modern Mountain Infantry
+  application =
+  { id        = 1230
+    name      = TECH_APP_INFANTRY_23_NAME
+    position  = { x = 156 y = 150 }
+    picture   = "MTN1995"
+    year      = 1995
+    # Mountain Equipment
+    component = { id = 1231 name = TECH_CMP_INFANTRY_23_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1232 name = TECH_CMP_INFANTRY_23_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1233 name = TECH_CMP_INFANTRY_23_2_NAME type = mountain_training difficulty = 10 }
+    # Mountain Training
+    component = { id = 1234 name = TECH_CMP_INFANTRY_23_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1235 name = TECH_CMP_INFANTRY_23_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1220 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 7 }
+      command = { type = scrap_model which = bergsjaeger value = 6 }
+    }
+  }
+  # Improved Modern Mountain Infantry
+  application =
+  { id        = 1240
+    name      = TECH_APP_INFANTRY_24_NAME
+    position  = { x = 156 y = 168 }
+    picture   = "MTN2000"
+    year      = 2000
+    # Mountain Equipment
+    component = { id = 1241 name = TECH_CMP_INFANTRY_24_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1242 name = TECH_CMP_INFANTRY_24_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1243 name = TECH_CMP_INFANTRY_24_2_NAME type = mountain_training difficulty = 10 }
+    # Mountain Training
+    component = { id = 1244 name = TECH_CMP_INFANTRY_24_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1245 name = TECH_CMP_INFANTRY_24_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1230 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 8 }
+      command = { type = scrap_model which = bergsjaeger value = 7 }
+    }
+  }
+  # Advanced Modern Mountain Infantry
+  application =
+  { id        = 3280
+    name      = TECH_APP_INFANTRY_113_NAME
+    desc      = TECH_APP_INFANTRY_113_DESC
+    position  = { x = 156 y = 186 }
+    picture   = "MTN2005"
+    year      = 2005
+    # 
+    component = { id = 3281 name = TECH_CMP_INFANTRY_113_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3282 name = TECH_CMP_INFANTRY_113_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3283 name = TECH_CMP_INFANTRY_113_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3284 name = TECH_CMP_INFANTRY_113_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3285 name = TECH_CMP_INFANTRY_113_5_NAME type = artillery difficulty = 10 }
+    required  = { 1240 }
+    effects =
+    { command = { type = new_model which = bergsjaeger value = 9 }
+      command = { type = scrap_model which = bergsjaeger value = 8 }
+    }
+  }
+  # World War II Special Forces
+  application =
+  { id        = 1250
+    name      = TECH_APP_INFANTRY_25_NAME
+    position  = { x = 156 y = 220 }
+    picture   = "1110"
+    year      = 1945
+    # Mountain Equipment
+    component = { id = 1251 name = TECH_CMP_INFANTRY_25_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1252 name = TECH_CMP_INFANTRY_25_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1253 name = TECH_CMP_INFANTRY_25_2_NAME type = mountain_training difficulty = 10 }
+    # Mountain Training
+    component = { id = 1254 name = TECH_CMP_INFANTRY_25_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1255 name = TECH_CMP_INFANTRY_25_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1160 }
+    effects =
+    { command = { type = activate_unit_type which = d_03 }
+      command = { type = new_model which = d_03 value = 0 }
+    }
+  }
+  # Early Cold War Special Forces
+  application =
+  { id        = 1260
+    name      = TECH_APP_INFANTRY_26_NAME
+    position  = { x = 156 y = 238 }
+    picture   = "1140"
+    year      = 1965
+    # Mountain Equipment
+    component = { id = 1261 name = TECH_CMP_INFANTRY_26_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1262 name = TECH_CMP_INFANTRY_26_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1263 name = TECH_CMP_INFANTRY_26_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Training
+    component = { id = 1264 name = TECH_CMP_INFANTRY_26_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1265 name = TECH_CMP_INFANTRY_26_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1250 }
+    effects =
+    { command = { type = new_model which = d_03 value = 1 }
+      command = { type = scrap_model which = d_03 value = 0 }
+    }
+  }
+  label =
+  { tag      = TECH_CAT_INFANTRY_2
+    position = { x = 174 y = 207 }
+  }
+  # Mid-Cold War Special Forces
+  application =
+  { id        = 1270
+    name      = TECH_APP_INFANTRY_27_NAME
+    position  = { x = 156 y = 256 }
+    picture   = "DH1280"
+    year      = 1970
+    # Mountain Equipment
+    component = { id = 1271 name = TECH_CMP_INFANTRY_27_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1272 name = TECH_CMP_INFANTRY_27_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1273 name = TECH_CMP_INFANTRY_27_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Training
+    component = { id = 1274 name = TECH_CMP_INFANTRY_27_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1275 name = TECH_CMP_INFANTRY_27_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1260 }
+    effects =
+    { command = { type = new_model which = d_03 value = 2 }
+      command = { type = scrap_model which = d_03 value = 1 }
+    }
+  }
+  # Basic Cold War Special Forces
+  application =
+  { id        = 1280
+    name      = TECH_APP_INFANTRY_28_NAME
+    position  = { x = 156 y = 274 }
+    picture   = "SF1975"
+    year      = 1975
+    # Mountain Equipment
+    component = { id = 1281 name = TECH_CMP_INFANTRY_28_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1282 name = TECH_CMP_INFANTRY_28_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1283 name = TECH_CMP_INFANTRY_28_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Training
+    component = { id = 1284 name = TECH_CMP_INFANTRY_28_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1285 name = TECH_CMP_INFANTRY_28_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1270 }
+    effects =
+    { command = { type = new_model which = d_03 value = 3 }
+      command = { type = scrap_model which = d_03 value = 2 }
+    }
+  }
+  # Improved Cold War Special Forces
+  application =
+  { id        = 1290
+    name      = TECH_APP_INFANTRY_29_NAME
+    position  = { x = 156 y = 292 }
+    picture   = "10040"
+    year      = 1980
+    # Mountain Equipment
+    component = { id = 1291 name = TECH_CMP_INFANTRY_29_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1292 name = TECH_CMP_INFANTRY_29_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1293 name = TECH_CMP_INFANTRY_29_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Training
+    component = { id = 1294 name = TECH_CMP_INFANTRY_29_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1295 name = TECH_CMP_INFANTRY_29_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1280 }
+    effects =
+    { command = { type = new_model which = d_03 value = 4 }
+      command = { type = scrap_model which = d_03 value = 3 }
+    }
+  }
+  # Advanced Cold War Special Forces
+  application =
+  { id        = 1300
+    name      = TECH_APP_INFANTRY_30_NAME
+    position  = { x = 156 y = 310 }
+    picture   = "SF1985"
+    year      = 1985
+    # Mountain Equipment
+    component = { id = 1301 name = TECH_CMP_INFANTRY_30_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 1302 name = TECH_CMP_INFANTRY_30_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 1303 name = TECH_CMP_INFANTRY_30_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Training
+    component = { id = 1304 name = TECH_CMP_INFANTRY_30_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 1305 name = TECH_CMP_INFANTRY_30_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1290 }
+    effects =
+    { command = { type = new_model which = d_03 value = 5 }
+      command = { type = scrap_model which = d_03 value = 4 }
+    }
+  }
+  # Early Modern Special Forces
+  application =
+  { id        = 13030
+    name      = TECH_APP_INFANTRY_303_NAME
+    position  = { x = 156 y = 328 }
+    picture   = "SF1990"
+    year      = 1990
+    # Mountain Equipment
+    component = { id = 13031 name = TECH_CMP_INFANTRY_30_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 13032 name = TECH_CMP_INFANTRY_30_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 13033 name = TECH_CMP_INFANTRY_30_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Training
+    component = { id = 13034 name = TECH_CMP_INFANTRY_30_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 13035 name = TECH_CMP_INFANTRY_30_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 1300 }
+    effects =
+    { command = { type = new_model which = d_03 value = 6 }
+      command = { type = scrap_model which = d_03 value = 5 }
+    }
+  }
+  # Basic Modern Special Forces
+  application =
+  { id        = 13040
+    name      = TECH_APP_INFANTRY_304_NAME
+    position  = { x = 156 y = 346 }
+    picture   = "DH13030"
+    year      = 1995
+    # Mountain Equipment
+    component = { id = 13041 name = TECH_CMP_INFANTRY_30_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 13042 name = TECH_CMP_INFANTRY_30_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 13043 name = TECH_CMP_INFANTRY_30_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Training
+    component = { id = 13044 name = TECH_CMP_INFANTRY_30_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 13045 name = TECH_CMP_INFANTRY_30_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 13030 }
+    effects =
+    { command = { type = new_model which = d_03 value = 7 }
+      command = { type = scrap_model which = d_03 value = 6 }
+    }
+  }
+  # Improved Modern Special Forces
+  application =
+  { id        = 13050
+    name      = TECH_APP_INFANTRY_305_NAME
+    position  = { x = 156 y = 364 }
+    picture   = "SF2000"
+    year      = 2000
+    # Mountain Equipment
+    component = { id = 13051 name = TECH_CMP_INFANTRY_30_1_NAME type = mountain_training difficulty = 10 }
+    # Mountain Vehicle Design
+    component = { id = 13052 name = TECH_CMP_INFANTRY_30_3_NAME type = artillery difficulty = 10 }
+    # Mountain Heavy Weaponry
+    component = { id = 13053 name = TECH_CMP_INFANTRY_30_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Training
+    component = { id = 13054 name = TECH_CMP_INFANTRY_30_4_NAME type = mountain_training difficulty = 10 }
+    # Mountain Warfare Tactics
+    component = { id = 13055 name = TECH_CMP_INFANTRY_30_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 13040 }
+    effects =
+    { command = { type = new_model which = d_03 value = 8 }
+      command = { type = scrap_model which = d_03 value = 7 }
+    }
+  }
+  # Advanced Modern Special Forces
+  application =
+  { id        = 13100
+    name      = TECH_APP_INFANTRY_111_NAME
+    desc      = TECH_APP_INFANTRY_111_DESC
+    position  = { x = 156 y = 382 }
+    picture   = "SF2005"
+    year      = 2005
+    # 
+    component = { id = 13101 name = TECH_CMP_INFANTRY_111_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 13102 name = TECH_CMP_INFANTRY_111_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 13103 name = TECH_CMP_INFANTRY_111_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 13104 name = TECH_CMP_INFANTRY_111_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 13105 name = TECH_CMP_INFANTRY_111_5_NAME type = artillery difficulty = 10 }
+    required  = { 13050 }
+    effects =
+    { command = { type = new_model which = d_03 value = 9 }
+      command = { type = scrap_model which = d_03 value = 8 }
+    }
+  }
+  # Early Cold War Armored Cavalry
+  application =
+  { id        = 13060
+    name      = TECH_APP_INFANTRY_306_NAME
+    position  = { x = 552 y = 24 }
+    picture   = "1210"
+    year      = 1965
+    # Lance and Carbine
+    component = { id = 13061 name = TECH_CMP_INFANTRY_31_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 13062 name = TECH_CMP_INFANTRY_31_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 13063 name = TECH_CMP_INFANTRY_31_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 13064 name = TECH_CMP_INFANTRY_31_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 13065 name = TECH_CMP_INFANTRY_31_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { }
+    effects =
+    { command = { type = activate_unit_type which = cavalry }
+      command = { type = new_model which = cavalry value = 0 }
+    }
+  }
+  # Mid-Cold War Armored Cavalry
+  application =
+  { id        = 13070
+    name      = TECH_APP_INFANTRY_307_NAME
+    position  = { x = 552 y = 42 }
+    picture   = "ARMCAV1970"
+    year      = 1970
+    # Lance and Carbine
+    component = { id = 13071 name = TECH_CMP_INFANTRY_31_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 13072 name = TECH_CMP_INFANTRY_31_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 13073 name = TECH_CMP_INFANTRY_31_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 13074 name = TECH_CMP_INFANTRY_31_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 13075 name = TECH_CMP_INFANTRY_31_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 13060 }
+    effects =
+    { command = { type = new_model which = cavalry value = 1 }
+      command = { type = scrap_model which = cavalry value = 0 }
+    }
+  }
+  # Basic Cold War Armored Cavalry
+  application =
+  { id        = 13080
+    name      = TECH_APP_INFANTRY_308_NAME
+    position  = { x = 552 y = 60 }
+    picture   = "ARMCAV1975"
+    year      = 1975
+    # Lance and Carbine
+    component = { id = 13081 name = TECH_CMP_INFANTRY_31_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 13082 name = TECH_CMP_INFANTRY_31_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 13083 name = TECH_CMP_INFANTRY_31_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 13084 name = TECH_CMP_INFANTRY_31_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 13085 name = TECH_CMP_INFANTRY_31_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 13070 }
+    effects =
+    { command = { type = new_model which = cavalry value = 2 }
+      command = { type = scrap_model which = cavalry value = 1 }
+    }
+  }
+  # Improved Cold War Armored Cavalry
+  application =
+  { id        = 1310
+    name      = TECH_APP_INFANTRY_31_NAME
+    position  = { x = 552 y = 78 }
+    picture   = "ARMCAV1980"
+    year      = 1980
+    # Lance and Carbine
+    component = { id = 1311 name = TECH_CMP_INFANTRY_31_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 1312 name = TECH_CMP_INFANTRY_31_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 1313 name = TECH_CMP_INFANTRY_31_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1314 name = TECH_CMP_INFANTRY_31_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1315 name = TECH_CMP_INFANTRY_31_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 13080 }
+    effects =
+    { command = { type = new_model which = cavalry value = 3 }
+      command = { type = scrap_model which = cavalry value = 2 }
+    }
+  }
+  # Advanced Cold War Armored Cavalry
+  application =
+  { id        = 1320
+    name      = TECH_APP_INFANTRY_32_NAME
+    position  = { x = 552 y = 96 }
+    picture   = "ARMCAV1985"
+    year      = 1985
+    # Cavalry Service Rifle
+    component = { id = 1321 name = TECH_CMP_INFANTRY_32_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 1322 name = TECH_CMP_INFANTRY_32_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 1323 name = TECH_CMP_INFANTRY_32_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1324 name = TECH_CMP_INFANTRY_32_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1325 name = TECH_CMP_INFANTRY_32_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 1310 }
+    effects =
+    { command = { type = new_model which = cavalry value = 4 }
+      command = { type = scrap_model which = cavalry value = 3 }
+    }
+  }
+  # Early Modern Armored Cavalry
+  application =
+  { id        = 1330
+    name      = TECH_APP_INFANTRY_33_NAME
+    position  = { x = 552 y = 114 }
+    picture   = "ARMCAV1990"
+    year      = 1990
+    # Cavalry Service Rifle
+    component = { id = 1331 name = TECH_CMP_INFANTRY_33_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 1332 name = TECH_CMP_INFANTRY_33_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 1333 name = TECH_CMP_INFANTRY_33_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1334 name = TECH_CMP_INFANTRY_33_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1335 name = TECH_CMP_INFANTRY_33_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 1320 }
+    effects =
+    { command = { type = new_model which = cavalry value = 5 }
+      command = { type = scrap_model which = cavalry value = 4 }
+    }
+  }
+  # Basic Modern Armored Cavalry
+  application =
+  { id        = 1340
+    name      = TECH_APP_INFANTRY_34_NAME
+    position  = { x = 552 y = 132 }
+    picture   = "ARMCAV1995"
+    year      = 1995
+    # Cavalry Service Rifle
+    component = { id = 1341 name = TECH_CMP_INFANTRY_34_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 1342 name = TECH_CMP_INFANTRY_34_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 1343 name = TECH_CMP_INFANTRY_34_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1344 name = TECH_CMP_INFANTRY_34_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1345 name = TECH_CMP_INFANTRY_34_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 1330 }
+    effects =
+    { command = { type = new_model which = cavalry value = 6 }
+      command = { type = scrap_model which = cavalry value = 5 }
+    }
+  }
+  # Improved Modern Armored Cavalry
+  application =
+  { id        = 1350
+    name      = TECH_APP_INFANTRY_35_NAME
+    position  = { x = 552 y = 150 }
+    picture   = "ARMCAV2000"
+    year      = 2000
+    # Cavalry Service Rifle
+    component = { id = 1351 name = TECH_CMP_INFANTRY_35_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 1352 name = TECH_CMP_INFANTRY_35_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 1353 name = TECH_CMP_INFANTRY_35_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1354 name = TECH_CMP_INFANTRY_35_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1355 name = TECH_CMP_INFANTRY_35_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 1340 }
+    effects =
+    { command = { type = new_model which = cavalry value = 7 }
+      command = { type = scrap_model which = cavalry value = 6 }
+    }
+  }
+  # Advanced Modern Armored Cavalry
+  application =
+  { id        = 3360
+    name      = TECH_APP_INFANTRY_115_NAME
+    desc      = TECH_APP_INFANTRY_115_DESC
+    position  = { x = 552 y = 168 }
+    picture   = "ARMCAV2005"
+    year      = 2005
+    # 
+    component = { id = 3361 name = TECH_CMP_INFANTRY_115_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3362 name = TECH_CMP_INFANTRY_115_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3363 name = TECH_CMP_INFANTRY_115_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3364 name = TECH_CMP_INFANTRY_115_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3365 name = TECH_CMP_INFANTRY_115_5_NAME type = artillery difficulty = 10 }
+    required  = { 1350 }
+    effects =
+    { command = { type = new_model which = cavalry value = 8 }
+      command = { type = scrap_model which = cavalry value = 7 }
+    }
+  }
+  # World War II Irregular Infantry
+  application =
+  { id        = 1360
+    name      = TECH_APP_INFANTRY_36_NAME
+    position  = { x = 552 y = 202 }
+    picture   = "DH1360"
+    year      = 1945
+    # Cavalry Service Rifle
+    component = { id = 1361 name = TECH_CMP_INFANTRY_36_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 1362 name = TECH_CMP_INFANTRY_36_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 1363 name = TECH_CMP_INFANTRY_36_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1364 name = TECH_CMP_INFANTRY_36_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1365 name = TECH_CMP_INFANTRY_36_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 1010 }
+    effects =
+    { command = { type = activate_unit_type which = militia }
+      command = { type = new_model which = militia value = 0 }
+    }
+  }
+  # Early Cold War Irregular Infantry
+  application =
+  { id        = 1370
+    name      = TECH_APP_INFANTRY_37_NAME
+    position  = { x = 552 y = 220 }
+    picture   = "DH1370"
+    year      = 1965
+    # Lance and Carbine
+    component = { id = 1371 name = TECH_CMP_INFANTRY_37_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 1372 name = TECH_CMP_INFANTRY_37_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 1373 name = TECH_CMP_INFANTRY_37_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1374 name = TECH_CMP_INFANTRY_37_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1375 name = TECH_CMP_INFANTRY_37_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 1360 }
+    effects =
+    { command = { type = new_model which = militia value = 1 }
+      command = { type = scrap_model which = militia value = 0 }
+    }
+  }
+  # Mid-Cold War Irregular Infantry
+  application =
+  { id        = 1380
+    name      = TECH_APP_INFANTRY_38_NAME
+    position  = { x = 552 y = 238 }
+    picture   = "1200"
+    year      = 1970
+    # Machine Pistol
+    component = { id = 1381 name = TECH_CMP_INFANTRY_38_1_NAME type = general_equipment difficulty = 10 }
+    # Cavalry Equipment
+    component = { id = 1382 name = TECH_CMP_INFANTRY_38_2_NAME type = artillery difficulty = 10 }
+    # Cavalry Mobility
+    component = { id = 1383 name = TECH_CMP_INFANTRY_38_3_NAME type = munitions difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1384 name = TECH_CMP_INFANTRY_38_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1385 name = TECH_CMP_INFANTRY_38_5_NAME type = rt_user_1 difficulty = 10 }
+    required  = { 1370 }
+    effects =
+    { command = { type = new_model which = militia value = 2 }
+      command = { type = scrap_model which = militia value = 1 }
+    }
+  }
+  # Basic Cold War Irregular Infantry
+  application =
+  { id        = 1390
+    name      = TECH_APP_INFANTRY_39_NAME
+    position  = { x = 552 y = 256 }
+    picture   = "DH1390"
+    year      = 1975
+    # Machine Pistol
+    component = { id = 1391 name = TECH_CMP_INFANTRY_39_1_NAME type = general_equipment difficulty = 10 }
+    # Trucks
+    component = { id = 1392 name = TECH_CMP_INFANTRY_39_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Semi-Motorized Cavalry Equipment
+    component = { id = 1393 name = TECH_CMP_INFANTRY_39_3_NAME type = mechanics difficulty = 10 }
+    # Cavalry Training
+    component = { id = 1394 name = TECH_CMP_INFANTRY_39_4_NAME type = training difficulty = 10 }
+    # Cavalry Tactics
+    component = { id = 1395 name = TECH_CMP_INFANTRY_39_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1380 }
+    effects =
+    { command = { type = new_model which = militia value = 3 }
+      command = { type = scrap_model which = militia value = 2 }
+    }
+  }
+  # Improved Cold War Irregular Infantry
+  application =
+  { id        = 1530
+    name      = TECH_APP_INFANTRY_53_NAME
+    position  = { x = 552 y = 274 }
+    picture   = "DH1530"
+    year      = 1980
+    # Modern Assault Rifle
+    component = { id = 1531 name = TECH_CMP_INFANTRY_53_1_NAME type = general_equipment difficulty = 10 }
+    # Improved Mountain Gun Quickfire
+    component = { id = 1532 name = TECH_CMP_INFANTRY_53_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Advanced Airborne Small Unit Drop Pods
+    component = { id = 1533 name = TECH_CMP_INFANTRY_53_3_NAME type = mechanics difficulty = 10 }
+    #  Airborne Heavy Tank
+    component = { id = 1534 name = TECH_CMP_INFANTRY_53_4_NAME type = training difficulty = 10 }
+    # Airborne Combined Arms Training
+    component = { id = 1535 name = TECH_CMP_INFANTRY_53_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1390 }
+    effects =
+    { command = { type = new_model which = militia value = 4 }
+      command = { type = scrap_model which = militia value = 3 }
+    }
+  }
+  # Advanced Cold War Irregular Infantry
+  application =
+  { id        = 1540
+    name      = TECH_APP_INFANTRY_54_NAME
+    position  = { x = 552 y = 292 }
+    picture   = "DH1540"
+    year      = 1985
+    # Improved Assault Rifle
+    component = { id = 1541 name = TECH_CMP_INFANTRY_54_1_NAME type = general_equipment difficulty = 10 }
+    # Mountain Gun Quickfire
+    component = { id = 1542 name = TECH_CMP_INFANTRY_54_2_NAME type = vehicle_engineering difficulty = 10 }
+    # Improved Alpine Combat Equipment
+    component = { id = 1543 name = TECH_CMP_INFANTRY_54_3_NAME type = mechanics difficulty = 10 }
+    # Improved Hi-Power Halftrack
+    component = { id = 1544 name = TECH_CMP_INFANTRY_54_4_NAME type = training difficulty = 10 }
+    # Specialized Mountain Tactical Training
+    component = { id = 1545 name = TECH_CMP_INFANTRY_54_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1530 }
+    effects =
+    { command = { type = new_model which = militia value = 5 }
+      command = { type = scrap_model which = militia value = 4 }
+    }
+  }
+  # Early Modern Irregular Infantry
+  application =
+  { id        = 1920
+    name      = TECH_APP_INFANTRY_92_NAME
+    position  = { x = 552 y = 310 }
+    picture   = "DH1920"
+    year      = 1990
+    # General Drafts
+    component = { id = 1921 name = TECH_CMP_INFANTRY_92_1_NAME type = centralized_execution difficulty = 10 }
+    # Mass Equipment Production
+    component = { id = 1922 name = TECH_CMP_INFANTRY_92_2_NAME type = general_equipment difficulty = 4 }
+    # Mass Supply Production
+    component = { id = 1923 name = TECH_CMP_INFANTRY_92_3_NAME type = industrial_engineering difficulty = 4 }
+    # Mass Training
+    component = { id = 1924 name = TECH_CMP_INFANTRY_92_4_NAME type = training difficulty = 4 }
+    # Mass Mobilization
+    component = { id = 1925 name = TECH_CMP_INFANTRY_92_5_NAME type = management difficulty = 10 }
+    required  = { 1540 }
+    effects =
+    { command = { type = new_model which = militia value = 6 }
+      command = { type = scrap_model which = militia value = 5 }
+    }
+  }
+  # Basic Modern Irregular Infantry
+  application =
+  { id        = 1940
+    name      = TECH_APP_INFANTRY_94_NAME
+    position  = { x = 552 y = 328 }
+    picture   = "DH1940"
+    year      = 1995
+    # Great War Supply System
+    component = { id = 1941 name = TECH_CMP_INFANTRY_94_1_NAME type = centralized_execution difficulty = 10 }
+    # Great War Requisition Order System
+    component = { id = 1942 name = TECH_CMP_INFANTRY_94_2_NAME type = management difficulty = 10 }
+    # Great War Land Convoy System
+    component = { id = 1943 name = TECH_CMP_INFANTRY_94_3_NAME type = management difficulty = 10 }
+    # Great War Stock & Storage
+    component = { id = 1944 name = TECH_CMP_INFANTRY_94_4_NAME type = general_equipment difficulty = 10 }
+    # Strategic Refuel, Resupply, and Reinforcing
+    component = { id = 1945 name = TECH_CMP_INFANTRY_94_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { 1920 }
+    effects =
+    { command = { type = new_model which = militia value = 7 }
+      command = { type = scrap_model which = militia value = 6 }
+    }
+  }
+  # Improved Modern Irregular Infantry
+  application =
+  { id        = 1960
+    name      = TECH_APP_INFANTRY_96_NAME
+    position  = { x = 552 y = 346 }
+    picture   = "10110"
+    year      = 2000
+    # Late Great War Supply System
+    component = { id = 1961 name = TECH_CMP_INFANTRY_96_1_NAME type = centralized_execution difficulty = 10 }
+    # Late Great War Front-line Supply
+    component = { id = 1962 name = TECH_CMP_INFANTRY_96_2_NAME type = management difficulty = 10 }
+    # Late Great War Land Convoy System
+    component = { id = 1963 name = TECH_CMP_INFANTRY_96_3_NAME type = management difficulty = 10 }
+    # Late Great War Stock & Storage
+    component = { id = 1964 name = TECH_CMP_INFANTRY_96_4_NAME type = general_equipment difficulty = 10 }
+    # Strategic Refuel, Resupply, and Reinforcing
+    component = { id = 1965 name = TECH_CMP_INFANTRY_96_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { 1940 }
+    effects =
+    { command = { type = new_model which = militia value = 8 }
+      command = { type = scrap_model which = militia value = 7 }
+    }
+  }
+  # Advanced Modern Irregular Infantry
+  application =
+  { id        = 3380
+    name      = TECH_APP_INFANTRY_118_NAME
+    desc      = TECH_APP_INFANTRY_118_DESC
+    position  = { x = 552 y = 364 }
+    picture   = "MIL2005"
+    year      = 2005
+    # 
+    component = { id = 3381 name = TECH_CMP_INFANTRY_118_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3382 name = TECH_CMP_INFANTRY_118_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3383 name = TECH_CMP_INFANTRY_118_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3384 name = TECH_CMP_INFANTRY_118_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3385 name = TECH_CMP_INFANTRY_118_5_NAME type = artillery difficulty = 10 }
+    required  = { 1960 }
+    effects =
+    { command = { type = new_model which = militia value = 9 }
+      command = { type = scrap_model which = militia value = 8 }
+    }
+  }
+  # Early Cold War Air Cavalry
+  application =
+  { id        = 1396
+    name      = TECH_APP_INFANTRY_319_NAME
+    position  = { x = 420 y = 24 }
+    picture   = "1220"
+    year      = 1965
+    # Trucks
+    component = { id = 13191 name = TECH_CMP_INFANTRY_40_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Machine Pistol
+    component = { id = 13192 name = TECH_CMP_INFANTRY_40_2_NAME type = general_equipment difficulty = 10 }
+    # Mobilized Artillery
+    component = { id = 13193 name = TECH_CMP_INFANTRY_40_3_NAME type = vehicle_engineering difficulty = 10 }
+    # Combined Arms Initiative Training
+    component = { id = 13194 name = TECH_CMP_INFANTRY_40_4_NAME type = training difficulty = 10 double_time = yes }
+    # Motorized Infantry Tactics
+    component = { id = 13195 name = TECH_CMP_INFANTRY_40_5_NAME type = combined_arms_focus difficulty = 10 double_time = yes }
+    required  = { 13060 }
+    effects =
+    { command = { type = activate_unit_type which = d_04 }
+      command = { type = new_model which = d_04 value = 0 }
+    }
+  }
+  # Mid-Cold War Air Cavalry
+  application =
+  { id        = 1400
+    name      = TECH_APP_INFANTRY_40_NAME
+    position  = { x = 420 y = 42 }
+    picture   = "1230"
+    year      = 1970
+    # Trucks
+    component = { id = 1401 name = TECH_CMP_INFANTRY_40_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Machine Pistol
+    component = { id = 1402 name = TECH_CMP_INFANTRY_40_2_NAME type = general_equipment difficulty = 4 }
+    # Mobilized Artillery
+    component = { id = 1403 name = TECH_CMP_INFANTRY_40_3_NAME type = artillery difficulty = 10 }
+    # Combined Arms Initiative Training
+    component = { id = 1404 name = TECH_CMP_INFANTRY_40_4_NAME type = training difficulty = 10 }
+    # Motorized Infantry Tactics
+    component = { id = 1405 name = TECH_CMP_INFANTRY_40_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1396 }
+    effects =
+    { command = { type = new_model which = d_04 value = 1 }
+      command = { type = scrap_model which = d_04 value = 0 }
+    }
+  }
+  # Basic Cold War Air Cavalry
+  application =
+  { id        = 1410
+    name      = TECH_APP_INFANTRY_41_NAME
+    position  = { x = 420 y = 60 }
+    picture   = "AIRCAV1975"
+    year      = 1975
+    # Trucks
+    component = { id = 1411 name = TECH_CMP_INFANTRY_41_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Assault Rifle
+    component = { id = 1412 name = TECH_CMP_INFANTRY_41_2_NAME type = general_equipment difficulty = 10 }
+    # Mobilized Artillery
+    component = { id = 1413 name = TECH_CMP_INFANTRY_41_3_NAME type = artillery difficulty = 10 }
+    # Combined Arms Initiative Training
+    component = { id = 1414 name = TECH_CMP_INFANTRY_41_4_NAME type = training difficulty = 10 }
+    # Motorized Infantry Tactics
+    component = { id = 1415 name = TECH_CMP_INFANTRY_41_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1400 }
+    effects =
+    { command = { type = new_model which = d_04 value = 2 }
+      command = { type = scrap_model which = d_04 value = 1 }
+    }
+  }
+  # Improved Cold War Air Cavalry
+  application =
+  { id        = 1420
+    name      = TECH_APP_INFANTRY_42_NAME
+    position  = { x = 420 y = 78 }
+    picture   = "AIRCAV1980"
+    year      = 1980
+    # Trucks
+    component = { id = 1421 name = TECH_CMP_INFANTRY_42_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Assault Rifle
+    component = { id = 1422 name = TECH_CMP_INFANTRY_42_2_NAME type = general_equipment difficulty = 10 }
+    # Mobilized Artillery
+    component = { id = 1423 name = TECH_CMP_INFANTRY_42_3_NAME type = artillery difficulty = 10 }
+    # Combined Arms Initiative Training
+    component = { id = 1424 name = TECH_CMP_INFANTRY_42_4_NAME type = training difficulty = 10 }
+    # Motorized Infantry Tactics
+    component = { id = 1425 name = TECH_CMP_INFANTRY_42_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1410 }
+    effects =
+    { command = { type = new_model which = d_04 value = 3 }
+      command = { type = scrap_model which = d_04 value = 2 }
+    }
+  }
+  # Advanced Cold War Air Cavalry
+  application =
+  { id        = 1430
+    name      = TECH_APP_INFANTRY_43_NAME
+    position  = { x = 420 y = 96 }
+    picture   = "AIRCAV1985"
+    year      = 1985
+    # Trucks
+    component = { id = 1431 name = TECH_CMP_INFANTRY_43_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Assault Rifle
+    component = { id = 1432 name = TECH_CMP_INFANTRY_43_2_NAME type = general_equipment difficulty = 10 }
+    # Mobilized Artillery
+    component = { id = 1433 name = TECH_CMP_INFANTRY_43_3_NAME type = artillery difficulty = 10 }
+    # Combined Arms Initiative Training
+    component = { id = 1434 name = TECH_CMP_INFANTRY_43_4_NAME type = training difficulty = 10 }
+    # Motorized Infantry Tactics
+    component = { id = 1435 name = TECH_CMP_INFANTRY_43_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1420 }
+    effects =
+    { command = { type = new_model which = d_04 value = 4 }
+      command = { type = scrap_model which = d_04 value = 3 }
+    }
+  }
+  # Early Modern Air Cavalry
+  application =
+  { id        = 1440
+    name      = TECH_APP_INFANTRY_44_NAME
+    position  = { x = 420 y = 114 }
+    picture   = "AIRCAV1990"
+    year      = 1990
+    # Trucks
+    component = { id = 1441 name = TECH_CMP_INFANTRY_44_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Assault Rifle
+    component = { id = 1442 name = TECH_CMP_INFANTRY_44_2_NAME type = general_equipment difficulty = 10 }
+    # Mobilized Artillery
+    component = { id = 1443 name = TECH_CMP_INFANTRY_44_3_NAME type = artillery difficulty = 10 }
+    # Combined Arms Initiative Training
+    component = { id = 1444 name = TECH_CMP_INFANTRY_44_4_NAME type = training difficulty = 10 }
+    # Motorized Infantry Tactics
+    component = { id = 1445 name = TECH_CMP_INFANTRY_44_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1430 }
+    effects =
+    { command = { type = new_model which = d_04 value = 5 }
+      command = { type = scrap_model which = d_04 value = 3 }
+    }
+  }
+  # Basic Modern Air Cavalry
+  application =
+  { id        = 1450
+    name      = TECH_APP_INFANTRY_45_NAME
+    position  = { x = 420 y = 132 }
+    picture   = "AIRCAV1995"
+    year      = 1995
+    # Trucks
+    component = { id = 1451 name = TECH_CMP_INFANTRY_45_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Assault Rifle
+    component = { id = 1452 name = TECH_CMP_INFANTRY_45_2_NAME type = general_equipment difficulty = 10 }
+    # Mobilized Artillery
+    component = { id = 1453 name = TECH_CMP_INFANTRY_45_3_NAME type = artillery difficulty = 10 }
+    # Combined Arms Initiative Training
+    component = { id = 1454 name = TECH_CMP_INFANTRY_45_4_NAME type = training difficulty = 10 }
+    # Motorized Infantry Tactics
+    component = { id = 1455 name = TECH_CMP_INFANTRY_45_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1440 }
+    effects =
+    { command = { type = new_model which = d_04 value = 6 }
+      command = { type = scrap_model which = d_04 value = 5 }
+    }
+  }
+  # Improved Modern Air Cavalry
+  application =
+  { id        = 1460
+    name      = TECH_APP_INFANTRY_46_NAME
+    position  = { x = 420 y = 150 }
+    picture   = "AIRCAV2000"
+    year      = 2000
+    # Trucks
+    component = { id = 1461 name = TECH_CMP_INFANTRY_46_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Motorized Infantry Equipment
+    component = { id = 1462 name = TECH_CMP_INFANTRY_46_2_NAME type = general_equipment difficulty = 10 }
+    # Mobilized Artillery
+    component = { id = 1463 name = TECH_CMP_INFANTRY_46_3_NAME type = artillery difficulty = 10 }
+    # Combined Arms Initiative Training
+    component = { id = 1464 name = TECH_CMP_INFANTRY_46_4_NAME type = training difficulty = 10 }
+    # Motorized Infantry Tactics
+    component = { id = 1465 name = TECH_CMP_INFANTRY_46_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1450 }
+    effects =
+    { command = { type = new_model which = d_04 value = 7 }
+      command = { type = scrap_model which = d_04 value = 6 }
+    }
+  }
+  # Advanced Modern Air Cavalry
+  application =
+  { id        = 3300
+    name      = TECH_APP_INFANTRY_116_NAME
+    desc      = TECH_APP_INFANTRY_116_DESC
+    position  = { x = 420 y = 168 }
+    picture   = "AIRCAV2005"
+    year      = 1936
+    # 
+    component = { id = 3301 name = TECH_CMP_INFANTRY_116_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3302 name = TECH_CMP_INFANTRY_116_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3303 name = TECH_CMP_INFANTRY_116_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3304 name = TECH_CMP_INFANTRY_116_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3305 name = TECH_CMP_INFANTRY_116_5_NAME type = artillery difficulty = 10 }
+    required  = { 1460 }
+    effects =
+    { command = { type = new_model which = d_04 value = 8 }
+      command = { type = scrap_model which = d_04 value = 7 }
+    }
+  }
+  # World War II Mechanized Infantry
+  application =
+  { id        = 1470
+    name      = TECH_APP_INFANTRY_47_NAME
+    position  = { x = 420 y = 202 }
+    picture   = "MECH1945"
+    year      = 1945
+    # Half-tracks
+    component = { id = 1471 name = TECH_CMP_INFANTRY_47_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Assault Rifle
+    component = { id = 1472 name = TECH_CMP_INFANTRY_47_2_NAME type = general_equipment difficulty = 10 }
+    # Self-Propelled Artillery
+    component = { id = 1473 name = TECH_CMP_INFANTRY_47_3_NAME type = artillery difficulty = 10 }
+    # Mechanized Infantry Training
+    component = { id = 1474 name = TECH_CMP_INFANTRY_47_4_NAME type = training difficulty = 10 }
+    # Spearhead & Maneuver
+    component = { id = 1475 name = TECH_CMP_INFANTRY_47_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1010 }
+    or_required = { 1650 1660 }
+    effects =
+    { command = { type = activate_unit_type which = mechanized }
+      command = { type = new_model which = mechanized value = 0 }
+      command = { type = activate_unit_type which = d_06 }
+      command = { type = new_model which = d_06 value = 0 }
+    }
+  }
+  # Early Cold War Mechanized Infantry
+  application =
+  { id        = 1480
+    name      = TECH_APP_INFANTRY_48_NAME
+    position  = { x = 420 y = 220 }
+    picture   = "MECH1965"
+    year      = 1965
+    # Half-tracks
+    component = { id = 1481 name = TECH_CMP_INFANTRY_48_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Assault Rifle
+    component = { id = 1482 name = TECH_CMP_INFANTRY_48_2_NAME type = general_equipment difficulty = 10 }
+    # Self-Propelled Artillery
+    component = { id = 1483 name = TECH_CMP_INFANTRY_48_3_NAME type = artillery difficulty = 10 }
+    # Mechanized Infantry Training
+    component = { id = 1484 name = TECH_CMP_INFANTRY_48_4_NAME type = training difficulty = 10 }
+    # Spearhead & Maneuver
+    component = { id = 1485 name = TECH_CMP_INFANTRY_48_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1470 1020 }
+    effects =
+    { command = { type = new_model which = mechanized value = 1 }
+      command = { type = scrap_model which = mechanized value = 0 }
+      command = { type = new_model which = d_06 value = 1 }
+      command = { type = scrap_model which = d_06 value = 0 }
+    }
+  }
+  # Mid-Cold War Mechanized Infantry
+  application =
+  { id        = 1490
+    name      = TECH_APP_INFANTRY_49_NAME
+    position  = { x = 420 y = 238 }
+    picture   = "MECH1970"
+    year      = 1970
+    # Half-tracks
+    component = { id = 1491 name = TECH_CMP_INFANTRY_49_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Assault Rifle
+    component = { id = 1492 name = TECH_CMP_INFANTRY_49_2_NAME type = general_equipment difficulty = 10 }
+    # Self-Propelled Artillery
+    component = { id = 1493 name = TECH_CMP_INFANTRY_49_3_NAME type = artillery difficulty = 10 }
+    # Mechanized Infantry Training
+    component = { id = 1494 name = TECH_CMP_INFANTRY_49_4_NAME type = training difficulty = 10 }
+    # Spearhead & Maneuver
+    component = { id = 1495 name = TECH_CMP_INFANTRY_49_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1480 1030 }
+    effects =
+    { command = { type = new_model which = mechanized value = 2 }
+      command = { type = scrap_model which = mechanized value = 1 }
+      command = { type = new_model which = d_06 value = 2 }
+      command = { type = scrap_model which = d_06 value = 1 }
+    }
+  }
+  # Basic Cold War Mechanized Infantry
+  application =
+  { id        = 1500
+    name      = TECH_APP_INFANTRY_50_NAME
+    position  = { x = 420 y = 256 }
+    picture   = "MECH1975"
+    year      = 1975
+    # Advanced Assault Rifle
+    component = { id = 1501 name = TECH_CMP_INFANTRY_50_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Semi Modern Infantry Gun Quickfire
+    component = { id = 1502 name = TECH_CMP_INFANTRY_50_2_NAME type = general_equipment difficulty = 10 }
+    # Advanced Signal Interception and Jamming
+    component = { id = 1503 name = TECH_CMP_INFANTRY_50_3_NAME type = artillery difficulty = 10 }
+    # Improved AT Recoilless Rocket Launcher
+    component = { id = 1504 name = TECH_CMP_INFANTRY_50_4_NAME type = training difficulty = 10 }
+    # Combined Arms Training specialization
+    component = { id = 1505 name = TECH_CMP_INFANTRY_50_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1490 1040 }
+    effects =
+    { command = { type = new_model which = mechanized value = 3 }
+      command = { type = scrap_model which = mechanized value = 2 }
+      command = { type = new_model which = d_06 value = 3 }
+      command = { type = scrap_model which = d_06 value = 2 }
+    }
+  }
+  # Improved Cold War Mechanized Infantry
+  application =
+  { id        = 1510
+    name      = TECH_APP_INFANTRY_51_NAME
+    position  = { x = 420 y = 274 }
+    picture   = "MECH1980"
+    year      = 1980
+    # Modern Assault Rifle
+    component = { id = 1511 name = TECH_CMP_INFANTRY_51_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Modern Infantry Gun Quickfire
+    component = { id = 1512 name = TECH_CMP_INFANTRY_51_2_NAME type = general_equipment difficulty = 10 }
+    # Improved Signal Interception and Jamming
+    component = { id = 1513 name = TECH_CMP_INFANTRY_51_3_NAME type = artillery difficulty = 10 }
+    # 3.5 inch AT Recoilless Rocket Launcher
+    component = { id = 1514 name = TECH_CMP_INFANTRY_51_4_NAME type = training difficulty = 10 }
+    # Elite Forces Training
+    component = { id = 1515 name = TECH_CMP_INFANTRY_51_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1500 1050 }
+    effects =
+    { command = { type = new_model which = mechanized value = 4 }
+      command = { type = scrap_model which = mechanized value = 3 }
+      command = { type = new_model which = d_06 value = 4 }
+      command = { type = scrap_model which = d_06 value = 3 }
+    }
+  }
+  # Advanced Cold War Mechanized Infantry
+  application =
+  { id        = 1520
+    name      = TECH_APP_INFANTRY_52_NAME
+    position  = { x = 420 y = 292 }
+    picture   = "MECH1985"
+    year      = 1985
+    # Advanced Assault Rifle
+    component = { id = 1521 name = TECH_CMP_INFANTRY_52_1_NAME type = vehicle_engineering difficulty = 10 }
+    # Mountain Gun Quickfire
+    component = { id = 1522 name = TECH_CMP_INFANTRY_52_2_NAME type = general_equipment difficulty = 10 }
+    # Improved Airborne Small Unit Drop Pods
+    component = { id = 1523 name = TECH_CMP_INFANTRY_52_3_NAME type = artillery difficulty = 10 }
+    # Improved Airborne Light Tank
+    component = { id = 1524 name = TECH_CMP_INFANTRY_52_4_NAME type = training difficulty = 10 }
+    # Airborne Glider Training
+    component = { id = 1525 name = TECH_CMP_INFANTRY_52_5_NAME type = combined_arms_focus difficulty = 10 }
+    required  = { 1510 1060 }
+    effects =
+    { command = { type = new_model which = mechanized value = 5 }
+      command = { type = scrap_model which = mechanized value = 4 }
+      command = { type = new_model which = d_06 value = 5 }
+      command = { type = scrap_model which = d_06 value = 4 }
+    }
+  }
+  # Early Modern Mechanized Infantry
+  application =
+  { id        = 1950
+    name      = TECH_APP_INFANTRY_95_NAME
+    position  = { x = 420 y = 310 }
+    picture   = "MECH1990"
+    year      = 1990
+    # Great War Supply System
+    component = { id = 1951 name = TECH_CMP_INFANTRY_95_1_NAME type = centralized_execution difficulty = 10 }
+    # Front-line Supply
+    component = { id = 1952 name = TECH_CMP_INFANTRY_95_2_NAME type = management difficulty = 10 }
+    # Front-line Reinforcing
+    component = { id = 1953 name = TECH_CMP_INFANTRY_95_3_NAME type = management difficulty = 10 }
+    # Great War Stock & Storage
+    component = { id = 1954 name = TECH_CMP_INFANTRY_95_4_NAME type = general_equipment difficulty = 10 }
+    # Strategic Refuel, Resupply, and Reinforcing
+    component = { id = 1955 name = TECH_CMP_INFANTRY_95_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { 1520 1070 }
+    effects =
+    { command = { type = new_model which = mechanized value = 6 }
+      command = { type = scrap_model which = mechanized value = 5 }
+      command = { type = new_model which = d_06 value = 6 }
+      command = { type = scrap_model which = d_06 value = 5 }
+    }
+  }
+  # Basic Modern Mechanized Infantry
+  application =
+  { id        = 1970
+    name      = TECH_APP_INFANTRY_97_NAME
+    position  = { x = 420 y = 328 }
+    picture   = "MECH1995"
+    year      = 1995
+    # Early Interwar Supply System
+    component = { id = 1971 name = TECH_CMP_INFANTRY_97_1_NAME type = centralized_execution difficulty = 10 }
+    # Early Interwar Front-line Supply
+    component = { id = 1972 name = TECH_CMP_INFANTRY_97_2_NAME type = management difficulty = 10 }
+    # Early Interwar Land Convoy System
+    component = { id = 1973 name = TECH_CMP_INFANTRY_97_3_NAME type = management difficulty = 10 }
+    # Early Interwar Stock & Storage
+    component = { id = 1974 name = TECH_CMP_INFANTRY_97_4_NAME type = general_equipment difficulty = 10 }
+    # Strategic Refuel, Resupply, and Reinforcing
+    component = { id = 1975 name = TECH_CMP_INFANTRY_97_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { 1950 1080 }
+    effects =
+    { command = { type = new_model which = mechanized value = 7 }
+      command = { type = scrap_model which = mechanized value = 6 }
+      command = { type = new_model which = d_06 value = 7 }
+      command = { type = scrap_model which = d_06 value = 6 }
+    }
+  }
+  # Improved Modern Mechanized Infantry
+  application =
+  { id        = 1980
+    name      = TECH_APP_INFANTRY_98_NAME
+    position  = { x = 420 y = 346 }
+    picture   = "MECH2000"
+    year      = 2000
+    # Late Interwar Supply System
+    component = { id = 1981 name = TECH_CMP_INFANTRY_98_1_NAME type = centralized_execution difficulty = 10 }
+    # Late Interwar Front-line Supply
+    component = { id = 1982 name = TECH_CMP_INFANTRY_98_2_NAME type = management difficulty = 10 }
+    # Late Interwar Land Convoy System
+    component = { id = 1983 name = TECH_CMP_INFANTRY_98_3_NAME type = management difficulty = 10 }
+    # Late Interwar Stock & Storage
+    component = { id = 1984 name = TECH_CMP_INFANTRY_98_4_NAME type = general_equipment difficulty = 10 }
+    # Strategic Refuel, Resupply, and Reinforcing
+    component = { id = 1985 name = TECH_CMP_INFANTRY_98_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { 1970 1090 }
+    effects =
+    { command = { type = new_model which = mechanized value = 8 }
+      command = { type = scrap_model which = mechanized value = 7 }
+      command = { type = new_model which = d_06 value = 8 }
+      command = { type = scrap_model which = d_06 value = 7 }
+    }
+  }
+  # Advanced Modern Mechanized Infantry
+  application =
+  { id        = 3370
+    name      = TECH_APP_INFANTRY_119_NAME
+    desc      = TECH_APP_INFANTRY_119_DESC
+    position  = { x = 420 y = 364 }
+    picture   = "MECH2005"
+    year      = 2005
+    # 
+    component = { id = 3371 name = TECH_CMP_INFANTRY_119_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3372 name = TECH_CMP_INFANTRY_119_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3373 name = TECH_CMP_INFANTRY_119_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3374 name = TECH_CMP_INFANTRY_119_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3375 name = TECH_CMP_INFANTRY_119_5_NAME type = artillery difficulty = 10 }
+    required  = { 1980 2840 }
+    effects =
+    { command = { type = new_model which = mechanized value = 9 }
+      command = { type = scrap_model which = mechanized value = 8 }
+      command = { type = new_model which = d_06 value = 9 }
+      command = { type = scrap_model which = d_06 value = 8 }
+    }
+  }
+  # World War II Naval Infantry
+  application =
+  { id        = 1560
+    name      = TECH_APP_INFANTRY_56_NAME
+    position  = { x = 288 y = 24 }
+    picture   = "DH1560"
+    year      = 1945
+    # Improved Assault Rifle
+    component = { id = 1561 name = TECH_CMP_INFANTRY_56_1_NAME type = general_equipment difficulty = 10 }
+    # Semi-Modern Wading Equipment
+    component = { id = 1562 name = TECH_CMP_INFANTRY_56_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Semi-Modern Amphibious Assault Vehicle
+    component = { id = 1563 name = TECH_CMP_INFANTRY_56_3_NAME type = marine_training difficulty = 10 }
+    # Semi-Modern Amphibious Tank
+    component = { id = 1564 name = TECH_CMP_INFANTRY_56_4_NAME type = marine_training difficulty = 10 }
+    # Beachhead Fortification Training
+    component = { id = 1565 name = TECH_CMP_INFANTRY_56_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1010 }
+    or_required = { 1650 1660 }
+    effects =
+    { command = { type = activate_unit_type which = marine }
+      command = { type = new_model which = marine value = 0 }
+      command = { type = new_model which = d_05 value = 0 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.05 }
+    }
+  }
+  # Early Cold War Naval Infantry
+  application =
+  { id        = 1570
+    name      = TECH_APP_INFANTRY_57_NAME
+    position  = { x = 288 y = 42 }
+    picture   = "DH1570"
+    year      = 1965
+    # Advanced Assault Rifle
+    component = { id = 1571 name = TECH_CMP_INFANTRY_57_1_NAME type = general_equipment difficulty = 10 }
+    # Modern Wading Equipment
+    component = { id = 1572 name = TECH_CMP_INFANTRY_57_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Modern Amphibious Assault Vehicle
+    component = { id = 1573 name = TECH_CMP_INFANTRY_57_3_NAME type = marine_training difficulty = 10 }
+    # Modern Amphibious Tank
+    component = { id = 1574 name = TECH_CMP_INFANTRY_57_4_NAME type = marine_training difficulty = 10 }
+    # Marine Combined Arms Training
+    component = { id = 1575 name = TECH_CMP_INFANTRY_57_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1560 }
+    effects =
+    { command = { type = new_model which = marine value = 1 }
+      command = { type = scrap_model which = marine value = 0 }
+      command = { type = new_model which = d_05 value = 1 }
+      command = { type = scrap_model which = d_05 value = 0 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.05 }
+    }
+  }
+  # Mid-Cold War Naval Infantry
+  application =
+  { id        = 1580
+    name      = TECH_APP_INFANTRY_58_NAME
+    position  = { x = 288 y = 60 }
+    picture   = "DH1580"
+    year      = 1970
+    # Improved Assault Rifle
+    component = { id = 1581 name = TECH_CMP_INFANTRY_58_1_NAME type = general_equipment difficulty = 10 }
+    # Infantry Gun 120mm Quick-Fire
+    component = { id = 1582 name = TECH_CMP_INFANTRY_58_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # 7 ton Trucks
+    component = { id = 1583 name = TECH_CMP_INFANTRY_58_3_NAME type = marine_training difficulty = 10 }
+    # Improved AT Recoilless Rocket Launcher
+    component = { id = 1584 name = TECH_CMP_INFANTRY_58_4_NAME type = marine_training difficulty = 10 }
+    # Mobile Formation Training
+    component = { id = 1585 name = TECH_CMP_INFANTRY_58_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1570 }
+    effects =
+    { command = { type = new_model which = marine value = 2 }
+      command = { type = scrap_model which = marine value = 1 }
+      command = { type = new_model which = d_05 value = 2 }
+      command = { type = scrap_model which = d_05 value = 1 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.05 }
+    }
+  }
+  # Basic Cold War Naval Infantry
+  application =
+  { id        = 1590
+    name      = TECH_APP_INFANTRY_59_NAME
+    position  = { x = 288 y = 78 }
+    picture   = "DH1590"
+    year      = 1975
+    # Advanced Assault Rifle
+    component = { id = 1591 name = TECH_CMP_INFANTRY_59_1_NAME type = general_equipment difficulty = 10 }
+    # Semi Modern Infantry Gun Quickfire
+    component = { id = 1592 name = TECH_CMP_INFANTRY_59_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # 12 ton Trucks
+    component = { id = 1593 name = TECH_CMP_INFANTRY_59_3_NAME type = marine_training difficulty = 10 }
+    # 3.5 inch AT Recoilless Rocket Launcher
+    component = { id = 1594 name = TECH_CMP_INFANTRY_59_4_NAME type = marine_training difficulty = 10 }
+    # Mobile Combined Arms Training
+    component = { id = 1595 name = TECH_CMP_INFANTRY_59_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1580 }
+    effects =
+    { command = { type = new_model which = marine value = 3 }
+      command = { type = scrap_model which = marine value = 2 }
+      command = { type = new_model which = d_05 value = 3 }
+      command = { type = scrap_model which = d_05 value = 2 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.05 }
+    }
+  }
+  # Improved Cold War Naval Infantry
+  application =
+  { id        = 1600
+    name      = TECH_APP_INFANTRY_60_NAME
+    position  = { x = 288 y = 96 }
+    picture   = "MAR1980"
+    year      = 1980
+    # Advanced Assault Rifle
+    component = { id = 1601 name = TECH_CMP_INFANTRY_60_1_NAME type = general_equipment difficulty = 10 }
+    # Semi Modern Infantry Gun Quickfire
+    component = { id = 1602 name = TECH_CMP_INFANTRY_60_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Semi-Modern Halftrack Troop Carrier
+    component = { id = 1603 name = TECH_CMP_INFANTRY_60_3_NAME type = marine_training difficulty = 10 }
+    # Integrated Mobile 2,8 inch AT Guns
+    component = { id = 1604 name = TECH_CMP_INFANTRY_60_4_NAME type = marine_training difficulty = 10 }
+    # Mechanized Combined Arms Training
+    component = { id = 1605 name = TECH_CMP_INFANTRY_60_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1590 }
+    effects =
+    { command = { type = new_model which = marine value = 4 }
+      command = { type = scrap_model which = marine value = 3 }
+      command = { type = new_model which = d_05 value = 4 }
+      command = { type = scrap_model which = d_05 value = 3 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.05 }
+    }
+  }
+  # Advanced Cold War Naval Infantry
+  application =
+  { id        = 1610
+    name      = TECH_APP_INFANTRY_61_NAME
+    position  = { x = 288 y = 114 }
+    picture   = "MAR1985"
+    year      = 1985
+    # Advanced Assault Rifle
+    component = { id = 1611 name = TECH_CMP_INFANTRY_61_1_NAME type = general_equipment difficulty = 10 }
+    # Modern Infantry Gun Quickfire
+    component = { id = 1612 name = TECH_CMP_INFANTRY_61_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Modern Halftrack Infantry Fighting Vehicle
+    component = { id = 1613 name = TECH_CMP_INFANTRY_61_3_NAME type = marine_training difficulty = 10 }
+    # Integrated Mobile 3,5 inch AT Guns
+    component = { id = 1614 name = TECH_CMP_INFANTRY_61_4_NAME type = vehicle_engineering difficulty = 10 }
+    # Elite Forces Training
+    component = { id = 1615 name = TECH_CMP_INFANTRY_61_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1600 }
+    effects =
+    { command = { type = new_model which = marine value = 5 }
+      command = { type = scrap_model which = marine value = 4 }
+      command = { type = new_model which = d_05 value = 5 }
+      command = { type = scrap_model which = d_05 value = 4 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.05 }
+    }
+  }
+  # Early Modern Naval Infantry
+  application =
+  { id        = 1620
+    name      = TECH_APP_INFANTRY_62_NAME
+    position  = { x = 288 y = 132 }
+    picture   = "MAR1990"
+    year      = 1990
+    # Advanced Logistics Modeling
+    component = { id = 1621 name = TECH_CMP_INFANTRY_62_1_NAME type = general_equipment difficulty = 10 }
+    # Modern Stock and Storage
+    component = { id = 1622 name = TECH_CMP_INFANTRY_62_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Advanced Dump spot System
+    component = { id = 1623 name = TECH_CMP_INFANTRY_62_3_NAME type = marine_training difficulty = 10 }
+    # Extended inventory management
+    component = { id = 1624 name = TECH_CMP_INFANTRY_62_4_NAME type = vehicle_engineering difficulty = 10 }
+    # Advanced Frontline Supply Service
+    component = { id = 1625 name = TECH_CMP_INFANTRY_62_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1610 }
+    effects =
+    { command = { type = new_model which = marine value = 6 }
+      command = { type = scrap_model which = marine value = 5 }
+      command = { type = new_model which = d_05 value = 6 }
+      command = { type = scrap_model which = d_05 value = 5 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.08 }
+    }
+  }
+  # Basic Modern Naval Infantry
+  application =
+  { id        = 1630
+    name      = TECH_APP_INFANTRY_63_NAME
+    position  = { x = 288 y = 150 }
+    picture   = "MAR1995"
+    year      = 1995
+    # Electronics Repair
+    component = { id = 1631 name = TECH_CMP_INFANTRY_63_1_NAME type = general_equipment difficulty = 10 }
+    # Semi-Modern Repair Capacity
+    component = { id = 1632 name = TECH_CMP_INFANTRY_63_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Semi-Modern Vehicle Repair
+    component = { id = 1633 name = TECH_CMP_INFANTRY_63_3_NAME type = marine_training difficulty = 10 }
+    # Semi-Modern Gun Repair
+    component = { id = 1634 name = TECH_CMP_INFANTRY_63_4_NAME type = vehicle_engineering difficulty = 10 }
+    # Naval Infantry Training
+    component = { id = 1635 name = TECH_CMP_INFANTRY_63_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1620 }
+    effects =
+    { command = { type = new_model which = marine value = 7 }
+      command = { type = scrap_model which = marine value = 6 }
+      command = { type = new_model which = d_05 value = 7 }
+      command = { type = scrap_model which = d_05 value = 6 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.07 }
+    }
+  }
+  # Improved Modern Naval Infantry
+  application =
+  { id        = 1640
+    name      = TECH_APP_INFANTRY_64_NAME
+    position  = { x = 288 y = 168 }
+    picture   = "MAR2000"
+    year      = 2000
+    # Assault Rifle
+    component = { id = 1641 name = TECH_CMP_INFANTRY_64_1_NAME type = general_equipment difficulty = 10 }
+    # Amphibious Assault Tactics
+    component = { id = 1642 name = TECH_CMP_INFANTRY_64_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Naval Gunfire
+    component = { id = 1643 name = TECH_CMP_INFANTRY_64_3_NAME type = marine_training difficulty = 10 }
+    # Amphibious Assault Vehicles
+    component = { id = 1644 name = TECH_CMP_INFANTRY_64_4_NAME type = vehicle_engineering difficulty = 10 }
+    # Naval Infantry Training
+    component = { id = 1645 name = TECH_CMP_INFANTRY_64_5_NAME type = marine_training difficulty = 10 double_time = yes }
+    required  = { 1630 }
+    effects =
+    { command = { type = new_model which = marine value = 8 }
+      command = { type = scrap_model which = marine value = 7 }
+      command = { type = new_model which = d_05 value = 8 }
+      command = { type = scrap_model which = d_05 value = 7 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.07 }
+    }
+  }
+  # Advanced Modern Naval Infantry
+  application =
+  { id        = 3290
+    name      = TECH_APP_INFANTRY_117_NAME
+    desc      = TECH_APP_INFANTRY_117_DESC
+    position  = { x = 288 y = 186 }
+    picture   = "MAR2005"
+    year      = 2005
+    # 
+    component = { id = 3291 name = TECH_CMP_INFANTRY_117_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3292 name = TECH_CMP_INFANTRY_117_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3293 name = TECH_CMP_INFANTRY_117_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3294 name = TECH_CMP_INFANTRY_117_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 3295 name = TECH_CMP_INFANTRY_117_5_NAME type = artillery difficulty = 10 }
+    required  = { 1640 }
+    effects =
+    { command = { type = new_model which = marine value = 9 }
+      command = { type = scrap_model which = marine value = 8 }
+      command = { type = new_model which = d_05 value = 9 }
+      command = { type = scrap_model which = d_05 value = 8 }
+      command = { type = task_efficiency which = amphibious_assault value = 0.05 }
+    }
+  }
+  # World War II Airborne Infantry
+  application =
+  { id        = 1670
+    name      = TECH_APP_INFANTRY_67_NAME
+    position  = { x = 288 y = 220 }
+    picture   = "DH1670"
+    year      = 1945
+    # Machine Pistol
+    component = { id = 1671 name = TECH_CMP_INFANTRY_67_1_NAME type = general_equipment difficulty = 10 }
+    # Airborne Assault Tactics
+    component = { id = 1672 name = TECH_CMP_INFANTRY_67_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Landing Equipment
+    component = { id = 1673 name = TECH_CMP_INFANTRY_67_3_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Vehicles
+    component = { id = 1674 name = TECH_CMP_INFANTRY_67_4_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Drop Training
+    component = { id = 1675 name = TECH_CMP_INFANTRY_67_5_NAME type = airborne_training difficulty = 10 double_time = yes }
+    required  = { 1010 }
+    or_required = { 1650 1660 }
+    effects =
+    { command = { type = activate_unit_type which = paratrooper }
+      command = { type = new_model which = paratrooper value = 0 }
+    }
+  }
+  # Early Cold War Airborne Infantry
+  application =
+  { id        = 1680
+    name      = TECH_APP_INFANTRY_68_NAME
+    position  = { x = 288 y = 238 }
+    picture   = "DH1680"
+    year      = 1965
+    # Machine Pistol
+    component = { id = 1681 name = TECH_CMP_INFANTRY_68_1_NAME type = general_equipment difficulty = 10 }
+    # Airborne Assault Tactics
+    component = { id = 1682 name = TECH_CMP_INFANTRY_68_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Landing Equipment
+    component = { id = 1683 name = TECH_CMP_INFANTRY_68_3_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Vehicles
+    component = { id = 1684 name = TECH_CMP_INFANTRY_68_4_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Drop Training
+    component = { id = 1685 name = TECH_CMP_INFANTRY_68_5_NAME type = airborne_training difficulty = 10 double_time = yes }
+    required  = { 1670 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 1 }
+      command = { type = scrap_model which = paratrooper value = 0 }
+    }
+  }
+  # Mid-Cold War Airborne Infantry
+  application =
+  { id        = 1690
+    name      = TECH_APP_INFANTRY_69_NAME
+    position  = { x = 288 y = 256 }
+    picture   = "1100"
+    year      = 1970
+    # Machine Pistol
+    component = { id = 1691 name = TECH_CMP_INFANTRY_69_1_NAME type = general_equipment difficulty = 10 }
+    # Airborne Assault Tactics
+    component = { id = 1692 name = TECH_CMP_INFANTRY_69_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Landing Equipment
+    component = { id = 1693 name = TECH_CMP_INFANTRY_69_3_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Vehicles
+    component = { id = 1694 name = TECH_CMP_INFANTRY_69_4_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Drop Training
+    component = { id = 1695 name = TECH_CMP_INFANTRY_69_5_NAME type = airborne_training difficulty = 10 double_time = yes }
+    required  = { 1680 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 2 }
+      command = { type = scrap_model which = paratrooper value = 1 }
+    }
+  }
+  # Basic Cold War Mechanized Infantry
+  application =
+  { id        = 1700
+    name      = TECH_APP_INFANTRY_70_NAME
+    position  = { x = 289 y = 274 }
+    picture   = "DH1700"
+    year      = 1975
+    # Machine Pistol
+    component = { id = 1701 name = TECH_CMP_INFANTRY_70_1_NAME type = general_equipment difficulty = 10 }
+    # Airborne Assault Tactics
+    component = { id = 1702 name = TECH_CMP_INFANTRY_70_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Landing Equipment
+    component = { id = 1703 name = TECH_CMP_INFANTRY_70_3_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Vehicles
+    component = { id = 1704 name = TECH_CMP_INFANTRY_70_4_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Drop Training
+    component = { id = 1705 name = TECH_CMP_INFANTRY_70_5_NAME type = airborne_training difficulty = 10 double_time = yes }
+    required  = { 1690 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 3 }
+      command = { type = scrap_model which = paratrooper value = 2 }
+    }
+  }
+  # Improved Cold War Airborne Infantry
+  application =
+  { id        = 1710
+    name      = TECH_APP_INFANTRY_71_NAME
+    position  = { x = 289 y = 292 }
+    picture   = "DH1710"
+    year      = 1980
+    # Machine Pistol
+    component = { id = 1711 name = TECH_CMP_INFANTRY_71_1_NAME type = general_equipment difficulty = 10 }
+    # Airborne Assault Tactics
+    component = { id = 1712 name = TECH_CMP_INFANTRY_71_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Landing Equipment
+    component = { id = 1713 name = TECH_CMP_INFANTRY_71_3_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Vehicles
+    component = { id = 1714 name = TECH_CMP_INFANTRY_71_4_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Drop Training
+    component = { id = 1715 name = TECH_CMP_INFANTRY_71_5_NAME type = airborne_training difficulty = 10 double_time = yes }
+    required  = { 1700 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 4 }
+      command = { type = scrap_model which = paratrooper value = 3 }
+    }
+  }
+  # Advanced Cold War Airborne Infantry
+  application =
+  { id        = 1720
+    name      = TECH_APP_INFANTRY_72_NAME
+    position  = { x = 289 y = 310 }
+    picture   = "DH1720"
+    year      = 1985
+    # Machine Pistol
+    component = { id = 1721 name = TECH_CMP_INFANTRY_72_1_NAME type = general_equipment difficulty = 10 }
+    # Airborne Assault Tactics
+    component = { id = 1722 name = TECH_CMP_INFANTRY_72_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Landing Equipment
+    component = { id = 1723 name = TECH_CMP_INFANTRY_72_3_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Vehicles
+    component = { id = 1724 name = TECH_CMP_INFANTRY_72_4_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Drop Training
+    component = { id = 1725 name = TECH_CMP_INFANTRY_72_5_NAME type = airborne_training difficulty = 10 double_time = yes }
+    required  = { 1710 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 5 }
+      command = { type = scrap_model which = paratrooper value = 4 }
+    }
+  }
+  # Early Modern Airborne Infantry
+  application =
+  { id        = 1730
+    name      = TECH_APP_INFANTRY_73_NAME
+    position  = { x = 289 y = 328 }
+    picture   = "DH1730"
+    year      = 1990
+    # Machine Pistol
+    component = { id = 1731 name = TECH_CMP_INFANTRY_73_1_NAME type = general_equipment difficulty = 10 }
+    # Airborne Assault Tactics
+    component = { id = 1732 name = TECH_CMP_INFANTRY_73_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Landing Equipment
+    component = { id = 1733 name = TECH_CMP_INFANTRY_73_3_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Vehicles
+    component = { id = 1734 name = TECH_CMP_INFANTRY_73_4_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Drop Training
+    component = { id = 1735 name = TECH_CMP_INFANTRY_73_5_NAME type = airborne_training difficulty = 10 double_time = yes }
+    required  = { 1720 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 6 }
+      command = { type = scrap_model which = paratrooper value = 5 }
+    }
+  }
+  # Basic Modern Airborne Infantry
+  application =
+  { id        = 1740
+    name      = TECH_APP_INFANTRY_74_NAME
+    position  = { x = 289 y = 346 }
+    picture   = "DH1740"
+    year      = 1995
+    # Machine Pistol
+    component = { id = 1741 name = TECH_CMP_INFANTRY_74_1_NAME type = general_equipment difficulty = 10 }
+    # Airborne Assault Tactics
+    component = { id = 1742 name = TECH_CMP_INFANTRY_74_2_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    # Landing Equipment
+    component = { id = 1743 name = TECH_CMP_INFANTRY_74_3_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Vehicles
+    component = { id = 1744 name = TECH_CMP_INFANTRY_74_4_NAME type = airborne_training difficulty = 10 }
+    # Paratrooper Drop Training
+    component = { id = 1745 name = TECH_CMP_INFANTRY_74_5_NAME type = airborne_training difficulty = 10 double_time = yes }
+    required  = { 1730 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 7 }
+      command = { type = scrap_model which = paratrooper value = 6 }
+    }
+  }
+  # Improved Modern Airborne Infantry
+  application =
+  { id        = 1910
+    name      = TECH_APP_INFANTRY_91_NAME
+    position  = { x = 289 y = 364 }
+    picture   = "DH1910"
+    year      = 2000
+    # General Supply System
+    component = { id = 1911 name = TECH_CMP_INFANTRY_91_1_NAME type = centralized_execution difficulty = 10 }
+    # Early Requisition Order System
+    component = { id = 1912 name = TECH_CMP_INFANTRY_91_2_NAME type = management difficulty = 3 }
+    # Early Land Convoy System
+    component = { id = 1913 name = TECH_CMP_INFANTRY_91_3_NAME type = management difficulty = 3 }
+    # Early Stock & Storage
+    component = { id = 1914 name = TECH_CMP_INFANTRY_91_4_NAME type = general_equipment difficulty = 3 }
+    # Strategic Refuel, Resupply, and Reinforcing
+    component = { id = 1915 name = TECH_CMP_INFANTRY_91_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { 1740 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 8 }
+      command = { type = scrap_model which = paratrooper value = 7 }
+    }
+  }
+  # Advanced Modern Airborne Infantry
+  application =
+  { id        = 2890
+    name      = TECH_APP_INFANTRY_114_NAME
+    desc      = TECH_APP_INFANTRY_114_DESC
+    position  = { x = 289 y = 382 }
+    picture   = "unknown"
+    year      = 2005
+    # 
+    component = { id = 2891 name = TECH_CMP_INFANTRY_114_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2892 name = TECH_CMP_INFANTRY_114_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2893 name = TECH_CMP_INFANTRY_114_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2894 name = TECH_CMP_INFANTRY_114_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2895 name = TECH_CMP_INFANTRY_114_5_NAME type = artillery difficulty = 10 }
+    required  = { 1910 }
+    effects =
+    { command = { type = new_model which = paratrooper value = 9 }
+      command = { type = scrap_model which = paratrooper value = 8 }
+    }
+  }
+  # World War II Combat Engineer Brigade
+  application =
+  { id        = 1830
+    name      = TECH_APP_INFANTRY_83_NAME
+    position  = { x = 133 y = 411 }
+    picture   = "engineers1945"
+    year      = 1945
+    # Combat Engineer Equipment
+    component = { id = 1831 name = TECH_CMP_INFANTRY_83_1_NAME type = general_equipment difficulty = 3 }
+    # Logistics Equipment
+    component = { id = 1832 name = TECH_CMP_INFANTRY_83_2_NAME type = general_equipment difficulty = 3 }
+    # Logistics Management
+    component = { id = 1833 name = TECH_CMP_INFANTRY_83_3_NAME type = management difficulty = 3 }
+    # Explosives and Mines
+    component = { id = 1834 name = TECH_CMP_INFANTRY_83_4_NAME type = chemistry difficulty = 3 }
+    # Engineer Training
+    component = { id = 1835 name = TECH_CMP_INFANTRY_83_5_NAME type = training difficulty = 3 }
+    required  = { }
+    effects =
+    { command = { type = activate_unit_type which = engineer }
+      command = { type = new_model which = engineer value = 0 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Early Cold War Combat Engineer Brigade
+  application =
+  { id        = 1840
+    name      = TECH_APP_INFANTRY_84_NAME
+    position  = { x = 24 y = 426 }
+    picture   = "engineers1965"
+    year      = 1965
+    # Combat Engineer Equipment
+    component = { id = 1841 name = TECH_CMP_INFANTRY_84_1_NAME type = general_equipment difficulty = 3 }
+    # Logistics Equipment
+    component = { id = 1842 name = TECH_CMP_INFANTRY_84_2_NAME type = general_equipment difficulty = 3 }
+    # Logistics Management
+    component = { id = 1843 name = TECH_CMP_INFANTRY_84_3_NAME type = management difficulty = 3 }
+    # Explosives and Mines
+    component = { id = 1844 name = TECH_CMP_INFANTRY_84_4_NAME type = chemistry difficulty = 3 }
+    # Engineer Training
+    component = { id = 1845 name = TECH_CMP_INFANTRY_84_5_NAME type = training difficulty = 3 }
+    required  = { 1830 }
+    effects =
+    { command = { type = new_model which = engineer value = 1 }
+      command = { type = scrap_model which = engineer value = 0 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Basic Cold War Combat Engineer Brigade I
+  application =
+  { id        = 1850
+    name      = TECH_APP_INFANTRY_85_NAME
+    position  = { x = 24 y = 441 }
+    picture   = "engineers1970"
+    year      = 1970
+    # Combat Engineer Equipment
+    component = { id = 1851 name = TECH_CMP_INFANTRY_85_1_NAME type = general_equipment difficulty = 3 }
+    # Logistics Equipment
+    component = { id = 1852 name = TECH_CMP_INFANTRY_85_2_NAME type = general_equipment difficulty = 3 }
+    # Logistics Management
+    component = { id = 1853 name = TECH_CMP_INFANTRY_85_3_NAME type = management difficulty = 3 }
+    # Explosives and Mines
+    component = { id = 1854 name = TECH_CMP_INFANTRY_85_4_NAME type = chemistry difficulty = 3 }
+    # Engineer Training
+    component = { id = 1855 name = TECH_CMP_INFANTRY_85_5_NAME type = training difficulty = 3 }
+    required  = { 1840 }
+    effects =
+    { command = { type = new_model which = engineer value = 2 }
+      command = { type = scrap_model which = engineer value = 1 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Basic Cold War Combat Engineer Brigade II
+  application =
+  { id        = 1860
+    name      = TECH_APP_INFANTRY_86_NAME
+    position  = { x = 24 y = 456 }
+    picture   = "engineers1975"
+    year      = 1975
+    # Combat Engineer Equipment
+    component = { id = 1861 name = TECH_CMP_INFANTRY_86_1_NAME type = general_equipment difficulty = 3 }
+    # Logistics Equipment
+    component = { id = 1862 name = TECH_CMP_INFANTRY_86_2_NAME type = general_equipment difficulty = 3 }
+    # Logistics Management
+    component = { id = 1863 name = TECH_CMP_INFANTRY_86_3_NAME type = management difficulty = 3 }
+    # Explosives and Mines
+    component = { id = 1864 name = TECH_CMP_INFANTRY_86_4_NAME type = chemistry difficulty = 3 }
+    # Engineer Training
+    component = { id = 1865 name = TECH_CMP_INFANTRY_86_5_NAME type = training difficulty = 3 }
+    required  = { 1850 }
+    effects =
+    { command = { type = new_model which = engineer value = 3 }
+      command = { type = scrap_model which = engineer value = 2 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Improved Cold War Combat Engineer Brigade
+  application =
+  { id        = 1870
+    name      = TECH_APP_INFANTRY_87_NAME
+    position  = { x = 133 y = 426 }
+    picture   = "engineers1980"
+    year      = 1980
+    # Combat Engineer Equipment
+    component = { id = 1871 name = TECH_CMP_INFANTRY_87_1_NAME type = general_equipment difficulty = 3 }
+    # Logistics Equipment
+    component = { id = 1872 name = TECH_CMP_INFANTRY_87_2_NAME type = general_equipment difficulty = 3 }
+    # Logistics Management
+    component = { id = 1873 name = TECH_CMP_INFANTRY_87_3_NAME type = management difficulty = 3 }
+    # Explosives and Mines
+    component = { id = 1874 name = TECH_CMP_INFANTRY_87_4_NAME type = chemistry difficulty = 3 }
+    # Engineer Training
+    component = { id = 1875 name = TECH_CMP_INFANTRY_87_5_NAME type = training difficulty = 3 }
+    required  = { 1860 }
+    effects =
+    { command = { type = new_model which = engineer value = 4 }
+      command = { type = scrap_model which = engineer value = 3 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Advanced Cold War Combat Engineer Brigade
+  application =
+  { id        = 1880
+    name      = TECH_APP_INFANTRY_88_NAME
+    position  = { x = 133 y = 441 }
+    picture   = "engineers1985"
+    year      = 1985
+    # Combat Engineer Equipment
+    component = { id = 1881 name = TECH_CMP_INFANTRY_88_1_NAME type = general_equipment difficulty = 3 }
+    # Logistics Equipment
+    component = { id = 1882 name = TECH_CMP_INFANTRY_88_2_NAME type = general_equipment difficulty = 3 }
+    # Logistics Management
+    component = { id = 1883 name = TECH_CMP_INFANTRY_88_3_NAME type = management difficulty = 3 }
+    # Explosives and Mines
+    component = { id = 1884 name = TECH_CMP_INFANTRY_88_4_NAME type = chemistry difficulty = 3 }
+    # Engineer Training
+    component = { id = 1885 name = TECH_CMP_INFANTRY_88_5_NAME type = training difficulty = 3 }
+    required  = { 1870 }
+    effects =
+    { command = { type = new_model which = engineer value = 5 }
+      command = { type = scrap_model which = engineer value = 4 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Early Modern Combat Engineer Brigade
+  application =
+  { id        = 1890
+    name      = TECH_APP_INFANTRY_89_NAME
+    position  = { x = 133 y = 456 }
+    picture   = "engineers1990"
+    year      = 1990
+    # Combat Engineer Equipment
+    component = { id = 1891 name = TECH_CMP_INFANTRY_89_1_NAME type = general_equipment difficulty = 3 }
+    # Logistics Equipment
+    component = { id = 1892 name = TECH_CMP_INFANTRY_89_2_NAME type = general_equipment difficulty = 3 }
+    # Logistics Management
+    component = { id = 1893 name = TECH_CMP_INFANTRY_89_3_NAME type = management difficulty = 3 }
+    # Explosives and Mines
+    component = { id = 1894 name = TECH_CMP_INFANTRY_89_4_NAME type = chemistry difficulty = 3 }
+    # Engineer Training
+    component = { id = 1895 name = TECH_CMP_INFANTRY_89_5_NAME type = training difficulty = 3 }
+    required  = { 1880 }
+    effects =
+    { command = { type = new_model which = engineer value = 6 }
+      command = { type = scrap_model which = engineer value = 5 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Basic Modern Combat Engineer Brigade
+  application =
+  { id        = 1900
+    name      = TECH_APP_INFANTRY_90_NAME
+    position  = { x = 242 y = 426 }
+    picture   = "engineers1995"
+    year      = 1995
+    # Combat Engineer Equipment
+    component = { id = 1901 name = TECH_CMP_INFANTRY_90_1_NAME type = general_equipment difficulty = 3 }
+    # Logistics Equipment
+    component = { id = 1902 name = TECH_CMP_INFANTRY_90_2_NAME type = general_equipment difficulty = 3 }
+    # Logistics Management
+    component = { id = 1903 name = TECH_CMP_INFANTRY_90_3_NAME type = management difficulty = 3 }
+    # Explosives and Mines
+    component = { id = 1904 name = TECH_CMP_INFANTRY_90_4_NAME type = chemistry difficulty = 3 }
+    # Engineer Training
+    component = { id = 1905 name = TECH_CMP_INFANTRY_90_5_NAME type = training difficulty = 3 }
+    required  = { 1890 }
+    effects =
+    { command = { type = new_model which = engineer value = 7 }
+      command = { type = scrap_model which = engineer value = 6 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Improved Modern Combat Engineers
+  application =
+  { id        = 1930
+    name      = TECH_APP_INFANTRY_93_NAME
+    position  = { x = 242 y = 441 }
+    picture   = "engineers2000"
+    year      = 2000
+    # Basic Supply System
+    component = { id = 1931 name = TECH_CMP_INFANTRY_93_1_NAME type = centralized_execution difficulty = 10 }
+    # Basic Requisition Order System
+    component = { id = 1932 name = TECH_CMP_INFANTRY_93_2_NAME type = management difficulty = 10 }
+    # Basic Land Convoy System
+    component = { id = 1933 name = TECH_CMP_INFANTRY_93_3_NAME type = management difficulty = 10 }
+    # Basic Stock & Storage
+    component = { id = 1934 name = TECH_CMP_INFANTRY_93_4_NAME type = general_equipment difficulty = 10 }
+    # Strategic Refuel, Resupply, and Reinforcing
+    component = { id = 1935 name = TECH_CMP_INFANTRY_93_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { 1900 }
+    effects =
+    { command = { type = new_model which = engineer value = 8 }
+      command = { type = scrap_model which = engineer value = 7 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Advanced Modern Combat Engineers
+  application =
+  { id        = 2880
+    name      = TECH_APP_INFANTRY_112_NAME
+    desc      = TECH_APP_INFANTRY_112_DESC
+    position  = { x = 242 y = 456 }
+    picture   = "engineers2005"
+    year      = 2005
+    # 
+    component = { id = 2881 name = TECH_CMP_INFANTRY_112_1_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2882 name = TECH_CMP_INFANTRY_112_2_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2883 name = TECH_CMP_INFANTRY_112_3_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2884 name = TECH_CMP_INFANTRY_112_4_NAME type = artillery difficulty = 10 }
+    # 
+    component = { id = 2885 name = TECH_CMP_INFANTRY_112_5_NAME type = artillery difficulty = 10 }
+    required  = { 1930 }
+    effects =
+    { command = { type = new_model which = engineer value = 9 }
+      command = { type = scrap_model which = engineer value = 8 }
+      command = { type = supply_dist_mod value = 1 }
+      command = { type = tc_mod value = 1 }
+      command = { type = building_prod_mod which = air_base value = 1 }
+    }
+  }
+  # Modern Logistics
+  application =
+  { id        = 1990
+    name      = TECH_APP_INFANTRY_99_NAME
+    position  = { x = 485 y = 396 }
+    picture   = "logistics"
+    year      = 1965
+    # Static Area Supply System
+    component = { id = 1991 name = TECH_CMP_INFANTRY_99_1_NAME type = centralized_execution difficulty = 10 }
+    # Requisition Order System
+    component = { id = 1992 name = TECH_CMP_INFANTRY_99_2_NAME type = management difficulty = 10 }
+    # Land Convoy System
+    component = { id = 1993 name = TECH_CMP_INFANTRY_99_3_NAME type = management difficulty = 10 }
+    # Basic Stock and Storage
+    component = { id = 1994 name = TECH_CMP_INFANTRY_99_4_NAME type = general_equipment difficulty = 10 }
+    # Strategic Refuel, Resupply, and Reinforcing
+    component = { id = 1995 name = TECH_CMP_INFANTRY_99_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { }
+    effects =
+    { command = { type = tc_mod value = 30 }
+      command = { type = tc_occupied_mod value = 30 }
+      command = { type = repair_mod which = 100 }
+      command = { type = attrition_mod value = 30 }
+      command = { type = supply_dist_mod value = 30 }
+      command = { type = supply_consumption value = -0.03 }
+      command = { type = enable_task which = strat_redeploy }
+    }
+  }
+  # Operations Research
+  application =
+  { id        = 199100
+    name      = TECH_APP_INFANTRY_100_NAME
+    position  = { x = 420 y = 411 }
+    picture   = "ops_research"
+    year      = 1970
+    # 
+    component = { id = 199101 name = TECH_CMP_INFANTRY_1991_1_NAME type = centralized_execution difficulty = 10 }
+    # 
+    component = { id = 199102 name = TECH_CMP_INFANTRY_1991_2_NAME type = mathematics difficulty = 10 }
+    # 
+    component = { id = 199103 name = TECH_CMP_INFANTRY_1991_3_NAME type = management difficulty = 10 }
+    # 
+    component = { id = 199104 name = TECH_CMP_INFANTRY_1991_4_NAME type = general_equipment difficulty = 10 }
+    # 
+    component = { id = 199105 name = TECH_CMP_INFANTRY_1991_5_NAME type = large_unit_tactics difficulty = 10 }
+    required  = { 1990 }
+    effects =
+    { command = { type = tc_mod value = 10 }
+      command = { type = tc_occupied_mod value = 20 }
+      command = { type = attrition_mod value = 10 }
+      command = { type = supply_dist_mod value = 10 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.5 }
+      command = { type = supply_consumption which = land value = -0.1 }
+    }
+  }
+  # Combat Service Support
+  application =
+  { id        = 199110
+    name      = TECH_APP_INFANTRY_101_NAME
+    position  = { x = 420 y = 426 }
+    picture   = "service_support"
+    year      = 1980
+    # Low Echelon Supply System
+    component = { id = 199111 name = TECH_CMP_INFANTRY_101_1_NAME type = decentralized_execution difficulty = 10 }
+    # Dynamic Supply Reports
+    component = { id = 199112 name = TECH_CMP_INFANTRY_101_2_NAME type = management difficulty = 10 }
+    # Circular Transport System
+    component = { id = 199113 name = TECH_CMP_INFANTRY_101_3_NAME type = management difficulty = 10 }
+    # Advanced Stock and Storage
+    component = { id = 199114 name = TECH_CMP_INFANTRY_101_4_NAME type = general_equipment difficulty = 10 }
+    # Tactical refuel and replenishment
+    component = { id = 199115 name = TECH_CMP_INFANTRY_101_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 199100 }
+    effects =
+    { command = { type = tc_mod value = 10 }
+      command = { type = tc_occupied_mod value = 20 }
+      command = { type = attrition_mod value = 15 }
+      command = { type = supply_dist_mod value = 10 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.5 }
+      command = { type = supply_consumption which = land value = -0.1 }
+    }
+  }
+  # Integrated Logistics Support
+  application =
+  { id        = 199120
+    name      = TECH_APP_INFANTRY_102_NAME
+    position  = { x = 420 y = 441 }
+    picture   = "int_logistics"
+    year      = 1990
+    # Advanced Low Echelon Supply System
+    component = { id = 199121 name = TECH_CMP_INFANTRY_102_1_NAME type = decentralized_execution difficulty = 10 }
+    # Advanced Dynamic Supply Reports
+    component = { id = 199122 name = TECH_CMP_INFANTRY_102_2_NAME type = management difficulty = 10 }
+    # Advanced Circular Transport System
+    component = { id = 199123 name = TECH_CMP_INFANTRY_102_3_NAME type = management difficulty = 10 }
+    # Semi-Modern Stock and Storage
+    component = { id = 199124 name = TECH_CMP_INFANTRY_102_4_NAME type = general_equipment difficulty = 10 }
+    # Advanced Tactical refuel and replenishment
+    component = { id = 199125 name = TECH_CMP_INFANTRY_102_5_NAME type = small_unit_tactics difficulty = 10 }
+    required  = { 199110 }
+    effects =
+    { command = { type = tc_mod value = 10 }
+      command = { type = tc_occupied_mod value = 20 }
+      command = { type = attrition_mod value = 15 }
+      command = { type = supply_dist_mod value = 10 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.5 }
+      command = { type = supply_consumption which = land value = -0.1 }
+    }
+  }
+  # Improved Repair
+  application =
+  { id        = 199130
+    name      = TECH_APP_INFANTRY_103_NAME
+    position  = { x = 552 y = 411 }
+    picture   = "imp_repair"
+    year      = 1975
+    # Bulky Tools
+    component = { id = 199131 name = TECH_CMP_INFANTRY_103_1_NAME type = mechanics difficulty = 10 }
+    # Standardized Repair Capacity
+    component = { id = 199132 name = TECH_CMP_INFANTRY_103_2_NAME type = mechanics difficulty = 10 }
+    # Basic Vehicle Repair
+    component = { id = 199133 name = TECH_CMP_INFANTRY_103_3_NAME type = vehicle_engineering difficulty = 10 }
+    # Basic Gun Repair
+    component = { id = 199134 name = TECH_CMP_INFANTRY_103_4_NAME type = technical_efficiency difficulty = 10 }
+    # Work-task Requisition System 
+    component = { id = 199135 name = TECH_CMP_INFANTRY_103_5_NAME type = management difficulty = 10 }
+    required  = { 1990 }
+    effects =
+    { command = { type = attrition_mod value = 20 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.5 }
+      command = { type = repair_mod value = 100 }
+    }
+  }
+  # Army Engineering Maintenance
+  application =
+  { id        = 199140
+    name      = TECH_APP_INFANTRY_104_NAME
+    position  = { x = 552 y = 426 }
+    picture   = "army_eng"
+    year      = 1985
+    # Movable Tools
+    component = { id = 199141 name = TECH_CMP_INFANTRY_104_1_NAME type = mechanics difficulty = 10 }
+    # Unit-specific Repair Capacity
+    component = { id = 199142 name = TECH_CMP_INFANTRY_104_2_NAME type = mechanics difficulty = 10 }
+    # Improved Vehicle Repair
+    component = { id = 199143 name = TECH_CMP_INFANTRY_104_3_NAME type = vehicle_engineering difficulty = 10 }
+    # Improved Gun Repair
+    component = { id = 199144 name = TECH_CMP_INFANTRY_104_4_NAME type = technical_efficiency difficulty = 10 }
+    # Work-task Prioritization System
+    component = { id = 199145 name = TECH_CMP_INFANTRY_104_5_NAME type = management difficulty = 10 }
+    required  = { 199100 199130 }
+    effects =
+    { command = { type = repair_mod value = 20 }
+      command = { type = building_prod_mod which = air_base value = 10 }
+    }
+  }
+  # Operational and Tactical Level Focus
+  application =
+  { id        = 199150
+    name      = TECH_APP_INFANTRY_105_NAME
+    position  = { x = 552 y = 441 }
+    picture   = "tactical_level"
+    year      = 1995
+    # Flexible Tools
+    component = { id = 199151 name = TECH_CMP_INFANTRY_105_1_NAME type = mechanics difficulty = 10 }
+    # Multitask Repair Capacity
+    component = { id = 199152 name = TECH_CMP_INFANTRY_105_2_NAME type = mechanics difficulty = 10 }
+    # Advanced Vehicle Repair
+    component = { id = 199153 name = TECH_CMP_INFANTRY_105_3_NAME type = vehicle_engineering difficulty = 10 }
+    # Advanced Gun Repair
+    component = { id = 199154 name = TECH_CMP_INFANTRY_105_4_NAME type = technical_efficiency difficulty = 10 }
+    # Dynamic Damage Classification
+    component = { id = 199155 name = TECH_CMP_INFANTRY_105_5_NAME type = management difficulty = 10 }
+    required  = { 199110 199140 }
+    effects =
+    { command = { type = repair_mod value = 20 }
+      command = { type = building_prod_mod which = air_base value = 10 }
+    }
+  }
+  # Strategic Level Focus
+  application =
+  { id        = 199160
+    name      = TECH_APP_INFANTRY_106_NAME
+    position  = { x = 552 y = 456 }
+    picture   = "strategic_level"
+    year      = 2005
+    # Electronics Repair
+    component = { id = 199161 name = TECH_CMP_INFANTRY_106_1_NAME type = electronics difficulty = 10 }
+    # Semi-modern Advanced Repair Capacity
+    component = { id = 199162 name = TECH_CMP_INFANTRY_106_2_NAME type = mechanics difficulty = 10 }
+    # Semi-modern Vehicle Repair
+    component = { id = 199163 name = TECH_CMP_INFANTRY_106_3_NAME type = vehicle_engineering difficulty = 10 }
+    # Gun Repair
+    component = { id = 199164 name = TECH_CMP_INFANTRY_106_4_NAME type = technical_efficiency difficulty = 10 }
+    # Advanced Probability Theory
+    component = { id = 199165 name = TECH_CMP_INDUSTRY_106_5_NAME type = management difficulty = 10 }
+    required  = { 199120 199150 }
+    effects =
+    { command = { type = repair_mod value = 20 }
+      command = { type = building_prod_mod which = air_base value = 10 }
+    }
+  }
+  # Performance-based Logistics
+  application =
+  { id        = 199170
+    name      = TECH_APP_INFANTRY_107_NAME
+    position  = { x = 420 y = 456 }
+    picture   = "perf_logistics"
+    year      = 2000
+    # Low Echelon Supply System
+    component = { id = 199171 name = TECH_CMP_INFANTRY_107_1_NAME type = decentralized_execution difficulty = 10 double_time = yes }
+    # Dynamic Supply Reports
+    component = { id = 199172 name = TECH_CMP_INFANTRY_107_2_NAME type = management difficulty = 10 double_time = yes }
+    # Circular Transport System
+    component = { id = 199173 name = TECH_CMP_INFANTRY_107_3_NAME type = management difficulty = 10 double_time = yes }
+    # Advanced Stock and Storage
+    component = { id = 199174 name = TECH_CMP_INFANTRY_107_4_NAME type = general_equipment difficulty = 10 double_time = yes }
+    # Tactical refuel and replenishment
+    component = { id = 199175 name = TECH_CMP_INFANTRY_107_5_NAME type = small_unit_tactics difficulty = 10 double_time = yes }
+    required  = { 199120 199160 }
+    effects =
+    { command = { type = tc_mod value = 20 }
+      command = { type = tc_occupied_mod value = 40 }
+      command = { type = attrition_mod value = 30 }
+      command = { type = supply_dist_mod value = 20 }
+      command = { type = task_efficiency which = strat_redeploy value = 0.5 }
+      command = { type = supply_consumption which = land value = -0.1 }
+    }
+  }
+}

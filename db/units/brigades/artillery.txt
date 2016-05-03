@@ -1,0 +1,109 @@
+# 0 - Artillery 1945
+model = {
+	cost 				= 5
+	buildtime	 		= 110
+	manpower 			= 3
+	maxspeed 			= -1
+	defensiveness 		= -3
+	toughness 			= -3
+	softattack			= 1
+	supplyconsumption 	= 0.24
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.55
+	speed_cap			= 8
+	equipment = { manpower = 3000 horses = 780 artillery = 22 }
+}
+# 1 - Artillery 1951
+model = {
+	cost 				= 5
+	buildtime	 		= 120
+	manpower 			= 3
+	maxspeed 			= -1
+	defensiveness 		= -3
+	toughness 			= -3
+	softattack			= 1
+	supplyconsumption 	= 0.32
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.55
+	speed_cap			= 8
+	equipment = { manpower = 3000 horses = 780 artillery = 42 }
+}
+# 2 - Artillery 1963
+model = {
+	cost 				= 6
+	buildtime	 		= 140
+	manpower 			= 3
+	maxspeed 			= -1
+	defensiveness 		= -3
+	toughness 			= -3
+	softattack			= 2
+	supplyconsumption 	= 0.44
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.55
+	speed_cap			= 8
+	equipment = { manpower = 3000 horses = 780 artillery = 48 }
+}
+# 3 - Artillery 1975
+model = {
+	cost 				= 6
+	buildtime	 		= 140
+	manpower 			= 3
+	maxspeed 			= -1
+	defensiveness 		= -3
+	toughness 			= -3
+	softattack			= 3
+	hardattack			= 1
+	supplyconsumption 	= 0.44
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.55
+	speed_cap			= 8
+	equipment = { manpower = 3000 horses = 780 artillery = 26 heavy_artillery = 18 }
+}
+# 4 - Artillery 1987
+model = {
+	cost 				= 5
+	buildtime	 		= 120
+	manpower 			= 3
+	maxspeed 			= -1
+	defensiveness 		= -3
+	toughness 			= -3
+	softattack			= 3
+	hardattack			= 1
+	supplyconsumption 	= 0.46
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.55
+	speed_cap			= 8
+	equipment = { manpower = 3000 horses = 780 artillery = 28 heavy_artillery = 22 }
+}
+# 5 - Artillery 1996
+model = {
+	cost 				= 5
+	buildtime	 		= 120
+	manpower 			= 3
+	maxspeed 			= -1
+	defensiveness 		= -3
+	toughness 			= -3
+	softattack			= 4
+	hardattack			= 1
+	supplyconsumption 	= 0.48
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.55
+	speed_cap			= 8
+	equipment = { manpower = 3000 horses = 780 artillery = 48 heavy_artillery = 24 }
+}
+# 6 - Artillery 2004
+model = {
+	cost 				= 5
+	buildtime	 		= 120
+	manpower 			= 3
+	maxspeed 			= -1
+	defensiveness 		= -3
+	toughness 			= -3
+	softattack			= 4
+	hardattack			= 2
+	supplyconsumption 	= 0.5
+	upgrade_time_factor = 0.4
+	upgrade_cost_factor = 0.55
+	speed_cap			= 8
+	equipment = { manpower = 3000 horses = 780 artillery = 48 heavy_artillery = 24 anti_tank = 51 }
+}

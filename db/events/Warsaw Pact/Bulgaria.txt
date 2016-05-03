@@ -1,0 +1,346 @@
+#########################################################################
+#  The Revival Process
+#########################################################################
+event = {
+	id = 2033000
+	random = no
+	country = BUL
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria"
+	desc = "bulgaria_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		ai_chance = 99
+		command = { type = dissent value = 10 }
+	}
+	action = {
+		name = ACTION_NAME_NO
+		ai_chance = 1
+		command = { type = local_setflag which = no_revival }
+	}
+}
+#########################################################################
+#  The Bulgarian Perestroika
+#########################################################################
+event = {
+	id = 2033001
+	random = no
+	country = BUL
+	
+	trigger = { event = 2007016 } #Perestroika
+	
+	date = { day = 0 month = january year = 1985 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_1"
+	desc = "bulgaria_1_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_STALL
+		command = { type = dissent value = 5 }
+	}
+	action = {
+		name = ACTION_NAME_PERESTROIKA
+		command = {}
+	}
+	action = {
+		name = ACTION_NAME_NEVER
+		command = { type = dissent value = 10 }
+		command = { type = relation which = SOV value = -150 }
+		command = { type = sleepevent which = 2033002 }
+		command = { type = sleepevent which = 2033005 }
+	}
+}
+#########################################################################
+#  Prime Minister Grisha Filipov
+#########################################################################
+event = {
+	id = 2033002
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033001 } #The Bulgarian Perestroika
+	
+	date = { day = 20 month = march year = 1986 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_1.5"
+	desc = "bulgaria_1.5_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = 5 }
+		command = { type = headofgovernment which = 95014 }
+		command = { type = foreignminister which = 95013 }
+	}
+}
+#########################################################################
+#  The Revival Process - Open Borders
+#########################################################################
+event = {
+	id = 2033003
+	random = no
+	country = BUL
+	
+	trigger = { NOT = { local_flag = no_revival } }
+	
+	date = { day = 1 month = may year = 1989 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_2"
+	desc = "bulgaria_2_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -15 }
+		command = { type = manpowerpool value = -300 }
+	}
+}
+#########################################################################
+#  The Revival Process Results
+#########################################################################
+event = {
+	id = 2033004
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033003 } #The Revival Process - Open Borders
+	
+	date = { day = 1 month = may year = 1989 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_3"
+	desc = "bulgaria_3_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = belligerence value = 5 }
+		command = { type = industrial_modifier which = total value = -10 }
+	}
+}
+#########################################################################
+#  The Ecoglasnost Protests
+#########################################################################
+event = {
+	id = 2033005
+	random = no
+	country = BUL
+	
+	trigger = { event = 2007016 } #Perestroika
+	
+	date = { day = 1 month = october year = 1989 }
+	offset = 10
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_4"
+	desc = "bulgaria_4_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = belligerence value = 5 }
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  Unrest in Bulgaria
+#########################################################################
+event = {
+	id = 2033006
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033005 } #The Ecoglasnost Protests
+	
+	date = { day = 1 month = october year = 1989 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_5"
+	desc = "bulgaria_5_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_DAMN
+		command = { type = dissent value = 20 }
+	}
+}
+#########################################################################
+#  The Fall of Zhivkov
+#########################################################################
+event = {
+	id = 2033007
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033006 } #Unrest in Bulgaria
+	
+	date = { day = 10 month = november year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_6"
+	desc = "bulgaria_6_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = dissent value = -5 }
+		command = { type = headofstate which = 95011 }
+	}
+	action = {
+		name = ACTION_NAME_CLING
+		command = { type = dissent value = 20 }
+	}
+}
+#########################################################################
+#  Fall of The Communist Regime
+#########################################################################
+event = {
+	id = 2033008
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033007 } #The Fall of Zhivkov
+	
+	date = { day = 10 month = december year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_7"
+	desc = "bulgaria_7_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = domestic which = political_left value = -3 }
+	}
+}
+#January 15 - Communists lose leading role
+event = {
+	id = 2033009
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033008 } #Fall of The Communist Regime
+	
+	date = { day = 14 month = january year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_7"
+	desc = "bulgaria_7-1_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = freedom value = 2 }
+	}
+}
+#########################################################################
+#  The Constitutional Assembly Elections
+#########################################################################
+event = {
+	id = 2033010
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033009 } #January 15 - Communists lose leading role
+	
+	date = { day = 16 month = june year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_8"
+	desc = "bulgaria_8_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = freedom value = 2 }
+	}
+}
+#########################################################################
+#  The 7th Grand National Assembly
+#########################################################################
+event = {
+	id = 2033011
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033010 } #The Constitutional Assembly Elections
+	
+	date = { day = 14 month = november year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_9"
+	desc = "bulgaria_9_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = freedom value = 2 }
+		command = { type = country which = U29 }
+		command = { trigger = { ai = yes } type = name where = U29 which = TAG_BUL }
+	}
+}
+#########################################################################
+#  Andrey Lukanov
+#########################################################################
+event = {
+	id = 2033012
+	random = no
+	country = BUL
+	
+	trigger = { event = 2033009 } #January 15 - Communists lose leading role
+	
+	date = { day = 2 month = february year = 1990 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "bulgaria_10"
+	desc = "bulgaria_10_desc"
+	style = 2
+	picture = "news_paper"
+
+	action = {
+		name = ACTION_NAME_OK
+		command = { type = headofgovernment which = 95012 }
+		command = { type = foreignminister which = 95003 } #Temporary
+	}
+}

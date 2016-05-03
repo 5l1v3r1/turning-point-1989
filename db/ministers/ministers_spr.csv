@@ -1,0 +1,32 @@
+SPR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+255001;Head of State;Gerardo Iglesias;1985;2012;2012;LE;Die-hard Reformer;High;SPR1;X
+255002;Head of Government;Francisco Frutos;1985;2012;2012;LE;Political Protege;High;SPR2;X
+255003;Foreign Minister;Francisco Frutos;1985;2012;2012;LE;Apologetic Clerk;High;SPR2;X
+255004;Minister of Armament;Willy Meyer;1985;2012;2012;LE;Administrative Genius;High;SPR3;X
+255005;Minister of Security;Julio Anguita;1985;2012;2012;LE;Man of the People;High;SPR4;X
+255006;Head of Military Intelligence;Julio Anguita;1985;2012;2012;LE;Political Specialist;High;SPR4;X
+255007;Chief of Staff;Amadeo Martínez Inglés;1985;2012;2012;LWR;School of Psychology;High;SPR5;X
+255008;Chief of Army;Amadeo Martínez Inglés;1985;2012;2012;LWR;Guns and Butter Doctrine;High;SPR5;X
+255009;Chief of Navy;Amadeo Martínez Inglés;1985;2012;2012;LWR;Indirect Approach Doctrine;High;SPR5;X
+255010;Chief of Air Force;Amadeo Martínez Inglés;1985;2012;2012;LWR;Army Aviation Doctrine;High;SPR5;X
+;Replacements;;;;;;;;;X
+255011;Head of State;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+255012;Head of Government;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+255013;Foreign Minister;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+255014;Minister of Armament;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+255015;Minister of Security;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;
+255016;Head of Military Intelligence;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;
+255017;Chief of Staff;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+255018;Chief of Army;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+255019;Chief of Navy;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+255020;Chief of Air Force;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+255021;Head of State;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255022;Head of Government;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255023;Foreign Minister;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255024;Minister of Armament;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255025;Minister of Security;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255026;Head of Military Intelligence;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255027;Chief of Staff;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255028;Chief of Army;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255029;Chief of Navy;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+255030;Chief of Air Force;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X

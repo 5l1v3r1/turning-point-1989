@@ -1,0 +1,146 @@
+allowed_brigades = naval_anti_air_s
+allowed_brigades = naval_radar_s
+allowed_brigades = naval_fire_controll_s
+allowed_brigades = naval_improved_hull_s
+allowed_brigades = naval_torpedoes_s
+
+# 0 - CGN 1961
+model = {
+	cost						= 20
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 2
+	maxspeed					= 33
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 3
+	subdetectioncapability		= 8
+	visibility					= 70
+	seadefence					= 29
+	airdefence					= 21
+	seaattack					= 14
+	airattack					= 6
+	subattack					= 1
+	convoyattack					= 14
+	shorebombardment			= 6
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 0.7
+	fuelconsumption				= 0
+	distance					= 0.32
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { heavy_cruiser = 1 manpower = 2000 }
+}
+# 1 - CGN 1962
+model = {
+	cost						= 22
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 2
+	maxspeed					= 33
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 3
+	subdetectioncapability		= 8
+	visibility					= 70
+	seadefence					= 28
+	airdefence					= 20
+	seaattack					= 14
+	airattack					= 6
+	subattack					= 1
+	convoyattack					= 14
+	shorebombardment			= 6
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 0.7
+	fuelconsumption				= 0
+	distance					= 0.32
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { heavy_cruiser = 1 manpower = 2000 }
+}
+# 2 - CGN 1967
+model = {
+	cost						= 25
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 2
+	maxspeed					= 33
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 3
+	subdetectioncapability		= 8
+	visibility					= 70
+	seadefence					= 26
+	airdefence					= 20
+	seaattack					= 14
+	airattack					= 6
+	subattack					= 1
+	convoyattack					= 14
+	shorebombardment			= 6
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 0.7
+	fuelconsumption				= 0
+	distance					= 0.32
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { heavy_cruiser = 1 manpower = 2000 }
+}
+# 3 - CGN 1974
+model = {
+	cost						= 30
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 2
+	maxspeed					= 33
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 3
+	subdetectioncapability		= 8
+	visibility					= 70
+	seadefence					= 25
+	airdefence					= 20
+	seaattack					= 14
+	airattack					= 6
+	subattack					= 1
+	convoyattack					= 14
+	shorebombardment			= 6
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 0.7
+	fuelconsumption				= 0
+	distance					= 0.32
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { heavy_cruiser = 1 manpower = 2000 }
+}
+# 4 - CGN 1976
+model = {
+	cost						= 32
+	buildtime 					= 1300
+	defaultorganisation 		= 20
+	morale						= 30
+	manpower					= 2
+	maxspeed					= 33
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 3
+	subdetectioncapability		= 8
+	visibility					= 70
+	seadefence					= 24
+	airdefence					= 20
+	seaattack					= 14
+	airattack					= 6
+	subattack					= 1
+	convoyattack					= 14
+	shorebombardment			= 6
+	transportcapability			= 0
+	range						= 40000
+	supplyconsumption			= 0.7
+	fuelconsumption				= 0
+	distance					= 0.32
+	reinforce_time		= 0.4
+	reinforce_cost 		= 0.6
+	equipment = { heavy_cruiser = 1 manpower = 2000 }
+}

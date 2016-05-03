@@ -1,0 +1,18 @@
+EGY;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+4700;Egyptian Military Academy;T4709;6;1000;2999;combined_arms_focus;infantry_focus;individual_courage;artillery;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4701;Abu Zaabal Factory;abuzabaal;7;1000;2999;mechanics;industrial_engineering;vehicle_engineering;management;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4702;Kader Factory;kaderfac;5;1000;2999;mechanics;vehicle_engineering;management;general_equipment;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4703;Helwan Machine Tools;helwan;6;1000;2999;artillery;mechanics;industrial_engineering;technical_efficiency;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4704;Maadi Arms Factory;T4711;6;1000;2999;general_equipment;munitions;chemistry;artillery;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4705;ABHCO;abhco;4;1000;2999;technical_efficiency;industrial_engineering;management;technical_efficiency;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4706;AOI Aircraft;gomhuria;4;1000;2999;aeronautics;avionics;piloting;fighter_design;bomber_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4707;Military Intelligence;egy_mil_int;7;1000;2999;mathematics;management;individual_courage;general_equipment;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4708;Helwan;helwanind;5;1000;2999;industrial_engineering;vehicle_engineering;technical_efficiency;naval_engineering;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4709;Arab International Optronics;aboptics;6;1000;2999;management;electronics;chemistry;technical_efficiency;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4710;NPPA;nppaegypt;5;1000;2999;nuclear_engineering;nuclear_physics;rocketry;mathematics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4711;Egyptian Army;T4716;6;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4712;General Staff;genstaffegy;5;1000;2999;training;management;technical_efficiency;combined_arms_focus;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4713;Supply Corps;ukrlogistics;6;1000;2999;centralized_execution;general_equipment;avionics;naval_training;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4714;Egyptian Air Force;T4708;6;1000;2999;fighter_tactics;bomber_tactics;piloting;avionics;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4715;Egyptian Navy;egyptnavy;5;1000;2999;naval_training;seamanship;large_taskforce_tactics;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4716;Alexandria Shipyard;T4702;3;1000;2999;naval_artillery;naval_engineering;naval_training;seamanship;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

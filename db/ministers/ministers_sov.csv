@@ -1,0 +1,38 @@
+SOV;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+99900;Head of State;Konstantin Chernenko;1985;1986;2012;ST;Weary Stiffneck;High;SOV11;X
+99901;Head of Government;Konstantin Chernenko;1985;1986;2012;ST;Happy Amateur;High;SOV11;X
+99902;Foreign Minister;Andrey Gromyko;1985;1986;2012;ST;Biased Intellectual;High;SOV2;X
+99903;Minister of Armament;Gosplan;1985;2012;2012;ST;Gosplan;High;SOV0;X
+99904;Minister of Security;Sergey Sokolov;1985;2012;2012;ST;Back Stabber;High;SOV4;X
+99905;Head of Military Intelligence;Viktor Chebrikov;1985;2012;2012;ST;Political Specialist;Medium;SOV5;X
+99906;Chief of Staff;Sergey Akhromeyev;1985;2012;2012;ST;School of Manoeuvre;High;SOV6;X
+99907;Chief of Army;Vasily Petrov;1985;2012;2012;ST;Guns and Butter Doctrine;Very High;SOV7;X
+99908;Chief of Navy;Vladimir Chernavin;1985;2012;2012;LE;Indirect Approach Doctrine;High;SOV8;X
+99909;Chief of Air Force;Alexander Yefimov;1985;2012;2012;LE;Air Superiority Doctrine;High;SOV9;X
+;Replacements;;;;;;;;;X
+99910;Head of State;Vasily Kuznetsov;1985;1990;2012;LE;Insignificant Layman;High;SOV12;X
+99911;Head of Government;Mikhail Gorbachev;1985;2012;2012;LE;The Reformer;High;SOV1;X
+99912;Head of State;Andrei Gromyko;1985;1989;2012;ST;Popular Figurehead;High;SOV2;X
+99913;Foreign Minister;Eduard Shevardnadze;1985;2012;2012;ST;Great Compromiser;Very High;SOV13;X
+99914;Head of Government;Nikolay Tikhonov;1985;2012;2012;ST;Silent Workhorse;High;SOV10;X
+99915;Minister of Armament;Vasily Garbuzov;1985;1985;1985;LE;Resource Industrialist;High;SOV3;X
+99916;Head of State;Grigory Romanov;1985;2012;2012;ST;Die-hard Reformer;High;SOV14;X
+99917;Head of Government;Grigory Romanov;1985;2012;2012;ST;Silent Workhorse;High;SOV14;X
+99918;Head of State;Viktor Grishin;1985;2012;2012;ST;Autocratic Charmer;High;SOV15;X
+99919;Head of Government;Viktor Grishin;1985;2012;2012;ST;Flamboyant Tough Guy;High;SOV15;X
+99920;Minister of Armament;Gosplan;1985;2012;2012;LE;Gosplan 2;High;SOV0;X
+99921;Head of State;Mikhail Gorbachev;1985;2012;2012;LE;Benevolent Gentleman;High;SOV1;X
+99922;Head of State;Boris Yeltsin;1985;2012;2012;SL;Popular Figurehead;High;SOV16;X
+99923;Head of Government;Boris Yeltsin;1985;2012;2012;SL;Flamboyant Tough Guy;High;SOV16;X
+99924;Foreign Minister;Boris Yeltsin;1985;2012;2012;SL;Ideological Crusader;High;SOV16;X
+99925;Minister of Armament;Boris Yeltsin;1985;2012;2012;SL;Laissez-Faire Capitalist;High;SOV16;X
+99926;Head of State;Gennady Yanayev;1985;2012;2012;ST;Popular Figurehead;High;SOV18;X
+99927;Head of Government;Gennady Yanayev;1985;2012;2012;ST;Flamboyant Tough Guy;High;SOV18;X
+99928;Head of State;Vladimir Kryuchkov;1985;2012;2012;ST;Die-hard Reformer;High;SOV17;X
+99929;Head of Government;Vladimir Kryuchkov;1985;2012;2012;ST;Flamboyant Tough Guy;High;SOV17;X
+99930;Head of Military Intelligence;Vladimir Kryuchkov;1985;2012;2012;ST;Dismal Enigma;High;SOV17;X
+99931;Head of Military Intelligence;Vladimir Kryuchkov;1985;2012;2012;ST;The Gang Leader;High;SOV17;X
+99932;Head of Government;Vladimir Putin;1999;2001;2015;LE;Flamboyant Tough Guy;Very High;Vladimir_Putin;X
+99933;Minister of Security;Vladimir Putin;1998;2001;2015;LE;Secret Police Chief;Very High;Vladimir_Putin_2;X
+99934;Head of Military Intelligence;Vladimir Putin;1998;2001;2015;LE;Political Specialist;Very High;Vladimir_Putin_2;X
+99935;Head of State;Vladimir Putin;1999;2015;2015;LE;Courageous;Very High;Vladimir_Putin;X

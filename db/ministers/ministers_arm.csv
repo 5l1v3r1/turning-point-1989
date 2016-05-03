@@ -1,0 +1,12 @@
+ARM;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+455001;Head of State;Levon Ter-Petrosyan;1985;2012;2012;ML;Benevolent Gentleman;Very High;ARM1;X
+455002;Head of Government;Vazgen Manukyan;1985;2012;2012;ML;Ambitious Union Boss;Very High;ARM2;X
+455003;Foreign Minister;Armen Sargsyan;1985;2012;2012;ML;Great Compromiser;Very High;ARM3;X
+455004;Minister of Armament;Vazgen Sargsyan;1985;2012;2012;SC;Military Entrepreneur;Very High;ARM4;X
+455005;Minister of Security;Serzh Sargsyan;1985;2012;2012;SC;Crime Fighter;Very High;ARM5;X
+455006;Head of Military Intelligence;Vazgen Sargsyan;1985;2012;2012;SC;Logistics Specialist;Very High;ARM4;X
+455007;Chief of Staff;Arkady Ter-Tadevosyan;1985;2012;2012;ML;School of Psychology;Very High;ARM6;X
+455008;Chief of Army;Arkady Ter-Tadevosyan;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;ARM6;X
+455009;Chief of Navy;Arkady Ter-Tadevosyan;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;ARM6;X
+455010;Chief of Air Force;Arkady Ter-Tadevosyan;1985;2012;2012;ML;Army Aviation Doctrine;Very High;ARM6;X
+;Replacements;;;;;;;;;X

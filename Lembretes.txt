@@ -1,0 +1,24 @@
+Pizza: 3238 4235
+
+- Colocar penalidades para os subornos.
+- Testar eventos da Polônia.
+- Criar descrição diferente para o evento Belavezha Accords para os Soviéticos.
+- Escrever evento para Alma-Ata Protocol.
+- Ver se deve se mostrar todos os eventos de Janeiro da Lituania para a União Soviética.
+- Incluir Frigates dos Anos 50? Sobram para os soviéticos. Guard ships no site.
+- Colocar vps para os mujahideen.
+- Whiskey, Rome class são Quebec class.
+- Submarinos em Producao: Projects 865 e 877.
+- Verificar Kynda-class.
+- Project 1164 Cruiser em Producao.
+- Project 949, 971 SSN em Producao.
+- Diminuir textos dos eventos 2+4 e reunification process.
+- Tocar playtest.
+- Incluir os reports do Teep.
+
+-------------------------------------------------------------
+
+Checar presidentes e primeiros ministros da Iugoslávia.
+Multi-Party Elections faltando trigger = YUG
+
+- Algumas repúblicas soviéticas não ficam independentes se o jogador recusar o New Union Treaty, porque esses eventos requerem o August Coup. Ver sobre uma linha alternativa.

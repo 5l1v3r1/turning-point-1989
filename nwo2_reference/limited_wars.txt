@@ -1,0 +1,2994 @@
+# Colonial struggles - non-intervention countries
+event = {
+	id = 8940000
+	tag = { ALB ARM AST AUS AZB BLR BUL CAN CZE DEN DFR EST ETH FIN GEO GRE HUN ICL IRE IRQ ISR JAP KOR LAT LIT LUX NOR NZL OMN PER PHI POL ROM SWE TUR UKR USA YEM YUG U13 U16 U18 U19 U20 U21 U22 U23 U24 U25 U26 U27 U28 U29 U30 U31 U32 U33 U34 }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			war = { country = ALG }
+			war = { country = ANG }
+			war = { country = BEN }
+			war = { country = BUR }
+			war = { country = CAM }
+			war = { country = CMB }
+			war = { country = CON }
+			war = { country = EAF }
+			war = { country = EQA }
+			war = { country = GAB }
+			war = { country = GLD }
+			war = { country = GUI }
+			war = { country = GUY }
+			war = { country = IDC }
+			war = { country = IND }
+			war = { country = INO }
+			war = { country = LAO }
+			war = { country = LBY }
+			war = { country = MAD }
+			war = { country = MAL }
+			war = { country = MLY }
+			war = { country = MOR }
+			war = { country = MOZ }
+			war = { country = NAM }
+			war = { country = NIG }
+			war = { country = PAK }
+			war = { country = RHO }
+			war = { country = SIE }
+			war = { country = SOM }
+			war = { country = SUD }
+			war = { country = TUN }
+			war = { country = VIE }
+			war = { country = U70 }
+			war = { country = U71 }
+			war = { country = U72 }
+			war = { country = U75 }
+			war = { country = U81 }
+			war = { country = U83 }
+			war = { country = U84 }
+			war = { country = U85 }
+			war = { country = U86 }
+			war = { country = U88 }
+			war = { country = U89 }
+			war = { country = U90 }
+			war = { country = U91 }
+			war = { country = U93 }
+			war = { country = U94 }
+			war = { country = U95 }
+			war = { country = U96 }
+			war = { country = U97 }
+			war = { country = U98 }
+			war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 3
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = ALG value = 1 }
+		command = { type = peace which = ANG value = 1 }
+		command = { type = peace which = BEN value = 1 }
+		command = { type = peace which = BUR value = 1 }
+		command = { type = peace which = CAM value = 1 }
+		command = { type = peace which = CMB value = 1 }
+		command = { type = peace which = CON value = 1 }
+		command = { type = peace which = EAF value = 1 }
+		command = { type = peace which = EQA value = 1 }
+		command = { type = peace which = GAB value = 1 }
+		command = { type = peace which = GLD value = 1 }
+		command = { type = peace which = GUI value = 1 }
+		command = { type = peace which = GUY value = 1 }
+		command = { type = peace which = IDC value = 1 }
+		command = { type = peace which = IND value = 1 }
+		command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		command = { type = peace which = LBY value = 1 }
+		command = { type = peace which = MAD value = 1 }
+		command = { type = peace which = MAL value = 1 }
+		command = { type = peace which = MLY value = 1 }
+		command = { type = peace which = MOR value = 1 }
+		command = { type = peace which = MOZ value = 1 }
+		command = { type = peace which = NAM value = 1 }
+		command = { type = peace which = NIG value = 1 }
+		command = { type = peace which = PAK value = 1 }
+		command = { type = peace which = RHO value = 1 }
+		command = { type = peace which = SIE value = 1 }
+		command = { type = peace which = SOM value = 1 }
+		command = { type = peace which = SUD value = 1 }
+		command = { type = peace which = TUN value = 1 }
+		command = { type = peace which = VIE value = 1 }
+		command = { type = peace which = U70 value = 1 }
+		command = { type = peace which = U71 value = 1 }
+		command = { type = peace which = U72 value = 1 }
+		command = { type = peace which = U75 value = 1 }
+		command = { type = peace which = U81 value = 1 }
+		command = { type = peace which = U83 value = 1 }
+		command = { type = peace which = U84 value = 1 }
+		command = { type = peace which = U85 value = 1 }
+		command = { type = peace which = U86 value = 1 }
+		command = { type = peace which = U88 value = 1 }
+		command = { type = peace which = U89 value = 1 }
+		command = { type = peace which = U90 value = 1 }
+		command = { type = peace which = U91 value = 1 }
+		command = { type = peace which = U93 value = 1 }
+		command = { type = peace which = U94 value = 1 }
+		command = { type = peace which = U95 value = 1 }
+		command = { type = peace which = U96 value = 1 }
+		command = { type = peace which = U97 value = 1 }
+		command = { type = peace which = U98 value = 1 }
+		command = { type = peace which = U99 value = 1 }
+	}
+}
+
+# Colonial struggles - Belgium
+event = {
+	id = 8940001
+	tag = { BEL U17 }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			war = { country = ALG }
+			war = { country = ANG }
+			war = { country = BEN }
+			war = { country = BUR }
+			war = { country = CAM }
+			war = { country = CMB }
+			#war = { country = CON }
+			war = { country = EAF }
+			war = { country = EQA }
+			war = { country = GAB }
+			war = { country = GLD }
+			war = { country = GUI }
+			war = { country = GUY }
+			war = { country = IDC }
+			war = { country = IND }
+			war = { country = INO }
+			war = { country = LAO }
+			war = { country = LBY }
+			war = { country = MAD }
+			war = { country = MAL }
+			war = { country = MLY }
+			war = { country = MOR }
+			war = { country = MOZ }
+			war = { country = NAM }
+			war = { country = NIG }
+			war = { country = PAK }
+			war = { country = RHO }
+			war = { country = SIE }
+			war = { country = SOM }
+			war = { country = SUD }
+			war = { country = TUN }
+			war = { country = VIE }
+			war = { country = U70 }
+			war = { country = U71 }
+			war = { country = U72 }
+			war = { country = U75 }
+			war = { country = U81 }
+			war = { country = U83 }
+			war = { country = U84 }
+			war = { country = U85 }
+			war = { country = U86 }
+			war = { country = U88 }
+			war = { country = U89 }
+			war = { country = U90 }
+			war = { country = U91 }
+			war = { country = U93 }
+			war = { country = U94 }
+			#war = { country = U95 }
+			war = { country = U96 }
+			war = { country = U97 }
+			war = { country = U98 }
+			war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 3
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = ALG value = 1 }
+		command = { type = peace which = ANG value = 1 }
+		command = { type = peace which = BEN value = 1 }
+		command = { type = peace which = BUR value = 1 }
+		command = { type = peace which = CAM value = 1 }
+		command = { type = peace which = CMB value = 1 }
+		#command = { type = peace which = CON value = 1 }
+		command = { type = peace which = EAF value = 1 }
+		command = { type = peace which = EQA value = 1 }
+		command = { type = peace which = GAB value = 1 }
+		command = { type = peace which = GLD value = 1 }
+		command = { type = peace which = GUI value = 1 }
+		command = { type = peace which = GUY value = 1 }
+		command = { type = peace which = IDC value = 1 }
+		command = { type = peace which = IND value = 1 }
+		command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		command = { type = peace which = LBY value = 1 }
+		command = { type = peace which = MAD value = 1 }
+		command = { type = peace which = MAL value = 1 }
+		command = { type = peace which = MLY value = 1 }
+		command = { type = peace which = MOR value = 1 }
+		command = { type = peace which = MOZ value = 1 }
+		command = { type = peace which = NAM value = 1 }
+		command = { type = peace which = NIG value = 1 }
+		command = { type = peace which = PAK value = 1 }
+		command = { type = peace which = RHO value = 1 }
+		command = { type = peace which = SIE value = 1 }
+		command = { type = peace which = SOM value = 1 }
+		command = { type = peace which = SUD value = 1 }
+		command = { type = peace which = TUN value = 1 }
+		command = { type = peace which = VIE value = 1 }
+		command = { type = peace which = U70 value = 1 }
+		command = { type = peace which = U71 value = 1 }
+		command = { type = peace which = U72 value = 1 }
+		command = { type = peace which = U75 value = 1 }
+		command = { type = peace which = U81 value = 1 }
+		command = { type = peace which = U83 value = 1 }
+		command = { type = peace which = U84 value = 1 }
+		command = { type = peace which = U85 value = 1 }
+		command = { type = peace which = U86 value = 1 }
+		command = { type = peace which = U88 value = 1 }
+		command = { type = peace which = U89 value = 1 }
+		command = { type = peace which = U90 value = 1 }
+		command = { type = peace which = U91 value = 1 }
+		command = { type = peace which = U93 value = 1 }
+		command = { type = peace which = U94 value = 1 }
+		#command = { type = peace which = U95 value = 1 }
+		command = { type = peace which = U96 value = 1 }
+		command = { type = peace which = U97 value = 1 }
+		command = { type = peace which = U98 value = 1 }
+		command = { type = peace which = U99 value = 1 }
+	}
+}
+
+# Colonial struggles - United Kingdom
+event = {
+	id = 8940002
+	tag = { ENG U12 }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			war = { country = ALG }
+			war = { country = ANG }
+			war = { country = BEN }
+			#war = { country = BUR }
+			war = { country = CAM }
+			war = { country = CMB }
+			war = { country = CON }
+			#war = { country = EAF }
+			war = { country = EQA }
+			war = { country = GAB }
+			#war = { country = GLD }
+			war = { country = GUI }
+			#war = { country = GUY }
+			war = { country = IDC }
+			#war = { country = IND }
+			war = { country = INO }
+			war = { country = LBY }
+			war = { country = MAD }
+			war = { country = MAL }
+			#war = { country = MLY }
+			war = { country = MOR }
+			war = { country = MOZ }
+			war = { country = NAM }
+			#war = { country = NIG }
+			#war = { country = PAK }
+			#war = { country = RHO }
+			#war = { country = SIE }
+			war = { country = SOM }
+			#war = { country = SUD }
+			war = { country = TUN }
+			war = { country = VIE }
+			#war = { country = U70 }
+			#war = { country = U71 }
+			war = { country = U72 }
+			#war = { country = U75 }
+			war = { country = U81 }
+			#war = { country = U83 }
+			war = { country = U84 }
+			war = { country = U85 }
+			#war = { country = U86 }
+			war = { country = U88 }
+			#war = { country = U89 }
+			#war = { country = U90 }
+			#war = { country = U91 }
+			war = { country = U93 }
+			war = { country = U94 }
+			war = { country = U95 }
+			war = { country = U96 }
+			#war = { country = U97 }
+			#war = { country = U98 }
+			war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 3
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = ALG value = 1 }
+		command = { type = peace which = ANG value = 1 }
+		command = { type = peace which = BEN value = 1 }
+		#command = { type = peace which = BUR value = 1 }
+		command = { type = peace which = CAM value = 1 }
+		command = { type = peace which = CMB value = 1 }
+		command = { type = peace which = CON value = 1 }
+		#command = { type = peace which = EAF value = 1 }
+		command = { type = peace which = EQA value = 1 }
+		command = { type = peace which = GAB value = 1 }
+		#command = { type = peace which = GLD value = 1 }
+		command = { type = peace which = GUI value = 1 }
+		#command = { type = peace which = GUY value = 1 }
+		command = { type = peace which = IDC value = 1 }
+		#command = { type = peace which = IND value = 1 }
+		command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		command = { type = peace which = LBY value = 1 }
+		command = { type = peace which = MAD value = 1 }
+		command = { type = peace which = MAL value = 1 }
+		#command = { type = peace which = MLY value = 1 }
+		command = { type = peace which = MOR value = 1 }
+		command = { type = peace which = MOZ value = 1 }
+		command = { type = peace which = NAM value = 1 }
+		#command = { type = peace which = NIG value = 1 }
+		#command = { type = peace which = PAK value = 1 }
+		#command = { type = peace which = RHO value = 1 }
+		#command = { type = peace which = SIE value = 1 }
+		command = { type = peace which = SOM value = 1 }
+		#command = { type = peace which = SUD value = 1 }
+		command = { type = peace which = TUN value = 1 }
+		command = { type = peace which = VIE value = 1 }
+		#command = { type = peace which = U70 value = 1 }
+		#command = { type = peace which = U71 value = 1 }
+		command = { type = peace which = U72 value = 1 }
+		#command = { type = peace which = U75 value = 1 }
+		command = { type = peace which = U81 value = 1 }
+		#command = { type = peace which = U83 value = 1 }
+		command = { type = peace which = U84 value = 1 }
+		command = { type = peace which = U85 value = 1 }
+		#command = { type = peace which = U86 value = 1 }
+		command = { type = peace which = U88 value = 1 }
+		#command = { type = peace which = U89 value = 1 }
+		#command = { type = peace which = U90 value = 1 }
+		#command = { type = peace which = U91 value = 1 }
+		command = { type = peace which = U93 value = 1 }
+		command = { type = peace which = U94 value = 1 }
+		command = { type = peace which = U95 value = 1 }
+		command = { type = peace which = U96 value = 1 }
+		#command = { type = peace which = U97 value = 1 }
+		#command = { type = peace which = U98 value = 1 }
+		command = { type = peace which = U99 value = 1 }
+	}
+}
+
+# Colonial struggles - France
+event = {
+	id = 8940003
+	tag = { FRA U11 }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			#war = { country = ALG }
+			war = { country = ANG }
+			#war = { country = BEN }
+			war = { country = BUR }
+			#war = { country = CAM }
+			#war = { country = CMB }
+			war = { country = CON }
+			war = { country = EAF }
+			#war = { country = EQA }
+			#war = { country = GAB }
+			war = { country = GLD }
+			#war = { country = GUI }
+			war = { country = GUY }
+			#war = { country = IDC }
+			war = { country = IND }
+			war = { country = INO }
+			war = { country = LBY }
+			#war = { country = MAD }
+			#war = { country = MAL }
+			war = { country = MLY }
+			#war = { country = MOR }
+			war = { country = MOZ }
+			war = { country = NAM }
+			war = { country = NIG }
+			war = { country = PAK }
+			war = { country = RHO }
+			war = { country = SIE }
+			#war = { country = SOM }
+			war = { country = SUD }
+			#war = { country = TUN }
+			#war = { country = VIE }
+			war = { country = U70 }
+			war = { country = U71 }
+			#war = { country = U72 }
+			war = { country = U75 }
+			#war = { country = U81 }
+			war = { country = U83 }
+			#war = { country = U84 }
+			#war = { country = U85 }
+			war = { country = U86 }
+			#war = { country = U88 }
+			war = { country = U89 }
+			war = { country = U90 }
+			war = { country = U91 }
+			#war = { country = U93 }
+			#war = { country = U94 }
+			war = { country = U95 }
+			#war = { country = U96 }
+			war = { country = U97 }
+			war = { country = U98 }
+			#war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 30
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		#command = { type = peace which = ALG value = 1 }
+		command = { type = peace which = ANG value = 1 }
+		#command = { type = peace which = BEN value = 1 }
+		command = { type = peace which = BUR value = 1 }
+		#command = { type = peace which = CAM value = 1 }
+		#command = { type = peace which = CMB value = 1 }
+		command = { type = peace which = CON value = 1 }
+		command = { type = peace which = EAF value = 1 }
+		#command = { type = peace which = EQA value = 1 }
+		#command = { type = peace which = GAB value = 1 }
+		command = { type = peace which = GLD value = 1 }
+		#command = { type = peace which = GUI value = 1 }
+		command = { type = peace which = GUY value = 1 }
+		#command = { type = peace which = IDC value = 1 }
+		command = { type = peace which = IND value = 1 }
+		command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		command = { type = peace which = LBY value = 1 }
+		#command = { type = peace which = MAD value = 1 }
+		#command = { type = peace which = MAL value = 1 }
+		command = { type = peace which = MLY value = 1 }
+		#command = { type = peace which = MOR value = 1 }
+		command = { type = peace which = MOZ value = 1 }
+		command = { type = peace which = NAM value = 1 }
+		command = { type = peace which = NIG value = 1 }
+		command = { type = peace which = PAK value = 1 }
+		command = { type = peace which = RHO value = 1 }
+		command = { type = peace which = SIE value = 1 }
+		#command = { type = peace which = SOM value = 1 }
+		command = { type = peace which = SUD value = 1 }
+		#command = { type = peace which = TUN value = 1 }
+		#command = { type = peace which = VIE value = 1 }
+		command = { type = peace which = U70 value = 1 }
+		command = { type = peace which = U71 value = 1 }
+		#command = { type = peace which = U72 value = 1 }
+		command = { type = peace which = U75 value = 1 }
+		#command = { type = peace which = U81 value = 1 }
+		command = { type = peace which = U83 value = 1 }
+		#command = { type = peace which = U84 value = 1 }
+		#command = { type = peace which = U85 value = 1 }
+		command = { type = peace which = U86 value = 1 }
+		#command = { type = peace which = U88 value = 1 }
+		command = { type = peace which = U89 value = 1 }
+		command = { type = peace which = U90 value = 1 }
+		command = { type = peace which = U91 value = 1 }
+		#command = { type = peace which = U93 value = 1 }
+		#command = { type = peace which = U94 value = 1 }
+		command = { type = peace which = U95 value = 1 }
+		#command = { type = peace which = U96 value = 1 }
+		command = { type = peace which = U97 value = 1 }
+		command = { type = peace which = U98 value = 1 }
+		#command = { type = peace which = U99 value = 1 }
+	}
+}
+
+# Colonial struggles - Netherlands
+event = {
+	id = 8940004
+	tag = { HOL U10 U05 }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			war = { country = ALG }
+			war = { country = ANG }
+			war = { country = BEN }
+			war = { country = BUR }
+			war = { country = CAM }
+			war = { country = CMB }
+			war = { country = CON }
+			war = { country = EAF }
+			war = { country = EQA }
+			war = { country = GAB }
+			war = { country = GLD }
+			war = { country = GUI }
+			war = { country = GUY }
+			war = { country = IDC }
+			war = { country = IND }
+			#war = { country = INO }
+			war = { country = LAO }
+			war = { country = LBY }
+			war = { country = MAD }
+			war = { country = MAL }
+			war = { country = MLY }
+			war = { country = MOR }
+			war = { country = MOZ }
+			war = { country = NAM }
+			war = { country = NIG }
+			war = { country = PAK }
+			war = { country = RHO }
+			war = { country = SIE }
+			war = { country = SOM }
+			war = { country = SUD }
+			war = { country = TUN }
+			war = { country = VIE }
+			war = { country = U70 }
+			war = { country = U71 }
+			war = { country = U72 }
+			war = { country = U75 }
+			war = { country = U81 }
+			war = { country = U83 }
+			war = { country = U84 }
+			war = { country = U85 }
+			war = { country = U86 }
+			war = { country = U88 }
+			war = { country = U89 }
+			war = { country = U90 }
+			war = { country = U91 }
+			war = { country = U93 }
+			war = { country = U94 }
+			war = { country = U95 }
+			war = { country = U96 }
+			war = { country = U97 }
+			war = { country = U98 }
+			war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 3
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = ALG value = 1 }
+		command = { type = peace which = ANG value = 1 }
+		command = { type = peace which = BEN value = 1 }
+		command = { type = peace which = BUR value = 1 }
+		command = { type = peace which = CAM value = 1 }
+		command = { type = peace which = CMB value = 1 }
+		command = { type = peace which = CON value = 1 }
+		command = { type = peace which = EAF value = 1 }
+		command = { type = peace which = EQA value = 1 }
+		command = { type = peace which = GAB value = 1 }
+		command = { type = peace which = GLD value = 1 }
+		command = { type = peace which = GUI value = 1 }
+		command = { type = peace which = GUY value = 1 }
+		command = { type = peace which = IDC value = 1 }
+		command = { type = peace which = IND value = 1 }
+		#command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		command = { type = peace which = LBY value = 1 }
+		command = { type = peace which = MAD value = 1 }
+		command = { type = peace which = MAL value = 1 }
+		command = { type = peace which = MLY value = 1 }
+		command = { type = peace which = MOR value = 1 }
+		command = { type = peace which = MOZ value = 1 }
+		command = { type = peace which = NAM value = 1 }
+		command = { type = peace which = NIG value = 1 }
+		command = { type = peace which = PAK value = 1 }
+		command = { type = peace which = RHO value = 1 }
+		command = { type = peace which = SIE value = 1 }
+		command = { type = peace which = SOM value = 1 }
+		command = { type = peace which = SUD value = 1 }
+		command = { type = peace which = TUN value = 1 }
+		command = { type = peace which = VIE value = 1 }
+		command = { type = peace which = U70 value = 1 }
+		command = { type = peace which = U71 value = 1 }
+		command = { type = peace which = U72 value = 1 }
+		command = { type = peace which = U75 value = 1 }
+		command = { type = peace which = U81 value = 1 }
+		command = { type = peace which = U83 value = 1 }
+		command = { type = peace which = U84 value = 1 }
+		command = { type = peace which = U85 value = 1 }
+		command = { type = peace which = U86 value = 1 }
+		command = { type = peace which = U88 value = 1 }
+		command = { type = peace which = U89 value = 1 }
+		command = { type = peace which = U90 value = 1 }
+		command = { type = peace which = U91 value = 1 }
+		command = { type = peace which = U93 value = 1 }
+		command = { type = peace which = U94 value = 1 }
+		command = { type = peace which = U95 value = 1 }
+		command = { type = peace which = U96 value = 1 }
+		command = { type = peace which = U97 value = 1 }
+		command = { type = peace which = U98 value = 1 }
+		command = { type = peace which = U99 value = 1 }
+	}
+}
+
+# Colonial struggles - Italy
+event = {
+	id = 8940005
+	tag = { ITA U14 }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			war = { country = ALG }
+			war = { country = ANG }
+			war = { country = BEN }
+			war = { country = BUR }
+			war = { country = CAM }
+			war = { country = CMB }
+			war = { country = CON }
+			war = { country = EAF }
+			war = { country = EQA }
+			war = { country = GAB }
+			war = { country = GLD }
+			war = { country = GUI }
+			war = { country = GUY }
+			war = { country = IDC }
+			war = { country = IND }
+			war = { country = INO }
+			war = { country = LAO }
+			#war = { country = LBY }
+			war = { country = MAD }
+			war = { country = MAL }
+			war = { country = MLY }
+			war = { country = MOR }
+			war = { country = MOZ }
+			war = { country = NAM }
+			war = { country = NIG }
+			war = { country = PAK }
+			war = { country = RHO }
+			war = { country = SIE }
+			#war = { country = SOM }
+			war = { country = SUD }
+			war = { country = TUN }
+			war = { country = VIE }
+			war = { country = U70 }
+			war = { country = U71 }
+			war = { country = U72 }
+			war = { country = U75 }
+			war = { country = U81 }
+			war = { country = U83 }
+			war = { country = U84 }
+			war = { country = U85 }
+			war = { country = U86 }
+			war = { country = U88 }
+			war = { country = U89 }
+			war = { country = U90 }
+			war = { country = U91 }
+			war = { country = U93 }
+			war = { country = U94 }
+			war = { country = U95 }
+			war = { country = U96 }
+			war = { country = U97 }
+			war = { country = U98 }
+			war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 3
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = ALG value = 1 }
+		command = { type = peace which = ANG value = 1 }
+		command = { type = peace which = BEN value = 1 }
+		command = { type = peace which = BUR value = 1 }
+		command = { type = peace which = CAM value = 1 }
+		command = { type = peace which = CMB value = 1 }
+		command = { type = peace which = CON value = 1 }
+		command = { type = peace which = EAF value = 1 }
+		command = { type = peace which = EQA value = 1 }
+		command = { type = peace which = GAB value = 1 }
+		command = { type = peace which = GLD value = 1 }
+		command = { type = peace which = GUI value = 1 }
+		command = { type = peace which = GUY value = 1 }
+		command = { type = peace which = IDC value = 1 }
+		command = { type = peace which = IND value = 1 }
+		command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		#command = { type = peace which = LBY value = 1 }
+		command = { type = peace which = MAD value = 1 }
+		command = { type = peace which = MAL value = 1 }
+		command = { type = peace which = MLY value = 1 }
+		command = { type = peace which = MOR value = 1 }
+		command = { type = peace which = MOZ value = 1 }
+		command = { type = peace which = NAM value = 1 }
+		command = { type = peace which = NIG value = 1 }
+		command = { type = peace which = PAK value = 1 }
+		command = { type = peace which = RHO value = 1 }
+		command = { type = peace which = SIE value = 1 }
+		#command = { type = peace which = SOM value = 1 }
+		command = { type = peace which = SUD value = 1 }
+		command = { type = peace which = TUN value = 1 }
+		command = { type = peace which = VIE value = 1 }
+		command = { type = peace which = U70 value = 1 }
+		command = { type = peace which = U71 value = 1 }
+		command = { type = peace which = U72 value = 1 }
+		command = { type = peace which = U75 value = 1 }
+		command = { type = peace which = U81 value = 1 }
+		command = { type = peace which = U83 value = 1 }
+		command = { type = peace which = U84 value = 1 }
+		command = { type = peace which = U85 value = 1 }
+		command = { type = peace which = U86 value = 1 }
+		command = { type = peace which = U88 value = 1 }
+		command = { type = peace which = U89 value = 1 }
+		command = { type = peace which = U90 value = 1 }
+		command = { type = peace which = U91 value = 1 }
+		command = { type = peace which = U93 value = 1 }
+		command = { type = peace which = U94 value = 1 }
+		command = { type = peace which = U95 value = 1 }
+		command = { type = peace which = U96 value = 1 }
+		command = { type = peace which = U97 value = 1 }
+		command = { type = peace which = U98 value = 1 }
+		command = { type = peace which = U99 value = 1 }
+	}
+}
+
+# Colonial struggles - Portugal
+event = {
+	id = 8940006
+	tag = { POR U15 }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			war = { country = ALG }
+			#war = { country = ANG }
+			war = { country = BEN }
+			war = { country = BUR }
+			war = { country = CAM }
+			war = { country = CMB }
+			war = { country = CON }
+			war = { country = EAF }
+			war = { country = EQA }
+			war = { country = GAB }
+			war = { country = GLD }
+			war = { country = GUI }
+			war = { country = GUY }
+			war = { country = IDC }
+			war = { country = IND }
+			war = { country = INO }
+			war = { country = LAO }
+			war = { country = LBY }
+			war = { country = MAD }
+			war = { country = MAL }
+			war = { country = MLY }
+			war = { country = MOR }
+			#war = { country = MOZ }
+			war = { country = NAM }
+			war = { country = NIG }
+			war = { country = PAK }
+			war = { country = RHO }
+			war = { country = SIE }
+			war = { country = SOM }
+			war = { country = SUD }
+			war = { country = TUN }
+			war = { country = VIE }
+			war = { country = U70 }
+			war = { country = U71 }
+			war = { country = U72 }
+			war = { country = U75 }
+			war = { country = U81 }
+			war = { country = U83 }
+			war = { country = U84 }
+			war = { country = U85 }
+			war = { country = U86 }
+			war = { country = U88 }
+			war = { country = U89 }
+			war = { country = U90 }
+			war = { country = U91 }
+			war = { country = U93 }
+			war = { country = U94 }
+			war = { country = U95 }
+			war = { country = U96 }
+			war = { country = U97 }
+			war = { country = U98 }
+			war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 3
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = ALG value = 1 }
+		#command = { type = peace which = ANG value = 1 }
+		command = { type = peace which = BEN value = 1 }
+		command = { type = peace which = BUR value = 1 }
+		command = { type = peace which = CAM value = 1 }
+		command = { type = peace which = CMB value = 1 }
+		command = { type = peace which = CON value = 1 }
+		command = { type = peace which = EAF value = 1 }
+		command = { type = peace which = EQA value = 1 }
+		command = { type = peace which = GAB value = 1 }
+		command = { type = peace which = GLD value = 1 }
+		command = { type = peace which = GUI value = 1 }
+		command = { type = peace which = GUY value = 1 }
+		command = { type = peace which = IDC value = 1 }
+		command = { type = peace which = IND value = 1 }
+		command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		command = { type = peace which = LBY value = 1 }
+		command = { type = peace which = MAD value = 1 }
+		command = { type = peace which = MAL value = 1 }
+		command = { type = peace which = MLY value = 1 }
+		command = { type = peace which = MOR value = 1 }
+		#command = { type = peace which = MOZ value = 1 }
+		command = { type = peace which = NAM value = 1 }
+		command = { type = peace which = NIG value = 1 }
+		command = { type = peace which = PAK value = 1 }
+		command = { type = peace which = RHO value = 1 }
+		command = { type = peace which = SIE value = 1 }
+		command = { type = peace which = SOM value = 1 }
+		command = { type = peace which = SUD value = 1 }
+		command = { type = peace which = TUN value = 1 }
+		command = { type = peace which = VIE value = 1 }
+		command = { type = peace which = U70 value = 1 }
+		command = { type = peace which = U71 value = 1 }
+		command = { type = peace which = U72 value = 1 }
+		command = { type = peace which = U75 value = 1 }
+		command = { type = peace which = U81 value = 1 }
+		command = { type = peace which = U83 value = 1 }
+		command = { type = peace which = U84 value = 1 }
+		command = { type = peace which = U85 value = 1 }
+		command = { type = peace which = U86 value = 1 }
+		command = { type = peace which = U88 value = 1 }
+		command = { type = peace which = U89 value = 1 }
+		command = { type = peace which = U90 value = 1 }
+		command = { type = peace which = U91 value = 1 }
+		command = { type = peace which = U93 value = 1 }
+		command = { type = peace which = U94 value = 1 }
+		command = { type = peace which = U95 value = 1 }
+		command = { type = peace which = U96 value = 1 }
+		command = { type = peace which = U97 value = 1 }
+		command = { type = peace which = U98 value = 1 }
+		command = { type = peace which = U99 value = 1 }
+	}
+}
+
+# Colonial struggles - South Africa
+event = {
+	id = 8940007
+	tag = { SAF }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			war = { country = ALG }
+			war = { country = ANG }
+			war = { country = BEN }
+			war = { country = BUR }
+			war = { country = CAM }
+			war = { country = CMB }
+			war = { country = CON }
+			war = { country = EAF }
+			war = { country = EQA }
+			war = { country = GAB }
+			war = { country = GLD }
+			war = { country = GUI }
+			war = { country = GUY }
+			war = { country = IDC }
+			war = { country = IND }
+			war = { country = INO }
+			war = { country = LAO }
+			war = { country = LBY }
+			war = { country = MAD }
+			war = { country = MAL }
+			war = { country = MLY }
+			war = { country = MOR }
+			war = { country = MOZ }
+			#war = { country = NAM }
+			war = { country = NIG }
+			war = { country = PAK }
+			war = { country = RHO }
+			war = { country = SIE }
+			war = { country = SOM }
+			war = { country = SUD }
+			war = { country = TUN }
+			war = { country = VIE }
+			war = { country = U70 }
+			war = { country = U71 }
+			war = { country = U72 }
+			war = { country = U75 }
+			war = { country = U81 }
+			war = { country = U83 }
+			war = { country = U84 }
+			war = { country = U85 }
+			war = { country = U86 }
+			war = { country = U88 }
+			war = { country = U89 }
+			war = { country = U90 }
+			war = { country = U91 }
+			war = { country = U93 }
+			war = { country = U94 }
+			war = { country = U95 }
+			war = { country = U96 }
+			war = { country = U97 }
+			war = { country = U98 }
+			war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 3
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = ALG value = 1 }
+		command = { type = peace which = ANG value = 1 }
+		command = { type = peace which = BEN value = 1 }
+		command = { type = peace which = BUR value = 1 }
+		command = { type = peace which = CAM value = 1 }
+		command = { type = peace which = CMB value = 1 }
+		command = { type = peace which = CON value = 1 }
+		command = { type = peace which = EAF value = 1 }
+		command = { type = peace which = EQA value = 1 }
+		command = { type = peace which = GAB value = 1 }
+		command = { type = peace which = GLD value = 1 }
+		command = { type = peace which = GUI value = 1 }
+		command = { type = peace which = GUY value = 1 }
+		command = { type = peace which = IDC value = 1 }
+		command = { type = peace which = IND value = 1 }
+		command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		command = { type = peace which = LBY value = 1 }
+		command = { type = peace which = MAD value = 1 }
+		command = { type = peace which = MAL value = 1 }
+		command = { type = peace which = MLY value = 1 }
+		command = { type = peace which = MOR value = 1 }
+		command = { type = peace which = MOZ value = 1 }
+		#command = { type = peace which = NAM value = 1 }
+		command = { type = peace which = NIG value = 1 }
+		command = { type = peace which = PAK value = 1 }
+		command = { type = peace which = RHO value = 1 }
+		command = { type = peace which = SIE value = 1 }
+		command = { type = peace which = SOM value = 1 }
+		command = { type = peace which = SUD value = 1 }
+		command = { type = peace which = TUN value = 1 }
+		command = { type = peace which = VIE value = 1 }
+		command = { type = peace which = U70 value = 1 }
+		command = { type = peace which = U71 value = 1 }
+		command = { type = peace which = U72 value = 1 }
+		command = { type = peace which = U75 value = 1 }
+		command = { type = peace which = U81 value = 1 }
+		command = { type = peace which = U83 value = 1 }
+		command = { type = peace which = U84 value = 1 }
+		command = { type = peace which = U85 value = 1 }
+		command = { type = peace which = U86 value = 1 }
+		command = { type = peace which = U88 value = 1 }
+		command = { type = peace which = U89 value = 1 }
+		command = { type = peace which = U90 value = 1 }
+		command = { type = peace which = U91 value = 1 }
+		command = { type = peace which = U93 value = 1 }
+		command = { type = peace which = U94 value = 1 }
+		command = { type = peace which = U95 value = 1 }
+		command = { type = peace which = U96 value = 1 }
+		command = { type = peace which = U97 value = 1 }
+		command = { type = peace which = U98 value = 1 }
+		command = { type = peace which = U99 value = 1 }
+	}
+}
+
+# Colonial struggles - Spain
+event = {
+	id = 8940008
+	tag = { SPR SPA U35 }
+	persistent = yes
+	
+	trigger = {
+		NOT = { government = fascist }
+		OR = {
+			war = { country = ALG }
+			war = { country = ANG }
+			war = { country = BEN }
+			war = { country = BUR }
+			war = { country = CAM }
+			war = { country = CMB }
+			war = { country = CON }
+			war = { country = EAF }
+			war = { country = EQA }
+			war = { country = GAB }
+			war = { country = GLD }
+			war = { country = GUI }
+			war = { country = GUY }
+			war = { country = IDC }
+			war = { country = IND }
+			war = { country = INO }
+			war = { country = LAO }
+			war = { country = LBY }
+			war = { country = MAD }
+			war = { country = MAL }
+			war = { country = MLY }
+			#war = { country = MOR }
+			war = { country = MOZ }
+			war = { country = NAM }
+			war = { country = NIG }
+			war = { country = PAK }
+			war = { country = RHO }
+			war = { country = SIE }
+			war = { country = SOM }
+			war = { country = SUD }
+			war = { country = TUN }
+			war = { country = VIE }
+			war = { country = U70 }
+			war = { country = U71 }
+			war = { country = U72 }
+			war = { country = U75 }
+			war = { country = U81 }
+			war = { country = U83 }
+			war = { country = U84 }
+			war = { country = U85 }
+			war = { country = U86 }
+			war = { country = U88 }
+			war = { country = U89 }
+			war = { country = U90 }
+			war = { country = U91 }
+			war = { country = U93 }
+			war = { country = U94 }
+			war = { country = U95 }
+			war = { country = U96 }
+			war = { country = U97 }
+			war = { country = U98 }
+			war = { country = U99 }
+		}
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\colonialism"
+	style = 1
+
+    date = { day = 0 month = january year = 1936 }
+    offset = 3
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = ALG value = 1 }
+		command = { type = peace which = ANG value = 1 }
+		command = { type = peace which = BEN value = 1 }
+		command = { type = peace which = BUR value = 1 }
+		command = { type = peace which = CAM value = 1 }
+		command = { type = peace which = CMB value = 1 }
+		command = { type = peace which = CON value = 1 }
+		command = { type = peace which = EAF value = 1 }
+		command = { type = peace which = EQA value = 1 }
+		command = { type = peace which = GAB value = 1 }
+		command = { type = peace which = GLD value = 1 }
+		command = { type = peace which = GUI value = 1 }
+		command = { type = peace which = GUY value = 1 }
+		command = { type = peace which = IDC value = 1 }
+		command = { type = peace which = IND value = 1 }
+		command = { type = peace which = INO value = 1 }
+		command = { type = peace which = LAO value = 1 }
+		command = { type = peace which = LBY value = 1 }
+		command = { type = peace which = MAD value = 1 }
+		command = { type = peace which = MAL value = 1 }
+		command = { type = peace which = MLY value = 1 }
+		#command = { type = peace which = MOR value = 1 }
+		command = { type = peace which = MOZ value = 1 }
+		command = { type = peace which = NAM value = 1 }
+		command = { type = peace which = NIG value = 1 }
+		command = { type = peace which = PAK value = 1 }
+		command = { type = peace which = RHO value = 1 }
+		command = { type = peace which = SIE value = 1 }
+		command = { type = peace which = SOM value = 1 }
+		command = { type = peace which = SUD value = 1 }
+		command = { type = peace which = TUN value = 1 }
+		command = { type = peace which = VIE value = 1 }
+		command = { type = peace which = U70 value = 1 }
+		command = { type = peace which = U71 value = 1 }
+		command = { type = peace which = U72 value = 1 }
+		command = { type = peace which = U75 value = 1 }
+		command = { type = peace which = U81 value = 1 }
+		command = { type = peace which = U83 value = 1 }
+		command = { type = peace which = U84 value = 1 }
+		command = { type = peace which = U85 value = 1 }
+		command = { type = peace which = U86 value = 1 }
+		command = { type = peace which = U88 value = 1 }
+		command = { type = peace which = U89 value = 1 }
+		command = { type = peace which = U90 value = 1 }
+		command = { type = peace which = U91 value = 1 }
+		command = { type = peace which = U93 value = 1 }
+		command = { type = peace which = U94 value = 1 }
+		command = { type = peace which = U95 value = 1 }
+		command = { type = peace which = U96 value = 1 }
+		command = { type = peace which = U97 value = 1 }
+		command = { type = peace which = U98 value = 1 }
+		command = { type = peace which = U99 value = 1 }
+	}
+}
+
+### Greek Civil War
+
+event = {
+	id = 8940010
+	tag = { ALB ARM AST AUS AZB BLR BUL BUR BEL CAN CZE DEN DFR ENG EST ETH FIN FRA GEO HOL HUN ICL IRE IRQ ISR ITA JAP KOR LAT LIT LUX NOR NZL OMN PER PHI POL POR ROM SAF SPA SPR SWE TUR UKR USA YEM YUG U02 U05 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U25 U26 U27 U28 U29 U30 U31 U32 U34 U35 }
+	persistent = yes
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940100
+	country = ALB
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940101
+	country = ARM
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940102
+	country = AST
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940103
+	country = AUS
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940104
+	country = AZB
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940105
+	country = BLR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940106
+	country = BUL
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940107
+	country = BUR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940108
+	country = BEL
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940109
+	country = CAN
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940110
+	country = CZE
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940111
+	country = DEN
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940112
+	country = DFR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940113
+	country = ENG
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940114
+	country = EST
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940115
+	country = ETH
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940116
+	country = FIN
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940117
+	country = FRA	
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940118
+	country = GEO
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940119
+	country = HOL
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940120
+	country = HUN
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940121
+	country = ICL
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940122
+	country = IRE
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940123
+	country = IRQ
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940124
+	country = ISR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940125
+	country = ITA
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940126
+	country = JAP
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940127
+	country = KOR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940128
+	country = LAT
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940129
+	country = LIT
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940130
+	country = LUX
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940131
+	country = NOR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940132
+	country = NZL
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940133
+	country = OMN
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940134
+	country = PER
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940135
+	country = PHI
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940136
+	country = POL
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940137
+	country = POR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940138
+	country = ROM
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940139
+	country = SAF
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940140
+	country = SPA
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940141
+	country = SPR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940142
+	country = SWE
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940143
+	country = TUR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940144
+	country = UKR
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940145
+	country = USA
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940146
+	country = YEM
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940147
+	country = YUG
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940148
+	country = U02
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940149
+	country = U05
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940150
+	country = U10
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940151
+	country = U11
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940152
+	country = U12
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940153
+	country = U13
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940154
+	country = U14
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940155
+	country = U15
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940156
+	country = U16
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940157
+	country = U17
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940158
+	country = U18
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940159
+	country = U19
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940160
+	country = U20
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940161
+	country = U21
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940162
+	country = U22
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940163
+	country = U23
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940164
+	country = U24
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940165
+	country = U25
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940166
+	country = U26
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940167
+	country = U27
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940168
+	country = U28
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940169
+	country = U29
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940170
+	country = U30
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940171
+	country = U31
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940172
+	country = U32
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940173
+	country = U34
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}
+
+event = {
+	id = 8940174
+	country = U35
+	
+	trigger = {
+		war = { country = U33 }
+		flag = cold_war
+	}
+
+	name = EVT_LIMITEDWAR_NAME
+	desc = EVT_LIMITEDWAR_DESC
+	picture = "nwo\greek_civil_war"
+	style = 1
+	
+	date = { day = 0 month = january year = 1936 }
+    offset = 1
+	deathdate = { day = 29 month = december year = 1963 }
+
+	action = {
+		name = OK
+		command = { type = peace which = U33 value = 1 }
+	}
+}

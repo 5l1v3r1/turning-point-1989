@@ -1,0 +1,32 @@
+CAN;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+220001;Head of State;HM Elizabeth II of Windsor;1985;2012;2012;SC;Popular Figurehead;High;UK1;X
+220002;Head of Government;Brian Mulroney;1985;2012;2012;ML;Corporate Suit;High;CAN1;X
+220003;Foreign Minister;Joe Clark;1985;2012;2012;ML;Great Compromiser;High;CAN2;X
+220004;Minister of Armament;Michael Wilson;1985;2012;2012;ML;Laissez-Faire Capitalist;High;CAN3;X
+220005;Minister of Security;John Crosbie;1985;2012;2012;ML;Crime Fighter;High;CAN4;X
+220006;Head of Military Intelligence;Ted Finn;1985;2012;2012;ML;Political Specialist;High;CAN5;X
+220007;Chief of Staff;Gérard C.E. Thériault;1985;2012;2012;ML;School of Manoeuvre;High;CAN6;X
+220008;Chief of Army;Charles H. Belzile;1985;2012;2012;ML;Armoured Spearhead Doctrine;High;CAN7;X
+220009;Chief of Navy;James C. Wood;1985;2012;2012;ML;Open Seas Doctrine;High;CAN8;X
+220010;Chief of Air Force;Paul D. Manson;1985;2012;2012;ML;Air Superiority Doctrine;High;CAN9;X
+;Replacements;;;;;;;;;X
+220011;Head of State;William Kashtan;1985;2012;2012;LE;Autocratic Charmer;High;CAN10;X
+220012;Head of Government;William Kashtan;1985;2012;2012;LE;Ambitious Union Boss;High;CAN10;X
+220013;Foreign Minister;Elizabeth Rowley;1985;2012;2012;LE;Ideological Crusader;High;CAN11;X
+220014;Minister of Armament;Sam Hammond;1985;2012;2012;LE;Resource Industrialist;High;unknown;X
+220015;Minister of Security;Miguel Figueroa;1985;2012;2012;LE;Man of the People;High;CAN12;
+220016;Head of Military Intelligence;Miguel Figueroa;1985;2012;2012;LE;Political Specialist;High;CAN12;
+220017;Chief of Staff;Supreme Defence Council;1985;2012;2012;LE;School of Defence;High;unknown;X
+220018;Chief of Army;Supreme Defence Council;1985;2012;2012;LE;Static Defence Doctrine;High;unknown;X
+220019;Chief of Navy;Supreme Defence Council;1985;2012;2012;LE;Indirect Approach Doctrine;High;unknown;X
+220020;Chief of Air Force;Supreme Defence Council;1985;2012;2012;LE;Army Aviation Doctrine;High;unknown;X
+220021;Head of State;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220022;Head of Government;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220023;Foreign Minister;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220024;Minister of Armament;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220025;Minister of Security;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220026;Head of Military Intelligence;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220027;Chief of Staff;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220028;Chief of Army;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220029;Chief of Navy;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+220030;Chief of Air Force;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X

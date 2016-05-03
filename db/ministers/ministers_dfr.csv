@@ -1,0 +1,60 @@
+DFR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+630001;Head of State;Richard von Weizsäcker;1985;1994;2014;SL;Insignificant Layman;High;FRG1;X
+630002;Head of Government;Helmut Kohl;1985;1998;2012;SL;Corporate Suit;High;FRG2;X
+630003;Foreign Minister;Hans-Dietrich Genscher;1985;1998;2012;ML;Great Compromiser;Very High;FRG3;X
+630004;Minister of Armament;Martin Bangemann;1984;1988;2012;ML;Resource Industrialist;Medium;FRG4;X
+630005;Minister of Security;Friedrich Zimmermann;1985;1989;2012;SL;Man of the People;Medium;FRG5;X
+630006;Head of Military Intelligence;Hans-Georg Wieck;1985;1990;2012;SD;Political Specialist;Medium;FRG6;X
+630007;Chief of Staff;Wolfgang Altenburg;1985;1986;2012;SL;School of Manoeuvre;Medium;FRG7;X
+630008;Chief of Army;Hans-Henning von Sandrart;1984;1987;2012;SL;Armoured Spearhead Doctrine;Medium;FRG8;X
+630009;Chief of Navy;Dieter Wellershoff;1985;1986;2012;SL;Indirect Approach Doctrine;Medium;FRG9;X
+630010;Chief of Air Force;Eberhard Eimler;1985;1987;1990;SL;Air Superiority Doctrine;Medium;FRG10;X
+630011;Minister of Armament;Helmut Haussmann;1988;1991;2012;ML;Keynesian Economy;Medium;FRG_M_Haussmann;X
+630012;Minister of Armament;Jürgen W. Möllemann;1991;1993;2012;ML;Corrupt Kleptocrat;Low;FRG_M_Mölle;X
+630013;Minister of Armament;Günther Rexrodt;1993;1998;2012;ML;Balanced Budget Economy;Medium;FRG_M_Rexroth;X
+630014;Minister of Security;Wolgang Schäuble;1989;1991;2012;SL;Crime Fighter;Medium;FRG_M_Schäuble;X
+630015;Minister of Security;Rudolf Seiters;1991;1993;2012;SL;Silent Lawyer;High;FRG_M_Seiters;X
+630016;Head of Military Intelligence;Konrad Porzner;1990;1996;2012;SD;Political Specialist;Medium;FRG_M_Prozner;X
+630017;Head of Military Intelligence;Hansjörg Geiger;1996;1998;2012;SD;Political Specialist;Medium;FRG_M_Geiger;X
+630018;Chief of Staff;Dieter Wellershoff;1986;1991;1991;SL;School of Manoeuvre;Medium;Dieter Wellershoff;X
+630019;Chief of Staff;Klaus Naumann;1991;1996;1996;SL;School of Fire Support;Medium;Klaus Naumann;X
+630020;Chief of Staff;Hartmut Bagger;1996;1999;1999;SL;School of Psychology;Medium;Hartmut Bagger;X
+630021;Chief of Army;Henning von Ondarza;1987;1991;1991;SL;Armoured Spearhead Doctrine;Medium;FRG_L_Ondarza;X
+630022;Chief of Army;Jörg Schönbohm;1991;1992;1992;SL;Armoured Spearhead Doctrine;Medium;FRG_L_Schönbohm;X
+630023;Chief of Army;Helge Hansen;1992;1994;1994;SL;Armoured Spearhead Doctrine;Medium;FRG_L_Hansen;X
+630024;Chief of Army;Hartmut Bagger;1994;1996;1999;SL;Armoured Spearhead Doctrine;Medium;Hartmut Bagger;X
+630025;Chief of Navy;Hans-Joachim Mann;1986;1991;1991;SL;Open Seas Doctrine;Medium;unknownleader;X
+630026;Chief of Navy;Hein-Peter Weyher;1991;1995;1995;SL;Decisive Naval Battle Doctrine;Medium;FGR_L_Weyher;X
+630027;Chief of Navy;Hans-Rudolf Boehmer;1995;1998;1998;SL;Power Projection Doctrine;Medium;FRG_L_Boehmer;X
+630028;Chief of Navy;Hans Lüssow;1998;2003;2003;SL;Indirect Approach Doctrine;Medium;FRG_L_Lüssow;X
+630029;Chief of Air Force;Horst Jungkurth;1987;1991;1991;SL;Air Superiority Doctrine;Medium;FRG_L_Jungkurth;X
+630030;Chief of Air Force;Jörg Kuebart;1991;1994;1994;SL;Air Superiority Doctrine;Medium;FRG_L_Kuebart;X
+630031;Chief of Air Force;Bernhard Mende;1994;1997;1997;SL;Air Superiority Doctrine;Medium;FRG_L_Mende;X
+630032;Chief of Air Force;Rolf H. Portz;1997;2001;2001;SL;Air Superiority Doctrine;Medium;FRG_L_Portz;X
+630033;Chief of Air Force;Gerhard W. Back;2001;2004;2007;SL;Air Superiority Doctrine;Medium;FRG_L_Back;X
+;Replacements;;;;;;;;;X
+630034;Head of State;Michael Kühnen;1985;2012;2012;NS;PowerHungry Demagogue;Very High;GER1;X
+630035;Head of Government;Michael Kühnen;1985;2012;2012;NS;Flamboyant Tough Guy;Very High;GER1;X
+630036;Foreign Minister;Friedhelm Busse;1985;2012;2012;NS;Ideological Crusader;Very High;GER2;X
+630037;Minister of Armament;Jürgen Rieger;1985;2012;2012;NS;Administrative Genius;Very High;GER3;X
+630038;Minister of Security;Christian Worch;1985;2012;2012;NS;Prince of Terror;Very High;GER4;X
+630039;Head of Military Intelligence;Otto Ernst Remer;1985;2012;2012;NS;Dismal Enigma;Very High;GER5;X
+630040;Chief of Staff;Udo Voigt;1985;2012;2012;NS;School of Fire Support;Very High;GER6;X
+630041;Chief of Army;Otto Riehs;1985;2012;2012;NS;Guns and Butter Doctrine;Very High;GER7;X
+630042;Chief of Navy;Ernst Thomsen;1985;2012;2012;NS;Indirect Approach Doctrine;Very High;unknownleader;X
+630043;Chief of Air Force;Udo Voigt;1985;2012;2012;NS;Air Superiority Doctrine;Very High;GER6;X
+630044;Head of Government;Johannes Rau;1985;2006;2006;SD;Naive Optimist;High;M630091;X
+630045;Foreign Minister;Hans-Jürgen Wischnewski;1985;1991;2012;SD;Ideological Crusader;High;FRG_M_Wischnewski;X
+630046;Minister of Armament;Hans Apel;1985;1991;2012;SD;Resource Industrialist;High;FRG_M_Apel;X
+630047;Minister of Security;Hans-Jochen Vogel;1985;1991;2012;SD;Silent Lawyer;High;M630090;X
+630048;Head of Government;Oskar Lafontaine;1990;1996;2012;SD;Political Protege;High;M630092;X
+630049;Foreign Minister;Joschka Fischer;1990;2012;2012;SL;Great Compromiser;Medium;FRG_M_Fischer;X
+630050;Minister of Armament;Rudolf Scharping;1990;2012;2012;SD;Theoretical Scientist;Medium;FRG_M_Scharping;X
+630051;Minister of Security;Gerd Wartenberg;1990;2012;2012;SD;Crime Fighter;Medium;FRG_M_Wartenberg;X
+630052;Head of State;Johannes Rau;1994;2006;2006;SD;Insignificant Layman;High;M630091;X
+630053;Head of State;Roman Herzog;1994;2012;2012;SD;Insignificant Layman;High;FRG_M_Herzog;X
+630054;Head of State;Dagmar Schipanski;1999;2012;2012;SD;Insignificant Layman;High;FRG_M_Schipanski;X
+630055;Head of Government;Gerhard Schröder;1998;2014;2014;SL;Ambitious Union Boss;High;M31002;x
+630056;Minister of Armament;Wolfgang Clement;1998;2014;2014;SL;laissez-faire capitalist;High;M31004;X
+630057;Minister of Security;Otto Schilly;1998;2014;2014;SL;Crime Fighter;High;M31005;X
+630058;Head of Military Intelligence;August Hanning;1998;2014;2014;SL;Technical Specialist;High;M31006;X

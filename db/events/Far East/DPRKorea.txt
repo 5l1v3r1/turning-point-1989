@@ -1,0 +1,48 @@
+##########################################################################
+#Kim Il-sung is dead
+#########################################################################
+event = {
+	id = 9500000
+	random = no
+	country = PRK
+
+	name = "DG_1"
+	desc = "DG_1_desc"
+	style = 1
+	picture = "dprkfuneral"
+
+    date = { day = 8 month = july year = 1994 }
+
+	action = {
+		 name = "ACTION_NAME_HORRIBLE"
+		 command = { type = dissent value = 5 }
+		 command = { type = sleepminister which = 735001 }
+		 command = { type = sleepminister which = 735002 }
+		 command = { type = sleepminister which = 735003 }
+		 command = { type = sleepminister which = 735004 }
+		 command = { type = sleepminister which = 735006 }
+		 command = { type = sleepminister which = 735008 }
+		 command = { type = headofstate which = 735011 }
+		 command = { type = headofgovernment which = 735012 }
+	}
+}
+##########################################################################
+#Appoint Kim Jong-il as Chairman of the NDC
+#########################################################################
+event = {
+	id = 9500001
+	random = no
+	country = PRK
+
+	name = "DG_2"
+	desc = "DG_2_desc"
+	style = 1
+	picture = "dprk1"
+
+     date = { day = 9 month = april year = 1993 }
+
+	action = {
+		 name = "ACTION_NAME_OK"
+		 command = { type = chiefofstaff which = 735017 }
+	}
+}

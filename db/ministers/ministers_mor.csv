@@ -1,0 +1,22 @@
+MOR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+505001;Head of State;HM Hassan II;1985;2012;2012;FA;Autocratic Charmer;Very High;MOR1;X
+505002;Head of Government;Mohammed Karim Lamrani;1985;2012;2012;PA;Political Protege;High;MOR2;X
+505003;Foreign Minister;Abdellatif Filali;1985;2012;2012;ML;Great Compromiser;High;MOR3;X
+505004;Minister of Armament;HM Hassan II;1985;2012;2012;FA;Military Entrepreneur;Very High;MOR1;X
+505005;Minister of Security;HM Hassan II;1985;2012;2012;FA;Back Stabber;Very High;MOR1;X
+505006;Head of Military Intelligence;HM Hassan II;1985;2012;2012;FA;Dismal Enigma;Very High;MOR1;X
+505007;Chief of Staff;HM Hassan II;1985;2012;2012;FA;School of Manoeuvre;Very High;MOR1;X
+505008;Chief of Army;HM Hassan II;1985;2012;2012;FA;Decisive Battle Doctrine;Very High;MOR1;X
+505009;Chief of Navy;HM Hassan II;1985;2012;2012;FA;Decisive Naval Battle Doctrine;Very High;MOR1;X
+505010;Chief of Air Force;HM Hassan II;1985;2012;2012;FA;Army Aviation Doctrine;Very High;MOR1;X
+;Replacements;;;;;;;;;X
+505011;Head of State;Abderrahmane Youssoufi;1985;2012;2012;SD;Weary Stiffneck;Very High;MOR4;X
+505012;Head of Government;Abderrahmane Youssoufi;1985;2012;2012;SD;Ambitious Union Boss;Very High;MOR4;X
+505013;Foreign Minister;Abderrahmane Youssoufi;1985;2012;2012;SD;Great Compromiser;Very High;MOR4;X
+505014;Minister of Armament;Abderrahmane Youssoufi;1985;2012;2012;SD;Administrative Genius;Very High;MOR4;X
+505015;Minister of Security;Abderrahmane Youssoufi;1985;2012;2012;SD;Man of the People;Very High;MOR4;X
+505016;Head of Military Intelligence;Abderrahmane Youssoufi;1985;2012;2012;SD;Dismal Enigma;Very High;MOR4;X
+505017;Chief of Staff;Abderrahmane Youssoufi;1985;2012;2012;SD;School of Fire Support;Very High;MOR4;X
+505018;Chief of Army;Abderrahmane Youssoufi;1985;2012;2012;SD;Elastic Defence Doctrine;Very High;MOR4;X
+505019;Chief of Navy;Abderrahmane Youssoufi;1985;2012;2012;SD;Power Projection Doctrine;Very High;MOR4;X
+505020;Chief of Air Force;Abderrahmane Youssoufi;1985;2012;2012;SD;Army Aviation Doctrine;Very High;MOR4;X

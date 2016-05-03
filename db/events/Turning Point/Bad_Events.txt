@@ -1,0 +1,75 @@
+#########################################################################
+#  Nitpicky Opposition
+#########################################################################
+event = {
+    id = 9005002
+    random = yes
+
+    trigger = {
+		government = democratic
+    }
+
+    name = "nitpicky_opposition"
+    desc = "nitpicky_opposition_desc"
+    style = 2
+    picture = "news_paper"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 1
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 6 }
+	}
+}
+#########################################################################
+#  Sex Scandal
+#########################################################################
+event = {
+    id = 9005003
+    random = yes
+
+    trigger = {
+		government = democratic
+    }
+
+    name = "sex_scandal"
+    desc = "sex_scandal_desc"
+    style = 2
+    picture = "news_paper"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 1
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 6 }
+	}
+}
+#########################################################################
+#  Comet Sighted
+#########################################################################
+event = {
+    id = 9005004
+    random = yes
+
+    trigger = {
+		belligerence = { value = 1 }
+    }
+
+    name = "comet_sighted"
+    desc = "comet_sighted_desc"
+    style = 2
+    picture = "news_paper"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 1
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 1 }
+	}
+}

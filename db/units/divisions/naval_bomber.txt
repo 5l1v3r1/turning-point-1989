@@ -1,0 +1,109 @@
+# MODEL_16_
+
+# 0 - Early Naval Patrol (1956)
+model = {
+	cost 						= 21
+	buildtime					= 240
+	defaultorganisation 		= 30
+	morale						= 25
+	manpower					= 2.2
+	maxspeed					= 500
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	surfacedefence				= 6
+	airdefence					= 18
+	airattack					= 3
+	strategicattack				= 2
+	softattack					= 3
+	hardattack					= 3
+	navalattack					= 6
+	range						= 1500
+	supplyconsumption 			= 2.0
+	fuelconsumption				= 3.5
+	upgrade_time_factor 		= 0.60 
+	upgrade_cost_factor 		= 0.50
+	reinforce_time				= 0.60
+	reinforce_cost 				= 0.50
+	equipment = { bomber = 100 manpower = 600 }
+}
+
+# 1 - Basic Naval Patrol (1962)
+model = {
+	cost 						= 22
+	buildtime					= 240
+	defaultorganisation 		= 30
+	morale						= 25
+	manpower					= 2.2
+	maxspeed					= 700
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	surfacedefence				= 5
+	airdefence					= 12
+	airattack					= 3
+	strategicattack				= 3
+	softattack					= 4
+	hardattack					= 4
+	navalattack					= 8
+	range						= 2000
+	supplyconsumption 			= 2.0
+	fuelconsumption				= 3.5
+	upgrade_time_factor 		= 0.60 
+	upgrade_cost_factor 		= 0.50
+	reinforce_time				= 0.60
+	reinforce_cost 				= 0.50
+	equipment = { bomber = 100 manpower = 600 }
+}
+
+# 2 - Improved Naval Patrol (1972)
+model = {
+	cost 						= 23
+	buildtime					= 240
+	defaultorganisation 		= 30
+	morale						= 25
+	manpower					= 2.2
+	maxspeed					= 900
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	surfacedefence				= 4
+	airdefence					= 12
+	airattack					= 3
+	strategicattack				= 3
+	softattack					= 3
+	hardattack					= 4
+	navalattack					= 9
+	range						= 2500
+	supplyconsumption 			= 2.0
+	fuelconsumption				= 3.5
+	upgrade_time_factor 		= 0.60 
+	upgrade_cost_factor 		= 0.50
+	reinforce_time				= 0.60
+	reinforce_cost 				= 0.50
+	equipment = { bomber = 100 manpower = 600 }
+}
+
+# 3 - Advanced Naval Patrol (2012)
+model = {
+	cost 						= 24
+	buildtime					= 240
+	defaultorganisation 		= 30
+	morale						= 25
+	manpower					= 2.2
+	maxspeed					= 1100
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	surfacedefence				= 4
+	airdefence					= 12
+	airattack					= 3
+	strategicattack				= 3
+	softattack					= 3
+	hardattack					= 6
+	navalattack					= 10
+	range						= 3000
+	supplyconsumption 			= 2.0
+	fuelconsumption				= 3.5
+	upgrade_time_factor 		= 0.60 
+	upgrade_cost_factor 		= 0.50
+	reinforce_time				= 0.60
+	reinforce_cost 				= 0.50
+	equipment = { bomber = 100 manpower = 600 }
+}

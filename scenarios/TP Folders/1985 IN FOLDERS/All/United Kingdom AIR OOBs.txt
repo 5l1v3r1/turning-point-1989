@@ -1,0 +1,42 @@
+airunit = {
+	id = { type = 12750 id = 123 }
+	name = "RAF Kinloss"
+	location = 3047
+	base = 3047
+		division = {
+			id = { type = 12750 id = 124 }
+			name = "No. 201 Squadron"
+			type = naval_bomber
+			model = 2 #Hawker Siddeley Nimrod MR2
+			}
+		division = {
+			id = { type = 12750 id = 125 }
+			name = "No. 206 Squadron"
+			type = naval_bomber
+			model = 2 #Hawker Siddeley Nimrod MR2
+			}
+		division = {
+			id = { type = 12750 id = 126 }
+			name = "No. 120 Squadron"
+			type = naval_bomber
+			model = 2 #Hawker Siddeley Nimrod MR2
+			}
+		division = {
+			id = { type = 12750 id = 127 }
+			name = "No. 42 Squadron"
+			type = naval_bomber
+			model = 2 #Hawker Siddeley Nimrod MR2
+			}
+	}
+airunit = {
+	id = { type = 12750 id = 128 }
+	name = "RAF Waddington"
+	location = 1164
+	base = 1164
+		division = {
+			id = { type = 12750 id = 129 }
+			name = "No. 51 Squadron"
+			type = naval_bomber
+			model = 1 #Hawker Siddeley Nimrod MR1
+			}
+	}

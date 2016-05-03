@@ -1,0 +1,22 @@
+NOR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+65001;Head of State;HM Olav V;1985;2012;2012;ML;Popular Figurehead;Very High;NOR1;X
+65002;Head of Government;Kåre Willoch;1985;2012;2012;SC;Silent Workhorse;Very High;NOR2;X
+65003;Foreign Minister;Svenn Stray;1985;2012;2012;SC;biased intellectual;Very High;NOR3;X
+65004;Minister of Armament;Rolf Presthus;1985;2012;2012;SC;Laissez-Faire Capitalist;Very High;NOR4;X
+65005;Minister of Security;Wenche Frogn Sellæg;1985;2012;2012;SC;Crime Fighter;Very High;NOR5;X
+65006;Head of Military Intelligence;Anders C. Sjaastad;1985;2012;2012;SC;Political Specialist;Very High;NOR6;X
+65007;Chief of Staff;Fredrik Bull-Hansen;1985;2012;2012;ML;School of Psychology;Very High;NOR7;X
+65008;Chief of Army;Fredrik Bull-Hansen;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;NOR7;X
+65009;Chief of Navy;Torolf Rein;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;unknown;X
+65010;Chief of Air Force;Sven Hauge;1985;2012;2012;ML;Army Aviation Doctrine;Very High;unknown;X
+;Replacements;;;;;;;;;X
+65011;Head of State;Berge Furre;1985;2012;2012;LWR;Popular Figurehead;Very High;NOR8;X
+65012;Head of Government;Theo Koritzinsky;1985;2012;2012;LWR;Silent Workhorse;Very High;NOR9;X
+65013;Foreign Minister;Erik Solheim;1985;2012;2012;LWR;biased intellectual;Very High;NOR10;X
+65014;Minister of Armament;Popular Defense Committee;1985;2012;2012;LWR;Laissez-Faire Capitalist;Very High;unknown;X
+65015;Minister of Security;Arne Treholt;1985;2012;2012;LWR;Crime Fighter;Very High;NOR11;X
+65016;Head of Military Intelligence;Arne Treholt;1985;2012;2012;LWR;Political Specialist;Very High;NOR11;X
+65017;Chief of Staff;Popular Defense Committee;1985;2012;2012;LWR;School of Psychology;Very High;unknown;X
+65018;Chief of Army;Popular Defense Committee;1985;2012;2012;LWR;Guns and Butter Doctrine;Very High;unknown;X
+65019;Chief of Navy;Popular Defense Committee;1985;2012;2012;LWR;Indirect Approach Doctrine;Very High;unknown;X
+65020;Chief of Air Force;Popular Defense Committee;1985;2012;2012;LWR;Army Aviation Doctrine;Very High;unknown;X

@@ -1,0 +1,91 @@
+TUR;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+45001;Head of State;Kenan Evren;1985;2012;2012;PA;Resigned Generalissimo;Very High;TUR1;X
+45002;Head of Government;Turgut Özal;1985;2012;2012;SC;Corporate Suit;Very High;TUR2;X
+45003;Foreign Minister;Vahit Melih Halefoglu;1985;2012;2012;SC;Great Compromiser;Very High;TUR3;X
+45004;Minister of Armament;Ahmet Kurtcebe Alptemocin;1985;2012;2012;SC;Resource Industrialist;Very High;TUR4;X
+45005;Minister of Security;Yildirim Akbulut;1985;2012;2012;SC;Crime Fighter;Very High;TUR5;X
+45006;Head of Military Intelligence;Halit Nusret Toroslu;1985;2012;2012;ML;Logistics Specialist;Very High;TUR6;X
+45007;Chief of Staff;Ali Haydar Saltik;1985;2012;2012;ML;School of Fire Support;Very High;TUR7;X
+45008;Chief of Army;Necdet Ürug;1985;2012;2012;ML;Armoured Spearhead Doctrine;Very High;TUR8;X
+45009;Chief of Navy;Zahit Atakan;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;TUR9;X
+45010;Chief of Air Force;Halil Sözer;1985;2012;2012;ML;Air Superiority Doctrine;Very High;TUR10;X
+;Replacements;;;;;;;;;X
+45011;Head of State;Ismail Cem;1985;2012;2012;SD;Popular Figurehead;Very High;TUR11;X
+45012;Head of Government;Mustafa Bülent Ecevit;1985;2012;2012;SD;Ambitious Union Boss;Very High;TUR12;X
+45013;Foreign Minister;Sükrü Sina Gürel;1985;2012;2012;SD;Biased Intellectual;Very High;TUR13;X
+45014;Minister of Armament;Erol Cevikce;1985;2012;2012;SD;Administrative Genius;Very High;TUR14;X
+45015;Minister of Security;Deniz Baykal;1985;2012;2012;SD;Crime Fighter;Very High;TUR15;X
+45016;Head of Military Intelligence;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+45017;Chief of Staff;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+45018;Chief of Army;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+45019;Chief of Navy;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+45020;Chief of Air Force;Red Shadow;1985;2012;2012;SD;Generic;Very High;unknown;X
+45021;Foreign Minister;Ali Fehti Okyar;1937;1964;1999;ML;biased intellectual;Medium;M12013;X
+45022;Foreign Minister;Abdülhalik Renda;1943;1964;1999;ML;Apologetic Clerk;Medium;M12043;X
+45023;Minister of Armament;Nurullah Esat Sümer;1943;1964;1999;ML;Corrupt Kleptocrat;Medium;M12045;X
+45024;Minister of Armament;Adnan Menderes;1946;1964;1999;ML;Theoretical Scientist;Medium;M12046;X
+45025;Minister of Armament;Mustafa Ismet Inönü;1933;1964;1999;SC;Administrative Genius;Medium;3380;X
+45026;Minister of Armament;Fuad Calistar;1933;1964;1999;SC;Infantry Proponent;Medium;M12048;X
+45027;Minister of Armament;Kazim Özalp;1921;1964;1999;SC;Military Entrepreneur;Medium;M12049;X
+45028;Minister of Armament;Tevfik Rüsta Aras;1939;1964;1999;ML;Theoretical Scientist;Medium;M12050;X
+45029;Minister of Armament;Semsettin Günaltay;1940;1964;1999;SC;Tank Proponent;Medium;M12051;X
+45030;Minister of Armament;Münir Bürsen;1946;1964;1999;ML;laissez-faire capitalist;Medium;M12052;X
+45031;Minister of Armament;Mustafa Renda;1938;1964;1999;ML;Military Entrepreneur;Medium;M12054;X
+45032;Minister of Security;Hüsnü Cakir;1943;1964;1999;ML;Crooked Kleptocrat;Medium;M12056;X
+45033;Minister of Security;Hilmi Uran;1944;1964;1999;ML;Crime Fighter;Medium;M12057;X
+45034;Minister of Security;Memduh Tagmac;1946;1964;1999;ML;Prince of Terror;Medium;M12059;X
+45035;Minister of Security;Adnan Menderes;1947;1964;1999;ML;Back Stabber;Medium;M12046;X
+45036;Minister of Security;Abdul Naci Tinaz;1938;1964;1999;ML;Silent Lawyer;Medium;M12061;X
+45037;Minister of Security;Mahmud Celal Bayar;1933;1964;1999;SC;Back Stabber;Medium;3382;X
+45038;Minister of Security;Abbas Cevat;1939;1964;1999;SD;Crooked Kleptocrat;Medium;M12025;X
+45039;Minister of Security;Saffet Arikan;1940;1964;1999;SC;Crime Fighter;Medium;M12058;X
+45040;Minister of Security;Ali Riza Türel;1940;1964;1999;ML;Efficient Sociopath;Medium;M12065;X
+45041;Minister of Security;Orhan Gökay;1941;1964;1999;ML;Silent Lawyer;Medium;M12015;X
+45042;Minister of Security;Mehmet Recep Peker;1941;1964;1999;SC;Compassionate Gentleman;Medium;M12067;X
+45043;Head of Military Intelligence;Mustafa Renda;1938;1964;1999;SC;Dismal Enigma;High;M12054;X
+45044;Head of Military Intelligence;Ali Rüza Artunkal;1943;1964;1999;ML;Logistics Specialist;Medium;M12069;X
+45045;Head of Military Intelligence;Mumtaz Ökmen;1946;1964;1999;ML;Industrial Specialist;Medium;M12070;X
+45046;Head of Military Intelligence;Mehmet Recep Peker;1947;1964;1999;ML;Industrial Specialist;High;M12067;X
+45047;Head of Military Intelligence;Fuad Köprülü;1938;1964;1999;ML;Naval Intelligence Specialist;Medium;M12026;X
+45048;Chief of Staff;Abdul Naci Tinaz;1938;1964;1999;SC;School of Fire Support;Medium;M12061;X
+45049;Chief of Staff;Ali Örlungat;1943;1964;1999;ML;School of Mass Combat;Medium;M12010;X
+45050;Chief of Staff;Abdurrahman Gürman;1946;1964;1999;ML;School of Manoeuvre;Medium;M12075;X
+45051;Chief of Army;Mustafa Eldelhun;1943;1964;1999;ML;Armoured Spearhead Doctrine;Medium;M12077;X
+45052;Chief of Army;Cemil Toüdemür;1946;1964;1999;ML;Decisive Battle Doctrine;Medium;M12078;X
+45053;Chief of Navy;Ali Fuat Cebesoy;1938;1964;1999;SC;Indirect Approach Doctrine;Medium;M12079;X
+45054;Chief of Navy;Vehbi Koc;1943;1964;1999;ML;Decisive Naval Battle Doctrine;Medium;M12080;X
+45055;Chief of Navy;Ahmet Aydam Bölak;1946;1964;1999;ML;Base Control Doctrine;Medium;M12081;X
+45056;Chief of Air Force;Erkan Gataly;1943;1964;1999;ML;Army Aviation Doctrine;Medium;M12083;X
+45057;Chief of Air Force;Memduh Tagmac;1946;1964;1999;ML;Air Superiority Doctrine;Medium;M12059;X
+45058;Head of State;Nihal Atsiz;1933;1964;1999;FA;Ruthless Powermonger;High;M12011;X
+45059;Head of Government;Zeki Velidi Togan;1933;1964;1999;FA;Old General;High;M12012;X
+45060;Foreign Minister;Ali Fethi Okyar;1933;1964;1999;PA;Ideological Crusader;Medium;M12013;X
+45061;Minister of Armament;Sadi Özbek;1933;1964;1999;FA;Air to Sea Proponent;Medium;M12014;X
+45062;Head of Military Intelligence;Ali Fehti Okyar;1933;1964;1999;SC;Dismal Enigma;Medium;M12013;X
+45063;Chief of Staff;Mustafa Ismet Inönü;1933;1964;1999;PA;School of Defence;Medium;M12002;X
+45064;Chief of Army;Alparslan Türkes;1933;1964;1999;FA;Guns and Butter Doctrine;Medium;M12018;X
+45065;Chief of Navy;Rauf Orbay;1933;1964;1999;FA;Base Control Doctrine;Medium;M12019;X
+45066;Chief of Air Force;Sadi Özbek;1933;1964;1999;PA;Naval Aviation Doctrine;Medium;M12014;X
+45067;Head of State;Sefik Hüsnü;1933;1964;1999;ST;Stern Imperialist;High;M12021;X
+45068;Head of Government;Pertev Naili Boratav;1933;1964;1999;ST;Naive Optimist;High;M12022;X
+45069;Foreign Minister;Nazim Hikmet Ran;1933;1964;1999;ST;The Cloak N Dagger Schemer;Medium;M12023;X
+45070;Minister of Armament;Refik Saydam;1933;1964;1999;LWR;Infantry Proponent;Medium;3383;X
+45071;Chief of Staff;Abbas Cevat;1933;1964;1999;LWR;School of Manoeuvre;Medium;M12025;X
+45072;Chief of Army;Pertev Naili Boratav;1933;1964;1999;LWR;Elastic Defence Doctrine;Very Low;M12022;X
+45073;Chief of Navy;Ismael Erim;1933;1964;1999;LE;Decisive Naval Battle Doctrine;Medium;M12029;X
+45074;Chief of Air Force;Refik Saydam;1933;1964;1999;LE;Air Superiority Doctrine;Medium;3383;X
+45075;Head of State;Mahmud Celal Bayar;1950;1964;1999;ML;Barking Buffoon;High;3382;X
+45076;Head of Government;Mehmet Recep Peker;1946;1964;1999;SC;Political Protege;High;M12067;X
+45077;Head of Government;Hassan Saka;1947;1964;1999;SC;Happy Amateur;High;M12038;X
+45078;Head of Government;Semsettin Günaltay;1949;1964;1999;SC;Silent Workhorse;High;M12051;X
+45079;Head of Government;Adnan Menderes;1950;1964;1999;ML;Ambitious Union Boss;High;M12046;X
+45080;Foreign Minister;Mehmet Fuat Köprülü;1950;1964;1999;ML;Iron Fisted Brute;Medium;M12090;X
+45081;Minister of Armament;Faik Ahmet Barutcu;1947;1964;1999;SC;Battle Fleet Proponent;Medium;M12091;X
+45082;Minister of Armament;Ismael Erim;1949;1964;1999;SC;Resource Industrialist;Medium;M12029;X
+45083;Minister of Armament;Samet Agaoglu;1950;1964;1999;ML;Theoretical Scientist;Medium;M12093;X
+45084;Minister of Armament;Fatim Rüstü Zorlu;1952;1964;1999;ML;Administrative Genius;Medium;M12094;X
+45085;Minister of Security;Refik Koraltan;1950;1964;1999;ML;Silent Lawyer;Medium;M12095;X
+45086;Head of Government;Alparslan Tuerkes;1941;1964;1999;NS;Ambitious Union Boss;medium;M12018;x
+45087;Minister of Security;Alparslan Tuerkes;1939;1964;1999;NS;Prince of Terror;medium;M12018;x
+45088;Minister of Security;Mehmet Cemil Uybadin;1921;1964;1999;SC;Silent Lawyer;Medium;unknownminister;X
+45089;Chief of Army;Kemal Atatürk;1921;1964;1999;PA;Decisive Battle Doctrine;High;3379;X

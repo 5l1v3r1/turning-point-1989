@@ -1,0 +1,14 @@
+INO;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+270001;Head of State;Suharto;1985;2012;2012;PA;Stern Imperialist;Very High;INO1;X
+270002;Head of Government;Suharto;1985;2012;2012;PA;Old General;Very High;INO1;X
+270003;Foreign Minister;Mochtar Kusumaatmaja;1985;2012;2012;ML;Great Compromiser;Very High;INO2;X
+270004;Minister of Armament;Poniman;1985;2012;2012;PA;Corrupt Kleptocrat;Very High;INO3;X
+270005;Minister of Security;Anton Soedjarwo;1985;2012;2012;ML;Crime Fighter;Very High;INO4;X
+270006;Head of Military Intelligence;LB Moerdani;1985;2012;2012;PA;Logistics Specialist;Very High;INO5;X
+270007;Chief of Staff;LB Moerdani;1985;2012;2012;PA;School of Mass Combat;Very High;INO5;X
+270008;Chief of Army;Rudini;1985;2012;2012;ML;Guns and Butter Doctrine;Very High;INO6;X
+270009;Chief of Navy;M. Romli;1985;2012;2012;ML;Power Projection Doctrine;Very High;unknown;X
+270010;Chief of Air Force;Soekardi;1985;2012;2012;ML;Air Superiority Doctrine;Very High;INO7;X
+;Replacements;;;;;;;;;X
+270011;Head of State;Megawati Sukarnoputri;1985;2012;2012;SL;Benevolent Gentleman;Very High;INO8;X
+270012;Head of Government;Megawati Sukarnoputri;1985;2012;2012;SL;Naive Optimist;Very High;INO8;X

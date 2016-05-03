@@ -1,0 +1,22 @@
+BEL;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+70001;Head of State;HM Baudouin;1985;2012;2012;SC;Popular Figurehead;Very High;BEL1;X
+70002;Head of Government;Wilfried Martens;1985;2012;2012;SC;Backroom Backstabber;Very High;BEL2;X
+70003;Foreign Minister;Leo Tindemans;1985;2012;2012;SC;Great Compromiser;Very High;BEL3;X
+70004;Minister of Armament;Willy De Clercq;1985;2012;2012;ML;Laissez-Faire Capitalist;Very High;BEL4;X
+70005;Minister of Security;Jean Gol;1985;2012;2012;SL;Silent Lawyer;Very High;BEL5;X
+70006;Head of Military Intelligence;Alfred Vreven;1985;2012;2012;ML;Political Specialist;Very High;unknown;X
+70007;Chief of Staff; Maurice Gysemberg;1985;2012;2012;ML;School of Defence;Very High;unknown;X
+70008;Chief of Army; Maurice Gysemberg;1985;2012;2012;ML;Elastic Defence Doctrine;Very High;unknown;X
+70009;Chief of Navy; Maurice Gysemberg;1985;2012;2012;ML;Indirect Approach Doctrine;Very High;unknown;X
+70010;Chief of Air Force; Maurice Gysemberg;1985;2012;2012;ML;Air Superiority Doctrine;Very High;unknown;X
+;Replacements;;;;;;;;;X
+70011;Head of State;Georges Glineur;1985;2012;2012;LE;Popular Figurehead;Very High;BEL6;X
+70012;Head of Government;Louis Van Geyt;1985;2012;2012;LE;Silent Workhorse;Very High;BEL7;X
+70013;Foreign Minister;Marcel Levaux;1985;2012;2012;LE;Biased Intellectual;Very High;BEL8;X
+70014;Minister of Armament;Marcel Couteau;1985;2012;2012;LE;Resource Industrialist;Very High;unknown;X
+70015;Minister of Security;Louis Van Geyt;1985;2012;2012;LE;Compassionate Gentleman;Very High;BEL7;X
+70016;Head of Military Intelligence;Marcel Couteau;1985;2012;2012;LE;Industrial Specialist;Very High;unknown;X
+70017;Chief of Staff;Jean Blume;1985;2012;2012;LE;School of Mass Combat;Very High;BEL9;X
+70018;Chief of Army;Jean Blume;1985;2012;2012;LE;Guns and Butter Doctrine;Very High;BEL9;X
+70019;Chief of Navy;Jean Blume;1985;2012;2012;LE;Indirect Approach Doctrine;Very High;BEL9;X
+70020;Chief of Air Force;Jean Blume;1985;2012;2012;LE;Army Aviation Doctrine;Very High;BEL9;X

@@ -1,0 +1,208 @@
+############################
+# South Africa
+############################
+###### Offer Mandela Freedom
+event = {
+	id = 9000340
+	random = no
+	country = SAF
+#	save_date = yes
+	
+	decision = { }
+	decision_trigger = { }	
+	trigger = {	headofstate = 425001}
+	
+	name = "south_africa_decision_1"
+	desc = "south_africa_decision_1_desc"
+	style = 2
+	picture = "free_mandela"
+	decision_picture = "decision_free_mandela"
+
+	offset = 10
+	date = { day = 1 month = february year = 1985 }
+	deathdate = { day = 1 month = february year = 1990 }
+
+	action_a = {
+		name = "action_name_free_mandela_1"
+		ai_chance = 98
+		command = { type = dissent value = -15 }
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = domestic which = freedom value = 1 }
+		command = { type = trigger which = 9000341 }
+	}
+	action_b = {
+		name = "action_name_free_mandela_2"
+		ai_chance = 1
+		command = { type = dissent value = -30 }
+		command = { type = trigger which = 9000342 }
+	}
+	action_c = {
+		name = "action_name_mandela_in_prison"
+		ai_chance = 1
+		command = { type = dissent value = 50 }
+		command = { type = trigger which = 9000344 }
+	}
+}
+###### Mandela Conditional Freedom
+event = {
+	id = 9000341	
+	random = no
+	country = SAF
+#	save_date = yes
+	
+	name = "south_africa_decision_2"
+	desc = "south_africa_decision_2_desc"
+	style = 2
+	picture = "free_mandela"
+
+	action_a = {
+		name = "action_name_damn"
+		command = { type = dissent value = 5 }
+	}
+}
+###### Mandela Early Freed
+event = {
+	id = 9000342	
+	random = no
+	country = SAF
+#	save_date = yes
+	
+	name = "south_africa_decision_3"
+	desc = "south_africa_decision_3_desc"
+	style = 2
+	picture = "free_mandela"
+
+	action_a = {
+		name = "action_name_free_mandela_2"
+		command = { type = dissent value = -30 }
+		command = { type = domestic which = democratic value = 3 }
+		command = { type = domestic which = political_left value = 3 }
+		command = { type = domestic which = freedom value = 3 }
+	}
+}
+############################
+###### Free Mandela!
+event = {
+	id = 9000343
+	random = no
+	country = SAF
+#	save_date = yes
+	
+	decision = { }
+	decision_trigger = { }	
+	trigger = {	event = 9000340	}
+	
+	name = "south_africa_decision_3"
+	desc = "south_africa_decision_3_desc"
+	style = 2
+	picture = "free_mandela"
+	decision_picture = "decision_free_mandela"
+
+	offset = 10
+	date = { day = 1 month = february year = 1990 }
+	deathdate = { day = 1 month = february year = 1994 }
+
+	action_a = {
+		name = "action_name_free_mandela_2"
+		ai_chance = 99
+		command = { type = dissent value = -30 }
+		command = { type = domestic which = democratic value = 3 }
+		command = { type = domestic which = freedom value = 3 }
+		command = { type = trigger which = 9000342 }
+	}
+	action_b = {
+		name = "action_name_mandela_in_prison"
+		ai_chance = 1
+		command = { type = dissent value = 10 }
+		command = { type = trigger which = 9000344 }
+	}
+}
+###### Mandela continues in prison
+event = {
+	id = 9000344	
+	random = no
+	country = SAF
+#	save_date = yes
+	
+	name = "south_africa_decision_4"
+	desc = "south_africa_decision_4_desc"
+	style = 2
+	picture = "free_mandela"
+
+	action_a = {
+		name = "action_name_damn"
+		command = { type = dissent value = 10 }
+		command = { type = civil_war }
+	}
+}
+############################
+# End Ban on Interracial Marriage
+############################
+event = {
+	id = 9000345
+	random = no
+	country = SAF
+#	save_date = yes
+	
+	decision = { }
+	decision_trigger = { }	
+	trigger = {	random = 80	}
+	
+	name = "south_africa_decision_5"
+	desc = "south_africa_decision_5_desc"
+	style = 2
+	picture = "interracial_marriage"
+	decision_picture = "decision_interracial_marriage"
+
+	offset = 14
+	date = { day = 1 month = april year = 1985 }
+	deathdate = { day = 1 month = february year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_GOOD"
+		command = { type = dissent value = -5 }
+		command = { type = domestic which = freedom value = 1 }
+	}
+}
+############################
+# Uganda
+############################
+event = {
+	id = 9000346
+	random = no
+	country = U70
+#	save_date = yes
+	
+	decision = { }
+	decision_trigger = { headofstate = 1165003 }	
+	trigger = {	random = 80	}
+	
+	name = "nairobi_agreement"
+	desc = "nairobi_agreement_desc"
+	style = 2
+	picture = "nairobi_agreement"
+	decision_picture = "decision_nairobi_agreement"
+
+	offset = 120
+	date = { day = 25 month = august year = 1985 }
+	deathdate = { day = 17 month = december year = 1985 }
+
+	action_a = {
+		name = "Honor the agreement!"
+		ai_chance = 1
+		command = { type = dissent value = -20 }
+		command = { type = domestic which = freedom value = 1 }
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = manpowerpool value = 20 }
+	}
+	action_b = {
+		name = "This gives us more time to regroup!"
+		ai_chance = 99
+		command = { type = dissent value = 5 }
+		command = { type = domestic which = freedom value = -1 }
+		command = { type = domestic which = democratic value = -1 }
+	}
+}
+############################
+# Libyan-Chadian Conflict
+############################

@@ -1,0 +1,32 @@
+SOM;Ruling Cabinet - Start;Name;Start Year;End Year;Retirement Year;Ideology;Personality;Loyalty;Picturename;X
+770001;Head of State;Siad Barre;1985;2012;2012;LWR;Resigned Generalissimo;High;SOM1;X
+770002;Head of Government;Siad Barre;1985;2012;2012;LWR;Old General;High;SOM1;X
+770003;Foreign Minister;Red Shadow;1985;2012;2012;LWR;Generic;High;unknown;X
+770004;Minister of Armament;Red Shadow;1985;2012;2012;LWR;Generic;High;unknown;X
+770005;Minister of Security;Red Shadow;1985;2012;2012;LWR;Generic;High;unknown;X
+770006;Head of Military Intelligence;Red Shadow;1985;2012;2012;LWR;Generic;High;unknown;X
+770007;Chief of Staff;Red Shadow;1985;2012;2012;LWR;Generic;High;unknown;X
+770008;Chief of Army;Red Shadow;1985;2012;2012;LWR;Generic;High;unknown;X
+770009;Chief of Navy;Red Shadow;1985;2012;2012;LWR;Generic;High;unknown;X
+770010;Chief of Air Force;Red Shadow;1985;2012;2012;LWR;Generic;High;unknown;X
+;Replacements;;;;;;;;;X
+770011;Head of State;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+770012;Head of Government;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+770013;Foreign Minister;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+770014;Minister of Armament;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+770015;Minister of Security;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;
+770016;Head of Military Intelligence;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;
+770017;Chief of Staff;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+770018;Chief of Army;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+770019;Chief of Navy;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+770020;Chief of Air Force;Black Shadow;1985;2012;2012;NS;Generic;High;unknown;X
+770021;Head of State;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770022;Head of Government;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770023;Foreign Minister;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770024;Minister of Armament;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770025;Minister of Security;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770026;Head of Military Intelligence;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770027;Chief of Staff;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770028;Chief of Army;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770029;Chief of Navy;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X
+770030;Chief of Air Force;Blue Shadow;1985;2012;2012;ML;Generic;High;unknown;X

@@ -1,0 +1,256 @@
+allowed_brigades = artillery
+allowed_brigades = anti_tank
+allowed_brigades = anti_air
+allowed_brigades = rocket_artillery
+allowed_brigades = sp_artillery
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = heavy_armor
+allowed_brigades = super_heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = b_01
+
+# 0 - Air Cavalry 1965
+model = {
+	cost 					= 23
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 10
+	hardattack				= 10
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 2.8
+	fuelconsumption			= 6
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}
+# 1 - Air Cavalry 1970
+model = {
+	cost 					= 25
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 11
+	hardattack				= 11
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 3
+	fuelconsumption			= 6
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}
+# 2 - Air Cavalry 1975
+model = {
+	cost 					= 25
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 12
+	hardattack				= 12
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 3.2
+	fuelconsumption			= 6
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}
+# 3 - Air Cavalry 1980
+model = {
+	cost 					= 27
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 13
+	hardattack				= 13
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 3.4
+	fuelconsumption			= 6.5
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}
+# 4 - Air Cavalry 1985
+model = {
+	cost 					= 27
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 14
+	hardattack				= 14
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 3.6
+	fuelconsumption			= 6.5
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}
+# 5 - Air Cavalry 1990
+model = {
+	cost 					= 28
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 15
+	hardattack				= 15
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 3.8
+	fuelconsumption			= 6.5
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}
+# 6 - Air Cavalry 1995
+model = {
+	cost 					= 28
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 16
+	hardattack				= 16
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 4
+	fuelconsumption			= 7
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}
+# 7 - Air Cavalry 2000
+model = {
+	cost 					= 30
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 17
+	hardattack				= 17
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 4.2
+	fuelconsumption			= 7
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}
+# 8 - Air Cavalry 2005
+model = {
+	cost 					= 35
+	buildtime	 			= 390
+	manpower 				= 5
+	maxspeed 				= 30
+	defaultorganisation 	= 40
+	morale					= 40
+	defensiveness 			= 14
+	toughness				= 14
+	softness				= 95
+	suppression				= 5
+	airdefence				= 20
+	softattack				= 18
+	hardattack				= 18
+	airattack				= 3
+	transportweight			= 30
+	supplyconsumption 		= 4.4
+	fuelconsumption			= 7
+	no_fuel_combat_mod 		= -0.9
+	upgrade_time_factor = 0.6
+	upgrade_cost_factor = 0.5
+	reinforce_time		= 0.6
+	reinforce_cost 		= 0.5
+	upgrade_time_boost 	= no
+	equipment = { manpower = 5000 trucks = 600 artillery = 86 heavy_artillery = 24 anti_tank = 32 anti_air = 14 armored_car = 74 halftracks = 426 medium_armor = 66 helicopter = 100 }
+}

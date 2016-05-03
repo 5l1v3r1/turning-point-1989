@@ -1,0 +1,134 @@
+#########################################################################
+#  Protests in Hefei
+#########################################################################
+event = { 
+	id = 2012001
+	random = no
+	country = CHC
+
+	trigger = {
+		headofgovernment = 260002 #Deng Xiaoping
+	}
+	
+	date = { day = 1 month = december year = 1986 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "china_protests"
+	desc = "china_protests_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 5 }
+	}
+}
+#########################################################################
+#  Hu Yaobang is forced to resign!
+#########################################################################
+event = { 
+	id = 2012002
+	random = no
+	country = CHC
+
+	trigger = {
+		headofgovernment = 260002 #Deng Xiaoping
+	}
+	
+	date = { day = 1 month = january year = 1987 }
+	offset = 30
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "china_protests_1"
+	desc = "china_protests_1_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 10 }
+	}
+}
+#########################################################################
+#  The Tiananmen Square protests I
+#########################################################################
+event = { 
+	id = 2012003
+	random = no
+	country = CHC
+
+	trigger = {
+		event = 2012002 #Hu Yaobang is forced to resign!
+	}
+	
+	date = { day = 14 month = april year = 1989 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	name = "china_protests_2"
+	desc = "china_protests_2_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_DAMN"
+		command = { type = dissent value = 20 }
+	}
+}
+#The Tiananmen Square protests II
+event = { 
+	id = 2012004
+	random = no
+	country = CHC
+
+	trigger = {
+		event = 2012003 #The Tiananmen Square protests I
+	}
+	
+	date = { day = 14 month = may year = 1989 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+	
+	name = "china_protests_2"
+	desc = "china_protests_2-1_desc"
+	style = 1
+	picture = "news_paper"
+	
+	action = {
+		name = "ACTION_NAME_CRUSH"
+		command = { type = local_setflag which = crush_rebellion }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 10 }
+		command = { type = domestic which = democratic value = 2 }
+		command = { type = domestic which = freedom value = 3 }
+	}
+}
+#The Tiananmen Square Massacre
+event = { 
+	id = 2012005
+	random = no
+	country = CHC
+
+	trigger = {
+		local_flag = crush_rebellion
+	}
+	
+	date = { day = 3 month = june year = 1989 }
+	offset = 1
+	deathdate = { day = 21 month = december year = 2012 }
+	
+	name = "china_protests_3"
+	desc = "china_protests_3_desc"
+	style = 1
+	picture = "tiananmen_square"
+	
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = local_clrflag which = crush_rebellion }
+		command = { type = dissent value = 20 }
+		command = { type = industrial_modifier which = total value = -20 }
+	}
+}

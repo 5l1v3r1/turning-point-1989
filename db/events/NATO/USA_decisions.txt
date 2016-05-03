@@ -1,0 +1,75 @@
+#####################################
+# USA Decisions Events
+#####################################
+# Operation Cyclone
+####################
+event = {
+	id = 2049004
+	random = no
+	country = USA
+	
+	decision = {
+		exists = U23
+		exists = AFG
+		war = { country = U23  country = SOV }
+		war = { country = U23  country = AFG }
+	}
+	
+	decision_trigger = {
+		money = 6000
+	}
+	
+	trigger = {
+		exists = U23
+		exists = AFG
+		war = { country = U23  country = SOV }
+		war = { country = U23  country = AFG }
+		money = 6000
+	}
+
+	name = operation_cyclone
+	desc = operation_cyclone_desc
+	style = 1
+	picture = "operation_cyclone"
+	decision_picture = "CIA_decision"
+
+	date = { day = 1 month = january year = 1985 }
+	offset = 30
+	deathdate = { day = 29 month = december year = 1989 }
+
+	action = {
+		name = ACTION_NAME_FUND
+		command = { type = money value = -6000 }
+		command = { type = trigger which = 2049005 }
+	}
+}
+event = {
+	id = 2049005
+	random = no
+	country = U23
+
+	name = usa_helps_mujahideen
+	desc = usa_helps_mujahideen_desc
+	style = 1
+	picture = "mujahideen_stinger"
+
+	action = {
+		name = ACTION_NAME_GREAT
+		command = { type = add_division which = Mujahideen value = militia when = 4 where = b_09 }
+		command = { type = add_division which = Mujahideen value = militia when = 4 where = b_09 }
+		command = { type = add_division which = Mujahideen value = militia when = 4 where = b_09 }
+		command = { type = add_division which = Mujahideen value = militia when = 4 where = b_09 }
+		command = { type = add_division which = Mujahideen value = militia when = 4 where = b_09 }
+		command = { type = add_division which = Mujahideen value = militia when = 4 where = b_09 }
+		command = { type = supplies value = 5000 }
+		command = { type = oilpool value = 1000 }
+		command = { type = money value = 1000 }
+		command = { type = energypool value = 5000 }
+		command = { type = metalpool value = 2500 }
+		command = { type = rarematerialspool value = 1250 }
+		command = { type = free_ic value = 10 }
+		command = { type = free_energy value = 20 }
+		command = { type = free_metal value = 10 }
+		command = { type = free_rare_materials value = 5 }
+	}
+}

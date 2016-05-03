@@ -1,0 +1,209 @@
+# AI File by hansnery.
+#
+switch = no # [yes/no]
+ferocity = yes
+max_front_ratio = 4.0
+max_front_ratios = { }
+max_garrison_prop = 0.2
+min_garrison_prop = 0.10
+neutrality = 0 
+war = 300
+upgrading = 0.15 
+reinforcement = 0.4 
+strat_redeploy_threshold = 50
+max_redeploying = 0.25
+no_exp_forces_to = {}
+use_offensive_supply = yes
+max_fuel_offensive = 300
+exp_force_ratio = 0.3
+exp_force_ratios = { 
+	DDR = 0.5
+	SOV = 0.5
+}
+###################################
+# Diplomacy
+###################################
+combat = {
+	DFR = 500
+	USA = 100
+	FRA = 50
+	ENG = 50
+}
+
+liberate = { CZE HUN BUL ROM DDR PRK MON CHC SPR POR ENG CSA CAL U33 U34 U35 U39 VIC RSI QUE CAN SCO U49 }
+liberate_nation = { CZE HUN BUL ROM DDR PRK MON CHC SPR POR ENG CSA CAL U33 U34 U35 U39 VIC RSI QUE CAN SCO U49 }
+###################################
+# Construction and Tech Research
+###################################
+#Default values
+construction = { 
+	max_factor = 0.05
+	AA_batteries = no
+	coastal_fort = no
+	radar_station = no
+	air_base = atwar
+	naval_base = no
+	land_fort = no
+	ic_at_war = no
+}
+
+military = { 
+	relative_build_scheme 	= no
+	max_batch_peace			= 720 #540 
+	max_batch_war			= 360 #320 
+	max_batch_home_front	= 180
+	extra_convoys_war		= 0.0000 
+	extra_convoys_peace		= 0.0000
+
+	infantry     		= 40
+	cavalry 			= 0
+	motorized 			= 6
+	mechanized 			= 6
+	light_armor 		= 0
+   	armor       		= 15
+	paratrooper 		= 0
+	marine 				= 0
+	bergsjaeger 		= 1
+   	garrison    		= 4
+    hq 					= 3
+	militia 			= 0
+	d_01				= 0 #Infantry Brigade
+	d_02				= 0 #Motorized Brigade
+	d_03				= 2 #Special Forces Brigade
+	d_04				= 3 #Air Cavalry
+	d_05				= 0 #Marine Brigade
+	d_06				= 0 #Mechanized Brigade
+	d_07				= 0 #Missile Boat
+	d_08				= 0 #Paratrooper Brigade
+	d_09				= 0 #Mountain Brigade
+   #80 %
+	interceptor 	= 3
+	rocket_interceptor = 0
+	multi_role 		= 4
+	cas 			= 3
+	strategic_bomber = 0
+	tactical_bomber = 3
+	naval_bomber 	= 0
+	transport_plane = 0
+	flying_bomb 	= 1
+	flying_rocket 	= 0
+   #14 %
+	battleship 			= 0
+	carrier 			= 0
+	escort_carrier		= 0
+	destroyer 			= 6
+	light_cruiser 		= 0
+	heavy_cruiser 		= 0
+	battlecruiser	 	= 0
+	submarine 			= 0
+	nuclear_submarine 	= 0
+	transports 			= 0
+    #d_07				= 0	#Missile Boats
+	d_10				= 0	#Nuclear Carrier
+	d_11				= 0	#Nuclear Ballistic Submarine
+	d_12				= 0	#Nuclear Heavy Cruiser
+    #6 %
+
+
+	#### Brigades
+	artillery			= 30	#30
+	sp_artillery		= 20	#8
+	cavalry_brigade		= 0		#0
+	sp_anti_air			= 9		#0
+   	medium_armor		= 0		#0
+   	tank_destroyer		= 0		#0
+   	light_armor_brigade	= 0		#0
+   	heavy_armor			= 0		#5
+	super_heavy_armor	= 0		#0
+	armored_car			= 2		#0
+   	anti_air			= 5		#0
+   	police				= 1		#1
+	engineer			= 11	#5
+	#72 %
+
+	cag = 100.000
+	escort = 100.0000
+
+	naval_asw				= 10	#20
+	naval_anti_air_s 		= 10	#20 
+	naval_radar_s 			= 10	#20 
+	naval_fire_controll_s 	= 20
+	naval_improved_hull_s 	= 10
+	naval_torpedoes_s 		= 10
+	naval_anti_air_l 		= 5		#0 
+	naval_radar_l 			= 5		#0
+	naval_fire_controll_l 	= 10	#0
+	naval_improved_hull_l 	= 5		#0
+	floatplane 				= 5		#0
+}
+########################################
+# Ground Combat, Leaders and Garrisons
+########################################
+garrison = {
+	home_multiplier 	= 0.1
+	overseas_multiplier = 1.0
+	home_peace_cap 		= 5
+	war_zone_odds 		= 1.2
+	key_point_prio_mult	= 1.3
+	revolt_risk_mult	= 0.3
+
+	# PRIORITIES:
+	beach			= 5			# Beach level 2
+	capital			= 0			# Our capital
+	human_border	= 50		# Ignored for allied human players
+	reserves = 0.1
+	opposing_alliance	= 50	# For neutrals, all alliances are "opposing"
+	claim_threat		= 0		# If we are neutral, countries with claims on us get this
+	unstable_border		= 10	# Bordering countries at war with someone else get this
+	war_target = 100			# The next country targeted for attack by this AI
+	
+	country_priorities = { 
+		USA = 100
+		DFR = 100
+		FRA = 50
+	}
+		
+	ignore = {
+		}
+		
+	province_priorities = {
+	}
+}
+	
+	front = { 
+	recklessness 		= 3 # 0-3
+	distrib_vs_ai 		= reactive
+	distrib_vs_human 	= reactive
+	
+	enemy_reinf_days	= 5
+	reserve_prop		= 0.2
+	panic_ratio_vs_ai	= 1.75
+	panic_ratio_vs_human	= 1.75
+	base_attack_odds	= 0.8 #1.3
+	min_attack_odds		= 0.4
+	max_attack_odds		= 4.0
+	reinforce_odds		= 1.5
+	withdraw_odds		= 0.35
+	
+	support_defense_prop = 0.33
+	
+	river       = 1.0
+	largefort 	= 0.5
+	smallfort	= 1.0
+	occupied	= 1.1
+	owned		= 1.1
+	frozen_attack 	= 0.50
+	snow_attack 	= 0.50
+	blizzard_attack   = 0.25
+	storm_attack 	= 0.60
+	muddy_attack 	= 0.75
+
+	jungle_attack 	= 0.85
+	mountain_attack	= 0.60
+	swamp_attack 	= 0.60
+	forest_attack 	= 0.85
+	hill_attack 	= 0.75
+	urban_attack 	= 0.60
+	}
+
+ 

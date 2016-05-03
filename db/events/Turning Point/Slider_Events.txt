@@ -1,0 +1,406 @@
+#########################################################################
+#  Communist Hardliners Discontent (Democratic)
+#########################################################################
+event = {
+    id = 9004000
+    random = no
+	country = SOV
+	persistent = yes
+
+    trigger = {
+		ai = no
+		OR = {
+			ideology = stalinist
+			ideology = leninist
+			#country = SOV
+		}
+		policy = { type = democratic value = 2 }
+		#random = 40
+    }
+
+    name = "slider_com_hardliner"
+    desc = "slider_com_hardliner_democratic_desc"
+    style = 1
+    picture = "hardliner"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 180
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = { trigger = { policy = { type = democratic value = 2 } NOT = { domestic = { type = democratic value = 3 } } }				#Authoritarian = 9
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = democratic value = -1 }
+		command = {	type = dissent value = -3 }
+	}
+    action = { trigger = { policy = { type = democratic value = 2 } NOT = { domestic = { type = democratic value = 3 } } }				
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 3 }
+	}
+	action = { trigger = { policy = { type = democratic value = 3 } NOT = { domestic = { type = democratic value = 4 } } }				#Authoritarian = 8
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = democratic value = -2 }
+		command = {	type = dissent value = -6 }
+	}
+	action = { trigger = { policy = { type = democratic value = 3 } NOT = { domestic = { type = democratic value = 4 } } }		
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = democratic value = -1 }
+		command = { type = dissent value = -3 }
+	}
+	action = { trigger = { policy = { type = democratic value = 3 } NOT = { domestic = { type = democratic value = 4 } } }		
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 6 }
+	}
+	action = { trigger = { policy = { type = democratic value = 4 } NOT = { domestic = { type = democratic value = 5 } } }				#Authoritarian = 7
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = democratic value = -3 }
+		command = {	type = dissent value = -9 } 
+	}
+	action = { trigger = { policy = { type = democratic value = 4 } NOT = { domestic = { type = democratic value = 5 } } }		
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = democratic value = -1 }
+		command = { type = dissent value = -4 }
+	}
+	action = { trigger = { policy = { type = democratic value = 4 } NOT = { domestic = { type = democratic value = 5 } } }
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 9 }
+	}
+	action = { trigger = { policy = { type = democratic value = 5 } NOT = { domestic = { type = democratic value = 6 } } }				#Authoritarian = 6
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = democratic value = -4 }
+		command = {	type = dissent value = -12 }
+	}
+	action = { trigger = { policy = { type = democratic value = 5 } NOT = { domestic = { type = democratic value = 6 } } }		
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = democratic value = -2 }
+		command = { type = dissent value = -6 }
+	}
+	action = { trigger = { policy = { type = democratic value = 5 } NOT = { domestic = { type = democratic value = 6 } } }
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 12 }
+	}
+}
+#########################################################################
+#  Communist Hardliners Discontent (Political Left)
+#########################################################################
+event = {
+    id = 9004001
+    random = no
+	country = SOV
+	persistent = yes
+
+    trigger = {
+		ai = no
+		OR = {
+			ideology = stalinist
+			ideology = leninist
+			#country = SOV
+		}
+		NOT = { domestic = { type = political_left value = 10 } }
+		#random = 50
+    }
+
+    name = "slider_com_hardliner"
+    desc = "slider_com_hardliner_political_desc"
+    style = 1
+    picture = "hardliner"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 90
+    deathdate = { day = 21 month = december year = 2012 }
+
+    action = { trigger = { domestic = { type = political_left value = 9 } }																		#Political Left = 9
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = political_left value = 1 }
+		command = {	type = dissent value = -3 } 
+	}
+    action = { trigger = { domestic = { type = political_left value = 9 } }
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 3 }
+	}
+	action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 9 } } domestic = { type = political_left value = 8 } } }	#Political Left = 8
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = political_left value = 2 }
+		command = {	type = dissent value = -6 } 
+	}
+	action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 9 } } domestic = { type = political_left value = 8 } } }
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = political_left value = 1 }
+		command = { type = dissent value = -3 }
+	}
+    action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 9 } } domestic = { type = political_left value = 8 } } }
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 6 }
+	}
+	action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 8 } } domestic = { type = political_left value = 7 } } }	#Political Left = 7
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = political_left value = 3 }
+		command = {	type = dissent value = -9 } 
+	}
+	action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 8 } } domestic = { type = political_left value = 7 } } }
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = political_left value = 1 }
+		command = { type = dissent value = -4 }
+	}
+    action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 8 } } domestic = { type = political_left value = 7 } } }
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 9 }
+	}
+	action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 7 } } domestic = { type = political_left value = 6 } } }	#Political Left = 6
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = political_left value = 4 }
+		command = {	type = dissent value = -12 } 
+	}
+	action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 7 } } domestic = { type = political_left value = 6 } } }
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = political_left value = 2 }
+		command = { type = dissent value = -6 }
+	}
+    action = { trigger = { AND = { NOT = { domestic = { type = political_left value = 7 } } domestic = { type = political_left value = 6 } } }
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 12 }
+	}
+}
+#########################################################################
+#  Communist Hardliners Discontent (Freedom)
+#########################################################################
+event = {
+    id = 9004002
+    random = no
+	country = SOV
+	persistent = yes
+
+    trigger = {
+		ai = no
+		OR = {
+			ideology = stalinist
+			ideology = leninist
+			#country = SOV
+		}
+		policy = { type = freedom value = 2 }
+		#random = 30
+    }
+
+    name = "slider_com_hardliner"
+    desc = "slider_com_hardliner_freedom_desc"
+    style = 1
+    picture = "hardliner"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 180
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = { trigger = { policy = { type = freedom value = 2 } NOT = { domestic = { type = freedom value = 3 } } }				#Freedom = 2
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = freedom value = -1 }
+		command = {	type = dissent value = -3 }
+	}
+    action = { trigger = { policy = { type = freedom value = 2 } NOT = { domestic = { type = freedom value = 3 } } }				
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 3 }
+	}
+	action = { trigger = { policy = { type = freedom value = 3 } NOT = { domestic = { type = freedom value = 4 } } }				#Freedom = 3
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = freedom value = -2 }
+		command = {	type = dissent value = -6 } 
+	}
+	action = { trigger = { policy = { type = freedom value = 3 } NOT = { domestic = { type = freedom value = 4 } } }		
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = freedom value = -1 }
+		command = { type = dissent value = -3 }
+	}
+	action = { trigger = { policy = { type = freedom value = 3 } NOT = { domestic = { type = freedom value = 4 } } }		
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 6 }
+	}
+	action = { trigger = { policy = { type = freedom value = 4 } NOT = { domestic = { type = freedom value = 5 } } }				#Freedom = 4
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = freedom value = -3 }
+		command = {	type = dissent value = -9 } 
+	}
+	action = { trigger = { policy = { type = freedom value = 4 } NOT = { domestic = { type = freedom value = 5 } } }		
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = freedom value = -1 }
+		command = { type = dissent value = -4 }
+	}
+	action = { trigger = { policy = { type = freedom value = 4 } NOT = { domestic = { type = freedom value = 5 } } }
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 9 }
+	}
+	action = { trigger = { policy = { type = freedom value = 5 } NOT = { domestic = { type = freedom value = 6 } } }				#Freedom = 5
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = freedom value = -4 }
+		command = {	type = dissent value = -12 }
+	}
+	action = { trigger = { policy = { type = freedom value = 5 } NOT = { domestic = { type = freedom value = 6 } } }		
+		name = "ACTION_NAME_COMPROMISE"
+		command = { type = domestic which = freedom value = -2 }
+		command = { type = dissent value = -6 }
+	}
+	action = { trigger = { policy = { type = freedom value = 5 } NOT = { domestic = { type = freedom value = 6 } } }
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 12 }
+	}
+}
+#####################
+#	Random Events   #
+#########################################################################
+#  Flaws of Democracy
+#########################################################################
+event = {
+    id = 9004003
+    random = no
+	persistent = yes
+
+    trigger = {
+		NOT = { policy = { type = democratic value = 10 } }
+		OR = {
+			AND = {
+				random = 90
+				government = democratic
+			}
+			AND = {
+				country = SOV
+				event = 2007024 #Democratisation of the Soviet Union
+				random = 50
+			}
+		}
+    }
+
+    name = "slider_democratic"
+    desc = "slider_democratic_desc"
+    style = 1
+    picture = "ballot"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 180
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = democratic value = 1 }
+		command = {	type = dissent value = -3 }
+	}
+    action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = domestic which = freedom value = -1 }
+		command = { type = dissent value = 3 }
+	}
+}
+#########################################################################
+#  Freedom
+#########################################################################
+event = {
+    id = 9004004
+    random = no
+	persistent = yes
+
+    trigger = {
+		OR = {
+			AND = {
+				random = 90
+				government = democratic
+			}
+			AND = {
+				country = SOV
+				event = 2007021	#Glasnost
+				random = 50
+			}
+		}
+		NOT = { policy = { type = freedom value = 10 } }
+    }
+
+    name = "slider_freedom"
+    desc = "slider_freedom_desc"
+    style = 1
+    picture = "free_speech"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 180
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = freedom value = 1 }
+		command = {	type = dissent value = -3 }
+	}
+    action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = domestic which = democratic value = -1 }
+		command = { type = dissent value = 3 }
+	}
+}
+#########################################################################
+#  A Turn to the Left
+#########################################################################
+event = {
+    id = 9004005
+    random = no
+	persistent = yes
+
+    trigger = {
+		random = 90
+		#government = democratic
+		NOT = { policy = { type = political_left value = 10 } }
+    }
+
+    name = "slider_political_left"
+    desc = "slider_political_left_desc"
+    style = 1
+    picture = "political_left"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 180
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_APPEASE"
+		command = { type = domestic which = political_left value = 1 }
+		command = {	type = dissent value = -3 }
+	}
+    action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = domestic which = political_left value = -1 }
+		command = { type = dissent value = 3 }
+	}
+}
+#########################################################################
+#  The Market Forces
+#########################################################################
+event = {
+    id = 9004006
+    random = no
+	persistent = yes
+
+    trigger = {
+		NOT = { policy = { type = free_market value = 5 } }
+		random = 1
+		government = democratic
+    }
+
+    name = "slider_free_market"
+    desc = "slider_free_market_desc"
+    style = 1
+    picture = "political_left"
+
+    date = { day = 1 month = january year = 1985 }
+	offset = 360
+    deathdate = { day = 21 month = december year = 2012 }
+
+	action = {
+		name = "ACTION_NAME_FREE_MARKET"
+		command = { type = set_domestic which = free_market value = 7 }
+		command = { type = domestic which = political_left value = -3 }
+		command = { type = dissent value = 24 }
+	}
+	action = {
+		name = "ACTION_NAME_REGULATED_MARKET"
+		command = { type = set_domestic which = free_market value = 5 }
+		command = { type = domestic which = political_left value = 3 }
+		command = { type = dissent value = 12 }
+	}
+	action = {
+		name = "ACTION_NAME_NO_NEED"
+		command = { type = dissent value = 6 }
+		command = { type = domestic which = democratic value = -1 }
+	}
+}

@@ -1,0 +1,13 @@
+DDR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+625001;Eisenacher Motorenwerke;T7100;3;1900;2012;mechanics;industrial_engineering;management;vehicle_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625002;VEB Flugzeugwerft Dresden;VEBFlugzeugwerft;7;1900;2012;bomber_design;aeronautics;technical_efficiency;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625003;Kombinat Robotron;robotron;7;1900;2012;electronics;mathematics;management;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625004;Leuna Werke;T7103;7;1900;2012;chemistry;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625005;Neptun Werft Rostock;T7104;5;1900;2012;naval_engineering;electronics;naval_artillery;technical_efficiency;submarine_design;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625007;VEB Ernst Thälmann Suhl;T7106;6;1900;2012;general_equipment;mechanics;training;munitions;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625008;Zentralinstitut für Kernforschung;ZfK;7;1945;2012;nuclear_physics;nuclear_engineering;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625009;Landstreitkräfte;T7108;5;1900;2012;large_unit_tactics;infantry_focus;centralized_execution;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625010;Volksmarine;T7109;4;1900;2012;naval_training;seamanship;small_taskforce_tactics;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625011;Luftstreitkräfte;T7110;4;1900;2012;training;centralized_execution;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625013;Nationale Volksarmee;T625100;5;1900;2012;training;small_unit_tactics;infantry_focus;large_unit_tactics;combined_arms_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+625014;Ministerium für Staatssicherheit;T6251000;9;1945;2012;rt_user_2;training;individual_courage;centralized_execution;small_unit_tactics;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;x
