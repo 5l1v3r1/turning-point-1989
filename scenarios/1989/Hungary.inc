@@ -260,7 +260,7 @@ country =
      interventionism   = 5
   }
   #headofstate            = { type = 9 id = 21001 }
-  #headofgovernment       = { type = 9 id = 21002 }
+  headofgovernment       = { type = 9 id = 105012 } #Miklós Németh
   #foreignminister        = { type = 9 id = 21003 }
   #armamentminister       = { type = 9 id = 21004 }
   #ministerofsecurity     = { type = 9 id = 21005 }

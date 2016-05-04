@@ -3,15 +3,15 @@
 #########Warsaw Pact###########
 #### Soviet stuff
 ## Moscow Zone Increase
-province = { id = 572 ic = 10 } #Moscow +10
-province = { id = 570 ic = 10 } #Zagorsk +10
-province = { id = 678 ic = 10 } #Vladimir +10
-province = { id = 567 ic = 10 } #Serpukhov +10
-province = { id = 568 ic = 10 } #Solnecknogorsk +10
-province = { id = 571 ic = 10 } #Orekhovozyevo +10
-province = { id = 584 ic = 10 } #Tula +10
-province = { id = 576 ic = 15 } #Kaluga +15
-province = { id = 588 ic = 15 } #Bryansk +15
+province = { id = 572 ic = 14 } #Moscow +14
+province = { id = 570 ic = 12 } #Zagorsk +12
+province = { id = 678 ic = 12 } #Vladimir +12
+province = { id = 567 ic = 12 } #Serpukhov +12
+province = { id = 568 ic = 12 } #Solnecknogorsk +12
+province = { id = 571 ic = 12 } #Orekhovozyevo +12
+province = { id = 584 ic = 12 } #Tula +12
+province = { id = 576 ic = 17 } #Kaluga +17
+province = { id = 588 ic = 17 } #Bryansk +17
 ## Western Republics Increase
 province = { id = 599 ic = 10 } #Minsk +10
 province = { id = 262 ic = 10 } #Kaunas +5

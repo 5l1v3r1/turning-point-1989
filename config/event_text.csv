@@ -1,5 +1,7 @@
 #  STRING NAME (do not change!);English;French;Italian;Spanish;German;Polish;Portugese;Russian;;Extra2;X
 #  STRING NAME (do not change!);;;;;;;;;;;X
+access_soviets;We are a Socialist Soviet Republic;;;;;;;;;;X
+access_soviets_desc;Our current ties to the Soviet Union obliges us to give them military access.;;;;;;;;;;X
 restore_warsaw_pact;Restore the Warsaw Pact;;;;;;;;;;X
 restore_warsaw_pact_desc;Beginning in the late 1970s, the Soviets carefully noted that one of the Warsaw Pact's most important functions was monitoring the ''fraternal countries and the fulfillment of their duties in the joint defense of socialism''. When forces that are hostile to socialism try to turn the development of some socialist country towards capitalism, it becomes not only a problem of the country concerned, but a common problem and concern of all socialist countries. That is, no country could leave the Warsaw Pact or disturb a ruling communist party's monopoly on power.;;;;;;;;;;X
 diplomatic_campaign;Launch Diplomatic Campaign;;;;;;;;;;X

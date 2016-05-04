@@ -11,6 +11,8 @@
  province = { id =	1427 air_base = { size = 5 current_size = 5 } } # Base Aérea Tashkent
  province = { id = 1845 air_base = { size =	4 current_size = 4 } } # Base Aérea Sukhumi
  province = { id = 212 air_base = { size = 10 current_size = 10 } } # Base Aérea Minsk
+ province = { id = 255 naval_base = { size = 6 current_size = 6 } } # Naval Base Novorossiysk
+ province = { id = 1843 naval_base = { size = 3 current_size = 3 } } # Naval Base Sochi
 
  #####################
  # Country main data #
@@ -19,7 +21,6 @@
  country =
  { tag                    = SOV
    regular_id             = RUS
-   intrinsic_gov_type     = stalinist
    capital                = 175
    ai = "sov_1985.ai"
    ai_settings = {flags = {
@@ -37,11 +38,11 @@
    supplies               = 20000
    money                  = 50000
    manpower               = 2452 #1953
-   dissent                = 15
+   dissent                = 20
    transports             = 2000
    escorts                = 100
    #research_mod = 0.75
-   industrial_modifier 	  = 0.9	#Brezhnev Stagnation.
+   industrial_modifier 	  = 0.8	#Economic Problems
    peacetime_ic_mod       = 0.9
    wartime_ic_mod       = 1.0
 
@@ -60,6 +61,7 @@
 		relation = {  tag = SCH value = 100  guaranteed = {  day = 29 month = december year = 1984  } }
 		relation = {  tag = TUR value = 100  }
 		relation = {  tag = CHC value = -100  }
+		relation = {  tag = EST value = -100  access = yes  guaranteed = {  day = 21 month = december year = 2012  } }
 		#Naval Bases
 		relation = {  tag = CUB value = 200  access = yes  guaranteed = {  day = 29 month = december year = 1984  } }
 		relation = {  tag = SYR value = 100  access = yes  guaranteed = {  day = 29 month = december year = 1984  } }
@@ -324,10 +326,10 @@
 
    policy =
    { date              = {  year = 0 month = january day = 0  }
-     democratic        = 1
+     democratic        = 4
      political_left    = 10
-     freedom           = 1
-     free_market       = 1
+     freedom           = 6
+     free_market       = 4
      professional_army = 4
      defense_lobby     = 8
      interventionism   = 6

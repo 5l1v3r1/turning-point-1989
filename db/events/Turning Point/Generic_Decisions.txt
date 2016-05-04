@@ -1620,22 +1620,22 @@ event = {
 
 	decision_trigger = {
 		OR = {
-			money = 1500
+			money = 1000
 			AND = {
 				NOT = { IC = 50 }
-				money = 1000
+				money = 750
 				}
 			AND = {
 				NOT = { IC = 30 }
-				money = 700
+				money = 500
 				}
 			AND = {
 				NOT = { IC = 20 }
-				money = 500
+				money = 250
 				}	
 			AND = {
 				NOT = { IC = 10 }
-				money = 300
+				money = 100
 				}
 			}
 		local_flag = national
@@ -1657,7 +1657,7 @@ event = {
 		ai_chance = 30
 		name = "9000030a"
 		command = { type = dissent value = -0.5 }
-		command = { type = money value = -1500 }
+		command = { type = money value = -1000 }
 		#command = { type = tc_mod value = 0.5 }
 		command = { type = event which = 9000031 where = -1 when = 30 }
 		command = { type = local_setflag which = infra_investment_1 }
@@ -1675,7 +1675,7 @@ event = {
 		ai_chance = 40
 		name = "9000030c"
 		command = { type = dissent value = -2 }
-		command = { type = money value = -2500 }
+		command = { type = money value = -4000 }
 		#command = { type = tc_mod value = 2.5 }
 		command = { type = event which = 9000031 where = -1 when = 90 }
 		command = { type = local_setflag which = infra_investment_3 }
@@ -1684,7 +1684,7 @@ event = {
 		ai_chance = 30
 		name = "9000030a"
 		command = { type = dissent value = -0.5 }
-		command = { type = money value = -1000 }
+		command = { type = money value = -750 }
 		#command = { type = tc_mod value = 0.5 }
 		command = { type = event which = 9000031 where = -1 when = 30 }
 		command = { type = local_setflag which = infra_investment_1 }
@@ -1702,7 +1702,7 @@ event = {
 		ai_chance = 40
 		name = "9000030c"
 		command = { type = dissent value = -2 }
-		command = { type = money value = -2000 }
+		command = { type = money value = -3000 }
 		#command = { type = tc_mod value = 2.5 }
 		command = { type = event which = 9000031 where = -1 when = 90 }
 		command = { type = local_setflag which = infra_investment_3 }
@@ -1711,7 +1711,7 @@ event = {
 		ai_chance = 30
 		name = "9000030a"
 		command = { type = dissent value = -0.5 }
-		command = { type = money value = -700 }
+		command = { type = money value = -500 }
 		#command = { type = tc_mod value = 0.5 }
 		command = { type = event which = 9000031 where = -1 when = 30 }
 		command = { type = local_setflag which = infra_investment_1 }
@@ -1729,7 +1729,7 @@ event = {
 		ai_chance = 40
 		name = "9000030c"
 		command = { type = dissent value = -2 }
-		command = { type = money value = -1500 }
+		command = { type = money value = -2000 }
 		#command = { type = tc_mod value = 2.5 }
 		command = { type = event which = 9000031 where = -1 when = 90 }
 		command = { type = local_setflag which = infra_investment_3 }
@@ -1738,7 +1738,7 @@ event = {
 		ai_chance = 30
 		name = "9000030a"
 		command = { type = dissent value = -0.5 }
-		command = { type = money value = -500 }
+		command = { type = money value = -250 }
 		#command = { type = tc_mod value = 0.5 }
 		command = { type = event which = 9000031 where = -1 when = 30 }
 		command = { type = local_setflag which = infra_investment_1 }
@@ -1747,7 +1747,7 @@ event = {
 		ai_chance = 30
 		name = "9000030b"
 		command = { type = dissent value = -1 }
-		command = { type = money value = -700 }
+		command = { type = money value = -500 }
 		#command = { type = tc_mod value = 1 }
 		command = { type = event which = 9000031 where = -1 when = 60 }
 		command = { type = local_setflag which = infra_investment_2 }
@@ -1765,7 +1765,7 @@ event = {
 		ai_chance = 30
 		name = "9000030a"
 		command = { type = dissent value = -0.5 }
-		command = { type = money value = -300 }
+		command = { type = money value = -100 }
 		#command = { type = tc_mod value = 0.5 }
 		command = { type = event which = 9000031 where = -1 when = 30 }
 		command = { type = local_setflag which = infra_investment_1 }
@@ -1774,7 +1774,7 @@ event = {
 		ai_chance = 30
 		name = "9000030b"
 		command = { type = dissent value = -1 }
-		command = { type = money value = -500 }
+		command = { type = money value = -250 }
 		#command = { type = tc_mod value = 1 }
 		command = { type = event which = 9000031 where = -1 when = 60 }
 		command = { type = local_setflag which = infra_investment_2 }
@@ -1783,7 +1783,7 @@ event = {
 		ai_chance = 40
 		name = "9000030c"
 		command = { type = dissent value = -2 }
-		command = { type = money value = -700 }
+		command = { type = money value = -500 }
 		#command = { type = tc_mod value = 2.5 }
 		command = { type = event which = 9000031 where = -1 when = 90 }
 		command = { type = local_setflag which = infra_investment_3 }
@@ -2189,6 +2189,8 @@ event = {
 		atwar = no
 		NOT = {	alliance = { country = SOV } }
 		NOT = {	alliance = { country = USA } }
+		exists = USA
+		exists = SOV
 	}
 
 	decision_trigger = {
@@ -2243,6 +2245,8 @@ event = {
 		atwar = no
 		NOT = {	alliance = { country = SOV } }
 		NOT = {	alliance = { country = USA } }
+		exists = USA
+		exists = SOV
 	}
 
 	decision_trigger = {
@@ -2299,6 +2303,8 @@ event = {
 		NOT = {	alliance = { country = USA } }
 		NOT = {	policy = { type = free_market value = 10 } }
 		NOT = { local_flag = aligned_to_capitalism }
+		exists = USA
+		exists = SOV
 	}
 
 	decision_trigger = { 
@@ -2354,7 +2360,8 @@ event = {
 		atwar = no
 		NOT = {	alliance = { country = SOV } }
 		NOT = { local_flag = usa_trade_mission }
-		
+		exists = USA
+		exists = SOV
 	}
 
 	decision_trigger = { 
@@ -2410,6 +2417,8 @@ event = {
 		NOT = {	alliance = { country = USA } }
 		NOT = {	policy = { type = free_market value = 10 } }
 		NOT = { local_flag = aligned_to_socialism }
+		exists = USA
+		exists = SOV
 	}
 
 	decision_trigger = { 
@@ -2464,6 +2473,8 @@ event = {
 		atwar = no
 		NOT = {	alliance = { country = USA } }
 		NOT = { local_flag = sov_trade_mission }
+		exists = USA
+		exists = SOV
 	}
 
 	decision_trigger = { 
