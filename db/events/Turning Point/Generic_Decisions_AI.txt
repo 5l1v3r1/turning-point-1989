@@ -1630,6 +1630,7 @@ event = {
 	}
 
 	decision_trigger = {
+		ai = yes
 		OR = {
 			money = 1500
 			AND = {
@@ -1657,6 +1658,7 @@ event = {
 	}
 
 	trigger = {
+		ai = yes
 		OR = {
 			money = 1500
 			AND = {

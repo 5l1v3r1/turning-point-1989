@@ -11,6 +11,8 @@
  province = { id =	1427 air_base = { size = 5 current_size = 5 } } # Base Aérea Tashkent
  province = { id = 1845 air_base = { size =	4 current_size = 4 } } # Base Aérea Sukhumi
  province = { id = 212 air_base = { size = 10 current_size = 10 } } # Base Aérea Minsk
+ province = { id = 255 naval_base = { size = 6 current_size = 6 } } # Naval Base Novorossiysk
+ province = { id = 1843 naval_base = { size = 3 current_size = 3 } } # Naval Base Sochi
 
  #####################
  # Country main data #

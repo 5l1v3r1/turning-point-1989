@@ -225,6 +225,8 @@ event = {
 	action = {
 		name = "ACTION_NAME_YUG_PROTECT_SERBIANS"
 		command = { type = dissent value = 10 }
+		#Milosevic HoS DeFacto
+		command = { type = headofstate which = 100034 }
 		#Remove cores temporarily
 		#Slovenia
 		command = { type = removecore which = 380 where = -1 }
@@ -240,7 +242,7 @@ event = {
 		command = { type = removecore which = 3375 where = -1 } #Claim
 		command = { type = removecore which = 7125 where = -1 } #Claim
 		#Croatia
-		command = { type = removecore which = 6561 where = -1 }
+		command = { type = removecore which = 6561 where = -1 } 
 		command = { type = removecore which = 382 where = -1 }
 		command = { type = removecore which = 455 where = -1 }
 		command = { type = removecore which = 291 where = -1 }
@@ -261,7 +263,7 @@ event = {
 		command = { type = removecore which = 3361 where = -1 } #Claim
 		command = { type = removecore which = 1893 where = -1 } #Claim
 		#Bosnia
-		command = { type = removecore which = 1891 where = -1 }
+		command = { type = removecore which = 1891 where = -1 } 
 		command = { type = removecore which = 383 where = -1 }
 		command = { type = removecore which = 3367 where = -1 }
 		command = { type = removecore which = 386 where = -1 }
@@ -277,25 +279,25 @@ event = {
 		command = { type = removecore which = 2607 where = -1 } #Claim
 		command = { type = removecore which = 6537 where = -1 } #Claim
 		#Montenegro
-		command = { type = removecore which = 3373 where = -1 }
+		command = { type = removecore which = 3373 where = -1 } 
 		command = { type = removecore which = 7315 where = -1 }
 		command = { type = removecore which = 389 where = -1 }
 		command = { type = removecore which = 5464 where = -1 }
 		command = { type = removecore which = 2608 where = -1 }
 		command = { type = removecore which = 7269 where = -1 }
 		#Kosovo
-		command = { type = removecore which = 6562 where = -1 }
+		command = { type = removecore which = 6562 where = -1 } 
 		command = { type = removecore which = 415 where = -1 }         
 		command = { type = removecore which = 3372 where = -1 }
 		command = { type = removecore which = 2609 where = -1 }
 		#Vojvodina
-		command = { type = removecore which = 1897 where = -1 }
+		command = { type = removecore which = 1897 where = -1 } 
 		command = { type = removecore which = 3370 where = -1 }
 		command = { type = removecore which = 494 where = -1 }
 		command = { type = removecore which = 3369 where = -1 }
 		command = { type = removecore which = 493 where = -1 }
 		#Macedonia
-		command = { type = removecore which = 1169 where = -1 }
+		command = { type = removecore which = 1169 where = -1 } 
 		command = { type = removecore which = 3374 where = -1 }
 		command = { type = removecore which = 6505 where = -1 }
 		command = { type = removecore which = 414 where = -1 }
@@ -374,7 +376,7 @@ event = {
 		name = "ACTION_NAME_YUG_BROTHERHOOD"
 		command = { type = dissent value = 5 }
 		command = { type = capital which = 380 }
-		command = { type = removecore which = 1895 where = -1 }
+		command = { type = removecore which = 1895 where = -1 } 
 		command = { type = removecore which = 453 where = -1 }
 		command = { type = removecore which = 7268 where = -1 }
 		command = { type = removecore which = 6557 where = -1 }
@@ -451,7 +453,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_OK"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = -5 }
 		command = { type = trigger which = 6000008 }
 	}
@@ -530,7 +532,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_OK"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = -5 }
 		command = { type = inherit which = SIK value = 1 }
 		command = { type = sleepevent which = 6000009 }
@@ -606,9 +608,9 @@ event = {
 		command = { type = sleepevent which = 6000014 }
 		command = { type = end_puppet }
 		command = { trigger = { exists = SER } type = end_access which = SER }
-		command = { trigger = { flag = milosevic } type = end_access which = YUG }
+		command = { trigger = { NOT = { flag = brotherhood_unity } } type = end_access which = YUG }
 		command = { trigger = { exists = SER } type = end_non_aggression which = MTN where = SER }
-		command = { trigger = { flag = milosevic } type = end_non_aggression which = MTN where = YUG }
+		command = { trigger = { NOT = { flag = brotherhood_unity } } type = end_non_aggression which = MTN where = YUG }
 	}
 	action = {
 		name = "ACTION_NAME_YUG_SUPPORT_MILOSEVIC"
@@ -633,7 +635,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_OK"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = -5 }
 	}
 	action = {
@@ -648,7 +650,7 @@ event = {
 	}
 	action = {
 		name = "ACTION_NAME_OK"
-		trigger = { flag = milosevic flag = mtn_support_milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } flag = mtn_support_milosevic }
 		command = { type = dissent value = -5 }
 		command = { type = make_puppet which = MTN }
 		command = { type = sleepevent which = 6000015 }
@@ -684,9 +686,10 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_OK"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = -5 }
-		command = { type = make_puppet which = MTN }
+		command = { type = alliance which = MTN } #was make_puppet
+		command = { type = coup_nation which = MTN } #was just make_puppet
 		command = { type = sleepevent which = 6000015 }
 	}
 	action = {
@@ -718,12 +721,12 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_WAR"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = war which = MTN }
 	}
 	action = {
 		name = "ACTION_NAME_BACK_DOWN"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 10 }
 	}
 	action = {
@@ -797,9 +800,9 @@ event = {
 		command = { type = trigger which = 6000019 }
 		command = { type = end_puppet }
 		command = { trigger = { exists = SER } type = end_access which = SER }
-		command = { trigger = { flag = milosevic } type = end_access which = YUG }
+		command = { trigger = { NOT = { flag = brotherhood_unity } } type = end_access which = YUG }
 		command = { trigger = { exists = SER } type = end_non_aggression which = SIB where = SER }
-		command = { trigger = { flag = milosevic } type = end_non_aggression which = SIB where = YUG }
+		command = { trigger = { NOT = { flag = brotherhood_unity } } type = end_non_aggression which = SIB where = YUG }
 	}
 }
 event = {
@@ -816,13 +819,13 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_GREAT"
-		trigger = { flag = milosevic flag = kosovo_falls }
+		trigger = { NOT = { flag = brotherhood_unity } flag = kosovo_falls }
 		command = { type = dissent value = -5 }
 		command = { type = inherit which = SIB value = 1 }
 	}
 	action = {
 		name = "ACTION_NAME_THEY_REFUSED"
-		trigger = { flag = milosevic NOT = { flag = kosovo_falls } }
+		trigger = { NOT = { flag = brotherhood_unity } NOT = { flag = kosovo_falls } }
 		command = { type = dissent value = 5 }
 	}
 	action = {
@@ -859,12 +862,12 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_WAR"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = war which = SIB }
 	}
 	action = {
 		name = "ACTION_NAME_BACK_DOWN"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 10 }
 	}
 	action = {
@@ -902,7 +905,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_DAMN"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 5 }
 	}
 	action = {
@@ -935,7 +938,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_HURRAH"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = -5 }
 	}
 	action = {
@@ -968,7 +971,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_DAMN"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 5 }
 		command = { type = trigger which = 6000023 }
 	}
@@ -1021,7 +1024,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_DAMN"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 5 }
 		command = { type = trigger which = 6000025 }
 	}
@@ -1913,14 +1916,14 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_PROCEED"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = -5 }
 		command = { type = relation which = CRO value = -200 }
 		command = { type = trigger which = 6000031 }
 	}
 	action = {
 		name = "ACTION_NAME_NO_NEED"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 5 }
 		command = { type = sleepevent which = 6000031 }
 	}
@@ -2235,14 +2238,14 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_REFUSE"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		ai_chance = 99
 		command = { type = dissent value = 20 }
 		command = { type = sleepevent which = 6000042 }
 	}
 	action = {
 		name = "ACTION_NAME_ACCEPT"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		ai_chance = 1
 		command = { type = dissent value = -20 }
 		command = { type = setflag which = yug_reform_federation }
@@ -2450,7 +2453,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_DAMN"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 5 }
 		command = { type = sleepevent which = 6000046 }
 	}
@@ -2555,7 +2558,7 @@ event = {
 			country = SER
 			AND = {
 				country = YUG
-				flag = milosevic
+				NOT = { flag = brotherhood_unity }
 			}
 		}
 	}
@@ -2622,7 +2625,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_DAMN"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 10 }
 	}
 	action = {
@@ -2655,7 +2658,7 @@ event = {
 	random = no
 	country = SLV
 	
-	trigger = { flag = milosevic }
+	trigger = { NOT = { flag = brotherhood_unity } }
 	
 	name = "slv_spring"
 	desc = "slv_spring_desc"
@@ -2685,7 +2688,7 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_DAMN"
-		trigger = { flag = milosevic }
+		trigger = { NOT = { flag = brotherhood_unity } }
 		command = { type = dissent value = 10 }
 	}
 	action = {
@@ -2702,7 +2705,7 @@ event = {
 	random = no
 	country = SLV
 	
-	trigger = { flag = milosevic }
+	trigger = { NOT = { flag = brotherhood_unity } }
 	
 	name = "slv_transition_independence"
 	desc = "slv_transition_independence_desc"
@@ -2744,7 +2747,7 @@ event = {
 	random = no
 	country = SLV
 	
-	trigger = { flag = milosevic }
+	trigger = { NOT = { flag = brotherhood_unity } }
 	
 	name = "slv_independence"
 	desc = "slv_independence_desc"

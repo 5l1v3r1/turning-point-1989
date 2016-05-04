@@ -3,11 +3,11 @@
 #####################
 
  province = { id =	451	air_base = { size =	5 current_size = 5 } } # Nis
- province = { id =	382	air_base = { size =	5 current_size = 5 } } # zagreb
 
 country =
 { tag                    = YUG
   ai                     = "YUG_1985.ai" 
+  ai_settings	= { flags = { MOB1 = yes MOB2 = yes MOB3 = yes } }
   # Resource Reserves
   energy                 = 10000
   metal                  = 5000
@@ -66,31 +66,31 @@ country =
   SpyInfo                = { country = "GRE" NumberOfSpies = 3 }
   SpyInfo                = { country = "ROM" NumberOfSpies = 4 }
   SpyInfo                = { country = "ITA" NumberOfSpies = 3 }
+  
   nationalprovinces      = { 
-380 459 455 454 453 382 383 384 385 386 387 388 389 
-451 452 415 493 494 413 414 
-291 1891 1892 1893 1897 1895 1057 1894 1896 1168 1169
-666 2326 2325 381 2289
-2607 2608 2609
-3359 3360 3361 3362 3363 3364 3365 3366 3367 3368 3369 3370 3371 3372 3373 3374 3393
-3357 3358 3397
-5464 6505 6534 6535 6536 6537 6538 6557 6558 6559 6560 6561 6562 6563 6564
-7122 7267 7268 7269 7270 7271 7315 7937
-7124 7125 #461 Removed
+#Serbia
+1895 453 7268 6557 1057 452 3371 451 7271 1896 1168 6564 3393 6563 1894 7270
+#Vojvodina
+1897 3370 494 3369 493
+#Kosovo
+6562 415 3372 2609
+#461 Removed
   }
-  ownedprovinces         = { 380 459 455 454 453 382  383 384 385 386 387 388 389 451 452 415 493 494 413 414 
-							291 1891 1892 1893 1897 1895 1057 1894 1896 1168 1169 2289
-							2607 2608 2609	3397
-							3359	3360	3361	3362	3363	3364	3365	3366	3367	3368	3369	3370	3371	3372	3373	3374	3393
-5464 6505 6534 6535 6536 6537 6538 6557 6558 6559 6560 6561 6562 6563 6564
-7122 7267 7268 7269 7270 7271 7315 7937 3358 7125 2326 7124 3357 2325 381 
+  ownedprovinces         = {
+#Serbia
+1895 453 7268 6557 1057 452 3371 451 7271 1896 1168 6564 3393 6563 1894 7270
+#Vojvodina
+1897 3370 494 3369 493
+#Kosovo
+6562 415 3372 2609
   }
-  controlledprovinces    = { 380 459 455 454 453 382  383 384 385 386 387 388 389 451 452 415 493 494 413 414 
-							291 1891 1892 1893 1897 1895 1057 1894 1896 1168 1169 2289
-							2607 2608 2609	3397
-							3359	3360	3361	3362	3363	3364	3365	3366	3367	3368	3369	3370	3371	3372	3373	3374	3393
-5464 6505 6534 6535 6536 6537 6538 6557 6558 6559 6560 6561 6562 6563 6564
-7122 7267 7268 7269 7270 7271 7315 7937 3358 7125 2326 7124 3357 2325 381
+  controlledprovinces    = {
+#Serbia
+1895 453 7268 6557 1057 452 3371 451 7271 1896 1168 6564 3393 6563 1894 7270
+#Vojvodina
+1897 3370 494 3369 493
+#Kosovo
+6562 415 3372 2609
   }
   claimedprovinces 		 = {} #665 456 6514 495 2602 6506 3375
 
@@ -254,8 +254,8 @@ country =
    }
    inventions = {  }
   
-   headofstate            = {  type = 9 id = 100001  } 
-   headofgovernment       = {  type = 9 id = 100002  } 
+   headofstate            = {  type = 9 id = 100034  } 
+   headofgovernment       = {  type = 9 id = 100033  } 
    foreignminister        = {  type = 9 id = 100003  } 
    armamentminister       = {  type = 9 id = 100004  } 
    ministerofsecurity     = {  type = 9 id = 100005  } 
@@ -265,173 +265,11 @@ country =
    chiefofnavy            = {  type = 9 id = 100009  } 
    chiefofair             = {  type = 9 id = 100010  } 
    
-   dormant_ministers = { 
-	100034 #Milosevic
-   }
+   dormant_ministers = {}
   
     # #####################################
 	# ARMY
 	# #####################################
-    landunit = 
-   { location = 385
-     name     = "4th Corps" 
-     id       = {  type = 19800 id = 1  } 
-	 division = 
-     { id       = {  type = 19800 id = 2  } 
-       name     = "1st Army HQ" 
-       type     = hq 
-       model    = 3  
-       strength = 100 
-       extra    = armored_car
-       brigade_model = 2
-	   #locked = yes
-      }
-     division = 
-     { id       = {  type = 19800 id = 3  } 
-       name     = "10th Motorized Brigade" 
-       type     = d_02 
-       model    = 3  
-       strength = 15 
-	   extra    = sp_anti_air
-       brigade_model = 2
-	   #locked = yes
-      }
-	 }
-########
-	 landunit = 
-   { location = 383
-     name     = "5th Corps" 
-     id       = {  type = 19800 id = 4  } 
-     division = 
-     { id       = {  type = 19800 id = 5  } 
-       name     = "329th Armored Division" 
-       type     = armor 
-       model    = 5
-       strength = 50
-	   extra    = engineer
-       brigade_model = 2
-	   #locked = yes
-      }
-	  division = 
-     { id       = {  type = 19800 id = 6  } 
-       name     = "16th Motorized Brigade" 
-       type     = d_02 
-       model    = 3  
-       strength = 15 
-	   extra    = sp_anti_air
-       brigade_model = 2
-	   #locked = yes
-      }
-	 division = 
-     { id       = {  type = 19800 id = 7  } 
-       name     = "343rd Motorized Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 15 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 }
-###########
-	 landunit = 
-   { location = 493
-     name     = "12th Corps" 
-     id       = {  type = 19800 id = 8  } 
-     division = 
-     { id       = {  type = 19800 id = 9  } 
-       name     = "18th Motorized Brigade" 
-       type     = d_02 
-       model    = 3  
-       strength = 15 
-	   extra    = sp_anti_air
-       brigade_model = 2
-	   #locked = yes
-      }
-	  division = 
-     { id       = {  type = 19800 id = 10  } 
-       name     = "36th Mechanized Brigade" 
-       type     = d_06 
-       model    = 3  
-       strength = 80 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 division = 
-     { id       = {  type = 19800 id = 11  } 
-       name     = "453rd Mechanized Brigade" 
-       type     = d_06 
-       model    = 3 
-       strength = 80 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 }
-###########
-	 landunit = 
-   { location = 386
-     name     = "17th Corps" 
-     id       = {  type = 19800 id = 12  } 
-     division = 
-     { id       = {  type = 19800 id = 13  } 
-       name     = "12th Mechanized Brigade" 
-       type     = d_06 
-       model    = 3 
-       strength = 80 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	  division = 
-     { id       = {  type = 19800 id = 14  } 
-       name     = "327th Motorized Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 15 
-	   extra    = sp_anti_air
-       brigade_model = 3
-	   #locked = yes
-      }
-	 division = 
-     { id       = {  type = 19800 id = 15  } 
-       name     = "395th Motorized Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 15 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 }
-###########
-	    landunit = 
-   { location = 6560
-     name     = "24th Corps" 
-     id       = {  type = 19800 id = 16  } 
-	 division = 
-     { id       = {  type = 19800 id = 17  } 
-       name     = "2nd Army HQ" 
-       type     = hq 
-       model    = 3 
-       strength = 100 
-       extra    = armored_car
-       brigade_model = 2
-	   #locked = yes
-      }
-     division = 
-     { id       = {  type = 19800 id = 18  } 
-       name     = "80th Motorized Brigade" 
-       type     = d_02 
-       model    = 3  
-       strength = 15 
-	   extra    = sp_anti_air
-       brigade_model = 2
-	   #locked = yes
-      }
-	 }
-########
 	    landunit = 
    { location = 453
      name     = "1st Mechanized Guard Division" 
@@ -473,32 +311,6 @@ country =
        brigade_model = 2
       }
 	 }
-########
-	 landunit = 
-   { location = 5464
-     name     = "2nd Corps" 
-     id       = {  type = 19800 id = 24  } 
-     division = 
-     { id       = {  type = 19800 id = 25  } 
-       name     = "5th Motorized Brigade" 
-       type     = d_02 
-       model    = 3  
-       strength = 15 
-	   extra    = sp_anti_air
-       brigade_model = 2
-	   #locked = yes
-      }
-	  division = 
-     { id       = {  type = 19800 id = 26  } 
-       name     = "427th Motorized Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 15 
-	   extra    = sp_anti_air
-       brigade_model = 2
-	   #locked = yes
-      }
-	}
 ##########
 	 landunit = 
    { location = 451
@@ -523,34 +335,42 @@ country =
        brigade_model = 3
       }
 	}
-##########
-	 landunit = 
-   { location = 3374
-     name     = "41st Corps" 
-     id       = {  type = 19800 id = 30  } 
+	landunit = 
+   { location = 493
+     name     = "12th Corps" 
+     id       = {  type = 19800 id = 8  } 
      division = 
-     { id       = {  type = 19800 id = 31  } 
-       name     = "243rd MechInf Brigade" 
-       type     = d_06 
+     { id       = {  type = 19800 id = 9  } 
+       name     = "18th Motorized Brigade" 
+       type     = d_02 
        model    = 3  
-       strength = 50 
-	   extra    = artillery
-       brigade_model = 3
+       strength = 15 
+	   extra    = sp_anti_air
+       brigade_model = 2
 	   #locked = yes
       }
 	  division = 
-     { id       = {  type = 19800 id = 32  } 
-       name     = "150th Infantry Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 50 
-	   extra    = artillery
+     { id       = {  type = 19800 id = 10  } 
+       name     = "36th Mechanized Brigade" 
+       type     = d_06 
+       model    = 3  
+       strength = 80 
+	   extra    = sp_artillery
        brigade_model = 3
 	   #locked = yes
       }
-	}
-##########
-	    landunit = 
+	 division = 
+     { id       = {  type = 19800 id = 11  } 
+       name     = "453rd Mechanized Brigade" 
+       type     = d_06 
+       model    = 3 
+       strength = 80 
+	   extra    = sp_artillery
+       brigade_model = 3
+	   #locked = yes
+      }
+	 }
+	 landunit = 
    { location = 415
      name     = "52nd Corps" 
      id       = {  type = 19800 id = 33  } 
@@ -575,257 +395,7 @@ country =
 	   #locked = yes
       }
 	 }
-########
-	 landunit = 
-   { location = 382
-     name     = "10th Corps" 
-     id       = {  type = 19800 id = 36  } 
-     division = 
-     { id       = {  type = 19800 id = 37  } 
-       name     = "4th Mechanized Brigade" 
-       type     = d_06 
-       model    = 3 
-       strength = 50 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	  division = 
-     { id       = {  type = 19800 id = 38  } 
-       name     = "140th Mechanized Brigade" 
-       type     = d_06 
-       model    = 3 
-       strength = 80 
-	   extra    = sp_anti_air
-       brigade_model = 2
-	   #locked = yes
-      }
-	 division = 
-     { id       = {  type = 19800 id = 39  } 
-       name     = "155th Infantry Brigade" 
-       type     = d_02 
-       model    = 3
-       strength = 50 
-	   extra    = artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 }
-###########
-	    landunit = 
-   { location = 369
-     name     = "13th Corps" 
-     id       = {  type = 19800 id = 40  } 
-	 division = 
-     { id       = {  type = 19800 id = 41  } 
-       name     = "13th Motorized Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 15 
-	   extra    = artillery
-       brigade_model = 3
-      }
-     division = 
-     { id       = {  type = 19800 id = 42  } 
-       name     = "622nd Motorized Brigade" 
-       type     = d_02
-       model    = 3
-       strength = 50 
-	   extra    = sp_anti_air
-       brigade_model = 2
-      }
-	 }
-########
-	 landunit = 
-   { location = 380
-     name     = "14th Corps" 
-     id       = {  type = 19800 id = 43  } 
-     division = 
-     { id       = {  type = 19800 id = 44  } 
-       name     = "1st Mechanized Brigade" 
-       type     = d_06 
-       model    = 3 
-       strength = 50 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	  division = 
-     { id       = {  type = 19800 id = 45  } 
-       name     = "228th Motorized Brigade" 
-       type     = d_02 
-       model    = 3
-       strength = 15 
-	   extra    = sp_anti_air
-       brigade_model = 2
-	   #locked = yes
-      }
-	 division = 
-     { id       = {  type = 19800 id = 46  } 
-       name     = "253rd Motorized Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 15 
-	   extra    = artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 }
-###########
-	    landunit = 
-   { location = 459
-     name     = "31st Corps" 
-     id       = {  type = 19800 id = 47  } 
-	 division = 
-     { id       = {  type = 19800 id = 48  } 
-       name     = "32nd Mechanized Brigade" 
-       type     = d_06 
-       model    = 3 
-       strength = 15 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-     division = 
-     { id       = {  type = 19800 id = 49  } 
-       name     = "345th Mountain Brigade" 
-       type     = d_09
-       model    = 3
-       strength = 80 
-	   #locked = yes
-      }
-	 }
-########
-	 landunit = 
-   { location = 6535
-     name     = "32nd Corps" 
-     id       = {  type = 19800 id = 50  } 
-     division = 
-     { id       = {  type = 19800 id = 51  } 
-       name     = "32nd Mechanized Brigade" 
-       type     = d_06 
-       model    = 3 
-       strength = 80 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	  division = 
-     { id       = {  type = 19800 id = 52  } 
-       name     = "265th Mechanized Brigade" 
-       type     = d_06 
-       model    = 3
-       strength = 50 
-	   extra    = sp_anti_air
-       brigade_model = 3
-	   #locked = yes
-      }
-	 division = 
-     { id       = {  type = 19800 id = 53  } 
-       name     = "580th Infantry Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 50 
-	   extra    = artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 }
-###########
-	 landunit = 
-   { location = 3357
-     name     = "5th Corps" 
-     id       = {  type = 19800 id = 54  } 
-     division = 
-     { id       = {  type = 19800 id = 55  } 
-       name     = "5th Motorized Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 15 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	}
-##########
-	 landunit = 
-   { location = 384
-     name     = "8th Corps" 
-     id       = {  type = 19800 id = 56  } 
-     division = 
-     { id       = {  type = 19800 id = 57  } 
-       name     = "12th Marine Brigade" 
-       type     = d_05 
-       model    = 3
-       strength = 15 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	}
-##########
-	    landunit = 
-   { location = 6559
-     name     = "7th Corps" 
-     id       = {  type = 19800 id = 58  } 
-	 division = 
-     { id       = {  type = 19800 id = 59  } 
-       name     = "24th Motorized Brigade" 
-       type     = d_02 
-       model    = 3
-       strength = 50 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-     division = 
-     { id       = {  type = 19800 id = 60  } 
-       name     = "107th Infantry Brigade" 
-       type     = d_09
-       model    = 3
-       strength = 50 
-	   extra    = artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 }
-########
-	 landunit = 
-   { location = 3366
-     name     = "9th Corps" 
-     id       = {  type = 19800 id = 61  } 
-     division = 
-     { id       = {  type = 19800 id = 62  } 
-       name     = "180th Motorized Brigade" 
-       type     = d_02 
-       model    = 3
-       strength = 15 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	  division = 
-     { id       = {  type = 19800 id = 63  } 
-       name     = "108th Infantry Brigade" 
-       type     = d_02 
-       model    = 3
-       strength = 50 
-	   extra    = artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 division = 
-     { id       = {  type = 19800 id = 64  } 
-       name     = "9th Mechanized Brigade" 
-       type     = d_02 
-       model    = 3 
-       strength = 50 
-	   extra    = sp_artillery
-       brigade_model = 3
-	   #locked = yes
-      }
-	 }
-# ################# 
+	# ################# 
     # ### AIR OOB  ####
     # #################
 	airunit = {
@@ -862,42 +432,6 @@ country =
 		model = 3
 		}
 	}
-##########
-airunit = {
-	id = { type = 19800 id = 70 }
-	name = "2nd Air Corps"
-	location = 382 
-	base = 382 
-	division = {
-	id = { type = 19800 id = 71 }
-		name = "No 11 Wing"
-		strength = 100
-		type = multi_role
-		model = 4
-		}
-	division = {
-	id = { type = 19800 id = 72 }
-		name = "No 12 Wing"
-		strength = 100
-		type = multi_role
-		model = 4
-		}
-	division = {
-	id = { type = 19800 id = 73 }
-		name = "No 13 Wing"
-		strength = 100
-		type = interceptor
-		model = 2
-		}
-	division = {
-	id = { type = 19800 id = 74 }
-		name = "No 19 Transport Wing"
-		strength = 100
-		type = transport_plane
-		model = 3
-		}
-	}
-##########
 airunit = {
 	id = { type = 19800 id = 75 }
 	name = "3rd Air Corps"
@@ -930,91 +464,6 @@ airunit = {
 		strength = 100
 		type = transport_plane
 		model = 3
-		}
-	}
-###################
-## NAVY
-###############
-	navalunit =  {
-		name = "12th Light Naval Brigade"  
-		id = {  type = 19800 id = 80  }  
-		location = 384  
-		base     = 384  
-		division = {
-			id = {  type = 19800 id = 81  }  
-			name = "RF-31"  
-			type = light_cruiser #Koni-class
-			model = 4
-		}
-		division = {
-			id = {  type = 19800 id = 82  }  
-			name = "RF-32"  
-			type = light_cruiser #Koni-class
-			model = 4
-		}
-	}
-##########
-	navalunit =  {
-		name = "22nd Light Naval Brigade"  
-		id = {  type = 19800 id = 83  }  
-		location = 389  
-		base     = 389  
-		division = {
-			id = {  type = 19800 id = 84  }  
-			name = "RF-33"  
-			type = light_cruiser 
-			model = 3
-		}
-		division = {
-			id = {  type = 19800 id = 85  }  
-			name = "RF-34"  
-			type = light_cruiser 
-			model = 3
-		}
-	}
-##########
-	navalunit =  {
-		name = "32nd Light Naval Brigade"  
-		id = {  type = 19800 id = 86 }  
-		location = 384  
-		base     = 384  
-		division = {
-			id = {  type = 19800 id = 87  }  
-			name = "Heroj"  
-			type = submarine 
-			model = 5
-		}
-		division = {
-			id = {  type = 19800 id = 88  }  
-			name = "Junak"  
-			type = submarine 
-			model = 5
-		}
-		division = {
-			id = {  type = 19800 id = 89  }  
-			name = "Uskok"  
-			type = submarine 
-			model = 5
-		}
-		
-	}
-##########
-	navalunit =  {
-		name = "42nd Light Naval Brigade"  
-		id = {  type = 19800 id = 90 }  
-		location = 384  
-		base     = 384  
-		division = {
-			id = {  type = 19800 id = 91  }  
-			name = "Sava"  
-			type = submarine 
-			model = 5
-		}
-		division = {
-			id = {  type = 19800 id = 92  }  
-			name = "Drava"  
-			type = submarine 
-			model = 5
 		}
 	}
 }

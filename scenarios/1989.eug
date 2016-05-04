@@ -29,6 +29,12 @@ header =
 globaldata =
 { startdate = { year = 1989 month = january day = 0 }
   enddate   = { year = 2012 month = december day = 21 }
+  
+  flags = { 
+  		milosevic = 1
+  #		dismiss_yeltsin = 1
+  #		sack_leaders = 1
+  }
 
   allies =
   { id          = { type = 15000 id = 1 }
@@ -207,15 +213,68 @@ globaldata =
 }
 
 history = { 
-	#Soviet Union's Events
+	#Soviet Union
 	2007015 2007016 2007017 2007018 2007019 2007020 2007021 2007022 2007023 2007024 2007025 2007030 2007031 2007032 2007036 2007037
 	2007042 2007088 2007096 2007119 2007120 2007121 2007122 2007123 2007124 2007125 2007126 2007127 2007128 2007129 2007130 2007131
 	2007132 2007133 2007134 2007135 2007137 2007139 2007140 2007141 2007142 2007143 2007144 2007145 2007146 2007147 2007148 2007029
+	#Poland
+	2023003 2023004 2023005 2023006 2023007 2023008 2023009 2023010 2023011 2023012 2023013 2023014
+	#Bulgaria
+	2033000 2033001 2033002
+	#Czechoslovakia
+	2032000 2032001 2032002
+	#Hungary
+	2022006 2022007 
+	#Romania
+	2031000 2031001
+	#USA
+	2049016 2049017 2049018 2049019 2049020 2049021 2049022 2049004 2049005
+	#West Germany
+	2003040
+	#European Union
+	8000000  8000001
+	#Iberia
+	2052001 2052002 2052003
+	#Yugoslavia
+	6001000 6001001 6001002 6001003 6000001 6000002 6000002 6000003 6000004 6000005 6000006 6000007 6000008 6000009 6000010 6000011
+	6000012 6000013 6000016 6000017 6000018 
+	#China
+	2012001 2012002 2012003 2012004 2012005
+	#Japan
+	2011006
+	#Phillipines
+	800000 800001 800002
+	#Middle East
+	9000240 9000241 9000242 9000243 9000244 9000245 9000246 9000247 9000248 9000249 9000250 9000251 9000252 9000253 9000254 9000255
+	#United Kingdom
+	2001025
+	#Brazil
+	9000540 9000541 9000542 9000543
+	#Africa
+	9000340 9000341 9000345 #South Africa
+	9000346 #Uganda
+	#Minors
+	9005000
+	#Death Events
+	2001079
+	#United Nations
+	93000001 93000002 93000003 93000004 93000005 93000006
+	#Global Events
+	100000 100001 100002 100003 100004 100005 100006 100007 100008 100009 100010 100101 100102 100103 100104 100105 100106 100107
+	100108 100109 100110 100111 100112 100113 100201 100202 100203 100204 100205 100206 100207 100208 100209 100210 100401 100601
+	101001 
+	102000 102001 #Tear down this wall!
 } 
 # ###################
 sleepevent = { 
 	#Soviet Union's Events
-	2007033 2007034 2007035 2007107 2007108 2007109 2007110 2007111 2007112 2007113 2007114 2007115 2007116 2007117 2007028
+	2007033 2007034 2007035 2007107 2007108 2007109 2007110 2007111 2007112 2007113 2007114 2007115 2007116 2007117 2007028 2007183 2007185
+	#Brazil
+	9000544
+	#Yugoslavia
+	6000019 6100005 6100006
+	#Africa
+	9000342
 }
 
 # ###################
@@ -261,6 +320,7 @@ include = "scenarios\1989\Brunei.inc"
 include = "scenarios\1989\Burkina Faso.inc"
 include = "scenarios\1989\Burundi.inc"
 include = "scenarios\1989\Bulgaria.inc"
+include = "scenarios\1989\Bosnia.inc"
 include = "scenarios\1989\Canada.inc"
 include = "scenarios\1989\Cambodia.inc"
 include = "scenarios\1989\Cameroon.inc"
@@ -276,6 +336,7 @@ include = "scenarios\1989\Colombia.inc"
 include = "scenarios\1989\Costa Rica.inc"
 include = "scenarios\1989\Cuba.inc"
 include = "scenarios\1989\Czechoslovakia.inc"
+include = "scenarios\1989\Croatia.inc"
 include = "scenarios\1989\Denmark.inc"
 include = "scenarios\1989\Djibouti.inc"
 include = "scenarios\1989\Dominicana.inc"
@@ -325,6 +386,7 @@ include = "scenarios\1989\Liberia.inc"
 include = "scenarios\1989\Lesotho.inc"
 include = "scenarios\1989\Luxembourg.inc"
 include = "scenarios\1989\Lebanon.inc"
+include = "scenarios\1989\Macedonia.inc"
 include = "scenarios\1989\Malaysia.inc"
 include = "scenarios\1989\Mali.inc"
 include = "scenarios\1989\Malawi.inc"
@@ -339,6 +401,7 @@ include = "scenarios\1989\Morocco.inc"
 include = "scenarios\1989\Mozambique.inc"
 include = "scenarios\1989\Mongolia.inc"
 include = "scenarios\1989\Mujahideen.inc"
+include = "scenarios\1989\Montenegro.inc"
 include = "scenarios\1989\Nauru.inc"
 include = "scenarios\1989\Nepal.inc"
 include = "scenarios\1989\Niger.inc"
@@ -386,6 +449,7 @@ include = "scenarios\1989\Swaziland.inc"
 include = "scenarios\1989\St. Kitts and Nevis.inc"
 include = "scenarios\1989\St. Lucia.inc"
 include = "scenarios\1989\St. Vincent and the Grenadines.inc"
+include = "scenarios\1989\Slovenia.inc"
 include = "scenarios\1989\Taiwan.inc"
 include = "scenarios\1989\Togo.inc"
 include = "scenarios\1989\Tonga.inc"

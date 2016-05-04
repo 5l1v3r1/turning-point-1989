@@ -434,6 +434,9 @@ country =
   }
   inventions = {}
   
+  headofstate            = {  type = 9 id = 240011  }
+  headofgovernment       = {  type = 9 id = 240012  }
+  
   policy =
   { date              = { year = 0 month = january day = 0 }
      democratic        = 10 

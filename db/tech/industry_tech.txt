@@ -932,72 +932,6 @@ technology =
       command = { type = building_prod_mod which = infrastructure value = 5 }
     }
   }
-  # Lunar Outpost
-  application =
-  { id        = 5417
-    name      = TECH_APP_INDUSTRY_417_NAME
-    position  = { x = 117 y = 157 }
-    picture   = "lunaroutpost"
-    year      = 2024
-    # 
-    component = { id = 54171 name = TECH_CMP_INDUSTRY_417_1_NAME type = industrial_engineering difficulty = 50 }
-    # 
-    component = { id = 54172 name = TECH_CMP_INDUSTRY_417_2_NAME type = industrial_engineering difficulty = 50 }
-    # 
-    component = { id = 54173 name = TECH_CMP_INDUSTRY_417_3_NAME type = industrial_engineering difficulty = 50 }
-    # 
-    component = { id = 54174 name = TECH_CMP_INDUSTRY_417_4_NAME type = industrial_engineering difficulty = 50 }
-    # 
-    component = { id = 54175 name = TECH_CMP_INDUSTRY_417_5_NAME type = technical_efficiency difficulty = 50 }
-    required  = { 5466 5476 }
-    effects =
-    { command = { }
-    }
-  }
-  # Space Shuttle
-  application =
-  { id        = 5420
-    name      = TECH_APP_INDUSTRY_42_NAME
-    position  = { x = 117 y = 121 }
-    picture   = "13030"
-    year      = 1981
-    # 
-    component = { id = 5421 name = TECH_CMP_INDUSTRY_42_1_NAME type = rocketry difficulty = 30 }
-    # 
-    component = { id = 5422 name = TECH_CMP_INDUSTRY_42_2_NAME type = rocketry difficulty = 30 }
-    # 
-    component = { id = 5423 name = TECH_CMP_INDUSTRY_42_3_NAME type = rocketry difficulty = 30 }
-    # 
-    component = { id = 5424 name = TECH_CMP_INDUSTRY_42_4_NAME type = avionics difficulty = 30 }
-    # 
-    component = { id = 5425 name = TECH_CMP_INDUSTRY_42_5_NAME type = technical_efficiency difficulty = 30 }
-    required  = { 5460 }
-    effects =
-    { command = { }
-    }
-  }
-  # Space Stations
-  application =
-  { id        = 5466
-    name      = TECH_APP_INDUSTRY_466_NAME
-    position  = { x = 117 y = 139 }
-    picture   = "DH5466"
-    year      = 1986
-    # 
-    component = { id = 54661 name = TECH_CMP_INDUSTRY_466_1_NAME type = rocketry difficulty = 40 }
-    # 
-    component = { id = 54662 name = TECH_CMP_INDUSTRY_466_2_NAME type = industrial_engineering difficulty = 40 }
-    # 
-    component = { id = 54663 name = TECH_CMP_INDUSTRY_466_3_NAME type = technical_efficiency difficulty = 40 }
-    # 
-    component = { id = 54664 name = TECH_CMP_INDUSTRY_466_4_NAME type = electronics difficulty = 40 }
-    # 
-    component = { id = 54665 name = TECH_CMP_INDUSTRY_466_5_NAME type = avionics difficulty = 40 }
-    required  = { 5460 5426 5430 }
-    effects =
-    { command = { }
-    }
-  }
   # Nanotechnology
   application =
   { id        = 53040
@@ -1666,7 +1600,7 @@ technology =
     component = { id = 5195 name = TECH_CMP_INDUSTRY_19_5_NAME type = technical_efficiency difficulty = 10 double_time = yes }
     required  = { }
     effects =
-    { command = { type = add_prov_resource which = -1 where = energy value = 10 }
+    { command = { type = free_energy which =  where = energy value = 10 }
     }
   }
   # Basic Oil Drilling
@@ -1688,7 +1622,7 @@ technology =
     component = { id = 5205 name = TECH_CMP_INDUSTRY_20_5_NAME type = technical_efficiency difficulty = 10 double_time = yes }
     required  = { 5190 }
     effects =
-    { command = { type = add_prov_resource which = -1 where = energy value = 20 }
+    { command = { type = free_energy which =  where = energy value = 10 }
     }
   }
   # Improved Oil Drilling
@@ -1710,7 +1644,7 @@ technology =
     component = { id = 5215 name = TECH_CMP_INDUSTRY_21_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
     required  = { 5200 }
     effects =
-    { command = { type = add_prov_resource which = -1 where = energy value = 30 }
+    { command = { type = free_energy which =  where = energy value = 10 }
     }
   }
   # Advanced Oil Drilling
@@ -1719,8 +1653,8 @@ technology =
     name      = TECH_APP_INDUSTRY_55_NAME
     desc      = TECH_APP_INDUSTRY_55_DESC
     position  = { x = 233 y = 189 }
-    picture   = "unknown"
-    year      = 1936
+    picture   = "adv_oil_drilling"
+    year      = 2000
     # 
     component = { id = 5251 name = TECH_CMP_INDUSTRY_55_1_NAME type = mechanics difficulty = 10 }
     # 
@@ -1733,7 +1667,7 @@ technology =
     component = { id = 5255 name = TECH_CMP_INDUSTRY_55_5_NAME type = technical_efficiency difficulty = 10 }
     required  = { 5210 }
     effects =
-    { command = { type = add_prov_resource which = -1 where = energy value = 40 }
+    { command = { type = add_prov_resource which =  where = energy value = 20 }
     }
   }
   # Early Oil Refining
@@ -1754,7 +1688,7 @@ technology =
     component = { id = 5224 name = TECH_CMP_INDUSTRY_22_4_NAME type = chemistry difficulty = 10 }
     # 
     component = { id = 5225 name = TECH_CMP_INDUSTRY_22_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
-    required  = { 5190 5200 5210 5190 }
+    required  = { }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 2 }
     }
@@ -1776,7 +1710,7 @@ technology =
     component = { id = 5234 name = TECH_CMP_INDUSTRY_23_4_NAME type = chemistry difficulty = 10 }
     # 
     component = { id = 5235 name = TECH_CMP_INDUSTRY_23_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
-    required  = { 5220 5200 }
+    required  = { 5220 }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 2 }
     }
@@ -1798,7 +1732,7 @@ technology =
     component = { id = 5244 name = TECH_CMP_INDUSTRY_24_4_NAME type = chemistry difficulty = 10 }
     # 
     component = { id = 5245 name = TECH_CMP_INDUSTRY_24_5_NAME type = industrial_engineering difficulty = 10 double_time = yes }
-    required  = { 5230 5210 }
+    required  = { 5230 }
     effects =
     { command = { type = industrial_multiplier which = energy_to_oil value = 2 }
     }
@@ -1810,7 +1744,7 @@ technology =
     desc      = TECH_APP_INDUSTRY_57_DESC
     position  = { x = 233 y = 261 }
     picture   = "adv_oil_refinery"
-    year      = 1936
+    year      = 2000
     # 
     component = { id = 5551 name = TECH_CMP_INDUSTRY_57_1_NAME type = chemistry difficulty = 10 }
     # 

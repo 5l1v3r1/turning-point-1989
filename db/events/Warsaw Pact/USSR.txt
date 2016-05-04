@@ -254,6 +254,7 @@ event = {
 		command = { type = dissent value = -10 }
 		command = { type = trigger which = 2007006 }
 		command = { trigger = { NOT = { OR = { event = 2007166 event = 2007167 } } } type = access which = SOV }
+		command = { type = addcore which = 1858 where = -1 } #Nagorno-Karabakh
 	}
 }
 #Soviet receives the news
@@ -3570,6 +3571,13 @@ event = {
 		command = { type = secedeprovince which = GEO value = 7247 when = 0 } #Georgia
 		command = { type = set_relation which = GEO value = -200 }
 		command = { type = addcore which = 3433 where = ARM } #Georgia | | Give Armenia their cores
+		command = { type = switch_allegiance which = 10848 value = 218 where = GEO }
+		command = { type = switch_allegiance which = 10848 value = 219 where = GEO }
+		command = { type = switch_allegiance which = 10848 value = 220 where = GEO }
+		command = { type = switch_allegiance which = 10848 value = 221 where = GEO }
+		command = { type = switch_allegiance which = 10848 value = 7063 where = GEO }
+		command = { type = switch_allegiance which = 10848 value = 7068 where = GEO }
+		command = { type = switch_allegiance which = 10848 value = 7069 where = GEO }
 	}
 }
 #########################################################################
@@ -3618,6 +3626,7 @@ event = {
 		command = { type = addclaim which = 3494 where = -1 }
 		command = { type = addclaim which = 3485 where = -1 }
 		command = { type = set_relation which = KYG value = -200 }
+		command = { type = switch_allegiance which = -1 where = KYG }
 	}
 }
 #########################################################################
@@ -3658,6 +3667,7 @@ event = {
 		command = { type = independence which = UZB value = 1 when = 0 }
 		#command = { type = make_puppet which = UZB }
 		command = { type = set_relation which = UZB value = -50 }
+		command = { type = switch_allegiance which = 10848 value = 169 where = UZB }
 	}
 }
 #########################################################################
@@ -3701,6 +3711,7 @@ event = {
 		command = { type = addclaim which = 3485 where = -1 }
 		command = { type = addcore which = 3485 where = KYG }
 		command = { type = set_relation which = TAJ value = -200 }
+		command = { type = switch_allegiance which = -1 where = TAJ }
 	}
 }
 #########################################################################
@@ -3751,6 +3762,8 @@ event = {
 		command = { type = independence which = ARM value = 1 when = 0 }
 		command = { type = set_relation which = ARM value = -200 }
 		#command = { type = addcore which = 1858 where = ARM } #Nagorno-Karabakh | Give Armenia their cores #Usar esse comando no evento de independência do Azerbaijão!!!!!
+		command = { type = switch_allegiance which = 10848 value = 223 where = ARM }
+		command = { type = switch_allegiance which = 10848 value = 224 where = ARM }
 	}
 }
 #########################################################################
@@ -3827,6 +3840,11 @@ event = {
 		command = { type = set_relation which = AZB value = -100 }
 		#command = { type = make_puppet which = AZB }
 		#command = { type = addcore which = 1858 where = ARM } #Nagorno-Karabakh | Give Armenia their cores #Usar esse comando no evento de independência do Azerbaijão!!!!!
+		command = { type = switch_allegiance which = 10848 value = 211 where = AZB }
+		command = { type = switch_allegiance which = 10848 value = 213 where = AZB }
+		command = { type = switch_allegiance which = 10848 value = 214 where = AZB }
+		command = { type = switch_allegiance which = 10848 value = 215 where = AZB }
+		command = { type = switch_allegiance which = 10848 value = 216 where = AZB }
 	}
 }
 #########################################################################
@@ -3915,6 +3933,10 @@ event = {
 		command = { type = dissent value = 3 }
 		command = { type = independence which = TRK value = 1 when = 0 }
 		command = { type = set_relation which = TRK value = -200 }
+		command = { type = switch_allegiance which = 10848 value = 164 where = TRK }
+		command = { type = switch_allegiance which = 10848 value = 165 where = TRK }
+		command = { type = switch_allegiance which = 10848 value = 166 where = TRK }
+		command = { type = switch_allegiance which = 10848 value = 167 where = TRK }
 	}
 }
 #########################################################################
@@ -4054,6 +4076,15 @@ event = {
 		command = { type = independence which = KAZ value = 1 when = 0 }
 		#command = { type = make_puppet which = KAZ }
 		command = { type = set_relation which = KAZ value = -100 }
+		command = { type = switch_allegiance which = -1 where = KAZ }
+		command = { type = switch_allegiance which = -1 where = KAZ }
+		command = { type = switch_allegiance which = -1 where = KAZ }
+		command = { type = switch_allegiance which = -1 where = KAZ }
+		command = { type = switch_allegiance which = -1 where = KAZ }
+		command = { type = switch_allegiance which = -1 where = KAZ }
+		command = { type = switch_allegiance which = -3 where = KAZ }
+		command = { type = switch_allegiance which = -3 where = KAZ }
+		command = { type = switch_allegiance which = -3 where = KAZ }
 	}
 }
 #########################################################################
@@ -4196,7 +4227,7 @@ event = {
 event = {
 	id = 2007106
 	random = no
-	TAG = { SOV RUS }
+	country = RUS
 
 	trigger = {
 		event = 2007165 #The August Coup Fails
@@ -4213,118 +4244,8 @@ event = {
 	picture = "kazakhstan"
 	
 	action = {
-		name = "ACTION_NAME_OK"
-		command = { type = end_mastery which = KAZ }  #Kazakhstan
-		command = { type = addclaim which = 1424 where = -1 }  #Kazakhstan   
-		command = { type = addclaim which = 1422 where = -1 }		
-		command = { type = addclaim which = 1556 where = -1 }		
-		command = { type = addclaim which = 1423 where = -1 }		
-		command = { type = addclaim which = 1425 where = -1 }		
-		command = { type = addclaim which = 1426 where = -1 }		
-		command = { type = addclaim which = 1586 where = -1 }		
-		command = { type = addclaim which = 1587 where = -1 }		
-		command = { type = addclaim which = 1555 where = -1 }		
-		command = { type = addclaim which = 1582 where = -1 }		
-		command = { type = addclaim which = 1551 where = -1 }		
-		command = { type = addclaim which = 1550 where = -1 }		
-		command = { type = addclaim which = 1581 where = -1 }		
-		command = { type = addclaim which = 1576 where = -1 }		
-		command = { type = addclaim which = 1578 where = -1 }		
-		command = { type = addclaim which = 1580 where = -1 }		
-		command = { type = addclaim which = 1579 where = -1 }		
-		command = { type = addclaim which = 1569 where = -1 }	
-		command = { type = addclaim which = 1583 where = -1 }		
-		command = { type = addclaim which = 1568 where = -1 }		
-		command = { type = addclaim which = 3499 where = -1 }		
-		command = { type = addclaim which = 3500 where = -1 }		
-		command = { type = addclaim which = 3501 where = -1 }		
-		command = { type = addclaim which = 3502 where = -1 }		
-		command = { type = addclaim which = 3503 where = -1 }		
-		command = { type = addclaim which = 3505 where = -1 }		
-		command = { type = addclaim which = 3506 where = -1 }		
-		command = { type = addclaim which = 3507 where = -1 }		
-		command = { type = addclaim which = 3508 where = -1 }		
-		command = { type = addclaim which = 3510 where = -1 }		
-		command = { type = addclaim which = 3511 where = -1 }		
-		command = { type = addclaim which = 3512 where = -1 }		
-		command = { type = addclaim which = 3513 where = -1 }		
-		command = { type = addclaim which = 3514 where = -1 }		
-		command = { type = addclaim which = 3515 where = -1 }		
-		command = { type = addclaim which = 3516 where = -1 }		
-		command = { type = addclaim which = 3517 where = -1 }		
-		command = { type = addclaim which = 3518 where = -1 }		
-		command = { type = addclaim which = 3519 where = -1 }		
-		command = { type = addclaim which = 3520 where = -1 }	
-		command = { type = addclaim which = 3521 where = -1 }		
-		command = { type = addclaim which = 3522 where = -1 }		
-		command = { type = addclaim which = 3523 where = -1 }		
-		command = { type = addclaim which = 3745 where = -1 }		
-		command = { type = addclaim which = 3744 where = -1 }		
-		command = { type = addclaim which = 3743 where = -1 }		
-		command = { type = addclaim which = 1432 where = -1 }		
-		command = { type = addclaim which = 3742 where = -1 }		
-		command = { type = addclaim which = 1421 where = -1 }		
-		command = { type = addclaim which = 3740 where = -1 }		
-		command = { type = addclaim which = 3746 where = -1 }		
-		command = { type = addclaim which = 5500 where = -1 }		
-		command = { type = addclaim which = 5499 where = -1 }		
-		command = { type = addclaim which = 5502 where = -1 }		
-		command = { type = addclaim which = 5503 where = -1 }		
-		command = { type = addclaim which = 5504 where = -1 }		
-		command = { type = addclaim which = 5498 where = -1 }		
-		command = { type = addclaim which = 5496 where = -1 }		
-		command = { type = addclaim which = 5497 where = -1 }		
-		command = { type = addclaim which = 5543 where = -1 }	
-		command = { type = addclaim which = 6494 where = -1 }		
-		command = { type = addclaim which = 6954 where = -1 }		
-		command = { type = addclaim which = 6955 where = -1 }		
-		command = { type = addclaim which = 6956 where = -1 }		
-		command = { type = addclaim which = 6957 where = -1 }		
-		command = { type = addclaim which = 6958 where = -1 }	   
-		command = { type = addclaim which = 6959 where = -1 }		
-		command = { type = addclaim which = 6960 where = -1 }		
-		command = { type = addclaim which = 6961 where = -1 }		
-		command = { type = addclaim which = 6962 where = -1 }	
-		command = { type = addclaim which = 6963 where = -1 }		
-		command = { type = addclaim which = 6964 where = -1 }		
-		command = { type = addclaim which = 6965 where = -1 }		
-		command = { type = addclaim which = 6966 where = -1 }		
-		command = { type = addclaim which = 6967 where = -1 }		
-		command = { type = addclaim which = 6968 where = -1 }		
-		command = { type = addclaim which = 6969 where = -1 }		
-		command = { type = addclaim which = 6970 where = -1 }		
-		command = { type = addclaim which = 6971 where = -1 }		
-		command = { type = addclaim which = 6972 where = -1 }		
-		command = { type = addclaim which = 6973 where = -1 }		
-		command = { type = addclaim which = 6974 where = -1 }		
-		command = { type = addclaim which = 6975 where = -1 }		
-		command = { type = addclaim which = 6976 where = -1 }	
-		command = { type = addclaim which = 6977 where = -1 }		
-		command = { type = addclaim which = 6978 where = -1 }		
-		command = { type = addclaim which = 6979 where = -1 }		
-		command = { type = addclaim which = 6980 where = -1 }		
-		command = { type = addclaim which = 6981 where = -1 }		
-		command = { type = addclaim which = 6982 where = -1 }		
-		command = { type = addclaim which = 6983 where = -1 }		
-		command = { type = addclaim which = 6984 where = -1 }		
-		command = { type = addclaim which = 6985 where = -1 }		
-		command = { type = addclaim which = 6986 where = -1 }	
-		command = { type = addclaim which = 6987 where = -1 }		
-		command = { type = addclaim which = 6988 where = -1 }		
-		command = { type = addclaim which = 6989 where = -1 }		
-		command = { type = addclaim which = 6990 where = -1 }	
-		command = { type = addclaim which = 6991 where = -1 }		
-		command = { type = addclaim which = 6992 where = -1 }		
-		command = { type = addclaim which = 6993 where = -1 }		
-		command = { type = addclaim which = 6994 where = -1 }		
-		command = { type = addclaim which = 6995 where = -1 }		
-		command = { type = addclaim which = 6996 where = -1 }		
-		command = { type = addclaim which = 6997 where = -1 }		
-		command = { type = addclaim which = 6998 where = -1 }		
-		command = { type = addclaim which = 3475 where = -1 }		
-		command = { type = addclaim which = 1584 where = -1 }	
-		command = { type = addclaim which = 1585 where = -1 }		
-		command = { type = addclaim which = 3476 where = -1 }
+		name = "ACTION_NAME_GREAT"
+		command	= { type = set_relation which = KAZ value = 100 }
 	}
 }
 #########################################################################
@@ -5381,6 +5302,8 @@ event = {
 		command = { type = removeclaim which = 3288 where = -1 }
 		command = { type = removeclaim which = 3394 where = -1 }          
 		command = { type = independence which = EST value = 1 when = 0 }
+		command = { type = switch_allegiance which = 10848 value = 52 where = EST }
+		command = { type = switch_allegiance which = 10848 value = 7040 where = EST }
 		#command = { type = make_puppet which = EST }
 	}
 }
@@ -5464,6 +5387,10 @@ event = {
 		command = { type = removeclaim which = 3285 where = -1 }
 		command = { type = removeclaim which = 3289 where = -1 }
 		command = { type = independence which = LAT value = 1 when = 0 }
+		command = { type = switch_allegiance which = 10848 value = 47 where = LAT }
+		command = { type = switch_allegiance which = 10848 value = 7012 where = LAT }
+		command = { type = switch_allegiance which = 10848 value = 7013 where = LAT }
+		command = { type = switch_allegiance which = 10848 value = 7014 where = LAT }
 		#command = { type = make_puppet which = LAT }
 	}
 }
@@ -5556,6 +5483,10 @@ event = {
 		command = { type = removeclaim which = 7263 where = -1 }
 		command = { type = removeclaim which = 7336 where = -1 }
 		command = { type = independence which = LIT value = 1 when = 0 }
+		command = { type = switch_allegiance which = -1 where = LIT }
+		command = { type = switch_allegiance which = -1 where = LIT }
+		command = { type = switch_allegiance which = -1 where = LIT }
+		command = { type = switch_allegiance which = -1 where = LIT }
 		#command = { type = make_puppet which = LIT }
 	}
 }
@@ -5943,7 +5874,22 @@ event = {
 		command = { type = removeclaim which = 7264 where = -1 }   
 		command = { type = removeclaim which = 3275 where = -1 }   
 		command = { type = removeclaim which = 1153 where = -1 }   
-		command = { type = removeclaim which = 3276 where = -1 }   
+		command = { type = removeclaim which = 3276 where = -1 }
+		command = { type = switch_allegiance which = -1 where = BLR }		
+		command = { type = switch_allegiance which = -1 where = BLR }
+		command = { type = switch_allegiance which = -1 where = BLR }
+		command = { type = switch_allegiance which = -1 where = BLR }
+		command = { type = switch_allegiance which = -1 where = BLR }
+		command = { type = switch_allegiance which = -1 where = BLR }
+		command = { type = switch_allegiance which = -1 where = BLR }
+		command = { type = switch_allegiance which = -1 where = BLR }
+		command = { type = switch_allegiance which = -1 where = BLR }
+		command = { type = switch_allegiance which = -3 where = BLR }
+		command = { type = switch_allegiance which = -3 where = BLR }
+		command = { type = switch_allegiance which = -3 where = BLR }
+		command = { type = switch_allegiance which = -3 where = BLR }
+		command = { type = switch_allegiance which = -3 where = BLR }
+		command = { type = switch_allegiance which = -3 where = BLR }
 	}
 }
 #########################################################################
@@ -6299,6 +6245,48 @@ event = {
 		command = { type = removeclaim which = 7978 where = -1 }  
 		command = { type = removeclaim which = 435 where = -1 }  	
 		command = { type = independence which = UKR value = 1 when = 0 }
+		command = { type = switch_allegiance which = 10848 value = 60 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 61 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 63 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 64 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 65 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 66 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 68 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 69 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 70 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 72 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 73 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 75 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 76 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 77 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 79 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 80 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 82 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 84 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 86 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 87 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 89 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 90 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 92 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 93 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 94 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 96 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 97 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 98 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 99 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 101 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 103 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 104 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 106 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7027 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7028 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7029 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7030 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7031 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7032 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7034 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7035 where = UKR }
+		command = { type = switch_allegiance which = 10848 value = 7036 where = UKR }
 		#command = { type = make_puppet which = UKR }
 	}
 }
@@ -6437,6 +6425,7 @@ event = {
 		command = { type = removeclaim which = 2605 where = -1 }
 		command = { type = removeclaim which = 1571 where = -1 } #Tiraspol
 		command = { type = independence which = U05 value = 1 when = 0 }
+		command = { type = switch_allegiance which = -1 where = U05 }
 		#command = { type = make_puppet which = U05 }
 	}
 }
@@ -6466,6 +6455,7 @@ event = {
 		name = "ACTION_NAME_UNC"
 		command = { type = dissent value = 10 }
 		command = { type = independence which = U24 value = 1 when = 0 }
+		command = { type = switch_allegiance which = -1 where = U24 }
 	}
 }
 #########################################################################
@@ -6987,8 +6977,8 @@ event = {
 		command = { type = inherit which = SOV value = 1 }
 		command = { type = secedeprovince which = RUS value = 175 when = 0 }
 		command = { type = set_domestic which = democratic value = 8 }
-		command = { type = set_domestic which = political_left value = 8 }
-		command = { type = set_domestic which = freedom value = 8 }
+		command = { type = set_domestic which = political_left value = 7 }
+		command = { type = set_domestic which = freedom value = 10 }
 		command = { type = set_domestic which = free_market value = 6 }
 		command = { type = set_domestic which = interventionism value = 6 }
 		command = { type = dissent value = -10 }
@@ -7001,8 +6991,8 @@ event = {
 		command = { type = country which = UKR }
 		command = { type = secedeprovince which = RUS value = 175 when = 0 }
 		command = { type = set_domestic which = democratic value = 8 }
-		command = { type = set_domestic which = political_left value = 8 }
-		command = { type = set_domestic which = freedom value = 8 }
+		command = { type = set_domestic which = political_left value = 7 }
+		command = { type = set_domestic which = freedom value = 10 }
 		command = { type = set_domestic which = free_market value = 6 }
 		command = { type = set_domestic which = interventionism value = 6 }
 		command = { type = dissent value = -20 }
@@ -7015,8 +7005,8 @@ event = {
 		command = { type = country which = BLR }
 		command = { type = secedeprovince which = RUS value = 175 when = 0 }
 		command = { type = set_domestic which = democratic value = 8 }
-		command = { type = set_domestic which = political_left value = 8 }
-		command = { type = set_domestic which = freedom value = 8 }
+		command = { type = set_domestic which = political_left value = 7 }
+		command = { type = set_domestic which = freedom value = 10 }
 		command = { type = set_domestic which = free_market value = 6 }
 		command = { type = set_domestic which = interventionism value = 6 }
 		command = { type = dissent value = -20 }
@@ -7644,13 +7634,15 @@ event = {
 	
 	action = {
 		name = "ACTION_NAME_NOT_MUCH_WE_CAN_DO"
-		trigger = { AND = { participant = { country = -1 value = 3 } NOT = { country = SOV government = communist } } }
+		trigger = { AND = { participant = { country = -1 value = 3 } government = { type = communist country = -1 } } }
 		command = { type = leave_alliance }
+		command = { trigger = { ai = yes } type = ai which = "switch/anti_soviet_diplomacy.ai" }
 	}
 	action = {
 		name = "ACTION_NAME_GREAT"
-		trigger = { AND = { participant = { country = -1 value = 3 } NOT = { country = SOV government = communist } } }
+		trigger = { AND = { participant = { country = -1 value = 3 } NOT = { government = { type = communist country = -1 } } } }
 		command = { type = leave_alliance }
+		command = { trigger = { ai = yes } type = ai which = "switch/anti_soviet_diplomacy.ai" }
 	}
 	action = {
 		name = "ACTION_NAME_OK"
@@ -10194,5 +10186,41 @@ event = {
 		command = { type = domestic which = democratic value = -1 }
 		command = { type = domestic which = defense_lobby value = 1 }
 		command = { type = domestic which = freedom value = -1 }
+	}
+}
+#########################################################################
+#  Give Access to the Soviets
+#########################################################################
+event = {
+	id = 2007227
+	random = no
+	TAG = { EST LIT LAT UKR BLR U05 GEO ARM AZB KAZ UZB KYG TAJ } 
+	persistent = yes
+	
+	trigger = {
+		NOT = { 
+			local_flag = access_soviets
+			OR = {
+				war = { country = -1  country = SOV }
+				participant = { country = -1 value = 1 } 
+				access = { country = -1 country = SOV } 
+			}
+		}
+		
+	}
+
+	name = "access_soviets"
+	desc = "access_soviets_desc"
+	style = 1
+	picture = "news_paper"
+	
+	date = { day = 0 month = january year = 1985 }
+	deathdate = { day = 21 month = december year = 2012 }
+	offset = 1
+
+	action = {
+		name = "ACTION_NAME_OK"
+		command = { type = access which = SOV }
+		command = { type = local_setflag which = access_soviets }
 	}
 }
